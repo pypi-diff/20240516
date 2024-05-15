@@ -160,3 +160,51 @@
 [2024-05-16 00:03:48] INFO root fetch - processPackages [tencentcloud-sdk-python-ivld]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-ivld-3.0.999.tar.gz]
 [2024-05-16 00:03:48] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-ivld]: success
 [2024-05-16 00:03:48] INFO root fetch - main [MainThread]: Store serial: [23225215]
+[2024-05-16 00:05:53] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23225215]
+[2024-05-16 00:05:58] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-16 00:05:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tencentcloud-sdk-python-keewidb
+[2024-05-16 00:05:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tencentcloud-sdk-python-kms
+[2024-05-16 00:05:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: biblelib
+[2024-05-16 00:05:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: surfkit
+[2024-05-16 00:05:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: civics-cdf-validator
+[2024-05-16 00:05:58] INFO root fetch - processPackages [biblelib]: New version: [0.3.7] Old Version: [0.3.6]
+[2024-05-16 00:05:58] INFO root fetch - processPackages [surfkit]: New version: [0.1.99] Old Version: [0.1.98]
+[2024-05-16 00:05:58] INFO root fetch - processPackages [tencentcloud-sdk-python-keewidb]: New version: [3.0.999] Old Version: [3.0.998]
+[2024-05-16 00:05:58] INFO root fetch - processPackages [biblelib]: Downloading https://files.pythonhosted.org/packages/5e/f8/5d057738e081028ba2237677b2c254a076a4641e7165a0d77977c03b9a96/biblelib-0.3.6.tar.gz
+[2024-05-16 00:05:58] INFO root fetch - processPackages [civics-cdf-validator]: New version: [1.9.dev1] Old Version: [1.9]
+[2024-05-16 00:05:58] INFO root fetch - processPackages [tencentcloud-sdk-python-kms]: New version: [3.0.999] Old Version: [3.0.998]
+[2024-05-16 00:05:58] INFO root fetch - processPackages [tencentcloud-sdk-python-keewidb]: Downloading https://files.pythonhosted.org/packages/f8/e9/6bc8c99862a94e58cda66b852f7b62f6de324bd5d823eae6786d0418860c/tencentcloud-sdk-python-keewidb-3.0.998.tar.gz
+[2024-05-16 00:05:58] INFO root fetch - processPackages [surfkit]: Downloading https://files.pythonhosted.org/packages/c2/e4/d9d6efb4013a22047e07b2174dc8716a86fe2b3fe0652e6e1edddbde177b/surfkit-0.1.98.tar.gz
+[2024-05-16 00:05:58] INFO root fetch - processPackages [civics-cdf-validator]: Downloading https://files.pythonhosted.org/packages/9c/33/4d75823e3c52ecc93964f231d752b79135d74aa9bcca07720045645bfe91/civics_cdf_validator-1.9.tar.gz
+[2024-05-16 00:05:58] INFO root fetch - processPackages [tencentcloud-sdk-python-kms]: Downloading https://files.pythonhosted.org/packages/af/fa/cabb010e9d06d53d1d37f7ad5193aa91ed4920fffce417507d4fea9d7d26/tencentcloud-sdk-python-kms-3.0.998.tar.gz
+[2024-05-16 00:05:58] INFO root fetch - processPackages [surfkit]: Downloading https://files.pythonhosted.org/packages/65/a8/bfc822b58240522d18c4cf24a25a6f2476da037058406af11377393fa476/surfkit-0.1.99.tar.gz
+[2024-05-16 00:05:58] INFO root fetch - processPackages [biblelib]: Downloading https://files.pythonhosted.org/packages/3a/e8/42bd2557cba960393a3eab886f23bec5479c4a8a7c62966fa7df48569ba9/biblelib-0.3.7.tar.gz
+[2024-05-16 00:05:58] INFO root fetch - processPackages [tencentcloud-sdk-python-keewidb]: Downloading https://files.pythonhosted.org/packages/05/49/f0aeb2e06eae769bf4d325ca92dbed6fbc9d1cdbfa97c528661d4ad15ab8/tencentcloud-sdk-python-keewidb-3.0.999.tar.gz
+[2024-05-16 00:05:59] INFO root fetch - processPackages [surfkit]: executing diffoscope
+[2024-05-16 00:05:59] INFO root fetch - processPackages [surfkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/surfkit-0.1.98.tar.gz tmp/surfkit-0.1.99.tar.gz --markdown 20240516/s/surfkit/0.1.98-0.1.99/README.md --exclude *.pyd
+[2024-05-16 00:05:59] INFO root fetch - processPackages [tencentcloud-sdk-python-keewidb]: executing diffoscope
+[2024-05-16 00:05:59] INFO root fetch - processPackages [tencentcloud-sdk-python-keewidb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud-sdk-python-keewidb-3.0.998.tar.gz tmp/tencentcloud-sdk-python-keewidb-3.0.999.tar.gz --markdown 20240516/t/tencentcloud-sdk-python-keewidb/3.0.998-3.0.999/README.md --exclude *.pyd
+[2024-05-16 00:05:59] INFO root fetch - processPackages [biblelib]: executing diffoscope
+[2024-05-16 00:05:59] INFO root fetch - processPackages [biblelib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/biblelib-0.3.6.tar.gz tmp/biblelib-0.3.7.tar.gz --markdown 20240516/b/biblelib/0.3.6-0.3.7/README.md --exclude *.pyd
+[2024-05-16 00:05:59] INFO root fetch - processPackages [civics-cdf-validator]: Downloading https://files.pythonhosted.org/packages/49/52/f20d05b43acd0ba782bdb28e82a60591d9ca3edb1c39da7ec86f030521ac/civics_cdf_validator-1.9.dev1.tar.gz
+[2024-05-16 00:05:59] INFO root fetch - processPackages [tencentcloud-sdk-python-kms]: Downloading https://files.pythonhosted.org/packages/ad/f6/05ee21b174414be6ad3b3cce41bd5555e326809fbbb04aacd37cee40f157/tencentcloud-sdk-python-kms-3.0.999.tar.gz
+[2024-05-16 00:05:59] INFO root fetch - processPackages [civics-cdf-validator]: executing diffoscope
+[2024-05-16 00:05:59] INFO root fetch - processPackages [civics-cdf-validator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/civics_cdf_validator-1.9.tar.gz tmp/civics_cdf_validator-1.9.dev1.tar.gz --markdown 20240516/c/civics-cdf-validator/1.9-1.9.dev1/README.md --exclude *.pyd
+[2024-05-16 00:05:59] INFO root fetch - processPackages [tencentcloud-sdk-python-kms]: executing diffoscope
+[2024-05-16 00:05:59] INFO root fetch - processPackages [tencentcloud-sdk-python-kms]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud-sdk-python-kms-3.0.998.tar.gz tmp/tencentcloud-sdk-python-kms-3.0.999.tar.gz --markdown 20240516/t/tencentcloud-sdk-python-kms/3.0.998-3.0.999/README.md --exclude *.pyd
+[2024-05-16 00:05:59] INFO root fetch - processPackages [tencentcloud-sdk-python-keewidb]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-keewidb-3.0.998.tar.gz]
+[2024-05-16 00:05:59] INFO root fetch - processPackages [tencentcloud-sdk-python-keewidb]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-keewidb-3.0.999.tar.gz]
+[2024-05-16 00:05:59] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-keewidb]: success
+[2024-05-16 00:05:59] INFO root fetch - processPackages [surfkit]: Remove: archive file [/home/abi/fetcher/tmp/surfkit-0.1.98.tar.gz]
+[2024-05-16 00:05:59] INFO root fetch - processPackages [surfkit]: Remove: archive file [/home/abi/fetcher/tmp/surfkit-0.1.99.tar.gz]
+[2024-05-16 00:05:59] INFO root fetch - main [MainThread]: End processing [surfkit]: success
+[2024-05-16 00:06:00] INFO root fetch - processPackages [biblelib]: Remove: archive file [/home/abi/fetcher/tmp/biblelib-0.3.6.tar.gz]
+[2024-05-16 00:06:00] INFO root fetch - processPackages [biblelib]: Remove: archive file [/home/abi/fetcher/tmp/biblelib-0.3.7.tar.gz]
+[2024-05-16 00:06:00] INFO root fetch - main [MainThread]: End processing [biblelib]: success
+[2024-05-16 00:06:00] INFO root fetch - processPackages [civics-cdf-validator]: Remove: archive file [/home/abi/fetcher/tmp/civics_cdf_validator-1.9.tar.gz]
+[2024-05-16 00:06:00] INFO root fetch - processPackages [civics-cdf-validator]: Remove: archive file [/home/abi/fetcher/tmp/civics_cdf_validator-1.9.dev1.tar.gz]
+[2024-05-16 00:06:00] INFO root fetch - main [MainThread]: End processing [civics-cdf-validator]: success
+[2024-05-16 00:06:00] INFO root fetch - processPackages [tencentcloud-sdk-python-kms]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-kms-3.0.998.tar.gz]
+[2024-05-16 00:06:00] INFO root fetch - processPackages [tencentcloud-sdk-python-kms]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-kms-3.0.999.tar.gz]
+[2024-05-16 00:06:00] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-kms]: success
+[2024-05-16 00:06:00] INFO root fetch - main [MainThread]: Store serial: [23225230]
