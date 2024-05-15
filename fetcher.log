@@ -910,3 +910,114 @@ AssertionError: tmp/hygpytools-0.2.0.tar.gz does not exist
 [2024-05-16 00:22:39] INFO root fetch - processPackages [tencentcloud-sdk-python-npp]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-npp-3.0.999.tar.gz]
 [2024-05-16 00:22:39] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-npp]: success
 [2024-05-16 00:22:39] INFO root fetch - main [MainThread]: Store serial: [23225534]
+[2024-05-16 00:24:43] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23225534]
+[2024-05-16 00:24:48] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2024-05-16 00:24:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ELSholdings
+[2024-05-16 00:24:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: swarmauri
+[2024-05-16 00:24:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: deeprecsys
+[2024-05-16 00:24:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: com.castsoftware.uc.oneclick
+[2024-05-16 00:24:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: dragonfly-radiance
+[2024-05-16 00:24:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: dragonfly-uwg
+[2024-05-16 00:24:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: taskara
+[2024-05-16 00:24:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: aipkgs-core
+[2024-05-16 00:24:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: lbt-honeybee
+[2024-05-16 00:24:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: deepview-validator
+[2024-05-16 00:24:48] INFO root fetch - processPackages [deeprecsys]: New version: [0.2.6] Old Version: [0.2.5]
+[2024-05-16 00:24:48] INFO root fetch - processPackages [taskara]: New version: [0.1.8] Old Version: [0.1.7]
+[2024-05-16 00:24:48] INFO root fetch - processPackages [aipkgs-core]: New version: [1.0.1] Old Version: [0.4.6]
+[2024-05-16 00:24:48] INFO root fetch - processPackages [dragonfly-radiance]: New version: [0.3.9] Old Version: [0.3.8]
+[2024-05-16 00:24:48] INFO root fetch - processPackages [dragonfly-uwg]: New version: [0.5.99] Old Version: [0.5.98]
+[2024-05-16 00:24:48] INFO root fetch - processPackages [ELSholdings]: New version: [2.0.1] Old Version: [1.0.0]
+[2024-05-16 00:24:48] INFO root fetch - processPackages [deepview-validator]: New version: [3.3.1] Old Version: [3.3.0]
+[2024-05-16 00:24:48] INFO root fetch - processPackages [com.castsoftware.uc.oneclick]: New version: [1.0.4b1] Old Version: [1.0.4]
+[2024-05-16 00:24:48] INFO root fetch - processPackages [lbt-honeybee]: New version: [0.8.99] Old Version: [0.8.98]
+[2024-05-16 00:24:48] INFO root fetch - processPackages [swarmauri]: New version: [0.2.0] Old Version: [0.1.98]
+[2024-05-16 00:24:48] INFO root fetch - processPackages [deeprecsys]: Downloading https://files.pythonhosted.org/packages/03/7b/c3a18e7fd5b03f04bc3eea89270f321ec6d9163dfff4b4b32e045c62ec69/deeprecsys-0.2.5.tar.gz
+[2024-05-16 00:24:48] INFO root fetch - processPackages [aipkgs-core]: Downloading https://files.pythonhosted.org/packages/a6/ba/241a5f80b89db5e883fa7e0d783b0cd6cd0eec6442dded727c395a61fa9a/aipkgs_core-0.4.6.tar.gz
+[2024-05-16 00:24:48] INFO root fetch - processPackages [dragonfly-radiance]: Downloading https://files.pythonhosted.org/packages/a2/41/805cddd3de27bfc114d3b54bbf0a558b1d450bb0bc346c8bbfc9f9e1ca04/dragonfly-radiance-0.3.8.tar.gz
+[2024-05-16 00:24:48] INFO root fetch - processPackages [taskara]: Downloading https://files.pythonhosted.org/packages/d6/1e/172ae85d48722a1e28b9526c0bb34465bd7920d0c8e6858e25a3f8c528a9/taskara-0.1.7.tar.gz
+[2024-05-16 00:24:48] INFO root fetch - processPackages [dragonfly-uwg]: Downloading https://files.pythonhosted.org/packages/a6/3c/7afbd082f170d8d51ed57abdf8bb67058ca404ede70f9d982fd95c8bb807/dragonfly-uwg-0.5.98.tar.gz
+[2024-05-16 00:24:48] INFO root fetch - processPackages [lbt-honeybee]: Downloading https://files.pythonhosted.org/packages/b5/a0/c6742c4b1a93565a552f073a8cad3689b9e2edcf401d45bd9fddf0485a8d/lbt-honeybee-0.8.98.tar.gz
+[2024-05-16 00:24:48] INFO root fetch - processPackages [ELSholdings]: Downloading https://files.pythonhosted.org/packages/60/c3/82f83348ebdffca9b76e979e2d00445e0bfa7f52daa7fc528453b9b52968/elsholdings-1.0.0.tar.gz
+[2024-05-16 00:24:48] INFO root fetch - processPackages [com.castsoftware.uc.oneclick]: Downloading https://files.pythonhosted.org/packages/81/ec/91fbb304db840c41a25865c18b9955dd86782b6b3915f279fa066021a540/com_castsoftware_uc_oneclick-1.0.4.tar.gz
+[2024-05-16 00:24:48] INFO root fetch - processPackages [deepview-validator]: Downloading https://files.pythonhosted.org/packages/ef/88/37a984065fb3addf227dcd68f3d70927cabcafefde6a44798fd7b0910600/deepview_validator-3.3.0-py3-none-any.whl
+[2024-05-16 00:24:48] INFO root fetch - processPackages [swarmauri]: Downloading https://files.pythonhosted.org/packages/42/ed/8993e08954a79efe0b18d91d01140d33cb74a16fe9e5ee223d03a0c251a4/swarmauri-0.1.98.tar.gz
+[2024-05-16 00:24:48] INFO root fetch - processPackages [dragonfly-radiance]: Downloading https://files.pythonhosted.org/packages/a9/93/8933c5c67b8d336f624b3e7f9cb128678c38867dac08b6bb30a824b7cb3d/dragonfly-radiance-0.3.9.tar.gz
+[2024-05-16 00:24:49] INFO root fetch - processPackages [dragonfly-uwg]: Downloading https://files.pythonhosted.org/packages/55/b3/3f9a36d82b87f343d4e196e93a8cf3e838b9c80b0849f927d4f3505355af/dragonfly-uwg-0.5.99.tar.gz
+[2024-05-16 00:24:49] INFO root fetch - processPackages [lbt-honeybee]: Downloading https://files.pythonhosted.org/packages/f1/61/4f36e668d3e1767b0f4d921481ad087bec472a2afc14ea20f916e083c690/lbt-honeybee-0.8.99.tar.gz
+[2024-05-16 00:24:49] INFO root fetch - processPackages [deeprecsys]: Downloading https://files.pythonhosted.org/packages/c8/d0/ab8bd9364421f2acb222fb5380713c471cf02d1425b531808fdfbe7bc3f3/deeprecsys-0.2.6.tar.gz
+[2024-05-16 00:24:49] INFO root fetch - processPackages [taskara]: Downloading https://files.pythonhosted.org/packages/c0/4f/e9467a6dd755091e2fe2294b58569b289c5252fd70463791829fd99fbfd7/taskara-0.1.8.tar.gz
+[2024-05-16 00:24:49] INFO root fetch - processPackages [aipkgs-core]: Downloading https://files.pythonhosted.org/packages/13/ea/2b3fd2810139d9a604b333543fa7ee766f85de505550732e5071cc477b5b/aipkgs_core-1.0.1.tar.gz
+[2024-05-16 00:24:49] INFO root fetch - processPackages [taskara]: executing diffoscope
+[2024-05-16 00:24:49] INFO root fetch - processPackages [taskara]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/taskara-0.1.7.tar.gz tmp/taskara-0.1.8.tar.gz --markdown 20240516/t/taskara/0.1.7-0.1.8/README.md --exclude *.pyd
+[2024-05-16 00:24:49] INFO root fetch - processPackages [deeprecsys]: executing diffoscope
+[2024-05-16 00:24:49] INFO root fetch - processPackages [deeprecsys]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/deeprecsys-0.2.5.tar.gz tmp/deeprecsys-0.2.6.tar.gz --markdown 20240516/d/deeprecsys/0.2.5-0.2.6/README.md --exclude *.pyd
+[2024-05-16 00:24:49] INFO root fetch - processPackages [aipkgs-core]: executing diffoscope
+[2024-05-16 00:24:49] INFO root fetch - processPackages [aipkgs-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aipkgs_core-0.4.6.tar.gz tmp/aipkgs_core-1.0.1.tar.gz --markdown 20240516/a/aipkgs-core/0.4.6-1.0.1/README.md --exclude *.pyd
+[2024-05-16 00:24:49] INFO root fetch - processPackages [lbt-honeybee]: executing diffoscope
+[2024-05-16 00:24:49] INFO root fetch - processPackages [lbt-honeybee]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lbt-honeybee-0.8.98.tar.gz tmp/lbt-honeybee-0.8.99.tar.gz --markdown 20240516/l/lbt-honeybee/0.8.98-0.8.99/README.md --exclude *.pyd
+[2024-05-16 00:24:49] INFO root fetch - processPackages [dragonfly-radiance]: executing diffoscope
+[2024-05-16 00:24:49] INFO root fetch - processPackages [dragonfly-radiance]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dragonfly-radiance-0.3.8.tar.gz tmp/dragonfly-radiance-0.3.9.tar.gz --markdown 20240516/d/dragonfly-radiance/0.3.8-0.3.9/README.md --exclude *.pyd
+[2024-05-16 00:24:49] INFO root fetch - processPackages [ELSholdings]: Downloading https://files.pythonhosted.org/packages/92/e1/d6c0e4e57d7b233c872133e3b0f88d6ef366fdfca6850fde11517d70eef9/elsholdings-2.0.1.tar.gz
+[2024-05-16 00:24:49] INFO root fetch - processPackages [deepview-validator]: Downloading https://files.pythonhosted.org/packages/4f/1a/7b77d9e2a9c0905408cfa38aa15c734643db3b84e72f6819fb2b16a8dc13/deepview_validator-3.3.1-py3-none-any.whl
+[2024-05-16 00:24:49] INFO root fetch - processPackages [dragonfly-uwg]: executing diffoscope
+[2024-05-16 00:24:49] INFO root fetch - processPackages [dragonfly-uwg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dragonfly-uwg-0.5.98.tar.gz tmp/dragonfly-uwg-0.5.99.tar.gz --markdown 20240516/d/dragonfly-uwg/0.5.98-0.5.99/README.md --exclude *.pyd
+[2024-05-16 00:24:49] INFO root fetch - processPackages [com.castsoftware.uc.oneclick]: Downloading https://files.pythonhosted.org/packages/54/37/6e23e8a47351df1dcd25fe8a7a1d3bac9dd18939a9ad0937c93a30d9f61e/com_castsoftware_uc_oneclick-1.0.4b1.tar.gz
+[2024-05-16 00:24:49] INFO root fetch - processPackages [swarmauri]: Downloading https://files.pythonhosted.org/packages/ef/3f/9d13a3c1918771c13923dc9a64d925e66b157af0470cf30e44994cfd4c0d/swarmauri-0.2.0.tar.gz
+[2024-05-16 00:24:49] INFO root fetch - processPackages [ELSholdings]: executing diffoscope
+[2024-05-16 00:24:49] INFO root fetch - processPackages [ELSholdings]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/elsholdings-1.0.0.tar.gz tmp/elsholdings-2.0.1.tar.gz --markdown 20240516/E/ELSholdings/1.0.0-2.0.1/README.md --exclude *.pyd
+[2024-05-16 00:24:49] INFO root fetch - processPackages [com.castsoftware.uc.oneclick]: executing diffoscope
+[2024-05-16 00:24:49] INFO root fetch - processPackages [com.castsoftware.uc.oneclick]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/com_castsoftware_uc_oneclick-1.0.4.tar.gz tmp/com_castsoftware_uc_oneclick-1.0.4b1.tar.gz --markdown 20240516/c/com.castsoftware.uc.oneclick/1.0.4-1.0.4b1/README.md --exclude *.pyd
+[2024-05-16 00:24:49] INFO root fetch - processPackages [swarmauri]: executing diffoscope
+[2024-05-16 00:24:49] INFO root fetch - processPackages [swarmauri]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/swarmauri-0.1.98.tar.gz tmp/swarmauri-0.2.0.tar.gz --markdown 20240516/s/swarmauri/0.1.98-0.2.0/README.md --exclude *.pyd
+[2024-05-16 00:24:49] INFO root fetch - processPackages [deepview-validator]: executing diffoscope
+[2024-05-16 00:24:49] INFO root fetch - processPackages [deepview-validator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/deepview_validator-3.3.0-py3-none-any.whl.zip tmp/deepview_validator-3.3.1-py3-none-any.whl.zip --markdown 20240516/d/deepview-validator/3.3.0-3.3.1/README.md --exclude *.pyd
+[2024-05-16 00:24:50] INFO root fetch - processPackages [dragonfly-radiance]: Remove: archive file [/home/abi/fetcher/tmp/dragonfly-radiance-0.3.8.tar.gz]
+[2024-05-16 00:24:50] INFO root fetch - processPackages [dragonfly-radiance]: Remove: archive file [/home/abi/fetcher/tmp/dragonfly-radiance-0.3.9.tar.gz]
+[2024-05-16 00:24:50] INFO root fetch - processPackages [dragonfly-radiance]: Start processing: dragonfly-energy
+[2024-05-16 00:24:50] INFO root fetch - main [MainThread]: End processing [dragonfly-radiance]: success
+[2024-05-16 00:24:50] INFO root fetch - processPackages [dragonfly-energy]: New version: [1.9.9] Old Version: [1.9.8]
+[2024-05-16 00:24:50] INFO root fetch - processPackages [deeprecsys]: Remove: archive file [/home/abi/fetcher/tmp/deeprecsys-0.2.5.tar.gz]
+[2024-05-16 00:24:50] INFO root fetch - processPackages [deeprecsys]: Remove: archive file [/home/abi/fetcher/tmp/deeprecsys-0.2.6.tar.gz]
+[2024-05-16 00:24:50] INFO root fetch - processPackages [deeprecsys]: Start processing: dialog-workflow-local
+[2024-05-16 00:24:50] INFO root fetch - main [MainThread]: End processing [deeprecsys]: success
+[2024-05-16 00:24:50] INFO root fetch - processPackages [dialog-workflow-local]: New version: [0.0.99] Old Version: [0.0.98]
+[2024-05-16 00:24:50] INFO root fetch - processPackages [dragonfly-energy]: Downloading https://files.pythonhosted.org/packages/20/4e/115840f938ee254b23bd515351ba786228441464717f8557431f914e75f4/dragonfly-energy-1.9.8.tar.gz
+[2024-05-16 00:24:50] INFO root fetch - processPackages [dialog-workflow-local]: Downloading https://files.pythonhosted.org/packages/d7/1b/685106e77cf65c8cf8b6d89352922054ce5d7b8980732c303e96ea9deb86/dialog_workflow_local-0.0.98.tar.gz
+[2024-05-16 00:24:50] INFO root fetch - processPackages [dragonfly-energy]: Downloading https://files.pythonhosted.org/packages/09/b6/c12f13159c5beb3b855a32f792faef162ad37358d2e0d3311cbd68a969db/dragonfly-energy-1.9.9.tar.gz
+[2024-05-16 00:24:50] INFO root fetch - processPackages [aipkgs-core]: Remove: archive file [/home/abi/fetcher/tmp/aipkgs_core-0.4.6.tar.gz]
+[2024-05-16 00:24:50] INFO root fetch - processPackages [aipkgs-core]: Remove: archive file [/home/abi/fetcher/tmp/aipkgs_core-1.0.1.tar.gz]
+[2024-05-16 00:24:50] INFO root fetch - main [MainThread]: End processing [aipkgs-core]: success
+[2024-05-16 00:24:50] INFO root fetch - processPackages [com.castsoftware.uc.oneclick]: Remove: archive file [/home/abi/fetcher/tmp/com_castsoftware_uc_oneclick-1.0.4.tar.gz]
+[2024-05-16 00:24:50] INFO root fetch - processPackages [com.castsoftware.uc.oneclick]: Remove: archive file [/home/abi/fetcher/tmp/com_castsoftware_uc_oneclick-1.0.4b1.tar.gz]
+[2024-05-16 00:24:50] INFO root fetch - main [MainThread]: End processing [com.castsoftware.uc.oneclick]: success
+[2024-05-16 00:24:50] INFO root fetch - processPackages [lbt-honeybee]: Remove: archive file [/home/abi/fetcher/tmp/lbt-honeybee-0.8.98.tar.gz]
+[2024-05-16 00:24:50] INFO root fetch - processPackages [dialog-workflow-local]: Downloading https://files.pythonhosted.org/packages/05/c3/6c26db02b10e70c46d216b7b8ce442c6d7069761960f4589837162999b2a/dialog_workflow_local-0.0.99.tar.gz
+[2024-05-16 00:24:50] INFO root fetch - processPackages [lbt-honeybee]: Remove: archive file [/home/abi/fetcher/tmp/lbt-honeybee-0.8.99.tar.gz]
+[2024-05-16 00:24:50] INFO root fetch - main [MainThread]: End processing [lbt-honeybee]: success
+[2024-05-16 00:24:50] INFO root fetch - processPackages [deepview-validator]: Remove: archive file [/home/abi/fetcher/tmp/deepview_validator-3.3.0-py3-none-any.whl.zip]
+[2024-05-16 00:24:50] INFO root fetch - processPackages [deepview-validator]: Remove: archive file [/home/abi/fetcher/tmp/deepview_validator-3.3.1-py3-none-any.whl.zip]
+[2024-05-16 00:24:50] INFO root fetch - main [MainThread]: End processing [deepview-validator]: success
+[2024-05-16 00:24:50] INFO root fetch - processPackages [ELSholdings]: Remove: archive file [/home/abi/fetcher/tmp/elsholdings-1.0.0.tar.gz]
+[2024-05-16 00:24:50] INFO root fetch - processPackages [ELSholdings]: Remove: archive file [/home/abi/fetcher/tmp/elsholdings-2.0.1.tar.gz]
+[2024-05-16 00:24:50] INFO root fetch - main [MainThread]: End processing [ELSholdings]: success
+[2024-05-16 00:24:50] INFO root fetch - processPackages [dragonfly-uwg]: Remove: archive file [/home/abi/fetcher/tmp/dragonfly-uwg-0.5.98.tar.gz]
+[2024-05-16 00:24:50] INFO root fetch - processPackages [dragonfly-uwg]: Remove: archive file [/home/abi/fetcher/tmp/dragonfly-uwg-0.5.99.tar.gz]
+[2024-05-16 00:24:50] INFO root fetch - main [MainThread]: End processing [dragonfly-uwg]: success
+[2024-05-16 00:24:50] INFO root fetch - processPackages [taskara]: Remove: archive file [/home/abi/fetcher/tmp/taskara-0.1.7.tar.gz]
+[2024-05-16 00:24:50] INFO root fetch - processPackages [taskara]: Remove: archive file [/home/abi/fetcher/tmp/taskara-0.1.8.tar.gz]
+[2024-05-16 00:24:50] INFO root fetch - main [MainThread]: End processing [taskara]: success
+[2024-05-16 00:24:50] INFO root fetch - processPackages [dialog-workflow-local]: executing diffoscope
+[2024-05-16 00:24:50] INFO root fetch - processPackages [dialog-workflow-local]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dialog_workflow_local-0.0.98.tar.gz tmp/dialog_workflow_local-0.0.99.tar.gz --markdown 20240516/d/dialog-workflow-local/0.0.98-0.0.99/README.md --exclude *.pyd
+[2024-05-16 00:24:50] INFO root fetch - processPackages [dragonfly-energy]: executing diffoscope
+[2024-05-16 00:24:50] INFO root fetch - processPackages [dragonfly-energy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dragonfly-energy-1.9.8.tar.gz tmp/dragonfly-energy-1.9.9.tar.gz --markdown 20240516/d/dragonfly-energy/1.9.8-1.9.9/README.md --exclude *.pyd
+[2024-05-16 00:24:51] INFO root fetch - processPackages [swarmauri]: Remove: archive file [/home/abi/fetcher/tmp/swarmauri-0.1.98.tar.gz]
+[2024-05-16 00:24:51] INFO root fetch - processPackages [swarmauri]: Remove: archive file [/home/abi/fetcher/tmp/swarmauri-0.2.0.tar.gz]
+[2024-05-16 00:24:51] INFO root fetch - main [MainThread]: End processing [swarmauri]: success
+[2024-05-16 00:24:51] INFO root fetch - processPackages [dialog-workflow-local]: Remove: archive file [/home/abi/fetcher/tmp/dialog_workflow_local-0.0.98.tar.gz]
+[2024-05-16 00:24:51] INFO root fetch - processPackages [dialog-workflow-local]: Remove: archive file [/home/abi/fetcher/tmp/dialog_workflow_local-0.0.99.tar.gz]
+[2024-05-16 00:24:51] INFO root fetch - main [MainThread]: End processing [dialog-workflow-local]: success
+[2024-05-16 00:24:51] INFO root fetch - processPackages [dragonfly-energy]: Remove: archive file [/home/abi/fetcher/tmp/dragonfly-energy-1.9.8.tar.gz]
+[2024-05-16 00:24:51] INFO root fetch - processPackages [dragonfly-energy]: Remove: archive file [/home/abi/fetcher/tmp/dragonfly-energy-1.9.9.tar.gz]
+[2024-05-16 00:24:51] INFO root fetch - main [MainThread]: End processing [dragonfly-energy]: success
+[2024-05-16 00:24:51] INFO root fetch - main [MainThread]: Store serial: [23225569]
