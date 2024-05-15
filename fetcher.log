@@ -3134,3 +3134,65 @@ AssertionError: tmp/hygpytools-0.2.0.tar.gz does not exist
 [2024-05-16 01:52:32] INFO root fetch - processPackages [tencentcloud-sdk-python-wedata]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-wedata-3.0.999.tar.gz]
 [2024-05-16 01:52:32] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-wedata]: success
 [2024-05-16 01:52:32] INFO root fetch - main [MainThread]: Store serial: [23226389]
+[2024-05-16 01:54:36] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23226389]
+[2024-05-16 01:54:41] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-16 01:54:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: rustitude
+[2024-05-16 01:54:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: qsharp
+[2024-05-16 01:54:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: qsharp-jupyterlab
+[2024-05-16 01:54:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: qsharp-widgets
+[2024-05-16 01:54:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: extractcode-7z-system-provided
+[2024-05-16 01:54:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: sqlmesh
+[2024-05-16 01:54:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: tencentcloud-sdk-python-yinsuda
+[2024-05-16 01:54:41] INFO root fetch - processPackages [rustitude]: New version: [0.4.2] Old Version: [0.4.0]
+[2024-05-16 01:54:41] INFO root fetch - processPackages [qsharp-jupyterlab]: New version: [1.4.2.dev0] Old Version: [1.4.1.dev0]
+[2024-05-16 01:54:41] INFO root fetch - processPackages [qsharp-widgets]: New version: [1.4.2.dev0] Old Version: [1.4.1.dev0]
+[2024-05-16 01:54:41] INFO root fetch - processPackages [sqlmesh]: New version: [0.95.4] Old Version: [0.95.3]
+[2024-05-16 01:54:41] INFO root fetch - processPackages [rustitude]: Downloading https://files.pythonhosted.org/packages/00/cf/e06748f052ae92047277c4030a032affff2b65446b589ef45a0edc6aaedf/rustitude-0.4.0.tar.gz
+[2024-05-16 01:54:41] INFO root fetch - processPackages [extractcode-7z-system-provided]: New version: [32.0.0] Old Version: [16.5.210531]
+[2024-05-16 01:54:41] INFO root fetch - processPackages [qsharp]: New version: [1.4.3.dev0] Old Version: [1.4.2.dev0]
+[2024-05-16 01:54:41] INFO root fetch - processPackages [qsharp-jupyterlab]: Downloading https://files.pythonhosted.org/packages/c1/3b/83b711ac41ebb895fcaa55e98fddc3ff6bf95312f0974455ae8764239cb3/qsharp_jupyterlab-1.4.1.dev0-py3-none-any.whl
+[2024-05-16 01:54:41] INFO root fetch - processPackages [qsharp-widgets]: Downloading https://files.pythonhosted.org/packages/5f/bb/1ed85c9f5db9fad86eae75437d092bde54479b9a9e615cf82d1b72eca7e6/qsharp_widgets-1.4.1.dev0-py2.py3-none-any.whl
+[2024-05-16 01:54:41] INFO root fetch - processPackages [sqlmesh]: Downloading https://files.pythonhosted.org/packages/1a/c2/20bdf3f71145fdb2ad2845d0a6c3697efc3bbc3049d61cd75f1950863fd9/sqlmesh-0.95.3.tar.gz
+[2024-05-16 01:54:41] INFO root fetch - processPackages [tencentcloud-sdk-python-yinsuda]: New version: [3.0.999] Old Version: [3.0.998]
+[2024-05-16 01:54:41] INFO root fetch - processPackages [extractcode-7z-system-provided]: Downloading https://files.pythonhosted.org/packages/0f/62/b981ec74e75ea08c87dc304822d9765d5bbcff5c26f69fc8263fe3a554c3/extractcode_7z_system_provided-16.5.210531.tar.gz
+[2024-05-16 01:54:41] WARNING root fetch - processPackages [sqlmesh]: Skipping package: exceeds size limit 14374853>=10485760
+[2024-05-16 01:54:41] INFO root fetch - main [MainThread]: End processing [sqlmesh] error
+[2024-05-16 01:54:41] INFO root fetch - processPackages [qsharp]: Downloading https://files.pythonhosted.org/packages/a4/e1/b20587374d094d8dab2d151fd9304d7086d8a26bbdf2b6c7c778e9b14f2c/qsharp-1.4.2.dev0-cp37-abi3-win_arm64.whl
+[2024-05-16 01:54:41] INFO root fetch - processPackages [tencentcloud-sdk-python-yinsuda]: Downloading https://files.pythonhosted.org/packages/2f/7f/44147c9505a75d803b2902a25b7b3c74f58d1aec20704da523bc1886b639/tencentcloud-sdk-python-yinsuda-3.0.998.tar.gz
+[2024-05-16 01:54:41] INFO root fetch - processPackages [rustitude]: Downloading https://files.pythonhosted.org/packages/60/dd/9ca4de7267610ebe2aa129f92717cd8ac8f2442d827cfbe360603950c45e/rustitude-0.4.2.tar.gz
+[2024-05-16 01:54:41] INFO root fetch - processPackages [qsharp-jupyterlab]: Downloading https://files.pythonhosted.org/packages/89/c5/cb0caf976734b89eed24301aa83424e1090c06147cd821911ed12c324988/qsharp_jupyterlab-1.4.2.dev0-py3-none-any.whl
+[2024-05-16 01:54:41] INFO root fetch - processPackages [qsharp-widgets]: Downloading https://files.pythonhosted.org/packages/75/56/dafe049b32457b4870b7bbd673e82b3d6fa1985b191c24bd55362bf3cce5/qsharp_widgets-1.4.2.dev0-py2.py3-none-any.whl
+[2024-05-16 01:54:41] INFO root fetch - processPackages [extractcode-7z-system-provided]: Downloading https://files.pythonhosted.org/packages/41/1c/14c40ba7b6fe9f6c52c53add7529be640a92a757c92767e5c2963bca6f1b/extractcode_7z_system_provided-32.0.0.tar.gz
+[2024-05-16 01:54:41] INFO root fetch - processPackages [qsharp-jupyterlab]: executing diffoscope
+[2024-05-16 01:54:41] INFO root fetch - processPackages [qsharp-jupyterlab]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qsharp_jupyterlab-1.4.1.dev0-py3-none-any.whl.zip tmp/qsharp_jupyterlab-1.4.2.dev0-py3-none-any.whl.zip --markdown 20240516/q/qsharp-jupyterlab/1.4.1.dev0-1.4.2.dev0/README.md --exclude *.pyd
+[2024-05-16 01:54:41] INFO root fetch - processPackages [qsharp-widgets]: executing diffoscope
+[2024-05-16 01:54:41] INFO root fetch - processPackages [qsharp-widgets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qsharp_widgets-1.4.1.dev0-py2.py3-none-any.whl.zip tmp/qsharp_widgets-1.4.2.dev0-py2.py3-none-any.whl.zip --markdown 20240516/q/qsharp-widgets/1.4.1.dev0-1.4.2.dev0/README.md --exclude *.pyd
+[2024-05-16 01:54:41] INFO root fetch - processPackages [extractcode-7z-system-provided]: executing diffoscope
+[2024-05-16 01:54:41] INFO root fetch - processPackages [extractcode-7z-system-provided]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/extractcode_7z_system_provided-16.5.210531.tar.gz tmp/extractcode_7z_system_provided-32.0.0.tar.gz --markdown 20240516/e/extractcode-7z-system-provided/16.5.210531-32.0.0/README.md --exclude *.pyd
+[2024-05-16 01:54:42] INFO root fetch - processPackages [rustitude]: executing diffoscope
+[2024-05-16 01:54:42] INFO root fetch - processPackages [rustitude]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rustitude-0.4.0.tar.gz tmp/rustitude-0.4.2.tar.gz --markdown 20240516/r/rustitude/0.4.0-0.4.2/README.md --exclude *.pyd
+[2024-05-16 01:54:42] INFO root fetch - processPackages [qsharp]: Downloading https://files.pythonhosted.org/packages/d1/20/03adb91db64c134229140169554767e0956f313b52932873129886de4282/qsharp-1.4.3.dev0-cp37-abi3-win_arm64.whl
+[2024-05-16 01:54:42] INFO root fetch - processPackages [tencentcloud-sdk-python-yinsuda]: Downloading https://files.pythonhosted.org/packages/b8/c8/6fe85d8790fee52752e90173dac65409e5d451475ad0b0f566896631592c/tencentcloud-sdk-python-yinsuda-3.0.999.tar.gz
+[2024-05-16 01:54:42] INFO root fetch - processPackages [tencentcloud-sdk-python-yinsuda]: executing diffoscope
+[2024-05-16 01:54:42] INFO root fetch - processPackages [tencentcloud-sdk-python-yinsuda]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud-sdk-python-yinsuda-3.0.998.tar.gz tmp/tencentcloud-sdk-python-yinsuda-3.0.999.tar.gz --markdown 20240516/t/tencentcloud-sdk-python-yinsuda/3.0.998-3.0.999/README.md --exclude *.pyd
+[2024-05-16 01:54:42] INFO root fetch - processPackages [qsharp]: executing diffoscope
+[2024-05-16 01:54:42] INFO root fetch - processPackages [qsharp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qsharp-1.4.2.dev0-cp37-abi3-win_arm64.whl.zip tmp/qsharp-1.4.3.dev0-cp37-abi3-win_arm64.whl.zip --markdown 20240516/q/qsharp/1.4.2.dev0-1.4.3.dev0/README.md --exclude *.pyd
+[2024-05-16 01:54:42] INFO root fetch - processPackages [qsharp-jupyterlab]: Remove: archive file [/home/abi/fetcher/tmp/qsharp_jupyterlab-1.4.1.dev0-py3-none-any.whl.zip]
+[2024-05-16 01:54:42] INFO root fetch - processPackages [qsharp-jupyterlab]: Remove: archive file [/home/abi/fetcher/tmp/qsharp_jupyterlab-1.4.2.dev0-py3-none-any.whl.zip]
+[2024-05-16 01:54:42] INFO root fetch - main [MainThread]: End processing [qsharp-jupyterlab]: success
+[2024-05-16 01:54:42] INFO root fetch - processPackages [extractcode-7z-system-provided]: Remove: archive file [/home/abi/fetcher/tmp/extractcode_7z_system_provided-16.5.210531.tar.gz]
+[2024-05-16 01:54:42] INFO root fetch - processPackages [extractcode-7z-system-provided]: Remove: archive file [/home/abi/fetcher/tmp/extractcode_7z_system_provided-32.0.0.tar.gz]
+[2024-05-16 01:54:42] INFO root fetch - main [MainThread]: End processing [extractcode-7z-system-provided]: success
+[2024-05-16 01:54:42] INFO root fetch - processPackages [rustitude]: Remove: archive file [/home/abi/fetcher/tmp/rustitude-0.4.0.tar.gz]
+[2024-05-16 01:54:42] INFO root fetch - processPackages [rustitude]: Remove: archive file [/home/abi/fetcher/tmp/rustitude-0.4.2.tar.gz]
+[2024-05-16 01:54:42] INFO root fetch - main [MainThread]: End processing [rustitude]: success
+[2024-05-16 01:54:42] INFO root fetch - processPackages [tencentcloud-sdk-python-yinsuda]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-yinsuda-3.0.998.tar.gz]
+[2024-05-16 01:54:42] INFO root fetch - processPackages [tencentcloud-sdk-python-yinsuda]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-yinsuda-3.0.999.tar.gz]
+[2024-05-16 01:54:42] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-yinsuda]: success
+[2024-05-16 01:54:42] INFO root fetch - processPackages [qsharp]: Remove: archive file [/home/abi/fetcher/tmp/qsharp-1.4.2.dev0-cp37-abi3-win_arm64.whl.zip]
+[2024-05-16 01:54:42] INFO root fetch - processPackages [qsharp]: Remove: archive file [/home/abi/fetcher/tmp/qsharp-1.4.3.dev0-cp37-abi3-win_arm64.whl.zip]
+[2024-05-16 01:54:42] INFO root fetch - main [MainThread]: End processing [qsharp]: success
+[2024-05-16 01:54:46] INFO root fetch - processPackages [qsharp-widgets]: Remove: archive file [/home/abi/fetcher/tmp/qsharp_widgets-1.4.1.dev0-py2.py3-none-any.whl.zip]
+[2024-05-16 01:54:46] INFO root fetch - processPackages [qsharp-widgets]: Remove: archive file [/home/abi/fetcher/tmp/qsharp_widgets-1.4.2.dev0-py2.py3-none-any.whl.zip]
+[2024-05-16 01:54:46] INFO root fetch - main [MainThread]: End processing [qsharp-widgets]: success
+[2024-05-16 01:54:46] INFO root fetch - main [MainThread]: Store serial: [23226419]
