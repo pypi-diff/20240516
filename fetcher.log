@@ -208,3 +208,33 @@
 [2024-05-16 00:06:00] INFO root fetch - processPackages [tencentcloud-sdk-python-kms]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-kms-3.0.999.tar.gz]
 [2024-05-16 00:06:00] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-kms]: success
 [2024-05-16 00:06:00] INFO root fetch - main [MainThread]: Store serial: [23225230]
+[2024-05-16 00:08:04] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23225230]
+[2024-05-16 00:08:08] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-16 00:08:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: sparseml
+[2024-05-16 00:08:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tencentcloud-sdk-python-lcic
+[2024-05-16 00:08:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: deltachat-rpc-client
+[2024-05-16 00:08:08] INFO root fetch - processPackages [deltachat-rpc-client]: New version: [1.138.3] Old Version: [1.138.2]
+[2024-05-16 00:08:08] INFO root fetch - processPackages [deltachat-rpc-client]: Downloading https://files.pythonhosted.org/packages/d2/d7/0f966118b3d38f239a0d38cb03fcd3b34bcdecea6a51476c277c2910d179/deltachat_rpc_client-1.138.2.tar.gz
+[2024-05-16 00:08:08] INFO root fetch - processPackages [sparseml]: New version: [1.7.1] Old Version: [1.7.0]
+[2024-05-16 00:08:08] INFO root fetch - processPackages [tencentcloud-sdk-python-lcic]: New version: [3.0.999] Old Version: [3.0.998]
+[2024-05-16 00:08:09] INFO root fetch - processPackages [sparseml]: Downloading https://files.pythonhosted.org/packages/e3/23/f66666b02b9af7f399b118a70fcf9ccff05c3f3b5e2214cb3d9f8b92c386/sparseml-1.7.0-py3-none-any.whl
+[2024-05-16 00:08:09] INFO root fetch - processPackages [tencentcloud-sdk-python-lcic]: Downloading https://files.pythonhosted.org/packages/84/5f/27d7e07bcd52c0acfe1e5852a83c600f911208e23cedec47c1a89b1e001a/tencentcloud-sdk-python-lcic-3.0.998.tar.gz
+[2024-05-16 00:08:09] INFO root fetch - processPackages [deltachat-rpc-client]: Downloading https://files.pythonhosted.org/packages/92/39/83acdfe217c273cbc4bae81c0000afdb9b68ac1485a878b95298698b7ca1/deltachat_rpc_client-1.138.3.tar.gz
+[2024-05-16 00:08:09] INFO root fetch - processPackages [deltachat-rpc-client]: executing diffoscope
+[2024-05-16 00:08:09] INFO root fetch - processPackages [deltachat-rpc-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/deltachat_rpc_client-1.138.2.tar.gz tmp/deltachat_rpc_client-1.138.3.tar.gz --markdown 20240516/d/deltachat-rpc-client/1.138.2-1.138.3/README.md --exclude *.pyd
+[2024-05-16 00:08:09] INFO root fetch - processPackages [tencentcloud-sdk-python-lcic]: Downloading https://files.pythonhosted.org/packages/5a/19/495d08f782d2e5faba8e9025a90a70d136cca8826a17ad24e73eb8c998d2/tencentcloud-sdk-python-lcic-3.0.999.tar.gz
+[2024-05-16 00:08:09] INFO root fetch - processPackages [sparseml]: Downloading https://files.pythonhosted.org/packages/41/11/77015d38da50e6af06de588306cb41879fff0d9aecb322428a29a126bf67/sparseml-1.7.1-py3-none-any.whl
+[2024-05-16 00:08:09] INFO root fetch - processPackages [tencentcloud-sdk-python-lcic]: executing diffoscope
+[2024-05-16 00:08:09] INFO root fetch - processPackages [tencentcloud-sdk-python-lcic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud-sdk-python-lcic-3.0.998.tar.gz tmp/tencentcloud-sdk-python-lcic-3.0.999.tar.gz --markdown 20240516/t/tencentcloud-sdk-python-lcic/3.0.998-3.0.999/README.md --exclude *.pyd
+[2024-05-16 00:08:09] INFO root fetch - processPackages [sparseml]: executing diffoscope
+[2024-05-16 00:08:09] INFO root fetch - processPackages [sparseml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sparseml-1.7.0-py3-none-any.whl.zip tmp/sparseml-1.7.1-py3-none-any.whl.zip --markdown 20240516/s/sparseml/1.7.0-1.7.1/README.md --exclude *.pyd
+[2024-05-16 00:08:09] INFO root fetch - processPackages [deltachat-rpc-client]: Remove: archive file [/home/abi/fetcher/tmp/deltachat_rpc_client-1.138.2.tar.gz]
+[2024-05-16 00:08:09] INFO root fetch - processPackages [deltachat-rpc-client]: Remove: archive file [/home/abi/fetcher/tmp/deltachat_rpc_client-1.138.3.tar.gz]
+[2024-05-16 00:08:09] INFO root fetch - main [MainThread]: End processing [deltachat-rpc-client]: success
+[2024-05-16 00:08:10] INFO root fetch - processPackages [tencentcloud-sdk-python-lcic]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-lcic-3.0.998.tar.gz]
+[2024-05-16 00:08:10] INFO root fetch - processPackages [tencentcloud-sdk-python-lcic]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-lcic-3.0.999.tar.gz]
+[2024-05-16 00:08:10] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-lcic]: success
+[2024-05-16 00:08:11] INFO root fetch - processPackages [sparseml]: Remove: archive file [/home/abi/fetcher/tmp/sparseml-1.7.0-py3-none-any.whl.zip]
+[2024-05-16 00:08:11] INFO root fetch - processPackages [sparseml]: Remove: archive file [/home/abi/fetcher/tmp/sparseml-1.7.1-py3-none-any.whl.zip]
+[2024-05-16 00:08:11] INFO root fetch - main [MainThread]: End processing [sparseml]: success
+[2024-05-16 00:08:11] INFO root fetch - main [MainThread]: Store serial: [23225238]
