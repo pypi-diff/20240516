@@ -1803,3 +1803,50 @@ AssertionError: tmp/hygpytools-0.2.0.tar.gz does not exist
 [2024-05-16 00:55:18] INFO root fetch - processPackages [tencentcloud-sdk-python-ssl]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-ssl-3.0.999.tar.gz]
 [2024-05-16 00:55:18] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-ssl]: success
 [2024-05-16 00:55:18] INFO root fetch - main [MainThread]: Store serial: [23225871]
+[2024-05-16 00:57:22] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23225871]
+[2024-05-16 00:57:26] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-16 00:57:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tencentcloud-sdk-python-taf
+[2024-05-16 00:57:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tencentcloud-sdk-python-tag
+[2024-05-16 00:57:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: mslarkin-utils
+[2024-05-16 00:57:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: update_toml
+[2024-05-16 00:57:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: napari-chatgpt
+[2024-05-16 00:57:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pyxml2xpath
+[2024-05-16 00:57:26] INFO root fetch - processPackages [mslarkin-utils]: New version: [1.9] Old Version: [1.8]
+[2024-05-16 00:57:26] INFO root fetch - processPackages [update_toml]: New version: [0.1.0] Old Version: [0.0.3]
+[2024-05-16 00:57:26] INFO root fetch - processPackages [mslarkin-utils]: Downloading https://files.pythonhosted.org/packages/99/b2/435cc321a57afba5c98a1fc89fbbc086797cfa110e00cc29c2e6177b935b/mslarkin-utils-1.8.tar.gz
+[2024-05-16 00:57:26] INFO root fetch - processPackages [napari-chatgpt]: New version: [2024.5.15] Old Version: [2024.3.26.3]
+[2024-05-16 00:57:26] WARNING root fetch - processPackages [pyxml2xpath]: Skipping, unable to determine old version
+[2024-05-16 00:57:26] INFO root fetch - main [MainThread]: End processing [pyxml2xpath] error
+[2024-05-16 00:57:26] INFO root fetch - processPackages [tencentcloud-sdk-python-tag]: New version: [3.0.999] Old Version: [3.0.998]
+[2024-05-16 00:57:27] INFO root fetch - processPackages [tencentcloud-sdk-python-taf]: New version: [3.0.999] Old Version: [3.0.998]
+[2024-05-16 00:57:27] INFO root fetch - processPackages [update_toml]: Downloading https://files.pythonhosted.org/packages/84/b6/7f051dbb3f1973ff30c72bf8c260146366e5692adc4e655056244a43fc6b/update_toml-0.0.3-py2.py3-none-any.whl
+[2024-05-16 00:57:27] INFO root fetch - processPackages [mslarkin-utils]: Downloading https://files.pythonhosted.org/packages/8f/58/93ec8e4d69ba1c9610b50e07e155d325bf7a5d289a0e39c844a40498e261/mslarkin-utils-1.9.tar.gz
+[2024-05-16 00:57:27] INFO root fetch - processPackages [tencentcloud-sdk-python-tag]: Downloading https://files.pythonhosted.org/packages/29/86/bc025d6e5c5acac1e46676e8598c5aea59c56d5c0936bfe9b5264abbab9a/tencentcloud-sdk-python-tag-3.0.998.tar.gz
+[2024-05-16 00:57:27] INFO root fetch - processPackages [napari-chatgpt]: Downloading https://files.pythonhosted.org/packages/22/3e/94022daa0899ff5412f00f7bd34032e064f0be77cf7439ee1890c8dd7063/napari-chatgpt-2024.3.26.3.tar.gz
+[2024-05-16 00:57:27] INFO root fetch - processPackages [mslarkin-utils]: executing diffoscope
+[2024-05-16 00:57:27] INFO root fetch - processPackages [mslarkin-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mslarkin-utils-1.8.tar.gz tmp/mslarkin-utils-1.9.tar.gz --markdown 20240516/m/mslarkin-utils/1.8-1.9/README.md --exclude *.pyd
+[2024-05-16 00:57:27] INFO root fetch - processPackages [tencentcloud-sdk-python-taf]: Downloading https://files.pythonhosted.org/packages/b5/01/08c33dcfc1938a83ce0d5bd063a7ef3ad36d68419ee5f6631a6eef0caaa4/tencentcloud-sdk-python-taf-3.0.998.tar.gz
+[2024-05-16 00:57:27] WARNING root fetch - processPackages [napari-chatgpt]: Skipping package: exceeds size limit 62800796>=10485760
+[2024-05-16 00:57:27] INFO root fetch - main [MainThread]: End processing [napari-chatgpt] error
+[2024-05-16 00:57:27] INFO root fetch - processPackages [update_toml]: Downloading https://files.pythonhosted.org/packages/7d/cd/38d509736c8d1283f6ca822e49cfc33017c63ca869a5a194455969f183c2/update_toml-0.1.0.tar.gz
+[2024-05-16 00:57:27] INFO root fetch - processPackages [tencentcloud-sdk-python-tag]: Downloading https://files.pythonhosted.org/packages/26/0d/6cbab21bb92bb010935632e7faab0ec6641e13a2f6ed7421bcb7a0c87b4c/tencentcloud-sdk-python-tag-3.0.999.tar.gz
+[2024-05-16 00:57:27] INFO root fetch - processPackages [update_toml]: executing diffoscope
+[2024-05-16 00:57:27] INFO root fetch - processPackages [update_toml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/update_toml-0.0.3-py2.py3-none-any.whl.zip tmp/update_toml-0.1.0.tar.gz --markdown 20240516/u/update_toml/0.0.3-0.1.0/README.md --exclude *.pyd
+[2024-05-16 00:57:27] INFO root fetch - processPackages [tencentcloud-sdk-python-tag]: executing diffoscope
+[2024-05-16 00:57:27] INFO root fetch - processPackages [tencentcloud-sdk-python-tag]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud-sdk-python-tag-3.0.998.tar.gz tmp/tencentcloud-sdk-python-tag-3.0.999.tar.gz --markdown 20240516/t/tencentcloud-sdk-python-tag/3.0.998-3.0.999/README.md --exclude *.pyd
+[2024-05-16 00:57:27] INFO root fetch - processPackages [tencentcloud-sdk-python-taf]: Downloading https://files.pythonhosted.org/packages/f4/16/497d23897bdb0599381cb152e1dea16b05208ee4841f36ccb062e26590e8/tencentcloud-sdk-python-taf-3.0.999.tar.gz
+[2024-05-16 00:57:27] INFO root fetch - processPackages [tencentcloud-sdk-python-taf]: executing diffoscope
+[2024-05-16 00:57:27] INFO root fetch - processPackages [tencentcloud-sdk-python-taf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud-sdk-python-taf-3.0.998.tar.gz tmp/tencentcloud-sdk-python-taf-3.0.999.tar.gz --markdown 20240516/t/tencentcloud-sdk-python-taf/3.0.998-3.0.999/README.md --exclude *.pyd
+[2024-05-16 00:57:27] INFO root fetch - processPackages [mslarkin-utils]: Remove: archive file [/home/abi/fetcher/tmp/mslarkin-utils-1.8.tar.gz]
+[2024-05-16 00:57:27] INFO root fetch - processPackages [mslarkin-utils]: Remove: archive file [/home/abi/fetcher/tmp/mslarkin-utils-1.9.tar.gz]
+[2024-05-16 00:57:27] INFO root fetch - main [MainThread]: End processing [mslarkin-utils]: success
+[2024-05-16 00:57:28] INFO root fetch - processPackages [update_toml]: Remove: archive file [/home/abi/fetcher/tmp/update_toml-0.0.3-py2.py3-none-any.whl.zip]
+[2024-05-16 00:57:28] INFO root fetch - processPackages [update_toml]: Remove: archive file [/home/abi/fetcher/tmp/update_toml-0.1.0.tar.gz]
+[2024-05-16 00:57:28] INFO root fetch - main [MainThread]: End processing [update_toml]: success
+[2024-05-16 00:57:28] INFO root fetch - processPackages [tencentcloud-sdk-python-tag]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-tag-3.0.998.tar.gz]
+[2024-05-16 00:57:28] INFO root fetch - processPackages [tencentcloud-sdk-python-tag]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-tag-3.0.999.tar.gz]
+[2024-05-16 00:57:28] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-tag]: success
+[2024-05-16 00:57:28] INFO root fetch - processPackages [tencentcloud-sdk-python-taf]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-taf-3.0.998.tar.gz]
+[2024-05-16 00:57:28] INFO root fetch - processPackages [tencentcloud-sdk-python-taf]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-taf-3.0.999.tar.gz]
+[2024-05-16 00:57:28] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-taf]: success
+[2024-05-16 00:57:28] INFO root fetch - main [MainThread]: Store serial: [23225891]
