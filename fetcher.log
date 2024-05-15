@@ -2271,3 +2271,78 @@ AssertionError: tmp/hygpytools-0.2.0.tar.gz does not exist
 [2024-05-16 01:14:55] INFO root fetch - processPackages [pypomes-db]: Remove: archive file [/home/abi/fetcher/tmp/pypomes_db-0.8.0.tar.gz]
 [2024-05-16 01:14:55] INFO root fetch - main [MainThread]: End processing [pypomes-db]: success
 [2024-05-16 01:14:55] INFO root fetch - main [MainThread]: Store serial: [23226050]
+[2024-05-16 01:16:59] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23226050]
+[2024-05-16 01:17:04] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-05-16 01:17:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: APScheduler
+[2024-05-16 01:17:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: amiya
+[2024-05-16 01:17:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: spaceone-inventory
+[2024-05-16 01:17:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: fudstop
+[2024-05-16 01:17:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cloudforet-console-api-v2
+[2024-05-16 01:17:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: tencentcloud-sdk-python-tds
+[2024-05-16 01:17:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: airbyte-api
+[2024-05-16 01:17:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: mslarkin-utils
+[2024-05-16 01:17:04] INFO root fetch - processPackages [mslarkin-utils]: New version: [1.9] Old Version: [1.8]
+[2024-05-16 01:17:04] INFO root fetch - processPackages [fudstop]: New version: [2.6.2] Old Version: [2.6.1]
+[2024-05-16 01:17:04] INFO root fetch - processPackages [airbyte-api]: New version: [0.7.0] Old Version: [0.6.0]
+[2024-05-16 01:17:05] INFO root fetch - processPackages [mslarkin-utils]: Downloading https://files.pythonhosted.org/packages/99/b2/435cc321a57afba5c98a1fc89fbbc086797cfa110e00cc29c2e6177b935b/mslarkin-utils-1.8.tar.gz
+[2024-05-16 01:17:05] INFO root fetch - processPackages [amiya]: New version: [0.0.3] Old Version: [0.0.1]
+[2024-05-16 01:17:05] INFO root fetch - processPackages [fudstop]: Downloading https://files.pythonhosted.org/packages/3c/a0/5e1f843f266e5be360fa905a65970c074733246df22e626363e8da61fa0d/fudstop-2.6.1.tar.gz
+[2024-05-16 01:17:05] INFO root fetch - processPackages [APScheduler]: New version: [4.0.0a5] Old Version: [4.0.0a4]
+[2024-05-16 01:17:05] INFO root fetch - processPackages [airbyte-api]: Downloading https://files.pythonhosted.org/packages/d4/66/f87aba87ada17376fee9e34bc8e371f044987bb411d9d01db6d321356f3a/airbyte-api-0.6.0.tar.gz
+[2024-05-16 01:17:05] INFO root fetch - processPackages [cloudforet-console-api-v2]: New version: [2.0.dev99] Old Version: [2.0.dev98]
+[2024-05-16 01:17:05] INFO root fetch - processPackages [spaceone-inventory]: New version: [2.0.dev99] Old Version: [2.0.dev98]
+[2024-05-16 01:17:05] INFO root fetch - processPackages [tencentcloud-sdk-python-tds]: New version: [3.0.999] Old Version: [3.0.998]
+[2024-05-16 01:17:05] INFO root fetch - processPackages [mslarkin-utils]: Downloading https://files.pythonhosted.org/packages/8f/58/93ec8e4d69ba1c9610b50e07e155d325bf7a5d289a0e39c844a40498e261/mslarkin-utils-1.9.tar.gz
+[2024-05-16 01:17:05] INFO root fetch - processPackages [amiya]: Downloading https://files.pythonhosted.org/packages/9f/5d/bfb3155dd79ab6e5ccc3f25c1f0ad0737d7bc1021bb31cbb5984da95a4c0/amiya-0.0.1.tar.gz
+[2024-05-16 01:17:05] INFO root fetch - processPackages [airbyte-api]: Downloading https://files.pythonhosted.org/packages/c8/ff/cb73f3116051fd1759305c40178b654a37b22e1085a441b4ba720c8525d8/airbyte-api-0.7.0.tar.gz
+[2024-05-16 01:17:05] INFO root fetch - processPackages [APScheduler]: Downloading https://files.pythonhosted.org/packages/6e/eb/94ab7ada0c5b25243f08de7406f9507a4b2c2b8d97ee61ea990d8500bc2f/APScheduler-4.0.0a4.tar.gz
+[2024-05-16 01:17:05] INFO root fetch - processPackages [cloudforet-console-api-v2]: Downloading https://files.pythonhosted.org/packages/b1/83/382d576c7baaf1076b4ba63610379bfef3bb2bd2d564ad1843394c61f1a8/cloudforet-console-api-v2-2.0.dev98.tar.gz
+[2024-05-16 01:17:05] INFO root fetch - processPackages [tencentcloud-sdk-python-tds]: Downloading https://files.pythonhosted.org/packages/79/98/63b3d4ccfbe5f0077c544a650d466927f864acb62ee213ad966c7aca7ed2/tencentcloud-sdk-python-tds-3.0.998.tar.gz
+[2024-05-16 01:17:05] INFO root fetch - processPackages [spaceone-inventory]: Downloading https://files.pythonhosted.org/packages/2b/23/73e091142fbd007706604f94cc95718e79d9259d998aa9dd424fc7cc6f7f/spaceone-inventory-2.0.dev98.tar.gz
+[2024-05-16 01:17:05] INFO root fetch - processPackages [mslarkin-utils]: executing diffoscope
+[2024-05-16 01:17:05] INFO root fetch - processPackages [mslarkin-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mslarkin-utils-1.8.tar.gz tmp/mslarkin-utils-1.9.tar.gz --markdown 20240516/m/mslarkin-utils/1.8-1.9/README.md --exclude *.pyd
+[2024-05-16 01:17:05] INFO root fetch - processPackages [fudstop]: Downloading https://files.pythonhosted.org/packages/3f/43/99ce17c586f9de7e38bb68655acc498b454c310231993efb91ead172f7e3/fudstop-2.6.2.tar.gz
+[2024-05-16 01:17:05] INFO root fetch - processPackages [airbyte-api]: executing diffoscope
+[2024-05-16 01:17:05] INFO root fetch - processPackages [airbyte-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/airbyte-api-0.6.0.tar.gz tmp/airbyte-api-0.7.0.tar.gz --markdown 20240516/a/airbyte-api/0.6.0-0.7.0/README.md --exclude *.pyd
+[2024-05-16 01:17:05] INFO root fetch - processPackages [fudstop]: executing diffoscope
+[2024-05-16 01:17:05] INFO root fetch - processPackages [fudstop]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fudstop-2.6.1.tar.gz tmp/fudstop-2.6.2.tar.gz --markdown 20240516/f/fudstop/2.6.1-2.6.2/README.md --exclude *.pyd
+[2024-05-16 01:17:05] INFO root fetch - processPackages [cloudforet-console-api-v2]: Downloading https://files.pythonhosted.org/packages/cc/3a/2cab122ef371d628e0e339e8a0b5233e79840b362512069527bd9fce8f78/cloudforet-console-api-v2-2.0.dev99.tar.gz
+[2024-05-16 01:17:05] INFO root fetch - processPackages [amiya]: Downloading https://files.pythonhosted.org/packages/8e/4e/239dc33248b131d3f3e98a86c9ad9f31a51cff85cd6b25c13d16ab355e7c/amiya-0.0.3.tar.gz
+[2024-05-16 01:17:05] INFO root fetch - processPackages [spaceone-inventory]: Downloading https://files.pythonhosted.org/packages/e7/30/f1229bb9f69283d6576804b473d6fe73ff3118fb5543c89d48b18f899ca2/spaceone-inventory-2.0.dev99.tar.gz
+[2024-05-16 01:17:05] INFO root fetch - processPackages [tencentcloud-sdk-python-tds]: Downloading https://files.pythonhosted.org/packages/47/f8/6e50a4f5080e35339f56e12977524d3a69570327599267c21ff4b252ea47/tencentcloud-sdk-python-tds-3.0.999.tar.gz
+[2024-05-16 01:17:05] INFO root fetch - processPackages [cloudforet-console-api-v2]: executing diffoscope
+[2024-05-16 01:17:05] INFO root fetch - processPackages [cloudforet-console-api-v2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cloudforet-console-api-v2-2.0.dev98.tar.gz tmp/cloudforet-console-api-v2-2.0.dev99.tar.gz --markdown 20240516/c/cloudforet-console-api-v2/2.0.dev98-2.0.dev99/README.md --exclude *.pyd
+[2024-05-16 01:17:05] INFO root fetch - processPackages [APScheduler]: Downloading https://files.pythonhosted.org/packages/44/93/c5b25d5f95016426e622e9750588461242cd21706af155982f4c74d027f4/apscheduler-4.0.0a5.tar.gz
+[2024-05-16 01:17:05] INFO root fetch - processPackages [spaceone-inventory]: executing diffoscope
+[2024-05-16 01:17:05] INFO root fetch - processPackages [spaceone-inventory]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spaceone-inventory-2.0.dev98.tar.gz tmp/spaceone-inventory-2.0.dev99.tar.gz --markdown 20240516/s/spaceone-inventory/2.0.dev98-2.0.dev99/README.md --exclude *.pyd
+[2024-05-16 01:17:06] INFO root fetch - processPackages [amiya]: executing diffoscope
+[2024-05-16 01:17:06] INFO root fetch - processPackages [amiya]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/amiya-0.0.1.tar.gz tmp/amiya-0.0.3.tar.gz --markdown 20240516/a/amiya/0.0.1-0.0.3/README.md --exclude *.pyd
+[2024-05-16 01:17:06] INFO root fetch - processPackages [tencentcloud-sdk-python-tds]: executing diffoscope
+[2024-05-16 01:17:06] INFO root fetch - processPackages [tencentcloud-sdk-python-tds]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud-sdk-python-tds-3.0.998.tar.gz tmp/tencentcloud-sdk-python-tds-3.0.999.tar.gz --markdown 20240516/t/tencentcloud-sdk-python-tds/3.0.998-3.0.999/README.md --exclude *.pyd
+[2024-05-16 01:17:06] INFO root fetch - processPackages [mslarkin-utils]: Remove: archive file [/home/abi/fetcher/tmp/mslarkin-utils-1.8.tar.gz]
+[2024-05-16 01:17:06] INFO root fetch - processPackages [mslarkin-utils]: Remove: archive file [/home/abi/fetcher/tmp/mslarkin-utils-1.9.tar.gz]
+[2024-05-16 01:17:06] INFO root fetch - main [MainThread]: End processing [mslarkin-utils]: success
+[2024-05-16 01:17:06] INFO root fetch - processPackages [APScheduler]: executing diffoscope
+[2024-05-16 01:17:06] INFO root fetch - processPackages [APScheduler]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/APScheduler-4.0.0a4.tar.gz tmp/apscheduler-4.0.0a5.tar.gz --markdown 20240516/A/APScheduler/4.0.0a4-4.0.0a5/README.md --exclude *.pyd
+[2024-05-16 01:17:06] INFO root fetch - processPackages [cloudforet-console-api-v2]: Remove: archive file [/home/abi/fetcher/tmp/cloudforet-console-api-v2-2.0.dev98.tar.gz]
+[2024-05-16 01:17:06] INFO root fetch - processPackages [cloudforet-console-api-v2]: Remove: archive file [/home/abi/fetcher/tmp/cloudforet-console-api-v2-2.0.dev99.tar.gz]
+[2024-05-16 01:17:06] INFO root fetch - main [MainThread]: End processing [cloudforet-console-api-v2]: success
+[2024-05-16 01:17:06] INFO root fetch - processPackages [tencentcloud-sdk-python-tds]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-tds-3.0.998.tar.gz]
+[2024-05-16 01:17:06] INFO root fetch - processPackages [tencentcloud-sdk-python-tds]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-tds-3.0.999.tar.gz]
+[2024-05-16 01:17:06] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-tds]: success
+[2024-05-16 01:17:07] INFO root fetch - processPackages [spaceone-inventory]: Remove: archive file [/home/abi/fetcher/tmp/spaceone-inventory-2.0.dev98.tar.gz]
+[2024-05-16 01:17:07] INFO root fetch - processPackages [spaceone-inventory]: Remove: archive file [/home/abi/fetcher/tmp/spaceone-inventory-2.0.dev99.tar.gz]
+[2024-05-16 01:17:07] INFO root fetch - main [MainThread]: End processing [spaceone-inventory]: success
+[2024-05-16 01:17:07] INFO root fetch - processPackages [amiya]: Remove: archive file [/home/abi/fetcher/tmp/amiya-0.0.1.tar.gz]
+[2024-05-16 01:17:07] INFO root fetch - processPackages [amiya]: Remove: archive file [/home/abi/fetcher/tmp/amiya-0.0.3.tar.gz]
+[2024-05-16 01:17:07] INFO root fetch - main [MainThread]: End processing [amiya]: success
+[2024-05-16 01:17:07] INFO root fetch - processPackages [airbyte-api]: Remove: archive file [/home/abi/fetcher/tmp/airbyte-api-0.6.0.tar.gz]
+[2024-05-16 01:17:07] INFO root fetch - processPackages [airbyte-api]: Remove: archive file [/home/abi/fetcher/tmp/airbyte-api-0.7.0.tar.gz]
+[2024-05-16 01:17:07] INFO root fetch - main [MainThread]: End processing [airbyte-api]: success
+[2024-05-16 01:17:07] INFO root fetch - processPackages [fudstop]: Remove: archive file [/home/abi/fetcher/tmp/fudstop-2.6.1.tar.gz]
+[2024-05-16 01:17:07] INFO root fetch - processPackages [fudstop]: Remove: archive file [/home/abi/fetcher/tmp/fudstop-2.6.2.tar.gz]
+[2024-05-16 01:17:07] INFO root fetch - main [MainThread]: End processing [fudstop]: success
+[2024-05-16 01:17:07] INFO root fetch - processPackages [APScheduler]: Remove: archive file [/home/abi/fetcher/tmp/APScheduler-4.0.0a4.tar.gz]
+[2024-05-16 01:17:07] INFO root fetch - processPackages [APScheduler]: Remove: archive file [/home/abi/fetcher/tmp/apscheduler-4.0.0a5.tar.gz]
+[2024-05-16 01:17:07] INFO root fetch - main [MainThread]: End processing [APScheduler]: success
+[2024-05-16 01:17:07] INFO root fetch - main [MainThread]: Store serial: [23226071]
