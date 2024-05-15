@@ -1944,3 +1944,63 @@ AssertionError: tmp/hygpytools-0.2.0.tar.gz does not exist
 [2024-05-16 01:03:59] INFO root fetch - processPackages [bucketed-scene-flow-eval]: Remove: archive file [/home/abi/fetcher/tmp/bucketed_scene_flow_eval-2.0.9.tar.gz]
 [2024-05-16 01:03:59] INFO root fetch - main [MainThread]: End processing [bucketed-scene-flow-eval]: success
 [2024-05-16 01:03:59] INFO root fetch - main [MainThread]: Store serial: [23225926]
+[2024-05-16 01:06:03] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23225926]
+[2024-05-16 01:06:08] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-16 01:06:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: aipkgs-core
+[2024-05-16 01:06:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: opengamedata-core
+[2024-05-16 01:06:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: mslarkin-utils
+[2024-05-16 01:06:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: tmnt
+[2024-05-16 01:06:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: permission-manager-drf
+[2024-05-16 01:06:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: parcllabs
+[2024-05-16 01:06:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: tencentcloud-sdk-python-tbaas
+[2024-05-16 01:06:08] INFO root fetch - processPackages [mslarkin-utils]: New version: [1.9] Old Version: [1.8]
+[2024-05-16 01:06:08] WARNING root fetch - processPackages [permission-manager-drf]: Skipping, unable to determine old version
+[2024-05-16 01:06:08] INFO root fetch - main [MainThread]: End processing [permission-manager-drf] error
+[2024-05-16 01:06:08] INFO root fetch - processPackages [opengamedata-core]: New version: [0.0.3] Old Version: [0.0.2]
+[2024-05-16 01:06:08] INFO root fetch - processPackages [aipkgs-core]: New version: [1.0.6] Old Version: [1.0.5]
+[2024-05-16 01:06:08] INFO root fetch - processPackages [parcllabs]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-16 01:06:08] INFO root fetch - processPackages [tmnt]: New version: [0.7.52b20240514] Old Version: [0.7.52b20240513]
+[2024-05-16 01:06:08] INFO root fetch - processPackages [mslarkin-utils]: Downloading https://files.pythonhosted.org/packages/99/b2/435cc321a57afba5c98a1fc89fbbc086797cfa110e00cc29c2e6177b935b/mslarkin-utils-1.8.tar.gz
+[2024-05-16 01:06:08] INFO root fetch - processPackages [opengamedata-core]: Downloading https://files.pythonhosted.org/packages/c5/ce/f3bf61ab30fe257fcb9094b834169273c1f470ea682e81f97370e400098d/opengamedata_core-0.0.2.tar.gz
+[2024-05-16 01:06:08] INFO root fetch - processPackages [aipkgs-core]: Downloading https://files.pythonhosted.org/packages/93/15/b51de2bac450a76499eff41e269a86c0487f576513fd8e4865f2237462d5/aipkgs_core-1.0.5.tar.gz
+[2024-05-16 01:06:08] INFO root fetch - processPackages [parcllabs]: Downloading https://files.pythonhosted.org/packages/4b/a7/9060c070fcbeed0ac71fb0b49e67b6162c4027ec3296ac7d9595c1654294/parcllabs-0.1.8.tar.gz
+[2024-05-16 01:06:09] INFO root fetch - processPackages [tmnt]: Downloading https://files.pythonhosted.org/packages/f7/3d/db92a95951e9969dc4c8d71ac28e3a743dc4b44b9029e9ca8d88c1dd1c9a/tmnt-0.7.52b20240513.tar.gz
+[2024-05-16 01:06:09] INFO root fetch - processPackages [tencentcloud-sdk-python-tbaas]: New version: [3.0.999] Old Version: [3.0.998]
+[2024-05-16 01:06:09] INFO root fetch - processPackages [mslarkin-utils]: Downloading https://files.pythonhosted.org/packages/8f/58/93ec8e4d69ba1c9610b50e07e155d325bf7a5d289a0e39c844a40498e261/mslarkin-utils-1.9.tar.gz
+[2024-05-16 01:06:09] INFO root fetch - processPackages [parcllabs]: Downloading https://files.pythonhosted.org/packages/54/76/252d5d459b8fefcdb4cd8ba9124168cc37b81f5740ca09ff3e754621335b/parcllabs-0.1.9.tar.gz
+[2024-05-16 01:06:09] INFO root fetch - processPackages [opengamedata-core]: Downloading https://files.pythonhosted.org/packages/24/9d/6e7e5dd8119652a4550721cdf49c70eab3931368d43cc87e07af242d38fb/opengamedata_core-0.0.3.tar.gz
+[2024-05-16 01:06:09] INFO root fetch - processPackages [aipkgs-core]: Downloading https://files.pythonhosted.org/packages/df/1f/5736e3d27645665cb534cf5a925e39e156bbeaea790cfbf10564e46a829c/aipkgs_core-1.0.6.tar.gz
+[2024-05-16 01:06:09] INFO root fetch - processPackages [mslarkin-utils]: executing diffoscope
+[2024-05-16 01:06:09] INFO root fetch - processPackages [mslarkin-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mslarkin-utils-1.8.tar.gz tmp/mslarkin-utils-1.9.tar.gz --markdown 20240516/m/mslarkin-utils/1.8-1.9/README.md --exclude *.pyd
+[2024-05-16 01:06:09] INFO root fetch - processPackages [tencentcloud-sdk-python-tbaas]: Downloading https://files.pythonhosted.org/packages/84/6d/e2c0391bb815c4991165bf94d0a453e516db13f59b899dca72bfab8537b8/tencentcloud-sdk-python-tbaas-3.0.998.tar.gz
+[2024-05-16 01:06:09] INFO root fetch - processPackages [parcllabs]: executing diffoscope
+[2024-05-16 01:06:09] INFO root fetch - processPackages [parcllabs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/parcllabs-0.1.8.tar.gz tmp/parcllabs-0.1.9.tar.gz --markdown 20240516/p/parcllabs/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-16 01:06:09] INFO root fetch - processPackages [tmnt]: Downloading https://files.pythonhosted.org/packages/55/b9/fd1f1ef8b54548f94783a097615f109ee9f7229f63ef9bfe248d832ed060/tmnt-0.7.52b20240514.tar.gz
+[2024-05-16 01:06:09] INFO root fetch - processPackages [aipkgs-core]: executing diffoscope
+[2024-05-16 01:06:09] INFO root fetch - processPackages [aipkgs-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aipkgs_core-1.0.5.tar.gz tmp/aipkgs_core-1.0.6.tar.gz --markdown 20240516/a/aipkgs-core/1.0.5-1.0.6/README.md --exclude *.pyd
+[2024-05-16 01:06:09] INFO root fetch - processPackages [opengamedata-core]: executing diffoscope
+[2024-05-16 01:06:09] INFO root fetch - processPackages [opengamedata-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/opengamedata_core-0.0.2.tar.gz tmp/opengamedata_core-0.0.3.tar.gz --markdown 20240516/o/opengamedata-core/0.0.2-0.0.3/README.md --exclude *.pyd
+[2024-05-16 01:06:09] INFO root fetch - processPackages [tmnt]: executing diffoscope
+[2024-05-16 01:06:09] INFO root fetch - processPackages [tmnt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tmnt-0.7.52b20240513.tar.gz tmp/tmnt-0.7.52b20240514.tar.gz --markdown 20240516/t/tmnt/0.7.52b20240513-0.7.52b20240514/README.md --exclude *.pyd
+[2024-05-16 01:06:09] INFO root fetch - processPackages [tencentcloud-sdk-python-tbaas]: Downloading https://files.pythonhosted.org/packages/80/a2/7707e6bca876dec3dc7fa1659d518217bb9047b654ee4f7a82aa81c23e3d/tencentcloud-sdk-python-tbaas-3.0.999.tar.gz
+[2024-05-16 01:06:09] INFO root fetch - processPackages [mslarkin-utils]: Remove: archive file [/home/abi/fetcher/tmp/mslarkin-utils-1.8.tar.gz]
+[2024-05-16 01:06:09] INFO root fetch - processPackages [mslarkin-utils]: Remove: archive file [/home/abi/fetcher/tmp/mslarkin-utils-1.9.tar.gz]
+[2024-05-16 01:06:09] INFO root fetch - main [MainThread]: End processing [mslarkin-utils]: success
+[2024-05-16 01:06:10] INFO root fetch - processPackages [parcllabs]: Remove: archive file [/home/abi/fetcher/tmp/parcllabs-0.1.8.tar.gz]
+[2024-05-16 01:06:10] INFO root fetch - processPackages [parcllabs]: Remove: archive file [/home/abi/fetcher/tmp/parcllabs-0.1.9.tar.gz]
+[2024-05-16 01:06:10] INFO root fetch - main [MainThread]: End processing [parcllabs]: success
+[2024-05-16 01:06:10] INFO root fetch - processPackages [tencentcloud-sdk-python-tbaas]: executing diffoscope
+[2024-05-16 01:06:10] INFO root fetch - processPackages [tencentcloud-sdk-python-tbaas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud-sdk-python-tbaas-3.0.998.tar.gz tmp/tencentcloud-sdk-python-tbaas-3.0.999.tar.gz --markdown 20240516/t/tencentcloud-sdk-python-tbaas/3.0.998-3.0.999/README.md --exclude *.pyd
+[2024-05-16 01:06:10] INFO root fetch - processPackages [aipkgs-core]: Remove: archive file [/home/abi/fetcher/tmp/aipkgs_core-1.0.5.tar.gz]
+[2024-05-16 01:06:10] INFO root fetch - processPackages [aipkgs-core]: Remove: archive file [/home/abi/fetcher/tmp/aipkgs_core-1.0.6.tar.gz]
+[2024-05-16 01:06:10] INFO root fetch - main [MainThread]: End processing [aipkgs-core]: success
+[2024-05-16 01:06:10] INFO root fetch - processPackages [tmnt]: Remove: archive file [/home/abi/fetcher/tmp/tmnt-0.7.52b20240513.tar.gz]
+[2024-05-16 01:06:10] INFO root fetch - processPackages [tmnt]: Remove: archive file [/home/abi/fetcher/tmp/tmnt-0.7.52b20240514.tar.gz]
+[2024-05-16 01:06:10] INFO root fetch - main [MainThread]: End processing [tmnt]: success
+[2024-05-16 01:06:10] INFO root fetch - processPackages [tencentcloud-sdk-python-tbaas]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-tbaas-3.0.998.tar.gz]
+[2024-05-16 01:06:10] INFO root fetch - processPackages [tencentcloud-sdk-python-tbaas]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-tbaas-3.0.999.tar.gz]
+[2024-05-16 01:06:10] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-tbaas]: success
+[2024-05-16 01:06:11] INFO root fetch - processPackages [opengamedata-core]: Remove: archive file [/home/abi/fetcher/tmp/opengamedata_core-0.0.2.tar.gz]
+[2024-05-16 01:06:11] INFO root fetch - processPackages [opengamedata-core]: Remove: archive file [/home/abi/fetcher/tmp/opengamedata_core-0.0.3.tar.gz]
+[2024-05-16 01:06:11] INFO root fetch - main [MainThread]: End processing [opengamedata-core]: success
+[2024-05-16 01:06:11] INFO root fetch - main [MainThread]: Store serial: [23225947]
