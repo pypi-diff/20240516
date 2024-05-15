@@ -343,3 +343,170 @@
 [2024-05-16 00:13:06] INFO root fetch - processPackages [pyfaust]: Remove: archive file [/home/abi/fetcher/tmp/pyfaust-3.9.1-cp39-cp39-win_amd64.whl.zip]
 [2024-05-16 00:13:06] INFO root fetch - main [MainThread]: End processing [pyfaust]: success
 [2024-05-16 00:13:06] INFO root fetch - main [MainThread]: Store serial: [23225274]
+[2024-05-16 00:15:14] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23225274]
+[2024-05-16 00:15:19] INFO root fetch - main [MainThread]: Found 20 changed packages
+[2024-05-16 00:15:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pyfaust-openblaso
+[2024-05-16 00:15:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: aipkgs-requests
+[2024-05-16 00:15:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pyfaust-torch
+[2024-05-16 00:15:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: lbt-honeybee
+[2024-05-16 00:15:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: relationalai
+[2024-05-16 00:15:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: e-models
+[2024-05-16 00:15:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: mapel
+[2024-05-16 00:15:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: mapel-core
+[2024-05-16 00:15:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: mapel-elections
+[2024-05-16 00:15:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: parea-ai
+[2024-05-16 00:15:19] INFO root fetch - processPackages [e-models]: New version: [1.8.9] Old Version: [1.8.8.2]
+[2024-05-16 00:15:19] INFO root fetch - processPackages [pyfaust-torch]: New version: [3.39.9] Old Version: [3.39.8]
+[2024-05-16 00:15:19] INFO root fetch - processPackages [mapel]: New version: [2.1.9] Old Version: [2.1.8]
+[2024-05-16 00:15:19] INFO root fetch - processPackages [pyfaust-openblaso]: New version: [3.39.9] Old Version: [3.39.8]
+[2024-05-16 00:15:19] INFO root fetch - processPackages [lbt-honeybee]: New version: [0.8.99] Old Version: [0.8.98]
+[2024-05-16 00:15:19] INFO root fetch - processPackages [mapel-elections]: New version: [2.1.9] Old Version: [2.1.8]
+[2024-05-16 00:15:19] INFO root fetch - processPackages [e-models]: Downloading https://files.pythonhosted.org/packages/ef/f3/5deb99e0fda85bfe1f13ec5b64302ef8b7c2f679e5e85a873e867760147d/e-models-1.8.8.2.tar.gz
+[2024-05-16 00:15:19] INFO root fetch - processPackages [mapel-core]: New version: [2.1.9] Old Version: [2.1.8]
+[2024-05-16 00:15:19] INFO root fetch - processPackages [relationalai]: New version: [0.2.9] Old Version: [0.2.8]
+[2024-05-16 00:15:19] INFO root fetch - processPackages [aipkgs-requests]: New version: [1.0.1] Old Version: [0.1.4]
+[2024-05-16 00:15:19] INFO root fetch - processPackages [parea-ai]: New version: [0.2.99] Old Version: [0.2.98]
+[2024-05-16 00:15:19] INFO root fetch - processPackages [pyfaust-torch]: Downloading https://files.pythonhosted.org/packages/ec/8f/ba7f4d26fba041d1f2e0fcd7ad415753bc01056605693666bd5bd220da77/pyfaust_torch-3.39.8-cp310-cp310-macosx_10_9_x86_64.whl
+[2024-05-16 00:15:19] INFO root fetch - processPackages [lbt-honeybee]: Downloading https://files.pythonhosted.org/packages/b5/a0/c6742c4b1a93565a552f073a8cad3689b9e2edcf401d45bd9fddf0485a8d/lbt-honeybee-0.8.98.tar.gz
+[2024-05-16 00:15:19] INFO root fetch - processPackages [pyfaust-openblaso]: Downloading https://files.pythonhosted.org/packages/11/3d/5ca945542bb2d8bd9c9639260036cd02a9b0120e957db14b0348cd0bd2f2/pyfaust_openblaso-3.39.8-cp310-cp310-manylinux1_x86_64.whl
+[2024-05-16 00:15:19] INFO root fetch - processPackages [mapel]: Downloading https://files.pythonhosted.org/packages/11/f4/3a305a53750aa47351d118c4146fb08db6ebf2645db74dac25fe06793af7/mapel-2.1.8.tar.gz
+[2024-05-16 00:15:19] WARNING root fetch - processPackages [pyfaust-openblaso]: Skipping package: exceeds size limit 21341166>=10485760
+[2024-05-16 00:15:19] INFO root fetch - processPackages [pyfaust-openblaso]: Start processing: deeprecsys
+[2024-05-16 00:15:19] INFO root fetch - main [MainThread]: End processing [pyfaust-openblaso] error
+[2024-05-16 00:15:19] INFO root fetch - processPackages [mapel-elections]: Downloading https://files.pythonhosted.org/packages/7a/f6/0fbac789eb1a0665e0996696dd8831b020c928eaf4c5c32f57dadcd4686a/mapel-elections-2.1.8.tar.gz
+[2024-05-16 00:15:19] INFO root fetch - processPackages [deeprecsys]: New version: [0.2.5] Old Version: [0.1.0]
+[2024-05-16 00:15:19] INFO root fetch - processPackages [relationalai]: Downloading https://files.pythonhosted.org/packages/bf/a0/dee6b40f527b33156f986b3dcf6a59a38b47dc607dba8c528087933fcd1c/relationalai-0.2.8.tar.gz
+[2024-05-16 00:15:19] INFO root fetch - processPackages [mapel-core]: Downloading https://files.pythonhosted.org/packages/f0/e8/351b7d562729255d7c27f1000d49755fc123a0fcf9b86ea2961ea93b1ab9/mapel-core-2.1.8.tar.gz
+[2024-05-16 00:15:19] INFO root fetch - processPackages [aipkgs-requests]: Downloading https://files.pythonhosted.org/packages/a0/0d/e707c14db978cf99575135341ab043cf40e904987499914174ed046cab07/aipkgs_requests-0.1.4.tar.gz
+[2024-05-16 00:15:19] INFO root fetch - processPackages [parea-ai]: Downloading https://files.pythonhosted.org/packages/cd/80/fcef2226405a0fb8e3a9a7fbda2b47a712f63d9294eac7e3fc336bbf5b0f/parea_ai-0.2.98.tar.gz
+[2024-05-16 00:15:19] INFO root fetch - processPackages [e-models]: Downloading https://files.pythonhosted.org/packages/62/66/544e27f881ffd80aa4243401715f58f50fbb21062b526f49d502288cb903/e_models-1.8.9.tar.gz
+[2024-05-16 00:15:19] INFO root fetch - processPackages [lbt-honeybee]: Downloading https://files.pythonhosted.org/packages/f1/61/4f36e668d3e1767b0f4d921481ad087bec472a2afc14ea20f916e083c690/lbt-honeybee-0.8.99.tar.gz
+[2024-05-16 00:15:20] INFO root fetch - processPackages [lbt-honeybee]: executing diffoscope
+[2024-05-16 00:15:20] INFO root fetch - processPackages [lbt-honeybee]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lbt-honeybee-0.8.98.tar.gz tmp/lbt-honeybee-0.8.99.tar.gz --markdown 20240516/l/lbt-honeybee/0.8.98-0.8.99/README.md --exclude *.pyd
+[2024-05-16 00:15:20] INFO root fetch - processPackages [e-models]: executing diffoscope
+[2024-05-16 00:15:20] INFO root fetch - processPackages [e-models]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/e-models-1.8.8.2.tar.gz tmp/e_models-1.8.9.tar.gz --markdown 20240516/e/e-models/1.8.8.2-1.8.9/README.md --exclude *.pyd
+[2024-05-16 00:15:20] INFO root fetch - processPackages [deeprecsys]: Downloading https://files.pythonhosted.org/packages/cd/65/5c7f1e4ce51683888430f6ce85bd1101f8b46642df95dd1adcb18d048ce5/deeprecsys-0.1.0.tar.gz
+[2024-05-16 00:15:20] INFO root fetch - processPackages [pyfaust-torch]: Downloading https://files.pythonhosted.org/packages/f3/1b/27f94659b8f7005771f16841c4b1ceaedef913f0c5c5e2f235a299e23975/pyfaust_torch-3.39.9-cp310-cp310-macosx_10_9_x86_64.whl
+[2024-05-16 00:15:20] INFO root fetch - processPackages [mapel]: Downloading https://files.pythonhosted.org/packages/01/e2/77c5bb73775f5d71f1536bb0dbe0a786099aca24d29743e5e0adfce7fa55/mapel-2.1.9.tar.gz
+[2024-05-16 00:15:20] INFO root fetch - processPackages [aipkgs-requests]: Downloading https://files.pythonhosted.org/packages/d1/fe/42af38b7290f18927cf7f6959c25aedbebc15e2326ff29f9e085919c6628/aipkgs_requests-1.0.1.tar.gz
+[2024-05-16 00:15:20] INFO root fetch - processPackages [mapel-core]: Downloading https://files.pythonhosted.org/packages/b5/81/e73f6cdb23b49b2583944a53bf47751860172f2dcd4b025666de75a273a4/mapel_core-2.1.9.tar.gz
+[2024-05-16 00:15:20] INFO root fetch - processPackages [parea-ai]: Downloading https://files.pythonhosted.org/packages/9d/1c/c389e28a1a12c54ff1c8111a2f00058e77ba07333943eb06d3592659a691/parea_ai-0.2.99.tar.gz
+[2024-05-16 00:15:20] INFO root fetch - processPackages [aipkgs-requests]: executing diffoscope
+[2024-05-16 00:15:20] INFO root fetch - processPackages [aipkgs-requests]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aipkgs_requests-0.1.4.tar.gz tmp/aipkgs_requests-1.0.1.tar.gz --markdown 20240516/a/aipkgs-requests/0.1.4-1.0.1/README.md --exclude *.pyd
+[2024-05-16 00:15:20] INFO root fetch - processPackages [relationalai]: Downloading https://files.pythonhosted.org/packages/42/fd/6d9767fd627a5eee45e82e5be5a4901a1f04af3aab5c3ccec6a55441e906/relationalai-0.2.9.tar.gz
+[2024-05-16 00:15:20] INFO root fetch - processPackages [mapel-core]: executing diffoscope
+[2024-05-16 00:15:20] INFO root fetch - processPackages [mapel-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mapel-core-2.1.8.tar.gz tmp/mapel_core-2.1.9.tar.gz --markdown 20240516/m/mapel-core/2.1.8-2.1.9/README.md --exclude *.pyd
+[2024-05-16 00:15:20] INFO root fetch - processPackages [pyfaust-torch]: executing diffoscope
+[2024-05-16 00:15:20] INFO root fetch - processPackages [pyfaust-torch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyfaust_torch-3.39.8-cp310-cp310-macosx_10_9_x86_64.whl.zip tmp/pyfaust_torch-3.39.9-cp310-cp310-macosx_10_9_x86_64.whl.zip --markdown 20240516/p/pyfaust-torch/3.39.8-3.39.9/README.md --exclude *.pyd
+[2024-05-16 00:15:20] INFO root fetch - processPackages [deeprecsys]: Downloading https://files.pythonhosted.org/packages/03/7b/c3a18e7fd5b03f04bc3eea89270f321ec6d9163dfff4b4b32e045c62ec69/deeprecsys-0.2.5.tar.gz
+[2024-05-16 00:15:20] INFO root fetch - processPackages [mapel-elections]: Downloading https://files.pythonhosted.org/packages/6a/71/f78713d1952e991df22550e4be1209178a0171e25b21026e9a0ea1a1c162/mapel_elections-2.1.9.tar.gz
+[2024-05-16 00:15:20] INFO root fetch - processPackages [deeprecsys]: executing diffoscope
+[2024-05-16 00:15:20] INFO root fetch - processPackages [deeprecsys]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/deeprecsys-0.1.0.tar.gz tmp/deeprecsys-0.2.5.tar.gz --markdown 20240516/d/deeprecsys/0.1.0-0.2.5/README.md --exclude *.pyd
+[2024-05-16 00:15:20] INFO root fetch - processPackages [parea-ai]: executing diffoscope
+[2024-05-16 00:15:20] INFO root fetch - processPackages [parea-ai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/parea_ai-0.2.98.tar.gz tmp/parea_ai-0.2.99.tar.gz --markdown 20240516/p/parea-ai/0.2.98-0.2.99/README.md --exclude *.pyd
+[2024-05-16 00:15:20] INFO root fetch - processPackages [relationalai]: executing diffoscope
+[2024-05-16 00:15:20] INFO root fetch - processPackages [relationalai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/relationalai-0.2.8.tar.gz tmp/relationalai-0.2.9.tar.gz --markdown 20240516/r/relationalai/0.2.8-0.2.9/README.md --exclude *.pyd
+[2024-05-16 00:15:20] INFO root fetch - processPackages [mapel-elections]: executing diffoscope
+[2024-05-16 00:15:20] INFO root fetch - processPackages [mapel-elections]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mapel-elections-2.1.8.tar.gz tmp/mapel_elections-2.1.9.tar.gz --markdown 20240516/m/mapel-elections/2.1.8-2.1.9/README.md --exclude *.pyd
+[2024-05-16 00:15:20] INFO root fetch - processPackages [e-models]: Remove: archive file [/home/abi/fetcher/tmp/e-models-1.8.8.2.tar.gz]
+[2024-05-16 00:15:20] INFO root fetch - processPackages [e-models]: Remove: archive file [/home/abi/fetcher/tmp/e_models-1.8.9.tar.gz]
+[2024-05-16 00:15:20] INFO root fetch - processPackages [e-models]: Start processing: torch-log-wmse-audio-quality
+[2024-05-16 00:15:20] INFO root fetch - main [MainThread]: End processing [e-models]: success
+[2024-05-16 00:15:20] INFO root fetch - processPackages [lbt-honeybee]: Remove: archive file [/home/abi/fetcher/tmp/lbt-honeybee-0.8.98.tar.gz]
+[2024-05-16 00:15:20] INFO root fetch - processPackages [lbt-honeybee]: Remove: archive file [/home/abi/fetcher/tmp/lbt-honeybee-0.8.99.tar.gz]
+[2024-05-16 00:15:20] INFO root fetch - processPackages [lbt-honeybee]: Start processing: pulumi-eks
+[2024-05-16 00:15:20] INFO root fetch - main [MainThread]: End processing [lbt-honeybee]: success
+[2024-05-16 00:15:20] INFO root fetch - processPackages [mapel]: executing diffoscope
+[2024-05-16 00:15:20] INFO root fetch - processPackages [mapel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mapel-2.1.8.tar.gz tmp/mapel-2.1.9.tar.gz --markdown 20240516/m/mapel/2.1.8-2.1.9/README.md --exclude *.pyd
+[2024-05-16 00:15:20] INFO root fetch - processPackages [pulumi-eks]: New version: [2.4.0a1715798612] Old Version: [2.4.0a1715729375]
+[2024-05-16 00:15:21] WARNING root fetch - processPackages [torch-log-wmse-audio-quality]: Skipping, unable to determine old version
+[2024-05-16 00:15:21] INFO root fetch - processPackages [torch-log-wmse-audio-quality]: Start processing: tencentcloud-sdk-python-lke
+[2024-05-16 00:15:21] INFO root fetch - main [MainThread]: End processing [torch-log-wmse-audio-quality] error
+[2024-05-16 00:15:21] INFO root fetch - processPackages [pulumi-eks]: Downloading https://files.pythonhosted.org/packages/c4/20/04f13fd4d3529eed6f84db2bfe0538e22b1e73f94525f879065811b37581/pulumi_eks-2.4.0a1715729375.tar.gz
+[2024-05-16 00:15:21] INFO root fetch - processPackages [aipkgs-requests]: Remove: archive file [/home/abi/fetcher/tmp/aipkgs_requests-0.1.4.tar.gz]
+[2024-05-16 00:15:21] INFO root fetch - processPackages [aipkgs-requests]: Remove: archive file [/home/abi/fetcher/tmp/aipkgs_requests-1.0.1.tar.gz]
+[2024-05-16 00:15:21] INFO root fetch - processPackages [aipkgs-requests]: Start processing: tencentcloud-sdk-python-lowcode
+[2024-05-16 00:15:21] INFO root fetch - main [MainThread]: End processing [aipkgs-requests]: success
+[2024-05-16 00:15:21] INFO root fetch - processPackages [tencentcloud-sdk-python-lke]: New version: [3.0.1147] Old Version: [3.0.1146]
+[2024-05-16 00:15:21] INFO root fetch - processPackages [pulumi-eks]: Downloading https://files.pythonhosted.org/packages/e9/bb/ba4b00fda78e410e744500dfaf7b445e0d658a78afd297c4e1a1c52389c6/pulumi_eks-2.4.0a1715798612.tar.gz
+[2024-05-16 00:15:21] INFO root fetch - processPackages [mapel-core]: Remove: archive file [/home/abi/fetcher/tmp/mapel-core-2.1.8.tar.gz]
+[2024-05-16 00:15:21] INFO root fetch - processPackages [mapel-core]: Remove: archive file [/home/abi/fetcher/tmp/mapel_core-2.1.9.tar.gz]
+[2024-05-16 00:15:21] INFO root fetch - processPackages [mapel-core]: Start processing: aipkgs-firebase
+[2024-05-16 00:15:21] INFO root fetch - main [MainThread]: End processing [mapel-core]: success
+[2024-05-16 00:15:21] INFO root fetch - processPackages [tencentcloud-sdk-python-lke]: Downloading https://files.pythonhosted.org/packages/af/72/29bd3e8738fdee48d5454bfefb2536fedd2268c3d29e689bfeaca9f589b5/tencentcloud-sdk-python-lke-3.0.1146.tar.gz
+[2024-05-16 00:15:21] INFO root fetch - processPackages [tencentcloud-sdk-python-lowcode]: New version: [3.0.999] Old Version: [3.0.998]
+[2024-05-16 00:15:21] INFO root fetch - processPackages [aipkgs-firebase]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-05-16 00:15:21] INFO root fetch - processPackages [pulumi-eks]: executing diffoscope
+[2024-05-16 00:15:21] INFO root fetch - processPackages [pulumi-eks]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_eks-2.4.0a1715729375.tar.gz tmp/pulumi_eks-2.4.0a1715798612.tar.gz --markdown 20240516/p/pulumi-eks/2.4.0a1715729375-2.4.0a1715798612/README.md --exclude *.pyd
+[2024-05-16 00:15:21] INFO root fetch - processPackages [aipkgs-firebase]: Downloading https://files.pythonhosted.org/packages/1a/d4/6c4f3e872c2147eb80fd6b4de119d764bb171be47edb4deea6ef436b7cd2/aipkgs_firebase-1.0.8.tar.gz
+[2024-05-16 00:15:21] INFO root fetch - processPackages [tencentcloud-sdk-python-lowcode]: Downloading https://files.pythonhosted.org/packages/e4/26/f031555e9e86b1b30f0f1330c1f330b95c2cb83d249a695ead0a05ae75cf/tencentcloud-sdk-python-lowcode-3.0.998.tar.gz
+[2024-05-16 00:15:21] INFO root fetch - processPackages [tencentcloud-sdk-python-lke]: Downloading https://files.pythonhosted.org/packages/cd/74/1792ca2eccfdc8ceb53bdbeaf5dfc9e982f09e73a233ce89e20dd73a69a7/tencentcloud-sdk-python-lke-3.0.1147.tar.gz
+[2024-05-16 00:15:21] INFO root fetch - processPackages [mapel]: Remove: archive file [/home/abi/fetcher/tmp/mapel-2.1.8.tar.gz]
+[2024-05-16 00:15:21] INFO root fetch - processPackages [mapel]: Remove: archive file [/home/abi/fetcher/tmp/mapel-2.1.9.tar.gz]
+[2024-05-16 00:15:21] INFO root fetch - processPackages [deeprecsys]: Remove: archive file [/home/abi/fetcher/tmp/deeprecsys-0.1.0.tar.gz]
+[2024-05-16 00:15:21] INFO root fetch - processPackages [deeprecsys]: Remove: archive file [/home/abi/fetcher/tmp/deeprecsys-0.2.5.tar.gz]
+[2024-05-16 00:15:21] INFO root fetch - processPackages [mapel]: Start processing: tencentcloud-sdk-python-lp
+[2024-05-16 00:15:21] INFO root fetch - main [MainThread]: End processing [mapel]: success
+[2024-05-16 00:15:21] INFO root fetch - processPackages [deeprecsys]: Start processing: mapel-marriages
+[2024-05-16 00:15:21] INFO root fetch - main [MainThread]: End processing [deeprecsys]: success
+[2024-05-16 00:15:21] INFO root fetch - processPackages [aipkgs-firebase]: Downloading https://files.pythonhosted.org/packages/0b/8f/79aa4f49b126e07ecfc5de22c65081be588bc57ad24a2cebb390785e81e5/aipkgs_firebase-1.0.9.tar.gz
+[2024-05-16 00:15:21] INFO root fetch - processPackages [mapel-elections]: Remove: archive file [/home/abi/fetcher/tmp/mapel-elections-2.1.8.tar.gz]
+[2024-05-16 00:15:21] INFO root fetch - processPackages [mapel-elections]: Remove: archive file [/home/abi/fetcher/tmp/mapel_elections-2.1.9.tar.gz]
+[2024-05-16 00:15:21] INFO root fetch - processPackages [mapel-elections]: Start processing: mapel-roommates
+[2024-05-16 00:15:21] INFO root fetch - main [MainThread]: End processing [mapel-elections]: success
+[2024-05-16 00:15:21] INFO root fetch - processPackages [tencentcloud-sdk-python-lke]: executing diffoscope
+[2024-05-16 00:15:21] INFO root fetch - processPackages [tencentcloud-sdk-python-lke]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud-sdk-python-lke-3.0.1146.tar.gz tmp/tencentcloud-sdk-python-lke-3.0.1147.tar.gz --markdown 20240516/t/tencentcloud-sdk-python-lke/3.0.1146-3.0.1147/README.md --exclude *.pyd
+[2024-05-16 00:15:21] INFO root fetch - processPackages [mapel-marriages]: New version: [2.1.9] Old Version: [2.1.8]
+[2024-05-16 00:15:21] INFO root fetch - processPackages [aipkgs-firebase]: executing diffoscope
+[2024-05-16 00:15:21] INFO root fetch - processPackages [aipkgs-firebase]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aipkgs_firebase-1.0.8.tar.gz tmp/aipkgs_firebase-1.0.9.tar.gz --markdown 20240516/a/aipkgs-firebase/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-05-16 00:15:22] INFO root fetch - processPackages [mapel-roommates]: New version: [2.1.9] Old Version: [2.1.8]
+[2024-05-16 00:15:22] INFO root fetch - processPackages [tencentcloud-sdk-python-lowcode]: Downloading https://files.pythonhosted.org/packages/23/65/b335540552be64dcbfa4d948258cfca1a8cc873f5f940fde2debda1f1ef6/tencentcloud-sdk-python-lowcode-3.0.999.tar.gz
+[2024-05-16 00:15:22] INFO root fetch - processPackages [tencentcloud-sdk-python-lp]: New version: [3.0.999] Old Version: [3.0.998]
+[2024-05-16 00:15:22] INFO root fetch - processPackages [parea-ai]: Remove: archive file [/home/abi/fetcher/tmp/parea_ai-0.2.98.tar.gz]
+[2024-05-16 00:15:22] INFO root fetch - processPackages [parea-ai]: Remove: archive file [/home/abi/fetcher/tmp/parea_ai-0.2.99.tar.gz]
+[2024-05-16 00:15:22] INFO root fetch - processPackages [parea-ai]: Start processing: addecli
+[2024-05-16 00:15:22] INFO root fetch - main [MainThread]: End processing [parea-ai]: success
+[2024-05-16 00:15:22] INFO root fetch - processPackages [mapel-marriages]: Downloading https://files.pythonhosted.org/packages/7c/b6/b9e31b8593b48d6166357cd6822ecb8942f879f8b99bd2089d1cb58b9fe4/mapel-marriages-2.1.8.tar.gz
+[2024-05-16 00:15:22] INFO root fetch - processPackages [tencentcloud-sdk-python-lowcode]: executing diffoscope
+[2024-05-16 00:15:22] INFO root fetch - processPackages [tencentcloud-sdk-python-lowcode]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud-sdk-python-lowcode-3.0.998.tar.gz tmp/tencentcloud-sdk-python-lowcode-3.0.999.tar.gz --markdown 20240516/t/tencentcloud-sdk-python-lowcode/3.0.998-3.0.999/README.md --exclude *.pyd
+[2024-05-16 00:15:22] INFO root fetch - processPackages [mapel-roommates]: Downloading https://files.pythonhosted.org/packages/57/26/308c1e4711754ed8f88f50ee00e9f0310f980e50934f948605ff3a2dc536/mapel-roommates-2.1.8.tar.gz
+[2024-05-16 00:15:22] WARNING root fetch - processPackages [addecli]: Skipping, unable to determine old version
+[2024-05-16 00:15:22] INFO root fetch - main [MainThread]: End processing [addecli] error
+[2024-05-16 00:15:22] INFO root fetch - processPackages [tencentcloud-sdk-python-lp]: Downloading https://files.pythonhosted.org/packages/73/10/583f66876aba3491d6878a04d05178daae24a188a000e6e6d8af153638d5/tencentcloud-sdk-python-lp-3.0.998.tar.gz
+[2024-05-16 00:15:22] INFO root fetch - processPackages [pulumi-eks]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_eks-2.4.0a1715729375.tar.gz]
+[2024-05-16 00:15:22] INFO root fetch - processPackages [pulumi-eks]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_eks-2.4.0a1715798612.tar.gz]
+[2024-05-16 00:15:22] INFO root fetch - main [MainThread]: End processing [pulumi-eks]: success
+[2024-05-16 00:15:22] INFO root fetch - processPackages [aipkgs-firebase]: Remove: archive file [/home/abi/fetcher/tmp/aipkgs_firebase-1.0.8.tar.gz]
+[2024-05-16 00:15:22] INFO root fetch - processPackages [aipkgs-firebase]: Remove: archive file [/home/abi/fetcher/tmp/aipkgs_firebase-1.0.9.tar.gz]
+[2024-05-16 00:15:22] INFO root fetch - main [MainThread]: End processing [aipkgs-firebase]: success
+[2024-05-16 00:15:22] INFO root fetch - processPackages [mapel-marriages]: Downloading https://files.pythonhosted.org/packages/26/5d/9dda2034a369356f7afbaac33c470e4ccbad16f0d5b29811167a81ac077c/mapel_marriages-2.1.9.tar.gz
+[2024-05-16 00:15:22] INFO root fetch - processPackages [tencentcloud-sdk-python-lp]: Downloading https://files.pythonhosted.org/packages/3b/e9/3b1e9c47caeca04fea9d026968920bf2297c384cf63a5f5740e62a0a787f/tencentcloud-sdk-python-lp-3.0.999.tar.gz
+[2024-05-16 00:15:22] INFO root fetch - processPackages [mapel-roommates]: Downloading https://files.pythonhosted.org/packages/da/78/68a4a7b1e75443e72847cb33052d9b08470717a3d0cccf01fe2211e9ec7d/mapel_roommates-2.1.9.tar.gz
+[2024-05-16 00:15:22] INFO root fetch - processPackages [tencentcloud-sdk-python-lke]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-lke-3.0.1146.tar.gz]
+[2024-05-16 00:15:22] INFO root fetch - processPackages [tencentcloud-sdk-python-lke]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-lke-3.0.1147.tar.gz]
+[2024-05-16 00:15:22] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-lke]: success
+[2024-05-16 00:15:22] INFO root fetch - processPackages [tencentcloud-sdk-python-lp]: executing diffoscope
+[2024-05-16 00:15:22] INFO root fetch - processPackages [tencentcloud-sdk-python-lp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud-sdk-python-lp-3.0.998.tar.gz tmp/tencentcloud-sdk-python-lp-3.0.999.tar.gz --markdown 20240516/t/tencentcloud-sdk-python-lp/3.0.998-3.0.999/README.md --exclude *.pyd
+[2024-05-16 00:15:22] INFO root fetch - processPackages [mapel-marriages]: executing diffoscope
+[2024-05-16 00:15:22] INFO root fetch - processPackages [mapel-marriages]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mapel-marriages-2.1.8.tar.gz tmp/mapel_marriages-2.1.9.tar.gz --markdown 20240516/m/mapel-marriages/2.1.8-2.1.9/README.md --exclude *.pyd
+[2024-05-16 00:15:22] INFO root fetch - processPackages [tencentcloud-sdk-python-lowcode]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-lowcode-3.0.998.tar.gz]
+[2024-05-16 00:15:22] INFO root fetch - processPackages [tencentcloud-sdk-python-lowcode]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-lowcode-3.0.999.tar.gz]
+[2024-05-16 00:15:22] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-lowcode]: success
+[2024-05-16 00:15:22] INFO root fetch - processPackages [mapel-roommates]: executing diffoscope
+[2024-05-16 00:15:22] INFO root fetch - processPackages [mapel-roommates]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mapel-roommates-2.1.8.tar.gz tmp/mapel_roommates-2.1.9.tar.gz --markdown 20240516/m/mapel-roommates/2.1.8-2.1.9/README.md --exclude *.pyd
+[2024-05-16 00:15:23] INFO root fetch - processPackages [tencentcloud-sdk-python-lp]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-lp-3.0.998.tar.gz]
+[2024-05-16 00:15:23] INFO root fetch - processPackages [tencentcloud-sdk-python-lp]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-lp-3.0.999.tar.gz]
+[2024-05-16 00:15:23] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-lp]: success
+[2024-05-16 00:15:23] INFO root fetch - processPackages [relationalai]: Remove: archive file [/home/abi/fetcher/tmp/relationalai-0.2.8.tar.gz]
+[2024-05-16 00:15:23] INFO root fetch - processPackages [relationalai]: Remove: archive file [/home/abi/fetcher/tmp/relationalai-0.2.9.tar.gz]
+[2024-05-16 00:15:23] INFO root fetch - main [MainThread]: End processing [relationalai]: success
+[2024-05-16 00:15:23] INFO root fetch - processPackages [mapel-marriages]: Remove: archive file [/home/abi/fetcher/tmp/mapel-marriages-2.1.8.tar.gz]
+[2024-05-16 00:15:23] INFO root fetch - processPackages [mapel-marriages]: Remove: archive file [/home/abi/fetcher/tmp/mapel_marriages-2.1.9.tar.gz]
+[2024-05-16 00:15:23] INFO root fetch - main [MainThread]: End processing [mapel-marriages]: success
+[2024-05-16 00:15:23] INFO root fetch - processPackages [mapel-roommates]: Remove: archive file [/home/abi/fetcher/tmp/mapel-roommates-2.1.8.tar.gz]
+[2024-05-16 00:15:23] INFO root fetch - processPackages [mapel-roommates]: Remove: archive file [/home/abi/fetcher/tmp/mapel_roommates-2.1.9.tar.gz]
+[2024-05-16 00:15:23] INFO root fetch - main [MainThread]: End processing [mapel-roommates]: success
+[2024-05-16 00:15:56] INFO root fetch - processPackages [pyfaust-torch]: Remove: archive file [/home/abi/fetcher/tmp/pyfaust_torch-3.39.8-cp310-cp310-macosx_10_9_x86_64.whl.zip]
+[2024-05-16 00:15:56] INFO root fetch - processPackages [pyfaust-torch]: Remove: archive file [/home/abi/fetcher/tmp/pyfaust_torch-3.39.9-cp310-cp310-macosx_10_9_x86_64.whl.zip]
+[2024-05-16 00:15:56] INFO root fetch - main [MainThread]: End processing [pyfaust-torch]: success
+[2024-05-16 00:15:56] INFO root fetch - main [MainThread]: Store serial: [23225392]
