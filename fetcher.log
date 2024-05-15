@@ -1572,3 +1572,60 @@ AssertionError: tmp/hygpytools-0.2.0.tar.gz does not exist
 [2024-05-16 00:48:41] INFO root fetch - processPackages [tencentcloud-sdk-python-scf]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-scf-3.0.999.tar.gz]
 [2024-05-16 00:48:41] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-scf]: success
 [2024-05-16 00:48:41] INFO root fetch - main [MainThread]: Store serial: [23225791]
+[2024-05-16 00:50:46] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23225791]
+[2024-05-16 00:50:50] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-16 00:50:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ELSholdings
+[2024-05-16 00:50:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: dvcx
+[2024-05-16 00:50:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: tencentcloud-sdk-python-ses
+[2024-05-16 00:50:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: tencentcloud-sdk-python-smh
+[2024-05-16 00:50:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: peid
+[2024-05-16 00:50:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: cterasdk
+[2024-05-16 00:50:51] INFO root fetch - processPackages [peid]: New version: [2.1.1] Old Version: [2.1.0]
+[2024-05-16 00:50:51] INFO root fetch - processPackages [ELSholdings]: New version: [2.1.0] Old Version: [2.0.2]
+[2024-05-16 00:50:51] INFO root fetch - processPackages [dvcx]: New version: [0.79.0] Old Version: [0.78.2]
+[2024-05-16 00:50:51] INFO root fetch - processPackages [cterasdk]: New version: [2.9.0] Old Version: [2.8.32]
+[2024-05-16 00:50:51] INFO root fetch - processPackages [tencentcloud-sdk-python-smh]: New version: [3.0.999] Old Version: [3.0.998]
+[2024-05-16 00:50:51] INFO root fetch - processPackages [tencentcloud-sdk-python-ses]: New version: [3.0.999] Old Version: [3.0.998]
+[2024-05-16 00:50:51] INFO root fetch - processPackages [peid]: Downloading https://files.pythonhosted.org/packages/f8/00/55c16f5b428730312e163112dbade8a9c2cd31341a3375813326fd205f92/peid-2.1.0.tar.gz
+[2024-05-16 00:50:51] INFO root fetch - processPackages [ELSholdings]: Downloading https://files.pythonhosted.org/packages/04/3f/d1f09c8033eaa8b133c4d58232f46b2fb1857c34297de8c9a9ad179151c6/elsholdings-2.0.2.tar.gz
+[2024-05-16 00:50:51] INFO root fetch - processPackages [dvcx]: Downloading https://files.pythonhosted.org/packages/28/25/429c448de5aa6ed96d2299aaa27ebb4b9e58dee854d3edee4175766716a9/dvcx-0.78.2.tar.gz
+[2024-05-16 00:50:51] INFO root fetch - processPackages [cterasdk]: Downloading https://files.pythonhosted.org/packages/c2/ce/c95746ee47212ba7b5c85fcfa94d1ebbcf4e2531af136ebcc0e3a2e3bf1e/cterasdk-2.8.32.tar.gz
+[2024-05-16 00:50:51] INFO root fetch - processPackages [tencentcloud-sdk-python-smh]: Downloading https://files.pythonhosted.org/packages/1e/db/560ff11973d0c66b303eb20ad403508134005ea332cd32cac5b23654724d/tencentcloud-sdk-python-smh-3.0.998.tar.gz
+[2024-05-16 00:50:51] INFO root fetch - processPackages [tencentcloud-sdk-python-ses]: Downloading https://files.pythonhosted.org/packages/d1/c7/457c6981a530bdf38d9bc789100b433eb7e46cf6a1cc5fc909f90257529b/tencentcloud-sdk-python-ses-3.0.998.tar.gz
+[2024-05-16 00:50:51] INFO root fetch - processPackages [ELSholdings]: Downloading https://files.pythonhosted.org/packages/6d/c5/f5078746c4d5875a0096ac48b64a5fa63dcde404a2d44cef3126afc60b52/elsholdings-2.1.0.tar.gz
+[2024-05-16 00:50:51] INFO root fetch - processPackages [tencentcloud-sdk-python-smh]: Downloading https://files.pythonhosted.org/packages/16/5f/3ee77675d98e14554da6aaf31d1accf714804840925d1c0719525dcf82c1/tencentcloud-sdk-python-smh-3.0.999.tar.gz
+[2024-05-16 00:50:51] INFO root fetch - processPackages [dvcx]: Downloading https://files.pythonhosted.org/packages/22/38/e0d8818811e86cd1439121b9981a09f9be9fb20d3565e11ee6fe25dcec7f/dvcx-0.79.0.tar.gz
+[2024-05-16 00:50:52] INFO root fetch - processPackages [ELSholdings]: executing diffoscope
+[2024-05-16 00:50:52] INFO root fetch - processPackages [ELSholdings]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/elsholdings-2.0.2.tar.gz tmp/elsholdings-2.1.0.tar.gz --markdown 20240516/E/ELSholdings/2.0.2-2.1.0/README.md --exclude *.pyd
+[2024-05-16 00:50:52] INFO root fetch - processPackages [tencentcloud-sdk-python-ses]: Downloading https://files.pythonhosted.org/packages/8d/98/7cfc31eba595870ce1e98b208827b4d39c56995be1ac5c57018425cb135f/tencentcloud-sdk-python-ses-3.0.999.tar.gz
+[2024-05-16 00:50:52] INFO root fetch - processPackages [cterasdk]: Downloading https://files.pythonhosted.org/packages/d4/ab/317328c3787fbc48fb1b583a042be4337d3957d4b83b9eaa386bffe76e02/cterasdk-2.9.0.tar.gz
+[2024-05-16 00:50:52] INFO root fetch - processPackages [peid]: Downloading https://files.pythonhosted.org/packages/1c/d2/e0101032fc16cdf30cd22614b6840b548cbfeb951543fa75ea271bbb146b/peid-2.1.1.tar.gz
+[2024-05-16 00:50:52] INFO root fetch - processPackages [tencentcloud-sdk-python-smh]: executing diffoscope
+[2024-05-16 00:50:52] INFO root fetch - processPackages [tencentcloud-sdk-python-smh]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud-sdk-python-smh-3.0.998.tar.gz tmp/tencentcloud-sdk-python-smh-3.0.999.tar.gz --markdown 20240516/t/tencentcloud-sdk-python-smh/3.0.998-3.0.999/README.md --exclude *.pyd
+[2024-05-16 00:50:52] INFO root fetch - processPackages [dvcx]: executing diffoscope
+[2024-05-16 00:50:52] INFO root fetch - processPackages [dvcx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dvcx-0.78.2.tar.gz tmp/dvcx-0.79.0.tar.gz --markdown 20240516/d/dvcx/0.78.2-0.79.0/README.md --exclude *.pyd
+[2024-05-16 00:50:52] INFO root fetch - processPackages [tencentcloud-sdk-python-ses]: executing diffoscope
+[2024-05-16 00:50:52] INFO root fetch - processPackages [tencentcloud-sdk-python-ses]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud-sdk-python-ses-3.0.998.tar.gz tmp/tencentcloud-sdk-python-ses-3.0.999.tar.gz --markdown 20240516/t/tencentcloud-sdk-python-ses/3.0.998-3.0.999/README.md --exclude *.pyd
+[2024-05-16 00:50:52] INFO root fetch - processPackages [peid]: executing diffoscope
+[2024-05-16 00:50:52] INFO root fetch - processPackages [peid]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/peid-2.1.0.tar.gz tmp/peid-2.1.1.tar.gz --markdown 20240516/p/peid/2.1.0-2.1.1/README.md --exclude *.pyd
+[2024-05-16 00:50:52] INFO root fetch - processPackages [cterasdk]: executing diffoscope
+[2024-05-16 00:50:52] INFO root fetch - processPackages [cterasdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cterasdk-2.8.32.tar.gz tmp/cterasdk-2.9.0.tar.gz --markdown 20240516/c/cterasdk/2.8.32-2.9.0/README.md --exclude *.pyd
+[2024-05-16 00:50:52] INFO root fetch - processPackages [ELSholdings]: Remove: archive file [/home/abi/fetcher/tmp/elsholdings-2.0.2.tar.gz]
+[2024-05-16 00:50:52] INFO root fetch - processPackages [ELSholdings]: Remove: archive file [/home/abi/fetcher/tmp/elsholdings-2.1.0.tar.gz]
+[2024-05-16 00:50:52] INFO root fetch - main [MainThread]: End processing [ELSholdings]: success
+[2024-05-16 00:50:52] INFO root fetch - processPackages [tencentcloud-sdk-python-smh]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-smh-3.0.998.tar.gz]
+[2024-05-16 00:50:52] INFO root fetch - processPackages [tencentcloud-sdk-python-smh]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-smh-3.0.999.tar.gz]
+[2024-05-16 00:50:52] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-smh]: success
+[2024-05-16 00:50:52] INFO root fetch - processPackages [tencentcloud-sdk-python-ses]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-ses-3.0.998.tar.gz]
+[2024-05-16 00:50:52] INFO root fetch - processPackages [tencentcloud-sdk-python-ses]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-ses-3.0.999.tar.gz]
+[2024-05-16 00:50:52] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-ses]: success
+[2024-05-16 00:50:53] INFO root fetch - processPackages [peid]: Remove: archive file [/home/abi/fetcher/tmp/peid-2.1.0.tar.gz]
+[2024-05-16 00:50:53] INFO root fetch - processPackages [peid]: Remove: archive file [/home/abi/fetcher/tmp/peid-2.1.1.tar.gz]
+[2024-05-16 00:50:53] INFO root fetch - main [MainThread]: End processing [peid]: success
+[2024-05-16 00:50:53] INFO root fetch - processPackages [cterasdk]: Remove: archive file [/home/abi/fetcher/tmp/cterasdk-2.8.32.tar.gz]
+[2024-05-16 00:50:53] INFO root fetch - processPackages [cterasdk]: Remove: archive file [/home/abi/fetcher/tmp/cterasdk-2.9.0.tar.gz]
+[2024-05-16 00:50:53] INFO root fetch - main [MainThread]: End processing [cterasdk]: success
+[2024-05-16 00:50:53] INFO root fetch - processPackages [dvcx]: Remove: archive file [/home/abi/fetcher/tmp/dvcx-0.78.2.tar.gz]
+[2024-05-16 00:50:53] INFO root fetch - processPackages [dvcx]: Remove: archive file [/home/abi/fetcher/tmp/dvcx-0.79.0.tar.gz]
+[2024-05-16 00:50:53] INFO root fetch - main [MainThread]: End processing [dvcx]: success
+[2024-05-16 00:50:53] INFO root fetch - main [MainThread]: Store serial: [23225810]
