@@ -3014,3 +3014,54 @@ AssertionError: tmp/hygpytools-0.2.0.tar.gz does not exist
 [2024-05-16 01:48:09] INFO root fetch - processPackages [tencentcloud-sdk-python-vm]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-vm-3.0.999.tar.gz]
 [2024-05-16 01:48:09] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-vm]: success
 [2024-05-16 01:48:09] INFO root fetch - main [MainThread]: Store serial: [23226344]
+[2024-05-16 01:50:13] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23226344]
+[2024-05-16 01:50:18] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-16 01:50:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: aipkgs-twilio
+[2024-05-16 01:50:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: honeybee-radiance-postprocess
+[2024-05-16 01:50:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: update_toml
+[2024-05-16 01:50:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: geodesic-api
+[2024-05-16 01:50:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ELSholdings
+[2024-05-16 01:50:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: freegenius
+[2024-05-16 01:50:18] INFO root fetch - processPackages [update_toml]: New version: [0.2.0] Old Version: [0.1.0]
+[2024-05-16 01:50:18] INFO root fetch - processPackages [ELSholdings]: New version: [2.1.0] Old Version: [2.0.2]
+[2024-05-16 01:50:18] INFO root fetch - processPackages [geodesic-api]: New version: [0.9.0] Old Version: [0.8.7]
+[2024-05-16 01:50:18] INFO root fetch - processPackages [freegenius]: New version: [0.2.9] Old Version: [0.2.8]
+[2024-05-16 01:50:18] INFO root fetch - processPackages [honeybee-radiance-postprocess]: New version: [0.4.99] Old Version: [0.4.98]
+[2024-05-16 01:50:18] WARNING root fetch - processPackages [aipkgs-twilio]: Skipping, unable to determine old version
+[2024-05-16 01:50:18] INFO root fetch - main [MainThread]: End processing [aipkgs-twilio] error
+[2024-05-16 01:50:18] INFO root fetch - processPackages [freegenius]: Downloading https://files.pythonhosted.org/packages/d5/ca/411a282eb501daf2e794cd1fb0f3e90fdbc6bf2302cf9c34892282b27dbc/freegenius-0.2.8.tar.gz
+[2024-05-16 01:50:18] INFO root fetch - processPackages [ELSholdings]: Downloading https://files.pythonhosted.org/packages/04/3f/d1f09c8033eaa8b133c4d58232f46b2fb1857c34297de8c9a9ad179151c6/elsholdings-2.0.2.tar.gz
+[2024-05-16 01:50:18] INFO root fetch - processPackages [geodesic-api]: Downloading https://files.pythonhosted.org/packages/6a/a8/14dfb83cda43cbac659279db5f70de1b36c3e82ad69a56b069a6770e1bc8/geodesic_api-0.8.7-py3-none-any.whl
+[2024-05-16 01:50:18] INFO root fetch - processPackages [update_toml]: Downloading https://files.pythonhosted.org/packages/7d/cd/38d509736c8d1283f6ca822e49cfc33017c63ca869a5a194455969f183c2/update_toml-0.1.0.tar.gz
+[2024-05-16 01:50:18] INFO root fetch - processPackages [honeybee-radiance-postprocess]: Downloading https://files.pythonhosted.org/packages/b6/91/e656cf214b08dde444b27576e74fc06004fa6bbc0d5f04f1d6514eb05429/honeybee-radiance-postprocess-0.4.98.tar.gz
+[2024-05-16 01:50:18] INFO root fetch - processPackages [ELSholdings]: Downloading https://files.pythonhosted.org/packages/6d/c5/f5078746c4d5875a0096ac48b64a5fa63dcde404a2d44cef3126afc60b52/elsholdings-2.1.0.tar.gz
+[2024-05-16 01:50:18] INFO root fetch - processPackages [geodesic-api]: Downloading https://files.pythonhosted.org/packages/b5/87/6f6437e716fb0cb26a0c09ae9e51e19882b0f84a7d7d8e55aaeca7125838/geodesic_api-0.9.0-py3-none-any.whl
+[2024-05-16 01:50:19] INFO root fetch - processPackages [honeybee-radiance-postprocess]: Downloading https://files.pythonhosted.org/packages/e0/41/5be881e0724bb4d271ee5bb707666eff4c4b9ca79bc8c67f7316687d2f67/honeybee-radiance-postprocess-0.4.99.tar.gz
+[2024-05-16 01:50:19] INFO root fetch - processPackages [ELSholdings]: executing diffoscope
+[2024-05-16 01:50:19] INFO root fetch - processPackages [ELSholdings]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/elsholdings-2.0.2.tar.gz tmp/elsholdings-2.1.0.tar.gz --markdown 20240516/E/ELSholdings/2.0.2-2.1.0/README.md --exclude *.pyd
+[2024-05-16 01:50:19] INFO root fetch - processPackages [geodesic-api]: executing diffoscope
+[2024-05-16 01:50:19] INFO root fetch - processPackages [geodesic-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/geodesic_api-0.8.7-py3-none-any.whl.zip tmp/geodesic_api-0.9.0-py3-none-any.whl.zip --markdown 20240516/g/geodesic-api/0.8.7-0.9.0/README.md --exclude *.pyd
+[2024-05-16 01:50:19] INFO root fetch - processPackages [update_toml]: Downloading https://files.pythonhosted.org/packages/8f/7a/2fee2aad5301391f2d0ad4b7aaa0d3dd8daea40c06c39ea71aa15591a6ea/update_toml-0.2.0.tar.gz
+[2024-05-16 01:50:19] INFO root fetch - processPackages [honeybee-radiance-postprocess]: executing diffoscope
+[2024-05-16 01:50:19] INFO root fetch - processPackages [honeybee-radiance-postprocess]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/honeybee-radiance-postprocess-0.4.98.tar.gz tmp/honeybee-radiance-postprocess-0.4.99.tar.gz --markdown 20240516/h/honeybee-radiance-postprocess/0.4.98-0.4.99/README.md --exclude *.pyd
+[2024-05-16 01:50:19] INFO root fetch - processPackages [freegenius]: Downloading https://files.pythonhosted.org/packages/85/e0/79c8d3b405fbb09c8afb4fc4cba33e77303a57f60e90bbef2e19a2c5a73a/freegenius-0.2.9.tar.gz
+[2024-05-16 01:50:19] INFO root fetch - processPackages [update_toml]: executing diffoscope
+[2024-05-16 01:50:19] INFO root fetch - processPackages [update_toml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/update_toml-0.1.0.tar.gz tmp/update_toml-0.2.0.tar.gz --markdown 20240516/u/update_toml/0.1.0-0.2.0/README.md --exclude *.pyd
+[2024-05-16 01:50:19] INFO root fetch - processPackages [freegenius]: executing diffoscope
+[2024-05-16 01:50:19] INFO root fetch - processPackages [freegenius]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/freegenius-0.2.8.tar.gz tmp/freegenius-0.2.9.tar.gz --markdown 20240516/f/freegenius/0.2.8-0.2.9/README.md --exclude *.pyd
+[2024-05-16 01:50:19] INFO root fetch - processPackages [ELSholdings]: Remove: archive file [/home/abi/fetcher/tmp/elsholdings-2.0.2.tar.gz]
+[2024-05-16 01:50:19] INFO root fetch - processPackages [ELSholdings]: Remove: archive file [/home/abi/fetcher/tmp/elsholdings-2.1.0.tar.gz]
+[2024-05-16 01:50:19] INFO root fetch - main [MainThread]: End processing [ELSholdings]: success
+[2024-05-16 01:50:19] INFO root fetch - processPackages [honeybee-radiance-postprocess]: Remove: archive file [/home/abi/fetcher/tmp/honeybee-radiance-postprocess-0.4.98.tar.gz]
+[2024-05-16 01:50:19] INFO root fetch - processPackages [honeybee-radiance-postprocess]: Remove: archive file [/home/abi/fetcher/tmp/honeybee-radiance-postprocess-0.4.99.tar.gz]
+[2024-05-16 01:50:19] INFO root fetch - main [MainThread]: End processing [honeybee-radiance-postprocess]: success
+[2024-05-16 01:50:19] INFO root fetch - processPackages [update_toml]: Remove: archive file [/home/abi/fetcher/tmp/update_toml-0.1.0.tar.gz]
+[2024-05-16 01:50:19] INFO root fetch - processPackages [update_toml]: Remove: archive file [/home/abi/fetcher/tmp/update_toml-0.2.0.tar.gz]
+[2024-05-16 01:50:19] INFO root fetch - main [MainThread]: End processing [update_toml]: success
+[2024-05-16 01:50:19] INFO root fetch - processPackages [geodesic-api]: Remove: archive file [/home/abi/fetcher/tmp/geodesic_api-0.8.7-py3-none-any.whl.zip]
+[2024-05-16 01:50:19] INFO root fetch - processPackages [geodesic-api]: Remove: archive file [/home/abi/fetcher/tmp/geodesic_api-0.9.0-py3-none-any.whl.zip]
+[2024-05-16 01:50:19] INFO root fetch - main [MainThread]: End processing [geodesic-api]: success
+[2024-05-16 01:50:21] INFO root fetch - processPackages [freegenius]: Remove: archive file [/home/abi/fetcher/tmp/freegenius-0.2.8.tar.gz]
+[2024-05-16 01:50:21] INFO root fetch - processPackages [freegenius]: Remove: archive file [/home/abi/fetcher/tmp/freegenius-0.2.9.tar.gz]
+[2024-05-16 01:50:21] INFO root fetch - main [MainThread]: End processing [freegenius]: success
+[2024-05-16 01:50:21] INFO root fetch - main [MainThread]: Store serial: [23226363]
