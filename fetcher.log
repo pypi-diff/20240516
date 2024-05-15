@@ -2611,3 +2611,48 @@ AssertionError: tmp/hygpytools-0.2.0.tar.gz does not exist
 [2024-05-16 01:26:13] INFO root fetch - processPackages [tach]: Remove: archive file [/home/abi/fetcher/tmp/tach-0.1.9.tar.gz]
 [2024-05-16 01:26:13] INFO root fetch - main [MainThread]: End processing [tach]: success
 [2024-05-16 01:26:13] INFO root fetch - main [MainThread]: Store serial: [23226166]
+[2024-05-16 01:28:17] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23226166]
+[2024-05-16 01:28:22] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-16 01:28:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: evokit
+[2024-05-16 01:28:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: commoncode
+[2024-05-16 01:28:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cpg-workflows
+[2024-05-16 01:28:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: move-unmarker
+[2024-05-16 01:28:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: aipkgs-core
+[2024-05-16 01:28:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: tencentcloud-sdk-python-tione
+[2024-05-16 01:28:22] INFO root fetch - processPackages [aipkgs-core]: New version: [1.0.7] Old Version: [1.0.6]
+[2024-05-16 01:28:22] WARNING root fetch - processPackages [move-unmarker]: Skipping, unable to determine old version
+[2024-05-16 01:28:22] INFO root fetch - main [MainThread]: End processing [move-unmarker] error
+[2024-05-16 01:28:22] INFO root fetch - processPackages [aipkgs-core]: Downloading https://files.pythonhosted.org/packages/df/1f/5736e3d27645665cb534cf5a925e39e156bbeaea790cfbf10564e46a829c/aipkgs_core-1.0.6.tar.gz
+[2024-05-16 01:28:22] INFO root fetch - processPackages [commoncode]: New version: [31.1.0] Old Version: [31.0.3]
+[2024-05-16 01:28:22] WARNING root fetch - processPackages [evokit]: Skipping, unable to determine old version
+[2024-05-16 01:28:22] INFO root fetch - main [MainThread]: End processing [evokit] error
+[2024-05-16 01:28:22] INFO root fetch - processPackages [cpg-workflows]: New version: [1.9.1] Old Version: [1.9.0]
+[2024-05-16 01:28:22] INFO root fetch - processPackages [tencentcloud-sdk-python-tione]: New version: [3.0.999] Old Version: [3.0.998]
+[2024-05-16 01:28:22] INFO root fetch - processPackages [commoncode]: Downloading https://files.pythonhosted.org/packages/2b/b8/ca449898d57e94a030eb43a926453f3431edaeaa3b939599ee299ffaaad8/commoncode-31.0.3.tar.gz
+[2024-05-16 01:28:22] INFO root fetch - processPackages [tencentcloud-sdk-python-tione]: Downloading https://files.pythonhosted.org/packages/15/1f/cec7a90ff620186cc8cd6ccc8f6a68c01954f3e42636bdbb035ef0add760/tencentcloud-sdk-python-tione-3.0.998.tar.gz
+[2024-05-16 01:28:22] INFO root fetch - processPackages [cpg-workflows]: Downloading https://files.pythonhosted.org/packages/97/85/ebcf50223506f96abcfa077315ab244e192faa632ed400789582dcf565e0/cpg-workflows-1.9.0.tar.gz
+[2024-05-16 01:28:22] INFO root fetch - processPackages [aipkgs-core]: Downloading https://files.pythonhosted.org/packages/0b/0a/2c4005e95a79cf814b72108f08bdbcc2445dd4a05457f85f9d4a1aa979a5/aipkgs_core-1.0.7.tar.gz
+[2024-05-16 01:28:22] INFO root fetch - processPackages [aipkgs-core]: executing diffoscope
+[2024-05-16 01:28:22] INFO root fetch - processPackages [aipkgs-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aipkgs_core-1.0.6.tar.gz tmp/aipkgs_core-1.0.7.tar.gz --markdown 20240516/a/aipkgs-core/1.0.6-1.0.7/README.md --exclude *.pyd
+[2024-05-16 01:28:23] INFO root fetch - processPackages [commoncode]: Downloading https://files.pythonhosted.org/packages/b7/7a/a3da38a955ea8dae1c07fc67666308e3d096b75877605a3c58be98e36bae/commoncode-31.1.0.tar.gz
+[2024-05-16 01:28:23] INFO root fetch - processPackages [tencentcloud-sdk-python-tione]: Downloading https://files.pythonhosted.org/packages/fa/9d/c01410a69a986675de2ec6a761ac8d923ca56dfd36f6382f6f5dd6496ee4/tencentcloud-sdk-python-tione-3.0.999.tar.gz
+[2024-05-16 01:28:23] INFO root fetch - processPackages [cpg-workflows]: Downloading https://files.pythonhosted.org/packages/0d/82/bd0cb905c3b340f5cd9b1eb95911c5444e8ba0f6369afc3c60336fed7e14/cpg-workflows-1.9.1.tar.gz
+[2024-05-16 01:28:23] INFO root fetch - processPackages [tencentcloud-sdk-python-tione]: executing diffoscope
+[2024-05-16 01:28:23] INFO root fetch - processPackages [tencentcloud-sdk-python-tione]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud-sdk-python-tione-3.0.998.tar.gz tmp/tencentcloud-sdk-python-tione-3.0.999.tar.gz --markdown 20240516/t/tencentcloud-sdk-python-tione/3.0.998-3.0.999/README.md --exclude *.pyd
+[2024-05-16 01:28:23] INFO root fetch - processPackages [cpg-workflows]: executing diffoscope
+[2024-05-16 01:28:23] INFO root fetch - processPackages [cpg-workflows]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cpg-workflows-1.9.0.tar.gz tmp/cpg-workflows-1.9.1.tar.gz --markdown 20240516/c/cpg-workflows/1.9.0-1.9.1/README.md --exclude *.pyd
+[2024-05-16 01:28:23] INFO root fetch - processPackages [commoncode]: executing diffoscope
+[2024-05-16 01:28:23] INFO root fetch - processPackages [commoncode]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/commoncode-31.0.3.tar.gz tmp/commoncode-31.1.0.tar.gz --markdown 20240516/c/commoncode/31.0.3-31.1.0/README.md --exclude *.pyd
+[2024-05-16 01:28:23] INFO root fetch - processPackages [aipkgs-core]: Remove: archive file [/home/abi/fetcher/tmp/aipkgs_core-1.0.6.tar.gz]
+[2024-05-16 01:28:23] INFO root fetch - processPackages [aipkgs-core]: Remove: archive file [/home/abi/fetcher/tmp/aipkgs_core-1.0.7.tar.gz]
+[2024-05-16 01:28:23] INFO root fetch - main [MainThread]: End processing [aipkgs-core]: success
+[2024-05-16 01:28:24] INFO root fetch - processPackages [tencentcloud-sdk-python-tione]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-tione-3.0.998.tar.gz]
+[2024-05-16 01:28:24] INFO root fetch - processPackages [tencentcloud-sdk-python-tione]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-tione-3.0.999.tar.gz]
+[2024-05-16 01:28:24] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-tione]: success
+[2024-05-16 01:28:24] INFO root fetch - processPackages [cpg-workflows]: Remove: archive file [/home/abi/fetcher/tmp/cpg-workflows-1.9.0.tar.gz]
+[2024-05-16 01:28:24] INFO root fetch - processPackages [cpg-workflows]: Remove: archive file [/home/abi/fetcher/tmp/cpg-workflows-1.9.1.tar.gz]
+[2024-05-16 01:28:24] INFO root fetch - main [MainThread]: End processing [cpg-workflows]: success
+[2024-05-16 01:28:24] INFO root fetch - processPackages [commoncode]: Remove: archive file [/home/abi/fetcher/tmp/commoncode-31.0.3.tar.gz]
+[2024-05-16 01:28:24] INFO root fetch - processPackages [commoncode]: Remove: archive file [/home/abi/fetcher/tmp/commoncode-31.1.0.tar.gz]
+[2024-05-16 01:28:24] INFO root fetch - main [MainThread]: End processing [commoncode]: success
+[2024-05-16 01:28:24] INFO root fetch - main [MainThread]: Store serial: [23226188]
