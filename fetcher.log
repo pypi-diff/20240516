@@ -238,3 +238,51 @@
 [2024-05-16 00:08:11] INFO root fetch - processPackages [sparseml]: Remove: archive file [/home/abi/fetcher/tmp/sparseml-1.7.1-py3-none-any.whl.zip]
 [2024-05-16 00:08:11] INFO root fetch - main [MainThread]: End processing [sparseml]: success
 [2024-05-16 00:08:11] INFO root fetch - main [MainThread]: Store serial: [23225238]
+[2024-05-16 00:10:15] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23225238]
+[2024-05-16 00:10:20] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-16 00:10:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tencentcloud-sdk-python-lighthouse
+[2024-05-16 00:10:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: genson
+[2024-05-16 00:10:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: honeybee-radiance
+[2024-05-16 00:10:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: honeybee-energy
+[2024-05-16 00:10:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: dragonfly-core
+[2024-05-16 00:10:20] INFO root fetch - processPackages [genson]: New version: [1.2.2] Old Version: [1.2.1]
+[2024-05-16 00:10:20] INFO root fetch - processPackages [honeybee-energy]: New version: [1.99.9] Old Version: [1.99.8]
+[2024-05-16 00:10:20] INFO root fetch - processPackages [honeybee-radiance]: New version: [1.9.2] Old Version: [1.9.1]
+[2024-05-16 00:10:20] INFO root fetch - processPackages [dragonfly-core]: New version: [1.9.0] Old Version: [1.8.1]
+[2024-05-16 00:10:21] INFO root fetch - processPackages [honeybee-energy]: Downloading https://files.pythonhosted.org/packages/b1/ab/c8fb70e349d71cce95bac52782f7ea0659a6987ed84dd41c7fe2ef40806c/honeybee-energy-1.99.8.tar.gz
+[2024-05-16 00:10:21] INFO root fetch - processPackages [tencentcloud-sdk-python-lighthouse]: New version: [3.0.999] Old Version: [3.0.998]
+[2024-05-16 00:10:21] INFO root fetch - processPackages [dragonfly-core]: Downloading https://files.pythonhosted.org/packages/93/fd/7cad9d4c9406e421f7ce31b725936bb32ec8a421f9b143e829c33cae55dd/dragonfly-core-1.8.1.tar.gz
+[2024-05-16 00:10:21] INFO root fetch - processPackages [genson]: Downloading https://files.pythonhosted.org/packages/65/00/7aae36d5ecf483585fba2bacb7c1ccb4ceaf4fcba61f8f9846845300f93b/genson-1.2.1.tar.gz
+[2024-05-16 00:10:21] INFO root fetch - processPackages [honeybee-radiance]: Downloading https://files.pythonhosted.org/packages/48/ae/cca3e8aac6a72593fde7860cbf91882050c1a465c316efc2e0472bfa36e1/honeybee-radiance-1.9.1.tar.gz
+[2024-05-16 00:10:21] INFO root fetch - processPackages [tencentcloud-sdk-python-lighthouse]: Downloading https://files.pythonhosted.org/packages/0b/8d/60c979aa95503f9edc729f1dfea72f826f8b19b690430bf34afd4ed035da/tencentcloud-sdk-python-lighthouse-3.0.998.tar.gz
+[2024-05-16 00:10:21] INFO root fetch - processPackages [dragonfly-core]: Downloading https://files.pythonhosted.org/packages/75/cb/4a1ce4726a070a188305b8d5343b4300bf24190845d85c8718cc31aa3e53/dragonfly-core-1.9.0.tar.gz
+[2024-05-16 00:10:21] INFO root fetch - processPackages [honeybee-energy]: Downloading https://files.pythonhosted.org/packages/8d/5e/1bc90eeaf45799cc7d5cda125017c1e4e2cf0ef068cd3db60d971b9596ba/honeybee-energy-1.99.9.tar.gz
+[2024-05-16 00:10:21] INFO root fetch - processPackages [genson]: Downloading https://files.pythonhosted.org/packages/e1/71/fbd2f1ad9695c92ad756b91f5a570f809c4959d3bd82266788cf222e5c5c/genson-1.2.2.tar.gz
+[2024-05-16 00:10:21] INFO root fetch - processPackages [honeybee-energy]: executing diffoscope
+[2024-05-16 00:10:21] INFO root fetch - processPackages [honeybee-energy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/honeybee-energy-1.99.8.tar.gz tmp/honeybee-energy-1.99.9.tar.gz --markdown 20240516/h/honeybee-energy/1.99.8-1.99.9/README.md --exclude *.pyd
+[2024-05-16 00:10:21] INFO root fetch - processPackages [dragonfly-core]: executing diffoscope
+[2024-05-16 00:10:21] INFO root fetch - processPackages [dragonfly-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dragonfly-core-1.8.1.tar.gz tmp/dragonfly-core-1.9.0.tar.gz --markdown 20240516/d/dragonfly-core/1.8.1-1.9.0/README.md --exclude *.pyd
+[2024-05-16 00:10:21] INFO root fetch - processPackages [honeybee-radiance]: Downloading https://files.pythonhosted.org/packages/50/24/71a3a4863bb39caef68dcd79f1b380133b1f1968426af26bc9c4812376d1/honeybee-radiance-1.9.2.tar.gz
+[2024-05-16 00:10:21] INFO root fetch - processPackages [genson]: executing diffoscope
+[2024-05-16 00:10:21] INFO root fetch - processPackages [genson]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/genson-1.2.1.tar.gz tmp/genson-1.2.2.tar.gz --markdown 20240516/g/genson/1.2.1-1.2.2/README.md --exclude *.pyd
+[2024-05-16 00:10:21] INFO root fetch - processPackages [tencentcloud-sdk-python-lighthouse]: Downloading https://files.pythonhosted.org/packages/6c/59/611ae599fb5e5ef83d0892fed046edd24a183ca64db4a3d33199be4d4ffc/tencentcloud-sdk-python-lighthouse-3.0.999.tar.gz
+[2024-05-16 00:10:21] INFO root fetch - processPackages [honeybee-radiance]: executing diffoscope
+[2024-05-16 00:10:21] INFO root fetch - processPackages [honeybee-radiance]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/honeybee-radiance-1.9.1.tar.gz tmp/honeybee-radiance-1.9.2.tar.gz --markdown 20240516/h/honeybee-radiance/1.9.1-1.9.2/README.md --exclude *.pyd
+[2024-05-16 00:10:21] INFO root fetch - processPackages [tencentcloud-sdk-python-lighthouse]: executing diffoscope
+[2024-05-16 00:10:21] INFO root fetch - processPackages [tencentcloud-sdk-python-lighthouse]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud-sdk-python-lighthouse-3.0.998.tar.gz tmp/tencentcloud-sdk-python-lighthouse-3.0.999.tar.gz --markdown 20240516/t/tencentcloud-sdk-python-lighthouse/3.0.998-3.0.999/README.md --exclude *.pyd
+[2024-05-16 00:10:22] INFO root fetch - processPackages [genson]: Remove: archive file [/home/abi/fetcher/tmp/genson-1.2.1.tar.gz]
+[2024-05-16 00:10:22] INFO root fetch - processPackages [genson]: Remove: archive file [/home/abi/fetcher/tmp/genson-1.2.2.tar.gz]
+[2024-05-16 00:10:22] INFO root fetch - main [MainThread]: End processing [genson]: success
+[2024-05-16 00:10:22] INFO root fetch - processPackages [dragonfly-core]: Remove: archive file [/home/abi/fetcher/tmp/dragonfly-core-1.8.1.tar.gz]
+[2024-05-16 00:10:22] INFO root fetch - processPackages [dragonfly-core]: Remove: archive file [/home/abi/fetcher/tmp/dragonfly-core-1.9.0.tar.gz]
+[2024-05-16 00:10:22] INFO root fetch - main [MainThread]: End processing [dragonfly-core]: success
+[2024-05-16 00:10:22] INFO root fetch - processPackages [tencentcloud-sdk-python-lighthouse]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-lighthouse-3.0.998.tar.gz]
+[2024-05-16 00:10:22] INFO root fetch - processPackages [tencentcloud-sdk-python-lighthouse]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-lighthouse-3.0.999.tar.gz]
+[2024-05-16 00:10:22] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-lighthouse]: success
+[2024-05-16 00:10:22] INFO root fetch - processPackages [honeybee-energy]: Remove: archive file [/home/abi/fetcher/tmp/honeybee-energy-1.99.8.tar.gz]
+[2024-05-16 00:10:22] INFO root fetch - processPackages [honeybee-energy]: Remove: archive file [/home/abi/fetcher/tmp/honeybee-energy-1.99.9.tar.gz]
+[2024-05-16 00:10:22] INFO root fetch - main [MainThread]: End processing [honeybee-energy]: success
+[2024-05-16 00:10:23] INFO root fetch - processPackages [honeybee-radiance]: Remove: archive file [/home/abi/fetcher/tmp/honeybee-radiance-1.9.1.tar.gz]
+[2024-05-16 00:10:23] INFO root fetch - processPackages [honeybee-radiance]: Remove: archive file [/home/abi/fetcher/tmp/honeybee-radiance-1.9.2.tar.gz]
+[2024-05-16 00:10:23] INFO root fetch - main [MainThread]: End processing [honeybee-radiance]: success
+[2024-05-16 00:10:23] INFO root fetch - main [MainThread]: Store serial: [23225253]
