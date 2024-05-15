@@ -2519,3 +2519,65 @@ AssertionError: tmp/hygpytools-0.2.0.tar.gz does not exist
 [2024-05-16 01:21:49] INFO root fetch - processPackages [streamlit-screen-stats]: Remove: archive file [/home/abi/fetcher/tmp/streamlit-screen-stats-0.0.9.tar.gz]
 [2024-05-16 01:21:49] INFO root fetch - main [MainThread]: End processing [streamlit-screen-stats]: success
 [2024-05-16 01:21:49] INFO root fetch - main [MainThread]: Store serial: [23226136]
+[2024-05-16 01:23:53] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23226136]
+[2024-05-16 01:23:58] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-16 01:23:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tencentcloud-sdk-python-tiia
+[2024-05-16 01:23:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: general-navigation
+[2024-05-16 01:23:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: geeViz
+[2024-05-16 01:23:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: localstack-core
+[2024-05-16 01:23:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: lytils
+[2024-05-16 01:23:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: gspread
+[2024-05-16 01:23:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: promplate
+[2024-05-16 01:23:58] INFO root fetch - processPackages [lytils]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-16 01:23:58] INFO root fetch - processPackages [general-navigation]: New version: [0.3.1] Old Version: [0.3.0]
+[2024-05-16 01:23:58] INFO root fetch - processPackages [promplate]: New version: [0.3.4.4.post1] Old Version: [0.3.4.4]
+[2024-05-16 01:23:58] INFO root fetch - processPackages [geeViz]: New version: [2024.5.2] Old Version: [2024.5.1]
+[2024-05-16 01:23:58] INFO root fetch - processPackages [tencentcloud-sdk-python-tiia]: New version: [3.0.999] Old Version: [3.0.998]
+[2024-05-16 01:23:59] INFO root fetch - processPackages [localstack-core]: New version: [3.4.1.dev20240515161654] Old Version: [3.4.1.dev20240515134618]
+[2024-05-16 01:23:59] INFO root fetch - processPackages [gspread]: New version: [6.1.1] Old Version: [6.1.0]
+[2024-05-16 01:23:59] INFO root fetch - processPackages [general-navigation]: Downloading https://files.pythonhosted.org/packages/ab/73/83868e4e7c0395d13545c1f24a87f89968829546fa65172c4a66a2d11054/general_navigation-0.3.0.tar.gz
+[2024-05-16 01:23:59] INFO root fetch - processPackages [promplate]: Downloading https://files.pythonhosted.org/packages/c4/b8/60b146d7bb37d9cbed50a39176c381d4f5243d90691f212eadc9f73831cc/promplate-0.3.4.4.tar.gz
+[2024-05-16 01:23:59] INFO root fetch - processPackages [tencentcloud-sdk-python-tiia]: Downloading https://files.pythonhosted.org/packages/af/27/4ad442a5d25485197a556ada200fa71343c412ee6a4ee82ac012af4402b5/tencentcloud-sdk-python-tiia-3.0.998.tar.gz
+[2024-05-16 01:23:59] INFO root fetch - processPackages [localstack-core]: Downloading https://files.pythonhosted.org/packages/51/4c/76775a564c887bce96e3d7e45398c733f81e3836acf66499430af7d95ea6/localstack_core-3.4.1.dev20240515134618.tar.gz
+[2024-05-16 01:23:59] INFO root fetch - processPackages [lytils]: Downloading https://files.pythonhosted.org/packages/e5/63/947a765769a040af108780166ef416734281e055d3577ce6f8ecd6dcff7b/lytils-0.1.8.tar.gz
+[2024-05-16 01:23:59] INFO root fetch - processPackages [geeViz]: Downloading https://files.pythonhosted.org/packages/90/1b/399c39a41bb699ab8d3ac716eb3f04663b2b7cbe90293f54fe72c573a78d/geeViz-2024.5.1.tar.gz
+[2024-05-16 01:23:59] INFO root fetch - processPackages [gspread]: Downloading https://files.pythonhosted.org/packages/8a/52/3e9f2c375150588b88bdcb1f4cba8cb7e63df1f452f5c8741846104a232a/gspread-6.1.0.tar.gz
+[2024-05-16 01:23:59] WARNING root fetch - processPackages [geeViz]: Skipping package: exceeds size limit 37647067>=10485760
+[2024-05-16 01:23:59] INFO root fetch - main [MainThread]: End processing [geeViz] error
+[2024-05-16 01:23:59] INFO root fetch - processPackages [tencentcloud-sdk-python-tiia]: Downloading https://files.pythonhosted.org/packages/cc/23/051612b22f6b5c1d75c05182ee42a3d1c7736dd05147367d7b6aa0b5e403/tencentcloud-sdk-python-tiia-3.0.999.tar.gz
+[2024-05-16 01:23:59] INFO root fetch - processPackages [promplate]: Downloading https://files.pythonhosted.org/packages/aa/44/9121bed7d8db0ab589669305ae8404ef9b32694545b81a9e06176d18d941/promplate-0.3.4.4.post1.tar.gz
+[2024-05-16 01:23:59] INFO root fetch - processPackages [tencentcloud-sdk-python-tiia]: executing diffoscope
+[2024-05-16 01:23:59] INFO root fetch - processPackages [tencentcloud-sdk-python-tiia]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud-sdk-python-tiia-3.0.998.tar.gz tmp/tencentcloud-sdk-python-tiia-3.0.999.tar.gz --markdown 20240516/t/tencentcloud-sdk-python-tiia/3.0.998-3.0.999/README.md --exclude *.pyd
+[2024-05-16 01:23:59] INFO root fetch - processPackages [general-navigation]: Downloading https://files.pythonhosted.org/packages/b5/47/d9cb3acaacdb38677cbcee52dd6e50d90c31ce22153eadeb0cfb89fffc81/general_navigation-0.3.1.tar.gz
+[2024-05-16 01:23:59] INFO root fetch - processPackages [lytils]: Downloading https://files.pythonhosted.org/packages/47/f2/15accaaf8b3ff3e0f0f877cb445d79db9dcd4614b25c36859a4bfd9c5c75/lytils-0.1.9.tar.gz
+[2024-05-16 01:23:59] INFO root fetch - processPackages [gspread]: Downloading https://files.pythonhosted.org/packages/69/1c/da3cea5aa785f7fbe72e40d60ef57934d150608d8ce22fc27200a5294f22/gspread-6.1.1.tar.gz
+[2024-05-16 01:23:59] INFO root fetch - processPackages [promplate]: executing diffoscope
+[2024-05-16 01:23:59] INFO root fetch - processPackages [promplate]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/promplate-0.3.4.4.tar.gz tmp/promplate-0.3.4.4.post1.tar.gz --markdown 20240516/p/promplate/0.3.4.4-0.3.4.4.post1/README.md --exclude *.pyd
+[2024-05-16 01:23:59] INFO root fetch - processPackages [general-navigation]: executing diffoscope
+[2024-05-16 01:23:59] INFO root fetch - processPackages [general-navigation]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/general_navigation-0.3.0.tar.gz tmp/general_navigation-0.3.1.tar.gz --markdown 20240516/g/general-navigation/0.3.0-0.3.1/README.md --exclude *.pyd
+[2024-05-16 01:23:59] INFO root fetch - processPackages [lytils]: executing diffoscope
+[2024-05-16 01:23:59] INFO root fetch - processPackages [lytils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lytils-0.1.8.tar.gz tmp/lytils-0.1.9.tar.gz --markdown 20240516/l/lytils/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-16 01:23:59] INFO root fetch - processPackages [localstack-core]: Downloading https://files.pythonhosted.org/packages/75/0f/a999a6565838167b13af882d81127f2dfe015106a819e8c3f4ac1db35e59/localstack_core-3.4.1.dev20240515161654.tar.gz
+[2024-05-16 01:23:59] INFO root fetch - processPackages [gspread]: executing diffoscope
+[2024-05-16 01:23:59] INFO root fetch - processPackages [gspread]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gspread-6.1.0.tar.gz tmp/gspread-6.1.1.tar.gz --markdown 20240516/g/gspread/6.1.0-6.1.1/README.md --exclude *.pyd
+[2024-05-16 01:23:59] INFO root fetch - processPackages [localstack-core]: executing diffoscope
+[2024-05-16 01:23:59] INFO root fetch - processPackages [localstack-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/localstack_core-3.4.1.dev20240515134618.tar.gz tmp/localstack_core-3.4.1.dev20240515161654.tar.gz --markdown 20240516/l/localstack-core/3.4.1.dev20240515134618-3.4.1.dev20240515161654/README.md --exclude *.pyd
+[2024-05-16 01:24:00] INFO root fetch - processPackages [tencentcloud-sdk-python-tiia]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-tiia-3.0.998.tar.gz]
+[2024-05-16 01:24:00] INFO root fetch - processPackages [tencentcloud-sdk-python-tiia]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-tiia-3.0.999.tar.gz]
+[2024-05-16 01:24:00] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-tiia]: success
+[2024-05-16 01:24:00] INFO root fetch - processPackages [promplate]: Remove: archive file [/home/abi/fetcher/tmp/promplate-0.3.4.4.tar.gz]
+[2024-05-16 01:24:00] INFO root fetch - processPackages [lytils]: Remove: archive file [/home/abi/fetcher/tmp/lytils-0.1.8.tar.gz]
+[2024-05-16 01:24:00] INFO root fetch - processPackages [promplate]: Remove: archive file [/home/abi/fetcher/tmp/promplate-0.3.4.4.post1.tar.gz]
+[2024-05-16 01:24:00] INFO root fetch - processPackages [lytils]: Remove: archive file [/home/abi/fetcher/tmp/lytils-0.1.9.tar.gz]
+[2024-05-16 01:24:00] INFO root fetch - main [MainThread]: End processing [promplate]: success
+[2024-05-16 01:24:00] INFO root fetch - main [MainThread]: End processing [lytils]: success
+[2024-05-16 01:24:00] INFO root fetch - processPackages [gspread]: Remove: archive file [/home/abi/fetcher/tmp/gspread-6.1.0.tar.gz]
+[2024-05-16 01:24:00] INFO root fetch - processPackages [gspread]: Remove: archive file [/home/abi/fetcher/tmp/gspread-6.1.1.tar.gz]
+[2024-05-16 01:24:00] INFO root fetch - main [MainThread]: End processing [gspread]: success
+[2024-05-16 01:24:00] INFO root fetch - processPackages [general-navigation]: Remove: archive file [/home/abi/fetcher/tmp/general_navigation-0.3.0.tar.gz]
+[2024-05-16 01:24:00] INFO root fetch - processPackages [general-navigation]: Remove: archive file [/home/abi/fetcher/tmp/general_navigation-0.3.1.tar.gz]
+[2024-05-16 01:24:00] INFO root fetch - main [MainThread]: End processing [general-navigation]: success
+[2024-05-16 01:24:03] INFO root fetch - processPackages [localstack-core]: Remove: archive file [/home/abi/fetcher/tmp/localstack_core-3.4.1.dev20240515134618.tar.gz]
+[2024-05-16 01:24:03] INFO root fetch - processPackages [localstack-core]: Remove: archive file [/home/abi/fetcher/tmp/localstack_core-3.4.1.dev20240515161654.tar.gz]
+[2024-05-16 01:24:03] INFO root fetch - main [MainThread]: End processing [localstack-core]: success
+[2024-05-16 01:24:03] INFO root fetch - main [MainThread]: Store serial: [23226157]
