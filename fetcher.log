@@ -2070,3 +2070,66 @@ AssertionError: tmp/hygpytools-0.2.0.tar.gz does not exist
 [2024-05-16 01:08:23] INFO root fetch - processPackages [azure-cosmos]: Remove: archive file [/home/abi/fetcher/tmp/azure-cosmos-4.6.1.tar.gz]
 [2024-05-16 01:08:23] INFO root fetch - main [MainThread]: End processing [azure-cosmos]: success
 [2024-05-16 01:08:23] INFO root fetch - main [MainThread]: Store serial: [23225971]
+[2024-05-16 01:10:26] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23225971]
+[2024-05-16 01:10:31] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-05-16 01:10:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: move-unmarker
+[2024-05-16 01:10:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tencentcloud-sdk-python-tcaplusdb
+[2024-05-16 01:10:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: tencentcloud-sdk-python-tcb
+[2024-05-16 01:10:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: flatpack
+[2024-05-16 01:10:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: mslarkin-utils
+[2024-05-16 01:10:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: lollms-client
+[2024-05-16 01:10:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: torch-fourier-slice
+[2024-05-16 01:10:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: tencentcloud-sdk-python-tcbr
+[2024-05-16 01:10:31] INFO root fetch - processPackages [lollms-client]: New version: [0.5.8] Old Version: [0.5.7]
+[2024-05-16 01:10:31] INFO root fetch - processPackages [mslarkin-utils]: New version: [1.9] Old Version: [1.8]
+[2024-05-16 01:10:31] WARNING root fetch - processPackages [move-unmarker]: Skipping, unable to determine old version
+[2024-05-16 01:10:31] INFO root fetch - main [MainThread]: End processing [move-unmarker] error
+[2024-05-16 01:10:32] INFO root fetch - processPackages [lollms-client]: Downloading https://files.pythonhosted.org/packages/e5/f2/6ff299b6cef987e96ad9d6ef012cfd19b6ae055cf7a225d309f0168bf0e9/lollms_client-0.5.7.tar.gz
+[2024-05-16 01:10:32] WARNING root fetch - processPackages [torch-fourier-slice]: Skipping, unable to determine old version
+[2024-05-16 01:10:32] INFO root fetch - main [MainThread]: End processing [torch-fourier-slice] error
+[2024-05-16 01:10:32] INFO root fetch - processPackages [tencentcloud-sdk-python-tcbr]: New version: [3.0.999] Old Version: [3.0.998]
+[2024-05-16 01:10:32] INFO root fetch - processPackages [tencentcloud-sdk-python-tcb]: New version: [3.0.999] Old Version: [3.0.998]
+[2024-05-16 01:10:32] INFO root fetch - processPackages [mslarkin-utils]: Downloading https://files.pythonhosted.org/packages/99/b2/435cc321a57afba5c98a1fc89fbbc086797cfa110e00cc29c2e6177b935b/mslarkin-utils-1.8.tar.gz
+[2024-05-16 01:10:32] INFO root fetch - processPackages [tencentcloud-sdk-python-tcaplusdb]: New version: [3.0.999] Old Version: [3.0.998]
+[2024-05-16 01:10:32] INFO root fetch - processPackages [flatpack]: New version: [3.4.9] Old Version: [3.4.8]
+[2024-05-16 01:10:32] INFO root fetch - processPackages [tencentcloud-sdk-python-tcbr]: Downloading https://files.pythonhosted.org/packages/1e/ca/3a77920b5d015352c941caae0af0b9e47101e454af90349e7a00ee9d4f40/tencentcloud-sdk-python-tcbr-3.0.998.tar.gz
+[2024-05-16 01:10:32] INFO root fetch - processPackages [tencentcloud-sdk-python-tcb]: Downloading https://files.pythonhosted.org/packages/b0/9f/9fae18b940ebf887508248e5cc5d4d6e5342f9d09f04f147fcc21cbccc5d/tencentcloud-sdk-python-tcb-3.0.998.tar.gz
+[2024-05-16 01:10:32] INFO root fetch - processPackages [lollms-client]: Downloading https://files.pythonhosted.org/packages/94/20/0ae58eb71a8354e36ad8cf5a7ad91d0347cc4db0171d14173ea854fa2c30/lollms_client-0.5.8.tar.gz
+[2024-05-16 01:10:32] INFO root fetch - processPackages [mslarkin-utils]: Downloading https://files.pythonhosted.org/packages/8f/58/93ec8e4d69ba1c9610b50e07e155d325bf7a5d289a0e39c844a40498e261/mslarkin-utils-1.9.tar.gz
+[2024-05-16 01:10:32] INFO root fetch - processPackages [tencentcloud-sdk-python-tcaplusdb]: Downloading https://files.pythonhosted.org/packages/50/e2/802b374ee03e75e3b25b519e9e7571d6d9e93b3555264033c8b9793cf51d/tencentcloud-sdk-python-tcaplusdb-3.0.998.tar.gz
+[2024-05-16 01:10:32] INFO root fetch - processPackages [flatpack]: Downloading https://files.pythonhosted.org/packages/92/5a/46a0817bd1cfcbeb0f041626a2cc2b28a97a17caa6609495cfb355a5d90e/flatpack-3.4.8.tar.gz
+[2024-05-16 01:10:32] INFO root fetch - processPackages [lollms-client]: executing diffoscope
+[2024-05-16 01:10:32] INFO root fetch - processPackages [lollms-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lollms_client-0.5.7.tar.gz tmp/lollms_client-0.5.8.tar.gz --markdown 20240516/l/lollms-client/0.5.7-0.5.8/README.md --exclude *.pyd
+[2024-05-16 01:10:32] INFO root fetch - processPackages [mslarkin-utils]: executing diffoscope
+[2024-05-16 01:10:32] INFO root fetch - processPackages [mslarkin-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mslarkin-utils-1.8.tar.gz tmp/mslarkin-utils-1.9.tar.gz --markdown 20240516/m/mslarkin-utils/1.8-1.9/README.md --exclude *.pyd
+[2024-05-16 01:10:32] INFO root fetch - processPackages [tencentcloud-sdk-python-tcbr]: Downloading https://files.pythonhosted.org/packages/bc/ea/a72bf279ee2386a70d415d18ef8f8bd2e92f395a8d13c12deb5560030de2/tencentcloud-sdk-python-tcbr-3.0.999.tar.gz
+[2024-05-16 01:10:32] INFO root fetch - processPackages [tencentcloud-sdk-python-tcbr]: executing diffoscope
+[2024-05-16 01:10:32] INFO root fetch - processPackages [tencentcloud-sdk-python-tcbr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud-sdk-python-tcbr-3.0.998.tar.gz tmp/tencentcloud-sdk-python-tcbr-3.0.999.tar.gz --markdown 20240516/t/tencentcloud-sdk-python-tcbr/3.0.998-3.0.999/README.md --exclude *.pyd
+[2024-05-16 01:10:32] INFO root fetch - processPackages [tencentcloud-sdk-python-tcb]: Downloading https://files.pythonhosted.org/packages/74/3b/942dca5f60c252fa151c186ac96d525e10206a4d5f0449ab92870990a428/tencentcloud-sdk-python-tcb-3.0.999.tar.gz
+[2024-05-16 01:10:32] INFO root fetch - processPackages [tencentcloud-sdk-python-tcaplusdb]: Downloading https://files.pythonhosted.org/packages/0c/90/657b8ab58c2086e77f45308e2a174018e0ea4c6fe5a36ba98d4d72caeb9f/tencentcloud-sdk-python-tcaplusdb-3.0.999.tar.gz
+[2024-05-16 01:10:32] INFO root fetch - processPackages [flatpack]: Downloading https://files.pythonhosted.org/packages/29/b6/9545d80064161872f90e25faa6bb7dc31698e88762b3d442b5fb491967fd/flatpack-3.4.9.tar.gz
+[2024-05-16 01:10:32] INFO root fetch - processPackages [tencentcloud-sdk-python-tcb]: executing diffoscope
+[2024-05-16 01:10:32] INFO root fetch - processPackages [tencentcloud-sdk-python-tcb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud-sdk-python-tcb-3.0.998.tar.gz tmp/tencentcloud-sdk-python-tcb-3.0.999.tar.gz --markdown 20240516/t/tencentcloud-sdk-python-tcb/3.0.998-3.0.999/README.md --exclude *.pyd
+[2024-05-16 01:10:32] INFO root fetch - processPackages [flatpack]: executing diffoscope
+[2024-05-16 01:10:32] INFO root fetch - processPackages [flatpack]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flatpack-3.4.8.tar.gz tmp/flatpack-3.4.9.tar.gz --markdown 20240516/f/flatpack/3.4.8-3.4.9/README.md --exclude *.pyd
+[2024-05-16 01:10:32] INFO root fetch - processPackages [tencentcloud-sdk-python-tcaplusdb]: executing diffoscope
+[2024-05-16 01:10:32] INFO root fetch - processPackages [tencentcloud-sdk-python-tcaplusdb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud-sdk-python-tcaplusdb-3.0.998.tar.gz tmp/tencentcloud-sdk-python-tcaplusdb-3.0.999.tar.gz --markdown 20240516/t/tencentcloud-sdk-python-tcaplusdb/3.0.998-3.0.999/README.md --exclude *.pyd
+[2024-05-16 01:10:33] INFO root fetch - processPackages [lollms-client]: Remove: archive file [/home/abi/fetcher/tmp/lollms_client-0.5.7.tar.gz]
+[2024-05-16 01:10:33] INFO root fetch - processPackages [lollms-client]: Remove: archive file [/home/abi/fetcher/tmp/lollms_client-0.5.8.tar.gz]
+[2024-05-16 01:10:33] INFO root fetch - main [MainThread]: End processing [lollms-client]: success
+[2024-05-16 01:10:33] INFO root fetch - processPackages [mslarkin-utils]: Remove: archive file [/home/abi/fetcher/tmp/mslarkin-utils-1.8.tar.gz]
+[2024-05-16 01:10:33] INFO root fetch - processPackages [mslarkin-utils]: Remove: archive file [/home/abi/fetcher/tmp/mslarkin-utils-1.9.tar.gz]
+[2024-05-16 01:10:33] INFO root fetch - main [MainThread]: End processing [mslarkin-utils]: success
+[2024-05-16 01:10:33] INFO root fetch - processPackages [tencentcloud-sdk-python-tcbr]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-tcbr-3.0.998.tar.gz]
+[2024-05-16 01:10:33] INFO root fetch - processPackages [tencentcloud-sdk-python-tcbr]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-tcbr-3.0.999.tar.gz]
+[2024-05-16 01:10:33] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-tcbr]: success
+[2024-05-16 01:10:33] INFO root fetch - processPackages [tencentcloud-sdk-python-tcb]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-tcb-3.0.998.tar.gz]
+[2024-05-16 01:10:33] INFO root fetch - processPackages [tencentcloud-sdk-python-tcb]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-tcb-3.0.999.tar.gz]
+[2024-05-16 01:10:33] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-tcb]: success
+[2024-05-16 01:10:33] INFO root fetch - processPackages [tencentcloud-sdk-python-tcaplusdb]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-tcaplusdb-3.0.998.tar.gz]
+[2024-05-16 01:10:33] INFO root fetch - processPackages [tencentcloud-sdk-python-tcaplusdb]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-tcaplusdb-3.0.999.tar.gz]
+[2024-05-16 01:10:33] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-tcaplusdb]: success
+[2024-05-16 01:10:33] INFO root fetch - processPackages [flatpack]: Remove: archive file [/home/abi/fetcher/tmp/flatpack-3.4.8.tar.gz]
+[2024-05-16 01:10:33] INFO root fetch - processPackages [flatpack]: Remove: archive file [/home/abi/fetcher/tmp/flatpack-3.4.9.tar.gz]
+[2024-05-16 01:10:33] INFO root fetch - main [MainThread]: End processing [flatpack]: success
+[2024-05-16 01:10:33] INFO root fetch - main [MainThread]: Store serial: [23226001]
