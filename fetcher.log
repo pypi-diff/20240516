@@ -510,3 +510,226 @@
 [2024-05-16 00:15:56] INFO root fetch - processPackages [pyfaust-torch]: Remove: archive file [/home/abi/fetcher/tmp/pyfaust_torch-3.39.9-cp310-cp310-macosx_10_9_x86_64.whl.zip]
 [2024-05-16 00:15:56] INFO root fetch - main [MainThread]: End processing [pyfaust-torch]: success
 [2024-05-16 00:15:56] INFO root fetch - main [MainThread]: Store serial: [23225392]
+[2024-05-16 00:18:05] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23225392]
+[2024-05-16 00:18:10] INFO root fetch - main [MainThread]: Found 23 changed packages
+[2024-05-16 00:18:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: aipkgs-requests
+[2024-05-16 00:18:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: bo4e
+[2024-05-16 00:18:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: aipkgs-sentry
+[2024-05-16 00:18:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: hygpytools
+[2024-05-16 00:18:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: hygpytools
+[2024-05-16 00:18:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: hygpytools
+[2024-05-16 00:18:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: hygpytools
+[2024-05-16 00:18:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: ntv-numpy
+[2024-05-16 00:18:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: aipkgs-notifications
+[2024-05-16 00:18:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: pedil
+[2024-05-16 00:18:10] INFO root fetch - processPackages [aipkgs-requests]: New version: [1.0.1] Old Version: [0.1.4]
+[2024-05-16 00:18:10] INFO root fetch - processPackages [ntv-numpy]: New version: [0.2.0] Old Version: [0.1.2]
+[2024-05-16 00:18:10] INFO root fetch - processPackages [aipkgs-requests]: Downloading https://files.pythonhosted.org/packages/a0/0d/e707c14db978cf99575135341ab043cf40e904987499914174ed046cab07/aipkgs_requests-0.1.4.tar.gz
+[2024-05-16 00:18:10] INFO root fetch - processPackages [bo4e]: New version: [202401.1.2rc14] Old Version: [202401.1.1rc4]
+[2024-05-16 00:18:10] INFO root fetch - processPackages [aipkgs-sentry]: New version: [1.0.1] Old Version: [0.0.5]
+[2024-05-16 00:18:10] INFO root fetch - processPackages [hygpytools]: New version: [6.6.6] Old Version: [0.2.0]
+[2024-05-16 00:18:10] INFO root fetch - processPackages [hygpytools]: New version: [6.6.6] Old Version: [0.2.0]
+[2024-05-16 00:18:10] INFO root fetch - processPackages [hygpytools]: New version: [6.6.6] Old Version: [0.2.0]
+[2024-05-16 00:18:10] INFO root fetch - processPackages [hygpytools]: New version: [6.6.6] Old Version: [0.2.0]
+[2024-05-16 00:18:10] INFO root fetch - processPackages [pedil]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-05-16 00:18:10] INFO root fetch - processPackages [aipkgs-notifications]: New version: [1.0.1] Old Version: [0.0.9]
+[2024-05-16 00:18:10] INFO root fetch - processPackages [ntv-numpy]: Downloading https://files.pythonhosted.org/packages/60/d3/cbd59ab1ea1da456f7c7e205fd8ae2335bca68b5dc51f9938105ce36356c/ntv_numpy-0.1.2.tar.gz
+[2024-05-16 00:18:10] INFO root fetch - processPackages [bo4e]: Downloading https://files.pythonhosted.org/packages/f9/0a/35eafd6f0d196a89d624bfe7f8b92ee4bf640520efcbc3753d6238936570/bo4e-202401.1.1rc4.tar.gz
+[2024-05-16 00:18:10] INFO root fetch - processPackages [aipkgs-requests]: Downloading https://files.pythonhosted.org/packages/d1/fe/42af38b7290f18927cf7f6959c25aedbebc15e2326ff29f9e085919c6628/aipkgs_requests-1.0.1.tar.gz
+[2024-05-16 00:18:10] INFO root fetch - processPackages [aipkgs-sentry]: Downloading https://files.pythonhosted.org/packages/be/4b/c5c2dd1e2f3388faa97989d572d70dff6273254db45807a3d7c20c5146a6/aipkgs_sentry-0.0.5.tar.gz
+[2024-05-16 00:18:10] INFO root fetch - processPackages [hygpytools]: Downloading https://files.pythonhosted.org/packages/43/47/e022b5fd85dc71fdc38a35a8de3c2f0efe4e3beabf1b1ee085d96ca572e0/hygpytools-0.2.0.tar.gz
+[2024-05-16 00:18:10] INFO root fetch - processPackages [hygpytools]: Downloading https://files.pythonhosted.org/packages/43/47/e022b5fd85dc71fdc38a35a8de3c2f0efe4e3beabf1b1ee085d96ca572e0/hygpytools-0.2.0.tar.gz
+[2024-05-16 00:18:10] INFO root fetch - processPackages [hygpytools]: Downloading https://files.pythonhosted.org/packages/43/47/e022b5fd85dc71fdc38a35a8de3c2f0efe4e3beabf1b1ee085d96ca572e0/hygpytools-0.2.0.tar.gz
+[2024-05-16 00:18:10] INFO root fetch - processPackages [hygpytools]: Downloading https://files.pythonhosted.org/packages/43/47/e022b5fd85dc71fdc38a35a8de3c2f0efe4e3beabf1b1ee085d96ca572e0/hygpytools-0.2.0.tar.gz
+[2024-05-16 00:18:10] INFO root fetch - processPackages [pedil]: Downloading https://files.pythonhosted.org/packages/29/74/7aa64fe0e7f0cac9a03895506ca7c60cc96aea74450e475685cd710bdbb7/pedil-0.1.0.tar.gz
+[2024-05-16 00:18:10] INFO root fetch - processPackages [aipkgs-notifications]: Downloading https://files.pythonhosted.org/packages/14/fb/eb6dbb24d251076b6424e205970b58e915a6d973582794bc671b50305670/aipkgs_notifications-0.0.9.tar.gz
+[2024-05-16 00:18:11] INFO root fetch - processPackages [aipkgs-requests]: executing diffoscope
+[2024-05-16 00:18:11] INFO root fetch - processPackages [aipkgs-requests]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aipkgs_requests-0.1.4.tar.gz tmp/aipkgs_requests-1.0.1.tar.gz --markdown 20240516/a/aipkgs-requests/0.1.4-1.0.1/README.md --exclude *.pyd
+[2024-05-16 00:18:11] INFO root fetch - processPackages [ntv-numpy]: Downloading https://files.pythonhosted.org/packages/66/41/e8dca9c611dcbc8331689f39780e619d45ed170f1705a82027b2ce859166/ntv_numpy-0.2.0.tar.gz
+[2024-05-16 00:18:11] INFO root fetch - processPackages [hygpytools]: Downloading https://files.pythonhosted.org/packages/a1/a3/726bdca4d4fd0bbc82fd6f7a3ece154c0837b52c45c85eea735b810aa07f/hygpytools-6.6.6.tar.gz
+[2024-05-16 00:18:11] INFO root fetch - processPackages [bo4e]: Downloading https://files.pythonhosted.org/packages/d0/82/c82d39067077c0e01406d6ac1b34ce0cacf1881ecab2d6f294cd67ff8969/bo4e-202401.1.2rc14.tar.gz
+[2024-05-16 00:18:11] INFO root fetch - processPackages [aipkgs-sentry]: Downloading https://files.pythonhosted.org/packages/71/ec/691a5868ed9b70feac457069cbab69cc269bc43ef00233f242870d1e64b6/aipkgs_sentry-1.0.1.tar.gz
+[2024-05-16 00:18:11] INFO root fetch - processPackages [hygpytools]: Downloading https://files.pythonhosted.org/packages/a1/a3/726bdca4d4fd0bbc82fd6f7a3ece154c0837b52c45c85eea735b810aa07f/hygpytools-6.6.6.tar.gz
+[2024-05-16 00:18:11] INFO root fetch - processPackages [hygpytools]: Downloading https://files.pythonhosted.org/packages/a1/a3/726bdca4d4fd0bbc82fd6f7a3ece154c0837b52c45c85eea735b810aa07f/hygpytools-6.6.6.tar.gz
+[2024-05-16 00:18:11] INFO root fetch - processPackages [pedil]: Downloading https://files.pythonhosted.org/packages/8a/d3/a452e3ce0fc483c36e9e826432544d409d18a3dcf1816b209045223e489e/pedil-0.1.1.tar.gz
+[2024-05-16 00:18:11] INFO root fetch - processPackages [hygpytools]: Downloading https://files.pythonhosted.org/packages/a1/a3/726bdca4d4fd0bbc82fd6f7a3ece154c0837b52c45c85eea735b810aa07f/hygpytools-6.6.6.tar.gz
+[2024-05-16 00:18:11] INFO root fetch - processPackages [ntv-numpy]: executing diffoscope
+[2024-05-16 00:18:11] INFO root fetch - processPackages [ntv-numpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ntv_numpy-0.1.2.tar.gz tmp/ntv_numpy-0.2.0.tar.gz --markdown 20240516/n/ntv-numpy/0.1.2-0.2.0/README.md --exclude *.pyd
+[2024-05-16 00:18:11] INFO root fetch - processPackages [hygpytools]: executing diffoscope
+[2024-05-16 00:18:11] INFO root fetch - processPackages [hygpytools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hygpytools-0.2.0.tar.gz tmp/hygpytools-6.6.6.tar.gz --markdown 20240516/h/hygpytools/0.2.0-6.6.6/README.md --exclude *.pyd
+[2024-05-16 00:18:11] INFO root fetch - processPackages [aipkgs-notifications]: Downloading https://files.pythonhosted.org/packages/89/2e/3559a0b9d7376558e5e3eeb24803b933c1006106b0ba76754b801d5a379d/aipkgs_notifications-1.0.1.tar.gz
+[2024-05-16 00:18:11] INFO root fetch - processPackages [aipkgs-sentry]: executing diffoscope
+[2024-05-16 00:18:11] INFO root fetch - processPackages [aipkgs-sentry]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aipkgs_sentry-0.0.5.tar.gz tmp/aipkgs_sentry-1.0.1.tar.gz --markdown 20240516/a/aipkgs-sentry/0.0.5-1.0.1/README.md --exclude *.pyd
+[2024-05-16 00:18:11] INFO root fetch - processPackages [hygpytools]: executing diffoscope
+[2024-05-16 00:18:11] INFO root fetch - processPackages [hygpytools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hygpytools-0.2.0.tar.gz tmp/hygpytools-6.6.6.tar.gz --markdown 20240516/h/hygpytools/0.2.0-6.6.6/README.md --exclude *.pyd
+[2024-05-16 00:18:11] INFO root fetch - processPackages [hygpytools]: executing diffoscope
+[2024-05-16 00:18:11] INFO root fetch - processPackages [hygpytools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hygpytools-0.2.0.tar.gz tmp/hygpytools-6.6.6.tar.gz --markdown 20240516/h/hygpytools/0.2.0-6.6.6/README.md --exclude *.pyd
+[2024-05-16 00:18:11] INFO root fetch - processPackages [pedil]: executing diffoscope
+[2024-05-16 00:18:11] INFO root fetch - processPackages [pedil]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pedil-0.1.0.tar.gz tmp/pedil-0.1.1.tar.gz --markdown 20240516/p/pedil/0.1.0-0.1.1/README.md --exclude *.pyd
+[2024-05-16 00:18:11] INFO root fetch - processPackages [bo4e]: executing diffoscope
+[2024-05-16 00:18:11] INFO root fetch - processPackages [bo4e]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bo4e-202401.1.1rc4.tar.gz tmp/bo4e-202401.1.2rc14.tar.gz --markdown 20240516/b/bo4e/202401.1.1rc4-202401.1.2rc14/README.md --exclude *.pyd
+[2024-05-16 00:18:11] INFO root fetch - processPackages [hygpytools]: executing diffoscope
+[2024-05-16 00:18:11] INFO root fetch - processPackages [hygpytools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hygpytools-0.2.0.tar.gz tmp/hygpytools-6.6.6.tar.gz --markdown 20240516/h/hygpytools/0.2.0-6.6.6/README.md --exclude *.pyd
+[2024-05-16 00:18:11] INFO root fetch - processPackages [aipkgs-notifications]: executing diffoscope
+[2024-05-16 00:18:11] INFO root fetch - processPackages [aipkgs-notifications]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aipkgs_notifications-0.0.9.tar.gz tmp/aipkgs_notifications-1.0.1.tar.gz --markdown 20240516/a/aipkgs-notifications/0.0.9-1.0.1/README.md --exclude *.pyd
+[2024-05-16 00:18:11] INFO root fetch - processPackages [aipkgs-requests]: Remove: archive file [/home/abi/fetcher/tmp/aipkgs_requests-0.1.4.tar.gz]
+[2024-05-16 00:18:11] INFO root fetch - processPackages [aipkgs-requests]: Remove: archive file [/home/abi/fetcher/tmp/aipkgs_requests-1.0.1.tar.gz]
+[2024-05-16 00:18:11] INFO root fetch - processPackages [aipkgs-requests]: Start processing: tencentcloud-sdk-python-mall
+[2024-05-16 00:18:11] INFO root fetch - main [MainThread]: End processing [aipkgs-requests]: success
+[2024-05-16 00:18:11] INFO root fetch - processPackages [tencentcloud-sdk-python-mall]: New version: [3.0.999] Old Version: [3.0.998]
+[2024-05-16 00:18:12] INFO root fetch - processPackages [tencentcloud-sdk-python-mall]: Downloading https://files.pythonhosted.org/packages/73/cd/ab28e19ee83d91579f06d5f62fa805b3115586dac27fd33d6c8bf4b4a5b3/tencentcloud-sdk-python-mall-3.0.998.tar.gz
+[2024-05-16 00:18:12] INFO root fetch - processPackages [aipkgs-sentry]: Remove: archive file [/home/abi/fetcher/tmp/aipkgs_sentry-0.0.5.tar.gz]
+[2024-05-16 00:18:12] INFO root fetch - processPackages [aipkgs-sentry]: Remove: archive file [/home/abi/fetcher/tmp/aipkgs_sentry-1.0.1.tar.gz]
+[2024-05-16 00:18:12] INFO root fetch - processPackages [aipkgs-sentry]: Start processing: aipkgs-heartbeat
+[2024-05-16 00:18:12] INFO root fetch - main [MainThread]: End processing [aipkgs-sentry]: success
+[2024-05-16 00:18:12] INFO root fetch - processPackages [hygpytools]: Remove: archive file [/home/abi/fetcher/tmp/hygpytools-0.2.0.tar.gz]
+[2024-05-16 00:18:12] INFO root fetch - processPackages [hygpytools]: Remove: archive file [/home/abi/fetcher/tmp/hygpytools-6.6.6.tar.gz]
+[2024-05-16 00:18:12] INFO root fetch - processPackages [hygpytools]: Start processing: procedure-data-tool
+[2024-05-16 00:18:12] INFO root fetch - main [MainThread]: End processing [hygpytools]: success
+[2024-05-16 00:18:12] INFO root fetch - processPackages [aipkgs-heartbeat]: New version: [1.0.2] Old Version: [1.0.1]
+[2024-05-16 00:18:12] INFO root fetch - processPackages [hygpytools]: Start processing: tencentcloud-sdk-python-mariadb
+[2024-05-16 00:18:12] INFO root fetch - main [MainThread]: End processing [hygpytools]: success
+[2024-05-16 00:18:12] INFO root fetch - processPackages [procedure-data-tool]: New version: [0.0.6] Old Version: [0.0.4]
+[2024-05-16 00:18:12] INFO root fetch - processPackages [tencentcloud-sdk-python-mall]: Downloading https://files.pythonhosted.org/packages/42/60/58e7cef4e19790da30b407ecf53d406270f2eafc9550cb7cd3019f9794ca/tencentcloud-sdk-python-mall-3.0.999.tar.gz
+[2024-05-16 00:18:12] ERROR root fetch - processPackages [hygpytools]: Diffoscope failed: time="2024-05-16T00:18:11+02:00" level=error msg="User-selected graph driver \"vfs\" overwritten by graph driver \"overlay\" from database - delete libpod local files to resolve.  May prevent use of images created by other tools"
+Traceback (most recent call last):
+  File "/srv/diffoscope/diffoscope/main.py", line 767, in main
+    sys.exit(run_diffoscope(parsed_args))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/main.py", line 718, in run_diffoscope
+    difference = compare_root_paths(path1, path2)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 66, in compare_root_paths
+    file1 = specialize(FilesystemFile(path1, container=container1))
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/specialize.py", line 75, in specialize
+    if try_recognize(file, cls, cls.recognizes):
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/specialize.py", line 35, in try_recognize
+    if not recognizes(file):
+           ^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/missing_file.py", line 43, in recognizes
+    assert Config().new_file, f"{file.name} does not exist"
+AssertionError: tmp/hygpytools-0.2.0.tar.gz does not exist
+
+[2024-05-16 00:18:12] INFO root fetch - processPackages [hygpytools]: Start processing: jgtpy
+[2024-05-16 00:18:12] INFO root fetch - main [MainThread]: End processing [hygpytools] error
+[2024-05-16 00:18:12] INFO root fetch - processPackages [pedil]: Remove: archive file [/home/abi/fetcher/tmp/pedil-0.1.0.tar.gz]
+[2024-05-16 00:18:12] INFO root fetch - processPackages [pedil]: Remove: archive file [/home/abi/fetcher/tmp/pedil-0.1.1.tar.gz]
+[2024-05-16 00:18:12] INFO root fetch - processPackages [pedil]: Start processing: aipkgs-heartbeat
+[2024-05-16 00:18:12] INFO root fetch - main [MainThread]: End processing [pedil]: success
+[2024-05-16 00:18:12] INFO root fetch - processPackages [jgtpy]: New version: [0.4.9] Old Version: [0.4.8]
+[2024-05-16 00:18:12] INFO root fetch - processPackages [tencentcloud-sdk-python-mall]: executing diffoscope
+[2024-05-16 00:18:12] INFO root fetch - processPackages [tencentcloud-sdk-python-mall]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud-sdk-python-mall-3.0.998.tar.gz tmp/tencentcloud-sdk-python-mall-3.0.999.tar.gz --markdown 20240516/t/tencentcloud-sdk-python-mall/3.0.998-3.0.999/README.md --exclude *.pyd
+[2024-05-16 00:18:12] INFO root fetch - processPackages [aipkgs-heartbeat]: Downloading https://files.pythonhosted.org/packages/05/04/f7d0fab649366b3af0772df85e36e667d69b670d33211b105d7ea2df6a93/aipkgs_heartbeat-1.0.1.tar.gz
+[2024-05-16 00:18:12] INFO root fetch - processPackages [aipkgs-heartbeat]: New version: [1.0.2] Old Version: [1.0.1]
+[2024-05-16 00:18:12] INFO root fetch - processPackages [tencentcloud-sdk-python-mariadb]: New version: [3.0.999] Old Version: [3.0.998]
+[2024-05-16 00:18:12] INFO root fetch - processPackages [ntv-numpy]: Remove: archive file [/home/abi/fetcher/tmp/ntv_numpy-0.1.2.tar.gz]
+[2024-05-16 00:18:12] INFO root fetch - processPackages [ntv-numpy]: Remove: archive file [/home/abi/fetcher/tmp/ntv_numpy-0.2.0.tar.gz]
+[2024-05-16 00:18:12] INFO root fetch - processPackages [ntv-numpy]: Start processing: wrun-py
+[2024-05-16 00:18:12] INFO root fetch - main [MainThread]: End processing [ntv-numpy]: success
+[2024-05-16 00:18:12] INFO root fetch - processPackages [procedure-data-tool]: Downloading https://files.pythonhosted.org/packages/b3/3b/7601582274fdcbce9bf7c01a3ecac210a61adce89fb9c205b6179a49e717/procedure_data_tool-0.0.4.tar.gz
+[2024-05-16 00:18:12] INFO root fetch - processPackages [jgtpy]: Downloading https://files.pythonhosted.org/packages/60/b5/888f160495ee80ba1657e52a606a803f54fbfa062fe5a4d1d58fd9dc9141/jgtpy-0.4.8.tar.gz
+[2024-05-16 00:18:12] INFO root fetch - processPackages [aipkgs-notifications]: Remove: archive file [/home/abi/fetcher/tmp/aipkgs_notifications-0.0.9.tar.gz]
+[2024-05-16 00:18:12] INFO root fetch - processPackages [aipkgs-notifications]: Remove: archive file [/home/abi/fetcher/tmp/aipkgs_notifications-1.0.1.tar.gz]
+[2024-05-16 00:18:12] INFO root fetch - processPackages [aipkgs-notifications]: Start processing: tencentcloud-sdk-python-market
+[2024-05-16 00:18:12] INFO root fetch - main [MainThread]: End processing [aipkgs-notifications]: success
+[2024-05-16 00:18:12] INFO root fetch - processPackages [hygpytools]: Start processing: tencentcloud-sdk-python-memcached
+[2024-05-16 00:18:12] INFO root fetch - main [MainThread]: End processing [hygpytools]: success
+[2024-05-16 00:18:12] INFO root fetch - processPackages [aipkgs-heartbeat]: Downloading https://files.pythonhosted.org/packages/05/04/f7d0fab649366b3af0772df85e36e667d69b670d33211b105d7ea2df6a93/aipkgs_heartbeat-1.0.1.tar.gz
+[2024-05-16 00:18:12] INFO root fetch - processPackages [wrun-py]: New version: [0.2.1.post1] Old Version: [0.2.0.post1]
+[2024-05-16 00:18:12] INFO root fetch - processPackages [tencentcloud-sdk-python-memcached]: New version: [3.0.999] Old Version: [3.0.998]
+[2024-05-16 00:18:12] INFO root fetch - processPackages [tencentcloud-sdk-python-mariadb]: Downloading https://files.pythonhosted.org/packages/01/f8/4b4fb24d28be034cd14210d2a69723d599cab179fb0042e4a79e8cadc25f/tencentcloud-sdk-python-mariadb-3.0.998.tar.gz
+[2024-05-16 00:18:12] INFO root fetch - processPackages [jgtpy]: Downloading https://files.pythonhosted.org/packages/c1/94/79cdcc286ed1c9578cc3d3b4b47d9da3326a5fdfa94ebc3ad80acf17eafa/jgtpy-0.4.9.tar.gz
+[2024-05-16 00:18:12] INFO root fetch - processPackages [aipkgs-heartbeat]: Downloading https://files.pythonhosted.org/packages/bf/f9/c44048e2d9ffc14aa106fa148273d254952bf68434954820777ecb422b45/aipkgs_heartbeat-1.0.2-py3-none-any.whl
+[2024-05-16 00:18:12] INFO root fetch - processPackages [aipkgs-heartbeat]: Downloading https://files.pythonhosted.org/packages/bf/f9/c44048e2d9ffc14aa106fa148273d254952bf68434954820777ecb422b45/aipkgs_heartbeat-1.0.2-py3-none-any.whl
+[2024-05-16 00:18:13] INFO root fetch - processPackages [tencentcloud-sdk-python-market]: New version: [3.0.999] Old Version: [3.0.998]
+[2024-05-16 00:18:13] INFO root fetch - processPackages [procedure-data-tool]: Downloading https://files.pythonhosted.org/packages/54/82/fdbc036ff4a1a7edcc42006e0f2d2bc2382b895a243e87ae0b604672e404/procedure_data_tool-0.0.6.tar.gz
+[2024-05-16 00:18:13] INFO root fetch - processPackages [jgtpy]: executing diffoscope
+[2024-05-16 00:18:13] INFO root fetch - processPackages [jgtpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jgtpy-0.4.8.tar.gz tmp/jgtpy-0.4.9.tar.gz --markdown 20240516/j/jgtpy/0.4.8-0.4.9/README.md --exclude *.pyd
+[2024-05-16 00:18:13] INFO root fetch - processPackages [tencentcloud-sdk-python-memcached]: Downloading https://files.pythonhosted.org/packages/6c/e5/14a71599872981f46ff6ce3193dcdcbe1d567101b42230ec653238115730/tencentcloud-sdk-python-memcached-3.0.998.tar.gz
+[2024-05-16 00:18:13] INFO root fetch - processPackages [wrun-py]: Downloading https://files.pythonhosted.org/packages/42/5a/5678e419151152da2be3016f5e6efe357b1e1fe9cca6334885abf84d0b8b/wrun_py-0.2.0.post1.tar.gz
+[2024-05-16 00:18:13] INFO root fetch - processPackages [aipkgs-heartbeat]: executing diffoscope
+[2024-05-16 00:18:13] INFO root fetch - processPackages [aipkgs-heartbeat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aipkgs_heartbeat-1.0.1.tar.gz tmp/aipkgs_heartbeat-1.0.2-py3-none-any.whl.zip --markdown 20240516/a/aipkgs-heartbeat/1.0.1-1.0.2/README.md --exclude *.pyd
+[2024-05-16 00:18:13] INFO root fetch - processPackages [aipkgs-heartbeat]: executing diffoscope
+[2024-05-16 00:18:13] INFO root fetch - processPackages [aipkgs-heartbeat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aipkgs_heartbeat-1.0.1.tar.gz tmp/aipkgs_heartbeat-1.0.2-py3-none-any.whl.zip --markdown 20240516/a/aipkgs-heartbeat/1.0.1-1.0.2/README.md --exclude *.pyd
+[2024-05-16 00:18:13] INFO root fetch - processPackages [procedure-data-tool]: executing diffoscope
+[2024-05-16 00:18:13] INFO root fetch - processPackages [procedure-data-tool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/procedure_data_tool-0.0.4.tar.gz tmp/procedure_data_tool-0.0.6.tar.gz --markdown 20240516/p/procedure-data-tool/0.0.4-0.0.6/README.md --exclude *.pyd
+[2024-05-16 00:18:13] INFO root fetch - processPackages [tencentcloud-sdk-python-market]: Downloading https://files.pythonhosted.org/packages/12/a8/fbdff8cf80b338873328583bb631efb83f12aa5caf71cc26abf5053980f7/tencentcloud-sdk-python-market-3.0.998.tar.gz
+[2024-05-16 00:18:13] INFO root fetch - processPackages [tencentcloud-sdk-python-mariadb]: Downloading https://files.pythonhosted.org/packages/f3/7a/a58ceb60c9351a4a742289f7be43a80fb40476c6ecebdb1c283cefc8ffe9/tencentcloud-sdk-python-mariadb-3.0.999.tar.gz
+[2024-05-16 00:18:13] INFO root fetch - processPackages [tencentcloud-sdk-python-mall]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-mall-3.0.998.tar.gz]
+[2024-05-16 00:18:13] INFO root fetch - processPackages [tencentcloud-sdk-python-mall]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-mall-3.0.999.tar.gz]
+[2024-05-16 00:18:13] INFO root fetch - processPackages [tencentcloud-sdk-python-mall]: Start processing: tencentcloud-sdk-python-mgobe
+[2024-05-16 00:18:13] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-mall]: success
+[2024-05-16 00:18:13] INFO root fetch - processPackages [tencentcloud-sdk-python-mariadb]: executing diffoscope
+[2024-05-16 00:18:13] INFO root fetch - processPackages [tencentcloud-sdk-python-mariadb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud-sdk-python-mariadb-3.0.998.tar.gz tmp/tencentcloud-sdk-python-mariadb-3.0.999.tar.gz --markdown 20240516/t/tencentcloud-sdk-python-mariadb/3.0.998-3.0.999/README.md --exclude *.pyd
+[2024-05-16 00:18:13] INFO root fetch - processPackages [tencentcloud-sdk-python-memcached]: Downloading https://files.pythonhosted.org/packages/74/19/ace663ae6902d8823e874e1eeaa287f64f9dd34aa84e77a23f276e1a4faf/tencentcloud-sdk-python-memcached-3.0.999.tar.gz
+[2024-05-16 00:18:13] INFO root fetch - processPackages [tencentcloud-sdk-python-mgobe]: New version: [3.0.999] Old Version: [3.0.998]
+[2024-05-16 00:18:13] INFO root fetch - processPackages [wrun-py]: Downloading https://files.pythonhosted.org/packages/69/c2/556378d0a5581479d3b30ac0cf6731330da6e032c1b0dbe570d459a3bf88/wrun_py-0.2.1.post1.tar.gz
+[2024-05-16 00:18:13] INFO root fetch - processPackages [tencentcloud-sdk-python-market]: Downloading https://files.pythonhosted.org/packages/87/1f/e943537b563854b559cb0cd980f2d5243430a48df3fa4fa480da34d14d30/tencentcloud-sdk-python-market-3.0.999.tar.gz
+[2024-05-16 00:18:13] INFO root fetch - processPackages [tencentcloud-sdk-python-memcached]: executing diffoscope
+[2024-05-16 00:18:13] INFO root fetch - processPackages [tencentcloud-sdk-python-memcached]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud-sdk-python-memcached-3.0.998.tar.gz tmp/tencentcloud-sdk-python-memcached-3.0.999.tar.gz --markdown 20240516/t/tencentcloud-sdk-python-memcached/3.0.998-3.0.999/README.md --exclude *.pyd
+[2024-05-16 00:18:13] INFO root fetch - processPackages [wrun-py]: executing diffoscope
+[2024-05-16 00:18:13] INFO root fetch - processPackages [wrun-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wrun_py-0.2.0.post1.tar.gz tmp/wrun_py-0.2.1.post1.tar.gz --markdown 20240516/w/wrun-py/0.2.0.post1-0.2.1.post1/README.md --exclude *.pyd
+[2024-05-16 00:18:13] INFO root fetch - processPackages [tencentcloud-sdk-python-market]: executing diffoscope
+[2024-05-16 00:18:13] INFO root fetch - processPackages [tencentcloud-sdk-python-market]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud-sdk-python-market-3.0.998.tar.gz tmp/tencentcloud-sdk-python-market-3.0.999.tar.gz --markdown 20240516/t/tencentcloud-sdk-python-market/3.0.998-3.0.999/README.md --exclude *.pyd
+[2024-05-16 00:18:13] INFO root fetch - processPackages [tencentcloud-sdk-python-mgobe]: Downloading https://files.pythonhosted.org/packages/8b/c4/9084630885c7ff147a07d07818efd37b6f9a43492047633b077a149354ab/tencentcloud-sdk-python-mgobe-3.0.998.tar.gz
+[2024-05-16 00:18:13] INFO root fetch - processPackages [bo4e]: Remove: archive file [/home/abi/fetcher/tmp/bo4e-202401.1.1rc4.tar.gz]
+[2024-05-16 00:18:13] INFO root fetch - processPackages [bo4e]: Remove: archive file [/home/abi/fetcher/tmp/bo4e-202401.1.2rc14.tar.gz]
+[2024-05-16 00:18:13] INFO root fetch - processPackages [bo4e]: Start processing: tencentcloud-sdk-python-mmps
+[2024-05-16 00:18:13] INFO root fetch - main [MainThread]: End processing [bo4e]: success
+[2024-05-16 00:18:13] INFO root fetch - processPackages [aipkgs-heartbeat]: Remove: archive file [/home/abi/fetcher/tmp/aipkgs_heartbeat-1.0.1.tar.gz]
+[2024-05-16 00:18:13] INFO root fetch - processPackages [aipkgs-heartbeat]: Remove: archive file [/home/abi/fetcher/tmp/aipkgs_heartbeat-1.0.2-py3-none-any.whl.zip]
+[2024-05-16 00:18:13] INFO root fetch - processPackages [aipkgs-heartbeat]: Start processing: tencentcloud-sdk-python-mna
+[2024-05-16 00:18:13] INFO root fetch - main [MainThread]: End processing [aipkgs-heartbeat]: success
+[2024-05-16 00:18:14] INFO root fetch - processPackages [aipkgs-heartbeat]: Start processing: tencentcloud-sdk-python-mongodb
+[2024-05-16 00:18:14] INFO root fetch - main [MainThread]: End processing [aipkgs-heartbeat]: success
+[2024-05-16 00:18:14] INFO root fetch - processPackages [tencentcloud-sdk-python-mna]: New version: [3.0.999] Old Version: [3.0.998]
+[2024-05-16 00:18:14] INFO root fetch - processPackages [tencentcloud-sdk-python-mmps]: New version: [3.0.999] Old Version: [3.0.998]
+[2024-05-16 00:18:14] INFO root fetch - processPackages [jgtpy]: Remove: archive file [/home/abi/fetcher/tmp/jgtpy-0.4.8.tar.gz]
+[2024-05-16 00:18:14] INFO root fetch - processPackages [jgtpy]: Remove: archive file [/home/abi/fetcher/tmp/jgtpy-0.4.9.tar.gz]
+[2024-05-16 00:18:14] INFO root fetch - main [MainThread]: End processing [jgtpy]: success
+[2024-05-16 00:18:14] INFO root fetch - processPackages [tencentcloud-sdk-python-mgobe]: Downloading https://files.pythonhosted.org/packages/f3/3a/8c9c31ece3a105657484ac53f47b23f757c8f36a1d224a0a93ef4ebbe627/tencentcloud-sdk-python-mgobe-3.0.999.tar.gz
+[2024-05-16 00:18:14] INFO root fetch - processPackages [tencentcloud-sdk-python-mongodb]: New version: [3.0.999] Old Version: [3.0.998]
+[2024-05-16 00:18:14] INFO root fetch - processPackages [tencentcloud-sdk-python-mariadb]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-mariadb-3.0.998.tar.gz]
+[2024-05-16 00:18:14] INFO root fetch - processPackages [tencentcloud-sdk-python-mariadb]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-mariadb-3.0.999.tar.gz]
+[2024-05-16 00:18:14] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-mariadb]: success
+[2024-05-16 00:18:14] INFO root fetch - processPackages [procedure-data-tool]: Remove: archive file [/home/abi/fetcher/tmp/procedure_data_tool-0.0.4.tar.gz]
+[2024-05-16 00:18:14] INFO root fetch - processPackages [procedure-data-tool]: Remove: archive file [/home/abi/fetcher/tmp/procedure_data_tool-0.0.6.tar.gz]
+[2024-05-16 00:18:14] INFO root fetch - main [MainThread]: End processing [procedure-data-tool]: success
+[2024-05-16 00:18:14] INFO root fetch - processPackages [tencentcloud-sdk-python-mna]: Downloading https://files.pythonhosted.org/packages/96/ed/31d652fbc2576a61b82a5ccd5ac8c4d90181ff12edb2b33726fc57ec95eb/tencentcloud-sdk-python-mna-3.0.998.tar.gz
+[2024-05-16 00:18:14] INFO root fetch - processPackages [tencentcloud-sdk-python-mmps]: Downloading https://files.pythonhosted.org/packages/56/6c/a5f955119c5f1f26645a369a26aa0c2e4efcda04b84145a2e88716b05ad8/tencentcloud-sdk-python-mmps-3.0.998.tar.gz
+[2024-05-16 00:18:14] INFO root fetch - processPackages [tencentcloud-sdk-python-memcached]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-memcached-3.0.998.tar.gz]
+[2024-05-16 00:18:14] INFO root fetch - processPackages [tencentcloud-sdk-python-memcached]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-memcached-3.0.999.tar.gz]
+[2024-05-16 00:18:14] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-memcached]: success
+[2024-05-16 00:18:14] INFO root fetch - processPackages [tencentcloud-sdk-python-mgobe]: executing diffoscope
+[2024-05-16 00:18:14] INFO root fetch - processPackages [tencentcloud-sdk-python-mgobe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud-sdk-python-mgobe-3.0.998.tar.gz tmp/tencentcloud-sdk-python-mgobe-3.0.999.tar.gz --markdown 20240516/t/tencentcloud-sdk-python-mgobe/3.0.998-3.0.999/README.md --exclude *.pyd
+[2024-05-16 00:18:14] INFO root fetch - processPackages [wrun-py]: Remove: archive file [/home/abi/fetcher/tmp/wrun_py-0.2.0.post1.tar.gz]
+[2024-05-16 00:18:14] INFO root fetch - processPackages [wrun-py]: Remove: archive file [/home/abi/fetcher/tmp/wrun_py-0.2.1.post1.tar.gz]
+[2024-05-16 00:18:14] INFO root fetch - main [MainThread]: End processing [wrun-py]: success
+[2024-05-16 00:18:14] INFO root fetch - processPackages [tencentcloud-sdk-python-mongodb]: Downloading https://files.pythonhosted.org/packages/17/f1/436979fbdd2dea336a7ee8794f2688876b3b4fb2fdf7357598183b80b133/tencentcloud-sdk-python-mongodb-3.0.998.tar.gz
+[2024-05-16 00:18:14] INFO root fetch - processPackages [tencentcloud-sdk-python-market]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-market-3.0.998.tar.gz]
+[2024-05-16 00:18:14] INFO root fetch - processPackages [tencentcloud-sdk-python-market]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-market-3.0.999.tar.gz]
+[2024-05-16 00:18:14] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-market]: success
+[2024-05-16 00:18:14] INFO root fetch - processPackages [tencentcloud-sdk-python-mna]: Downloading https://files.pythonhosted.org/packages/e5/4b/69435e8c979528ff473e6eacd06308dd14db52b2bd1399a1eb1ff2d2ee15/tencentcloud-sdk-python-mna-3.0.999.tar.gz
+[2024-05-16 00:18:14] INFO root fetch - processPackages [tencentcloud-sdk-python-mmps]: Downloading https://files.pythonhosted.org/packages/e5/cb/36a54b1e7bde41587fb04f5d57e93458b7a9cdc49b199363bdc791ed819e/tencentcloud-sdk-python-mmps-3.0.999.tar.gz
+[2024-05-16 00:18:14] INFO root fetch - processPackages [tencentcloud-sdk-python-mna]: executing diffoscope
+[2024-05-16 00:18:14] INFO root fetch - processPackages [tencentcloud-sdk-python-mna]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud-sdk-python-mna-3.0.998.tar.gz tmp/tencentcloud-sdk-python-mna-3.0.999.tar.gz --markdown 20240516/t/tencentcloud-sdk-python-mna/3.0.998-3.0.999/README.md --exclude *.pyd
+[2024-05-16 00:18:14] INFO root fetch - processPackages [tencentcloud-sdk-python-mongodb]: Downloading https://files.pythonhosted.org/packages/b1/07/18762c8943abc4b4259d50c87261a6f8f14bff54d6f3a52568c800c7e2ce/tencentcloud-sdk-python-mongodb-3.0.999.tar.gz
+[2024-05-16 00:18:14] INFO root fetch - processPackages [tencentcloud-sdk-python-mmps]: executing diffoscope
+[2024-05-16 00:18:14] INFO root fetch - processPackages [tencentcloud-sdk-python-mmps]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud-sdk-python-mmps-3.0.998.tar.gz tmp/tencentcloud-sdk-python-mmps-3.0.999.tar.gz --markdown 20240516/t/tencentcloud-sdk-python-mmps/3.0.998-3.0.999/README.md --exclude *.pyd
+[2024-05-16 00:18:14] INFO root fetch - processPackages [tencentcloud-sdk-python-mongodb]: executing diffoscope
+[2024-05-16 00:18:14] INFO root fetch - processPackages [tencentcloud-sdk-python-mongodb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud-sdk-python-mongodb-3.0.998.tar.gz tmp/tencentcloud-sdk-python-mongodb-3.0.999.tar.gz --markdown 20240516/t/tencentcloud-sdk-python-mongodb/3.0.998-3.0.999/README.md --exclude *.pyd
+[2024-05-16 00:18:14] INFO root fetch - processPackages [tencentcloud-sdk-python-mgobe]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-mgobe-3.0.998.tar.gz]
+[2024-05-16 00:18:14] INFO root fetch - processPackages [tencentcloud-sdk-python-mgobe]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-mgobe-3.0.999.tar.gz]
+[2024-05-16 00:18:14] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-mgobe]: success
+[2024-05-16 00:18:15] INFO root fetch - processPackages [tencentcloud-sdk-python-mmps]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-mmps-3.0.998.tar.gz]
+[2024-05-16 00:18:15] INFO root fetch - processPackages [tencentcloud-sdk-python-mmps]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-mmps-3.0.999.tar.gz]
+[2024-05-16 00:18:15] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-mmps]: success
+[2024-05-16 00:18:15] INFO root fetch - processPackages [tencentcloud-sdk-python-mna]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-mna-3.0.998.tar.gz]
+[2024-05-16 00:18:15] INFO root fetch - processPackages [tencentcloud-sdk-python-mna]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-mna-3.0.999.tar.gz]
+[2024-05-16 00:18:15] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-mna]: success
+[2024-05-16 00:18:15] INFO root fetch - processPackages [tencentcloud-sdk-python-mongodb]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-mongodb-3.0.998.tar.gz]
+[2024-05-16 00:18:15] INFO root fetch - processPackages [tencentcloud-sdk-python-mongodb]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-mongodb-3.0.999.tar.gz]
+[2024-05-16 00:18:15] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-mongodb]: success
+[2024-05-16 00:18:15] INFO root fetch - main [MainThread]: Store serial: [23225469]
