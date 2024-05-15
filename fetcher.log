@@ -2951,3 +2951,66 @@ AssertionError: tmp/hygpytools-0.2.0.tar.gz does not exist
 [2024-05-16 01:45:59] INFO root fetch - processPackages [pulumi-gcp]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_gcp-7.9.0a1707934510.tar.gz]
 [2024-05-16 01:45:59] INFO root fetch - main [MainThread]: End processing [pulumi-gcp]: success
 [2024-05-16 01:45:59] INFO root fetch - main [MainThread]: Store serial: [23226324]
+[2024-05-16 01:48:03] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23226324]
+[2024-05-16 01:48:07] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-16 01:48:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: REVHubInterface
+[2024-05-16 01:48:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: keplergl
+[2024-05-16 01:48:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: tencentcloud-sdk-python-tts
+[2024-05-16 01:48:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: tencentcloud-sdk-python-ump
+[2024-05-16 01:48:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: tencentcloud-sdk-python-vm
+[2024-05-16 01:48:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: captif-slp
+[2024-05-16 01:48:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: tencentcloud-sdk-python-vms
+[2024-05-16 01:48:08] INFO root fetch - processPackages [REVHubInterface]: New version: [1.3.3.dev9] Old Version: [1.3.3.dev8]
+[2024-05-16 01:48:08] INFO root fetch - processPackages [REVHubInterface]: Downloading https://files.pythonhosted.org/packages/0d/90/3c74a9c7310ba2da2e673cb67d3e8c65e5460209759ef2fa291efce82ab5/revhubinterface-1.3.3.dev8.tar.gz
+[2024-05-16 01:48:08] INFO root fetch - processPackages [keplergl]: New version: [0.3.4a0] Old Version: [0.3.2]
+[2024-05-16 01:48:08] INFO root fetch - processPackages [captif-slp]: New version: [0.9] Old Version: [0.8]
+[2024-05-16 01:48:08] INFO root fetch - processPackages [tencentcloud-sdk-python-vms]: New version: [3.0.999] Old Version: [3.0.998]
+[2024-05-16 01:48:08] INFO root fetch - processPackages [tencentcloud-sdk-python-ump]: New version: [3.0.999] Old Version: [3.0.998]
+[2024-05-16 01:48:08] INFO root fetch - processPackages [tencentcloud-sdk-python-vm]: New version: [3.0.999] Old Version: [3.0.998]
+[2024-05-16 01:48:08] INFO root fetch - processPackages [tencentcloud-sdk-python-tts]: New version: [3.0.999] Old Version: [3.0.998]
+[2024-05-16 01:48:08] INFO root fetch - processPackages [keplergl]: Downloading https://files.pythonhosted.org/packages/f0/b7/e36a95d722233af09e136855142c71a8f2327715f240552d72bc6b814a02/keplergl-0.3.2.tar.gz
+[2024-05-16 01:48:08] INFO root fetch - processPackages [captif-slp]: Downloading https://files.pythonhosted.org/packages/75/c7/7fb5e638eb2c7b5d22b7e0d723ee989855703084d4e73e59b9177bafba52/captif-slp-0.8.tar.gz
+[2024-05-16 01:48:08] INFO root fetch - processPackages [tencentcloud-sdk-python-vms]: Downloading https://files.pythonhosted.org/packages/0b/37/ef768839680845605dc1ad548f95dfc85501d713bb1afd3b4ebe256b2866/tencentcloud-sdk-python-vms-3.0.998.tar.gz
+[2024-05-16 01:48:08] INFO root fetch - processPackages [tencentcloud-sdk-python-tts]: Downloading https://files.pythonhosted.org/packages/10/59/08b9a1edde05fa318d69973b229f30dfbe049da31ff6fe2c7b369bb6abea/tencentcloud-sdk-python-tts-3.0.998.tar.gz
+[2024-05-16 01:48:08] INFO root fetch - processPackages [tencentcloud-sdk-python-ump]: Downloading https://files.pythonhosted.org/packages/21/1a/d49e1f35ba723fc9f685e1c0e6e8d34b00a4c6fda9e2c02c594830c867b0/tencentcloud-sdk-python-ump-3.0.998.tar.gz
+[2024-05-16 01:48:08] INFO root fetch - processPackages [tencentcloud-sdk-python-vm]: Downloading https://files.pythonhosted.org/packages/94/fd/93f5c3fbea11d1cbc6de5123a46923ddbf38a9a9904f1ce6ea59ea7e866d/tencentcloud-sdk-python-vm-3.0.998.tar.gz
+[2024-05-16 01:48:08] INFO root fetch - processPackages [REVHubInterface]: Downloading https://files.pythonhosted.org/packages/47/93/e2ab5da20dcdca793ff04faa5aa5f38bb3f149e7bf70c77c15ac7d127689/revhubinterface-1.3.3.dev9.tar.gz
+[2024-05-16 01:48:08] INFO root fetch - processPackages [REVHubInterface]: executing diffoscope
+[2024-05-16 01:48:08] INFO root fetch - processPackages [REVHubInterface]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/revhubinterface-1.3.3.dev8.tar.gz tmp/revhubinterface-1.3.3.dev9.tar.gz --markdown 20240516/R/REVHubInterface/1.3.3.dev8-1.3.3.dev9/README.md --exclude *.pyd
+[2024-05-16 01:48:08] INFO root fetch - processPackages [tencentcloud-sdk-python-vms]: Downloading https://files.pythonhosted.org/packages/bb/7f/952b82b80058a96138241447ab68d6447b7ff8802443b5c28fe59e65fa36/tencentcloud-sdk-python-vms-3.0.999.tar.gz
+[2024-05-16 01:48:08] INFO root fetch - processPackages [captif-slp]: Downloading https://files.pythonhosted.org/packages/08/59/6bc2fe7908f5fe4b6d93eb6f7c0c450a0e43b7ade9ce1906f1d0269f6d1f/captif-slp-0.9.tar.gz
+[2024-05-16 01:48:08] INFO root fetch - processPackages [tencentcloud-sdk-python-ump]: Downloading https://files.pythonhosted.org/packages/72/d4/2531085dece1328c85d3045a3d8e123805865b4804edfc5d6fc3f607660a/tencentcloud-sdk-python-ump-3.0.999.tar.gz
+[2024-05-16 01:48:08] INFO root fetch - processPackages [tencentcloud-sdk-python-vms]: executing diffoscope
+[2024-05-16 01:48:08] INFO root fetch - processPackages [tencentcloud-sdk-python-vms]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud-sdk-python-vms-3.0.998.tar.gz tmp/tencentcloud-sdk-python-vms-3.0.999.tar.gz --markdown 20240516/t/tencentcloud-sdk-python-vms/3.0.998-3.0.999/README.md --exclude *.pyd
+[2024-05-16 01:48:08] INFO root fetch - processPackages [tencentcloud-sdk-python-vm]: Downloading https://files.pythonhosted.org/packages/bb/80/4a9a7daa8215fb6641ed5340fdf77e6477ba460c1a63ed05e3e35fd525e2/tencentcloud-sdk-python-vm-3.0.999.tar.gz
+[2024-05-16 01:48:08] INFO root fetch - processPackages [captif-slp]: executing diffoscope
+[2024-05-16 01:48:08] INFO root fetch - processPackages [captif-slp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/captif-slp-0.8.tar.gz tmp/captif-slp-0.9.tar.gz --markdown 20240516/c/captif-slp/0.8-0.9/README.md --exclude *.pyd
+[2024-05-16 01:48:08] INFO root fetch - processPackages [keplergl]: Downloading https://files.pythonhosted.org/packages/bf/e5/c9289028b17f36f3c51812c40e087d951db8bc99ca3648a943ad9d01438b/keplergl-0.3.4a0.tar.gz
+[2024-05-16 01:48:08] INFO root fetch - processPackages [tencentcloud-sdk-python-tts]: Downloading https://files.pythonhosted.org/packages/20/de/08c782128d2630bf5daf31530f1783a255752dce61e1220554659b9d2fa5/tencentcloud-sdk-python-tts-3.0.999.tar.gz
+[2024-05-16 01:48:09] INFO root fetch - processPackages [tencentcloud-sdk-python-ump]: executing diffoscope
+[2024-05-16 01:48:09] INFO root fetch - processPackages [tencentcloud-sdk-python-ump]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud-sdk-python-ump-3.0.998.tar.gz tmp/tencentcloud-sdk-python-ump-3.0.999.tar.gz --markdown 20240516/t/tencentcloud-sdk-python-ump/3.0.998-3.0.999/README.md --exclude *.pyd
+[2024-05-16 01:48:09] WARNING root fetch - processPackages [keplergl]: Skipping package: exceeds size limit 16895634>=10485760
+[2024-05-16 01:48:09] INFO root fetch - main [MainThread]: End processing [keplergl] error
+[2024-05-16 01:48:09] INFO root fetch - processPackages [tencentcloud-sdk-python-vm]: executing diffoscope
+[2024-05-16 01:48:09] INFO root fetch - processPackages [tencentcloud-sdk-python-vm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud-sdk-python-vm-3.0.998.tar.gz tmp/tencentcloud-sdk-python-vm-3.0.999.tar.gz --markdown 20240516/t/tencentcloud-sdk-python-vm/3.0.998-3.0.999/README.md --exclude *.pyd
+[2024-05-16 01:48:09] INFO root fetch - processPackages [tencentcloud-sdk-python-tts]: executing diffoscope
+[2024-05-16 01:48:09] INFO root fetch - processPackages [tencentcloud-sdk-python-tts]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud-sdk-python-tts-3.0.998.tar.gz tmp/tencentcloud-sdk-python-tts-3.0.999.tar.gz --markdown 20240516/t/tencentcloud-sdk-python-tts/3.0.998-3.0.999/README.md --exclude *.pyd
+[2024-05-16 01:48:09] INFO root fetch - processPackages [REVHubInterface]: Remove: archive file [/home/abi/fetcher/tmp/revhubinterface-1.3.3.dev8.tar.gz]
+[2024-05-16 01:48:09] INFO root fetch - processPackages [REVHubInterface]: Remove: archive file [/home/abi/fetcher/tmp/revhubinterface-1.3.3.dev9.tar.gz]
+[2024-05-16 01:48:09] INFO root fetch - main [MainThread]: End processing [REVHubInterface]: success
+[2024-05-16 01:48:09] INFO root fetch - processPackages [tencentcloud-sdk-python-vms]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-vms-3.0.998.tar.gz]
+[2024-05-16 01:48:09] INFO root fetch - processPackages [tencentcloud-sdk-python-vms]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-vms-3.0.999.tar.gz]
+[2024-05-16 01:48:09] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-vms]: success
+[2024-05-16 01:48:09] INFO root fetch - processPackages [captif-slp]: Remove: archive file [/home/abi/fetcher/tmp/captif-slp-0.8.tar.gz]
+[2024-05-16 01:48:09] INFO root fetch - processPackages [captif-slp]: Remove: archive file [/home/abi/fetcher/tmp/captif-slp-0.9.tar.gz]
+[2024-05-16 01:48:09] INFO root fetch - main [MainThread]: End processing [captif-slp]: success
+[2024-05-16 01:48:09] INFO root fetch - processPackages [tencentcloud-sdk-python-ump]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-ump-3.0.998.tar.gz]
+[2024-05-16 01:48:09] INFO root fetch - processPackages [tencentcloud-sdk-python-ump]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-ump-3.0.999.tar.gz]
+[2024-05-16 01:48:09] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-ump]: success
+[2024-05-16 01:48:09] INFO root fetch - processPackages [tencentcloud-sdk-python-tts]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-tts-3.0.998.tar.gz]
+[2024-05-16 01:48:09] INFO root fetch - processPackages [tencentcloud-sdk-python-tts]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-tts-3.0.999.tar.gz]
+[2024-05-16 01:48:09] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-tts]: success
+[2024-05-16 01:48:09] INFO root fetch - processPackages [tencentcloud-sdk-python-vm]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-vm-3.0.998.tar.gz]
+[2024-05-16 01:48:09] INFO root fetch - processPackages [tencentcloud-sdk-python-vm]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-vm-3.0.999.tar.gz]
+[2024-05-16 01:48:09] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-vm]: success
+[2024-05-16 01:48:09] INFO root fetch - main [MainThread]: Store serial: [23226344]
