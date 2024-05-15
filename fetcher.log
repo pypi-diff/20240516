@@ -2435,3 +2435,87 @@ AssertionError: tmp/hygpytools-0.2.0.tar.gz does not exist
 [2024-05-16 01:19:25] INFO root fetch - processPackages [borb]: Remove: archive file [/home/abi/fetcher/tmp/borb-2.1.9.tar.gz]
 [2024-05-16 01:19:25] INFO root fetch - main [MainThread]: End processing [borb]: success
 [2024-05-16 01:19:25] INFO root fetch - main [MainThread]: Store serial: [23226114]
+[2024-05-16 01:21:30] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23226114]
+[2024-05-16 01:21:35] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-05-16 01:21:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: fudstop
+[2024-05-16 01:21:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: deeplake
+[2024-05-16 01:21:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: nextstrain-augur
+[2024-05-16 01:21:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: vgs-cli
+[2024-05-16 01:21:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: deafrica-tools
+[2024-05-16 01:21:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: tencentcloud-sdk-python-tics
+[2024-05-16 01:21:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: streamlit-screen-stats
+[2024-05-16 01:21:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: tencentcloud-sdk-python-tiems
+[2024-05-16 01:21:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: tencentcloud-sdk-python-tiia
+[2024-05-16 01:21:35] INFO root fetch - processPackages [fudstop]: New version: [2.6.4] Old Version: [2.6.3]
+[2024-05-16 01:21:35] INFO root fetch - processPackages [streamlit-screen-stats]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-16 01:21:35] INFO root fetch - processPackages [fudstop]: Downloading https://files.pythonhosted.org/packages/2e/db/b2b60835664eaeb3698e157b3e40315ff8df9a6026b93548d4c2f76b4e34/fudstop-2.6.3.tar.gz
+[2024-05-16 01:21:35] INFO root fetch - processPackages [tencentcloud-sdk-python-tics]: New version: [3.0.999] Old Version: [3.0.998]
+[2024-05-16 01:21:35] INFO root fetch - processPackages [vgs-cli]: New version: [1.9.5] Old Version: [1.9.4]
+[2024-05-16 01:21:36] INFO root fetch - processPackages [nextstrain-augur]: New version: [9.0.0] Old Version: [8.0.0]
+[2024-05-16 01:21:36] INFO root fetch - processPackages [deafrica-tools]: New version: [2.3.8] Old Version: [2.3.7]
+[2024-05-16 01:21:36] INFO root fetch - processPackages [deeplake]: New version: [3.9.6] Old Version: [3.9.5]
+[2024-05-16 01:21:36] INFO root fetch - processPackages [tencentcloud-sdk-python-tiems]: New version: [3.0.999] Old Version: [3.0.998]
+[2024-05-16 01:21:36] INFO root fetch - processPackages [streamlit-screen-stats]: Downloading https://files.pythonhosted.org/packages/b5/f3/ffa1db6a0713ba6b2fc4ac5b1e057f98d7180131b56db9b54f5e09b8ea3d/streamlit-screen-stats-0.0.8.tar.gz
+[2024-05-16 01:21:36] INFO root fetch - processPackages [vgs-cli]: Downloading https://files.pythonhosted.org/packages/c6/ef/2fe772c65ca853772d50854da50dfce5b98d54af0091cd3267b9fc8b109f/vgs-cli-1.9.4.tar.gz
+[2024-05-16 01:21:36] INFO root fetch - processPackages [tencentcloud-sdk-python-tics]: Downloading https://files.pythonhosted.org/packages/cb/d5/544eef7b901ac7cfe6e062c33f28334b7c183da0e8d0b237587d3fc44f46/tencentcloud-sdk-python-tics-3.0.998.tar.gz
+[2024-05-16 01:21:36] INFO root fetch - processPackages [tencentcloud-sdk-python-tiia]: New version: [3.0.999] Old Version: [3.0.998]
+[2024-05-16 01:21:36] INFO root fetch - processPackages [nextstrain-augur]: Downloading https://files.pythonhosted.org/packages/ef/e6/a1249ffd712c94df4813f8f473fe4b385a665ba5d144bb3eed6dc6868243/nextstrain-augur-8.0.0.tar.gz
+[2024-05-16 01:21:36] INFO root fetch - processPackages [deeplake]: Downloading https://files.pythonhosted.org/packages/6d/14/040270ea967636480a21f71c53753d6d121aaaf0a51a2e29f49e3471bc72/deeplake-3.9.5.tar.gz
+[2024-05-16 01:21:36] INFO root fetch - processPackages [tencentcloud-sdk-python-tiems]: Downloading https://files.pythonhosted.org/packages/7d/44/794f54c761ad7240e521d54096c73c5cda58a8be7acb7740a04cdc5464cc/tencentcloud-sdk-python-tiems-3.0.998.tar.gz
+[2024-05-16 01:21:36] INFO root fetch - processPackages [deafrica-tools]: Downloading https://files.pythonhosted.org/packages/27/79/a6ab4d238dd253706df5bea0f1146e3f9149256c97b0bb197471574f58df/deafrica-tools-2.3.7.tar.gz
+[2024-05-16 01:21:36] INFO root fetch - processPackages [streamlit-screen-stats]: Downloading https://files.pythonhosted.org/packages/47/c1/551994788e8d7fbca93c51782419b6f14c5db12208b833677955f6412aab/streamlit-screen-stats-0.0.9.tar.gz
+[2024-05-16 01:21:36] INFO root fetch - processPackages [fudstop]: Downloading https://files.pythonhosted.org/packages/a1/ac/a4a5b5aaa511d13dd749c4f2efafd0fab7a7316e5b7534f63c8db21adb2e/fudstop-2.6.4.tar.gz
+[2024-05-16 01:21:36] INFO root fetch - processPackages [tencentcloud-sdk-python-tiia]: Downloading https://files.pythonhosted.org/packages/af/27/4ad442a5d25485197a556ada200fa71343c412ee6a4ee82ac012af4402b5/tencentcloud-sdk-python-tiia-3.0.998.tar.gz
+[2024-05-16 01:21:36] INFO root fetch - processPackages [streamlit-screen-stats]: executing diffoscope
+[2024-05-16 01:21:36] INFO root fetch - processPackages [streamlit-screen-stats]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/streamlit-screen-stats-0.0.8.tar.gz tmp/streamlit-screen-stats-0.0.9.tar.gz --markdown 20240516/s/streamlit-screen-stats/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-16 01:21:36] INFO root fetch - processPackages [tencentcloud-sdk-python-tics]: Downloading https://files.pythonhosted.org/packages/a6/c0/1592be13e4dfda8bde9aff86de4a82eed35c99c7d89bc85edb2a03e5063d/tencentcloud-sdk-python-tics-3.0.999.tar.gz
+[2024-05-16 01:21:36] INFO root fetch - processPackages [vgs-cli]: Downloading https://files.pythonhosted.org/packages/4a/37/e7806711730cb819399b1b5673ab9445a738c9e04c09483014bf2978f378/vgs-cli-1.9.5.tar.gz
+[2024-05-16 01:21:36] INFO root fetch - processPackages [fudstop]: executing diffoscope
+[2024-05-16 01:21:36] INFO root fetch - processPackages [fudstop]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fudstop-2.6.3.tar.gz tmp/fudstop-2.6.4.tar.gz --markdown 20240516/f/fudstop/2.6.3-2.6.4/README.md --exclude *.pyd
+[2024-05-16 01:21:36] INFO root fetch - processPackages [deafrica-tools]: Downloading https://files.pythonhosted.org/packages/20/de/24a8b37940b9d04b05be833d668a586fb60dc429b8af6094da5dfd62e6be/deafrica_tools-2.3.8.tar.gz
+[2024-05-16 01:21:36] INFO root fetch - processPackages [tencentcloud-sdk-python-tiems]: Downloading https://files.pythonhosted.org/packages/d6/4e/57a8aa4f2c8576516cf928fd6dbfaec80218157e0554b781bdbb7df72622/tencentcloud-sdk-python-tiems-3.0.999.tar.gz
+[2024-05-16 01:21:36] INFO root fetch - processPackages [deeplake]: Downloading https://files.pythonhosted.org/packages/e9/cd/7de8b770a1b5469d85c23f8ed71df4b9e7228fd4db75c634ea3da661652f/deeplake-3.9.6.tar.gz
+[2024-05-16 01:21:36] INFO root fetch - processPackages [tencentcloud-sdk-python-tics]: executing diffoscope
+[2024-05-16 01:21:36] INFO root fetch - processPackages [tencentcloud-sdk-python-tics]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud-sdk-python-tics-3.0.998.tar.gz tmp/tencentcloud-sdk-python-tics-3.0.999.tar.gz --markdown 20240516/t/tencentcloud-sdk-python-tics/3.0.998-3.0.999/README.md --exclude *.pyd
+[2024-05-16 01:21:36] INFO root fetch - processPackages [vgs-cli]: executing diffoscope
+[2024-05-16 01:21:36] INFO root fetch - processPackages [vgs-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vgs-cli-1.9.4.tar.gz tmp/vgs-cli-1.9.5.tar.gz --markdown 20240516/v/vgs-cli/1.9.4-1.9.5/README.md --exclude *.pyd
+[2024-05-16 01:21:36] INFO root fetch - processPackages [deafrica-tools]: executing diffoscope
+[2024-05-16 01:21:36] INFO root fetch - processPackages [deafrica-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/deafrica-tools-2.3.7.tar.gz tmp/deafrica_tools-2.3.8.tar.gz --markdown 20240516/d/deafrica-tools/2.3.7-2.3.8/README.md --exclude *.pyd
+[2024-05-16 01:21:36] INFO root fetch - processPackages [tencentcloud-sdk-python-tiems]: executing diffoscope
+[2024-05-16 01:21:36] INFO root fetch - processPackages [tencentcloud-sdk-python-tiems]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud-sdk-python-tiems-3.0.998.tar.gz tmp/tencentcloud-sdk-python-tiems-3.0.999.tar.gz --markdown 20240516/t/tencentcloud-sdk-python-tiems/3.0.998-3.0.999/README.md --exclude *.pyd
+[2024-05-16 01:21:36] INFO root fetch - processPackages [deeplake]: executing diffoscope
+[2024-05-16 01:21:36] INFO root fetch - processPackages [deeplake]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/deeplake-3.9.5.tar.gz tmp/deeplake-3.9.6.tar.gz --markdown 20240516/d/deeplake/3.9.5-3.9.6/README.md --exclude *.pyd
+[2024-05-16 01:21:36] INFO root fetch - processPackages [tencentcloud-sdk-python-tiia]: Downloading https://files.pythonhosted.org/packages/cc/23/051612b22f6b5c1d75c05182ee42a3d1c7736dd05147367d7b6aa0b5e403/tencentcloud-sdk-python-tiia-3.0.999.tar.gz
+[2024-05-16 01:21:37] INFO root fetch - processPackages [tencentcloud-sdk-python-tiia]: executing diffoscope
+[2024-05-16 01:21:37] INFO root fetch - processPackages [tencentcloud-sdk-python-tiia]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud-sdk-python-tiia-3.0.998.tar.gz tmp/tencentcloud-sdk-python-tiia-3.0.999.tar.gz --markdown 20240516/t/tencentcloud-sdk-python-tiia/3.0.998-3.0.999/README.md --exclude *.pyd
+[2024-05-16 01:21:37] INFO root fetch - processPackages [nextstrain-augur]: Downloading https://files.pythonhosted.org/packages/83/c2/5e89646d29ad9efa83c7396e4fef6cfcfaec8629134749252efd07e4fccc/nextstrain-augur-9.0.0.tar.gz
+[2024-05-16 01:21:37] INFO root fetch - processPackages [tencentcloud-sdk-python-tics]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-tics-3.0.998.tar.gz]
+[2024-05-16 01:21:37] INFO root fetch - processPackages [tencentcloud-sdk-python-tics]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-tics-3.0.999.tar.gz]
+[2024-05-16 01:21:37] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-tics]: success
+[2024-05-16 01:21:37] INFO root fetch - processPackages [vgs-cli]: Remove: archive file [/home/abi/fetcher/tmp/vgs-cli-1.9.4.tar.gz]
+[2024-05-16 01:21:37] INFO root fetch - processPackages [vgs-cli]: Remove: archive file [/home/abi/fetcher/tmp/vgs-cli-1.9.5.tar.gz]
+[2024-05-16 01:21:37] INFO root fetch - main [MainThread]: End processing [vgs-cli]: success
+[2024-05-16 01:21:37] INFO root fetch - processPackages [tencentcloud-sdk-python-tiems]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-tiems-3.0.998.tar.gz]
+[2024-05-16 01:21:37] INFO root fetch - processPackages [tencentcloud-sdk-python-tiems]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-tiems-3.0.999.tar.gz]
+[2024-05-16 01:21:37] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-tiems]: success
+[2024-05-16 01:21:37] INFO root fetch - processPackages [deafrica-tools]: Remove: archive file [/home/abi/fetcher/tmp/deafrica-tools-2.3.7.tar.gz]
+[2024-05-16 01:21:37] INFO root fetch - processPackages [deafrica-tools]: Remove: archive file [/home/abi/fetcher/tmp/deafrica_tools-2.3.8.tar.gz]
+[2024-05-16 01:21:37] INFO root fetch - main [MainThread]: End processing [deafrica-tools]: success
+[2024-05-16 01:21:37] INFO root fetch - processPackages [nextstrain-augur]: executing diffoscope
+[2024-05-16 01:21:37] INFO root fetch - processPackages [nextstrain-augur]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nextstrain-augur-8.0.0.tar.gz tmp/nextstrain-augur-9.0.0.tar.gz --markdown 20240516/n/nextstrain-augur/8.0.0-9.0.0/README.md --exclude *.pyd
+[2024-05-16 01:21:37] INFO root fetch - processPackages [tencentcloud-sdk-python-tiia]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-tiia-3.0.998.tar.gz]
+[2024-05-16 01:21:37] INFO root fetch - processPackages [tencentcloud-sdk-python-tiia]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-tiia-3.0.999.tar.gz]
+[2024-05-16 01:21:37] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-tiia]: success
+[2024-05-16 01:21:38] INFO root fetch - processPackages [fudstop]: Remove: archive file [/home/abi/fetcher/tmp/fudstop-2.6.3.tar.gz]
+[2024-05-16 01:21:38] INFO root fetch - processPackages [fudstop]: Remove: archive file [/home/abi/fetcher/tmp/fudstop-2.6.4.tar.gz]
+[2024-05-16 01:21:38] INFO root fetch - main [MainThread]: End processing [fudstop]: success
+[2024-05-16 01:21:38] INFO root fetch - processPackages [nextstrain-augur]: Remove: archive file [/home/abi/fetcher/tmp/nextstrain-augur-8.0.0.tar.gz]
+[2024-05-16 01:21:38] INFO root fetch - processPackages [nextstrain-augur]: Remove: archive file [/home/abi/fetcher/tmp/nextstrain-augur-9.0.0.tar.gz]
+[2024-05-16 01:21:38] INFO root fetch - main [MainThread]: End processing [nextstrain-augur]: success
+[2024-05-16 01:21:38] INFO root fetch - processPackages [deeplake]: Remove: archive file [/home/abi/fetcher/tmp/deeplake-3.9.5.tar.gz]
+[2024-05-16 01:21:38] INFO root fetch - processPackages [deeplake]: Remove: archive file [/home/abi/fetcher/tmp/deeplake-3.9.6.tar.gz]
+[2024-05-16 01:21:38] INFO root fetch - main [MainThread]: End processing [deeplake]: success
+[2024-05-16 01:21:49] INFO root fetch - processPackages [streamlit-screen-stats]: Remove: archive file [/home/abi/fetcher/tmp/streamlit-screen-stats-0.0.8.tar.gz]
+[2024-05-16 01:21:49] INFO root fetch - processPackages [streamlit-screen-stats]: Remove: archive file [/home/abi/fetcher/tmp/streamlit-screen-stats-0.0.9.tar.gz]
+[2024-05-16 01:21:49] INFO root fetch - main [MainThread]: End processing [streamlit-screen-stats]: success
+[2024-05-16 01:21:49] INFO root fetch - main [MainThread]: Store serial: [23226136]
