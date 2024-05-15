@@ -1393,3 +1393,15 @@ AssertionError: tmp/hygpytools-0.2.0.tar.gz does not exist
 [2024-05-16 00:37:48] INFO root fetch - processPackages [tencentcloud-sdk-python-rkp]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-rkp-3.0.999.tar.gz]
 [2024-05-16 00:37:48] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-rkp]: success
 [2024-05-16 00:37:48] INFO root fetch - main [MainThread]: Store serial: [23225697]
+[2024-05-16 00:39:52] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23225697]
+[2024-05-16 00:39:57] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-05-16 00:39:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: action-rules
+[2024-05-16 00:39:57] INFO root fetch - processPackages [action-rules]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-05-16 00:39:57] INFO root fetch - processPackages [action-rules]: Downloading https://files.pythonhosted.org/packages/e3/aa/52078ea561f4992040ac9f1773446632d01162af6bd46e35c6c72a6037c7/action_rules-0.0.1.tar.gz
+[2024-05-16 00:39:57] INFO root fetch - processPackages [action-rules]: Downloading https://files.pythonhosted.org/packages/8e/e3/4ab25b8a6bffea2d96feb3edbf20fc9a1620f371063adbffe2e27b874d9f/action_rules-0.0.2.tar.gz
+[2024-05-16 00:39:57] INFO root fetch - processPackages [action-rules]: executing diffoscope
+[2024-05-16 00:39:57] INFO root fetch - processPackages [action-rules]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/action_rules-0.0.1.tar.gz tmp/action_rules-0.0.2.tar.gz --markdown 20240516/a/action-rules/0.0.1-0.0.2/README.md --exclude *.pyd
+[2024-05-16 00:39:58] INFO root fetch - processPackages [action-rules]: Remove: archive file [/home/abi/fetcher/tmp/action_rules-0.0.1.tar.gz]
+[2024-05-16 00:39:58] INFO root fetch - processPackages [action-rules]: Remove: archive file [/home/abi/fetcher/tmp/action_rules-0.0.2.tar.gz]
+[2024-05-16 00:39:58] INFO root fetch - main [MainThread]: End processing [action-rules]: success
+[2024-05-16 00:39:58] INFO root fetch - main [MainThread]: Store serial: [23225701]
