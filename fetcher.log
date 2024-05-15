@@ -2695,3 +2695,24 @@ AssertionError: tmp/hygpytools-0.2.0.tar.gz does not exist
 [2024-05-16 01:30:36] INFO root fetch - processPackages [tencentcloud-sdk-python-tms]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-tms-3.0.999.tar.gz]
 [2024-05-16 01:30:36] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-tms]: success
 [2024-05-16 01:30:36] INFO root fetch - main [MainThread]: Store serial: [23226204]
+[2024-05-16 01:32:39] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23226204]
+[2024-05-16 01:32:44] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-16 01:32:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: new-natnet-client
+[2024-05-16 01:32:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tencentcloud-sdk-python-trdp
+[2024-05-16 01:32:44] INFO root fetch - processPackages [new-natnet-client]: New version: [4.2.0] Old Version: [4.1.3b0]
+[2024-05-16 01:32:44] INFO root fetch - processPackages [tencentcloud-sdk-python-trdp]: New version: [3.0.999] Old Version: [3.0.998]
+[2024-05-16 01:32:44] INFO root fetch - processPackages [new-natnet-client]: Downloading https://files.pythonhosted.org/packages/28/82/764a6a8da6cd087dabfbcde448fed85c31134d79d09978216d9673435497/new_natnet_client-4.1.3b0.tar.gz
+[2024-05-16 01:32:44] INFO root fetch - processPackages [tencentcloud-sdk-python-trdp]: Downloading https://files.pythonhosted.org/packages/8b/08/330d599d162baa091a3100d927ff1110f125a01c2dfeeaec10a6b97e4899/tencentcloud-sdk-python-trdp-3.0.998.tar.gz
+[2024-05-16 01:32:44] INFO root fetch - processPackages [new-natnet-client]: Downloading https://files.pythonhosted.org/packages/a5/ba/f19b19b792f988d2a1152c0626717753d410d9613a980736e7dc83ba3af2/new_natnet_client-4.2.0.tar.gz
+[2024-05-16 01:32:45] INFO root fetch - processPackages [new-natnet-client]: executing diffoscope
+[2024-05-16 01:32:45] INFO root fetch - processPackages [new-natnet-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/new_natnet_client-4.1.3b0.tar.gz tmp/new_natnet_client-4.2.0.tar.gz --markdown 20240516/n/new-natnet-client/4.1.3b0-4.2.0/README.md --exclude *.pyd
+[2024-05-16 01:32:45] INFO root fetch - processPackages [tencentcloud-sdk-python-trdp]: Downloading https://files.pythonhosted.org/packages/08/0e/f94c3719e6277997d51dd27d0683b1a86456f29bd3cc044ab044331acd73/tencentcloud-sdk-python-trdp-3.0.999.tar.gz
+[2024-05-16 01:32:45] INFO root fetch - processPackages [tencentcloud-sdk-python-trdp]: executing diffoscope
+[2024-05-16 01:32:45] INFO root fetch - processPackages [tencentcloud-sdk-python-trdp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud-sdk-python-trdp-3.0.998.tar.gz tmp/tencentcloud-sdk-python-trdp-3.0.999.tar.gz --markdown 20240516/t/tencentcloud-sdk-python-trdp/3.0.998-3.0.999/README.md --exclude *.pyd
+[2024-05-16 01:32:45] INFO root fetch - processPackages [new-natnet-client]: Remove: archive file [/home/abi/fetcher/tmp/new_natnet_client-4.1.3b0.tar.gz]
+[2024-05-16 01:32:45] INFO root fetch - processPackages [new-natnet-client]: Remove: archive file [/home/abi/fetcher/tmp/new_natnet_client-4.2.0.tar.gz]
+[2024-05-16 01:32:45] INFO root fetch - main [MainThread]: End processing [new-natnet-client]: success
+[2024-05-16 01:32:45] INFO root fetch - processPackages [tencentcloud-sdk-python-trdp]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-trdp-3.0.998.tar.gz]
+[2024-05-16 01:32:45] INFO root fetch - processPackages [tencentcloud-sdk-python-trdp]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-trdp-3.0.999.tar.gz]
+[2024-05-16 01:32:45] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-trdp]: success
+[2024-05-16 01:32:45] INFO root fetch - main [MainThread]: Store serial: [23226210]
