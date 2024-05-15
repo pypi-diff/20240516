@@ -3196,3 +3196,80 @@ AssertionError: tmp/hygpytools-0.2.0.tar.gz does not exist
 [2024-05-16 01:54:46] INFO root fetch - processPackages [qsharp-widgets]: Remove: archive file [/home/abi/fetcher/tmp/qsharp_widgets-1.4.2.dev0-py2.py3-none-any.whl.zip]
 [2024-05-16 01:54:46] INFO root fetch - main [MainThread]: End processing [qsharp-widgets]: success
 [2024-05-16 01:54:46] INFO root fetch - main [MainThread]: Store serial: [23226419]
+[2024-05-16 01:56:50] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23226419]
+[2024-05-16 01:56:55] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2024-05-16 01:56:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mirar
+[2024-05-16 01:56:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: extractcode-libarchive-system-provided
+[2024-05-16 01:56:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: typecode-libmagic-system-provided
+[2024-05-16 01:56:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: odoo14-addon-ssi-web-clear-all-filter
+[2024-05-16 01:56:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: odoo14-addon-ssi-web-server-action-confirmation
+[2024-05-16 01:56:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: odoo14-addon-ssi-web-widget-many2onereference-clickable
+[2024-05-16 01:56:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: yoto-api
+[2024-05-16 01:56:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: nbDevTools
+[2024-05-16 01:56:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: autoray
+[2024-05-16 01:56:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: lbt-honeybee
+[2024-05-16 01:56:55] WARNING root fetch - processPackages [nbDevTools]: Skipping, unable to determine old version
+[2024-05-16 01:56:55] INFO root fetch - main [MainThread]: End processing [nbDevTools] error
+[2024-05-16 01:56:55] INFO root fetch - processPackages [mirar]: New version: [0.9.2] Old Version: [0.9.1]
+[2024-05-16 01:56:55] INFO root fetch - processPackages [yoto-api]: New version: [1.9.0] Old Version: [1.8.0]
+[2024-05-16 01:56:55] INFO root fetch - processPackages [lbt-honeybee]: New version: [0.8.99] Old Version: [0.8.98]
+[2024-05-16 01:56:55] INFO root fetch - processPackages [extractcode-libarchive-system-provided]: New version: [32.0.0] Old Version: [3.5.1.210531]
+[2024-05-16 01:56:55] INFO root fetch - processPackages [typecode-libmagic-system-provided]: New version: [5.39.210531] Old Version: [5.39.210223]
+[2024-05-16 01:56:55] INFO root fetch - processPackages [autoray]: New version: [0.6.9] Old Version: [0.6.8]
+[2024-05-16 01:56:55] INFO root fetch - processPackages [odoo14-addon-ssi-web-clear-all-filter]: New version: [14.0.1.0.1.dev1] Old Version: [14.0.1.0.0]
+[2024-05-16 01:56:55] WARNING root fetch - processPackages [odoo14-addon-ssi-web-server-action-confirmation]: Skipping, unable to determine old version
+[2024-05-16 01:56:55] INFO root fetch - main [MainThread]: End processing [odoo14-addon-ssi-web-server-action-confirmation] error
+[2024-05-16 01:56:55] INFO root fetch - processPackages [odoo14-addon-ssi-web-widget-many2onereference-clickable]: New version: [14.0.1.0.1.dev1] Old Version: [14.0.1.0.0]
+[2024-05-16 01:56:55] INFO root fetch - processPackages [yoto-api]: Downloading https://files.pythonhosted.org/packages/0c/ce/e8631b9319eccf4ffbaef962e56044d41f29cb3f8c07be1556f741f2569a/yoto_api-1.8.0.tar.gz
+[2024-05-16 01:56:55] INFO root fetch - processPackages [lbt-honeybee]: Downloading https://files.pythonhosted.org/packages/b5/a0/c6742c4b1a93565a552f073a8cad3689b9e2edcf401d45bd9fddf0485a8d/lbt-honeybee-0.8.98.tar.gz
+[2024-05-16 01:56:55] INFO root fetch - processPackages [mirar]: Downloading https://files.pythonhosted.org/packages/c2/1f/8bb51b9b229168180f6f1cd662a4e6c58a745f73e1da19c40f773f8d974e/mirar-0.9.1.tar.gz
+[2024-05-16 01:56:55] WARNING root fetch - processPackages [mirar]: Skipping package: exceeds size limit 90122563>=10485760
+[2024-05-16 01:56:55] INFO root fetch - main [MainThread]: End processing [mirar] error
+[2024-05-16 01:56:56] INFO root fetch - processPackages [extractcode-libarchive-system-provided]: Downloading https://files.pythonhosted.org/packages/7a/57/4afc43f6595a33e1470bf8ba06d0b9c88a60e384641394b8053b06cd5371/extractcode_libarchive_system_provided-3.5.1.210531.tar.gz
+[2024-05-16 01:56:56] INFO root fetch - processPackages [odoo14-addon-ssi-web-clear-all-filter]: Downloading https://files.pythonhosted.org/packages/e3/c7/d8b24f77c153c64c4657dc58b852e23b4c7c363d7376b295d51f84a0acba/odoo14_addon_ssi_web_clear_all_filter-14.0.1.0.0-py3-none-any.whl
+[2024-05-16 01:56:56] INFO root fetch - processPackages [typecode-libmagic-system-provided]: Downloading https://files.pythonhosted.org/packages/b6/83/b95220576e38602632638f2f7f96cba1a259ca4a582e1b0743e4ecafe8da/typecode_libmagic-system-provided-5.39.210223.tar.gz
+[2024-05-16 01:56:56] INFO root fetch - processPackages [odoo14-addon-ssi-web-widget-many2onereference-clickable]: Downloading https://files.pythonhosted.org/packages/77/58/154ffa28957f91044be59830aa9d8e6530334067ea04cc47a9bac8bccf53/odoo14_addon_ssi_web_widget_many2onereference_clickable-14.0.1.0.0-py3-none-any.whl
+[2024-05-16 01:56:56] INFO root fetch - processPackages [autoray]: Downloading https://files.pythonhosted.org/packages/f0/64/b1700485b164ab770b600ce96f928a41919b38dde9f1a57b075301ff6852/autoray-0.6.8.tar.gz
+[2024-05-16 01:56:56] INFO root fetch - processPackages [lbt-honeybee]: Downloading https://files.pythonhosted.org/packages/f1/61/4f36e668d3e1767b0f4d921481ad087bec472a2afc14ea20f916e083c690/lbt-honeybee-0.8.99.tar.gz
+[2024-05-16 01:56:56] INFO root fetch - processPackages [yoto-api]: Downloading https://files.pythonhosted.org/packages/28/bc/e9d37198654bf82ae9be692dd9ee95b753eb8ca5b6edf44ab69ecca38f17/yoto_api-1.9.0.tar.gz
+[2024-05-16 01:56:56] INFO root fetch - processPackages [lbt-honeybee]: executing diffoscope
+[2024-05-16 01:56:56] INFO root fetch - processPackages [lbt-honeybee]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lbt-honeybee-0.8.98.tar.gz tmp/lbt-honeybee-0.8.99.tar.gz --markdown 20240516/l/lbt-honeybee/0.8.98-0.8.99/README.md --exclude *.pyd
+[2024-05-16 01:56:56] INFO root fetch - processPackages [extractcode-libarchive-system-provided]: Downloading https://files.pythonhosted.org/packages/3e/f6/0ef40db44642e6d1303641913778c84af10905f4f2cb6bd00f4e540f6073/extractcode_libarchive_system_provided-32.0.0.tar.gz
+[2024-05-16 01:56:56] INFO root fetch - processPackages [yoto-api]: executing diffoscope
+[2024-05-16 01:56:56] INFO root fetch - processPackages [yoto-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yoto_api-1.8.0.tar.gz tmp/yoto_api-1.9.0.tar.gz --markdown 20240516/y/yoto-api/1.8.0-1.9.0/README.md --exclude *.pyd
+[2024-05-16 01:56:56] INFO root fetch - processPackages [odoo14-addon-ssi-web-clear-all-filter]: Downloading https://files.pythonhosted.org/packages/69/08/2752e57d01e4b89901488edd7290078cd39c29e6d16857699bfe108dddf5/odoo14_addon_ssi_web_clear_all_filter-14.0.1.0.1.dev1-py3-none-any.whl
+[2024-05-16 01:56:56] INFO root fetch - processPackages [odoo14-addon-ssi-web-widget-many2onereference-clickable]: Downloading https://files.pythonhosted.org/packages/44/b6/aea0518fc58c00cadccc3e9aeeee76d781ce10624f112764ccb962956a0a/odoo14_addon_ssi_web_widget_many2onereference_clickable-14.0.1.0.1.dev1-py3-none-any.whl
+[2024-05-16 01:56:56] INFO root fetch - processPackages [typecode-libmagic-system-provided]: Downloading https://files.pythonhosted.org/packages/58/60/49ffb3b977b54899ea01fa901c53a9d281ca28d7596b6d6d845d42d86ae3/typecode_libmagic-system-provided-5.39.210531.tar.gz
+[2024-05-16 01:56:56] INFO root fetch - processPackages [extractcode-libarchive-system-provided]: executing diffoscope
+[2024-05-16 01:56:56] INFO root fetch - processPackages [extractcode-libarchive-system-provided]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/extractcode_libarchive_system_provided-3.5.1.210531.tar.gz tmp/extractcode_libarchive_system_provided-32.0.0.tar.gz --markdown 20240516/e/extractcode-libarchive-system-provided/3.5.1.210531-32.0.0/README.md --exclude *.pyd
+[2024-05-16 01:56:56] INFO root fetch - processPackages [odoo14-addon-ssi-web-clear-all-filter]: executing diffoscope
+[2024-05-16 01:56:56] INFO root fetch - processPackages [odoo14-addon-ssi-web-clear-all-filter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_ssi_web_clear_all_filter-14.0.1.0.0-py3-none-any.whl.zip tmp/odoo14_addon_ssi_web_clear_all_filter-14.0.1.0.1.dev1-py3-none-any.whl.zip --markdown 20240516/o/odoo14-addon-ssi-web-clear-all-filter/14.0.1.0.0-14.0.1.0.1.dev1/README.md --exclude *.pyd
+[2024-05-16 01:56:56] INFO root fetch - processPackages [odoo14-addon-ssi-web-widget-many2onereference-clickable]: executing diffoscope
+[2024-05-16 01:56:56] INFO root fetch - processPackages [odoo14-addon-ssi-web-widget-many2onereference-clickable]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_ssi_web_widget_many2onereference_clickable-14.0.1.0.0-py3-none-any.whl.zip tmp/odoo14_addon_ssi_web_widget_many2onereference_clickable-14.0.1.0.1.dev1-py3-none-any.whl.zip --markdown 20240516/o/odoo14-addon-ssi-web-widget-many2onereference-clickable/14.0.1.0.0-14.0.1.0.1.dev1/README.md --exclude *.pyd
+[2024-05-16 01:56:56] INFO root fetch - processPackages [typecode-libmagic-system-provided]: executing diffoscope
+[2024-05-16 01:56:56] INFO root fetch - processPackages [typecode-libmagic-system-provided]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/typecode_libmagic-system-provided-5.39.210223.tar.gz tmp/typecode_libmagic-system-provided-5.39.210531.tar.gz --markdown 20240516/t/typecode-libmagic-system-provided/5.39.210223-5.39.210531/README.md --exclude *.pyd
+[2024-05-16 01:56:56] INFO root fetch - processPackages [autoray]: Downloading https://files.pythonhosted.org/packages/8d/62/f571c0d4b829b1485d76564cf7f1beb724990808c330d3c95e28b8744507/autoray-0.6.9.tar.gz
+[2024-05-16 01:56:56] INFO root fetch - processPackages [autoray]: executing diffoscope
+[2024-05-16 01:56:56] INFO root fetch - processPackages [autoray]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autoray-0.6.8.tar.gz tmp/autoray-0.6.9.tar.gz --markdown 20240516/a/autoray/0.6.8-0.6.9/README.md --exclude *.pyd
+[2024-05-16 01:56:56] INFO root fetch - processPackages [lbt-honeybee]: Remove: archive file [/home/abi/fetcher/tmp/lbt-honeybee-0.8.98.tar.gz]
+[2024-05-16 01:56:56] INFO root fetch - processPackages [lbt-honeybee]: Remove: archive file [/home/abi/fetcher/tmp/lbt-honeybee-0.8.99.tar.gz]
+[2024-05-16 01:56:56] INFO root fetch - main [MainThread]: End processing [lbt-honeybee]: success
+[2024-05-16 01:56:57] INFO root fetch - processPackages [yoto-api]: Remove: archive file [/home/abi/fetcher/tmp/yoto_api-1.8.0.tar.gz]
+[2024-05-16 01:56:57] INFO root fetch - processPackages [yoto-api]: Remove: archive file [/home/abi/fetcher/tmp/yoto_api-1.9.0.tar.gz]
+[2024-05-16 01:56:57] INFO root fetch - main [MainThread]: End processing [yoto-api]: success
+[2024-05-16 01:56:57] INFO root fetch - processPackages [extractcode-libarchive-system-provided]: Remove: archive file [/home/abi/fetcher/tmp/extractcode_libarchive_system_provided-3.5.1.210531.tar.gz]
+[2024-05-16 01:56:57] INFO root fetch - processPackages [extractcode-libarchive-system-provided]: Remove: archive file [/home/abi/fetcher/tmp/extractcode_libarchive_system_provided-32.0.0.tar.gz]
+[2024-05-16 01:56:57] INFO root fetch - main [MainThread]: End processing [extractcode-libarchive-system-provided]: success
+[2024-05-16 01:56:57] INFO root fetch - processPackages [typecode-libmagic-system-provided]: Remove: archive file [/home/abi/fetcher/tmp/typecode_libmagic-system-provided-5.39.210223.tar.gz]
+[2024-05-16 01:56:57] INFO root fetch - processPackages [typecode-libmagic-system-provided]: Remove: archive file [/home/abi/fetcher/tmp/typecode_libmagic-system-provided-5.39.210531.tar.gz]
+[2024-05-16 01:56:57] INFO root fetch - main [MainThread]: End processing [typecode-libmagic-system-provided]: success
+[2024-05-16 01:56:57] INFO root fetch - processPackages [odoo14-addon-ssi-web-widget-many2onereference-clickable]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_ssi_web_widget_many2onereference_clickable-14.0.1.0.0-py3-none-any.whl.zip]
+[2024-05-16 01:56:57] INFO root fetch - processPackages [odoo14-addon-ssi-web-widget-many2onereference-clickable]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_ssi_web_widget_many2onereference_clickable-14.0.1.0.1.dev1-py3-none-any.whl.zip]
+[2024-05-16 01:56:57] INFO root fetch - main [MainThread]: End processing [odoo14-addon-ssi-web-widget-many2onereference-clickable]: success
+[2024-05-16 01:56:57] INFO root fetch - processPackages [odoo14-addon-ssi-web-clear-all-filter]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_ssi_web_clear_all_filter-14.0.1.0.0-py3-none-any.whl.zip]
+[2024-05-16 01:56:57] INFO root fetch - processPackages [odoo14-addon-ssi-web-clear-all-filter]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_ssi_web_clear_all_filter-14.0.1.0.1.dev1-py3-none-any.whl.zip]
+[2024-05-16 01:56:57] INFO root fetch - main [MainThread]: End processing [odoo14-addon-ssi-web-clear-all-filter]: success
+[2024-05-16 01:56:57] INFO root fetch - processPackages [autoray]: Remove: archive file [/home/abi/fetcher/tmp/autoray-0.6.8.tar.gz]
+[2024-05-16 01:56:57] INFO root fetch - processPackages [autoray]: Remove: archive file [/home/abi/fetcher/tmp/autoray-0.6.9.tar.gz]
+[2024-05-16 01:56:57] INFO root fetch - main [MainThread]: End processing [autoray]: success
+[2024-05-16 01:56:57] INFO root fetch - main [MainThread]: Store serial: [23226456]
