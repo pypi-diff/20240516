@@ -2346,3 +2346,92 @@ AssertionError: tmp/hygpytools-0.2.0.tar.gz does not exist
 [2024-05-16 01:17:07] INFO root fetch - processPackages [APScheduler]: Remove: archive file [/home/abi/fetcher/tmp/apscheduler-4.0.0a5.tar.gz]
 [2024-05-16 01:17:07] INFO root fetch - main [MainThread]: End processing [APScheduler]: success
 [2024-05-16 01:17:07] INFO root fetch - main [MainThread]: Store serial: [23226071]
+[2024-05-16 01:19:11] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23226071]
+[2024-05-16 01:19:16] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2024-05-16 01:19:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mslarkin-utils
+[2024-05-16 01:19:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tencentcloud-sdk-python-tem
+[2024-05-16 01:19:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: multi-bible-search
+[2024-05-16 01:19:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: langgraph-cli
+[2024-05-16 01:19:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: tencentcloud-sdk-python-teo
+[2024-05-16 01:19:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: tencentcloud-sdk-python-thpc
+[2024-05-16 01:19:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: promplate
+[2024-05-16 01:19:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pmdsky-debug-py
+[2024-05-16 01:19:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: borb
+[2024-05-16 01:19:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: fudstop
+[2024-05-16 01:19:17] INFO root fetch - processPackages [langgraph-cli]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-16 01:19:17] INFO root fetch - processPackages [mslarkin-utils]: New version: [1.9] Old Version: [1.8]
+[2024-05-16 01:19:17] INFO root fetch - processPackages [promplate]: New version: [0.3.4.4] Old Version: [0.3.4.3]
+[2024-05-16 01:19:17] INFO root fetch - processPackages [fudstop]: New version: [2.6.3] Old Version: [2.6.2]
+[2024-05-16 01:19:17] INFO root fetch - processPackages [langgraph-cli]: Downloading https://files.pythonhosted.org/packages/fc/56/9c893aa50c9bdec2cb8649d7ef7ebf200dc6b66993eaf52ee01fef032cb5/langgraph_cli-0.1.8.tar.gz
+[2024-05-16 01:19:17] INFO root fetch - processPackages [multi-bible-search]: New version: [2.0.0] Old Version: [1.0.1]
+[2024-05-16 01:19:17] INFO root fetch - processPackages [borb]: New version: [2.1.9] Old Version: [2.1.8]
+[2024-05-16 01:19:17] INFO root fetch - processPackages [pmdsky-debug-py]: New version: [9.0.9] Old Version: [9.0.8]
+[2024-05-16 01:19:17] INFO root fetch - processPackages [tencentcloud-sdk-python-thpc]: New version: [3.0.999] Old Version: [3.0.998]
+[2024-05-16 01:19:17] INFO root fetch - processPackages [tencentcloud-sdk-python-teo]: New version: [3.0.999] Old Version: [3.0.998]
+[2024-05-16 01:19:17] INFO root fetch - processPackages [tencentcloud-sdk-python-tem]: New version: [3.0.999] Old Version: [3.0.998]
+[2024-05-16 01:19:17] INFO root fetch - processPackages [fudstop]: Downloading https://files.pythonhosted.org/packages/3f/43/99ce17c586f9de7e38bb68655acc498b454c310231993efb91ead172f7e3/fudstop-2.6.2.tar.gz
+[2024-05-16 01:19:17] INFO root fetch - processPackages [mslarkin-utils]: Downloading https://files.pythonhosted.org/packages/99/b2/435cc321a57afba5c98a1fc89fbbc086797cfa110e00cc29c2e6177b935b/mslarkin-utils-1.8.tar.gz
+[2024-05-16 01:19:17] INFO root fetch - processPackages [promplate]: Downloading https://files.pythonhosted.org/packages/23/49/e541307a13fb4f0a6c1735b3840b24da97d69e2087b08ca3e67c4d563e7d/promplate-0.3.4.3.tar.gz
+[2024-05-16 01:19:17] INFO root fetch - processPackages [langgraph-cli]: Downloading https://files.pythonhosted.org/packages/77/ca/8e1b0b1db8b8eecd87faeb6c20af5e19e5561f1c240cb26d5c92f30a80a2/langgraph_cli-0.1.9.tar.gz
+[2024-05-16 01:19:17] INFO root fetch - processPackages [borb]: Downloading https://files.pythonhosted.org/packages/d4/c4/b8338d77fedf7c6414337211120976ea01cbbbf0b122f3c12875ed228ec8/borb-2.1.8.tar.gz
+[2024-05-16 01:19:17] INFO root fetch - processPackages [pmdsky-debug-py]: Downloading https://files.pythonhosted.org/packages/33/eb/4fec645489c62e47f76637800291fdb912026058b33adb6b93856fb83b80/pmdsky_debug_py-9.0.8-py3-none-any.whl
+[2024-05-16 01:19:17] INFO root fetch - processPackages [tencentcloud-sdk-python-thpc]: Downloading https://files.pythonhosted.org/packages/95/c2/58e0f410a1d1cb3b41576a71f048a352c3d99dc65209cb96a7cd1ee9ea5e/tencentcloud-sdk-python-thpc-3.0.998.tar.gz
+[2024-05-16 01:19:17] INFO root fetch - processPackages [tencentcloud-sdk-python-teo]: Downloading https://files.pythonhosted.org/packages/07/4d/f2b0df5ae752aaa98338b6a6105b1db32e73a34f2a594606509391c385d7/tencentcloud-sdk-python-teo-3.0.998.tar.gz
+[2024-05-16 01:19:17] INFO root fetch - processPackages [tencentcloud-sdk-python-tem]: Downloading https://files.pythonhosted.org/packages/2c/d7/92a95454f7f8e1bb4a75a02eac519d0bba4396bfeaa64c06549818b2fd6d/tencentcloud-sdk-python-tem-3.0.998.tar.gz
+[2024-05-16 01:19:17] INFO root fetch - processPackages [multi-bible-search]: Downloading https://files.pythonhosted.org/packages/a5/4d/926f6be7b5db40baa6f3b3f5819491ecb369ef5c66ec897df27c93ccee23/multi_bible_search-1.0.1.tar.gz
+[2024-05-16 01:19:17] INFO root fetch - processPackages [langgraph-cli]: executing diffoscope
+[2024-05-16 01:19:17] INFO root fetch - processPackages [langgraph-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/langgraph_cli-0.1.8.tar.gz tmp/langgraph_cli-0.1.9.tar.gz --markdown 20240516/l/langgraph-cli/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-16 01:19:17] INFO root fetch - processPackages [mslarkin-utils]: Downloading https://files.pythonhosted.org/packages/8f/58/93ec8e4d69ba1c9610b50e07e155d325bf7a5d289a0e39c844a40498e261/mslarkin-utils-1.9.tar.gz
+[2024-05-16 01:19:17] INFO root fetch - processPackages [mslarkin-utils]: executing diffoscope
+[2024-05-16 01:19:17] INFO root fetch - processPackages [mslarkin-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mslarkin-utils-1.8.tar.gz tmp/mslarkin-utils-1.9.tar.gz --markdown 20240516/m/mslarkin-utils/1.8-1.9/README.md --exclude *.pyd
+[2024-05-16 01:19:17] WARNING root fetch - processPackages [multi-bible-search]: Skipping package: exceeds size limit 27240138>=10485760
+[2024-05-16 01:19:17] INFO root fetch - main [MainThread]: End processing [multi-bible-search] error
+[2024-05-16 01:19:17] INFO root fetch - processPackages [fudstop]: Downloading https://files.pythonhosted.org/packages/2e/db/b2b60835664eaeb3698e157b3e40315ff8df9a6026b93548d4c2f76b4e34/fudstop-2.6.3.tar.gz
+[2024-05-16 01:19:17] INFO root fetch - processPackages [promplate]: Downloading https://files.pythonhosted.org/packages/c4/b8/60b146d7bb37d9cbed50a39176c381d4f5243d90691f212eadc9f73831cc/promplate-0.3.4.4.tar.gz
+[2024-05-16 01:19:17] INFO root fetch - processPackages [tencentcloud-sdk-python-tem]: Downloading https://files.pythonhosted.org/packages/8c/64/9681d4cdafa7cea4400f5991b369518f8f2b7066a4a2faee70b8431ecf3e/tencentcloud-sdk-python-tem-3.0.999.tar.gz
+[2024-05-16 01:19:17] INFO root fetch - processPackages [fudstop]: executing diffoscope
+[2024-05-16 01:19:17] INFO root fetch - processPackages [fudstop]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fudstop-2.6.2.tar.gz tmp/fudstop-2.6.3.tar.gz --markdown 20240516/f/fudstop/2.6.2-2.6.3/README.md --exclude *.pyd
+[2024-05-16 01:19:17] INFO root fetch - processPackages [tencentcloud-sdk-python-teo]: Downloading https://files.pythonhosted.org/packages/ac/05/c5f9be59561506fdb7e531e8d92f6f8b81b611d79ae0df4d5edc49e03945/tencentcloud-sdk-python-teo-3.0.999.tar.gz
+[2024-05-16 01:19:17] INFO root fetch - processPackages [tencentcloud-sdk-python-thpc]: Downloading https://files.pythonhosted.org/packages/d8/ff/690ec7825df2770e46a86f7b788fb4d567f1a78c5276f8b37a40dd61dd5b/tencentcloud-sdk-python-thpc-3.0.999.tar.gz
+[2024-05-16 01:19:18] INFO root fetch - processPackages [promplate]: executing diffoscope
+[2024-05-16 01:19:18] INFO root fetch - processPackages [promplate]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/promplate-0.3.4.3.tar.gz tmp/promplate-0.3.4.4.tar.gz --markdown 20240516/p/promplate/0.3.4.3-0.3.4.4/README.md --exclude *.pyd
+[2024-05-16 01:19:18] INFO root fetch - processPackages [tencentcloud-sdk-python-tem]: executing diffoscope
+[2024-05-16 01:19:18] INFO root fetch - processPackages [tencentcloud-sdk-python-tem]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud-sdk-python-tem-3.0.998.tar.gz tmp/tencentcloud-sdk-python-tem-3.0.999.tar.gz --markdown 20240516/t/tencentcloud-sdk-python-tem/3.0.998-3.0.999/README.md --exclude *.pyd
+[2024-05-16 01:19:18] INFO root fetch - processPackages [tencentcloud-sdk-python-thpc]: executing diffoscope
+[2024-05-16 01:19:18] INFO root fetch - processPackages [tencentcloud-sdk-python-thpc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud-sdk-python-thpc-3.0.998.tar.gz tmp/tencentcloud-sdk-python-thpc-3.0.999.tar.gz --markdown 20240516/t/tencentcloud-sdk-python-thpc/3.0.998-3.0.999/README.md --exclude *.pyd
+[2024-05-16 01:19:18] INFO root fetch - processPackages [langgraph-cli]: Remove: archive file [/home/abi/fetcher/tmp/langgraph_cli-0.1.8.tar.gz]
+[2024-05-16 01:19:18] INFO root fetch - processPackages [langgraph-cli]: Remove: archive file [/home/abi/fetcher/tmp/langgraph_cli-0.1.9.tar.gz]
+[2024-05-16 01:19:18] INFO root fetch - main [MainThread]: End processing [langgraph-cli]: success
+[2024-05-16 01:19:18] INFO root fetch - processPackages [tencentcloud-sdk-python-teo]: executing diffoscope
+[2024-05-16 01:19:18] INFO root fetch - processPackages [tencentcloud-sdk-python-teo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud-sdk-python-teo-3.0.998.tar.gz tmp/tencentcloud-sdk-python-teo-3.0.999.tar.gz --markdown 20240516/t/tencentcloud-sdk-python-teo/3.0.998-3.0.999/README.md --exclude *.pyd
+[2024-05-16 01:19:18] INFO root fetch - processPackages [mslarkin-utils]: Remove: archive file [/home/abi/fetcher/tmp/mslarkin-utils-1.8.tar.gz]
+[2024-05-16 01:19:18] INFO root fetch - processPackages [mslarkin-utils]: Remove: archive file [/home/abi/fetcher/tmp/mslarkin-utils-1.9.tar.gz]
+[2024-05-16 01:19:18] INFO root fetch - main [MainThread]: End processing [mslarkin-utils]: success
+[2024-05-16 01:19:18] INFO root fetch - processPackages [pmdsky-debug-py]: Downloading https://files.pythonhosted.org/packages/78/90/3ae42c4f8e39ed28cfa302c2db60b1605399688c48f721f7261802bd8a29/pmdsky_debug_py-9.0.9-py3-none-any.whl
+[2024-05-16 01:19:18] INFO root fetch - processPackages [borb]: Downloading https://files.pythonhosted.org/packages/c7/99/dddf097aad0b6627583d56a3de16e7fdae30dda87b7b3caaf389fbe7578b/borb-2.1.9.tar.gz
+[2024-05-16 01:19:18] INFO root fetch - processPackages [promplate]: Remove: archive file [/home/abi/fetcher/tmp/promplate-0.3.4.3.tar.gz]
+[2024-05-16 01:19:18] INFO root fetch - processPackages [promplate]: Remove: archive file [/home/abi/fetcher/tmp/promplate-0.3.4.4.tar.gz]
+[2024-05-16 01:19:18] INFO root fetch - main [MainThread]: End processing [promplate]: success
+[2024-05-16 01:19:18] INFO root fetch - processPackages [tencentcloud-sdk-python-thpc]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-thpc-3.0.998.tar.gz]
+[2024-05-16 01:19:18] INFO root fetch - processPackages [tencentcloud-sdk-python-thpc]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-thpc-3.0.999.tar.gz]
+[2024-05-16 01:19:18] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-thpc]: success
+[2024-05-16 01:19:18] INFO root fetch - processPackages [pmdsky-debug-py]: executing diffoscope
+[2024-05-16 01:19:18] INFO root fetch - processPackages [pmdsky-debug-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pmdsky_debug_py-9.0.8-py3-none-any.whl.zip tmp/pmdsky_debug_py-9.0.9-py3-none-any.whl.zip --markdown 20240516/p/pmdsky-debug-py/9.0.8-9.0.9/README.md --exclude *.pyd
+[2024-05-16 01:19:18] INFO root fetch - processPackages [tencentcloud-sdk-python-tem]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-tem-3.0.998.tar.gz]
+[2024-05-16 01:19:18] INFO root fetch - processPackages [tencentcloud-sdk-python-tem]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-tem-3.0.999.tar.gz]
+[2024-05-16 01:19:18] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-tem]: success
+[2024-05-16 01:19:19] INFO root fetch - processPackages [tencentcloud-sdk-python-teo]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-teo-3.0.998.tar.gz]
+[2024-05-16 01:19:19] INFO root fetch - processPackages [tencentcloud-sdk-python-teo]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-teo-3.0.999.tar.gz]
+[2024-05-16 01:19:19] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-teo]: success
+[2024-05-16 01:19:19] INFO root fetch - processPackages [fudstop]: Remove: archive file [/home/abi/fetcher/tmp/fudstop-2.6.2.tar.gz]
+[2024-05-16 01:19:19] INFO root fetch - processPackages [fudstop]: Remove: archive file [/home/abi/fetcher/tmp/fudstop-2.6.3.tar.gz]
+[2024-05-16 01:19:19] INFO root fetch - main [MainThread]: End processing [fudstop]: success
+[2024-05-16 01:19:20] INFO root fetch - processPackages [borb]: executing diffoscope
+[2024-05-16 01:19:20] INFO root fetch - processPackages [borb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/borb-2.1.8.tar.gz tmp/borb-2.1.9.tar.gz --markdown 20240516/b/borb/2.1.8-2.1.9/README.md --exclude *.pyd
+[2024-05-16 01:19:21] INFO root fetch - processPackages [pmdsky-debug-py]: Remove: archive file [/home/abi/fetcher/tmp/pmdsky_debug_py-9.0.8-py3-none-any.whl.zip]
+[2024-05-16 01:19:21] INFO root fetch - processPackages [pmdsky-debug-py]: Remove: archive file [/home/abi/fetcher/tmp/pmdsky_debug_py-9.0.9-py3-none-any.whl.zip]
+[2024-05-16 01:19:21] INFO root fetch - main [MainThread]: End processing [pmdsky-debug-py]: success
+[2024-05-16 01:19:25] INFO root fetch - processPackages [borb]: Remove: archive file [/home/abi/fetcher/tmp/borb-2.1.8.tar.gz]
+[2024-05-16 01:19:25] INFO root fetch - processPackages [borb]: Remove: archive file [/home/abi/fetcher/tmp/borb-2.1.9.tar.gz]
+[2024-05-16 01:19:25] INFO root fetch - main [MainThread]: End processing [borb]: success
+[2024-05-16 01:19:25] INFO root fetch - main [MainThread]: Store serial: [23226114]
