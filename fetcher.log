@@ -1862,3 +1862,38 @@ AssertionError: tmp/hygpytools-0.2.0.tar.gz does not exist
 [2024-05-16 00:59:38] INFO root fetch - processPackages [CTK-Desert]: Remove: archive file [/home/abi/fetcher/tmp/CTK_Desert-0.0.9.tar.gz]
 [2024-05-16 00:59:38] INFO root fetch - main [MainThread]: End processing [CTK-Desert]: success
 [2024-05-16 00:59:38] INFO root fetch - main [MainThread]: Store serial: [23225894]
+[2024-05-16 01:01:41] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23225894]
+[2024-05-16 01:01:46] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-16 01:01:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: LedFx
+[2024-05-16 01:01:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: LingerGRN
+[2024-05-16 01:01:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: addecli
+[2024-05-16 01:01:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: aipkgs-core
+[2024-05-16 01:01:47] INFO root fetch - processPackages [aipkgs-core]: New version: [1.0.5] Old Version: [1.0.4]
+[2024-05-16 01:01:47] INFO root fetch - processPackages [aipkgs-core]: Downloading https://files.pythonhosted.org/packages/8d/7f/bd8fe73a291f20e7d2f4739083bf03bc15e72d1ae3e189d57e2223406dca/aipkgs_core-1.0.4.tar.gz
+[2024-05-16 01:01:47] INFO root fetch - processPackages [addecli]: New version: [0.2.0] Old Version: [0.1.0]
+[2024-05-16 01:01:47] INFO root fetch - processPackages [LedFx]: New version: [2.0.99] Old Version: [2.0.98]
+[2024-05-16 01:01:47] INFO root fetch - processPackages [LingerGRN]: New version: [1.9] Old Version: [1.8]
+[2024-05-16 01:01:47] INFO root fetch - processPackages [addecli]: Downloading https://files.pythonhosted.org/packages/5c/cc/291f86ca5a8659bb636ab689a3e79bab985a8704432061d54f31b90fd88e/addecli-0.1.0.tar.gz
+[2024-05-16 01:01:47] INFO root fetch - processPackages [LedFx]: Downloading https://files.pythonhosted.org/packages/55/1f/1ba7c5e0dbb25ebc76c9d75ce327471e982a4fb2daf9f3e2e553a5be899f/ledfx-2.0.98.tar.gz
+[2024-05-16 01:01:47] INFO root fetch - processPackages [LingerGRN]: Downloading https://files.pythonhosted.org/packages/df/69/a80f2b27505be0e6d4762954dc10e7e95186ec0d94c1930d038e59cc8f5d/LingerGRN-1.8.tar.gz
+[2024-05-16 01:01:47] INFO root fetch - processPackages [aipkgs-core]: Downloading https://files.pythonhosted.org/packages/93/15/b51de2bac450a76499eff41e269a86c0487f576513fd8e4865f2237462d5/aipkgs_core-1.0.5.tar.gz
+[2024-05-16 01:01:47] WARNING root fetch - processPackages [LedFx]: Skipping package: exceeds size limit 28042392>=10485760
+[2024-05-16 01:01:47] INFO root fetch - main [MainThread]: End processing [LedFx] error
+[2024-05-16 01:01:47] INFO root fetch - processPackages [aipkgs-core]: executing diffoscope
+[2024-05-16 01:01:47] INFO root fetch - processPackages [aipkgs-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aipkgs_core-1.0.4.tar.gz tmp/aipkgs_core-1.0.5.tar.gz --markdown 20240516/a/aipkgs-core/1.0.4-1.0.5/README.md --exclude *.pyd
+[2024-05-16 01:01:47] INFO root fetch - processPackages [addecli]: Downloading https://files.pythonhosted.org/packages/85/eb/170d946125bd18b4cd3d4772dee3619104c75f724d0943c4b1b16fd01f80/addecli-0.2.0.tar.gz
+[2024-05-16 01:01:47] INFO root fetch - processPackages [LingerGRN]: Downloading https://files.pythonhosted.org/packages/63/d4/436d53c01941016a6ae8377f82d2b0e575b4398b54914a012eeeea4d45f7/LingerGRN-1.9.tar.gz
+[2024-05-16 01:01:47] INFO root fetch - processPackages [addecli]: executing diffoscope
+[2024-05-16 01:01:47] INFO root fetch - processPackages [addecli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/addecli-0.1.0.tar.gz tmp/addecli-0.2.0.tar.gz --markdown 20240516/a/addecli/0.1.0-0.2.0/README.md --exclude *.pyd
+[2024-05-16 01:01:47] INFO root fetch - processPackages [LingerGRN]: executing diffoscope
+[2024-05-16 01:01:47] INFO root fetch - processPackages [LingerGRN]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/LingerGRN-1.8.tar.gz tmp/LingerGRN-1.9.tar.gz --markdown 20240516/L/LingerGRN/1.8-1.9/README.md --exclude *.pyd
+[2024-05-16 01:01:48] INFO root fetch - processPackages [aipkgs-core]: Remove: archive file [/home/abi/fetcher/tmp/aipkgs_core-1.0.4.tar.gz]
+[2024-05-16 01:01:48] INFO root fetch - processPackages [aipkgs-core]: Remove: archive file [/home/abi/fetcher/tmp/aipkgs_core-1.0.5.tar.gz]
+[2024-05-16 01:01:48] INFO root fetch - main [MainThread]: End processing [aipkgs-core]: success
+[2024-05-16 01:01:48] INFO root fetch - processPackages [addecli]: Remove: archive file [/home/abi/fetcher/tmp/addecli-0.1.0.tar.gz]
+[2024-05-16 01:01:48] INFO root fetch - processPackages [addecli]: Remove: archive file [/home/abi/fetcher/tmp/addecli-0.2.0.tar.gz]
+[2024-05-16 01:01:48] INFO root fetch - main [MainThread]: End processing [addecli]: success
+[2024-05-16 01:01:48] INFO root fetch - processPackages [LingerGRN]: Remove: archive file [/home/abi/fetcher/tmp/LingerGRN-1.8.tar.gz]
+[2024-05-16 01:01:48] INFO root fetch - processPackages [LingerGRN]: Remove: archive file [/home/abi/fetcher/tmp/LingerGRN-1.9.tar.gz]
+[2024-05-16 01:01:48] INFO root fetch - main [MainThread]: End processing [LingerGRN]: success
+[2024-05-16 01:01:48] INFO root fetch - main [MainThread]: Store serial: [23225906]
