@@ -823,3 +823,90 @@ AssertionError: tmp/hygpytools-0.2.0.tar.gz does not exist
 [2024-05-16 00:20:28] INFO root fetch - processPackages [django-sh]: Remove: archive file [/home/abi/fetcher/tmp/django_sh-1.0.9-py3-none-any.whl.zip]
 [2024-05-16 00:20:28] INFO root fetch - main [MainThread]: End processing [django-sh]: success
 [2024-05-16 00:20:28] INFO root fetch - main [MainThread]: Store serial: [23225503]
+[2024-05-16 00:22:32] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23225503]
+[2024-05-16 00:22:37] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2024-05-16 00:22:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: rag-assistant
+[2024-05-16 00:22:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: jgtpy
+[2024-05-16 00:22:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: hal9
+[2024-05-16 00:22:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: lavague
+[2024-05-16 00:22:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: tencentcloud-sdk-python-msp
+[2024-05-16 00:22:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: tencentcloud-sdk-python-mvj
+[2024-05-16 00:22:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: tencentcloud-sdk-python-nlp
+[2024-05-16 00:22:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: interest-measures
+[2024-05-16 00:22:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: tencentcloud-sdk-python-npp
+[2024-05-16 00:22:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: libreflow.extensions.anpo.playblast
+[2024-05-16 00:22:37] INFO root fetch - processPackages [lavague]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-05-16 00:22:37] INFO root fetch - processPackages [rag-assistant]: New version: [0.1.1] Old Version: [0.0.1.dev1]
+[2024-05-16 00:22:37] INFO root fetch - processPackages [hal9]: New version: [2.0.7] Old Version: [2.0.6]
+[2024-05-16 00:22:37] INFO root fetch - processPackages [jgtpy]: New version: [0.4.9] Old Version: [0.4.8]
+[2024-05-16 00:22:37] INFO root fetch - processPackages [lavague]: Downloading https://files.pythonhosted.org/packages/b0/fa/e20813e49f490477b80c5b638ee1f7a8f5f0dbc3dff78c34a4896c8b2b9c/lavague-1.0.8.tar.gz
+[2024-05-16 00:22:37] INFO root fetch - processPackages [hal9]: Downloading https://files.pythonhosted.org/packages/68/84/d4c601757b3e2851585e82597fbc846fd1ae68616b017d8eb34590b5bc22/hal9-2.0.6.tar.gz
+[2024-05-16 00:22:37] INFO root fetch - processPackages [interest-measures]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-05-16 00:22:37] WARNING root fetch - processPackages [libreflow.extensions.anpo.playblast]: Skipping, unable to determine old version
+[2024-05-16 00:22:37] INFO root fetch - main [MainThread]: End processing [libreflow.extensions.anpo.playblast] error
+[2024-05-16 00:22:37] INFO root fetch - processPackages [jgtpy]: Downloading https://files.pythonhosted.org/packages/60/b5/888f160495ee80ba1657e52a606a803f54fbfa062fe5a4d1d58fd9dc9141/jgtpy-0.4.8.tar.gz
+[2024-05-16 00:22:37] INFO root fetch - processPackages [tencentcloud-sdk-python-nlp]: New version: [3.0.999] Old Version: [3.0.998]
+[2024-05-16 00:22:37] INFO root fetch - processPackages [tencentcloud-sdk-python-msp]: New version: [3.0.999] Old Version: [3.0.998]
+[2024-05-16 00:22:37] INFO root fetch - processPackages [tencentcloud-sdk-python-mvj]: New version: [3.0.999] Old Version: [3.0.998]
+[2024-05-16 00:22:37] INFO root fetch - processPackages [rag-assistant]: Downloading https://files.pythonhosted.org/packages/db/e7/556f80f933d75eb79af529193ecf514b21a2d1b7ff41fc9a7cab771db841/rag_assistant-0.0.1.dev1.tar.gz
+[2024-05-16 00:22:37] INFO root fetch - processPackages [interest-measures]: Downloading https://files.pythonhosted.org/packages/c6/32/36bd71d71693336dbf2a6f1f75ced5ea09b293c00ec92b0163935c6ce69d/interest_measures-0.0.1.tar.gz
+[2024-05-16 00:22:38] INFO root fetch - processPackages [lavague]: Downloading https://files.pythonhosted.org/packages/60/cb/7b6033d655fe04e7fccb06f4409ba468218cb80c59d82064105a3e64f973/lavague-1.0.9.tar.gz
+[2024-05-16 00:22:38] INFO root fetch - processPackages [jgtpy]: Downloading https://files.pythonhosted.org/packages/c1/94/79cdcc286ed1c9578cc3d3b4b47d9da3326a5fdfa94ebc3ad80acf17eafa/jgtpy-0.4.9.tar.gz
+[2024-05-16 00:22:38] INFO root fetch - processPackages [tencentcloud-sdk-python-msp]: Downloading https://files.pythonhosted.org/packages/4a/4a/dba9a441d0d468ac4ac91d2bf6f8d215782ed43ce2bb85301ed87e213ff7/tencentcloud-sdk-python-msp-3.0.998.tar.gz
+[2024-05-16 00:22:38] INFO root fetch - processPackages [tencentcloud-sdk-python-mvj]: Downloading https://files.pythonhosted.org/packages/3c/cd/a545700530aee9bc5907dadac4cb46848ff8f7aa74caba6eb8345a882808/tencentcloud-sdk-python-mvj-3.0.998.tar.gz
+[2024-05-16 00:22:38] INFO root fetch - processPackages [hal9]: Downloading https://files.pythonhosted.org/packages/84/5e/3792cb7a7d020403d68cd26ea367e8eebd536ab1426358dc8509f205b7da/hal9-2.0.7.tar.gz
+[2024-05-16 00:22:38] INFO root fetch - processPackages [lavague]: executing diffoscope
+[2024-05-16 00:22:38] INFO root fetch - processPackages [lavague]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lavague-1.0.8.tar.gz tmp/lavague-1.0.9.tar.gz --markdown 20240516/l/lavague/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-05-16 00:22:38] INFO root fetch - processPackages [tencentcloud-sdk-python-npp]: New version: [3.0.999] Old Version: [3.0.998]
+[2024-05-16 00:22:38] INFO root fetch - processPackages [jgtpy]: executing diffoscope
+[2024-05-16 00:22:38] INFO root fetch - processPackages [jgtpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jgtpy-0.4.8.tar.gz tmp/jgtpy-0.4.9.tar.gz --markdown 20240516/j/jgtpy/0.4.8-0.4.9/README.md --exclude *.pyd
+[2024-05-16 00:22:38] INFO root fetch - processPackages [rag-assistant]: Downloading https://files.pythonhosted.org/packages/33/bc/c5491f5a8bf71a189036b604e516f41e5aee698d10702cd1e12c002eb541/rag_assistant-0.1.1.tar.gz
+[2024-05-16 00:22:38] INFO root fetch - processPackages [tencentcloud-sdk-python-nlp]: Downloading https://files.pythonhosted.org/packages/13/73/955b082c96439789648018c8f3a7feb31a31b64081a7f03929a045e38fdb/tencentcloud-sdk-python-nlp-3.0.998.tar.gz
+[2024-05-16 00:22:38] INFO root fetch - processPackages [hal9]: executing diffoscope
+[2024-05-16 00:22:38] INFO root fetch - processPackages [hal9]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hal9-2.0.6.tar.gz tmp/hal9-2.0.7.tar.gz --markdown 20240516/h/hal9/2.0.6-2.0.7/README.md --exclude *.pyd
+[2024-05-16 00:22:38] INFO root fetch - processPackages [rag-assistant]: executing diffoscope
+[2024-05-16 00:22:38] INFO root fetch - processPackages [rag-assistant]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rag_assistant-0.0.1.dev1.tar.gz tmp/rag_assistant-0.1.1.tar.gz --markdown 20240516/r/rag-assistant/0.0.1.dev1-0.1.1/README.md --exclude *.pyd
+[2024-05-16 00:22:38] INFO root fetch - processPackages [tencentcloud-sdk-python-npp]: Downloading https://files.pythonhosted.org/packages/35/2f/7be07bdedcbc4f997d328b54b723bc0a6f9d2f1289c977708e6d31c8b552/tencentcloud-sdk-python-npp-3.0.998.tar.gz
+[2024-05-16 00:22:38] INFO root fetch - processPackages [tencentcloud-sdk-python-msp]: Downloading https://files.pythonhosted.org/packages/42/0e/4c65162bf147d10ca9caf55a27898d93b9ee01b6fd503fc4bfcb15c68f4e/tencentcloud-sdk-python-msp-3.0.999.tar.gz
+[2024-05-16 00:22:38] INFO root fetch - processPackages [tencentcloud-sdk-python-mvj]: Downloading https://files.pythonhosted.org/packages/83/20/c591399e8d1e7051d1881a38515f56f6cccf1995e68c7a59e55c0d18456e/tencentcloud-sdk-python-mvj-3.0.999.tar.gz
+[2024-05-16 00:22:38] INFO root fetch - processPackages [interest-measures]: Downloading https://files.pythonhosted.org/packages/6a/41/3ec54ca608cdc0dbd45be22987a4dda201849e1db4a466e3e30043ce564f/interest_measures-0.0.2.tar.gz
+[2024-05-16 00:22:38] INFO root fetch - processPackages [tencentcloud-sdk-python-msp]: executing diffoscope
+[2024-05-16 00:22:38] INFO root fetch - processPackages [tencentcloud-sdk-python-msp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud-sdk-python-msp-3.0.998.tar.gz tmp/tencentcloud-sdk-python-msp-3.0.999.tar.gz --markdown 20240516/t/tencentcloud-sdk-python-msp/3.0.998-3.0.999/README.md --exclude *.pyd
+[2024-05-16 00:22:38] INFO root fetch - processPackages [tencentcloud-sdk-python-nlp]: Downloading https://files.pythonhosted.org/packages/e3/3e/ccf98b9b557bd05fb013714b3672879029ce3496b939428a14d509bc0f39/tencentcloud-sdk-python-nlp-3.0.999.tar.gz
+[2024-05-16 00:22:38] INFO root fetch - processPackages [tencentcloud-sdk-python-mvj]: executing diffoscope
+[2024-05-16 00:22:38] INFO root fetch - processPackages [tencentcloud-sdk-python-mvj]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud-sdk-python-mvj-3.0.998.tar.gz tmp/tencentcloud-sdk-python-mvj-3.0.999.tar.gz --markdown 20240516/t/tencentcloud-sdk-python-mvj/3.0.998-3.0.999/README.md --exclude *.pyd
+[2024-05-16 00:22:38] INFO root fetch - processPackages [interest-measures]: executing diffoscope
+[2024-05-16 00:22:38] INFO root fetch - processPackages [interest-measures]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/interest_measures-0.0.1.tar.gz tmp/interest_measures-0.0.2.tar.gz --markdown 20240516/i/interest-measures/0.0.1-0.0.2/README.md --exclude *.pyd
+[2024-05-16 00:22:38] INFO root fetch - processPackages [tencentcloud-sdk-python-npp]: Downloading https://files.pythonhosted.org/packages/94/b9/7eecc3778b75dd2522b621c795d78a5625277df65226ba45c67361956990/tencentcloud-sdk-python-npp-3.0.999.tar.gz
+[2024-05-16 00:22:38] INFO root fetch - processPackages [tencentcloud-sdk-python-nlp]: executing diffoscope
+[2024-05-16 00:22:38] INFO root fetch - processPackages [tencentcloud-sdk-python-nlp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud-sdk-python-nlp-3.0.998.tar.gz tmp/tencentcloud-sdk-python-nlp-3.0.999.tar.gz --markdown 20240516/t/tencentcloud-sdk-python-nlp/3.0.998-3.0.999/README.md --exclude *.pyd
+[2024-05-16 00:22:38] INFO root fetch - processPackages [tencentcloud-sdk-python-npp]: executing diffoscope
+[2024-05-16 00:22:38] INFO root fetch - processPackages [tencentcloud-sdk-python-npp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud-sdk-python-npp-3.0.998.tar.gz tmp/tencentcloud-sdk-python-npp-3.0.999.tar.gz --markdown 20240516/t/tencentcloud-sdk-python-npp/3.0.998-3.0.999/README.md --exclude *.pyd
+[2024-05-16 00:22:38] INFO root fetch - processPackages [rag-assistant]: Remove: archive file [/home/abi/fetcher/tmp/rag_assistant-0.0.1.dev1.tar.gz]
+[2024-05-16 00:22:38] INFO root fetch - processPackages [rag-assistant]: Remove: archive file [/home/abi/fetcher/tmp/rag_assistant-0.1.1.tar.gz]
+[2024-05-16 00:22:38] INFO root fetch - main [MainThread]: End processing [rag-assistant]: success
+[2024-05-16 00:22:38] INFO root fetch - processPackages [hal9]: Remove: archive file [/home/abi/fetcher/tmp/hal9-2.0.6.tar.gz]
+[2024-05-16 00:22:38] INFO root fetch - processPackages [hal9]: Remove: archive file [/home/abi/fetcher/tmp/hal9-2.0.7.tar.gz]
+[2024-05-16 00:22:38] INFO root fetch - main [MainThread]: End processing [hal9]: success
+[2024-05-16 00:22:39] INFO root fetch - processPackages [lavague]: Remove: archive file [/home/abi/fetcher/tmp/lavague-1.0.8.tar.gz]
+[2024-05-16 00:22:39] INFO root fetch - processPackages [lavague]: Remove: archive file [/home/abi/fetcher/tmp/lavague-1.0.9.tar.gz]
+[2024-05-16 00:22:39] INFO root fetch - main [MainThread]: End processing [lavague]: success
+[2024-05-16 00:22:39] INFO root fetch - processPackages [jgtpy]: Remove: archive file [/home/abi/fetcher/tmp/jgtpy-0.4.8.tar.gz]
+[2024-05-16 00:22:39] INFO root fetch - processPackages [jgtpy]: Remove: archive file [/home/abi/fetcher/tmp/jgtpy-0.4.9.tar.gz]
+[2024-05-16 00:22:39] INFO root fetch - main [MainThread]: End processing [jgtpy]: success
+[2024-05-16 00:22:39] INFO root fetch - processPackages [tencentcloud-sdk-python-msp]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-msp-3.0.998.tar.gz]
+[2024-05-16 00:22:39] INFO root fetch - processPackages [tencentcloud-sdk-python-msp]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-msp-3.0.999.tar.gz]
+[2024-05-16 00:22:39] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-msp]: success
+[2024-05-16 00:22:39] INFO root fetch - processPackages [tencentcloud-sdk-python-mvj]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-mvj-3.0.998.tar.gz]
+[2024-05-16 00:22:39] INFO root fetch - processPackages [tencentcloud-sdk-python-mvj]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-mvj-3.0.999.tar.gz]
+[2024-05-16 00:22:39] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-mvj]: success
+[2024-05-16 00:22:39] INFO root fetch - processPackages [interest-measures]: Remove: archive file [/home/abi/fetcher/tmp/interest_measures-0.0.1.tar.gz]
+[2024-05-16 00:22:39] INFO root fetch - processPackages [interest-measures]: Remove: archive file [/home/abi/fetcher/tmp/interest_measures-0.0.2.tar.gz]
+[2024-05-16 00:22:39] INFO root fetch - main [MainThread]: End processing [interest-measures]: success
+[2024-05-16 00:22:39] INFO root fetch - processPackages [tencentcloud-sdk-python-nlp]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-nlp-3.0.998.tar.gz]
+[2024-05-16 00:22:39] INFO root fetch - processPackages [tencentcloud-sdk-python-nlp]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-nlp-3.0.999.tar.gz]
+[2024-05-16 00:22:39] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-nlp]: success
+[2024-05-16 00:22:39] INFO root fetch - processPackages [tencentcloud-sdk-python-npp]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-npp-3.0.998.tar.gz]
+[2024-05-16 00:22:39] INFO root fetch - processPackages [tencentcloud-sdk-python-npp]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-npp-3.0.999.tar.gz]
+[2024-05-16 00:22:39] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-npp]: success
+[2024-05-16 00:22:39] INFO root fetch - main [MainThread]: Store serial: [23225534]
