@@ -1,0 +1,105 @@
+[2024-05-16 00:01:25] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23225118]
+[2024-05-16 00:01:30] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2024-05-16 00:01:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: senepy
+[2024-05-16 00:01:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tencentcloud-sdk-python-irp
+[2024-05-16 00:01:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: qlever
+[2024-05-16 00:01:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: gdriveresolver
+[2024-05-16 00:01:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: dbt-bigquery
+[2024-05-16 00:01:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: metalarchivist
+[2024-05-16 00:01:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: gpudb
+[2024-05-16 00:01:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: matematikk
+[2024-05-16 00:01:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: tencentcloud-sdk-python-iss
+[2024-05-16 00:01:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: fairchem-core
+[2024-05-16 00:01:31] INFO root fetch - processPackages [gdriveresolver]: New version: [0.0.6] Old Version: [0.0.5]
+[2024-05-16 00:01:31] INFO root fetch - processPackages [matematikk]: New version: [0.0.99] Old Version: [0.0.98]
+[2024-05-16 00:01:31] INFO root fetch - processPackages [fairchem-core]: New version: [1.0.0b0] Old Version: [0.0.0b0]
+[2024-05-16 00:01:31] INFO root fetch - processPackages [qlever]: New version: [0.5.2] Old Version: [0.5.0]
+[2024-05-16 00:01:31] INFO root fetch - processPackages [senepy]: New version: [0.2.0] Old Version: [0.1.1]
+[2024-05-16 00:01:31] INFO root fetch - processPackages [gdriveresolver]: Downloading https://files.pythonhosted.org/packages/4d/77/08421b22a65846f084088aea40f7c0d7ce962493d993335e99c64564033a/gdriveresolver-0.0.5.tar.gz
+[2024-05-16 00:01:31] INFO root fetch - processPackages [metalarchivist]: New version: [0.3.2] Old Version: [0.3.0]
+[2024-05-16 00:01:31] INFO root fetch - processPackages [matematikk]: Downloading https://files.pythonhosted.org/packages/b9/0f/0e2ea1c838d839f658d451461a2f978947f6ab41a8f4e102104cc5b587a8/matematikk-0.0.98.tar.gz
+[2024-05-16 00:01:31] INFO root fetch - processPackages [tencentcloud-sdk-python-iss]: New version: [3.0.999] Old Version: [3.0.998]
+[2024-05-16 00:01:31] INFO root fetch - processPackages [dbt-bigquery]: New version: [1.8.0rc1] Old Version: [1.8.0b2]
+[2024-05-16 00:01:31] INFO root fetch - processPackages [tencentcloud-sdk-python-irp]: New version: [3.0.999] Old Version: [3.0.998]
+[2024-05-16 00:01:31] INFO root fetch - processPackages [metalarchivist]: Downloading https://files.pythonhosted.org/packages/11/3e/cca9e80d0cd7357700200fceba101184bd22f4eefc6abb1e00f5b7bd4f62/metalarchivist-0.3.0.tar.gz
+[2024-05-16 00:01:31] INFO root fetch - processPackages [fairchem-core]: Downloading https://files.pythonhosted.org/packages/53/bf/d0acecccec164e1d014f1abdbb3f8ee3eb8afce73544cef9059a6d661c69/fairchem_core-0.0.0b0.tar.gz
+[2024-05-16 00:01:31] INFO root fetch - processPackages [senepy]: Downloading https://files.pythonhosted.org/packages/e0/d7/e566368258a97625812753b019e5ef16f1eb1e1a2201d6bc365bb3ac8e2a/senepy-0.1.1.tar.gz
+[2024-05-16 00:01:31] INFO root fetch - processPackages [qlever]: Downloading https://files.pythonhosted.org/packages/e4/7a/37b00a0bd824ca01ae9b4dc15aca300c8cf765bd1ff58cdeb60048e5cdd9/qlever-0.5.0-py3-none-any.whl
+[2024-05-16 00:01:31] INFO root fetch - processPackages [matematikk]: Downloading https://files.pythonhosted.org/packages/ba/d1/907a2303ec8d0c4c2f01a0d2f9fd6e3de3387f6c25c32de3800152e437fb/matematikk-0.0.99.tar.gz
+[2024-05-16 00:01:31] INFO root fetch - processPackages [tencentcloud-sdk-python-iss]: Downloading https://files.pythonhosted.org/packages/49/cc/43cbdb48e3887dd1f5d70e68797f3fcefeaded015f56e2c4e4d8c077a7ee/tencentcloud-sdk-python-iss-3.0.998.tar.gz
+[2024-05-16 00:01:31] INFO root fetch - processPackages [tencentcloud-sdk-python-irp]: Downloading https://files.pythonhosted.org/packages/3a/94/be57051f224cab8dde8ba59206901af18ca82982597b3bb815faffae580c/tencentcloud-sdk-python-irp-3.0.998.tar.gz
+[2024-05-16 00:01:31] INFO root fetch - processPackages [dbt-bigquery]: Downloading https://files.pythonhosted.org/packages/04/c2/108e4355903d19eed3532c4b7190a4d377c9fc184e5a583812af1dadffff/dbt-bigquery-1.8.0b2.tar.gz
+[2024-05-16 00:01:31] INFO root fetch - processPackages [gpudb]: New version: [7.2.0.8] Old Version: [7.2.0.7]
+[2024-05-16 00:01:31] INFO root fetch - processPackages [gdriveresolver]: Downloading https://files.pythonhosted.org/packages/70/e9/14eb8f5818f806153ee233a3b2003591d7a2e1df0dd7934a054bea7244ca/gdriveresolver-0.0.6.tar.gz
+[2024-05-16 00:01:31] INFO root fetch - processPackages [metalarchivist]: Downloading https://files.pythonhosted.org/packages/96/09/e00d0b5c04725dc331444df21972f9721030471602a403e7a374089d2e14/metalarchivist-0.3.2.tar.gz
+[2024-05-16 00:01:31] INFO root fetch - processPackages [matematikk]: executing diffoscope
+[2024-05-16 00:01:31] INFO root fetch - processPackages [matematikk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/matematikk-0.0.98.tar.gz tmp/matematikk-0.0.99.tar.gz --markdown 20240516/m/matematikk/0.0.98-0.0.99/README.md --exclude *.pyd
+[2024-05-16 00:01:31] INFO root fetch - processPackages [fairchem-core]: Downloading https://files.pythonhosted.org/packages/29/d3/6724fa23f2f641f51c12c395d106caa83e54526056d659500be30a44c376/fairchem_core-1.0.0b0.tar.gz
+[2024-05-16 00:01:31] INFO root fetch - processPackages [gdriveresolver]: executing diffoscope
+[2024-05-16 00:01:31] INFO root fetch - processPackages [gdriveresolver]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gdriveresolver-0.0.5.tar.gz tmp/gdriveresolver-0.0.6.tar.gz --markdown 20240516/g/gdriveresolver/0.0.5-0.0.6/README.md --exclude *.pyd
+[2024-05-16 00:01:31] INFO root fetch - processPackages [metalarchivist]: executing diffoscope
+[2024-05-16 00:01:31] INFO root fetch - processPackages [metalarchivist]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/metalarchivist-0.3.0.tar.gz tmp/metalarchivist-0.3.2.tar.gz --markdown 20240516/m/metalarchivist/0.3.0-0.3.2/README.md --exclude *.pyd
+[2024-05-16 00:01:31] INFO root fetch - processPackages [qlever]: Downloading https://files.pythonhosted.org/packages/ea/05/c75b1c557120db12c72fab25ca247325b1238991b30634cfb02338b05615/qlever-0.5.2-py3-none-any.whl
+[2024-05-16 00:01:31] INFO root fetch - processPackages [gpudb]: Downloading https://files.pythonhosted.org/packages/df/d1/af29ce3d34d842514fdf673b422c213c25e28601f4bb9775ce85f9dbb47f/gpudb-7.2.0.7-cp39-cp39-win_amd64.whl
+[2024-05-16 00:01:31] INFO root fetch - processPackages [tencentcloud-sdk-python-irp]: Downloading https://files.pythonhosted.org/packages/b6/2a/3459ece93ae8ba8ecbd53f67e1059d8cb69fdabd952d9c68a4ddbe108bf6/tencentcloud-sdk-python-irp-3.0.999.tar.gz
+[2024-05-16 00:01:31] INFO root fetch - processPackages [tencentcloud-sdk-python-iss]: Downloading https://files.pythonhosted.org/packages/cd/9c/b14ae7ca2d8d7b02f14526e879aa4d2be3f0c566a4a76461782f400b539f/tencentcloud-sdk-python-iss-3.0.999.tar.gz
+[2024-05-16 00:01:31] INFO root fetch - processPackages [qlever]: executing diffoscope
+[2024-05-16 00:01:31] INFO root fetch - processPackages [qlever]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qlever-0.5.0-py3-none-any.whl.zip tmp/qlever-0.5.2-py3-none-any.whl.zip --markdown 20240516/q/qlever/0.5.0-0.5.2/README.md --exclude *.pyd
+[2024-05-16 00:01:31] INFO root fetch - processPackages [dbt-bigquery]: Downloading https://files.pythonhosted.org/packages/99/2a/069c63f1a7a7b27f1ac27bdc5caca47114a3c5c15c4ca2402c1cc104affe/dbt_bigquery-1.8.0rc1.tar.gz
+[2024-05-16 00:01:32] INFO root fetch - processPackages [tencentcloud-sdk-python-irp]: executing diffoscope
+[2024-05-16 00:01:32] INFO root fetch - processPackages [tencentcloud-sdk-python-irp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud-sdk-python-irp-3.0.998.tar.gz tmp/tencentcloud-sdk-python-irp-3.0.999.tar.gz --markdown 20240516/t/tencentcloud-sdk-python-irp/3.0.998-3.0.999/README.md --exclude *.pyd
+[2024-05-16 00:01:32] INFO root fetch - processPackages [tencentcloud-sdk-python-iss]: executing diffoscope
+[2024-05-16 00:01:32] INFO root fetch - processPackages [tencentcloud-sdk-python-iss]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud-sdk-python-iss-3.0.998.tar.gz tmp/tencentcloud-sdk-python-iss-3.0.999.tar.gz --markdown 20240516/t/tencentcloud-sdk-python-iss/3.0.998-3.0.999/README.md --exclude *.pyd
+[2024-05-16 00:01:32] INFO root fetch - processPackages [dbt-bigquery]: executing diffoscope
+[2024-05-16 00:01:32] INFO root fetch - processPackages [dbt-bigquery]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dbt-bigquery-1.8.0b2.tar.gz tmp/dbt_bigquery-1.8.0rc1.tar.gz --markdown 20240516/d/dbt-bigquery/1.8.0b2-1.8.0rc1/README.md --exclude *.pyd
+[2024-05-16 00:01:32] INFO root fetch - processPackages [fairchem-core]: executing diffoscope
+[2024-05-16 00:01:32] INFO root fetch - processPackages [fairchem-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fairchem_core-0.0.0b0.tar.gz tmp/fairchem_core-1.0.0b0.tar.gz --markdown 20240516/f/fairchem-core/0.0.0b0-1.0.0b0/README.md --exclude *.pyd
+[2024-05-16 00:01:32] INFO root fetch - processPackages [gpudb]: Downloading https://files.pythonhosted.org/packages/1b/4c/e52bdac65b80aaed5c3ec2f0f2f7027cd08ffe90613198ba296d867dd4b7/gpudb-7.2.0.8-cp35-cp35m-manylinux1_i686.whl
+[2024-05-16 00:01:32] INFO root fetch - processPackages [gdriveresolver]: Remove: archive file [/home/abi/fetcher/tmp/gdriveresolver-0.0.5.tar.gz]
+[2024-05-16 00:01:32] INFO root fetch - processPackages [gdriveresolver]: Remove: archive file [/home/abi/fetcher/tmp/gdriveresolver-0.0.6.tar.gz]
+[2024-05-16 00:01:32] INFO root fetch - processPackages [gdriveresolver]: Start processing: opengamedata-api-utils
+[2024-05-16 00:01:32] INFO root fetch - main [MainThread]: End processing [gdriveresolver]: success
+[2024-05-16 00:01:32] INFO root fetch - processPackages [metalarchivist]: Remove: archive file [/home/abi/fetcher/tmp/metalarchivist-0.3.0.tar.gz]
+[2024-05-16 00:01:32] INFO root fetch - processPackages [metalarchivist]: Remove: archive file [/home/abi/fetcher/tmp/metalarchivist-0.3.2.tar.gz]
+[2024-05-16 00:01:32] INFO root fetch - processPackages [metalarchivist]: Start processing: chess.com-analyzer
+[2024-05-16 00:01:32] INFO root fetch - main [MainThread]: End processing [metalarchivist]: success
+[2024-05-16 00:01:32] INFO root fetch - processPackages [opengamedata-api-utils]: New version: [1.0.4] Old Version: [1.0.3]
+[2024-05-16 00:01:32] INFO root fetch - processPackages [opengamedata-api-utils]: Downloading https://files.pythonhosted.org/packages/9c/c4/b854536deb78fd579b87adf05b66b032192814e31bafa2b42476894597e3/opengamedata_api_utils-1.0.3.tar.gz
+[2024-05-16 00:01:33] WARNING root fetch - processPackages [chess.com-analyzer]: Skipping, unable to determine old version
+[2024-05-16 00:01:33] INFO root fetch - main [MainThread]: End processing [chess.com-analyzer] error
+[2024-05-16 00:01:33] INFO root fetch - processPackages [tencentcloud-sdk-python-iss]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-iss-3.0.998.tar.gz]
+[2024-05-16 00:01:33] INFO root fetch - processPackages [tencentcloud-sdk-python-iss]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-iss-3.0.999.tar.gz]
+[2024-05-16 00:01:33] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-iss]: success
+[2024-05-16 00:01:33] INFO root fetch - processPackages [qlever]: Remove: archive file [/home/abi/fetcher/tmp/qlever-0.5.0-py3-none-any.whl.zip]
+[2024-05-16 00:01:33] INFO root fetch - processPackages [qlever]: Remove: archive file [/home/abi/fetcher/tmp/qlever-0.5.2-py3-none-any.whl.zip]
+[2024-05-16 00:01:33] INFO root fetch - main [MainThread]: End processing [qlever]: success
+[2024-05-16 00:01:33] INFO root fetch - processPackages [tencentcloud-sdk-python-irp]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-irp-3.0.998.tar.gz]
+[2024-05-16 00:01:33] INFO root fetch - processPackages [tencentcloud-sdk-python-irp]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-irp-3.0.999.tar.gz]
+[2024-05-16 00:01:33] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-irp]: success
+[2024-05-16 00:01:33] INFO root fetch - processPackages [gpudb]: executing diffoscope
+[2024-05-16 00:01:33] INFO root fetch - processPackages [gpudb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gpudb-7.2.0.7-cp39-cp39-win_amd64.whl.zip tmp/gpudb-7.2.0.8-cp35-cp35m-manylinux1_i686.whl.zip --markdown 20240516/g/gpudb/7.2.0.7-7.2.0.8/README.md --exclude *.pyd
+[2024-05-16 00:01:33] INFO root fetch - processPackages [fairchem-core]: Remove: archive file [/home/abi/fetcher/tmp/fairchem_core-0.0.0b0.tar.gz]
+[2024-05-16 00:01:33] INFO root fetch - processPackages [fairchem-core]: Remove: archive file [/home/abi/fetcher/tmp/fairchem_core-1.0.0b0.tar.gz]
+[2024-05-16 00:01:33] INFO root fetch - main [MainThread]: End processing [fairchem-core]: success
+[2024-05-16 00:01:33] INFO root fetch - processPackages [dbt-bigquery]: Remove: archive file [/home/abi/fetcher/tmp/dbt-bigquery-1.8.0b2.tar.gz]
+[2024-05-16 00:01:33] INFO root fetch - processPackages [dbt-bigquery]: Remove: archive file [/home/abi/fetcher/tmp/dbt_bigquery-1.8.0rc1.tar.gz]
+[2024-05-16 00:01:33] INFO root fetch - main [MainThread]: End processing [dbt-bigquery]: success
+[2024-05-16 00:01:33] INFO root fetch - processPackages [matematikk]: Remove: archive file [/home/abi/fetcher/tmp/matematikk-0.0.98.tar.gz]
+[2024-05-16 00:01:33] INFO root fetch - processPackages [matematikk]: Remove: archive file [/home/abi/fetcher/tmp/matematikk-0.0.99.tar.gz]
+[2024-05-16 00:01:33] INFO root fetch - main [MainThread]: End processing [matematikk]: success
+[2024-05-16 00:01:33] INFO root fetch - processPackages [opengamedata-api-utils]: Downloading https://files.pythonhosted.org/packages/01/3c/f5681757dd22ba81388f0dbdf282731931c5e8b50f6bac7ff5a5d9ecbb78/opengamedata_api_utils-1.0.4.tar.gz
+[2024-05-16 00:01:33] INFO root fetch - processPackages [senepy]: Downloading https://files.pythonhosted.org/packages/32/b5/e91635036476983e5020aebf675903f910e4e82e6738723915512b395d69/senepy-0.2.0.tar.gz
+[2024-05-16 00:01:33] INFO root fetch - processPackages [opengamedata-api-utils]: executing diffoscope
+[2024-05-16 00:01:33] INFO root fetch - processPackages [opengamedata-api-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/opengamedata_api_utils-1.0.3.tar.gz tmp/opengamedata_api_utils-1.0.4.tar.gz --markdown 20240516/o/opengamedata-api-utils/1.0.3-1.0.4/README.md --exclude *.pyd
+[2024-05-16 00:01:33] INFO root fetch - processPackages [senepy]: executing diffoscope
+[2024-05-16 00:01:33] INFO root fetch - processPackages [senepy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/senepy-0.1.1.tar.gz tmp/senepy-0.2.0.tar.gz --markdown 20240516/s/senepy/0.1.1-0.2.0/README.md --exclude *.pyd
+[2024-05-16 00:01:34] INFO root fetch - processPackages [opengamedata-api-utils]: Remove: archive file [/home/abi/fetcher/tmp/opengamedata_api_utils-1.0.3.tar.gz]
+[2024-05-16 00:01:34] INFO root fetch - processPackages [opengamedata-api-utils]: Remove: archive file [/home/abi/fetcher/tmp/opengamedata_api_utils-1.0.4.tar.gz]
+[2024-05-16 00:01:34] INFO root fetch - main [MainThread]: End processing [opengamedata-api-utils]: success
+[2024-05-16 00:01:34] INFO root fetch - processPackages [gpudb]: Remove: archive file [/home/abi/fetcher/tmp/gpudb-7.2.0.7-cp39-cp39-win_amd64.whl.zip]
+[2024-05-16 00:01:34] INFO root fetch - processPackages [gpudb]: Remove: archive file [/home/abi/fetcher/tmp/gpudb-7.2.0.8-cp35-cp35m-manylinux1_i686.whl.zip]
+[2024-05-16 00:01:34] INFO root fetch - main [MainThread]: End processing [gpudb]: success
+[2024-05-16 00:01:37] INFO root fetch - processPackages [senepy]: Remove: archive file [/home/abi/fetcher/tmp/senepy-0.1.1.tar.gz]
+[2024-05-16 00:01:37] INFO root fetch - processPackages [senepy]: Remove: archive file [/home/abi/fetcher/tmp/senepy-0.2.0.tar.gz]
+[2024-05-16 00:01:37] INFO root fetch - main [MainThread]: End processing [senepy]: success
+[2024-05-16 00:01:37] INFO root fetch - main [MainThread]: Store serial: [23225161]
