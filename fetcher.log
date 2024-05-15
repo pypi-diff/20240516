@@ -2864,3 +2864,33 @@ AssertionError: tmp/hygpytools-0.2.0.tar.gz does not exist
 [2024-05-16 01:41:29] INFO root fetch - processPackages [freegenius]: Remove: archive file [/home/abi/fetcher/tmp/freegenius-0.2.9.tar.gz]
 [2024-05-16 01:41:29] INFO root fetch - main [MainThread]: End processing [freegenius]: success
 [2024-05-16 01:41:29] INFO root fetch - main [MainThread]: Store serial: [23226295]
+[2024-05-16 01:43:33] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23226295]
+[2024-05-16 01:43:37] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-16 01:43:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: xtn-tools-pro
+[2024-05-16 01:43:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tencentcloud-sdk-python-tsf
+[2024-05-16 01:43:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: qrawl
+[2024-05-16 01:43:37] INFO root fetch - processPackages [xtn-tools-pro]: New version: [1.0.0.1.5] Old Version: [1.0.0.1.4]
+[2024-05-16 01:43:37] INFO root fetch - processPackages [xtn-tools-pro]: Downloading https://files.pythonhosted.org/packages/6f/9c/170fea0d5322852d58453c8412c10ccfa7bcf9cde3cdb182a3a792bbffa2/xtn-tools-pro-1.0.0.1.4.tar.gz
+[2024-05-16 01:43:38] INFO root fetch - processPackages [qrawl]: New version: [0.2.0] Old Version: [0.1.9]
+[2024-05-16 01:43:38] INFO root fetch - processPackages [tencentcloud-sdk-python-tsf]: New version: [3.0.999] Old Version: [3.0.998]
+[2024-05-16 01:43:38] INFO root fetch - processPackages [qrawl]: Downloading https://files.pythonhosted.org/packages/d8/60/f0f85eebfb560a8f2c94cf5f5756e54fb21b3856424d08079ff45eebcee4/qrawl-0.1.9.tar.gz
+[2024-05-16 01:43:38] INFO root fetch - processPackages [tencentcloud-sdk-python-tsf]: Downloading https://files.pythonhosted.org/packages/3c/cd/1cfcbb1e6974d34214b070db401b5fa353527c2a6a3e8d4620f802a59736/tencentcloud-sdk-python-tsf-3.0.998.tar.gz
+[2024-05-16 01:43:38] INFO root fetch - processPackages [xtn-tools-pro]: Downloading https://files.pythonhosted.org/packages/42/ec/315e81e613ef644c8c8a35bfda50c9908db3abb3cd94249dfdfb47588961/xtn-tools-pro-1.0.0.1.5.tar.gz
+[2024-05-16 01:43:38] INFO root fetch - processPackages [xtn-tools-pro]: executing diffoscope
+[2024-05-16 01:43:38] INFO root fetch - processPackages [xtn-tools-pro]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xtn-tools-pro-1.0.0.1.4.tar.gz tmp/xtn-tools-pro-1.0.0.1.5.tar.gz --markdown 20240516/x/xtn-tools-pro/1.0.0.1.4-1.0.0.1.5/README.md --exclude *.pyd
+[2024-05-16 01:43:38] INFO root fetch - processPackages [tencentcloud-sdk-python-tsf]: Downloading https://files.pythonhosted.org/packages/33/ab/0cd98cae1666cbb47f7c38f3f577f2f7b0bccd9a4dbc15e1609394bc1ae2/tencentcloud-sdk-python-tsf-3.0.999.tar.gz
+[2024-05-16 01:43:38] INFO root fetch - processPackages [qrawl]: Downloading https://files.pythonhosted.org/packages/97/7a/7fd31d07366aac3b3549157c3434983ccf02ee717439add55886bb38ca86/qrawl-0.2.0.tar.gz
+[2024-05-16 01:43:38] INFO root fetch - processPackages [tencentcloud-sdk-python-tsf]: executing diffoscope
+[2024-05-16 01:43:38] INFO root fetch - processPackages [tencentcloud-sdk-python-tsf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud-sdk-python-tsf-3.0.998.tar.gz tmp/tencentcloud-sdk-python-tsf-3.0.999.tar.gz --markdown 20240516/t/tencentcloud-sdk-python-tsf/3.0.998-3.0.999/README.md --exclude *.pyd
+[2024-05-16 01:43:38] INFO root fetch - processPackages [qrawl]: executing diffoscope
+[2024-05-16 01:43:38] INFO root fetch - processPackages [qrawl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qrawl-0.1.9.tar.gz tmp/qrawl-0.2.0.tar.gz --markdown 20240516/q/qrawl/0.1.9-0.2.0/README.md --exclude *.pyd
+[2024-05-16 01:43:39] INFO root fetch - processPackages [xtn-tools-pro]: Remove: archive file [/home/abi/fetcher/tmp/xtn-tools-pro-1.0.0.1.4.tar.gz]
+[2024-05-16 01:43:39] INFO root fetch - processPackages [xtn-tools-pro]: Remove: archive file [/home/abi/fetcher/tmp/xtn-tools-pro-1.0.0.1.5.tar.gz]
+[2024-05-16 01:43:39] INFO root fetch - main [MainThread]: End processing [xtn-tools-pro]: success
+[2024-05-16 01:43:39] INFO root fetch - processPackages [tencentcloud-sdk-python-tsf]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-tsf-3.0.998.tar.gz]
+[2024-05-16 01:43:39] INFO root fetch - processPackages [tencentcloud-sdk-python-tsf]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-tsf-3.0.999.tar.gz]
+[2024-05-16 01:43:39] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-tsf]: success
+[2024-05-16 01:43:39] INFO root fetch - processPackages [qrawl]: Remove: archive file [/home/abi/fetcher/tmp/qrawl-0.1.9.tar.gz]
+[2024-05-16 01:43:39] INFO root fetch - processPackages [qrawl]: Remove: archive file [/home/abi/fetcher/tmp/qrawl-0.2.0.tar.gz]
+[2024-05-16 01:43:39] INFO root fetch - main [MainThread]: End processing [qrawl]: success
+[2024-05-16 01:43:39] INFO root fetch - main [MainThread]: Store serial: [23226306]
