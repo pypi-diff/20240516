@@ -2133,3 +2133,39 @@ AssertionError: tmp/hygpytools-0.2.0.tar.gz does not exist
 [2024-05-16 01:10:33] INFO root fetch - processPackages [flatpack]: Remove: archive file [/home/abi/fetcher/tmp/flatpack-3.4.9.tar.gz]
 [2024-05-16 01:10:33] INFO root fetch - main [MainThread]: End processing [flatpack]: success
 [2024-05-16 01:10:33] INFO root fetch - main [MainThread]: Store serial: [23226001]
+[2024-05-16 01:12:37] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23226001]
+[2024-05-16 01:12:41] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-16 01:12:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: antelope-foreground
+[2024-05-16 01:12:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ocsf-pydantic
+[2024-05-16 01:12:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: fudstop
+[2024-05-16 01:12:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: datasette-permissions-metadata
+[2024-05-16 01:12:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: tencentcloud-sdk-python-tcex
+[2024-05-16 01:12:42] WARNING root fetch - processPackages [ocsf-pydantic]: Skipping, unable to determine old version
+[2024-05-16 01:12:42] INFO root fetch - main [MainThread]: End processing [ocsf-pydantic] error
+[2024-05-16 01:12:42] INFO root fetch - processPackages [fudstop]: New version: [2.6.1] Old Version: [2.6.0]
+[2024-05-16 01:12:42] INFO root fetch - processPackages [antelope-foreground]: New version: [0.3.1] Old Version: [0.3.0]
+[2024-05-16 01:12:42] WARNING root fetch - processPackages [datasette-permissions-metadata]: Skipping, unable to determine old version
+[2024-05-16 01:12:42] INFO root fetch - main [MainThread]: End processing [datasette-permissions-metadata] error
+[2024-05-16 01:12:42] INFO root fetch - processPackages [fudstop]: Downloading https://files.pythonhosted.org/packages/58/97/c36ebcd35cdd77742dbd84faf1e4878454c14007210ecca62f83b001c62f/fudstop-2.6.0.tar.gz
+[2024-05-16 01:12:42] INFO root fetch - processPackages [tencentcloud-sdk-python-tcex]: New version: [3.0.999] Old Version: [3.0.998]
+[2024-05-16 01:12:42] INFO root fetch - processPackages [antelope-foreground]: Downloading https://files.pythonhosted.org/packages/de/33/2f58bb875dc9a6d75e9a1910504a913f552f6e14d98f8a70d786fd84f360/antelope_foreground-0.3.0.tar.gz
+[2024-05-16 01:12:42] INFO root fetch - processPackages [tencentcloud-sdk-python-tcex]: Downloading https://files.pythonhosted.org/packages/27/a7/c326c453e0c7d0a625b76b160e70327916f52648d1e12ddf5362a05fc032/tencentcloud-sdk-python-tcex-3.0.998.tar.gz
+[2024-05-16 01:12:42] INFO root fetch - processPackages [fudstop]: Downloading https://files.pythonhosted.org/packages/3c/a0/5e1f843f266e5be360fa905a65970c074733246df22e626363e8da61fa0d/fudstop-2.6.1.tar.gz
+[2024-05-16 01:12:42] INFO root fetch - processPackages [antelope-foreground]: Downloading https://files.pythonhosted.org/packages/1d/be/63c743eaf9f3985b8177b85a272794da9fb09d90603cf65d35cb8f706f13/antelope_foreground-0.3.1.tar.gz
+[2024-05-16 01:12:42] INFO root fetch - processPackages [tencentcloud-sdk-python-tcex]: Downloading https://files.pythonhosted.org/packages/06/f0/bef7ea7199fb40b71edbd9e4bc7e430fba283576e0933a65bd66d32faa68/tencentcloud-sdk-python-tcex-3.0.999.tar.gz
+[2024-05-16 01:12:42] INFO root fetch - processPackages [antelope-foreground]: executing diffoscope
+[2024-05-16 01:12:42] INFO root fetch - processPackages [antelope-foreground]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/antelope_foreground-0.3.0.tar.gz tmp/antelope_foreground-0.3.1.tar.gz --markdown 20240516/a/antelope-foreground/0.3.0-0.3.1/README.md --exclude *.pyd
+[2024-05-16 01:12:42] INFO root fetch - processPackages [fudstop]: executing diffoscope
+[2024-05-16 01:12:42] INFO root fetch - processPackages [fudstop]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fudstop-2.6.0.tar.gz tmp/fudstop-2.6.1.tar.gz --markdown 20240516/f/fudstop/2.6.0-2.6.1/README.md --exclude *.pyd
+[2024-05-16 01:12:43] INFO root fetch - processPackages [tencentcloud-sdk-python-tcex]: executing diffoscope
+[2024-05-16 01:12:43] INFO root fetch - processPackages [tencentcloud-sdk-python-tcex]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud-sdk-python-tcex-3.0.998.tar.gz tmp/tencentcloud-sdk-python-tcex-3.0.999.tar.gz --markdown 20240516/t/tencentcloud-sdk-python-tcex/3.0.998-3.0.999/README.md --exclude *.pyd
+[2024-05-16 01:12:43] INFO root fetch - processPackages [tencentcloud-sdk-python-tcex]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-tcex-3.0.998.tar.gz]
+[2024-05-16 01:12:43] INFO root fetch - processPackages [tencentcloud-sdk-python-tcex]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-tcex-3.0.999.tar.gz]
+[2024-05-16 01:12:43] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-tcex]: success
+[2024-05-16 01:12:43] INFO root fetch - processPackages [antelope-foreground]: Remove: archive file [/home/abi/fetcher/tmp/antelope_foreground-0.3.0.tar.gz]
+[2024-05-16 01:12:43] INFO root fetch - processPackages [antelope-foreground]: Remove: archive file [/home/abi/fetcher/tmp/antelope_foreground-0.3.1.tar.gz]
+[2024-05-16 01:12:43] INFO root fetch - main [MainThread]: End processing [antelope-foreground]: success
+[2024-05-16 01:12:44] INFO root fetch - processPackages [fudstop]: Remove: archive file [/home/abi/fetcher/tmp/fudstop-2.6.0.tar.gz]
+[2024-05-16 01:12:44] INFO root fetch - processPackages [fudstop]: Remove: archive file [/home/abi/fetcher/tmp/fudstop-2.6.1.tar.gz]
+[2024-05-16 01:12:44] INFO root fetch - main [MainThread]: End processing [fudstop]: success
+[2024-05-16 01:12:44] INFO root fetch - main [MainThread]: Store serial: [23226017]
