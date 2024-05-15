@@ -2004,3 +2004,69 @@ AssertionError: tmp/hygpytools-0.2.0.tar.gz does not exist
 [2024-05-16 01:06:11] INFO root fetch - processPackages [opengamedata-core]: Remove: archive file [/home/abi/fetcher/tmp/opengamedata_core-0.0.3.tar.gz]
 [2024-05-16 01:06:11] INFO root fetch - main [MainThread]: End processing [opengamedata-core]: success
 [2024-05-16 01:06:11] INFO root fetch - main [MainThread]: Store serial: [23225947]
+[2024-05-16 01:08:15] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23225947]
+[2024-05-16 01:08:20] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-16 01:08:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tencentcloud-sdk-python-tbm
+[2024-05-16 01:08:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: metrics_layer
+[2024-05-16 01:08:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: tencentcloud-sdk-python-tbp
+[2024-05-16 01:08:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: azure-cosmos
+[2024-05-16 01:08:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: oceanum
+[2024-05-16 01:08:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: tree-sitter-tlaplus
+[2024-05-16 01:08:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: LingerGRN
+[2024-05-16 01:08:20] INFO root fetch - processPackages [LingerGRN]: New version: [1.9] Old Version: [1.8]
+[2024-05-16 01:08:20] INFO root fetch - processPackages [metrics_layer]: New version: [0.9.9] Old Version: [0.9.8]
+[2024-05-16 01:08:20] INFO root fetch - processPackages [LingerGRN]: Downloading https://files.pythonhosted.org/packages/df/69/a80f2b27505be0e6d4762954dc10e7e95186ec0d94c1930d038e59cc8f5d/LingerGRN-1.8.tar.gz
+[2024-05-16 01:08:20] INFO root fetch - processPackages [azure-cosmos]: New version: [4.6.1] Old Version: [4.6.0]
+[2024-05-16 01:08:20] INFO root fetch - processPackages [oceanum]: New version: [0.9.8] Old Version: [0.9.7]
+[2024-05-16 01:08:20] INFO root fetch - processPackages [tree-sitter-tlaplus]: New version: [1.3.5] Old Version: [1.2.8]
+[2024-05-16 01:08:20] INFO root fetch - processPackages [tencentcloud-sdk-python-tbp]: New version: [3.0.999] Old Version: [3.0.998]
+[2024-05-16 01:08:20] INFO root fetch - processPackages [tencentcloud-sdk-python-tbm]: New version: [3.0.999] Old Version: [3.0.998]
+[2024-05-16 01:08:20] INFO root fetch - processPackages [metrics_layer]: Downloading https://files.pythonhosted.org/packages/9c/13/00ea34acde8fa007f10b327cfe09c1558d08ccd7ebdaac72e463c72710b2/metrics_layer-0.9.8.tar.gz
+[2024-05-16 01:08:20] INFO root fetch - processPackages [LingerGRN]: Downloading https://files.pythonhosted.org/packages/63/d4/436d53c01941016a6ae8377f82d2b0e575b4398b54914a012eeeea4d45f7/LingerGRN-1.9.tar.gz
+[2024-05-16 01:08:20] INFO root fetch - processPackages [azure-cosmos]: Downloading https://files.pythonhosted.org/packages/32/22/06af125a6e05a4f60f3c1bfa79c869ea0dc64be9e7fcadc4c80388cde967/azure-cosmos-4.6.0.tar.gz
+[2024-05-16 01:08:20] INFO root fetch - processPackages [oceanum]: Downloading https://files.pythonhosted.org/packages/57/ed/935840882fb2e119b107f69f3f9b67b25107aa1acd866accb4eb44166804/oceanum-0.9.7.tar.gz
+[2024-05-16 01:08:20] INFO root fetch - processPackages [tree-sitter-tlaplus]: Downloading https://files.pythonhosted.org/packages/7a/cc/c20af68460ba8aaad4b59c59716815850aae329ea7edaf4ebfa255b04574/tree_sitter_tlaplus-1.2.8-cp38-abi3-win_amd64.whl
+[2024-05-16 01:08:20] INFO root fetch - processPackages [tencentcloud-sdk-python-tbp]: Downloading https://files.pythonhosted.org/packages/5f/55/64982549dccaa37329bc10d337689cdea10cb94098cf652e70ef084b062a/tencentcloud-sdk-python-tbp-3.0.998.tar.gz
+[2024-05-16 01:08:20] INFO root fetch - processPackages [LingerGRN]: executing diffoscope
+[2024-05-16 01:08:20] INFO root fetch - processPackages [LingerGRN]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/LingerGRN-1.8.tar.gz tmp/LingerGRN-1.9.tar.gz --markdown 20240516/L/LingerGRN/1.8-1.9/README.md --exclude *.pyd
+[2024-05-16 01:08:20] INFO root fetch - processPackages [tencentcloud-sdk-python-tbm]: Downloading https://files.pythonhosted.org/packages/8c/2f/b26a68d58bf637586ec28197c54a1f1434b269e6d4efe0f99f6e4e529cdd/tencentcloud-sdk-python-tbm-3.0.998.tar.gz
+[2024-05-16 01:08:20] INFO root fetch - processPackages [metrics_layer]: Downloading https://files.pythonhosted.org/packages/98/41/f98ac2ac2a5f241cfd8c7c920a4b7dcb17f9e906635e0c1130ca5ca3a416/metrics_layer-0.9.9.tar.gz
+[2024-05-16 01:08:20] INFO root fetch - processPackages [azure-cosmos]: Downloading https://files.pythonhosted.org/packages/37/5f/1a3466f5f14dd434e33108766c5809b38db6adf14999d6403e8a376f4ebc/azure-cosmos-4.6.1.tar.gz
+[2024-05-16 01:08:21] INFO root fetch - processPackages [tencentcloud-sdk-python-tbp]: Downloading https://files.pythonhosted.org/packages/de/b5/2240664beaf312ecba717d537c333908f86a596316a32a136cf6c6b23fae/tencentcloud-sdk-python-tbp-3.0.999.tar.gz
+[2024-05-16 01:08:21] INFO root fetch - processPackages [tree-sitter-tlaplus]: Downloading https://files.pythonhosted.org/packages/67/4f/01fe3a744a684289451624045f8d12dd80931a4bad0843d03a1101bbeecb/tree_sitter_tlaplus-1.3.5-cp38-abi3-win_amd64.whl
+[2024-05-16 01:08:21] INFO root fetch - processPackages [tencentcloud-sdk-python-tbm]: Downloading https://files.pythonhosted.org/packages/db/df/52d0566ff93bbe4cf052b80784061a8e9e94e58c56bcebf0de1191206719/tencentcloud-sdk-python-tbm-3.0.999.tar.gz
+[2024-05-16 01:08:21] INFO root fetch - processPackages [metrics_layer]: executing diffoscope
+[2024-05-16 01:08:21] INFO root fetch - processPackages [metrics_layer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/metrics_layer-0.9.8.tar.gz tmp/metrics_layer-0.9.9.tar.gz --markdown 20240516/m/metrics_layer/0.9.8-0.9.9/README.md --exclude *.pyd
+[2024-05-16 01:08:21] INFO root fetch - processPackages [azure-cosmos]: executing diffoscope
+[2024-05-16 01:08:21] INFO root fetch - processPackages [azure-cosmos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/azure-cosmos-4.6.0.tar.gz tmp/azure-cosmos-4.6.1.tar.gz --markdown 20240516/a/azure-cosmos/4.6.0-4.6.1/README.md --exclude *.pyd
+[2024-05-16 01:08:21] INFO root fetch - processPackages [tencentcloud-sdk-python-tbp]: executing diffoscope
+[2024-05-16 01:08:21] INFO root fetch - processPackages [tencentcloud-sdk-python-tbp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud-sdk-python-tbp-3.0.998.tar.gz tmp/tencentcloud-sdk-python-tbp-3.0.999.tar.gz --markdown 20240516/t/tencentcloud-sdk-python-tbp/3.0.998-3.0.999/README.md --exclude *.pyd
+[2024-05-16 01:08:21] INFO root fetch - processPackages [LingerGRN]: Remove: archive file [/home/abi/fetcher/tmp/LingerGRN-1.8.tar.gz]
+[2024-05-16 01:08:21] INFO root fetch - processPackages [LingerGRN]: Remove: archive file [/home/abi/fetcher/tmp/LingerGRN-1.9.tar.gz]
+[2024-05-16 01:08:21] INFO root fetch - main [MainThread]: End processing [LingerGRN]: success
+[2024-05-16 01:08:21] INFO root fetch - processPackages [tencentcloud-sdk-python-tbm]: executing diffoscope
+[2024-05-16 01:08:21] INFO root fetch - processPackages [tencentcloud-sdk-python-tbm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud-sdk-python-tbm-3.0.998.tar.gz tmp/tencentcloud-sdk-python-tbm-3.0.999.tar.gz --markdown 20240516/t/tencentcloud-sdk-python-tbm/3.0.998-3.0.999/README.md --exclude *.pyd
+[2024-05-16 01:08:21] INFO root fetch - processPackages [oceanum]: Downloading https://files.pythonhosted.org/packages/d6/84/c1ff2f83b55b69b2f4e65d205b4e2a9f88f1070aa1310d7fd5b4a1df7df1/oceanum-0.9.8.tar.gz
+[2024-05-16 01:08:21] INFO root fetch - processPackages [oceanum]: executing diffoscope
+[2024-05-16 01:08:21] INFO root fetch - processPackages [oceanum]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oceanum-0.9.7.tar.gz tmp/oceanum-0.9.8.tar.gz --markdown 20240516/o/oceanum/0.9.7-0.9.8/README.md --exclude *.pyd
+[2024-05-16 01:08:21] INFO root fetch - processPackages [tencentcloud-sdk-python-tbm]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-tbm-3.0.998.tar.gz]
+[2024-05-16 01:08:21] INFO root fetch - processPackages [tencentcloud-sdk-python-tbm]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-tbm-3.0.999.tar.gz]
+[2024-05-16 01:08:21] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-tbm]: success
+[2024-05-16 01:08:21] INFO root fetch - processPackages [tencentcloud-sdk-python-tbp]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-tbp-3.0.998.tar.gz]
+[2024-05-16 01:08:21] INFO root fetch - processPackages [tencentcloud-sdk-python-tbp]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-tbp-3.0.999.tar.gz]
+[2024-05-16 01:08:21] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-tbp]: success
+[2024-05-16 01:08:21] INFO root fetch - processPackages [metrics_layer]: Remove: archive file [/home/abi/fetcher/tmp/metrics_layer-0.9.8.tar.gz]
+[2024-05-16 01:08:21] INFO root fetch - processPackages [metrics_layer]: Remove: archive file [/home/abi/fetcher/tmp/metrics_layer-0.9.9.tar.gz]
+[2024-05-16 01:08:21] INFO root fetch - main [MainThread]: End processing [metrics_layer]: success
+[2024-05-16 01:08:22] INFO root fetch - processPackages [oceanum]: Remove: archive file [/home/abi/fetcher/tmp/oceanum-0.9.7.tar.gz]
+[2024-05-16 01:08:22] INFO root fetch - processPackages [oceanum]: Remove: archive file [/home/abi/fetcher/tmp/oceanum-0.9.8.tar.gz]
+[2024-05-16 01:08:22] INFO root fetch - main [MainThread]: End processing [oceanum]: success
+[2024-05-16 01:08:22] INFO root fetch - processPackages [tree-sitter-tlaplus]: executing diffoscope
+[2024-05-16 01:08:22] INFO root fetch - processPackages [tree-sitter-tlaplus]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tree_sitter_tlaplus-1.2.8-cp38-abi3-win_amd64.whl.zip tmp/tree_sitter_tlaplus-1.3.5-cp38-abi3-win_amd64.whl.zip --markdown 20240516/t/tree-sitter-tlaplus/1.2.8-1.3.5/README.md --exclude *.pyd
+[2024-05-16 01:08:22] INFO root fetch - processPackages [tree-sitter-tlaplus]: Remove: archive file [/home/abi/fetcher/tmp/tree_sitter_tlaplus-1.2.8-cp38-abi3-win_amd64.whl.zip]
+[2024-05-16 01:08:22] INFO root fetch - processPackages [tree-sitter-tlaplus]: Remove: archive file [/home/abi/fetcher/tmp/tree_sitter_tlaplus-1.3.5-cp38-abi3-win_amd64.whl.zip]
+[2024-05-16 01:08:22] INFO root fetch - main [MainThread]: End processing [tree-sitter-tlaplus]: success
+[2024-05-16 01:08:23] INFO root fetch - processPackages [azure-cosmos]: Remove: archive file [/home/abi/fetcher/tmp/azure-cosmos-4.6.0.tar.gz]
+[2024-05-16 01:08:23] INFO root fetch - processPackages [azure-cosmos]: Remove: archive file [/home/abi/fetcher/tmp/azure-cosmos-4.6.1.tar.gz]
+[2024-05-16 01:08:23] INFO root fetch - main [MainThread]: End processing [azure-cosmos]: success
+[2024-05-16 01:08:23] INFO root fetch - main [MainThread]: Store serial: [23225971]
