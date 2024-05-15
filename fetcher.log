@@ -286,3 +286,60 @@
 [2024-05-16 00:10:23] INFO root fetch - processPackages [honeybee-radiance]: Remove: archive file [/home/abi/fetcher/tmp/honeybee-radiance-1.9.2.tar.gz]
 [2024-05-16 00:10:23] INFO root fetch - main [MainThread]: End processing [honeybee-radiance]: success
 [2024-05-16 00:10:23] INFO root fetch - main [MainThread]: Store serial: [23225253]
+[2024-05-16 00:12:28] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23225253]
+[2024-05-16 00:12:32] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-16 00:12:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: guibbon
+[2024-05-16 00:12:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: lbt-ladybug
+[2024-05-16 00:12:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: UmiTestData
+[2024-05-16 00:12:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: jgtpy
+[2024-05-16 00:12:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pyfaust
+[2024-05-16 00:12:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: hal9
+[2024-05-16 00:12:32] INFO root fetch - processPackages [guibbon]: New version: [0.2.0] Old Version: [0.1.5]
+[2024-05-16 00:12:32] INFO root fetch - processPackages [lbt-ladybug]: New version: [0.9.0] Old Version: [0.8.1]
+[2024-05-16 00:12:32] INFO root fetch - processPackages [hal9]: New version: [2.0.6] Old Version: [2.0.5]
+[2024-05-16 00:12:32] INFO root fetch - processPackages [pyfaust]: New version: [3.9.1] Old Version: [3.9.0]
+[2024-05-16 00:12:32] INFO root fetch - processPackages [jgtpy]: New version: [0.4.9] Old Version: [0.4.8]
+[2024-05-16 00:12:32] INFO root fetch - processPackages [UmiTestData]: New version: [0.2] Old Version: [0.1]
+[2024-05-16 00:12:32] INFO root fetch - processPackages [lbt-ladybug]: Downloading https://files.pythonhosted.org/packages/e4/ac/474c600d6f495b8d63c49d7689b2b076f0c5f94c22728fe795233852a9e1/lbt-ladybug-0.8.1.tar.gz
+[2024-05-16 00:12:33] INFO root fetch - processPackages [guibbon]: Downloading https://files.pythonhosted.org/packages/4e/a5/cda067ba021a819cf519a72c298a13d193a5286d25e674aaee79f22d25d0/guibbon-0.1.5.tar.gz
+[2024-05-16 00:12:33] INFO root fetch - processPackages [hal9]: Downloading https://files.pythonhosted.org/packages/48/57/645f8afc71b8b272efd11b530ef05fa43335158d02c20e5494f466b22f9c/hal9-2.0.5.tar.gz
+[2024-05-16 00:12:33] INFO root fetch - processPackages [pyfaust]: Downloading https://files.pythonhosted.org/packages/18/b5/0740195b9ccd0e43e427280344d5fb3706996ff6f66655fe6f79cd230aaa/pyfaust-3.9.0-cp39-cp39-win_amd64.whl
+[2024-05-16 00:12:33] INFO root fetch - processPackages [jgtpy]: Downloading https://files.pythonhosted.org/packages/60/b5/888f160495ee80ba1657e52a606a803f54fbfa062fe5a4d1d58fd9dc9141/jgtpy-0.4.8.tar.gz
+[2024-05-16 00:12:33] INFO root fetch - processPackages [UmiTestData]: Downloading https://files.pythonhosted.org/packages/c8/c2/afd33f6ceb1e3017080d75aafcb7aec0e7c449d24cd1cfbf5cc6f162be62/UmiTestData-0.1.tar.gz
+[2024-05-16 00:12:33] INFO root fetch - processPackages [guibbon]: Downloading https://files.pythonhosted.org/packages/04/df/ffcbef97dc6a9cc9e1832c28e7d1a0887898e8f1fb737deff60a88d257e5/guibbon-0.2.0.tar.gz
+[2024-05-16 00:12:33] INFO root fetch - processPackages [jgtpy]: Downloading https://files.pythonhosted.org/packages/c1/94/79cdcc286ed1c9578cc3d3b4b47d9da3326a5fdfa94ebc3ad80acf17eafa/jgtpy-0.4.9.tar.gz
+[2024-05-16 00:12:33] INFO root fetch - processPackages [guibbon]: executing diffoscope
+[2024-05-16 00:12:33] INFO root fetch - processPackages [guibbon]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/guibbon-0.1.5.tar.gz tmp/guibbon-0.2.0.tar.gz --markdown 20240516/g/guibbon/0.1.5-0.2.0/README.md --exclude *.pyd
+[2024-05-16 00:12:33] INFO root fetch - processPackages [hal9]: Downloading https://files.pythonhosted.org/packages/68/84/d4c601757b3e2851585e82597fbc846fd1ae68616b017d8eb34590b5bc22/hal9-2.0.6.tar.gz
+[2024-05-16 00:12:33] INFO root fetch - processPackages [UmiTestData]: Downloading https://files.pythonhosted.org/packages/a4/f4/c8105ec5d264bc798e1322ac3e979d25d68218d463b0524b555fb3d95bfc/UmiTestData-0.2.tar.gz
+[2024-05-16 00:12:33] INFO root fetch - processPackages [jgtpy]: executing diffoscope
+[2024-05-16 00:12:33] INFO root fetch - processPackages [jgtpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jgtpy-0.4.8.tar.gz tmp/jgtpy-0.4.9.tar.gz --markdown 20240516/j/jgtpy/0.4.8-0.4.9/README.md --exclude *.pyd
+[2024-05-16 00:12:33] INFO root fetch - processPackages [pyfaust]: Downloading https://files.pythonhosted.org/packages/34/28/ab7cd91f9611bbe2d9ff5bfc6934eb6af283249b75ac68c9d0b6befcd0b5/pyfaust-3.9.1-cp39-cp39-win_amd64.whl
+[2024-05-16 00:12:33] INFO root fetch - processPackages [hal9]: executing diffoscope
+[2024-05-16 00:12:33] INFO root fetch - processPackages [hal9]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hal9-2.0.5.tar.gz tmp/hal9-2.0.6.tar.gz --markdown 20240516/h/hal9/2.0.5-2.0.6/README.md --exclude *.pyd
+[2024-05-16 00:12:33] INFO root fetch - processPackages [UmiTestData]: executing diffoscope
+[2024-05-16 00:12:33] INFO root fetch - processPackages [UmiTestData]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/UmiTestData-0.1.tar.gz tmp/UmiTestData-0.2.tar.gz --markdown 20240516/U/UmiTestData/0.1-0.2/README.md --exclude *.pyd
+[2024-05-16 00:12:33] INFO root fetch - processPackages [lbt-ladybug]: Downloading https://files.pythonhosted.org/packages/6e/e7/a4e6dcfc6b2750475acd6dee9e849a991053471ff22a90aa8f986eaef25b/lbt-ladybug-0.9.0.tar.gz
+[2024-05-16 00:12:33] INFO root fetch - processPackages [pyfaust]: executing diffoscope
+[2024-05-16 00:12:33] INFO root fetch - processPackages [pyfaust]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyfaust-3.9.0-cp39-cp39-win_amd64.whl.zip tmp/pyfaust-3.9.1-cp39-cp39-win_amd64.whl.zip --markdown 20240516/p/pyfaust/3.9.0-3.9.1/README.md --exclude *.pyd
+[2024-05-16 00:12:34] INFO root fetch - processPackages [lbt-ladybug]: executing diffoscope
+[2024-05-16 00:12:34] INFO root fetch - processPackages [lbt-ladybug]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lbt-ladybug-0.8.1.tar.gz tmp/lbt-ladybug-0.9.0.tar.gz --markdown 20240516/l/lbt-ladybug/0.8.1-0.9.0/README.md --exclude *.pyd
+[2024-05-16 00:12:34] INFO root fetch - processPackages [guibbon]: Remove: archive file [/home/abi/fetcher/tmp/guibbon-0.1.5.tar.gz]
+[2024-05-16 00:12:34] INFO root fetch - processPackages [guibbon]: Remove: archive file [/home/abi/fetcher/tmp/guibbon-0.2.0.tar.gz]
+[2024-05-16 00:12:34] INFO root fetch - main [MainThread]: End processing [guibbon]: success
+[2024-05-16 00:12:34] INFO root fetch - processPackages [hal9]: Remove: archive file [/home/abi/fetcher/tmp/hal9-2.0.5.tar.gz]
+[2024-05-16 00:12:34] INFO root fetch - processPackages [hal9]: Remove: archive file [/home/abi/fetcher/tmp/hal9-2.0.6.tar.gz]
+[2024-05-16 00:12:34] INFO root fetch - main [MainThread]: End processing [hal9]: success
+[2024-05-16 00:12:34] INFO root fetch - processPackages [jgtpy]: Remove: archive file [/home/abi/fetcher/tmp/jgtpy-0.4.8.tar.gz]
+[2024-05-16 00:12:34] INFO root fetch - processPackages [jgtpy]: Remove: archive file [/home/abi/fetcher/tmp/jgtpy-0.4.9.tar.gz]
+[2024-05-16 00:12:34] INFO root fetch - main [MainThread]: End processing [jgtpy]: success
+[2024-05-16 00:12:34] INFO root fetch - processPackages [UmiTestData]: Remove: archive file [/home/abi/fetcher/tmp/UmiTestData-0.1.tar.gz]
+[2024-05-16 00:12:34] INFO root fetch - processPackages [UmiTestData]: Remove: archive file [/home/abi/fetcher/tmp/UmiTestData-0.2.tar.gz]
+[2024-05-16 00:12:34] INFO root fetch - main [MainThread]: End processing [UmiTestData]: success
+[2024-05-16 00:12:35] INFO root fetch - processPackages [lbt-ladybug]: Remove: archive file [/home/abi/fetcher/tmp/lbt-ladybug-0.8.1.tar.gz]
+[2024-05-16 00:12:35] INFO root fetch - processPackages [lbt-ladybug]: Remove: archive file [/home/abi/fetcher/tmp/lbt-ladybug-0.9.0.tar.gz]
+[2024-05-16 00:12:35] INFO root fetch - main [MainThread]: End processing [lbt-ladybug]: success
+[2024-05-16 00:13:06] INFO root fetch - processPackages [pyfaust]: Remove: archive file [/home/abi/fetcher/tmp/pyfaust-3.9.0-cp39-cp39-win_amd64.whl.zip]
+[2024-05-16 00:13:06] INFO root fetch - processPackages [pyfaust]: Remove: archive file [/home/abi/fetcher/tmp/pyfaust-3.9.1-cp39-cp39-win_amd64.whl.zip]
+[2024-05-16 00:13:06] INFO root fetch - main [MainThread]: End processing [pyfaust]: success
+[2024-05-16 00:13:06] INFO root fetch - main [MainThread]: Store serial: [23225274]
