@@ -1850,3 +1850,15 @@ AssertionError: tmp/hygpytools-0.2.0.tar.gz does not exist
 [2024-05-16 00:57:28] INFO root fetch - processPackages [tencentcloud-sdk-python-taf]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-taf-3.0.999.tar.gz]
 [2024-05-16 00:57:28] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-taf]: success
 [2024-05-16 00:57:28] INFO root fetch - main [MainThread]: Store serial: [23225891]
+[2024-05-16 00:59:32] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23225891]
+[2024-05-16 00:59:37] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-05-16 00:59:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: CTK-Desert
+[2024-05-16 00:59:37] INFO root fetch - processPackages [CTK-Desert]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-16 00:59:37] INFO root fetch - processPackages [CTK-Desert]: Downloading https://files.pythonhosted.org/packages/9a/73/c7239044a3b6edf571c3f5feded6aab241cff792f7acd98dd42652e44c95/CTK_Desert-0.0.8.tar.gz
+[2024-05-16 00:59:37] INFO root fetch - processPackages [CTK-Desert]: Downloading https://files.pythonhosted.org/packages/6d/b4/d3af97e7bf9ae492dceb1aad8191e260b603096af0a9755ffd707156f69f/CTK_Desert-0.0.9.tar.gz
+[2024-05-16 00:59:37] INFO root fetch - processPackages [CTK-Desert]: executing diffoscope
+[2024-05-16 00:59:37] INFO root fetch - processPackages [CTK-Desert]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/CTK_Desert-0.0.8.tar.gz tmp/CTK_Desert-0.0.9.tar.gz --markdown 20240516/C/CTK-Desert/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-16 00:59:38] INFO root fetch - processPackages [CTK-Desert]: Remove: archive file [/home/abi/fetcher/tmp/CTK_Desert-0.0.8.tar.gz]
+[2024-05-16 00:59:38] INFO root fetch - processPackages [CTK-Desert]: Remove: archive file [/home/abi/fetcher/tmp/CTK_Desert-0.0.9.tar.gz]
+[2024-05-16 00:59:38] INFO root fetch - main [MainThread]: End processing [CTK-Desert]: success
+[2024-05-16 00:59:38] INFO root fetch - main [MainThread]: Store serial: [23225894]
