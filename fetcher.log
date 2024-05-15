@@ -103,3 +103,60 @@
 [2024-05-16 00:01:37] INFO root fetch - processPackages [senepy]: Remove: archive file [/home/abi/fetcher/tmp/senepy-0.2.0.tar.gz]
 [2024-05-16 00:01:37] INFO root fetch - main [MainThread]: End processing [senepy]: success
 [2024-05-16 00:01:37] INFO root fetch - main [MainThread]: Store serial: [23225161]
+[2024-05-16 00:03:41] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23225161]
+[2024-05-16 00:03:46] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2024-05-16 00:03:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: chess.com-analyzer
+[2024-05-16 00:03:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: lexconvert
+[2024-05-16 00:03:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: tqdm-joblib
+[2024-05-16 00:03:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: taskara
+[2024-05-16 00:03:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: libreflow.extensions.file-manager.synchronisation
+[2024-05-16 00:03:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pymonit
+[2024-05-16 00:03:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: chess.com-analyzer
+[2024-05-16 00:03:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: tencentcloud-sdk-python-ivld
+[2024-05-16 00:03:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: UmiTestData
+[2024-05-16 00:03:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: tencentcloud-sdk-python-keewidb
+[2024-05-16 00:03:46] WARNING root fetch - processPackages [chess.com-analyzer]: Skipping, unable to determine old version
+[2024-05-16 00:03:46] INFO root fetch - main [MainThread]: End processing [chess.com-analyzer] error
+[2024-05-16 00:03:46] WARNING root fetch - processPackages [pymonit]: Skipping, unable to determine old version
+[2024-05-16 00:03:46] INFO root fetch - main [MainThread]: End processing [pymonit] error
+[2024-05-16 00:03:46] WARNING root fetch - processPackages [chess.com-analyzer]: Skipping, unable to determine old version
+[2024-05-16 00:03:46] INFO root fetch - main [MainThread]: End processing [chess.com-analyzer] error
+[2024-05-16 00:03:46] INFO root fetch - processPackages [taskara]: New version: [0.1.8] Old Version: [0.1.7]
+[2024-05-16 00:03:46] WARNING root fetch - processPackages [lexconvert]: Skipping, unable to determine old version
+[2024-05-16 00:03:46] INFO root fetch - main [MainThread]: End processing [lexconvert] error
+[2024-05-16 00:03:46] INFO root fetch - processPackages [tqdm-joblib]: New version: [0.0.4] Old Version: [0.0.3]
+[2024-05-16 00:03:46] INFO root fetch - processPackages [taskara]: Downloading https://files.pythonhosted.org/packages/d6/1e/172ae85d48722a1e28b9526c0bb34465bd7920d0c8e6858e25a3f8c528a9/taskara-0.1.7.tar.gz
+[2024-05-16 00:03:46] WARNING root fetch - processPackages [libreflow.extensions.file-manager.synchronisation]: Skipping, unable to determine old version
+[2024-05-16 00:03:46] INFO root fetch - main [MainThread]: End processing [libreflow.extensions.file-manager.synchronisation] error
+[2024-05-16 00:03:46] WARNING root fetch - processPackages [UmiTestData]: Skipping, unable to determine old version
+[2024-05-16 00:03:46] INFO root fetch - main [MainThread]: End processing [UmiTestData] error
+[2024-05-16 00:03:47] INFO root fetch - processPackages [tencentcloud-sdk-python-keewidb]: New version: [3.0.999] Old Version: [3.0.998]
+[2024-05-16 00:03:47] INFO root fetch - processPackages [tencentcloud-sdk-python-ivld]: New version: [3.0.999] Old Version: [3.0.998]
+[2024-05-16 00:03:47] INFO root fetch - processPackages [tqdm-joblib]: Downloading https://files.pythonhosted.org/packages/28/5e/7b58cf9296197768ee8e4a7975be52f4500578c2c5b2a331e5676d3d3b55/tqdm_joblib-0.0.3.tar.gz
+[2024-05-16 00:03:47] INFO root fetch - processPackages [taskara]: Downloading https://files.pythonhosted.org/packages/c0/4f/e9467a6dd755091e2fe2294b58569b289c5252fd70463791829fd99fbfd7/taskara-0.1.8.tar.gz
+[2024-05-16 00:03:47] INFO root fetch - processPackages [taskara]: executing diffoscope
+[2024-05-16 00:03:47] INFO root fetch - processPackages [taskara]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/taskara-0.1.7.tar.gz tmp/taskara-0.1.8.tar.gz --markdown 20240516/t/taskara/0.1.7-0.1.8/README.md --exclude *.pyd
+[2024-05-16 00:03:47] INFO root fetch - processPackages [tencentcloud-sdk-python-keewidb]: Downloading https://files.pythonhosted.org/packages/f8/e9/6bc8c99862a94e58cda66b852f7b62f6de324bd5d823eae6786d0418860c/tencentcloud-sdk-python-keewidb-3.0.998.tar.gz
+[2024-05-16 00:03:47] INFO root fetch - processPackages [tencentcloud-sdk-python-ivld]: Downloading https://files.pythonhosted.org/packages/54/88/66a62776c14a945d98f689302b15365a53a470a7478775a78f22f7ab0b7b/tencentcloud-sdk-python-ivld-3.0.998.tar.gz
+[2024-05-16 00:03:47] INFO root fetch - processPackages [tqdm-joblib]: Downloading https://files.pythonhosted.org/packages/7f/f8/f35c4bcc48408ef145634521f1603149613fd9ab89279b58df1e4fb17d3b/tqdm_joblib-0.0.4.tar.gz
+[2024-05-16 00:03:47] INFO root fetch - processPackages [tqdm-joblib]: executing diffoscope
+[2024-05-16 00:03:47] INFO root fetch - processPackages [tqdm-joblib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tqdm_joblib-0.0.3.tar.gz tmp/tqdm_joblib-0.0.4.tar.gz --markdown 20240516/t/tqdm-joblib/0.0.3-0.0.4/README.md --exclude *.pyd
+[2024-05-16 00:03:47] INFO root fetch - processPackages [tencentcloud-sdk-python-keewidb]: Downloading https://files.pythonhosted.org/packages/05/49/f0aeb2e06eae769bf4d325ca92dbed6fbc9d1cdbfa97c528661d4ad15ab8/tencentcloud-sdk-python-keewidb-3.0.999.tar.gz
+[2024-05-16 00:03:47] INFO root fetch - processPackages [tencentcloud-sdk-python-ivld]: Downloading https://files.pythonhosted.org/packages/60/62/24e25761cd8be766573139a3004359100c14a4f335d28a31dbe1e6d7addd/tencentcloud-sdk-python-ivld-3.0.999.tar.gz
+[2024-05-16 00:03:47] INFO root fetch - processPackages [tencentcloud-sdk-python-keewidb]: executing diffoscope
+[2024-05-16 00:03:47] INFO root fetch - processPackages [tencentcloud-sdk-python-keewidb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud-sdk-python-keewidb-3.0.998.tar.gz tmp/tencentcloud-sdk-python-keewidb-3.0.999.tar.gz --markdown 20240516/t/tencentcloud-sdk-python-keewidb/3.0.998-3.0.999/README.md --exclude *.pyd
+[2024-05-16 00:03:47] INFO root fetch - processPackages [tencentcloud-sdk-python-ivld]: executing diffoscope
+[2024-05-16 00:03:47] INFO root fetch - processPackages [tencentcloud-sdk-python-ivld]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud-sdk-python-ivld-3.0.998.tar.gz tmp/tencentcloud-sdk-python-ivld-3.0.999.tar.gz --markdown 20240516/t/tencentcloud-sdk-python-ivld/3.0.998-3.0.999/README.md --exclude *.pyd
+[2024-05-16 00:03:48] INFO root fetch - processPackages [taskara]: Remove: archive file [/home/abi/fetcher/tmp/taskara-0.1.7.tar.gz]
+[2024-05-16 00:03:48] INFO root fetch - processPackages [taskara]: Remove: archive file [/home/abi/fetcher/tmp/taskara-0.1.8.tar.gz]
+[2024-05-16 00:03:48] INFO root fetch - main [MainThread]: End processing [taskara]: success
+[2024-05-16 00:03:48] INFO root fetch - processPackages [tqdm-joblib]: Remove: archive file [/home/abi/fetcher/tmp/tqdm_joblib-0.0.3.tar.gz]
+[2024-05-16 00:03:48] INFO root fetch - processPackages [tqdm-joblib]: Remove: archive file [/home/abi/fetcher/tmp/tqdm_joblib-0.0.4.tar.gz]
+[2024-05-16 00:03:48] INFO root fetch - main [MainThread]: End processing [tqdm-joblib]: success
+[2024-05-16 00:03:48] INFO root fetch - processPackages [tencentcloud-sdk-python-keewidb]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-keewidb-3.0.998.tar.gz]
+[2024-05-16 00:03:48] INFO root fetch - processPackages [tencentcloud-sdk-python-keewidb]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-keewidb-3.0.999.tar.gz]
+[2024-05-16 00:03:48] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-keewidb]: success
+[2024-05-16 00:03:48] INFO root fetch - processPackages [tencentcloud-sdk-python-ivld]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-ivld-3.0.998.tar.gz]
+[2024-05-16 00:03:48] INFO root fetch - processPackages [tencentcloud-sdk-python-ivld]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-ivld-3.0.999.tar.gz]
+[2024-05-16 00:03:48] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-ivld]: success
+[2024-05-16 00:03:48] INFO root fetch - main [MainThread]: Store serial: [23225215]
