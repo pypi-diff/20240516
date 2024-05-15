@@ -1021,3 +1021,67 @@ AssertionError: tmp/hygpytools-0.2.0.tar.gz does not exist
 [2024-05-16 00:24:51] INFO root fetch - processPackages [dragonfly-energy]: Remove: archive file [/home/abi/fetcher/tmp/dragonfly-energy-1.9.9.tar.gz]
 [2024-05-16 00:24:51] INFO root fetch - main [MainThread]: End processing [dragonfly-energy]: success
 [2024-05-16 00:24:51] INFO root fetch - main [MainThread]: Store serial: [23225569]
+[2024-05-16 00:26:55] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23225569]
+[2024-05-16 00:27:00] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-16 00:27:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: abstra
+[2024-05-16 00:27:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: jgtpy
+[2024-05-16 00:27:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: mat3ra-api-examples
+[2024-05-16 00:27:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: lavague-drivers-selenium
+[2024-05-16 00:27:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: jgtpy
+[2024-05-16 00:27:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: h5analysis
+[2024-05-16 00:27:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: general-navigation
+[2024-05-16 00:27:00] INFO root fetch - processPackages [jgtpy]: New version: [0.4.9] Old Version: [0.4.8]
+[2024-05-16 00:27:00] INFO root fetch - processPackages [abstra]: New version: [2.9.0] Old Version: [2.8.0]
+[2024-05-16 00:27:00] INFO root fetch - processPackages [jgtpy]: New version: [0.4.9] Old Version: [0.4.8]
+[2024-05-16 00:27:00] INFO root fetch - processPackages [lavague-drivers-selenium]: New version: [0.1.1.post1] Old Version: [0.1.1]
+[2024-05-16 00:27:00] INFO root fetch - processPackages [abstra]: Downloading https://files.pythonhosted.org/packages/94/4b/7c4e2731365d7c5a6305413596fc49a8d9a7ac8dc7791085a79c04204a43/abstra-2.8.0.tar.gz
+[2024-05-16 00:27:00] INFO root fetch - processPackages [jgtpy]: Downloading https://files.pythonhosted.org/packages/60/b5/888f160495ee80ba1657e52a606a803f54fbfa062fe5a4d1d58fd9dc9141/jgtpy-0.4.8.tar.gz
+[2024-05-16 00:27:00] INFO root fetch - processPackages [mat3ra-api-examples]: New version: [2024.5.7.post0] Old Version: [2024.5.3.post1]
+[2024-05-16 00:27:00] INFO root fetch - processPackages [h5analysis]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-16 00:27:00] INFO root fetch - processPackages [general-navigation]: New version: [0.3.1] Old Version: [0.3.0]
+[2024-05-16 00:27:00] INFO root fetch - processPackages [jgtpy]: Downloading https://files.pythonhosted.org/packages/60/b5/888f160495ee80ba1657e52a606a803f54fbfa062fe5a4d1d58fd9dc9141/jgtpy-0.4.8.tar.gz
+[2024-05-16 00:27:00] INFO root fetch - processPackages [lavague-drivers-selenium]: Downloading https://files.pythonhosted.org/packages/31/7a/f226b1baf82ff573ad372e352e4b8a158752c6c0cc2bc3e55de80ab89b9e/lavague_drivers_selenium-0.1.1.tar.gz
+[2024-05-16 00:27:00] INFO root fetch - processPackages [jgtpy]: Downloading https://files.pythonhosted.org/packages/c1/94/79cdcc286ed1c9578cc3d3b4b47d9da3326a5fdfa94ebc3ad80acf17eafa/jgtpy-0.4.9.tar.gz
+[2024-05-16 00:27:00] INFO root fetch - processPackages [mat3ra-api-examples]: Downloading https://files.pythonhosted.org/packages/ee/f0/a1fb643ddb476d364a9a5566b8d14d3fd373f6549e47e4b344a3a0f0b858/mat3ra_api_examples-2024.5.3.post1.tar.gz
+[2024-05-16 00:27:00] INFO root fetch - processPackages [h5analysis]: Downloading https://files.pythonhosted.org/packages/7f/06/223f03a9b5227e2cabcdf1f98cc947fba9598187d96356c06382b85286c8/h5analysis-0.0.8.tar.gz
+[2024-05-16 00:27:00] INFO root fetch - processPackages [general-navigation]: Downloading https://files.pythonhosted.org/packages/ab/73/83868e4e7c0395d13545c1f24a87f89968829546fa65172c4a66a2d11054/general_navigation-0.3.0.tar.gz
+[2024-05-16 00:27:00] INFO root fetch - processPackages [jgtpy]: Downloading https://files.pythonhosted.org/packages/c1/94/79cdcc286ed1c9578cc3d3b4b47d9da3326a5fdfa94ebc3ad80acf17eafa/jgtpy-0.4.9.tar.gz
+[2024-05-16 00:27:00] INFO root fetch - processPackages [lavague-drivers-selenium]: Downloading https://files.pythonhosted.org/packages/92/35/83e7393e6116dd929a4775b1c1574114a5b4ebcca967cbfbd5e88365c94e/lavague_drivers_selenium-0.1.1.post1.tar.gz
+[2024-05-16 00:27:00] INFO root fetch - processPackages [jgtpy]: executing diffoscope
+[2024-05-16 00:27:00] INFO root fetch - processPackages [jgtpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jgtpy-0.4.8.tar.gz tmp/jgtpy-0.4.9.tar.gz --markdown 20240516/j/jgtpy/0.4.8-0.4.9/README.md --exclude *.pyd
+[2024-05-16 00:27:00] INFO root fetch - processPackages [jgtpy]: executing diffoscope
+[2024-05-16 00:27:00] INFO root fetch - processPackages [jgtpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jgtpy-0.4.8.tar.gz tmp/jgtpy-0.4.9.tar.gz --markdown 20240516/j/jgtpy/0.4.8-0.4.9/README.md --exclude *.pyd
+[2024-05-16 00:27:00] INFO root fetch - processPackages [abstra]: Downloading https://files.pythonhosted.org/packages/1e/35/eb7405e3736295269e9520bd7c81f554658b0e8eb3e3265a067211dc18e3/abstra-2.9.0.tar.gz
+[2024-05-16 00:27:00] INFO root fetch - processPackages [lavague-drivers-selenium]: executing diffoscope
+[2024-05-16 00:27:00] INFO root fetch - processPackages [lavague-drivers-selenium]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lavague_drivers_selenium-0.1.1.tar.gz tmp/lavague_drivers_selenium-0.1.1.post1.tar.gz --markdown 20240516/l/lavague-drivers-selenium/0.1.1-0.1.1.post1/README.md --exclude *.pyd
+[2024-05-16 00:27:01] INFO root fetch - processPackages [h5analysis]: Downloading https://files.pythonhosted.org/packages/87/86/17cc06879d035e5f154ecad9530c7c01df2439dd1eb54378379f99ee122f/h5analysis-0.0.9.tar.gz
+[2024-05-16 00:27:01] INFO root fetch - processPackages [mat3ra-api-examples]: Downloading https://files.pythonhosted.org/packages/74/f3/e3c12b9c8ffe806fb5dba45913142733e194a2499285bae233a8171dd6eb/mat3ra_api_examples-2024.5.7.post0.tar.gz
+[2024-05-16 00:27:01] INFO root fetch - processPackages [h5analysis]: executing diffoscope
+[2024-05-16 00:27:01] INFO root fetch - processPackages [h5analysis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/h5analysis-0.0.8.tar.gz tmp/h5analysis-0.0.9.tar.gz --markdown 20240516/h/h5analysis/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-16 00:27:01] INFO root fetch - processPackages [abstra]: executing diffoscope
+[2024-05-16 00:27:01] INFO root fetch - processPackages [abstra]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/abstra-2.8.0.tar.gz tmp/abstra-2.9.0.tar.gz --markdown 20240516/a/abstra/2.8.0-2.9.0/README.md --exclude *.pyd
+[2024-05-16 00:27:01] INFO root fetch - processPackages [general-navigation]: Downloading https://files.pythonhosted.org/packages/b5/47/d9cb3acaacdb38677cbcee52dd6e50d90c31ce22153eadeb0cfb89fffc81/general_navigation-0.3.1.tar.gz
+[2024-05-16 00:27:01] INFO root fetch - processPackages [mat3ra-api-examples]: executing diffoscope
+[2024-05-16 00:27:01] INFO root fetch - processPackages [mat3ra-api-examples]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mat3ra_api_examples-2024.5.3.post1.tar.gz tmp/mat3ra_api_examples-2024.5.7.post0.tar.gz --markdown 20240516/m/mat3ra-api-examples/2024.5.3.post1-2024.5.7.post0/README.md --exclude *.pyd
+[2024-05-16 00:27:01] INFO root fetch - processPackages [jgtpy]: Remove: archive file [/home/abi/fetcher/tmp/jgtpy-0.4.8.tar.gz]
+[2024-05-16 00:27:01] INFO root fetch - processPackages [jgtpy]: Remove: archive file [/home/abi/fetcher/tmp/jgtpy-0.4.9.tar.gz]
+[2024-05-16 00:27:01] INFO root fetch - main [MainThread]: End processing [jgtpy]: success
+[2024-05-16 00:27:01] INFO root fetch - main [MainThread]: End processing [jgtpy]: success
+[2024-05-16 00:27:01] INFO root fetch - processPackages [lavague-drivers-selenium]: Remove: archive file [/home/abi/fetcher/tmp/lavague_drivers_selenium-0.1.1.tar.gz]
+[2024-05-16 00:27:01] INFO root fetch - processPackages [lavague-drivers-selenium]: Remove: archive file [/home/abi/fetcher/tmp/lavague_drivers_selenium-0.1.1.post1.tar.gz]
+[2024-05-16 00:27:01] INFO root fetch - main [MainThread]: End processing [lavague-drivers-selenium]: success
+[2024-05-16 00:27:01] INFO root fetch - processPackages [h5analysis]: Remove: archive file [/home/abi/fetcher/tmp/h5analysis-0.0.8.tar.gz]
+[2024-05-16 00:27:01] INFO root fetch - processPackages [h5analysis]: Remove: archive file [/home/abi/fetcher/tmp/h5analysis-0.0.9.tar.gz]
+[2024-05-16 00:27:01] INFO root fetch - main [MainThread]: End processing [h5analysis]: success
+[2024-05-16 00:27:02] INFO root fetch - processPackages [general-navigation]: executing diffoscope
+[2024-05-16 00:27:02] INFO root fetch - processPackages [general-navigation]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/general_navigation-0.3.0.tar.gz tmp/general_navigation-0.3.1.tar.gz --markdown 20240516/g/general-navigation/0.3.0-0.3.1/README.md --exclude *.pyd
+[2024-05-16 00:27:02] INFO root fetch - processPackages [mat3ra-api-examples]: Remove: archive file [/home/abi/fetcher/tmp/mat3ra_api_examples-2024.5.3.post1.tar.gz]
+[2024-05-16 00:27:02] INFO root fetch - processPackages [mat3ra-api-examples]: Remove: archive file [/home/abi/fetcher/tmp/mat3ra_api_examples-2024.5.7.post0.tar.gz]
+[2024-05-16 00:27:02] INFO root fetch - main [MainThread]: End processing [mat3ra-api-examples]: success
+[2024-05-16 00:27:03] INFO root fetch - processPackages [general-navigation]: Remove: archive file [/home/abi/fetcher/tmp/general_navigation-0.3.0.tar.gz]
+[2024-05-16 00:27:03] INFO root fetch - processPackages [general-navigation]: Remove: archive file [/home/abi/fetcher/tmp/general_navigation-0.3.1.tar.gz]
+[2024-05-16 00:27:03] INFO root fetch - main [MainThread]: End processing [general-navigation]: success
+[2024-05-16 00:28:51] INFO root fetch - processPackages [abstra]: Remove: archive file [/home/abi/fetcher/tmp/abstra-2.8.0.tar.gz]
+[2024-05-16 00:28:51] INFO root fetch - processPackages [abstra]: Remove: archive file [/home/abi/fetcher/tmp/abstra-2.9.0.tar.gz]
+[2024-05-16 00:28:51] INFO root fetch - main [MainThread]: End processing [abstra]: success
+[2024-05-16 00:28:51] INFO root fetch - main [MainThread]: Store serial: [23225588]
