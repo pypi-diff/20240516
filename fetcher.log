@@ -1525,3 +1525,50 @@ AssertionError: tmp/hygpytools-0.2.0.tar.gz does not exist
 [2024-05-16 00:46:31] INFO root fetch - processPackages [tencentcloud-sdk-python-rp]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-rp-3.0.999.tar.gz]
 [2024-05-16 00:46:31] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-rp]: success
 [2024-05-16 00:46:31] INFO root fetch - main [MainThread]: Store serial: [23225772]
+[2024-05-16 00:48:34] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23225772]
+[2024-05-16 00:48:39] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-16 00:48:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: lollms-client
+[2024-05-16 00:48:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tencentcloud-sdk-python-rum
+[2024-05-16 00:48:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: torch-image-lerp
+[2024-05-16 00:48:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: langroid
+[2024-05-16 00:48:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: micromechanics-indentationGUI
+[2024-05-16 00:48:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: tencentcloud-sdk-python-scf
+[2024-05-16 00:48:39] INFO root fetch - processPackages [langroid]: New version: [0.1.99] Old Version: [0.1.98]
+[2024-05-16 00:48:39] INFO root fetch - processPackages [lollms-client]: New version: [0.5.7] Old Version: [0.5.6]
+[2024-05-16 00:48:39] INFO root fetch - processPackages [langroid]: Downloading https://files.pythonhosted.org/packages/ab/bb/220d2ce35d659c9c3f621a8e92246d4d25420d75def80d96d19a8abf2b62/langroid-0.1.98.tar.gz
+[2024-05-16 00:48:39] INFO root fetch - processPackages [lollms-client]: Downloading https://files.pythonhosted.org/packages/be/ca/c7ec9fd63443aba974c3369cb6cba1b63ff3732db16b89fd2ba74e058a8e/lollms_client-0.5.6.tar.gz
+[2024-05-16 00:48:39] WARNING root fetch - processPackages [torch-image-lerp]: Skipping, unable to determine old version
+[2024-05-16 00:48:39] INFO root fetch - main [MainThread]: End processing [torch-image-lerp] error
+[2024-05-16 00:48:39] INFO root fetch - processPackages [micromechanics-indentationGUI]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-16 00:48:39] INFO root fetch - processPackages [tencentcloud-sdk-python-rum]: New version: [3.0.999] Old Version: [3.0.998]
+[2024-05-16 00:48:40] INFO root fetch - processPackages [tencentcloud-sdk-python-scf]: New version: [3.0.999] Old Version: [3.0.998]
+[2024-05-16 00:48:40] INFO root fetch - processPackages [langroid]: Downloading https://files.pythonhosted.org/packages/e0/31/f66ec6ea338a8eb66884a575a589c46c9cda101c179d652dccf9a12f918f/langroid-0.1.99.tar.gz
+[2024-05-16 00:48:40] INFO root fetch - processPackages [micromechanics-indentationGUI]: Downloading https://files.pythonhosted.org/packages/7f/67/cb0e9d6615cc6b38cc7d601ec8556643fcbadac37ba872d5620b902d14a8/micromechanics_indentationGUI-0.1.8-py3-none-any.whl
+[2024-05-16 00:48:40] INFO root fetch - processPackages [tencentcloud-sdk-python-rum]: Downloading https://files.pythonhosted.org/packages/eb/a7/77698684fba9e9fdf80af2235fe72c08ebc9557f10e2a0825b7527cf7451/tencentcloud-sdk-python-rum-3.0.998.tar.gz
+[2024-05-16 00:48:40] INFO root fetch - processPackages [lollms-client]: Downloading https://files.pythonhosted.org/packages/e5/f2/6ff299b6cef987e96ad9d6ef012cfd19b6ae055cf7a225d309f0168bf0e9/lollms_client-0.5.7.tar.gz
+[2024-05-16 00:48:40] INFO root fetch - processPackages [langroid]: executing diffoscope
+[2024-05-16 00:48:40] INFO root fetch - processPackages [langroid]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/langroid-0.1.98.tar.gz tmp/langroid-0.1.99.tar.gz --markdown 20240516/l/langroid/0.1.98-0.1.99/README.md --exclude *.pyd
+[2024-05-16 00:48:40] INFO root fetch - processPackages [tencentcloud-sdk-python-scf]: Downloading https://files.pythonhosted.org/packages/b5/93/fc275ff6dd68e6d50606e998d59b5d2bd9b33cd508800e971ea25294c7c8/tencentcloud-sdk-python-scf-3.0.998.tar.gz
+[2024-05-16 00:48:40] INFO root fetch - processPackages [lollms-client]: executing diffoscope
+[2024-05-16 00:48:40] INFO root fetch - processPackages [lollms-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lollms_client-0.5.6.tar.gz tmp/lollms_client-0.5.7.tar.gz --markdown 20240516/l/lollms-client/0.5.6-0.5.7/README.md --exclude *.pyd
+[2024-05-16 00:48:40] INFO root fetch - processPackages [tencentcloud-sdk-python-rum]: Downloading https://files.pythonhosted.org/packages/c7/41/3d167c27cd4243773cb5a6fef20b72a835d3d52a66eb095b9837c0d20b8e/tencentcloud-sdk-python-rum-3.0.999.tar.gz
+[2024-05-16 00:48:40] WARNING root fetch - processPackages [micromechanics-indentationGUI]: Skipping package: exceeds size limit 26728255>=10485760
+[2024-05-16 00:48:40] INFO root fetch - main [MainThread]: End processing [micromechanics-indentationGUI] error
+[2024-05-16 00:48:40] INFO root fetch - processPackages [tencentcloud-sdk-python-rum]: executing diffoscope
+[2024-05-16 00:48:40] INFO root fetch - processPackages [tencentcloud-sdk-python-rum]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud-sdk-python-rum-3.0.998.tar.gz tmp/tencentcloud-sdk-python-rum-3.0.999.tar.gz --markdown 20240516/t/tencentcloud-sdk-python-rum/3.0.998-3.0.999/README.md --exclude *.pyd
+[2024-05-16 00:48:40] INFO root fetch - processPackages [tencentcloud-sdk-python-scf]: Downloading https://files.pythonhosted.org/packages/8a/47/6f5d9548848ee2d348a37f9d7dd9c7fec067e2577c0e79af47e6557638d6/tencentcloud-sdk-python-scf-3.0.999.tar.gz
+[2024-05-16 00:48:40] INFO root fetch - processPackages [tencentcloud-sdk-python-scf]: executing diffoscope
+[2024-05-16 00:48:40] INFO root fetch - processPackages [tencentcloud-sdk-python-scf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud-sdk-python-scf-3.0.998.tar.gz tmp/tencentcloud-sdk-python-scf-3.0.999.tar.gz --markdown 20240516/t/tencentcloud-sdk-python-scf/3.0.998-3.0.999/README.md --exclude *.pyd
+[2024-05-16 00:48:40] INFO root fetch - processPackages [lollms-client]: Remove: archive file [/home/abi/fetcher/tmp/lollms_client-0.5.6.tar.gz]
+[2024-05-16 00:48:40] INFO root fetch - processPackages [lollms-client]: Remove: archive file [/home/abi/fetcher/tmp/lollms_client-0.5.7.tar.gz]
+[2024-05-16 00:48:40] INFO root fetch - main [MainThread]: End processing [lollms-client]: success
+[2024-05-16 00:48:41] INFO root fetch - processPackages [langroid]: Remove: archive file [/home/abi/fetcher/tmp/langroid-0.1.98.tar.gz]
+[2024-05-16 00:48:41] INFO root fetch - processPackages [langroid]: Remove: archive file [/home/abi/fetcher/tmp/langroid-0.1.99.tar.gz]
+[2024-05-16 00:48:41] INFO root fetch - main [MainThread]: End processing [langroid]: success
+[2024-05-16 00:48:41] INFO root fetch - processPackages [tencentcloud-sdk-python-rum]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-rum-3.0.998.tar.gz]
+[2024-05-16 00:48:41] INFO root fetch - processPackages [tencentcloud-sdk-python-rum]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-rum-3.0.999.tar.gz]
+[2024-05-16 00:48:41] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-rum]: success
+[2024-05-16 00:48:41] INFO root fetch - processPackages [tencentcloud-sdk-python-scf]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-scf-3.0.998.tar.gz]
+[2024-05-16 00:48:41] INFO root fetch - processPackages [tencentcloud-sdk-python-scf]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-scf-3.0.999.tar.gz]
+[2024-05-16 00:48:41] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-scf]: success
+[2024-05-16 00:48:41] INFO root fetch - main [MainThread]: Store serial: [23225791]
