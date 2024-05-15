@@ -1315,3 +1315,81 @@ AssertionError: tmp/hygpytools-0.2.0.tar.gz does not exist
 [2024-05-16 00:35:36] INFO root fetch - processPackages [pulumi-gcp]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_gcp-7.9.0a1707934510.tar.gz]
 [2024-05-16 00:35:36] INFO root fetch - main [MainThread]: End processing [pulumi-gcp]: success
 [2024-05-16 00:35:36] INFO root fetch - main [MainThread]: Store serial: [23225668]
+[2024-05-16 00:37:41] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23225668]
+[2024-05-16 00:37:46] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-05-16 00:37:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tencentcloud-sdk-python-pts
+[2024-05-16 00:37:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tencentcloud-sdk-python-rce
+[2024-05-16 00:37:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: rasterra
+[2024-05-16 00:37:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: opengamedata-api-utils
+[2024-05-16 00:37:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: tencentcloud-sdk-python-region
+[2024-05-16 00:37:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: tencentcloud-sdk-python-rkp
+[2024-05-16 00:37:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: resdlem
+[2024-05-16 00:37:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: ploomber-cloud
+[2024-05-16 00:37:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pipefunc
+[2024-05-16 00:37:46] INFO root fetch - processPackages [pipefunc]: New version: [0.6.0] Old Version: [0.5.0]
+[2024-05-16 00:37:46] INFO root fetch - processPackages [opengamedata-api-utils]: New version: [1.0.5] Old Version: [1.0.4]
+[2024-05-16 00:37:46] INFO root fetch - processPackages [ploomber-cloud]: New version: [0.2.8] Old Version: [0.2.7]
+[2024-05-16 00:37:46] INFO root fetch - processPackages [tencentcloud-sdk-python-pts]: New version: [3.0.999] Old Version: [3.0.998]
+[2024-05-16 00:37:46] WARNING root fetch - processPackages [resdlem]: Skipping, unable to determine old version
+[2024-05-16 00:37:46] INFO root fetch - main [MainThread]: End processing [resdlem] error
+[2024-05-16 00:37:46] INFO root fetch - processPackages [rasterra]: New version: [0.5.9] Old Version: [0.5.8]
+[2024-05-16 00:37:46] INFO root fetch - processPackages [tencentcloud-sdk-python-rce]: New version: [3.0.999] Old Version: [3.0.998]
+[2024-05-16 00:37:46] INFO root fetch - processPackages [pipefunc]: Downloading https://files.pythonhosted.org/packages/31/62/5065159f201e48fd5e79d29e92a9a66d51d2c5a5642b1ea162fc8ef28240/pipefunc-0.5.0.tar.gz
+[2024-05-16 00:37:46] INFO root fetch - processPackages [tencentcloud-sdk-python-region]: New version: [3.0.999] Old Version: [3.0.998]
+[2024-05-16 00:37:46] INFO root fetch - processPackages [opengamedata-api-utils]: Downloading https://files.pythonhosted.org/packages/01/3c/f5681757dd22ba81388f0dbdf282731931c5e8b50f6bac7ff5a5d9ecbb78/opengamedata_api_utils-1.0.4.tar.gz
+[2024-05-16 00:37:46] INFO root fetch - processPackages [tencentcloud-sdk-python-rkp]: New version: [3.0.999] Old Version: [3.0.998]
+[2024-05-16 00:37:46] INFO root fetch - processPackages [ploomber-cloud]: Downloading https://files.pythonhosted.org/packages/0d/6d/e452666e34690f7e6e2b7f575a95ac3efd05e603cf4cc7b1edbb4d3d9429/ploomber-cloud-0.2.7.tar.gz
+[2024-05-16 00:37:46] INFO root fetch - processPackages [tencentcloud-sdk-python-pts]: Downloading https://files.pythonhosted.org/packages/bd/db/8d153489186f762c55ba436a4470768ced065c5b910d08b7e4f89d8269fe/tencentcloud-sdk-python-pts-3.0.998.tar.gz
+[2024-05-16 00:37:46] INFO root fetch - processPackages [rasterra]: Downloading https://files.pythonhosted.org/packages/c9/b4/67e40ae3071cbfbd7307460767f595ea20b410df8b5a23f795f55bedd082/rasterra-0.5.8.tar.gz
+[2024-05-16 00:37:46] INFO root fetch - processPackages [tencentcloud-sdk-python-region]: Downloading https://files.pythonhosted.org/packages/3d/7b/da5784a2d9259652072d5aff24d017919582afa50f5c5b7178153b61bd49/tencentcloud-sdk-python-region-3.0.998.tar.gz
+[2024-05-16 00:37:46] INFO root fetch - processPackages [tencentcloud-sdk-python-rce]: Downloading https://files.pythonhosted.org/packages/e3/58/4b7322e6679d15407809e080d3ca1e722851bba85407402c213481cb8c86/tencentcloud-sdk-python-rce-3.0.998.tar.gz
+[2024-05-16 00:37:47] INFO root fetch - processPackages [tencentcloud-sdk-python-rkp]: Downloading https://files.pythonhosted.org/packages/17/c8/ca34c26144bcd656134a93563fe8397cde7583acdf75a0b770cab5910400/tencentcloud-sdk-python-rkp-3.0.998.tar.gz
+[2024-05-16 00:37:47] INFO root fetch - processPackages [opengamedata-api-utils]: Downloading https://files.pythonhosted.org/packages/c9/3e/c183de21ab6ad9fb99260ec4d08a37dd237f8d9cb3b71689eb8380785df3/opengamedata_api_utils-1.0.5.tar.gz
+[2024-05-16 00:37:47] INFO root fetch - processPackages [pipefunc]: Downloading https://files.pythonhosted.org/packages/57/d2/3f445772998a14ffdb37d3dd8cbfddf4915b4cdcdb5f3d48f22ed5f17fb3/pipefunc-0.6.0.tar.gz
+[2024-05-16 00:37:47] INFO root fetch - processPackages [opengamedata-api-utils]: executing diffoscope
+[2024-05-16 00:37:47] INFO root fetch - processPackages [opengamedata-api-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/opengamedata_api_utils-1.0.4.tar.gz tmp/opengamedata_api_utils-1.0.5.tar.gz --markdown 20240516/o/opengamedata-api-utils/1.0.4-1.0.5/README.md --exclude *.pyd
+[2024-05-16 00:37:47] INFO root fetch - processPackages [ploomber-cloud]: Downloading https://files.pythonhosted.org/packages/44/02/2939a122c298a4626319ed84948a420969ac264a167792faf057f26f6315/ploomber-cloud-0.2.8.tar.gz
+[2024-05-16 00:37:47] INFO root fetch - processPackages [pipefunc]: executing diffoscope
+[2024-05-16 00:37:47] INFO root fetch - processPackages [pipefunc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pipefunc-0.5.0.tar.gz tmp/pipefunc-0.6.0.tar.gz --markdown 20240516/p/pipefunc/0.5.0-0.6.0/README.md --exclude *.pyd
+[2024-05-16 00:37:47] INFO root fetch - processPackages [rasterra]: Downloading https://files.pythonhosted.org/packages/b7/4b/7ac44189752b7f6adfa05ef21bcf07c595e5608973bff91e57cea7ad715f/rasterra-0.5.9.tar.gz
+[2024-05-16 00:37:47] INFO root fetch - processPackages [tencentcloud-sdk-python-pts]: Downloading https://files.pythonhosted.org/packages/3d/b7/24a6e4cae64fade7aed6724ff8e5965fc96d570caa8e0d802b098a9b0a58/tencentcloud-sdk-python-pts-3.0.999.tar.gz
+[2024-05-16 00:37:47] INFO root fetch - processPackages [tencentcloud-sdk-python-region]: Downloading https://files.pythonhosted.org/packages/c0/b6/996c232be024659c59e91c5960539db3bf3df89a9b6daa6c5247a8c73a92/tencentcloud-sdk-python-region-3.0.999.tar.gz
+[2024-05-16 00:37:47] INFO root fetch - processPackages [tencentcloud-sdk-python-rce]: Downloading https://files.pythonhosted.org/packages/bd/51/a78c37e3600a3b2a8dff4163ff5c2af15c4a2981f635f8d64fad974389b1/tencentcloud-sdk-python-rce-3.0.999.tar.gz
+[2024-05-16 00:37:47] INFO root fetch - processPackages [rasterra]: executing diffoscope
+[2024-05-16 00:37:47] INFO root fetch - processPackages [rasterra]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rasterra-0.5.8.tar.gz tmp/rasterra-0.5.9.tar.gz --markdown 20240516/r/rasterra/0.5.8-0.5.9/README.md --exclude *.pyd
+[2024-05-16 00:37:47] INFO root fetch - processPackages [tencentcloud-sdk-python-rkp]: Downloading https://files.pythonhosted.org/packages/a8/ba/818fa577ca3a5ce43a14908ec97f4cf4b3f8ef4a43bb5fc5fd5f969c7cb9/tencentcloud-sdk-python-rkp-3.0.999.tar.gz
+[2024-05-16 00:37:47] INFO root fetch - processPackages [tencentcloud-sdk-python-region]: executing diffoscope
+[2024-05-16 00:37:47] INFO root fetch - processPackages [tencentcloud-sdk-python-region]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud-sdk-python-region-3.0.998.tar.gz tmp/tencentcloud-sdk-python-region-3.0.999.tar.gz --markdown 20240516/t/tencentcloud-sdk-python-region/3.0.998-3.0.999/README.md --exclude *.pyd
+[2024-05-16 00:37:47] INFO root fetch - processPackages [ploomber-cloud]: executing diffoscope
+[2024-05-16 00:37:47] INFO root fetch - processPackages [ploomber-cloud]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ploomber-cloud-0.2.7.tar.gz tmp/ploomber-cloud-0.2.8.tar.gz --markdown 20240516/p/ploomber-cloud/0.2.7-0.2.8/README.md --exclude *.pyd
+[2024-05-16 00:37:47] INFO root fetch - processPackages [tencentcloud-sdk-python-pts]: executing diffoscope
+[2024-05-16 00:37:47] INFO root fetch - processPackages [tencentcloud-sdk-python-pts]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud-sdk-python-pts-3.0.998.tar.gz tmp/tencentcloud-sdk-python-pts-3.0.999.tar.gz --markdown 20240516/t/tencentcloud-sdk-python-pts/3.0.998-3.0.999/README.md --exclude *.pyd
+[2024-05-16 00:37:47] INFO root fetch - processPackages [tencentcloud-sdk-python-rce]: executing diffoscope
+[2024-05-16 00:37:47] INFO root fetch - processPackages [tencentcloud-sdk-python-rce]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud-sdk-python-rce-3.0.998.tar.gz tmp/tencentcloud-sdk-python-rce-3.0.999.tar.gz --markdown 20240516/t/tencentcloud-sdk-python-rce/3.0.998-3.0.999/README.md --exclude *.pyd
+[2024-05-16 00:37:47] INFO root fetch - processPackages [tencentcloud-sdk-python-rkp]: executing diffoscope
+[2024-05-16 00:37:47] INFO root fetch - processPackages [tencentcloud-sdk-python-rkp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud-sdk-python-rkp-3.0.998.tar.gz tmp/tencentcloud-sdk-python-rkp-3.0.999.tar.gz --markdown 20240516/t/tencentcloud-sdk-python-rkp/3.0.998-3.0.999/README.md --exclude *.pyd
+[2024-05-16 00:37:48] INFO root fetch - processPackages [opengamedata-api-utils]: Remove: archive file [/home/abi/fetcher/tmp/opengamedata_api_utils-1.0.4.tar.gz]
+[2024-05-16 00:37:48] INFO root fetch - processPackages [opengamedata-api-utils]: Remove: archive file [/home/abi/fetcher/tmp/opengamedata_api_utils-1.0.5.tar.gz]
+[2024-05-16 00:37:48] INFO root fetch - main [MainThread]: End processing [opengamedata-api-utils]: success
+[2024-05-16 00:37:48] INFO root fetch - processPackages [pipefunc]: Remove: archive file [/home/abi/fetcher/tmp/pipefunc-0.5.0.tar.gz]
+[2024-05-16 00:37:48] INFO root fetch - processPackages [pipefunc]: Remove: archive file [/home/abi/fetcher/tmp/pipefunc-0.6.0.tar.gz]
+[2024-05-16 00:37:48] INFO root fetch - main [MainThread]: End processing [pipefunc]: success
+[2024-05-16 00:37:48] INFO root fetch - processPackages [ploomber-cloud]: Remove: archive file [/home/abi/fetcher/tmp/ploomber-cloud-0.2.7.tar.gz]
+[2024-05-16 00:37:48] INFO root fetch - processPackages [ploomber-cloud]: Remove: archive file [/home/abi/fetcher/tmp/ploomber-cloud-0.2.8.tar.gz]
+[2024-05-16 00:37:48] INFO root fetch - main [MainThread]: End processing [ploomber-cloud]: success
+[2024-05-16 00:37:48] INFO root fetch - processPackages [tencentcloud-sdk-python-rce]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-rce-3.0.998.tar.gz]
+[2024-05-16 00:37:48] INFO root fetch - processPackages [tencentcloud-sdk-python-rce]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-rce-3.0.999.tar.gz]
+[2024-05-16 00:37:48] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-rce]: success
+[2024-05-16 00:37:48] INFO root fetch - processPackages [rasterra]: Remove: archive file [/home/abi/fetcher/tmp/rasterra-0.5.8.tar.gz]
+[2024-05-16 00:37:48] INFO root fetch - processPackages [rasterra]: Remove: archive file [/home/abi/fetcher/tmp/rasterra-0.5.9.tar.gz]
+[2024-05-16 00:37:48] INFO root fetch - main [MainThread]: End processing [rasterra]: success
+[2024-05-16 00:37:48] INFO root fetch - processPackages [tencentcloud-sdk-python-region]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-region-3.0.998.tar.gz]
+[2024-05-16 00:37:48] INFO root fetch - processPackages [tencentcloud-sdk-python-region]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-region-3.0.999.tar.gz]
+[2024-05-16 00:37:48] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-region]: success
+[2024-05-16 00:37:48] INFO root fetch - processPackages [tencentcloud-sdk-python-pts]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-pts-3.0.998.tar.gz]
+[2024-05-16 00:37:48] INFO root fetch - processPackages [tencentcloud-sdk-python-pts]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-pts-3.0.999.tar.gz]
+[2024-05-16 00:37:48] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-pts]: success
+[2024-05-16 00:37:48] INFO root fetch - processPackages [tencentcloud-sdk-python-rkp]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-rkp-3.0.998.tar.gz]
+[2024-05-16 00:37:48] INFO root fetch - processPackages [tencentcloud-sdk-python-rkp]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-rkp-3.0.999.tar.gz]
+[2024-05-16 00:37:48] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-rkp]: success
+[2024-05-16 00:37:48] INFO root fetch - main [MainThread]: Store serial: [23225697]
