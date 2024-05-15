@@ -2581,3 +2581,33 @@ AssertionError: tmp/hygpytools-0.2.0.tar.gz does not exist
 [2024-05-16 01:24:03] INFO root fetch - processPackages [localstack-core]: Remove: archive file [/home/abi/fetcher/tmp/localstack_core-3.4.1.dev20240515161654.tar.gz]
 [2024-05-16 01:24:03] INFO root fetch - main [MainThread]: End processing [localstack-core]: success
 [2024-05-16 01:24:03] INFO root fetch - main [MainThread]: Store serial: [23226157]
+[2024-05-16 01:26:07] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23226157]
+[2024-05-16 01:26:12] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-16 01:26:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: aipkgs-database
+[2024-05-16 01:26:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tach
+[2024-05-16 01:26:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: django-easyjwt
+[2024-05-16 01:26:12] INFO root fetch - processPackages [tach]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-16 01:26:12] INFO root fetch - processPackages [aipkgs-database]: New version: [1.0.1] Old Version: [0.1.5]
+[2024-05-16 01:26:12] INFO root fetch - processPackages [django-easyjwt]: New version: [0.4.4] Old Version: [0.4.3]
+[2024-05-16 01:26:12] INFO root fetch - processPackages [tach]: Downloading https://files.pythonhosted.org/packages/81/14/f2e88843295ba0f49dafacaa30e46682c67ae322813b2fcc7a04b192e7a7/tach-0.1.8.tar.gz
+[2024-05-16 01:26:12] INFO root fetch - processPackages [aipkgs-database]: Downloading https://files.pythonhosted.org/packages/2c/07/30eb02f4d94e21e185613e451f1c921708854b42e8fa1c675bc86ece49f0/aipkgs_database-0.1.5-py3-none-any.whl
+[2024-05-16 01:26:12] INFO root fetch - processPackages [django-easyjwt]: Downloading https://files.pythonhosted.org/packages/3e/4e/c90cdb497fb0f68cff59792fe98bd565b42295a0cd5d3c88fefc747abd3d/django-easyjwt-0.4.3.tar.gz
+[2024-05-16 01:26:12] INFO root fetch - processPackages [aipkgs-database]: Downloading https://files.pythonhosted.org/packages/ca/f2/e7f7e0d0d9400f52de707a74e9ad440d92be2dee1e12953ba5438fc9da49/aipkgs_database-1.0.1.tar.gz
+[2024-05-16 01:26:12] INFO root fetch - processPackages [django-easyjwt]: Downloading https://files.pythonhosted.org/packages/4f/cc/588cd22f3006f06b96bc92f28eaae3fa7b158a2e830432f03d8531909d89/django_easyjwt-0.4.4.tar.gz
+[2024-05-16 01:26:12] INFO root fetch - processPackages [aipkgs-database]: executing diffoscope
+[2024-05-16 01:26:12] INFO root fetch - processPackages [aipkgs-database]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aipkgs_database-0.1.5-py3-none-any.whl.zip tmp/aipkgs_database-1.0.1.tar.gz --markdown 20240516/a/aipkgs-database/0.1.5-1.0.1/README.md --exclude *.pyd
+[2024-05-16 01:26:12] INFO root fetch - processPackages [django-easyjwt]: executing diffoscope
+[2024-05-16 01:26:12] INFO root fetch - processPackages [django-easyjwt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-easyjwt-0.4.3.tar.gz tmp/django_easyjwt-0.4.4.tar.gz --markdown 20240516/d/django-easyjwt/0.4.3-0.4.4/README.md --exclude *.pyd
+[2024-05-16 01:26:12] INFO root fetch - processPackages [tach]: Downloading https://files.pythonhosted.org/packages/40/73/b918ff3da2fe4b133abaa71a4e1cf78e879828d023603f3d9334f1b1a387/tach-0.1.9.tar.gz
+[2024-05-16 01:26:12] INFO root fetch - processPackages [tach]: executing diffoscope
+[2024-05-16 01:26:12] INFO root fetch - processPackages [tach]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tach-0.1.8.tar.gz tmp/tach-0.1.9.tar.gz --markdown 20240516/t/tach/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-16 01:26:13] INFO root fetch - processPackages [aipkgs-database]: Remove: archive file [/home/abi/fetcher/tmp/aipkgs_database-0.1.5-py3-none-any.whl.zip]
+[2024-05-16 01:26:13] INFO root fetch - processPackages [aipkgs-database]: Remove: archive file [/home/abi/fetcher/tmp/aipkgs_database-1.0.1.tar.gz]
+[2024-05-16 01:26:13] INFO root fetch - main [MainThread]: End processing [aipkgs-database]: success
+[2024-05-16 01:26:13] INFO root fetch - processPackages [django-easyjwt]: Remove: archive file [/home/abi/fetcher/tmp/django-easyjwt-0.4.3.tar.gz]
+[2024-05-16 01:26:13] INFO root fetch - processPackages [django-easyjwt]: Remove: archive file [/home/abi/fetcher/tmp/django_easyjwt-0.4.4.tar.gz]
+[2024-05-16 01:26:13] INFO root fetch - main [MainThread]: End processing [django-easyjwt]: success
+[2024-05-16 01:26:13] INFO root fetch - processPackages [tach]: Remove: archive file [/home/abi/fetcher/tmp/tach-0.1.8.tar.gz]
+[2024-05-16 01:26:13] INFO root fetch - processPackages [tach]: Remove: archive file [/home/abi/fetcher/tmp/tach-0.1.9.tar.gz]
+[2024-05-16 01:26:13] INFO root fetch - main [MainThread]: End processing [tach]: success
+[2024-05-16 01:26:13] INFO root fetch - main [MainThread]: Store serial: [23226166]
