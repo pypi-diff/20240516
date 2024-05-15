@@ -1085,3 +1085,122 @@ AssertionError: tmp/hygpytools-0.2.0.tar.gz does not exist
 [2024-05-16 00:28:51] INFO root fetch - processPackages [abstra]: Remove: archive file [/home/abi/fetcher/tmp/abstra-2.9.0.tar.gz]
 [2024-05-16 00:28:51] INFO root fetch - main [MainThread]: End processing [abstra]: success
 [2024-05-16 00:28:51] INFO root fetch - main [MainThread]: Store serial: [23225588]
+[2024-05-16 00:30:56] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23225588]
+[2024-05-16 00:31:00] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2024-05-16 00:31:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tencentcloud-sdk-python-oceanus
+[2024-05-16 00:31:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: general-navigation
+[2024-05-16 00:31:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: lbt-dragonfly
+[2024-05-16 00:31:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: spaceone-api
+[2024-05-16 00:31:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: action-rules
+[2024-05-16 00:31:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: cameo-geo-query
+[2024-05-16 00:31:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: tach
+[2024-05-16 00:31:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: configure-dms-viz
+[2024-05-16 00:31:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: atopile
+[2024-05-16 00:31:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: aipkgs-core
+[2024-05-16 00:31:00] INFO root fetch - processPackages [aipkgs-core]: New version: [1.0.2] Old Version: [1.0.1]
+[2024-05-16 00:31:00] WARNING root fetch - processPackages [action-rules]: Skipping, unable to determine old version
+[2024-05-16 00:31:00] INFO root fetch - processPackages [action-rules]: Start processing: PythonToSW
+[2024-05-16 00:31:00] INFO root fetch - processPackages [general-navigation]: New version: [0.3.1] Old Version: [0.3.0]
+[2024-05-16 00:31:00] INFO root fetch - main [MainThread]: End processing [action-rules] error
+[2024-05-16 00:31:00] INFO root fetch - processPackages [cameo-geo-query]: New version: [1.0.8] Old Version: [1.0.7]
+[2024-05-16 00:31:01] INFO root fetch - processPackages [lbt-dragonfly]: New version: [0.9.99] Old Version: [0.9.98]
+[2024-05-16 00:31:01] INFO root fetch - processPackages [atopile]: New version: [0.3.0.dev0] Old Version: [0.2.9]
+[2024-05-16 00:31:01] INFO root fetch - processPackages [configure-dms-viz]: New version: [1.3.4] Old Version: [1.3.3]
+[2024-05-16 00:31:01] INFO root fetch - processPackages [PythonToSW]: New version: [1.1.1] Old Version: [1.1.0]
+[2024-05-16 00:31:01] INFO root fetch - processPackages [aipkgs-core]: Downloading https://files.pythonhosted.org/packages/13/ea/2b3fd2810139d9a604b333543fa7ee766f85de505550732e5071cc477b5b/aipkgs_core-1.0.1.tar.gz
+[2024-05-16 00:31:01] INFO root fetch - processPackages [tach]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-16 00:31:01] INFO root fetch - processPackages [spaceone-api]: New version: [2.0.dev89] Old Version: [2.0.dev78]
+[2024-05-16 00:31:01] INFO root fetch - processPackages [tencentcloud-sdk-python-oceanus]: New version: [3.0.999] Old Version: [3.0.998]
+[2024-05-16 00:31:01] INFO root fetch - processPackages [general-navigation]: Downloading https://files.pythonhosted.org/packages/ab/73/83868e4e7c0395d13545c1f24a87f89968829546fa65172c4a66a2d11054/general_navigation-0.3.0.tar.gz
+[2024-05-16 00:31:01] INFO root fetch - processPackages [cameo-geo-query]: Downloading https://files.pythonhosted.org/packages/77/87/5899bc584955458fd1ec54d6a29a164ff1551e41947359d622a5289c7b02/cameo_geo_query-1.0.7.tar.gz
+[2024-05-16 00:31:01] INFO root fetch - processPackages [PythonToSW]: Downloading https://files.pythonhosted.org/packages/6e/df/10114fa7e6de0388ccfd455ad66f6dc6976b312cc5bdcd5562ba43643a1f/PythonToSW-1.1.0.tar.gz
+[2024-05-16 00:31:01] INFO root fetch - processPackages [lbt-dragonfly]: Downloading https://files.pythonhosted.org/packages/be/ae/7267dfd241a0641f3fbadea4128db5ffa29609911cadb5fc4840656bb44a/lbt-dragonfly-0.9.98.tar.gz
+[2024-05-16 00:31:01] INFO root fetch - processPackages [atopile]: Downloading https://files.pythonhosted.org/packages/b9/4b/f9ec536fd464d0e26a65a2027efe19630c4f5dbd38d7329e74df46ff0a91/atopile-0.2.9.tar.gz
+[2024-05-16 00:31:01] INFO root fetch - processPackages [configure-dms-viz]: Downloading https://files.pythonhosted.org/packages/65/84/ea13f94a22d172dd7d6ff7f8b09b8300e942104635830afd920153a05de2/configure_dms_viz-1.3.3.tar.gz
+[2024-05-16 00:31:01] INFO root fetch - processPackages [tencentcloud-sdk-python-oceanus]: Downloading https://files.pythonhosted.org/packages/06/89/e81ea8c1b030a87b88b4b1ea62d562060a99c318781f50739beea7813fcf/tencentcloud-sdk-python-oceanus-3.0.998.tar.gz
+[2024-05-16 00:31:01] INFO root fetch - processPackages [tach]: Downloading https://files.pythonhosted.org/packages/81/14/f2e88843295ba0f49dafacaa30e46682c67ae322813b2fcc7a04b192e7a7/tach-0.1.8.tar.gz
+[2024-05-16 00:31:01] INFO root fetch - processPackages [spaceone-api]: Downloading https://files.pythonhosted.org/packages/63/38/896ca815cd9f0d4be5040377b88a5b629fee8eedad29b468c7a50e063060/spaceone-api-2.0.dev78.tar.gz
+[2024-05-16 00:31:01] WARNING root fetch - processPackages [atopile]: Skipping package: exceeds size limit 25663075>=10485760
+[2024-05-16 00:31:01] INFO root fetch - processPackages [atopile]: Start processing: symposium
+[2024-05-16 00:31:01] INFO root fetch - main [MainThread]: End processing [atopile] error
+[2024-05-16 00:31:01] INFO root fetch - processPackages [aipkgs-core]: Downloading https://files.pythonhosted.org/packages/86/43/2bb6af78c76b2f4fe523846b406bb92b7ddcae45f044aa09b853354b20ad/aipkgs_core-1.0.2.tar.gz
+[2024-05-16 00:31:01] INFO root fetch - processPackages [general-navigation]: Downloading https://files.pythonhosted.org/packages/b5/47/d9cb3acaacdb38677cbcee52dd6e50d90c31ce22153eadeb0cfb89fffc81/general_navigation-0.3.1.tar.gz
+[2024-05-16 00:31:01] INFO root fetch - processPackages [cameo-geo-query]: Downloading https://files.pythonhosted.org/packages/c0/97/58868a2cf5de3a0ed6c033a295ad565a7a767580d6bcf83031afa1f6b2ec/cameo_geo_query-1.0.8.tar.gz
+[2024-05-16 00:31:01] INFO root fetch - processPackages [lbt-dragonfly]: Downloading https://files.pythonhosted.org/packages/b4/08/0ca46e9f7eef7b2cce7f0c6110106c42aa35a79bd88110559177f64d733a/lbt-dragonfly-0.9.99.tar.gz
+[2024-05-16 00:31:01] INFO root fetch - processPackages [symposium]: New version: [0.2.2] Old Version: [0.2.1]
+[2024-05-16 00:31:01] INFO root fetch - processPackages [PythonToSW]: Downloading https://files.pythonhosted.org/packages/44/c8/f13f66fa464ac0d19398dd16c4867b0ce200c17fd74053508bb4dc7e1045/PythonToSW-1.1.1.tar.gz
+[2024-05-16 00:31:01] INFO root fetch - processPackages [aipkgs-core]: executing diffoscope
+[2024-05-16 00:31:01] INFO root fetch - processPackages [aipkgs-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aipkgs_core-1.0.1.tar.gz tmp/aipkgs_core-1.0.2.tar.gz --markdown 20240516/a/aipkgs-core/1.0.1-1.0.2/README.md --exclude *.pyd
+[2024-05-16 00:31:01] INFO root fetch - processPackages [general-navigation]: executing diffoscope
+[2024-05-16 00:31:01] INFO root fetch - processPackages [general-navigation]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/general_navigation-0.3.0.tar.gz tmp/general_navigation-0.3.1.tar.gz --markdown 20240516/g/general-navigation/0.3.0-0.3.1/README.md --exclude *.pyd
+[2024-05-16 00:31:01] INFO root fetch - processPackages [cameo-geo-query]: executing diffoscope
+[2024-05-16 00:31:01] INFO root fetch - processPackages [cameo-geo-query]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cameo_geo_query-1.0.7.tar.gz tmp/cameo_geo_query-1.0.8.tar.gz --markdown 20240516/c/cameo-geo-query/1.0.7-1.0.8/README.md --exclude *.pyd
+[2024-05-16 00:31:01] INFO root fetch - processPackages [lbt-dragonfly]: executing diffoscope
+[2024-05-16 00:31:01] INFO root fetch - processPackages [lbt-dragonfly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lbt-dragonfly-0.9.98.tar.gz tmp/lbt-dragonfly-0.9.99.tar.gz --markdown 20240516/l/lbt-dragonfly/0.9.98-0.9.99/README.md --exclude *.pyd
+[2024-05-16 00:31:01] INFO root fetch - processPackages [PythonToSW]: executing diffoscope
+[2024-05-16 00:31:01] INFO root fetch - processPackages [PythonToSW]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PythonToSW-1.1.0.tar.gz tmp/PythonToSW-1.1.1.tar.gz --markdown 20240516/P/PythonToSW/1.1.0-1.1.1/README.md --exclude *.pyd
+[2024-05-16 00:31:01] INFO root fetch - processPackages [configure-dms-viz]: Downloading https://files.pythonhosted.org/packages/a7/17/d2af5baf17e83bfad4a1e3765d57d18adaddcdb76ceaa34ae874b707c5b0/configure_dms_viz-1.3.4.tar.gz
+[2024-05-16 00:31:01] INFO root fetch - processPackages [symposium]: Downloading https://files.pythonhosted.org/packages/e2/32/34186a57a4210aab67f96525ec92dcbd61451f945b684efe33bbeb2340ee/symposium-0.2.1.tar.gz
+[2024-05-16 00:31:01] INFO root fetch - processPackages [spaceone-api]: Downloading https://files.pythonhosted.org/packages/c0/ea/4a6c8347250e808ffcceef19de666ffee1c045761343985127f39a05bc13/spaceone-api-2.0.dev89.tar.gz
+[2024-05-16 00:31:01] INFO root fetch - processPackages [tencentcloud-sdk-python-oceanus]: Downloading https://files.pythonhosted.org/packages/2c/0d/a97d27e823345bd269a67b08a511ad7ef6607826c04e8faf694ee9ff1900/tencentcloud-sdk-python-oceanus-3.0.999.tar.gz
+[2024-05-16 00:31:01] INFO root fetch - processPackages [configure-dms-viz]: executing diffoscope
+[2024-05-16 00:31:01] INFO root fetch - processPackages [configure-dms-viz]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/configure_dms_viz-1.3.3.tar.gz tmp/configure_dms_viz-1.3.4.tar.gz --markdown 20240516/c/configure-dms-viz/1.3.3-1.3.4/README.md --exclude *.pyd
+[2024-05-16 00:31:01] INFO root fetch - processPackages [tach]: Downloading https://files.pythonhosted.org/packages/40/73/b918ff3da2fe4b133abaa71a4e1cf78e879828d023603f3d9334f1b1a387/tach-0.1.9.tar.gz
+[2024-05-16 00:31:02] INFO root fetch - processPackages [spaceone-api]: executing diffoscope
+[2024-05-16 00:31:02] INFO root fetch - processPackages [spaceone-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spaceone-api-2.0.dev78.tar.gz tmp/spaceone-api-2.0.dev89.tar.gz --markdown 20240516/s/spaceone-api/2.0.dev78-2.0.dev89/README.md --exclude *.pyd
+[2024-05-16 00:31:02] INFO root fetch - processPackages [tencentcloud-sdk-python-oceanus]: executing diffoscope
+[2024-05-16 00:31:02] INFO root fetch - processPackages [tencentcloud-sdk-python-oceanus]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud-sdk-python-oceanus-3.0.998.tar.gz tmp/tencentcloud-sdk-python-oceanus-3.0.999.tar.gz --markdown 20240516/t/tencentcloud-sdk-python-oceanus/3.0.998-3.0.999/README.md --exclude *.pyd
+[2024-05-16 00:31:02] INFO root fetch - processPackages [tach]: executing diffoscope
+[2024-05-16 00:31:02] INFO root fetch - processPackages [tach]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tach-0.1.8.tar.gz tmp/tach-0.1.9.tar.gz --markdown 20240516/t/tach/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-16 00:31:02] INFO root fetch - processPackages [symposium]: Downloading https://files.pythonhosted.org/packages/5d/2d/8952c0fed42223a670631c1076337188ea708110e3c888695b4296f763b1/symposium-0.2.2.tar.gz
+[2024-05-16 00:31:02] INFO root fetch - processPackages [symposium]: executing diffoscope
+[2024-05-16 00:31:02] INFO root fetch - processPackages [symposium]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/symposium-0.2.1.tar.gz tmp/symposium-0.2.2.tar.gz --markdown 20240516/s/symposium/0.2.1-0.2.2/README.md --exclude *.pyd
+[2024-05-16 00:31:02] INFO root fetch - processPackages [cameo-geo-query]: Remove: archive file [/home/abi/fetcher/tmp/cameo_geo_query-1.0.7.tar.gz]
+[2024-05-16 00:31:02] INFO root fetch - processPackages [cameo-geo-query]: Remove: archive file [/home/abi/fetcher/tmp/cameo_geo_query-1.0.8.tar.gz]
+[2024-05-16 00:31:02] INFO root fetch - processPackages [cameo-geo-query]: Start processing: lbt-dragonfly
+[2024-05-16 00:31:02] INFO root fetch - main [MainThread]: End processing [cameo-geo-query]: success
+[2024-05-16 00:31:02] INFO root fetch - processPackages [lbt-dragonfly]: New version: [0.9.99] Old Version: [0.9.98]
+[2024-05-16 00:31:02] INFO root fetch - processPackages [aipkgs-core]: Remove: archive file [/home/abi/fetcher/tmp/aipkgs_core-1.0.1.tar.gz]
+[2024-05-16 00:31:02] INFO root fetch - processPackages [aipkgs-core]: Remove: archive file [/home/abi/fetcher/tmp/aipkgs_core-1.0.2.tar.gz]
+[2024-05-16 00:31:02] INFO root fetch - processPackages [aipkgs-core]: Start processing: blar-graph
+[2024-05-16 00:31:02] INFO root fetch - main [MainThread]: End processing [aipkgs-core]: success
+[2024-05-16 00:31:02] INFO root fetch - processPackages [blar-graph]: New version: [0.0.9a0] Old Version: [0.0.8]
+[2024-05-16 00:31:02] INFO root fetch - processPackages [configure-dms-viz]: Remove: archive file [/home/abi/fetcher/tmp/configure_dms_viz-1.3.3.tar.gz]
+[2024-05-16 00:31:02] INFO root fetch - processPackages [configure-dms-viz]: Remove: archive file [/home/abi/fetcher/tmp/configure_dms_viz-1.3.4.tar.gz]
+[2024-05-16 00:31:02] INFO root fetch - main [MainThread]: End processing [configure-dms-viz]: success
+[2024-05-16 00:31:02] INFO root fetch - processPackages [blar-graph]: Downloading https://files.pythonhosted.org/packages/43/c9/222901972a41b1e279d8429d4441be683af4bee8ec7b3181bef2c5079833/blar_graph-0.0.8.tar.gz
+[2024-05-16 00:31:02] INFO root fetch - processPackages [lbt-dragonfly]: Remove: archive file [/home/abi/fetcher/tmp/lbt-dragonfly-0.9.98.tar.gz]
+[2024-05-16 00:31:02] INFO root fetch - processPackages [lbt-dragonfly]: Remove: archive file [/home/abi/fetcher/tmp/lbt-dragonfly-0.9.99.tar.gz]
+[2024-05-16 00:31:02] INFO root fetch - main [MainThread]: End processing [lbt-dragonfly]: success
+[2024-05-16 00:31:02] INFO root fetch - processPackages [lbt-dragonfly]: Downloading https://files.pythonhosted.org/packages/b4/08/0ca46e9f7eef7b2cce7f0c6110106c42aa35a79bd88110559177f64d733a/lbt-dragonfly-0.9.99.tar.gz
+[2024-05-16 00:31:02] INFO root fetch - processPackages [PythonToSW]: Remove: archive file [/home/abi/fetcher/tmp/PythonToSW-1.1.0.tar.gz]
+[2024-05-16 00:31:02] INFO root fetch - processPackages [PythonToSW]: Remove: archive file [/home/abi/fetcher/tmp/PythonToSW-1.1.1.tar.gz]
+[2024-05-16 00:31:02] INFO root fetch - main [MainThread]: End processing [PythonToSW]: success
+[2024-05-16 00:31:03] INFO root fetch - processPackages [tencentcloud-sdk-python-oceanus]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-oceanus-3.0.998.tar.gz]
+[2024-05-16 00:31:03] INFO root fetch - processPackages [tencentcloud-sdk-python-oceanus]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-oceanus-3.0.999.tar.gz]
+[2024-05-16 00:31:03] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-oceanus]: success
+[2024-05-16 00:31:03] INFO root fetch - processPackages [lbt-dragonfly]: executing diffoscope
+[2024-05-16 00:31:03] INFO root fetch - processPackages [lbt-dragonfly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lbt-dragonfly-0.9.98.tar.gz tmp/lbt-dragonfly-0.9.99.tar.gz --markdown 20240516/l/lbt-dragonfly/0.9.98-0.9.99/README.md --exclude *.pyd
+[2024-05-16 00:31:03] INFO root fetch - processPackages [blar-graph]: Downloading https://files.pythonhosted.org/packages/1d/ed/d05270d9939f1168d4cd9cef98cf914164b71fdce1d378a959f3f946fa16/blar_graph-0.0.9a0.tar.gz
+[2024-05-16 00:31:03] INFO root fetch - processPackages [blar-graph]: executing diffoscope
+[2024-05-16 00:31:03] INFO root fetch - processPackages [blar-graph]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/blar_graph-0.0.8.tar.gz tmp/blar_graph-0.0.9a0.tar.gz --markdown 20240516/b/blar-graph/0.0.8-0.0.9a0/README.md --exclude *.pyd
+[2024-05-16 00:31:03] INFO root fetch - processPackages [tach]: Remove: archive file [/home/abi/fetcher/tmp/tach-0.1.8.tar.gz]
+[2024-05-16 00:31:03] INFO root fetch - processPackages [tach]: Remove: archive file [/home/abi/fetcher/tmp/tach-0.1.9.tar.gz]
+[2024-05-16 00:31:03] INFO root fetch - main [MainThread]: End processing [tach]: success
+[2024-05-16 00:31:03] INFO root fetch - processPackages [general-navigation]: Remove: archive file [/home/abi/fetcher/tmp/general_navigation-0.3.0.tar.gz]
+[2024-05-16 00:31:03] INFO root fetch - processPackages [general-navigation]: Remove: archive file [/home/abi/fetcher/tmp/general_navigation-0.3.1.tar.gz]
+[2024-05-16 00:31:03] INFO root fetch - main [MainThread]: End processing [general-navigation]: success
+[2024-05-16 00:31:03] ERROR root fetch - processPackages [lbt-dragonfly]: Diffoscope failed: time="2024-05-16T00:31:03+02:00" level=error msg="User-selected graph driver \"vfs\" overwritten by graph driver \"overlay\" from database - delete libpod local files to resolve.  May prevent use of images created by other tools"
+/srv/diffoscope/bin/diffoscope: tmp/lbt-dragonfly-0.9.98.tar.gz: No such file or directory
+
+[2024-05-16 00:31:03] INFO root fetch - main [MainThread]: End processing [lbt-dragonfly] error
+[2024-05-16 00:31:03] INFO root fetch - processPackages [symposium]: Remove: archive file [/home/abi/fetcher/tmp/symposium-0.2.1.tar.gz]
+[2024-05-16 00:31:03] INFO root fetch - processPackages [symposium]: Remove: archive file [/home/abi/fetcher/tmp/symposium-0.2.2.tar.gz]
+[2024-05-16 00:31:03] INFO root fetch - main [MainThread]: End processing [symposium]: success
+[2024-05-16 00:31:03] INFO root fetch - processPackages [spaceone-api]: Remove: archive file [/home/abi/fetcher/tmp/spaceone-api-2.0.dev78.tar.gz]
+[2024-05-16 00:31:03] INFO root fetch - processPackages [spaceone-api]: Remove: archive file [/home/abi/fetcher/tmp/spaceone-api-2.0.dev89.tar.gz]
+[2024-05-16 00:31:03] INFO root fetch - main [MainThread]: End processing [spaceone-api]: success
+[2024-05-16 00:31:03] INFO root fetch - processPackages [blar-graph]: Remove: archive file [/home/abi/fetcher/tmp/blar_graph-0.0.8.tar.gz]
+[2024-05-16 00:31:03] INFO root fetch - processPackages [blar-graph]: Remove: archive file [/home/abi/fetcher/tmp/blar_graph-0.0.9a0.tar.gz]
+[2024-05-16 00:31:03] INFO root fetch - main [MainThread]: End processing [blar-graph]: success
+[2024-05-16 00:31:03] INFO root fetch - main [MainThread]: Store serial: [23225629]
