@@ -1897,3 +1897,50 @@ AssertionError: tmp/hygpytools-0.2.0.tar.gz does not exist
 [2024-05-16 01:01:48] INFO root fetch - processPackages [LingerGRN]: Remove: archive file [/home/abi/fetcher/tmp/LingerGRN-1.9.tar.gz]
 [2024-05-16 01:01:48] INFO root fetch - main [MainThread]: End processing [LingerGRN]: success
 [2024-05-16 01:01:48] INFO root fetch - main [MainThread]: Store serial: [23225906]
+[2024-05-16 01:03:53] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23225906]
+[2024-05-16 01:03:58] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-16 01:03:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: bucketed-scene-flow-eval
+[2024-05-16 01:03:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pipecat-ai
+[2024-05-16 01:03:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: tencentcloud-sdk-python-tav
+[2024-05-16 01:03:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: srcignore
+[2024-05-16 01:03:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pinthesky
+[2024-05-16 01:03:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pyqthotkey
+[2024-05-16 01:03:58] INFO root fetch - processPackages [pipecat-ai]: New version: [0.0.9] Old Version: [0.0.13]
+[2024-05-16 01:03:58] INFO root fetch - processPackages [bucketed-scene-flow-eval]: New version: [2.0.9] Old Version: [2.0.8]
+[2024-05-16 01:03:58] INFO root fetch - processPackages [srcignore]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-05-16 01:03:58] INFO root fetch - processPackages [pinthesky]: New version: [0.9.0] Old Version: [0.8.1]
+[2024-05-16 01:03:58] INFO root fetch - processPackages [tencentcloud-sdk-python-tav]: New version: [3.0.999] Old Version: [3.0.998]
+[2024-05-16 01:03:58] WARNING root fetch - processPackages [pyqthotkey]: Skipping, unable to determine old version
+[2024-05-16 01:03:58] INFO root fetch - main [MainThread]: End processing [pyqthotkey] error
+[2024-05-16 01:03:58] INFO root fetch - processPackages [pipecat-ai]: Downloading https://files.pythonhosted.org/packages/52/14/d73a397f87a539737c36d4216829509a42f174e4d50b51855e1346e40569/pipecat_ai-0.0.13.tar.gz
+[2024-05-16 01:03:58] WARNING root fetch - processPackages [pipecat-ai]: Skipping package: exceeds size limit 63268324>=10485760
+[2024-05-16 01:03:58] INFO root fetch - main [MainThread]: End processing [pipecat-ai] error
+[2024-05-16 01:03:58] INFO root fetch - processPackages [srcignore]: Downloading https://files.pythonhosted.org/packages/06/ef/022b6b49c5af2ceb8332a468ea7166566c9ea566d4666489028d1030f78b/srcignore-0.0.1.tar.gz
+[2024-05-16 01:03:58] INFO root fetch - processPackages [bucketed-scene-flow-eval]: Downloading https://files.pythonhosted.org/packages/07/44/9667f22e4cbbb53924853c9bbf8761cf8a94d0e508a8a1ef9ce1f2771fae/bucketed_scene_flow_eval-2.0.8.tar.gz
+[2024-05-16 01:03:58] INFO root fetch - processPackages [pinthesky]: Downloading https://files.pythonhosted.org/packages/c7/a9/75d5f6d5a5b6f00793c7862d9d286927b18f71349880bd4cbd10cdce9ce3/pinthesky-0.8.1.tar.gz
+[2024-05-16 01:03:58] INFO root fetch - processPackages [tencentcloud-sdk-python-tav]: Downloading https://files.pythonhosted.org/packages/9b/34/de50dfc88ceeb07111350b897df1a05300d50556c5113a6983134045a76f/tencentcloud-sdk-python-tav-3.0.998.tar.gz
+[2024-05-16 01:03:58] INFO root fetch - processPackages [srcignore]: Downloading https://files.pythonhosted.org/packages/7b/49/f4d458d8f2961372e83c6e7f08d9cadeaad68cd103fa4c2d1bbabfff3f32/srcignore-0.0.2.tar.gz
+[2024-05-16 01:03:59] INFO root fetch - processPackages [pinthesky]: Downloading https://files.pythonhosted.org/packages/a4/97/fd8e6dbe921e8660672e27bfe9948d9c241262f59cfabe669faba26a6048/pinthesky-0.9.0.tar.gz
+[2024-05-16 01:03:59] INFO root fetch - processPackages [srcignore]: executing diffoscope
+[2024-05-16 01:03:59] INFO root fetch - processPackages [srcignore]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/srcignore-0.0.1.tar.gz tmp/srcignore-0.0.2.tar.gz --markdown 20240516/s/srcignore/0.0.1-0.0.2/README.md --exclude *.pyd
+[2024-05-16 01:03:59] INFO root fetch - processPackages [bucketed-scene-flow-eval]: Downloading https://files.pythonhosted.org/packages/73/01/c00563a01ac705eb865c2c22856053647dbbc14f702c19c809da7b9710cf/bucketed_scene_flow_eval-2.0.9.tar.gz
+[2024-05-16 01:03:59] INFO root fetch - processPackages [tencentcloud-sdk-python-tav]: Downloading https://files.pythonhosted.org/packages/a8/05/e40eae77c8e9818894b67981ee6c9847b1a6fe1dd5ed93f0f292de0aaae7/tencentcloud-sdk-python-tav-3.0.999.tar.gz
+[2024-05-16 01:03:59] INFO root fetch - processPackages [pinthesky]: executing diffoscope
+[2024-05-16 01:03:59] INFO root fetch - processPackages [pinthesky]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pinthesky-0.8.1.tar.gz tmp/pinthesky-0.9.0.tar.gz --markdown 20240516/p/pinthesky/0.8.1-0.9.0/README.md --exclude *.pyd
+[2024-05-16 01:03:59] INFO root fetch - processPackages [tencentcloud-sdk-python-tav]: executing diffoscope
+[2024-05-16 01:03:59] INFO root fetch - processPackages [tencentcloud-sdk-python-tav]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud-sdk-python-tav-3.0.998.tar.gz tmp/tencentcloud-sdk-python-tav-3.0.999.tar.gz --markdown 20240516/t/tencentcloud-sdk-python-tav/3.0.998-3.0.999/README.md --exclude *.pyd
+[2024-05-16 01:03:59] INFO root fetch - processPackages [bucketed-scene-flow-eval]: executing diffoscope
+[2024-05-16 01:03:59] INFO root fetch - processPackages [bucketed-scene-flow-eval]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bucketed_scene_flow_eval-2.0.8.tar.gz tmp/bucketed_scene_flow_eval-2.0.9.tar.gz --markdown 20240516/b/bucketed-scene-flow-eval/2.0.8-2.0.9/README.md --exclude *.pyd
+[2024-05-16 01:03:59] INFO root fetch - processPackages [srcignore]: Remove: archive file [/home/abi/fetcher/tmp/srcignore-0.0.1.tar.gz]
+[2024-05-16 01:03:59] INFO root fetch - processPackages [srcignore]: Remove: archive file [/home/abi/fetcher/tmp/srcignore-0.0.2.tar.gz]
+[2024-05-16 01:03:59] INFO root fetch - main [MainThread]: End processing [srcignore]: success
+[2024-05-16 01:03:59] INFO root fetch - processPackages [tencentcloud-sdk-python-tav]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-tav-3.0.998.tar.gz]
+[2024-05-16 01:03:59] INFO root fetch - processPackages [tencentcloud-sdk-python-tav]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-tav-3.0.999.tar.gz]
+[2024-05-16 01:03:59] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-tav]: success
+[2024-05-16 01:03:59] INFO root fetch - processPackages [pinthesky]: Remove: archive file [/home/abi/fetcher/tmp/pinthesky-0.8.1.tar.gz]
+[2024-05-16 01:03:59] INFO root fetch - processPackages [pinthesky]: Remove: archive file [/home/abi/fetcher/tmp/pinthesky-0.9.0.tar.gz]
+[2024-05-16 01:03:59] INFO root fetch - main [MainThread]: End processing [pinthesky]: success
+[2024-05-16 01:03:59] INFO root fetch - processPackages [bucketed-scene-flow-eval]: Remove: archive file [/home/abi/fetcher/tmp/bucketed_scene_flow_eval-2.0.8.tar.gz]
+[2024-05-16 01:03:59] INFO root fetch - processPackages [bucketed-scene-flow-eval]: Remove: archive file [/home/abi/fetcher/tmp/bucketed_scene_flow_eval-2.0.9.tar.gz]
+[2024-05-16 01:03:59] INFO root fetch - main [MainThread]: End processing [bucketed-scene-flow-eval]: success
+[2024-05-16 01:03:59] INFO root fetch - main [MainThread]: Store serial: [23225926]
