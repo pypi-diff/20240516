@@ -1276,3 +1276,42 @@ AssertionError: tmp/hygpytools-0.2.0.tar.gz does not exist
 [2024-05-16 00:33:14] INFO root fetch - processPackages [tencentcloud-sdk-python-pds]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-pds-3.0.999.tar.gz]
 [2024-05-16 00:33:14] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-pds]: success
 [2024-05-16 00:33:14] INFO root fetch - main [MainThread]: Store serial: [23225654]
+[2024-05-16 00:35:18] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23225654]
+[2024-05-16 00:35:23] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-16 00:35:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ELSholdings
+[2024-05-16 00:35:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: lollms-client
+[2024-05-16 00:35:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pulumi-gcp
+[2024-05-16 00:35:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: aipkgs-core
+[2024-05-16 00:35:23] INFO root fetch - processPackages [ELSholdings]: New version: [2.0.2] Old Version: [2.0.1]
+[2024-05-16 00:35:23] INFO root fetch - processPackages [aipkgs-core]: New version: [1.0.3] Old Version: [1.0.2]
+[2024-05-16 00:35:23] INFO root fetch - processPackages [ELSholdings]: Downloading https://files.pythonhosted.org/packages/92/e1/d6c0e4e57d7b233c872133e3b0f88d6ef366fdfca6850fde11517d70eef9/elsholdings-2.0.1.tar.gz
+[2024-05-16 00:35:23] INFO root fetch - processPackages [aipkgs-core]: Downloading https://files.pythonhosted.org/packages/86/43/2bb6af78c76b2f4fe523846b406bb92b7ddcae45f044aa09b853354b20ad/aipkgs_core-1.0.2.tar.gz
+[2024-05-16 00:35:23] INFO root fetch - processPackages [lollms-client]: New version: [0.5.6] Old Version: [0.5.5]
+[2024-05-16 00:35:23] INFO root fetch - processPackages [pulumi-gcp]: New version: [7.9.0a1707934510] Old Version: [7.9.0a1707891532]
+[2024-05-16 00:35:23] INFO root fetch - processPackages [lollms-client]: Downloading https://files.pythonhosted.org/packages/18/c3/c5a8717533a9a9a228cd6f5c89a5286fdb632d0768867d738cfc80bcbd3b/lollms_client-0.5.5.tar.gz
+[2024-05-16 00:35:23] INFO root fetch - processPackages [pulumi-gcp]: Downloading https://files.pythonhosted.org/packages/f0/b4/677e3618cc42a30dd41030c6dee1b6b9d52e956632b9a1eeb84c0c2d8e3c/pulumi_gcp-7.9.0a1707891532.tar.gz
+[2024-05-16 00:35:23] INFO root fetch - processPackages [ELSholdings]: Downloading https://files.pythonhosted.org/packages/04/3f/d1f09c8033eaa8b133c4d58232f46b2fb1857c34297de8c9a9ad179151c6/elsholdings-2.0.2.tar.gz
+[2024-05-16 00:35:23] INFO root fetch - processPackages [aipkgs-core]: Downloading https://files.pythonhosted.org/packages/ba/e0/4b8ba247184841b1d4eb2be05d0bc6ae6db5940598f29c70a68f9877dabd/aipkgs_core-1.0.3.tar.gz
+[2024-05-16 00:35:23] INFO root fetch - processPackages [aipkgs-core]: executing diffoscope
+[2024-05-16 00:35:23] INFO root fetch - processPackages [aipkgs-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aipkgs_core-1.0.2.tar.gz tmp/aipkgs_core-1.0.3.tar.gz --markdown 20240516/a/aipkgs-core/1.0.2-1.0.3/README.md --exclude *.pyd
+[2024-05-16 00:35:23] INFO root fetch - processPackages [ELSholdings]: executing diffoscope
+[2024-05-16 00:35:23] INFO root fetch - processPackages [ELSholdings]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/elsholdings-2.0.1.tar.gz tmp/elsholdings-2.0.2.tar.gz --markdown 20240516/E/ELSholdings/2.0.1-2.0.2/README.md --exclude *.pyd
+[2024-05-16 00:35:23] INFO root fetch - processPackages [lollms-client]: Downloading https://files.pythonhosted.org/packages/be/ca/c7ec9fd63443aba974c3369cb6cba1b63ff3732db16b89fd2ba74e058a8e/lollms_client-0.5.6.tar.gz
+[2024-05-16 00:35:24] INFO root fetch - processPackages [lollms-client]: executing diffoscope
+[2024-05-16 00:35:24] INFO root fetch - processPackages [lollms-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lollms_client-0.5.5.tar.gz tmp/lollms_client-0.5.6.tar.gz --markdown 20240516/l/lollms-client/0.5.5-0.5.6/README.md --exclude *.pyd
+[2024-05-16 00:35:24] INFO root fetch - processPackages [ELSholdings]: Remove: archive file [/home/abi/fetcher/tmp/elsholdings-2.0.1.tar.gz]
+[2024-05-16 00:35:24] INFO root fetch - processPackages [ELSholdings]: Remove: archive file [/home/abi/fetcher/tmp/elsholdings-2.0.2.tar.gz]
+[2024-05-16 00:35:24] INFO root fetch - main [MainThread]: End processing [ELSholdings]: success
+[2024-05-16 00:35:24] INFO root fetch - processPackages [aipkgs-core]: Remove: archive file [/home/abi/fetcher/tmp/aipkgs_core-1.0.2.tar.gz]
+[2024-05-16 00:35:24] INFO root fetch - processPackages [aipkgs-core]: Remove: archive file [/home/abi/fetcher/tmp/aipkgs_core-1.0.3.tar.gz]
+[2024-05-16 00:35:24] INFO root fetch - main [MainThread]: End processing [aipkgs-core]: success
+[2024-05-16 00:35:24] INFO root fetch - processPackages [pulumi-gcp]: Downloading https://files.pythonhosted.org/packages/e8/4f/d6c8ded38a6c81689a5fb00b6aea9daeef82f4686f3ad6c74eba94b37d8b/pulumi_gcp-7.9.0a1707934510.tar.gz
+[2024-05-16 00:35:24] INFO root fetch - processPackages [lollms-client]: Remove: archive file [/home/abi/fetcher/tmp/lollms_client-0.5.5.tar.gz]
+[2024-05-16 00:35:24] INFO root fetch - processPackages [lollms-client]: Remove: archive file [/home/abi/fetcher/tmp/lollms_client-0.5.6.tar.gz]
+[2024-05-16 00:35:24] INFO root fetch - main [MainThread]: End processing [lollms-client]: success
+[2024-05-16 00:35:26] INFO root fetch - processPackages [pulumi-gcp]: executing diffoscope
+[2024-05-16 00:35:26] INFO root fetch - processPackages [pulumi-gcp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_gcp-7.9.0a1707891532.tar.gz tmp/pulumi_gcp-7.9.0a1707934510.tar.gz --markdown 20240516/p/pulumi-gcp/7.9.0a1707891532-7.9.0a1707934510/README.md --exclude *.pyd
+[2024-05-16 00:35:36] INFO root fetch - processPackages [pulumi-gcp]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_gcp-7.9.0a1707891532.tar.gz]
+[2024-05-16 00:35:36] INFO root fetch - processPackages [pulumi-gcp]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_gcp-7.9.0a1707934510.tar.gz]
+[2024-05-16 00:35:36] INFO root fetch - main [MainThread]: End processing [pulumi-gcp]: success
+[2024-05-16 00:35:36] INFO root fetch - main [MainThread]: Store serial: [23225668]
