@@ -2737,3 +2737,21 @@ AssertionError: tmp/hygpytools-0.2.0.tar.gz does not exist
 [2024-05-16 01:34:56] INFO root fetch - processPackages [treeswift]: Remove: archive file [/home/abi/fetcher/tmp/treeswift-1.1.9.tar.gz]
 [2024-05-16 01:34:56] INFO root fetch - main [MainThread]: End processing [treeswift]: success
 [2024-05-16 01:34:56] INFO root fetch - main [MainThread]: Store serial: [23226215]
+[2024-05-16 01:37:01] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23226215]
+[2024-05-16 01:37:05] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-16 01:37:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: llama_tools
+[2024-05-16 01:37:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: AbeewayConfig
+[2024-05-16 01:37:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: nbDevTools
+[2024-05-16 01:37:06] WARNING root fetch - processPackages [AbeewayConfig]: Skipping, unable to determine old version
+[2024-05-16 01:37:06] INFO root fetch - main [MainThread]: End processing [AbeewayConfig] error
+[2024-05-16 01:37:06] INFO root fetch - processPackages [llama_tools]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-16 01:37:06] INFO root fetch - processPackages [llama_tools]: Downloading https://files.pythonhosted.org/packages/a8/55/43247b59a289e0459a611874224f09597a28f206ece4c888349b83d661bb/llama_tools-0.1.8.tar.gz
+[2024-05-16 01:37:06] WARNING root fetch - processPackages [nbDevTools]: Skipping, unable to determine old version
+[2024-05-16 01:37:06] INFO root fetch - main [MainThread]: End processing [nbDevTools] error
+[2024-05-16 01:37:06] INFO root fetch - processPackages [llama_tools]: Downloading https://files.pythonhosted.org/packages/b1/c0/71823f5e8c32246c13f14ee35afae675e0119488af8210d0d305c5d9dc5c/llama_tools-0.1.9.tar.gz
+[2024-05-16 01:37:06] INFO root fetch - processPackages [llama_tools]: executing diffoscope
+[2024-05-16 01:37:06] INFO root fetch - processPackages [llama_tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/llama_tools-0.1.8.tar.gz tmp/llama_tools-0.1.9.tar.gz --markdown 20240516/l/llama_tools/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-16 01:37:06] INFO root fetch - processPackages [llama_tools]: Remove: archive file [/home/abi/fetcher/tmp/llama_tools-0.1.8.tar.gz]
+[2024-05-16 01:37:06] INFO root fetch - processPackages [llama_tools]: Remove: archive file [/home/abi/fetcher/tmp/llama_tools-0.1.9.tar.gz]
+[2024-05-16 01:37:06] INFO root fetch - main [MainThread]: End processing [llama_tools]: success
+[2024-05-16 01:37:06] INFO root fetch - main [MainThread]: Store serial: [23226227]
