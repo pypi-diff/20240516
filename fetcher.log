@@ -11480,3 +11480,15 @@ EOFError: EOF read where object expected
 [2024-05-16 06:54:00] INFO root fetch - processPackages [tsugu-api-python]: Remove: archive file [/home/abi/fetcher/tmp/tsugu-api-python-1.1.6.tar.gz]
 [2024-05-16 06:54:00] INFO root fetch - main [MainThread]: End processing [tsugu-api-python]: success
 [2024-05-16 06:54:00] INFO root fetch - main [MainThread]: Store serial: [23229488]
+[2024-05-16 06:56:04] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23229488]
+[2024-05-16 06:56:09] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-05-16 06:56:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: w3ml
+[2024-05-16 06:56:09] INFO root fetch - processPackages [w3ml]: New version: [2024.5.16rc6] Old Version: [2024.5.16rc5]
+[2024-05-16 06:56:09] INFO root fetch - processPackages [w3ml]: Downloading https://files.pythonhosted.org/packages/fd/f8/9bb864e8bf8b622d50b334822014fd67995eabc6fe2d269c8b013df272d4/w3ml-2024.5.16rc5.tar.gz
+[2024-05-16 06:56:09] INFO root fetch - processPackages [w3ml]: Downloading https://files.pythonhosted.org/packages/0a/27/b703670c9fb9e034665699902ed85178cd202f75ef332aef8e7f53452bea/w3ml-2024.5.16rc6.tar.gz
+[2024-05-16 06:56:09] INFO root fetch - processPackages [w3ml]: executing diffoscope
+[2024-05-16 06:56:09] INFO root fetch - processPackages [w3ml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/w3ml-2024.5.16rc5.tar.gz tmp/w3ml-2024.5.16rc6.tar.gz --markdown 20240516/w/w3ml/2024.5.16rc5-2024.5.16rc6/README.md --exclude *.pyd
+[2024-05-16 06:56:10] INFO root fetch - processPackages [w3ml]: Remove: archive file [/home/abi/fetcher/tmp/w3ml-2024.5.16rc5.tar.gz]
+[2024-05-16 06:56:10] INFO root fetch - processPackages [w3ml]: Remove: archive file [/home/abi/fetcher/tmp/w3ml-2024.5.16rc6.tar.gz]
+[2024-05-16 06:56:10] INFO root fetch - main [MainThread]: End processing [w3ml]: success
+[2024-05-16 06:56:10] INFO root fetch - main [MainThread]: Store serial: [23229491]
