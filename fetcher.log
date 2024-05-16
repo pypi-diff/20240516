@@ -8933,3 +8933,42 @@ EOFError: EOF read where object expected
 [2024-05-16 03:37:32] INFO root fetch - processPackages [PyGeodesy]: Remove: archive file [/home/abi/fetcher/tmp/PyGeodesy-24.5.8.zip]
 [2024-05-16 03:37:32] INFO root fetch - main [MainThread]: End processing [PyGeodesy]: success
 [2024-05-16 03:37:32] INFO root fetch - main [MainThread]: Store serial: [23228421]
+[2024-05-16 03:39:46] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23228421]
+[2024-05-16 03:39:51] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-16 03:39:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pyAgrum-nightly
+[2024-05-16 03:39:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: hackerargs
+[2024-05-16 03:39:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: medicafe
+[2024-05-16 03:39:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: odoo14-addon-ssi-sale-canvas
+[2024-05-16 03:39:52] INFO root fetch - processPackages [pyAgrum-nightly]: New version: [1.9.0.9.dev202310191697564854] Old Version: [1.9.0.9.dev202310181697564854]
+[2024-05-16 03:39:52] INFO root fetch - processPackages [hackerargs]: New version: [1.1.1] Old Version: [1.1.0]
+[2024-05-16 03:39:52] INFO root fetch - processPackages [odoo14-addon-ssi-sale-canvas]: New version: [14.0.1.3.1] Old Version: [14.0.1.3.0]
+[2024-05-16 03:39:52] INFO root fetch - processPackages [medicafe]: New version: [0.240515.5] Old Version: [0.240515.4]
+[2024-05-16 03:39:52] INFO root fetch - processPackages [pyAgrum-nightly]: Downloading https://files.pythonhosted.org/packages/64/23/4308469c4be3abcfc53ec2ccbd7dcca1618077035522cae4b364a9c6cc56/pyAgrum_nightly-1.9.0.9.dev202310181697564854-cp39-cp39-win_amd64.whl
+[2024-05-16 03:39:52] INFO root fetch - processPackages [hackerargs]: Downloading https://files.pythonhosted.org/packages/25/fe/b326d059d6059b9ab0be2605d4b8c38510853a6c181ae6319da8aa5e2524/hackerargs-1.1.0.tar.gz
+[2024-05-16 03:39:52] INFO root fetch - processPackages [medicafe]: Downloading https://files.pythonhosted.org/packages/59/da/3dc31e13637066e75e3956e095298c7605eaa4216d45c67327fcb94dda96/medicafe-0.240515.4.tar.gz
+[2024-05-16 03:39:52] INFO root fetch - processPackages [odoo14-addon-ssi-sale-canvas]: Downloading https://files.pythonhosted.org/packages/de/86/3e200804067fe1e94443072f5ad748f14415ecf7a58c9a9235af0a4f8e74/odoo14_addon_ssi_sale_canvas-14.0.1.3.0-py3-none-any.whl
+[2024-05-16 03:39:52] INFO root fetch - processPackages [hackerargs]: Downloading https://files.pythonhosted.org/packages/ee/1c/d0c67eac6205c0ef38ea31dbd4b53c14414523783ceb6645e74fabf759a5/hackerargs-1.1.1.tar.gz
+[2024-05-16 03:39:52] INFO root fetch - processPackages [medicafe]: Downloading https://files.pythonhosted.org/packages/c6/e3/024bbf0e8970df9aa0e72eba7e9b5908486bf5dcc374f3c60b52a6c299f9/medicafe-0.240515.5.tar.gz
+[2024-05-16 03:39:52] INFO root fetch - processPackages [hackerargs]: executing diffoscope
+[2024-05-16 03:39:52] INFO root fetch - processPackages [hackerargs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hackerargs-1.1.0.tar.gz tmp/hackerargs-1.1.1.tar.gz --markdown 20240516/h/hackerargs/1.1.0-1.1.1/README.md --exclude *.pyd
+[2024-05-16 03:39:52] INFO root fetch - processPackages [medicafe]: executing diffoscope
+[2024-05-16 03:39:52] INFO root fetch - processPackages [medicafe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/medicafe-0.240515.4.tar.gz tmp/medicafe-0.240515.5.tar.gz --markdown 20240516/m/medicafe/0.240515.4-0.240515.5/README.md --exclude *.pyd
+[2024-05-16 03:39:52] INFO root fetch - processPackages [odoo14-addon-ssi-sale-canvas]: Downloading https://files.pythonhosted.org/packages/05/8c/2c38b7b3f2c6d9511f3a63eb586dd7affe142c2b759eeb0340dced61945e/odoo14_addon_ssi_sale_canvas-14.0.1.3.1-py3-none-any.whl
+[2024-05-16 03:39:53] INFO root fetch - processPackages [odoo14-addon-ssi-sale-canvas]: executing diffoscope
+[2024-05-16 03:39:53] INFO root fetch - processPackages [odoo14-addon-ssi-sale-canvas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_ssi_sale_canvas-14.0.1.3.0-py3-none-any.whl.zip tmp/odoo14_addon_ssi_sale_canvas-14.0.1.3.1-py3-none-any.whl.zip --markdown 20240516/o/odoo14-addon-ssi-sale-canvas/14.0.1.3.0-14.0.1.3.1/README.md --exclude *.pyd
+[2024-05-16 03:39:53] INFO root fetch - processPackages [hackerargs]: Remove: archive file [/home/abi/fetcher/tmp/hackerargs-1.1.0.tar.gz]
+[2024-05-16 03:39:53] INFO root fetch - processPackages [hackerargs]: Remove: archive file [/home/abi/fetcher/tmp/hackerargs-1.1.1.tar.gz]
+[2024-05-16 03:39:53] INFO root fetch - main [MainThread]: End processing [hackerargs]: success
+[2024-05-16 03:39:53] INFO root fetch - processPackages [medicafe]: Remove: archive file [/home/abi/fetcher/tmp/medicafe-0.240515.4.tar.gz]
+[2024-05-16 03:39:53] INFO root fetch - processPackages [medicafe]: Remove: archive file [/home/abi/fetcher/tmp/medicafe-0.240515.5.tar.gz]
+[2024-05-16 03:39:53] INFO root fetch - main [MainThread]: End processing [medicafe]: success
+[2024-05-16 03:39:53] INFO root fetch - processPackages [odoo14-addon-ssi-sale-canvas]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_ssi_sale_canvas-14.0.1.3.0-py3-none-any.whl.zip]
+[2024-05-16 03:39:53] INFO root fetch - processPackages [odoo14-addon-ssi-sale-canvas]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_ssi_sale_canvas-14.0.1.3.1-py3-none-any.whl.zip]
+[2024-05-16 03:39:53] INFO root fetch - main [MainThread]: End processing [odoo14-addon-ssi-sale-canvas]: success
+[2024-05-16 03:39:54] INFO root fetch - processPackages [pyAgrum-nightly]: Downloading https://files.pythonhosted.org/packages/84/cc/6d2d3b13a2080cfbfa9792321774075d119b4fa37902c5a9d93d8eccf13d/pyAgrum_nightly-1.9.0.9.dev202310191697564854-cp39-cp39-win_amd64.whl
+[2024-05-16 03:39:56] INFO root fetch - processPackages [pyAgrum-nightly]: executing diffoscope
+[2024-05-16 03:39:56] INFO root fetch - processPackages [pyAgrum-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyAgrum_nightly-1.9.0.9.dev202310181697564854-cp39-cp39-win_amd64.whl.zip tmp/pyAgrum_nightly-1.9.0.9.dev202310191697564854-cp39-cp39-win_amd64.whl.zip --markdown 20240516/p/pyAgrum-nightly/1.9.0.9.dev202310181697564854-1.9.0.9.dev202310191697564854/README.md --exclude *.pyd
+[2024-05-16 03:39:56] INFO root fetch - processPackages [pyAgrum-nightly]: Remove: archive file [/home/abi/fetcher/tmp/pyAgrum_nightly-1.9.0.9.dev202310181697564854-cp39-cp39-win_amd64.whl.zip]
+[2024-05-16 03:39:56] INFO root fetch - processPackages [pyAgrum-nightly]: Remove: archive file [/home/abi/fetcher/tmp/pyAgrum_nightly-1.9.0.9.dev202310191697564854-cp39-cp39-win_amd64.whl.zip]
+[2024-05-16 03:39:56] INFO root fetch - main [MainThread]: End processing [pyAgrum-nightly]: success
+[2024-05-16 03:39:56] INFO root fetch - main [MainThread]: Store serial: [23228475]
