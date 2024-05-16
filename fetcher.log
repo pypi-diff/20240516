@@ -3680,3 +3680,32 @@ AssertionError: tmp/hygpytools-0.2.0.tar.gz does not exist
 [2024-05-16 02:00:51] INFO root fetch - processPackages [aws-cdk.cli-lib-alpha]: Remove: archive file [/home/abi/fetcher/tmp/aws-cdk.cli-lib-alpha-2.99.1a0.tar.gz]
 [2024-05-16 02:00:51] INFO root fetch - main [MainThread]: End processing [aws-cdk.cli-lib-alpha]: success
 [2024-05-16 02:00:51] INFO root fetch - main [MainThread]: Store serial: [23226558]
+[2024-05-16 02:02:55] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23226558]
+[2024-05-16 02:03:00] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-16 02:03:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: lbt-dragonfly
+[2024-05-16 02:03:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: flask-shopify-utils
+[2024-05-16 02:03:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: tencentcloud-sdk-python-yunsou
+[2024-05-16 02:03:00] INFO root fetch - processPackages [lbt-dragonfly]: New version: [0.9.99] Old Version: [0.9.98]
+[2024-05-16 02:03:00] INFO root fetch - processPackages [flask-shopify-utils]: New version: [0.1.5] Old Version: [0.1.4]
+[2024-05-16 02:03:00] INFO root fetch - processPackages [tencentcloud-sdk-python-yunsou]: New version: [3.0.999] Old Version: [3.0.998]
+[2024-05-16 02:03:00] INFO root fetch - processPackages [lbt-dragonfly]: Downloading https://files.pythonhosted.org/packages/be/ae/7267dfd241a0641f3fbadea4128db5ffa29609911cadb5fc4840656bb44a/lbt-dragonfly-0.9.98.tar.gz
+[2024-05-16 02:03:00] INFO root fetch - processPackages [flask-shopify-utils]: Downloading https://files.pythonhosted.org/packages/61/25/6e732eaa2052d29f1f1f2606e91a7b0d6cc33103be6132c09c0c86cfc76b/flask_shopify_utils-0.1.4.tar.gz
+[2024-05-16 02:03:00] INFO root fetch - processPackages [tencentcloud-sdk-python-yunsou]: Downloading https://files.pythonhosted.org/packages/41/80/6c47aecff1245b820e2f29a01c3c685fb0812df647a635fcdd55a3bc2f14/tencentcloud-sdk-python-yunsou-3.0.998.tar.gz
+[2024-05-16 02:03:01] INFO root fetch - processPackages [lbt-dragonfly]: executing diffoscope
+[2024-05-16 02:03:01] INFO root fetch - processPackages [lbt-dragonfly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lbt-dragonfly-0.9.98.tar.gz tmp/lbt-dragonfly-0.9.99.tar.gz --markdown 20240516/l/lbt-dragonfly/0.9.98-0.9.99/README.md --exclude *.pyd
+[2024-05-16 02:03:01] INFO root fetch - processPackages [flask-shopify-utils]: Downloading https://files.pythonhosted.org/packages/d5/6c/1c2224e479f001be5b3eacbf473be51317ea329d22194194a51a9cbfc715/flask_shopify_utils-0.1.5.tar.gz
+[2024-05-16 02:03:01] INFO root fetch - processPackages [flask-shopify-utils]: executing diffoscope
+[2024-05-16 02:03:01] INFO root fetch - processPackages [flask-shopify-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flask_shopify_utils-0.1.4.tar.gz tmp/flask_shopify_utils-0.1.5.tar.gz --markdown 20240516/f/flask-shopify-utils/0.1.4-0.1.5/README.md --exclude *.pyd
+[2024-05-16 02:03:01] INFO root fetch - processPackages [tencentcloud-sdk-python-yunsou]: Downloading https://files.pythonhosted.org/packages/5d/ec/fa0d9f1ac64f6da07ddfb6836ac624c21cd6ffdbc126f04c9ee27d806016/tencentcloud-sdk-python-yunsou-3.0.999.tar.gz
+[2024-05-16 02:03:01] INFO root fetch - processPackages [tencentcloud-sdk-python-yunsou]: executing diffoscope
+[2024-05-16 02:03:01] INFO root fetch - processPackages [tencentcloud-sdk-python-yunsou]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud-sdk-python-yunsou-3.0.998.tar.gz tmp/tencentcloud-sdk-python-yunsou-3.0.999.tar.gz --markdown 20240516/t/tencentcloud-sdk-python-yunsou/3.0.998-3.0.999/README.md --exclude *.pyd
+[2024-05-16 02:03:02] INFO root fetch - processPackages [lbt-dragonfly]: Remove: archive file [/home/abi/fetcher/tmp/lbt-dragonfly-0.9.98.tar.gz]
+[2024-05-16 02:03:02] INFO root fetch - processPackages [lbt-dragonfly]: Remove: archive file [/home/abi/fetcher/tmp/lbt-dragonfly-0.9.99.tar.gz]
+[2024-05-16 02:03:02] INFO root fetch - main [MainThread]: End processing [lbt-dragonfly]: success
+[2024-05-16 02:03:02] INFO root fetch - processPackages [flask-shopify-utils]: Remove: archive file [/home/abi/fetcher/tmp/flask_shopify_utils-0.1.4.tar.gz]
+[2024-05-16 02:03:02] INFO root fetch - processPackages [flask-shopify-utils]: Remove: archive file [/home/abi/fetcher/tmp/flask_shopify_utils-0.1.5.tar.gz]
+[2024-05-16 02:03:02] INFO root fetch - main [MainThread]: End processing [flask-shopify-utils]: success
+[2024-05-16 02:03:02] INFO root fetch - processPackages [tencentcloud-sdk-python-yunsou]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-yunsou-3.0.998.tar.gz]
+[2024-05-16 02:03:02] INFO root fetch - processPackages [tencentcloud-sdk-python-yunsou]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-yunsou-3.0.999.tar.gz]
+[2024-05-16 02:03:02] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-yunsou]: success
+[2024-05-16 02:03:02] INFO root fetch - main [MainThread]: Store serial: [23226601]
