@@ -11599,3 +11599,30 @@ EOFError: EOF read where object expected
 [2024-05-16 07:02:44] INFO root fetch - processPackages [django_herobiz_dental]: Remove: archive file [/home/abi/fetcher/tmp/django_herobiz_dental-1.1.0.tar.gz]
 [2024-05-16 07:02:44] INFO root fetch - main [MainThread]: End processing [django_herobiz_dental]: success
 [2024-05-16 07:02:44] INFO root fetch - main [MainThread]: Store serial: [23229551]
+[2024-05-16 07:04:48] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23229551]
+[2024-05-16 07:04:53] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-16 07:04:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: s3func
+[2024-05-16 07:04:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: turtle-tetris-yoyoliyang
+[2024-05-16 07:04:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: docmesh-agent
+[2024-05-16 07:04:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: metav
+[2024-05-16 07:04:53] INFO root fetch - processPackages [s3func]: New version: [0.1.2] Old Version: [0.1.1]
+[2024-05-16 07:04:53] INFO root fetch - processPackages [s3func]: Downloading https://files.pythonhosted.org/packages/6b/87/fb8096fb3b4f4aae2b8419519ba1d11e3f43118dedc59ca534980bac95e4/s3func-0.1.1.tar.gz
+[2024-05-16 07:04:53] WARNING root fetch - processPackages [metav]: Skipping, unable to determine old version
+[2024-05-16 07:04:53] INFO root fetch - main [MainThread]: End processing [metav] error
+[2024-05-16 07:04:53] INFO root fetch - processPackages [docmesh-agent]: New version: [0.0.5] Old Version: [0.0.4]
+[2024-05-16 07:04:53] WARNING root fetch - processPackages [turtle-tetris-yoyoliyang]: Skipping, unable to determine old version
+[2024-05-16 07:04:53] INFO root fetch - main [MainThread]: End processing [turtle-tetris-yoyoliyang] error
+[2024-05-16 07:04:53] INFO root fetch - processPackages [docmesh-agent]: Downloading https://files.pythonhosted.org/packages/05/78/f6307ea13f5041ebce101af87957efb2424681ddd9e564f8ff67f452e667/docmesh_agent-0.0.4.tar.gz
+[2024-05-16 07:04:54] INFO root fetch - processPackages [s3func]: Downloading https://files.pythonhosted.org/packages/74/b7/f8eb685a3bc351af2ed61b7e5fb563243d9006a7a009d27a79cc6149c441/s3func-0.1.2.tar.gz
+[2024-05-16 07:04:54] INFO root fetch - processPackages [docmesh-agent]: Downloading https://files.pythonhosted.org/packages/28/66/44dc27fa232de95435272971a8fab14b7be4aaabe801cd7ce66fb73a9a3d/docmesh_agent-0.0.5.tar.gz
+[2024-05-16 07:04:54] INFO root fetch - processPackages [s3func]: executing diffoscope
+[2024-05-16 07:04:54] INFO root fetch - processPackages [s3func]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/s3func-0.1.1.tar.gz tmp/s3func-0.1.2.tar.gz --markdown 20240516/s/s3func/0.1.1-0.1.2/README.md --exclude *.pyd
+[2024-05-16 07:04:54] INFO root fetch - processPackages [docmesh-agent]: executing diffoscope
+[2024-05-16 07:04:54] INFO root fetch - processPackages [docmesh-agent]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/docmesh_agent-0.0.4.tar.gz tmp/docmesh_agent-0.0.5.tar.gz --markdown 20240516/d/docmesh-agent/0.0.4-0.0.5/README.md --exclude *.pyd
+[2024-05-16 07:04:54] INFO root fetch - processPackages [docmesh-agent]: Remove: archive file [/home/abi/fetcher/tmp/docmesh_agent-0.0.4.tar.gz]
+[2024-05-16 07:04:54] INFO root fetch - processPackages [docmesh-agent]: Remove: archive file [/home/abi/fetcher/tmp/docmesh_agent-0.0.5.tar.gz]
+[2024-05-16 07:04:54] INFO root fetch - main [MainThread]: End processing [docmesh-agent]: success
+[2024-05-16 07:04:54] INFO root fetch - processPackages [s3func]: Remove: archive file [/home/abi/fetcher/tmp/s3func-0.1.1.tar.gz]
+[2024-05-16 07:04:54] INFO root fetch - processPackages [s3func]: Remove: archive file [/home/abi/fetcher/tmp/s3func-0.1.2.tar.gz]
+[2024-05-16 07:04:54] INFO root fetch - main [MainThread]: End processing [s3func]: success
+[2024-05-16 07:04:54] INFO root fetch - main [MainThread]: Store serial: [23229568]
