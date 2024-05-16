@@ -12505,3 +12505,42 @@ EOFError: EOF read where object expected
 [2024-05-16 07:55:41] INFO root fetch - processPackages [cuminai]: Remove: archive file [/home/abi/fetcher/tmp/cuminai-0.0.1.dev165.tar.gz]
 [2024-05-16 07:55:41] INFO root fetch - main [MainThread]: End processing [cuminai]: success
 [2024-05-16 07:55:41] INFO root fetch - main [MainThread]: Store serial: [23229943]
+[2024-05-16 07:57:45] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23229943]
+[2024-05-16 07:57:49] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-16 07:57:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: w3ml
+[2024-05-16 07:57:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pxblat
+[2024-05-16 07:57:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pih
+[2024-05-16 07:57:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: mns-common
+[2024-05-16 07:57:50] INFO root fetch - processPackages [w3ml]: New version: [2024.5.16rc9] Old Version: [2024.5.16rc8]
+[2024-05-16 07:57:50] INFO root fetch - processPackages [pih]: New version: [0.36.9] Old Version: [0.36.8]
+[2024-05-16 07:57:50] INFO root fetch - processPackages [mns-common]: New version: [1.1.0.7] Old Version: [1.1.0.6]
+[2024-05-16 07:57:50] INFO root fetch - processPackages [pxblat]: New version: [1.2.1] Old Version: [1.1.9]
+[2024-05-16 07:57:50] INFO root fetch - processPackages [w3ml]: Downloading https://files.pythonhosted.org/packages/0a/76/18ebc29387168dc24fd9b849499181af787470dd8182fb29f010cd12711b/w3ml-2024.5.16rc8.tar.gz
+[2024-05-16 07:57:50] INFO root fetch - processPackages [pih]: Downloading https://files.pythonhosted.org/packages/15/e3/22ec9d9aa00889ba5428e575aec5461f921ebc7cd055bcbe8a4d08c33218/pih-0.36.8.tar.gz
+[2024-05-16 07:57:50] INFO root fetch - processPackages [mns-common]: Downloading https://files.pythonhosted.org/packages/de/d6/3586866000e1c21198ed3f78e68b8b59998b514f96c655a80f7398529c4c/mns_common-1.1.0.6.tar.gz
+[2024-05-16 07:57:50] INFO root fetch - processPackages [pxblat]: Downloading https://files.pythonhosted.org/packages/d7/b0/01839c6bee4af93b76a7f3a4d17c241b4ec1e13f574d4faff789e3c71718/pxblat-1.1.9.tar.gz
+[2024-05-16 07:57:50] INFO root fetch - processPackages [w3ml]: Downloading https://files.pythonhosted.org/packages/18/c6/24d5ae84a84c4d9d240d46be76cda0db5253c4b3423fb3ef2b37f55ef961/w3ml-2024.5.16rc9.tar.gz
+[2024-05-16 07:57:50] INFO root fetch - processPackages [pih]: Downloading https://files.pythonhosted.org/packages/68/1a/6491ba90ae40918db4f8dc253ce837f95f5404e51728f862a2c86457d528/pih-0.36.9.tar.gz
+[2024-05-16 07:57:50] INFO root fetch - processPackages [w3ml]: executing diffoscope
+[2024-05-16 07:57:50] INFO root fetch - processPackages [w3ml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/w3ml-2024.5.16rc8.tar.gz tmp/w3ml-2024.5.16rc9.tar.gz --markdown 20240516/w/w3ml/2024.5.16rc8-2024.5.16rc9/README.md --exclude *.pyd
+[2024-05-16 07:57:50] INFO root fetch - processPackages [mns-common]: Downloading https://files.pythonhosted.org/packages/a0/23/804fe1f0d72964cd4b3811d1c04a8a130cd77a40701332253539c15d8cea/mns_common-1.1.0.7.tar.gz
+[2024-05-16 07:57:50] INFO root fetch - processPackages [pih]: executing diffoscope
+[2024-05-16 07:57:50] INFO root fetch - processPackages [pih]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pih-0.36.8.tar.gz tmp/pih-0.36.9.tar.gz --markdown 20240516/p/pih/0.36.8-0.36.9/README.md --exclude *.pyd
+[2024-05-16 07:57:50] INFO root fetch - processPackages [mns-common]: executing diffoscope
+[2024-05-16 07:57:50] INFO root fetch - processPackages [mns-common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mns_common-1.1.0.6.tar.gz tmp/mns_common-1.1.0.7.tar.gz --markdown 20240516/m/mns-common/1.1.0.6-1.1.0.7/README.md --exclude *.pyd
+[2024-05-16 07:57:50] INFO root fetch - processPackages [pxblat]: Downloading https://files.pythonhosted.org/packages/a0/21/e5446a432caba34babf53d21ba211c18fa3c7edbbc11e8ab2a8f1d7718e2/pxblat-1.2.1.tar.gz
+[2024-05-16 07:57:51] INFO root fetch - processPackages [w3ml]: Remove: archive file [/home/abi/fetcher/tmp/w3ml-2024.5.16rc8.tar.gz]
+[2024-05-16 07:57:51] INFO root fetch - processPackages [w3ml]: Remove: archive file [/home/abi/fetcher/tmp/w3ml-2024.5.16rc9.tar.gz]
+[2024-05-16 07:57:51] INFO root fetch - main [MainThread]: End processing [w3ml]: success
+[2024-05-16 07:57:51] INFO root fetch - processPackages [pxblat]: executing diffoscope
+[2024-05-16 07:57:51] INFO root fetch - processPackages [pxblat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pxblat-1.1.9.tar.gz tmp/pxblat-1.2.1.tar.gz --markdown 20240516/p/pxblat/1.1.9-1.2.1/README.md --exclude *.pyd
+[2024-05-16 07:57:51] INFO root fetch - processPackages [mns-common]: Remove: archive file [/home/abi/fetcher/tmp/mns_common-1.1.0.6.tar.gz]
+[2024-05-16 07:57:51] INFO root fetch - processPackages [mns-common]: Remove: archive file [/home/abi/fetcher/tmp/mns_common-1.1.0.7.tar.gz]
+[2024-05-16 07:57:51] INFO root fetch - main [MainThread]: End processing [mns-common]: success
+[2024-05-16 07:57:51] INFO root fetch - processPackages [pih]: Remove: archive file [/home/abi/fetcher/tmp/pih-0.36.8.tar.gz]
+[2024-05-16 07:57:51] INFO root fetch - processPackages [pih]: Remove: archive file [/home/abi/fetcher/tmp/pih-0.36.9.tar.gz]
+[2024-05-16 07:57:51] INFO root fetch - main [MainThread]: End processing [pih]: success
+[2024-05-16 07:57:52] INFO root fetch - processPackages [pxblat]: Remove: archive file [/home/abi/fetcher/tmp/pxblat-1.1.9.tar.gz]
+[2024-05-16 07:57:52] INFO root fetch - processPackages [pxblat]: Remove: archive file [/home/abi/fetcher/tmp/pxblat-1.2.1.tar.gz]
+[2024-05-16 07:57:52] INFO root fetch - main [MainThread]: End processing [pxblat]: success
+[2024-05-16 07:57:52] INFO root fetch - main [MainThread]: Store serial: [23229963]
