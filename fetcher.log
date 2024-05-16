@@ -13214,3 +13214,63 @@ EOFError: EOF read where object expected
 [2024-05-16 08:40:27] INFO root fetch - processPackages [odoo14-addon-pms]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_pms-14.0.2.9.0-py3-none-any.whl.zip]
 [2024-05-16 08:40:27] INFO root fetch - main [MainThread]: End processing [odoo14-addon-pms]: success
 [2024-05-16 08:40:27] INFO root fetch - main [MainThread]: Store serial: [23230196]
+[2024-05-16 08:42:31] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23230196]
+[2024-05-16 08:42:36] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-16 08:42:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: klarda-python-sdk
+[2024-05-16 08:42:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: eurmlsdk
+[2024-05-16 08:42:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cg
+[2024-05-16 08:42:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: mlcvzoo-util
+[2024-05-16 08:42:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pytest-kookit
+[2024-05-16 08:42:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: gddoc2yml
+[2024-05-16 08:42:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: storey
+[2024-05-16 08:42:36] INFO root fetch - processPackages [pytest-kookit]: New version: [0.1.2] Old Version: [0.1.1]
+[2024-05-16 08:42:36] INFO root fetch - processPackages [eurmlsdk]: New version: [0.0.90] Old Version: [0.0.87]
+[2024-05-16 08:42:36] INFO root fetch - processPackages [storey]: New version: [1.7.9] Old Version: [1.7.8]
+[2024-05-16 08:42:36] INFO root fetch - processPackages [cg]: New version: [60.7.9] Old Version: [60.7.8]
+[2024-05-16 08:42:36] INFO root fetch - processPackages [pytest-kookit]: Downloading https://files.pythonhosted.org/packages/c3/af/7849621c9fa917dcaa7b278bba93ab79615e928275b6cedaebf8d9a64fd6/pytest_kookit-0.1.1.tar.gz
+[2024-05-16 08:42:36] INFO root fetch - processPackages [gddoc2yml]: New version: [0.2.0] Old Version: [0.1.1]
+[2024-05-16 08:42:36] WARNING root fetch - processPackages [klarda-python-sdk]: Skipping, unable to determine old version
+[2024-05-16 08:42:36] INFO root fetch - main [MainThread]: End processing [klarda-python-sdk] error
+[2024-05-16 08:42:36] INFO root fetch - processPackages [mlcvzoo-util]: New version: [0.4.2] Old Version: [0.4.1]
+[2024-05-16 08:42:36] INFO root fetch - processPackages [eurmlsdk]: Downloading https://files.pythonhosted.org/packages/49/7b/f7e8f3e3deb2880be9c9be8712406cae7b5bfcbdbe1995dd81e1cd00cc6c/eurmlsdk-0.0.87.tar.gz
+[2024-05-16 08:42:36] INFO root fetch - processPackages [storey]: Downloading https://files.pythonhosted.org/packages/ce/f2/fb725885928d8ccbbb0a7f28c52605a4972284c1100e5cca1a2523767ad3/storey-1.7.8.tar.gz
+[2024-05-16 08:42:36] INFO root fetch - processPackages [cg]: Downloading https://files.pythonhosted.org/packages/44/4c/2c6765cf909b3cf89d94a9f9f15ebc4762df0f315a7e114363bf0635bf61/cg-60.7.8.tar.gz
+[2024-05-16 08:42:36] INFO root fetch - processPackages [pytest-kookit]: Downloading https://files.pythonhosted.org/packages/51/56/47e20d0eca77f9c0bfee5cdb9014fcf77b5b09653814d4e2426013624b92/pytest_kookit-0.1.2.tar.gz
+[2024-05-16 08:42:36] INFO root fetch - processPackages [mlcvzoo-util]: Downloading https://files.pythonhosted.org/packages/5a/40/b5cf2b864190fb8c41265a7b5d9c1940b84dfa686fb6abd9dc241a649d28/mlcvzoo_util-0.4.1.tar.gz
+[2024-05-16 08:42:36] INFO root fetch - processPackages [gddoc2yml]: Downloading https://files.pythonhosted.org/packages/60/d2/49048afbc49cd7b690c50316cb63f90fe04c5ab414cb7d4392a4d50a992c/gddoc2yml-0.1.1.tar.gz
+[2024-05-16 08:42:36] INFO root fetch - processPackages [pytest-kookit]: executing diffoscope
+[2024-05-16 08:42:36] INFO root fetch - processPackages [pytest-kookit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytest_kookit-0.1.1.tar.gz tmp/pytest_kookit-0.1.2.tar.gz --markdown 20240516/p/pytest-kookit/0.1.1-0.1.2/README.md --exclude *.pyd
+[2024-05-16 08:42:36] INFO root fetch - processPackages [eurmlsdk]: Downloading https://files.pythonhosted.org/packages/f9/92/f78ad4ae323163e5258194957b5032f932b2b9acf42d1bb275aa055131b7/eurmlsdk-0.0.90.tar.gz
+[2024-05-16 08:42:36] INFO root fetch - processPackages [storey]: Downloading https://files.pythonhosted.org/packages/7a/07/b7c06ed930f7729cbabcef2eff7245adf34a98245820a6dc5cc2585c3d31/storey-1.7.9.tar.gz
+[2024-05-16 08:42:37] INFO root fetch - processPackages [eurmlsdk]: executing diffoscope
+[2024-05-16 08:42:37] INFO root fetch - processPackages [eurmlsdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eurmlsdk-0.0.87.tar.gz tmp/eurmlsdk-0.0.90.tar.gz --markdown 20240516/e/eurmlsdk/0.0.87-0.0.90/README.md --exclude *.pyd
+[2024-05-16 08:42:37] INFO root fetch - processPackages [cg]: Downloading https://files.pythonhosted.org/packages/6d/38/e3ff082487603f9b23877cfe7185b58a21cb7763a1d8c0ea38640ffb90ea/cg-60.7.9-py3-none-any.whl
+[2024-05-16 08:42:37] INFO root fetch - processPackages [gddoc2yml]: Downloading https://files.pythonhosted.org/packages/87/ab/9ef7bd039bc9ca01a6d698df2e2f2e7167372280501b12a52d77c53c1b02/gddoc2yml-0.2.0.tar.gz
+[2024-05-16 08:42:37] INFO root fetch - processPackages [storey]: executing diffoscope
+[2024-05-16 08:42:37] INFO root fetch - processPackages [storey]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/storey-1.7.8.tar.gz tmp/storey-1.7.9.tar.gz --markdown 20240516/s/storey/1.7.8-1.7.9/README.md --exclude *.pyd
+[2024-05-16 08:42:37] INFO root fetch - processPackages [mlcvzoo-util]: Downloading https://files.pythonhosted.org/packages/a8/fe/584641d21844fa652ff23aa39b470f80195a475a9e3faf797450b5649b09/mlcvzoo_util-0.4.2.tar.gz
+[2024-05-16 08:42:37] INFO root fetch - processPackages [gddoc2yml]: executing diffoscope
+[2024-05-16 08:42:37] INFO root fetch - processPackages [gddoc2yml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gddoc2yml-0.1.1.tar.gz tmp/gddoc2yml-0.2.0.tar.gz --markdown 20240516/g/gddoc2yml/0.1.1-0.2.0/README.md --exclude *.pyd
+[2024-05-16 08:42:37] INFO root fetch - processPackages [cg]: executing diffoscope
+[2024-05-16 08:42:37] INFO root fetch - processPackages [cg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cg-60.7.8.tar.gz tmp/cg-60.7.9-py3-none-any.whl.zip --markdown 20240516/c/cg/60.7.8-60.7.9/README.md --exclude *.pyd
+[2024-05-16 08:42:37] INFO root fetch - processPackages [mlcvzoo-util]: executing diffoscope
+[2024-05-16 08:42:37] INFO root fetch - processPackages [mlcvzoo-util]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mlcvzoo_util-0.4.1.tar.gz tmp/mlcvzoo_util-0.4.2.tar.gz --markdown 20240516/m/mlcvzoo-util/0.4.1-0.4.2/README.md --exclude *.pyd
+[2024-05-16 08:42:37] INFO root fetch - processPackages [pytest-kookit]: Remove: archive file [/home/abi/fetcher/tmp/pytest_kookit-0.1.1.tar.gz]
+[2024-05-16 08:42:37] INFO root fetch - processPackages [pytest-kookit]: Remove: archive file [/home/abi/fetcher/tmp/pytest_kookit-0.1.2.tar.gz]
+[2024-05-16 08:42:37] INFO root fetch - main [MainThread]: End processing [pytest-kookit]: success
+[2024-05-16 08:42:37] INFO root fetch - processPackages [eurmlsdk]: Remove: archive file [/home/abi/fetcher/tmp/eurmlsdk-0.0.87.tar.gz]
+[2024-05-16 08:42:37] INFO root fetch - processPackages [eurmlsdk]: Remove: archive file [/home/abi/fetcher/tmp/eurmlsdk-0.0.90.tar.gz]
+[2024-05-16 08:42:37] INFO root fetch - main [MainThread]: End processing [eurmlsdk]: success
+[2024-05-16 08:42:37] INFO root fetch - processPackages [storey]: Remove: archive file [/home/abi/fetcher/tmp/storey-1.7.8.tar.gz]
+[2024-05-16 08:42:37] INFO root fetch - processPackages [storey]: Remove: archive file [/home/abi/fetcher/tmp/storey-1.7.9.tar.gz]
+[2024-05-16 08:42:37] INFO root fetch - main [MainThread]: End processing [storey]: success
+[2024-05-16 08:42:38] INFO root fetch - processPackages [gddoc2yml]: Remove: archive file [/home/abi/fetcher/tmp/gddoc2yml-0.1.1.tar.gz]
+[2024-05-16 08:42:38] INFO root fetch - processPackages [gddoc2yml]: Remove: archive file [/home/abi/fetcher/tmp/gddoc2yml-0.2.0.tar.gz]
+[2024-05-16 08:42:38] INFO root fetch - main [MainThread]: End processing [gddoc2yml]: success
+[2024-05-16 08:42:38] INFO root fetch - processPackages [mlcvzoo-util]: Remove: archive file [/home/abi/fetcher/tmp/mlcvzoo_util-0.4.1.tar.gz]
+[2024-05-16 08:42:38] INFO root fetch - processPackages [mlcvzoo-util]: Remove: archive file [/home/abi/fetcher/tmp/mlcvzoo_util-0.4.2.tar.gz]
+[2024-05-16 08:42:38] INFO root fetch - main [MainThread]: End processing [mlcvzoo-util]: success
+[2024-05-16 08:42:38] INFO root fetch - processPackages [cg]: Remove: archive file [/home/abi/fetcher/tmp/cg-60.7.8.tar.gz]
+[2024-05-16 08:42:38] INFO root fetch - processPackages [cg]: Remove: archive file [/home/abi/fetcher/tmp/cg-60.7.9-py3-none-any.whl.zip]
+[2024-05-16 08:42:38] INFO root fetch - main [MainThread]: End processing [cg]: success
+[2024-05-16 08:42:38] INFO root fetch - main [MainThread]: Store serial: [23230215]
