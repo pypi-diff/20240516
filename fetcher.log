@@ -9272,3 +9272,26 @@ EOFError: EOF read where object expected
 [2024-05-16 04:12:30] INFO root fetch - processPackages [pySWXF]: Remove: archive file [/home/abi/fetcher/tmp/pyswxf-0.6.1.tar.gz]
 [2024-05-16 04:12:30] INFO root fetch - main [MainThread]: End processing [pySWXF]: success
 [2024-05-16 04:12:30] INFO root fetch - main [MainThread]: Store serial: [23228575]
+[2024-05-16 04:14:34] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23228575]
+[2024-05-16 04:14:39] INFO root fetch - main [MainThread]: No changed packages found
+[2024-05-16 04:16:39] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23228576]
+[2024-05-16 04:16:44] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-16 04:16:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: langchain-ibm
+[2024-05-16 04:16:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: erlab
+[2024-05-16 04:16:44] INFO root fetch - processPackages [erlab]: New version: [2.5.1] Old Version: [2.5.0]
+[2024-05-16 04:16:44] INFO root fetch - processPackages [langchain-ibm]: New version: [0.1.7] Old Version: [0.1.6]
+[2024-05-16 04:16:45] INFO root fetch - processPackages [erlab]: Downloading https://files.pythonhosted.org/packages/b4/0a/96ac9c59457c379015a6f6bb5f40559f8753b89c02a5b0e1bb062c1cbc19/erlab-2.5.0.tar.gz
+[2024-05-16 04:16:45] INFO root fetch - processPackages [langchain-ibm]: Downloading https://files.pythonhosted.org/packages/46/1e/f3e909bad5efb4262e508f9bcb3bf4a406be6023538fadc178b0d462b8ef/langchain_ibm-0.1.6.tar.gz
+[2024-05-16 04:16:45] INFO root fetch - processPackages [langchain-ibm]: Downloading https://files.pythonhosted.org/packages/98/d7/bcea649c3cb3e9b47473096d7f8b44154a30745218134c1a0d5fb264b263/langchain_ibm-0.1.7.tar.gz
+[2024-05-16 04:16:45] INFO root fetch - processPackages [langchain-ibm]: executing diffoscope
+[2024-05-16 04:16:45] INFO root fetch - processPackages [langchain-ibm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/langchain_ibm-0.1.6.tar.gz tmp/langchain_ibm-0.1.7.tar.gz --markdown 20240516/l/langchain-ibm/0.1.6-0.1.7/README.md --exclude *.pyd
+[2024-05-16 04:16:45] INFO root fetch - processPackages [erlab]: Downloading https://files.pythonhosted.org/packages/0e/61/2b0e451ba43566a7909b19903e04ff0a1d155b4267c9d3ceafcf48451b81/erlab-2.5.1.tar.gz
+[2024-05-16 04:16:45] INFO root fetch - processPackages [langchain-ibm]: Remove: archive file [/home/abi/fetcher/tmp/langchain_ibm-0.1.6.tar.gz]
+[2024-05-16 04:16:45] INFO root fetch - processPackages [langchain-ibm]: Remove: archive file [/home/abi/fetcher/tmp/langchain_ibm-0.1.7.tar.gz]
+[2024-05-16 04:16:45] INFO root fetch - main [MainThread]: End processing [langchain-ibm]: success
+[2024-05-16 04:16:45] INFO root fetch - processPackages [erlab]: executing diffoscope
+[2024-05-16 04:16:45] INFO root fetch - processPackages [erlab]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/erlab-2.5.0.tar.gz tmp/erlab-2.5.1.tar.gz --markdown 20240516/e/erlab/2.5.0-2.5.1/README.md --exclude *.pyd
+[2024-05-16 04:16:47] INFO root fetch - processPackages [erlab]: Remove: archive file [/home/abi/fetcher/tmp/erlab-2.5.0.tar.gz]
+[2024-05-16 04:16:47] INFO root fetch - processPackages [erlab]: Remove: archive file [/home/abi/fetcher/tmp/erlab-2.5.1.tar.gz]
+[2024-05-16 04:16:47] INFO root fetch - main [MainThread]: End processing [erlab]: success
+[2024-05-16 04:16:47] INFO root fetch - main [MainThread]: Store serial: [23228584]
