@@ -4696,3 +4696,33 @@ AssertionError: tmp/hygpytools-0.2.0.tar.gz does not exist
 [2024-05-16 02:44:49] INFO root fetch - processPackages [tfds-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tfds-nightly-4.9.4.dev202405150044.tar.gz]
 [2024-05-16 02:44:49] INFO root fetch - main [MainThread]: End processing [tfds-nightly]: success
 [2024-05-16 02:44:49] INFO root fetch - main [MainThread]: Store serial: [23227006]
+[2024-05-16 02:46:53] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23227006]
+[2024-05-16 02:46:58] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-16 02:46:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cdk-databrew-cicd
+[2024-05-16 02:46:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: streamlit-screen-stats
+[2024-05-16 02:46:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: qrawl
+[2024-05-16 02:46:58] INFO root fetch - processPackages [qrawl]: New version: [0.2.0] Old Version: [0.1.9]
+[2024-05-16 02:46:58] INFO root fetch - processPackages [streamlit-screen-stats]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-16 02:46:58] INFO root fetch - processPackages [cdk-databrew-cicd]: New version: [2.0.99] Old Version: [2.0.98]
+[2024-05-16 02:46:58] INFO root fetch - processPackages [qrawl]: Downloading https://files.pythonhosted.org/packages/d8/60/f0f85eebfb560a8f2c94cf5f5756e54fb21b3856424d08079ff45eebcee4/qrawl-0.1.9.tar.gz
+[2024-05-16 02:46:58] INFO root fetch - processPackages [streamlit-screen-stats]: Downloading https://files.pythonhosted.org/packages/b5/f3/ffa1db6a0713ba6b2fc4ac5b1e057f98d7180131b56db9b54f5e09b8ea3d/streamlit-screen-stats-0.0.8.tar.gz
+[2024-05-16 02:46:58] INFO root fetch - processPackages [cdk-databrew-cicd]: Downloading https://files.pythonhosted.org/packages/9c/18/acad9d22fe20a13d93a1aee49739981e3ab739a2edcb478344aa0fc5b783/cdk_databrew_cicd-2.0.98.tar.gz
+[2024-05-16 02:46:58] INFO root fetch - processPackages [qrawl]: Downloading https://files.pythonhosted.org/packages/97/7a/7fd31d07366aac3b3549157c3434983ccf02ee717439add55886bb38ca86/qrawl-0.2.0.tar.gz
+[2024-05-16 02:46:58] INFO root fetch - processPackages [streamlit-screen-stats]: Downloading https://files.pythonhosted.org/packages/47/c1/551994788e8d7fbca93c51782419b6f14c5db12208b833677955f6412aab/streamlit-screen-stats-0.0.9.tar.gz
+[2024-05-16 02:46:58] INFO root fetch - processPackages [qrawl]: executing diffoscope
+[2024-05-16 02:46:58] INFO root fetch - processPackages [qrawl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qrawl-0.1.9.tar.gz tmp/qrawl-0.2.0.tar.gz --markdown 20240516/q/qrawl/0.1.9-0.2.0/README.md --exclude *.pyd
+[2024-05-16 02:46:58] INFO root fetch - processPackages [cdk-databrew-cicd]: Downloading https://files.pythonhosted.org/packages/66/41/4c5089b171b28b627753bb3de1b4b696fdaeb4f78ef49dcb72a79fcb6e9d/cdk_databrew_cicd-2.0.99.tar.gz
+[2024-05-16 02:46:58] INFO root fetch - processPackages [streamlit-screen-stats]: executing diffoscope
+[2024-05-16 02:46:58] INFO root fetch - processPackages [streamlit-screen-stats]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/streamlit-screen-stats-0.0.8.tar.gz tmp/streamlit-screen-stats-0.0.9.tar.gz --markdown 20240516/s/streamlit-screen-stats/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-16 02:46:58] INFO root fetch - processPackages [cdk-databrew-cicd]: executing diffoscope
+[2024-05-16 02:46:58] INFO root fetch - processPackages [cdk-databrew-cicd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk_databrew_cicd-2.0.98.tar.gz tmp/cdk_databrew_cicd-2.0.99.tar.gz --markdown 20240516/c/cdk-databrew-cicd/2.0.98-2.0.99/README.md --exclude *.pyd
+[2024-05-16 02:46:59] INFO root fetch - processPackages [qrawl]: Remove: archive file [/home/abi/fetcher/tmp/qrawl-0.1.9.tar.gz]
+[2024-05-16 02:46:59] INFO root fetch - processPackages [qrawl]: Remove: archive file [/home/abi/fetcher/tmp/qrawl-0.2.0.tar.gz]
+[2024-05-16 02:46:59] INFO root fetch - main [MainThread]: End processing [qrawl]: success
+[2024-05-16 02:46:59] INFO root fetch - processPackages [cdk-databrew-cicd]: Remove: archive file [/home/abi/fetcher/tmp/cdk_databrew_cicd-2.0.98.tar.gz]
+[2024-05-16 02:46:59] INFO root fetch - processPackages [cdk-databrew-cicd]: Remove: archive file [/home/abi/fetcher/tmp/cdk_databrew_cicd-2.0.99.tar.gz]
+[2024-05-16 02:46:59] INFO root fetch - main [MainThread]: End processing [cdk-databrew-cicd]: success
+[2024-05-16 02:47:11] INFO root fetch - processPackages [streamlit-screen-stats]: Remove: archive file [/home/abi/fetcher/tmp/streamlit-screen-stats-0.0.8.tar.gz]
+[2024-05-16 02:47:11] INFO root fetch - processPackages [streamlit-screen-stats]: Remove: archive file [/home/abi/fetcher/tmp/streamlit-screen-stats-0.0.9.tar.gz]
+[2024-05-16 02:47:11] INFO root fetch - main [MainThread]: End processing [streamlit-screen-stats]: success
+[2024-05-16 02:47:11] INFO root fetch - main [MainThread]: Store serial: [23227018]
