@@ -9924,3 +9924,56 @@ EOFError: EOF read where object expected
 [2024-05-16 04:54:16] INFO root fetch - processPackages [YaraForge]: Remove: archive file [/home/abi/fetcher/tmp/YaraForge-0.1.9b1.tar.gz]
 [2024-05-16 04:54:16] INFO root fetch - main [MainThread]: End processing [YaraForge]: success
 [2024-05-16 04:54:16] INFO root fetch - main [MainThread]: Store serial: [23228889]
+[2024-05-16 04:56:20] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23228889]
+[2024-05-16 04:56:25] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-16 04:56:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: langchain-fireworks
+[2024-05-16 04:56:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: sourcery-nightly
+[2024-05-16 04:56:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: langchain-upstage
+[2024-05-16 04:56:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: slack-sdk
+[2024-05-16 04:56:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ovinc-client
+[2024-05-16 04:56:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: CheeseLog
+[2024-05-16 04:56:25] INFO root fetch - processPackages [sourcery-nightly]: New version: [1.9.0] Old Version: [1.8.0]
+[2024-05-16 04:56:25] INFO root fetch - processPackages [slack-sdk]: New version: [3.9.1] Old Version: [3.9.0rc2]
+[2024-05-16 04:56:25] INFO root fetch - processPackages [sourcery-nightly]: Downloading https://files.pythonhosted.org/packages/53/c3/6633071e69f9b7c9fa4dc3fd942df526a00564a3b06fde4e568a9d207143/sourcery_nightly-1.8.0-py2.py3-none-win_amd64.whl
+[2024-05-16 04:56:25] INFO root fetch - processPackages [ovinc-client]: New version: [0.2.5] Old Version: [0.2.4]
+[2024-05-16 04:56:25] INFO root fetch - processPackages [langchain-upstage]: New version: [0.1.5] Old Version: [0.1.4]
+[2024-05-16 04:56:25] INFO root fetch - processPackages [langchain-fireworks]: New version: [0.1.3] Old Version: [0.1.2]
+[2024-05-16 04:56:25] INFO root fetch - processPackages [CheeseLog]: New version: [1.0.2] Old Version: [1.0.1]
+[2024-05-16 04:56:25] WARNING root fetch - processPackages [sourcery-nightly]: Skipping package: exceeds size limit 68491059>=10485760
+[2024-05-16 04:56:25] INFO root fetch - main [MainThread]: End processing [sourcery-nightly] error
+[2024-05-16 04:56:25] INFO root fetch - processPackages [slack-sdk]: Downloading https://files.pythonhosted.org/packages/b2/95/92a6753eb7bc136617a5856cf2f9991bcb68bcd76c3a75a837da43c673d2/slack_sdk-3.9.0rc2.tar.gz
+[2024-05-16 04:56:25] INFO root fetch - processPackages [ovinc-client]: Downloading https://files.pythonhosted.org/packages/44/d3/e064b609a73491c30026300c035c8d5952ab57be1eb42c9250a3b1c685af/ovinc_client-0.2.4.tar.gz
+[2024-05-16 04:56:25] INFO root fetch - processPackages [langchain-upstage]: Downloading https://files.pythonhosted.org/packages/26/0e/b45375cdb3d293ebef862685129c7d09a6f2ae3709d1ddf1214692275af6/langchain_upstage-0.1.4.tar.gz
+[2024-05-16 04:56:25] INFO root fetch - processPackages [CheeseLog]: Downloading https://files.pythonhosted.org/packages/b4/9b/cc9c3ba2bbf7d3ffa8cfe28b5a6f02193aa74b26cc208bb90622d99b393e/cheeselog-1.0.1.tar.gz
+[2024-05-16 04:56:25] INFO root fetch - processPackages [langchain-fireworks]: Downloading https://files.pythonhosted.org/packages/41/3f/960dfb29340c2dc9fce8a096d6f8069251b2ec138efbafd586e2f1cd0a33/langchain_fireworks-0.1.2.tar.gz
+[2024-05-16 04:56:25] INFO root fetch - processPackages [ovinc-client]: Downloading https://files.pythonhosted.org/packages/0e/da/8006d44ed3fb83592c19da3ac68ceca0db5fa51a76199de552e5cf6ee160/ovinc_client-0.2.5.tar.gz
+[2024-05-16 04:56:25] INFO root fetch - processPackages [CheeseLog]: Downloading https://files.pythonhosted.org/packages/12/7c/0f6821336e26d2e2a6687d1772a4cf30e662f8bef5f50ae48cacdc7324c7/cheeselog-1.0.2-py2.py3-none-any.whl
+[2024-05-16 04:56:25] INFO root fetch - processPackages [slack-sdk]: Downloading https://files.pythonhosted.org/packages/24/4f/b1c5ef4ca6f619212e56739d0c97e0fdcf30c342c890f3f80bbe3fbde3a7/slack_sdk-3.9.1.tar.gz
+[2024-05-16 04:56:25] INFO root fetch - processPackages [langchain-upstage]: Downloading https://files.pythonhosted.org/packages/0f/91/62876d0f19a6287a5c5759dd46b9f7bfa6b1c7d9b993e325051f52d12e1e/langchain_upstage-0.1.5.tar.gz
+[2024-05-16 04:56:26] INFO root fetch - processPackages [langchain-fireworks]: Downloading https://files.pythonhosted.org/packages/b2/de/188b45408a80f59365a0e0aecc4acc52225b9c81b00b57a2fe1205040a37/langchain_fireworks-0.1.3.tar.gz
+[2024-05-16 04:56:26] INFO root fetch - processPackages [ovinc-client]: executing diffoscope
+[2024-05-16 04:56:26] INFO root fetch - processPackages [CheeseLog]: executing diffoscope
+[2024-05-16 04:56:26] INFO root fetch - processPackages [ovinc-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ovinc_client-0.2.4.tar.gz tmp/ovinc_client-0.2.5.tar.gz --markdown 20240516/o/ovinc-client/0.2.4-0.2.5/README.md --exclude *.pyd
+[2024-05-16 04:56:26] INFO root fetch - processPackages [CheeseLog]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cheeselog-1.0.1.tar.gz tmp/cheeselog-1.0.2-py2.py3-none-any.whl.zip --markdown 20240516/C/CheeseLog/1.0.1-1.0.2/README.md --exclude *.pyd
+[2024-05-16 04:56:26] INFO root fetch - processPackages [langchain-upstage]: executing diffoscope
+[2024-05-16 04:56:26] INFO root fetch - processPackages [langchain-upstage]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/langchain_upstage-0.1.4.tar.gz tmp/langchain_upstage-0.1.5.tar.gz --markdown 20240516/l/langchain-upstage/0.1.4-0.1.5/README.md --exclude *.pyd
+[2024-05-16 04:56:26] INFO root fetch - processPackages [slack-sdk]: executing diffoscope
+[2024-05-16 04:56:26] INFO root fetch - processPackages [slack-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/slack_sdk-3.9.0rc2.tar.gz tmp/slack_sdk-3.9.1.tar.gz --markdown 20240516/s/slack-sdk/3.9.0rc2-3.9.1/README.md --exclude *.pyd
+[2024-05-16 04:56:26] INFO root fetch - processPackages [langchain-fireworks]: executing diffoscope
+[2024-05-16 04:56:26] INFO root fetch - processPackages [langchain-fireworks]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/langchain_fireworks-0.1.2.tar.gz tmp/langchain_fireworks-0.1.3.tar.gz --markdown 20240516/l/langchain-fireworks/0.1.2-0.1.3/README.md --exclude *.pyd
+[2024-05-16 04:56:26] INFO root fetch - processPackages [CheeseLog]: Remove: archive file [/home/abi/fetcher/tmp/cheeselog-1.0.1.tar.gz]
+[2024-05-16 04:56:26] INFO root fetch - processPackages [CheeseLog]: Remove: archive file [/home/abi/fetcher/tmp/cheeselog-1.0.2-py2.py3-none-any.whl.zip]
+[2024-05-16 04:56:26] INFO root fetch - main [MainThread]: End processing [CheeseLog]: success
+[2024-05-16 04:56:26] INFO root fetch - processPackages [ovinc-client]: Remove: archive file [/home/abi/fetcher/tmp/ovinc_client-0.2.4.tar.gz]
+[2024-05-16 04:56:26] INFO root fetch - processPackages [ovinc-client]: Remove: archive file [/home/abi/fetcher/tmp/ovinc_client-0.2.5.tar.gz]
+[2024-05-16 04:56:26] INFO root fetch - main [MainThread]: End processing [ovinc-client]: success
+[2024-05-16 04:56:26] INFO root fetch - processPackages [langchain-fireworks]: Remove: archive file [/home/abi/fetcher/tmp/langchain_fireworks-0.1.2.tar.gz]
+[2024-05-16 04:56:26] INFO root fetch - processPackages [langchain-fireworks]: Remove: archive file [/home/abi/fetcher/tmp/langchain_fireworks-0.1.3.tar.gz]
+[2024-05-16 04:56:26] INFO root fetch - main [MainThread]: End processing [langchain-fireworks]: success
+[2024-05-16 04:56:26] INFO root fetch - processPackages [langchain-upstage]: Remove: archive file [/home/abi/fetcher/tmp/langchain_upstage-0.1.4.tar.gz]
+[2024-05-16 04:56:26] INFO root fetch - processPackages [langchain-upstage]: Remove: archive file [/home/abi/fetcher/tmp/langchain_upstage-0.1.5.tar.gz]
+[2024-05-16 04:56:26] INFO root fetch - main [MainThread]: End processing [langchain-upstage]: success
+[2024-05-16 04:56:27] INFO root fetch - processPackages [slack-sdk]: Remove: archive file [/home/abi/fetcher/tmp/slack_sdk-3.9.0rc2.tar.gz]
+[2024-05-16 04:56:27] INFO root fetch - processPackages [slack-sdk]: Remove: archive file [/home/abi/fetcher/tmp/slack_sdk-3.9.1.tar.gz]
+[2024-05-16 04:56:27] INFO root fetch - main [MainThread]: End processing [slack-sdk]: success
+[2024-05-16 04:56:27] INFO root fetch - main [MainThread]: Store serial: [23228907]
