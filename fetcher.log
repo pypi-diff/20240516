@@ -13352,3 +13352,63 @@ EOFError: EOF read where object expected
 [2024-05-16 08:46:59] INFO root fetch - processPackages [powerlift]: Remove: archive file [/home/abi/fetcher/tmp/powerlift-0.0.2.tar.gz]
 [2024-05-16 08:46:59] INFO root fetch - main [MainThread]: End processing [powerlift]: success
 [2024-05-16 08:46:59] INFO root fetch - main [MainThread]: Store serial: [23230249]
+[2024-05-16 08:49:03] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23230249]
+[2024-05-16 08:49:08] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-16 08:49:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: rfc9457
+[2024-05-16 08:49:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: dooth
+[2024-05-16 08:49:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pms-encoder
+[2024-05-16 08:49:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: magicdaq
+[2024-05-16 08:49:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: odoo-addon-product-configurator-sale
+[2024-05-16 08:49:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pluralize
+[2024-05-16 08:49:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: qrkey
+[2024-05-16 08:49:08] INFO root fetch - processPackages [qrkey]: New version: [0.5.2] Old Version: [0.5.1]
+[2024-05-16 08:49:08] WARNING root fetch - processPackages [rfc9457]: Skipping, unable to determine old version
+[2024-05-16 08:49:08] INFO root fetch - main [MainThread]: End processing [rfc9457] error
+[2024-05-16 08:49:08] INFO root fetch - processPackages [pms-encoder]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-16 08:49:08] INFO root fetch - processPackages [odoo-addon-product-configurator-sale]: New version: [16.0.1.0.0.7] Old Version: [16.0.1.0.0.6]
+[2024-05-16 08:49:08] INFO root fetch - processPackages [magicdaq]: New version: [1.9.0] Old Version: [1.8.0]
+[2024-05-16 08:49:08] INFO root fetch - processPackages [pms-encoder]: Downloading https://files.pythonhosted.org/packages/80/f1/88f2f54188c15bf6cca5ba7a3a347b8d1c83b15a626f541acf3dde5aa63d/pms_encoder-0.0.8.tar.gz
+[2024-05-16 08:49:08] INFO root fetch - processPackages [dooth]: New version: [1.1.2] Old Version: [1.1.1]
+[2024-05-16 08:49:08] INFO root fetch - processPackages [pluralize]: New version: [20240515.1] Old Version: [20240413.1]
+[2024-05-16 08:49:09] INFO root fetch - processPackages [qrkey]: Downloading https://files.pythonhosted.org/packages/e1/25/6e050e4ebc4b5357bf32e52ea6a41a5aa1bd70d44e3c5b6ae495c4d088e6/qrkey-0.5.1.tar.gz
+[2024-05-16 08:49:09] INFO root fetch - processPackages [magicdaq]: Downloading https://files.pythonhosted.org/packages/83/57/e8d944530d34142a0e2d1e4f39859b9288b2aa3843e27467d90f03515ea4/magicdaq-1.8.0.tar.gz
+[2024-05-16 08:49:09] INFO root fetch - processPackages [dooth]: Downloading https://files.pythonhosted.org/packages/c1/e0/bfd537600426ca5b1f101408a974bbcbbd5de8df9f5eb0e4968b42db027f/dooth-1.1.1-py3-none-any.whl
+[2024-05-16 08:49:09] INFO root fetch - processPackages [odoo-addon-product-configurator-sale]: Downloading https://files.pythonhosted.org/packages/4c/1d/3a29f4a2520bcc08f64f4398a53a173c4c7a4b5023f2b167321fc570a5ad/odoo_addon_product_configurator_sale-16.0.1.0.0.6-py3-none-any.whl
+[2024-05-16 08:49:09] INFO root fetch - processPackages [pluralize]: Downloading https://files.pythonhosted.org/packages/e3/3d/15d02998e588bf9b28477c3fd0d09d9508c057fa069a6cec6492fe7c8daa/pluralize-20240413.1.tar.gz
+[2024-05-16 08:49:09] INFO root fetch - processPackages [pms-encoder]: Downloading https://files.pythonhosted.org/packages/93/31/8bb081756db42925fab6507b6e0f497d6bf45acd407ff38cb00f2aaec54c/pms_encoder-0.0.9.tar.gz
+[2024-05-16 08:49:09] INFO root fetch - processPackages [pms-encoder]: executing diffoscope
+[2024-05-16 08:49:09] INFO root fetch - processPackages [pms-encoder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pms_encoder-0.0.8.tar.gz tmp/pms_encoder-0.0.9.tar.gz --markdown 20240516/p/pms-encoder/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-16 08:49:09] INFO root fetch - processPackages [dooth]: Downloading https://files.pythonhosted.org/packages/23/8c/6fcbafe6b5010f000090a029454d10392415c5a86bb9552279bfdd813f09/dooth-1.1.2-py3-none-any.whl
+[2024-05-16 08:49:09] INFO root fetch - processPackages [odoo-addon-product-configurator-sale]: Downloading https://files.pythonhosted.org/packages/cd/9f/3f9f79be214c68b336533274f488d4d4238a9aae7856bdf1c7404e7fce3a/odoo_addon_product_configurator_sale-16.0.1.0.0.7-py3-none-any.whl
+[2024-05-16 08:49:09] INFO root fetch - processPackages [pluralize]: Downloading https://files.pythonhosted.org/packages/38/02/4abf55e8e9a2fe99645f7fdc0280e8f3999f12d7fbf2f3c66610aa19cd73/pluralize-20240515.1.tar.gz
+[2024-05-16 08:49:09] INFO root fetch - processPackages [dooth]: executing diffoscope
+[2024-05-16 08:49:09] INFO root fetch - processPackages [dooth]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dooth-1.1.1-py3-none-any.whl.zip tmp/dooth-1.1.2-py3-none-any.whl.zip --markdown 20240516/d/dooth/1.1.1-1.1.2/README.md --exclude *.pyd
+[2024-05-16 08:49:09] INFO root fetch - processPackages [odoo-addon-product-configurator-sale]: executing diffoscope
+[2024-05-16 08:49:09] INFO root fetch - processPackages [odoo-addon-product-configurator-sale]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_product_configurator_sale-16.0.1.0.0.6-py3-none-any.whl.zip tmp/odoo_addon_product_configurator_sale-16.0.1.0.0.7-py3-none-any.whl.zip --markdown 20240516/o/odoo-addon-product-configurator-sale/16.0.1.0.0.6-16.0.1.0.0.7/README.md --exclude *.pyd
+[2024-05-16 08:49:09] INFO root fetch - processPackages [qrkey]: Downloading https://files.pythonhosted.org/packages/5c/4f/f614dca5e7cdf6f4dbda51873dec0ff2f759f8953573dce82fa228cb63b9/qrkey-0.5.2.tar.gz
+[2024-05-16 08:49:09] INFO root fetch - processPackages [pluralize]: executing diffoscope
+[2024-05-16 08:49:09] INFO root fetch - processPackages [pluralize]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pluralize-20240413.1.tar.gz tmp/pluralize-20240515.1.tar.gz --markdown 20240516/p/pluralize/20240413.1-20240515.1/README.md --exclude *.pyd
+[2024-05-16 08:49:09] INFO root fetch - processPackages [qrkey]: executing diffoscope
+[2024-05-16 08:49:09] INFO root fetch - processPackages [qrkey]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qrkey-0.5.1.tar.gz tmp/qrkey-0.5.2.tar.gz --markdown 20240516/q/qrkey/0.5.1-0.5.2/README.md --exclude *.pyd
+[2024-05-16 08:49:09] INFO root fetch - processPackages [pms-encoder]: Remove: archive file [/home/abi/fetcher/tmp/pms_encoder-0.0.8.tar.gz]
+[2024-05-16 08:49:09] INFO root fetch - processPackages [pms-encoder]: Remove: archive file [/home/abi/fetcher/tmp/pms_encoder-0.0.9.tar.gz]
+[2024-05-16 08:49:09] INFO root fetch - main [MainThread]: End processing [pms-encoder]: success
+[2024-05-16 08:49:10] INFO root fetch - processPackages [pluralize]: Remove: archive file [/home/abi/fetcher/tmp/pluralize-20240413.1.tar.gz]
+[2024-05-16 08:49:10] INFO root fetch - processPackages [pluralize]: Remove: archive file [/home/abi/fetcher/tmp/pluralize-20240515.1.tar.gz]
+[2024-05-16 08:49:10] INFO root fetch - main [MainThread]: End processing [pluralize]: success
+[2024-05-16 08:49:10] INFO root fetch - processPackages [odoo-addon-product-configurator-sale]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_product_configurator_sale-16.0.1.0.0.6-py3-none-any.whl.zip]
+[2024-05-16 08:49:10] INFO root fetch - processPackages [odoo-addon-product-configurator-sale]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_product_configurator_sale-16.0.1.0.0.7-py3-none-any.whl.zip]
+[2024-05-16 08:49:10] INFO root fetch - main [MainThread]: End processing [odoo-addon-product-configurator-sale]: success
+[2024-05-16 08:49:10] INFO root fetch - processPackages [dooth]: Remove: archive file [/home/abi/fetcher/tmp/dooth-1.1.1-py3-none-any.whl.zip]
+[2024-05-16 08:49:10] INFO root fetch - processPackages [dooth]: Remove: archive file [/home/abi/fetcher/tmp/dooth-1.1.2-py3-none-any.whl.zip]
+[2024-05-16 08:49:10] INFO root fetch - main [MainThread]: End processing [dooth]: success
+[2024-05-16 08:49:10] INFO root fetch - processPackages [qrkey]: Remove: archive file [/home/abi/fetcher/tmp/qrkey-0.5.1.tar.gz]
+[2024-05-16 08:49:10] INFO root fetch - processPackages [qrkey]: Remove: archive file [/home/abi/fetcher/tmp/qrkey-0.5.2.tar.gz]
+[2024-05-16 08:49:10] INFO root fetch - main [MainThread]: End processing [qrkey]: success
+[2024-05-16 08:49:10] INFO root fetch - processPackages [magicdaq]: Downloading https://files.pythonhosted.org/packages/95/6d/ad2d021fbf33ce562ffeab51321785c5d6da2243ee81e0672179a6208d3e/magicdaq-1.9.0.tar.gz
+[2024-05-16 08:49:12] INFO root fetch - processPackages [magicdaq]: executing diffoscope
+[2024-05-16 08:49:12] INFO root fetch - processPackages [magicdaq]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/magicdaq-1.8.0.tar.gz tmp/magicdaq-1.9.0.tar.gz --markdown 20240516/m/magicdaq/1.8.0-1.9.0/README.md --exclude *.pyd
+[2024-05-16 08:49:17] INFO root fetch - processPackages [magicdaq]: Remove: archive file [/home/abi/fetcher/tmp/magicdaq-1.8.0.tar.gz]
+[2024-05-16 08:49:17] INFO root fetch - processPackages [magicdaq]: Remove: archive file [/home/abi/fetcher/tmp/magicdaq-1.9.0.tar.gz]
+[2024-05-16 08:49:17] INFO root fetch - main [MainThread]: End processing [magicdaq]: success
+[2024-05-16 08:49:17] INFO root fetch - main [MainThread]: Store serial: [23230270]
