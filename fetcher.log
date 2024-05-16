@@ -21236,3 +21236,92 @@ EOFError: EOF read where object expected
 [2024-05-16 11:19:38] INFO root fetch - processPackages [stepup]: Remove: archive file [/home/abi/fetcher/tmp/stepup-1.2.1.tar.gz]
 [2024-05-16 11:19:38] INFO root fetch - main [MainThread]: End processing [stepup]: success
 [2024-05-16 11:19:38] INFO root fetch - main [MainThread]: Store serial: [23232999]
+[2024-05-16 11:21:43] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23232999]
+[2024-05-16 11:21:48] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2024-05-16 11:21:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pymobiledevice3
+[2024-05-16 11:21:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: simpleworkspace
+[2024-05-16 11:21:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: aipkgs-core
+[2024-05-16 11:21:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: socketsecurity
+[2024-05-16 11:21:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: stigg-api-client
+[2024-05-16 11:21:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: kcli
+[2024-05-16 11:21:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: xplainable-client
+[2024-05-16 11:21:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: festo-edcon
+[2024-05-16 11:21:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: stigg-api-client-v2
+[2024-05-16 11:21:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: autowork-cli
+[2024-05-16 11:21:48] INFO root fetch - processPackages [socketsecurity]: New version: [0.0.56] Old Version: [0.0.55]
+[2024-05-16 11:21:48] INFO root fetch - processPackages [aipkgs-core]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-05-16 11:21:48] INFO root fetch - processPackages [simpleworkspace]: New version: [1.2.207] Old Version: [1.2.206]
+[2024-05-16 11:21:48] INFO root fetch - processPackages [kcli]: New version: [99.0.202405160914] Old Version: [99.0.202405160831]
+[2024-05-16 11:21:48] INFO root fetch - processPackages [festo-edcon]: New version: [0.9.0] Old Version: [0.8.0]
+[2024-05-16 11:21:48] INFO root fetch - processPackages [socketsecurity]: Downloading https://files.pythonhosted.org/packages/32/64/3fdb8a1a54bb109bf46ce4482602eda1b398163ea9e270f8261a5757e6a1/socketsecurity-0.0.55-py3-none-any.whl
+[2024-05-16 11:21:48] INFO root fetch - processPackages [xplainable-client]: New version: [1.2.2] Old Version: [1.2.1.post4]
+[2024-05-16 11:21:48] INFO root fetch - processPackages [autowork-cli]: New version: [0.4.5] Old Version: [0.1.6]
+[2024-05-16 11:21:48] INFO root fetch - processPackages [pymobiledevice3]: New version: [4.6.0] Old Version: [4.5.6]
+[2024-05-16 11:21:48] INFO root fetch - processPackages [stigg-api-client-v2]: New version: [1.98.1] Old Version: [1.98.0]
+[2024-05-16 11:21:48] INFO root fetch - processPackages [aipkgs-core]: Downloading https://files.pythonhosted.org/packages/1b/95/2d761178d77290df39be6e93078af4b40f985d9809d971cd17dd950588d3/aipkgs_core-1.0.8.tar.gz
+[2024-05-16 11:21:48] INFO root fetch - processPackages [stigg-api-client]: New version: [1.98.1] Old Version: [1.98.0]
+[2024-05-16 11:21:48] INFO root fetch - processPackages [simpleworkspace]: Downloading https://files.pythonhosted.org/packages/49/df/74db3152d30f86f360105935ee60c15917d3423f894ce52878f33eca7364/simpleworkspace-1.2.206.tar.gz
+[2024-05-16 11:21:48] INFO root fetch - processPackages [kcli]: Downloading https://files.pythonhosted.org/packages/40/79/c55f58122977c6508843584412498ba2507bf2245bb0d51c6d6e5f246764/kcli-99.0.202405160831.tar.gz
+[2024-05-16 11:21:48] INFO root fetch - processPackages [festo-edcon]: Downloading https://files.pythonhosted.org/packages/fb/80/032d30184e045615ab1e535a158fa764b4e55b85d7d50ec9d6c090e9e4a7/festo_edcon-0.8.0-py3-none-any.whl
+[2024-05-16 11:21:48] INFO root fetch - processPackages [pymobiledevice3]: Downloading https://files.pythonhosted.org/packages/e5/72/1a85487e863fe63bc07afd1d6d80317b9e1f76c2b2fc979e744793b5e087/pymobiledevice3-4.5.6.tar.gz
+[2024-05-16 11:21:48] INFO root fetch - processPackages [xplainable-client]: Downloading https://files.pythonhosted.org/packages/23/5a/96e1c19840b979cf409c8e78e3ce9014270f1b3382b05950c52c0ac41db8/xplainable-client-1.2.1.post4.tar.gz
+[2024-05-16 11:21:48] INFO root fetch - processPackages [autowork-cli]: Downloading https://files.pythonhosted.org/packages/fa/62/a45f9ecb0b6884cabfbb41cc262f798c7c4fc52fafcbb370adc572fdb2aa/autowork-cli-0.1.6.tar.gz
+[2024-05-16 11:21:48] INFO root fetch - processPackages [stigg-api-client-v2]: Downloading https://files.pythonhosted.org/packages/9e/ad/1fefc56e33c405d4aa0b5a382414f77d27efc7861a1cedce255c72c8f7d7/stigg_api_client_v2-1.98.0.tar.gz
+[2024-05-16 11:21:48] INFO root fetch - processPackages [aipkgs-core]: Downloading https://files.pythonhosted.org/packages/c8/b2/fb0706bf9eeeee24d524f103cad3a18e46870855a277a735a6c83ea06692/aipkgs_core-1.0.9.tar.gz
+[2024-05-16 11:21:48] WARNING root fetch - processPackages [pymobiledevice3]: Skipping package: exceeds size limit 31546853>=10485760
+[2024-05-16 11:21:48] INFO root fetch - main [MainThread]: End processing [pymobiledevice3] error
+[2024-05-16 11:21:48] INFO root fetch - processPackages [stigg-api-client]: Downloading https://files.pythonhosted.org/packages/98/38/1422eb2135687adff8e0844dc4afcdcdd3c44140b3b89335819f7a678037/stigg_api_client-1.98.0.tar.gz
+[2024-05-16 11:21:48] INFO root fetch - processPackages [simpleworkspace]: Downloading https://files.pythonhosted.org/packages/f3/ea/1f01aed8402846caae3ae3c6cabbdbd596c5e3a6876580e8eaa59c900b98/simpleworkspace-1.2.207.tar.gz
+[2024-05-16 11:21:48] INFO root fetch - processPackages [aipkgs-core]: executing diffoscope
+[2024-05-16 11:21:48] INFO root fetch - processPackages [aipkgs-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aipkgs_core-1.0.8.tar.gz tmp/aipkgs_core-1.0.9.tar.gz --markdown 20240516/a/aipkgs-core/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-05-16 11:21:49] INFO root fetch - processPackages [socketsecurity]: Downloading https://files.pythonhosted.org/packages/ca/c4/a5a3c489030372845ac66ce7baeb8c58083256d675c50edfa33c590978e7/socketsecurity-0.0.56.tar.gz
+[2024-05-16 11:21:49] INFO root fetch - processPackages [simpleworkspace]: executing diffoscope
+[2024-05-16 11:21:49] INFO root fetch - processPackages [simpleworkspace]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/simpleworkspace-1.2.206.tar.gz tmp/simpleworkspace-1.2.207.tar.gz --markdown 20240516/s/simpleworkspace/1.2.206-1.2.207/README.md --exclude *.pyd
+[2024-05-16 11:21:49] INFO root fetch - processPackages [kcli]: Downloading https://files.pythonhosted.org/packages/7c/58/698de194a6b48906b54d49193cb15e0149310688b2a176153bc9e87b2d23/kcli-99.0.202405160914.tar.gz
+[2024-05-16 11:21:49] INFO root fetch - processPackages [xplainable-client]: Downloading https://files.pythonhosted.org/packages/73/21/d6ee2cc987dbb47bffb760fa9c46b3cec112e207527a96b561ef7bf0b2be/xplainable_client-1.2.2.tar.gz
+[2024-05-16 11:21:49] INFO root fetch - processPackages [autowork-cli]: Downloading https://files.pythonhosted.org/packages/ed/c4/f930e469cbb58a7fdc320ef5a2cb65eeec73800bacbf94a28f103e718c2d/autowork-cli-0.4.5.tar.gz
+[2024-05-16 11:21:49] INFO root fetch - processPackages [festo-edcon]: Downloading https://files.pythonhosted.org/packages/78/fc/7a8ecf8113702455aa6143ab630b5c8929208cc84ac3c4a7570417569523/festo_edcon-0.9.0-py3-none-any.whl
+[2024-05-16 11:21:49] INFO root fetch - processPackages [stigg-api-client]: Downloading https://files.pythonhosted.org/packages/da/d2/6b7a0c4e4205896d09042773fe56913ad646e6493900cc11613eabb26e05/stigg_api_client-1.98.1.tar.gz
+[2024-05-16 11:21:49] INFO root fetch - processPackages [xplainable-client]: executing diffoscope
+[2024-05-16 11:21:49] INFO root fetch - processPackages [xplainable-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xplainable-client-1.2.1.post4.tar.gz tmp/xplainable_client-1.2.2.tar.gz --markdown 20240516/x/xplainable-client/1.2.1.post4-1.2.2/README.md --exclude *.pyd
+[2024-05-16 11:21:49] INFO root fetch - processPackages [stigg-api-client-v2]: Downloading https://files.pythonhosted.org/packages/e4/6e/6806296621be882a70042a1d47ba321aad0c99c69b0e1a5f16346a41b4b5/stigg_api_client_v2-1.98.1.tar.gz
+[2024-05-16 11:21:49] INFO root fetch - processPackages [autowork-cli]: executing diffoscope
+[2024-05-16 11:21:49] INFO root fetch - processPackages [autowork-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autowork-cli-0.1.6.tar.gz tmp/autowork-cli-0.4.5.tar.gz --markdown 20240516/a/autowork-cli/0.1.6-0.4.5/README.md --exclude *.pyd
+[2024-05-16 11:21:49] INFO root fetch - processPackages [festo-edcon]: executing diffoscope
+[2024-05-16 11:21:49] INFO root fetch - processPackages [festo-edcon]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/festo_edcon-0.8.0-py3-none-any.whl.zip tmp/festo_edcon-0.9.0-py3-none-any.whl.zip --markdown 20240516/f/festo-edcon/0.8.0-0.9.0/README.md --exclude *.pyd
+[2024-05-16 11:21:49] INFO root fetch - processPackages [socketsecurity]: executing diffoscope
+[2024-05-16 11:21:49] INFO root fetch - processPackages [socketsecurity]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/socketsecurity-0.0.55-py3-none-any.whl.zip tmp/socketsecurity-0.0.56.tar.gz --markdown 20240516/s/socketsecurity/0.0.55-0.0.56/README.md --exclude *.pyd
+[2024-05-16 11:21:49] INFO root fetch - processPackages [stigg-api-client]: executing diffoscope
+[2024-05-16 11:21:49] INFO root fetch - processPackages [stigg-api-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stigg_api_client-1.98.0.tar.gz tmp/stigg_api_client-1.98.1.tar.gz --markdown 20240516/s/stigg-api-client/1.98.0-1.98.1/README.md --exclude *.pyd
+[2024-05-16 11:21:49] INFO root fetch - processPackages [stigg-api-client-v2]: executing diffoscope
+[2024-05-16 11:21:49] INFO root fetch - processPackages [stigg-api-client-v2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stigg_api_client_v2-1.98.0.tar.gz tmp/stigg_api_client_v2-1.98.1.tar.gz --markdown 20240516/s/stigg-api-client-v2/1.98.0-1.98.1/README.md --exclude *.pyd
+[2024-05-16 11:21:49] INFO root fetch - processPackages [kcli]: executing diffoscope
+[2024-05-16 11:21:49] INFO root fetch - processPackages [kcli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kcli-99.0.202405160831.tar.gz tmp/kcli-99.0.202405160914.tar.gz --markdown 20240516/k/kcli/99.0.202405160831-99.0.202405160914/README.md --exclude *.pyd
+[2024-05-16 11:21:49] INFO root fetch - processPackages [aipkgs-core]: Remove: archive file [/home/abi/fetcher/tmp/aipkgs_core-1.0.8.tar.gz]
+[2024-05-16 11:21:49] INFO root fetch - processPackages [aipkgs-core]: Remove: archive file [/home/abi/fetcher/tmp/aipkgs_core-1.0.9.tar.gz]
+[2024-05-16 11:21:49] INFO root fetch - main [MainThread]: End processing [aipkgs-core]: success
+[2024-05-16 11:21:50] INFO root fetch - processPackages [xplainable-client]: Remove: archive file [/home/abi/fetcher/tmp/xplainable-client-1.2.1.post4.tar.gz]
+[2024-05-16 11:21:50] INFO root fetch - processPackages [xplainable-client]: Remove: archive file [/home/abi/fetcher/tmp/xplainable_client-1.2.2.tar.gz]
+[2024-05-16 11:21:50] INFO root fetch - main [MainThread]: End processing [xplainable-client]: success
+[2024-05-16 11:21:50] INFO root fetch - processPackages [festo-edcon]: Remove: archive file [/home/abi/fetcher/tmp/festo_edcon-0.8.0-py3-none-any.whl.zip]
+[2024-05-16 11:21:50] INFO root fetch - processPackages [festo-edcon]: Remove: archive file [/home/abi/fetcher/tmp/festo_edcon-0.9.0-py3-none-any.whl.zip]
+[2024-05-16 11:21:50] INFO root fetch - main [MainThread]: End processing [festo-edcon]: success
+[2024-05-16 11:21:50] INFO root fetch - processPackages [autowork-cli]: Remove: archive file [/home/abi/fetcher/tmp/autowork-cli-0.1.6.tar.gz]
+[2024-05-16 11:21:50] INFO root fetch - processPackages [autowork-cli]: Remove: archive file [/home/abi/fetcher/tmp/autowork-cli-0.4.5.tar.gz]
+[2024-05-16 11:21:50] INFO root fetch - main [MainThread]: End processing [autowork-cli]: success
+[2024-05-16 11:21:50] INFO root fetch - processPackages [stigg-api-client]: Remove: archive file [/home/abi/fetcher/tmp/stigg_api_client-1.98.0.tar.gz]
+[2024-05-16 11:21:50] INFO root fetch - processPackages [stigg-api-client]: Remove: archive file [/home/abi/fetcher/tmp/stigg_api_client-1.98.1.tar.gz]
+[2024-05-16 11:21:50] INFO root fetch - main [MainThread]: End processing [stigg-api-client]: success
+[2024-05-16 11:21:50] INFO root fetch - processPackages [simpleworkspace]: Remove: archive file [/home/abi/fetcher/tmp/simpleworkspace-1.2.206.tar.gz]
+[2024-05-16 11:21:50] INFO root fetch - processPackages [simpleworkspace]: Remove: archive file [/home/abi/fetcher/tmp/simpleworkspace-1.2.207.tar.gz]
+[2024-05-16 11:21:50] INFO root fetch - main [MainThread]: End processing [simpleworkspace]: success
+[2024-05-16 11:21:50] INFO root fetch - processPackages [stigg-api-client-v2]: Remove: archive file [/home/abi/fetcher/tmp/stigg_api_client_v2-1.98.0.tar.gz]
+[2024-05-16 11:21:50] INFO root fetch - processPackages [stigg-api-client-v2]: Remove: archive file [/home/abi/fetcher/tmp/stigg_api_client_v2-1.98.1.tar.gz]
+[2024-05-16 11:21:50] INFO root fetch - main [MainThread]: End processing [stigg-api-client-v2]: success
+[2024-05-16 11:21:52] INFO root fetch - processPackages [kcli]: Remove: archive file [/home/abi/fetcher/tmp/kcli-99.0.202405160831.tar.gz]
+[2024-05-16 11:21:52] INFO root fetch - processPackages [kcli]: Remove: archive file [/home/abi/fetcher/tmp/kcli-99.0.202405160914.tar.gz]
+[2024-05-16 11:21:52] INFO root fetch - main [MainThread]: End processing [kcli]: success
+[2024-05-16 11:21:53] INFO root fetch - processPackages [socketsecurity]: Remove: archive file [/home/abi/fetcher/tmp/socketsecurity-0.0.55-py3-none-any.whl.zip]
+[2024-05-16 11:21:53] INFO root fetch - processPackages [socketsecurity]: Remove: archive file [/home/abi/fetcher/tmp/socketsecurity-0.0.56.tar.gz]
+[2024-05-16 11:21:53] INFO root fetch - main [MainThread]: End processing [socketsecurity]: success
+[2024-05-16 11:21:53] INFO root fetch - main [MainThread]: Store serial: [23233030]
