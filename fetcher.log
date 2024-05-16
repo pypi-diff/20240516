@@ -14779,3 +14779,89 @@ EOFError: EOF read where object expected
 [2024-05-16 09:49:10] INFO root fetch - processPackages [tccli]: Remove: archive file [/home/abi/fetcher/tmp/tccli-3.0.999.1.tar.gz]
 [2024-05-16 09:49:10] INFO root fetch - main [MainThread]: End processing [tccli]: success
 [2024-05-16 09:49:10] INFO root fetch - main [MainThread]: Store serial: [23230806]
+[2024-05-16 09:51:17] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23230806]
+[2024-05-16 09:51:22] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2024-05-16 09:51:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pulumi-aws-native
+[2024-05-16 09:51:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: TDCRPy
+[2024-05-16 09:51:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: fm-actor
+[2024-05-16 09:51:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: grid2demand
+[2024-05-16 09:51:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: nullity
+[2024-05-16 09:51:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: MA-SparkLib
+[2024-05-16 09:51:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: acryl-datahub
+[2024-05-16 09:51:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: ansys-magnet-segmentation-toolkit
+[2024-05-16 09:51:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: ara-cli
+[2024-05-16 09:51:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: acryl-datahub-airflow-plugin
+[2024-05-16 09:51:23] INFO root fetch - processPackages [grid2demand]: New version: [0.4.3] Old Version: [0.4.2]
+[2024-05-16 09:51:23] INFO root fetch - processPackages [ansys-magnet-segmentation-toolkit]: New version: [0.4.2] Old Version: [0.4.1]
+[2024-05-16 09:51:23] INFO root fetch - processPackages [ara-cli]: New version: [0.1.4.41] Old Version: [0.1.4.40]
+[2024-05-16 09:51:23] INFO root fetch - processPackages [acryl-datahub-airflow-plugin]: New version: [0.9.6rc1] Old Version: [0.9.6rc0]
+[2024-05-16 09:51:23] INFO root fetch - processPackages [fm-actor]: New version: [0.2.0] Old Version: [0.1.0]
+[2024-05-16 09:51:23] INFO root fetch - processPackages [pulumi-aws-native]: New version: [0.99.1a1711556734] Old Version: [0.99.1a1711140610]
+[2024-05-16 09:51:23] WARNING root fetch - processPackages [MA-SparkLib]: Skipping, unable to determine old version
+[2024-05-16 09:51:23] INFO root fetch - processPackages [MA-SparkLib]: Start processing: pulumi-kubernetes-cert-manager
+[2024-05-16 09:51:23] INFO root fetch - main [MainThread]: End processing [MA-SparkLib] error
+[2024-05-16 09:51:23] WARNING root fetch - processPackages [nullity]: Skipping, unable to determine old version
+[2024-05-16 09:51:23] INFO root fetch - processPackages [grid2demand]: Downloading https://files.pythonhosted.org/packages/ae/a7/920dfd965bf9ceabb1bbc4ef343bbf7d7023a0e5577b7a728501fd05e698/grid2demand-0.4.2.tar.gz
+[2024-05-16 09:51:23] INFO root fetch - processPackages [TDCRPy]: New version: [1.9.9] Old Version: [1.9.8]
+[2024-05-16 09:51:23] INFO root fetch - main [MainThread]: End processing [nullity] error
+[2024-05-16 09:51:23] INFO root fetch - processPackages [acryl-datahub]: New version: [0.9.6rc1] Old Version: [0.9.6rc0]
+[2024-05-16 09:51:23] INFO root fetch - processPackages [pulumi-aws-native]: Downloading https://files.pythonhosted.org/packages/19/c7/d03ea0c1414fd20fb080e9a3bd37d113e50575a061fa505b7748f059ce83/pulumi_aws_native-0.99.1a1711140610.tar.gz
+[2024-05-16 09:51:23] INFO root fetch - processPackages [fm-actor]: Downloading https://files.pythonhosted.org/packages/2d/74/3a0a0739a9693e9d993264203d1cb9afba00487e996f219f1f7f17a6ad5c/fm_actor-0.1.0.tar.gz
+[2024-05-16 09:51:23] INFO root fetch - processPackages [TDCRPy]: Downloading https://files.pythonhosted.org/packages/2a/05/9f53182c6afcf83dd8f16ab7eb8f2891ba9a70122290cf2241d20387d780/tdcrpy-1.9.8.tar.gz
+[2024-05-16 09:51:23] INFO root fetch - processPackages [ansys-magnet-segmentation-toolkit]: Downloading https://files.pythonhosted.org/packages/43/bd/b164f12ff836574a2dd0ef77bf9592bee5f1e0f7adfe7fbd49814ca53816/ansys_magnet_segmentation_toolkit-0.4.1.tar.gz
+[2024-05-16 09:51:23] INFO root fetch - processPackages [ara-cli]: Downloading https://files.pythonhosted.org/packages/8b/88/3bc347fd7c5989099d5476997f147295c27df906a632caed312011fd1616/ara_cli-0.1.4.40.tar.gz
+[2024-05-16 09:51:23] INFO root fetch - processPackages [acryl-datahub]: Downloading https://files.pythonhosted.org/packages/5c/93/a89204befbf5a41d498b9204bc4e597e57cf385fbbf058bd74b9e2cff691/acryl-datahub-0.9.6rc0.tar.gz
+[2024-05-16 09:51:23] INFO root fetch - processPackages [pulumi-kubernetes-cert-manager]: New version: [0.1.0a1715844380] Old Version: [0.1.0a1715012458]
+[2024-05-16 09:51:24] WARNING root fetch - processPackages [TDCRPy]: Skipping package: exceeds size limit 22715362>=10485760
+[2024-05-16 09:51:24] INFO root fetch - processPackages [acryl-datahub-airflow-plugin]: Downloading https://files.pythonhosted.org/packages/60/74/0b422dc91d4bd8d366dd7b7d0ec02d0dce8acb8fd091783a0270d02e5607/acryl-datahub-airflow-plugin-0.9.6rc0.tar.gz
+[2024-05-16 09:51:24] INFO root fetch - main [MainThread]: End processing [TDCRPy] error
+[2024-05-16 09:51:24] INFO root fetch - processPackages [grid2demand]: Downloading https://files.pythonhosted.org/packages/d4/08/6028f0a2f786b54caa9fd7817d553759ae90bbc0590864519ad1c34b563d/grid2demand-0.4.3.tar.gz
+[2024-05-16 09:51:24] INFO root fetch - processPackages [pulumi-kubernetes-cert-manager]: Downloading https://files.pythonhosted.org/packages/e9/46/5fad34137a59d7cf56c81619c99b850bc3708088cb830077a53fb0e062b2/pulumi_kubernetes_cert_manager-0.1.0a1715012458.tar.gz
+[2024-05-16 09:51:24] INFO root fetch - processPackages [fm-actor]: Downloading https://files.pythonhosted.org/packages/37/77/9a391ef45e07d49b183f15fcdc0062a5c9219ab64d88355ce453d818aac7/fm_actor-0.2.0-py3-none-any.whl
+[2024-05-16 09:51:24] INFO root fetch - processPackages [ansys-magnet-segmentation-toolkit]: Downloading https://files.pythonhosted.org/packages/01/24/bbfe5f9e9fa283b1d4c9f84b3360582a1500b823c43b36df6be37414c29d/ansys_magnet_segmentation_toolkit-0.4.2.tar.gz
+[2024-05-16 09:51:24] INFO root fetch - processPackages [grid2demand]: executing diffoscope
+[2024-05-16 09:51:24] INFO root fetch - processPackages [grid2demand]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/grid2demand-0.4.2.tar.gz tmp/grid2demand-0.4.3.tar.gz --markdown 20240516/g/grid2demand/0.4.2-0.4.3/README.md --exclude *.pyd
+[2024-05-16 09:51:24] INFO root fetch - processPackages [ara-cli]: Downloading https://files.pythonhosted.org/packages/20/2b/cbe324ea73016af3d092a513b9e8fc609ac677299d6676393552d76af2e4/ara_cli-0.1.4.41.tar.gz
+[2024-05-16 09:51:24] INFO root fetch - processPackages [acryl-datahub-airflow-plugin]: Downloading https://files.pythonhosted.org/packages/8c/ee/fa9c08b9f255db5385b46e09a7315f48f208b40d651a68bf9966b4745db4/acryl-datahub-airflow-plugin-0.9.6rc1.tar.gz
+[2024-05-16 09:51:24] INFO root fetch - processPackages [fm-actor]: executing diffoscope
+[2024-05-16 09:51:24] INFO root fetch - processPackages [fm-actor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fm_actor-0.1.0.tar.gz tmp/fm_actor-0.2.0-py3-none-any.whl.zip --markdown 20240516/f/fm-actor/0.1.0-0.2.0/README.md --exclude *.pyd
+[2024-05-16 09:51:24] INFO root fetch - processPackages [ansys-magnet-segmentation-toolkit]: executing diffoscope
+[2024-05-16 09:51:24] INFO root fetch - processPackages [ansys-magnet-segmentation-toolkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ansys_magnet_segmentation_toolkit-0.4.1.tar.gz tmp/ansys_magnet_segmentation_toolkit-0.4.2.tar.gz --markdown 20240516/a/ansys-magnet-segmentation-toolkit/0.4.1-0.4.2/README.md --exclude *.pyd
+[2024-05-16 09:51:24] INFO root fetch - processPackages [acryl-datahub-airflow-plugin]: executing diffoscope
+[2024-05-16 09:51:24] INFO root fetch - processPackages [acryl-datahub-airflow-plugin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/acryl-datahub-airflow-plugin-0.9.6rc0.tar.gz tmp/acryl-datahub-airflow-plugin-0.9.6rc1.tar.gz --markdown 20240516/a/acryl-datahub-airflow-plugin/0.9.6rc0-0.9.6rc1/README.md --exclude *.pyd
+[2024-05-16 09:51:24] INFO root fetch - processPackages [ara-cli]: executing diffoscope
+[2024-05-16 09:51:24] INFO root fetch - processPackages [ara-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ara_cli-0.1.4.40.tar.gz tmp/ara_cli-0.1.4.41.tar.gz --markdown 20240516/a/ara-cli/0.1.4.40-0.1.4.41/README.md --exclude *.pyd
+[2024-05-16 09:51:25] INFO root fetch - processPackages [pulumi-kubernetes-cert-manager]: Downloading https://files.pythonhosted.org/packages/87/93/65ec4c1d17b1b9d4ccc578efc93c8b1a1e8a6dba2eac62021b8acdfc1b0d/pulumi_kubernetes_cert_manager-0.1.0a1715844380.tar.gz
+[2024-05-16 09:51:25] INFO root fetch - processPackages [pulumi-kubernetes-cert-manager]: executing diffoscope
+[2024-05-16 09:51:25] INFO root fetch - processPackages [pulumi-kubernetes-cert-manager]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_kubernetes_cert_manager-0.1.0a1715012458.tar.gz tmp/pulumi_kubernetes_cert_manager-0.1.0a1715844380.tar.gz --markdown 20240516/p/pulumi-kubernetes-cert-manager/0.1.0a1715012458-0.1.0a1715844380/README.md --exclude *.pyd
+[2024-05-16 09:51:25] INFO root fetch - processPackages [acryl-datahub]: Downloading https://files.pythonhosted.org/packages/ad/82/42882429f560fe5f9e20c6f3ee4d421b566a61c843e944997be820243708/acryl-datahub-0.9.6rc1.tar.gz
+[2024-05-16 09:51:30] INFO root fetch - processPackages [acryl-datahub]: executing diffoscope
+[2024-05-16 09:51:30] INFO root fetch - processPackages [acryl-datahub]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/acryl-datahub-0.9.6rc0.tar.gz tmp/acryl-datahub-0.9.6rc1.tar.gz --markdown 20240516/a/acryl-datahub/0.9.6rc0-0.9.6rc1/README.md --exclude *.pyd
+[2024-05-16 09:51:46] INFO root fetch - processPackages [pulumi-aws-native]: Downloading https://files.pythonhosted.org/packages/d0/0e/7e16c6b89142943493d6c6bd57d07580a6118b74b519c157fd40acdf71b7/pulumi_aws_native-0.99.1a1711556734.tar.gz
+[2024-05-16 09:52:10] INFO root fetch - processPackages [fm-actor]: Remove: archive file [/home/abi/fetcher/tmp/fm_actor-0.1.0.tar.gz]
+[2024-05-16 09:52:10] INFO root fetch - processPackages [fm-actor]: Remove: archive file [/home/abi/fetcher/tmp/fm_actor-0.2.0-py3-none-any.whl.zip]
+[2024-05-16 09:52:10] INFO root fetch - main [MainThread]: End processing [fm-actor]: success
+[2024-05-16 09:52:10] INFO root fetch - processPackages [acryl-datahub-airflow-plugin]: Remove: archive file [/home/abi/fetcher/tmp/acryl-datahub-airflow-plugin-0.9.6rc0.tar.gz]
+[2024-05-16 09:52:10] INFO root fetch - processPackages [acryl-datahub-airflow-plugin]: Remove: archive file [/home/abi/fetcher/tmp/acryl-datahub-airflow-plugin-0.9.6rc1.tar.gz]
+[2024-05-16 09:52:10] INFO root fetch - main [MainThread]: End processing [acryl-datahub-airflow-plugin]: success
+[2024-05-16 09:52:10] INFO root fetch - processPackages [grid2demand]: Remove: archive file [/home/abi/fetcher/tmp/grid2demand-0.4.2.tar.gz]
+[2024-05-16 09:52:10] INFO root fetch - processPackages [grid2demand]: Remove: archive file [/home/abi/fetcher/tmp/grid2demand-0.4.3.tar.gz]
+[2024-05-16 09:52:10] INFO root fetch - main [MainThread]: End processing [grid2demand]: success
+[2024-05-16 09:52:11] INFO root fetch - processPackages [ansys-magnet-segmentation-toolkit]: Remove: archive file [/home/abi/fetcher/tmp/ansys_magnet_segmentation_toolkit-0.4.1.tar.gz]
+[2024-05-16 09:52:11] INFO root fetch - processPackages [ansys-magnet-segmentation-toolkit]: Remove: archive file [/home/abi/fetcher/tmp/ansys_magnet_segmentation_toolkit-0.4.2.tar.gz]
+[2024-05-16 09:52:11] INFO root fetch - main [MainThread]: End processing [ansys-magnet-segmentation-toolkit]: success
+[2024-05-16 09:52:11] INFO root fetch - processPackages [ara-cli]: Remove: archive file [/home/abi/fetcher/tmp/ara_cli-0.1.4.40.tar.gz]
+[2024-05-16 09:52:11] INFO root fetch - processPackages [ara-cli]: Remove: archive file [/home/abi/fetcher/tmp/ara_cli-0.1.4.41.tar.gz]
+[2024-05-16 09:52:11] INFO root fetch - main [MainThread]: End processing [ara-cli]: success
+[2024-05-16 09:52:12] INFO root fetch - processPackages [pulumi-kubernetes-cert-manager]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_kubernetes_cert_manager-0.1.0a1715012458.tar.gz]
+[2024-05-16 09:52:12] INFO root fetch - processPackages [pulumi-kubernetes-cert-manager]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_kubernetes_cert_manager-0.1.0a1715844380.tar.gz]
+[2024-05-16 09:52:12] INFO root fetch - main [MainThread]: End processing [pulumi-kubernetes-cert-manager]: success
+[2024-05-16 09:52:12] INFO root fetch - processPackages [pulumi-aws-native]: executing diffoscope
+[2024-05-16 09:52:12] INFO root fetch - processPackages [pulumi-aws-native]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_aws_native-0.99.1a1711140610.tar.gz tmp/pulumi_aws_native-0.99.1a1711556734.tar.gz --markdown 20240516/p/pulumi-aws-native/0.99.1a1711140610-0.99.1a1711556734/README.md --exclude *.pyd
+[2024-05-16 09:52:17] INFO root fetch - processPackages [acryl-datahub]: Remove: archive file [/home/abi/fetcher/tmp/acryl-datahub-0.9.6rc0.tar.gz]
+[2024-05-16 09:52:17] INFO root fetch - processPackages [acryl-datahub]: Remove: archive file [/home/abi/fetcher/tmp/acryl-datahub-0.9.6rc1.tar.gz]
+[2024-05-16 09:52:17] INFO root fetch - main [MainThread]: End processing [acryl-datahub]: success
+[2024-05-16 09:52:32] INFO root fetch - processPackages [pulumi-aws-native]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_aws_native-0.99.1a1711140610.tar.gz]
+[2024-05-16 09:52:32] INFO root fetch - processPackages [pulumi-aws-native]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_aws_native-0.99.1a1711556734.tar.gz]
+[2024-05-16 09:52:32] INFO root fetch - main [MainThread]: End processing [pulumi-aws-native]: success
+[2024-05-16 09:52:32] INFO root fetch - main [MainThread]: Store serial: [23230840]
