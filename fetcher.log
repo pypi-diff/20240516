@@ -10276,3 +10276,54 @@ EOFError: EOF read where object expected
 [2024-05-16 05:16:05] INFO root fetch - processPackages [keras-cv-nightly]: Remove: archive file [/home/abi/fetcher/tmp/keras_cv_nightly-0.9.0.dev2024043000.tar.gz]
 [2024-05-16 05:16:05] INFO root fetch - main [MainThread]: End processing [keras-cv-nightly]: success
 [2024-05-16 05:16:05] INFO root fetch - main [MainThread]: Store serial: [23229007]
+[2024-05-16 05:18:09] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23229007]
+[2024-05-16 05:18:13] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-16 05:18:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: Hydata
+[2024-05-16 05:18:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: langchain-text-splitters
+[2024-05-16 05:18:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: vnerrant
+[2024-05-16 05:18:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: mezcla
+[2024-05-16 05:18:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cherry-orm
+[2024-05-16 05:18:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: MCfun
+[2024-05-16 05:18:13] INFO root fetch - processPackages [mezcla]: New version: [1.3.9.9] Old Version: [1.3.9.8]
+[2024-05-16 05:18:14] INFO root fetch - processPackages [langchain-text-splitters]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-05-16 05:18:14] WARNING root fetch - processPackages [Hydata]: Skipping, unable to determine old version
+[2024-05-16 05:18:14] INFO root fetch - main [MainThread]: End processing [Hydata] error
+[2024-05-16 05:18:14] INFO root fetch - processPackages [vnerrant]: New version: [1.0.1rc4] Old Version: [1.0.1rc3]
+[2024-05-16 05:18:14] INFO root fetch - processPackages [cherry-orm]: New version: [1.0.0] Old Version: [0.3.0]
+[2024-05-16 05:18:14] INFO root fetch - processPackages [MCfun]: New version: [0.2.3] Old Version: [0.2.2]
+[2024-05-16 05:18:14] INFO root fetch - processPackages [mezcla]: Downloading https://files.pythonhosted.org/packages/dd/1a/cbfb82f4e24cbd27d3d87f5a4d87471ea596699e55f3a349c3c6fc333a4d/mezcla-1.3.9.8.tar.gz
+[2024-05-16 05:18:14] INFO root fetch - processPackages [vnerrant]: Downloading https://files.pythonhosted.org/packages/95/b8/9bccf146cd4065307de8a13c3b9dc4abf38ef056b9a50689553aff891d3b/vnerrant-1.0.1rc3.tar.gz
+[2024-05-16 05:18:14] INFO root fetch - processPackages [cherry-orm]: Downloading https://files.pythonhosted.org/packages/5a/ba/4cdea9aec79c0b03c68ea44bc85d1bdef878b15092d297336f78a399aa56/cherry_orm-0.3.0.tar.gz
+[2024-05-16 05:18:14] INFO root fetch - processPackages [MCfun]: Downloading https://files.pythonhosted.org/packages/a0/c5/86c02d4e34c67cdb6eb2a9a9d9f7bb59ee3229d7793c95d278ed07d207c3/MCfun-0.2.2.tar.gz
+[2024-05-16 05:18:14] INFO root fetch - processPackages [langchain-text-splitters]: Downloading https://files.pythonhosted.org/packages/c3/bc/7e7e9077517b4413a668e1b01a6eb73378b524bf02141785ae2c93c96b81/langchain_text_splitters-0.0.1.tar.gz
+[2024-05-16 05:18:14] INFO root fetch - processPackages [cherry-orm]: Downloading https://files.pythonhosted.org/packages/f5/b9/e16a159caa7d0bca2c967efd497bc9ef72f3a14651754018ac3ca176fc89/cherry_orm-1.0.0.tar.gz
+[2024-05-16 05:18:14] INFO root fetch - processPackages [vnerrant]: Downloading https://files.pythonhosted.org/packages/41/ce/499c9162aa1297588004bae01a0c9c9d92175353a7bcf2bd20ebfa227cd3/vnerrant-1.0.1rc4.tar.gz
+[2024-05-16 05:18:14] INFO root fetch - processPackages [langchain-text-splitters]: Downloading https://files.pythonhosted.org/packages/e8/fa/88d65b0f696d8d4f37037f1418f89bc1078cd74d20054623bb7fffcecaf1/langchain_text_splitters-0.0.2.tar.gz
+[2024-05-16 05:18:14] INFO root fetch - processPackages [MCfun]: Downloading https://files.pythonhosted.org/packages/cc/42/55321e69d595eea9445f390dddb4ce0e2b1adf52fb37810f2d4d46058ea4/MCfun-0.2.3.tar.gz
+[2024-05-16 05:18:14] INFO root fetch - processPackages [cherry-orm]: executing diffoscope
+[2024-05-16 05:18:14] INFO root fetch - processPackages [cherry-orm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cherry_orm-0.3.0.tar.gz tmp/cherry_orm-1.0.0.tar.gz --markdown 20240516/c/cherry-orm/0.3.0-1.0.0/README.md --exclude *.pyd
+[2024-05-16 05:18:14] INFO root fetch - processPackages [vnerrant]: executing diffoscope
+[2024-05-16 05:18:14] INFO root fetch - processPackages [vnerrant]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vnerrant-1.0.1rc3.tar.gz tmp/vnerrant-1.0.1rc4.tar.gz --markdown 20240516/v/vnerrant/1.0.1rc3-1.0.1rc4/README.md --exclude *.pyd
+[2024-05-16 05:18:14] INFO root fetch - processPackages [mezcla]: Downloading https://files.pythonhosted.org/packages/45/2f/ec04ebcc142b9721a1978b58f23081b209a3a6ce883b4f8c854efbf39604/mezcla-1.3.9.9.tar.gz
+[2024-05-16 05:18:14] INFO root fetch - processPackages [langchain-text-splitters]: executing diffoscope
+[2024-05-16 05:18:14] INFO root fetch - processPackages [langchain-text-splitters]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/langchain_text_splitters-0.0.1.tar.gz tmp/langchain_text_splitters-0.0.2.tar.gz --markdown 20240516/l/langchain-text-splitters/0.0.1-0.0.2/README.md --exclude *.pyd
+[2024-05-16 05:18:15] INFO root fetch - processPackages [MCfun]: executing diffoscope
+[2024-05-16 05:18:15] INFO root fetch - processPackages [MCfun]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/MCfun-0.2.2.tar.gz tmp/MCfun-0.2.3.tar.gz --markdown 20240516/M/MCfun/0.2.2-0.2.3/README.md --exclude *.pyd
+[2024-05-16 05:18:15] INFO root fetch - processPackages [mezcla]: executing diffoscope
+[2024-05-16 05:18:15] INFO root fetch - processPackages [mezcla]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mezcla-1.3.9.8.tar.gz tmp/mezcla-1.3.9.9.tar.gz --markdown 20240516/m/mezcla/1.3.9.8-1.3.9.9/README.md --exclude *.pyd
+[2024-05-16 05:18:15] INFO root fetch - processPackages [MCfun]: Remove: archive file [/home/abi/fetcher/tmp/MCfun-0.2.2.tar.gz]
+[2024-05-16 05:18:15] INFO root fetch - processPackages [MCfun]: Remove: archive file [/home/abi/fetcher/tmp/MCfun-0.2.3.tar.gz]
+[2024-05-16 05:18:15] INFO root fetch - main [MainThread]: End processing [MCfun]: success
+[2024-05-16 05:18:15] INFO root fetch - processPackages [cherry-orm]: Remove: archive file [/home/abi/fetcher/tmp/cherry_orm-0.3.0.tar.gz]
+[2024-05-16 05:18:15] INFO root fetch - processPackages [cherry-orm]: Remove: archive file [/home/abi/fetcher/tmp/cherry_orm-1.0.0.tar.gz]
+[2024-05-16 05:18:15] INFO root fetch - main [MainThread]: End processing [cherry-orm]: success
+[2024-05-16 05:18:15] INFO root fetch - processPackages [vnerrant]: Remove: archive file [/home/abi/fetcher/tmp/vnerrant-1.0.1rc3.tar.gz]
+[2024-05-16 05:18:15] INFO root fetch - processPackages [vnerrant]: Remove: archive file [/home/abi/fetcher/tmp/vnerrant-1.0.1rc4.tar.gz]
+[2024-05-16 05:18:15] INFO root fetch - main [MainThread]: End processing [vnerrant]: success
+[2024-05-16 05:18:15] INFO root fetch - processPackages [langchain-text-splitters]: Remove: archive file [/home/abi/fetcher/tmp/langchain_text_splitters-0.0.1.tar.gz]
+[2024-05-16 05:18:15] INFO root fetch - processPackages [langchain-text-splitters]: Remove: archive file [/home/abi/fetcher/tmp/langchain_text_splitters-0.0.2.tar.gz]
+[2024-05-16 05:18:15] INFO root fetch - main [MainThread]: End processing [langchain-text-splitters]: success
+[2024-05-16 05:18:17] INFO root fetch - processPackages [mezcla]: Remove: archive file [/home/abi/fetcher/tmp/mezcla-1.3.9.8.tar.gz]
+[2024-05-16 05:18:17] INFO root fetch - processPackages [mezcla]: Remove: archive file [/home/abi/fetcher/tmp/mezcla-1.3.9.9.tar.gz]
+[2024-05-16 05:18:17] INFO root fetch - main [MainThread]: End processing [mezcla]: success
+[2024-05-16 05:18:17] INFO root fetch - main [MainThread]: Store serial: [23229026]
