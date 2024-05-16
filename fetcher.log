@@ -22606,3 +22606,72 @@ EOFError: EOF read where object expected
 [2024-05-16 12:03:34] INFO root fetch - processPackages [tf-keras-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tf_keras_nightly-2.17.0.dev2024051509.tar.gz]
 [2024-05-16 12:03:34] INFO root fetch - main [MainThread]: End processing [tf-keras-nightly]: success
 [2024-05-16 12:03:34] INFO root fetch - main [MainThread]: Store serial: [23233587]
+[2024-05-16 12:05:42] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23233587]
+[2024-05-16 12:05:47] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-05-16 12:05:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: html-sanitizer
+[2024-05-16 12:05:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: aipkgs-database
+[2024-05-16 12:05:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ml-management
+[2024-05-16 12:05:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: oc-cdtapi
+[2024-05-16 12:05:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: Moore-SDK
+[2024-05-16 12:05:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: fxgui
+[2024-05-16 12:05:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: habu-snowflake-cli
+[2024-05-16 12:05:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: socketsecurity
+[2024-05-16 12:05:48] INFO root fetch - processPackages [socketsecurity]: New version: [0.0.58] Old Version: [0.0.57]
+[2024-05-16 12:05:48] INFO root fetch - processPackages [oc-cdtapi]: New version: [3.9.6] Old Version: [3.9.5]
+[2024-05-16 12:05:48] INFO root fetch - processPackages [fxgui]: New version: [2.2.1] Old Version: [2.2.0]
+[2024-05-16 12:05:48] WARNING root fetch - processPackages [Moore-SDK]: Skipping, unable to determine old version
+[2024-05-16 12:05:48] INFO root fetch - processPackages [aipkgs-database]: New version: [1.0.3] Old Version: [1.0.2]
+[2024-05-16 12:05:48] INFO root fetch - main [MainThread]: End processing [Moore-SDK] error
+[2024-05-16 12:05:48] INFO root fetch - processPackages [habu-snowflake-cli]: New version: [4.4.0] Old Version: [4.3.0]
+[2024-05-16 12:05:48] INFO root fetch - processPackages [socketsecurity]: Downloading https://files.pythonhosted.org/packages/85/d3/e268154837f1c76290c295f660d9979c8e36052b29079c0b76b8155534ef/socketsecurity-0.0.57.tar.gz
+[2024-05-16 12:05:48] INFO root fetch - processPackages [ml-management]: New version: [0.0.99] Old Version: [0.0.98]
+[2024-05-16 12:05:48] INFO root fetch - processPackages [html-sanitizer]: New version: [2.4.3] Old Version: [2.4.2]
+[2024-05-16 12:05:48] INFO root fetch - processPackages [fxgui]: Downloading https://files.pythonhosted.org/packages/cb/5d/1c3f73b9895c85d257d002370b31c93c697eb6d8e9163e6e1034efe402f6/fxgui-2.2.0.tar.gz
+[2024-05-16 12:05:48] INFO root fetch - processPackages [oc-cdtapi]: Downloading https://files.pythonhosted.org/packages/a3/84/2f52ff952b1ef7c30866c710a59c9870eb31149e784fc821aacaf30fa044/oc_cdtapi-3.9.5-py3-none-any.whl
+[2024-05-16 12:05:48] INFO root fetch - processPackages [aipkgs-database]: Downloading https://files.pythonhosted.org/packages/a7/1b/b5952975b590de1b8197b23e53cbf1b6f3e04cc565bcf4074012c21a0487/aipkgs_database-1.0.2.tar.gz
+[2024-05-16 12:05:48] INFO root fetch - processPackages [html-sanitizer]: Downloading https://files.pythonhosted.org/packages/7a/76/2ebe2bb50ba438014a97b972c6e57c54653e71bfad5a4a28b36590ee22a0/html_sanitizer-2.4.2.tar.gz
+[2024-05-16 12:05:48] INFO root fetch - processPackages [habu-snowflake-cli]: Downloading https://files.pythonhosted.org/packages/be/21/d383e7fed3d6dedaca66c5b7d26953e686025084ba14ff05cd04cc3f2647/habu_snowflake_cli-4.3.0-py3-none-any.whl
+[2024-05-16 12:05:48] INFO root fetch - processPackages [ml-management]: Downloading https://files.pythonhosted.org/packages/0f/70/032271ec1677413d18df09dbd3d9276c09aa5685645702a3b513c39da974/ml-management-0.0.98.tar.gz
+[2024-05-16 12:05:48] INFO root fetch - processPackages [socketsecurity]: Downloading https://files.pythonhosted.org/packages/f2/e4/9133dde9b7ec053cf703b922682d35e3e6ba3deb9181edd1c7325cd8462a/socketsecurity-0.0.58.tar.gz
+[2024-05-16 12:05:48] INFO root fetch - processPackages [aipkgs-database]: Downloading https://files.pythonhosted.org/packages/e8/ae/cb74c2155b28e0aa982115b50e47fc923f937d7c76887c3926b064afd1db/aipkgs_database-1.0.3.tar.gz
+[2024-05-16 12:05:48] INFO root fetch - processPackages [fxgui]: Downloading https://files.pythonhosted.org/packages/7d/29/5dfc2328f0d89d6488dbcfb56a1a9050fddd4c0d1c08beadeec369c2d078/fxgui-2.2.1.tar.gz
+[2024-05-16 12:05:48] INFO root fetch - processPackages [habu-snowflake-cli]: Downloading https://files.pythonhosted.org/packages/12/56/5bcfb16eaad4c75bbd05bfa04ea7687b7cccebac791b05a5e4527e046506/habu_snowflake_cli-4.4.0-py3-none-any.whl
+[2024-05-16 12:05:48] INFO root fetch - processPackages [aipkgs-database]: executing diffoscope
+[2024-05-16 12:05:48] INFO root fetch - processPackages [aipkgs-database]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aipkgs_database-1.0.2.tar.gz tmp/aipkgs_database-1.0.3.tar.gz --markdown 20240516/a/aipkgs-database/1.0.2-1.0.3/README.md --exclude *.pyd
+[2024-05-16 12:05:48] INFO root fetch - processPackages [html-sanitizer]: Downloading https://files.pythonhosted.org/packages/42/02/81bea8c28585ad080b0f1201d66daf0b1419c7d9b8101b80fc38a759ba5a/html_sanitizer-2.4.3.tar.gz
+[2024-05-16 12:05:48] INFO root fetch - processPackages [oc-cdtapi]: Downloading https://files.pythonhosted.org/packages/2a/53/6a945a8afa7a1def016d113d868c50b044f7e6c7f3782e59c1f516134dde/oc_cdtapi-3.9.6-py3-none-any.whl
+[2024-05-16 12:05:48] INFO root fetch - processPackages [ml-management]: Downloading https://files.pythonhosted.org/packages/56/35/39bdda14e67992ce6ddc370729a71712171e07a61411d9f6f96e81e2edae/ml-management-0.0.99.tar.gz
+[2024-05-16 12:05:48] INFO root fetch - processPackages [habu-snowflake-cli]: executing diffoscope
+[2024-05-16 12:05:48] INFO root fetch - processPackages [habu-snowflake-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/habu_snowflake_cli-4.3.0-py3-none-any.whl.zip tmp/habu_snowflake_cli-4.4.0-py3-none-any.whl.zip --markdown 20240516/h/habu-snowflake-cli/4.3.0-4.4.0/README.md --exclude *.pyd
+[2024-05-16 12:05:49] INFO root fetch - processPackages [html-sanitizer]: executing diffoscope
+[2024-05-16 12:05:49] INFO root fetch - processPackages [html-sanitizer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/html_sanitizer-2.4.2.tar.gz tmp/html_sanitizer-2.4.3.tar.gz --markdown 20240516/h/html-sanitizer/2.4.2-2.4.3/README.md --exclude *.pyd
+[2024-05-16 12:05:49] INFO root fetch - processPackages [socketsecurity]: executing diffoscope
+[2024-05-16 12:05:49] INFO root fetch - processPackages [socketsecurity]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/socketsecurity-0.0.57.tar.gz tmp/socketsecurity-0.0.58.tar.gz --markdown 20240516/s/socketsecurity/0.0.57-0.0.58/README.md --exclude *.pyd
+[2024-05-16 12:05:49] INFO root fetch - processPackages [fxgui]: executing diffoscope
+[2024-05-16 12:05:49] INFO root fetch - processPackages [fxgui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fxgui-2.2.0.tar.gz tmp/fxgui-2.2.1.tar.gz --markdown 20240516/f/fxgui/2.2.0-2.2.1/README.md --exclude *.pyd
+[2024-05-16 12:05:49] INFO root fetch - processPackages [ml-management]: executing diffoscope
+[2024-05-16 12:05:49] INFO root fetch - processPackages [ml-management]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ml-management-0.0.98.tar.gz tmp/ml-management-0.0.99.tar.gz --markdown 20240516/m/ml-management/0.0.98-0.0.99/README.md --exclude *.pyd
+[2024-05-16 12:05:49] INFO root fetch - processPackages [oc-cdtapi]: executing diffoscope
+[2024-05-16 12:05:49] INFO root fetch - processPackages [oc-cdtapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oc_cdtapi-3.9.5-py3-none-any.whl.zip tmp/oc_cdtapi-3.9.6-py3-none-any.whl.zip --markdown 20240516/o/oc-cdtapi/3.9.5-3.9.6/README.md --exclude *.pyd
+[2024-05-16 12:05:49] INFO root fetch - processPackages [aipkgs-database]: Remove: archive file [/home/abi/fetcher/tmp/aipkgs_database-1.0.2.tar.gz]
+[2024-05-16 12:05:49] INFO root fetch - processPackages [aipkgs-database]: Remove: archive file [/home/abi/fetcher/tmp/aipkgs_database-1.0.3.tar.gz]
+[2024-05-16 12:05:49] INFO root fetch - main [MainThread]: End processing [aipkgs-database]: success
+[2024-05-16 12:05:49] INFO root fetch - processPackages [oc-cdtapi]: Remove: archive file [/home/abi/fetcher/tmp/oc_cdtapi-3.9.5-py3-none-any.whl.zip]
+[2024-05-16 12:05:49] INFO root fetch - processPackages [oc-cdtapi]: Remove: archive file [/home/abi/fetcher/tmp/oc_cdtapi-3.9.6-py3-none-any.whl.zip]
+[2024-05-16 12:05:49] INFO root fetch - main [MainThread]: End processing [oc-cdtapi]: success
+[2024-05-16 12:05:50] INFO root fetch - processPackages [html-sanitizer]: Remove: archive file [/home/abi/fetcher/tmp/html_sanitizer-2.4.2.tar.gz]
+[2024-05-16 12:05:50] INFO root fetch - processPackages [html-sanitizer]: Remove: archive file [/home/abi/fetcher/tmp/html_sanitizer-2.4.3.tar.gz]
+[2024-05-16 12:05:50] INFO root fetch - main [MainThread]: End processing [html-sanitizer]: success
+[2024-05-16 12:05:50] INFO root fetch - processPackages [ml-management]: Remove: archive file [/home/abi/fetcher/tmp/ml-management-0.0.98.tar.gz]
+[2024-05-16 12:05:50] INFO root fetch - processPackages [ml-management]: Remove: archive file [/home/abi/fetcher/tmp/ml-management-0.0.99.tar.gz]
+[2024-05-16 12:05:50] INFO root fetch - main [MainThread]: End processing [ml-management]: success
+[2024-05-16 12:05:50] INFO root fetch - processPackages [habu-snowflake-cli]: Remove: archive file [/home/abi/fetcher/tmp/habu_snowflake_cli-4.3.0-py3-none-any.whl.zip]
+[2024-05-16 12:05:50] INFO root fetch - processPackages [habu-snowflake-cli]: Remove: archive file [/home/abi/fetcher/tmp/habu_snowflake_cli-4.4.0-py3-none-any.whl.zip]
+[2024-05-16 12:05:50] INFO root fetch - main [MainThread]: End processing [habu-snowflake-cli]: success
+[2024-05-16 12:05:50] INFO root fetch - processPackages [socketsecurity]: Remove: archive file [/home/abi/fetcher/tmp/socketsecurity-0.0.57.tar.gz]
+[2024-05-16 12:05:50] INFO root fetch - processPackages [socketsecurity]: Remove: archive file [/home/abi/fetcher/tmp/socketsecurity-0.0.58.tar.gz]
+[2024-05-16 12:05:50] INFO root fetch - main [MainThread]: End processing [socketsecurity]: success
+[2024-05-16 12:06:15] INFO root fetch - processPackages [fxgui]: Remove: archive file [/home/abi/fetcher/tmp/fxgui-2.2.0.tar.gz]
+[2024-05-16 12:06:15] INFO root fetch - processPackages [fxgui]: Remove: archive file [/home/abi/fetcher/tmp/fxgui-2.2.1.tar.gz]
+[2024-05-16 12:06:15] INFO root fetch - main [MainThread]: End processing [fxgui]: success
+[2024-05-16 12:06:15] INFO root fetch - main [MainThread]: Store serial: [23233622]
