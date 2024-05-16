@@ -13688,3 +13688,114 @@ EOFError: EOF read where object expected
 [2024-05-16 09:02:31] INFO root fetch - processPackages [tf-models-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tf_models_nightly-2.9.0.dev20220920-py2.py3-none-any.whl.zip]
 [2024-05-16 09:02:31] INFO root fetch - main [MainThread]: End processing [tf-models-nightly]: success
 [2024-05-16 09:02:31] INFO root fetch - main [MainThread]: Store serial: [23230396]
+[2024-05-16 09:04:36] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23230396]
+[2024-05-16 09:04:41] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2024-05-16 09:04:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: chainforge
+[2024-05-16 09:04:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: aau-ais-utilities
+[2024-05-16 09:04:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: fosslight-util
+[2024-05-16 09:04:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pyecm
+[2024-05-16 09:04:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: xurpas-data-quality
+[2024-05-16 09:04:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: simpleworkspace
+[2024-05-16 09:04:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: dooth
+[2024-05-16 09:04:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: aau-ais-dipaal
+[2024-05-16 09:04:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: odoo-addon-purchase-order-supplier-return
+[2024-05-16 09:04:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: fastapi-problem
+[2024-05-16 09:04:41] INFO root fetch - processPackages [dooth]: New version: [1.1.2] Old Version: [1.1.1]
+[2024-05-16 09:04:41] INFO root fetch - processPackages [fastapi-problem]: New version: [0.7.6] Old Version: [0.7.5]
+[2024-05-16 09:04:41] INFO root fetch - processPackages [pyecm]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-05-16 09:04:42] INFO root fetch - processPackages [chainforge]: New version: [0.3.1.9] Old Version: [0.3.1.8]
+[2024-05-16 09:04:42] INFO root fetch - processPackages [aau-ais-utilities]: New version: [0.1.12] Old Version: [0.1.11]
+[2024-05-16 09:04:42] INFO root fetch - processPackages [odoo-addon-purchase-order-supplier-return]: New version: [16.0.1.0.0.4] Old Version: [16.0.1.0.0.3]
+[2024-05-16 09:04:42] INFO root fetch - processPackages [xurpas-data-quality]: New version: [0.0.7a1] Old Version: [0.0.7]
+[2024-05-16 09:04:42] INFO root fetch - processPackages [aau-ais-dipaal]: New version: [0.1.23] Old Version: [0.1.22]
+[2024-05-16 09:04:42] INFO root fetch - processPackages [simpleworkspace]: New version: [1.2.207] Old Version: [1.2.206]
+[2024-05-16 09:04:42] INFO root fetch - processPackages [dooth]: Downloading https://files.pythonhosted.org/packages/c1/e0/bfd537600426ca5b1f101408a974bbcbbd5de8df9f5eb0e4968b42db027f/dooth-1.1.1-py3-none-any.whl
+[2024-05-16 09:04:42] INFO root fetch - processPackages [fosslight-util]: New version: [1.4.9] Old Version: [1.4.8]
+[2024-05-16 09:04:42] INFO root fetch - processPackages [fastapi-problem]: Downloading https://files.pythonhosted.org/packages/52/1f/163286f4963bf272c2b7135f9a3a845ea4815fbc341c88eb9411862417a6/fastapi_problem-0.7.5.tar.gz
+[2024-05-16 09:04:42] INFO root fetch - processPackages [pyecm]: Downloading https://files.pythonhosted.org/packages/57/b2/1746dbc86f968ab9140e241bc67da22730d729fde7b3fb8a432383b176c3/pyecm-0.0.1.tar.gz
+[2024-05-16 09:04:42] INFO root fetch - processPackages [chainforge]: Downloading https://files.pythonhosted.org/packages/fb/9f/ad6cd93c69a296fd8e39281357c7a0b774597f6d1a4f437134a0491be6a8/chainforge-0.3.1.8.tar.gz
+[2024-05-16 09:04:42] INFO root fetch - processPackages [aau-ais-utilities]: Downloading https://files.pythonhosted.org/packages/8a/23/2649eb4323dcf440de08f08f53e8b9978c0d4c569cc62193427db0eccd4a/aau_ais_utilities-0.1.11.tar.gz
+[2024-05-16 09:04:42] INFO root fetch - processPackages [odoo-addon-purchase-order-supplier-return]: Downloading https://files.pythonhosted.org/packages/9b/49/1bea411e96d1a6123679b3db56b2196b3280d51d3c46cb21e92e1baa3944/odoo_addon_purchase_order_supplier_return-16.0.1.0.0.3-py3-none-any.whl
+[2024-05-16 09:04:42] INFO root fetch - processPackages [aau-ais-dipaal]: Downloading https://files.pythonhosted.org/packages/fd/3e/2bdb97a41db0fa3f33c822094c6a4623dc2f7d9d021be43dea6e3a2f1467/aau_ais_dipaal-0.1.22.tar.gz
+[2024-05-16 09:04:42] INFO root fetch - processPackages [simpleworkspace]: Downloading https://files.pythonhosted.org/packages/49/df/74db3152d30f86f360105935ee60c15917d3423f894ce52878f33eca7364/simpleworkspace-1.2.206.tar.gz
+[2024-05-16 09:04:42] INFO root fetch - processPackages [fosslight-util]: Downloading https://files.pythonhosted.org/packages/d0/ca/3238ee41727edc3bd327f6beb7ef97f2d92d986227f3bf775259a3e223ae/fosslight_util-1.4.8.tar.gz
+[2024-05-16 09:04:42] INFO root fetch - processPackages [xurpas-data-quality]: Downloading https://files.pythonhosted.org/packages/29/18/aff33d94b07ec5928cf67965ee76398a994851afd2a95a43a24e27f1ef3a/xurpas_data_quality-0.0.7.tar.gz
+[2024-05-16 09:04:42] INFO root fetch - processPackages [dooth]: Downloading https://files.pythonhosted.org/packages/23/8c/6fcbafe6b5010f000090a029454d10392415c5a86bb9552279bfdd813f09/dooth-1.1.2-py3-none-any.whl
+[2024-05-16 09:04:42] INFO root fetch - processPackages [fastapi-problem]: Downloading https://files.pythonhosted.org/packages/12/f0/bc779dffe7a399adbf94978e2a0f5a1556358422103592b289560da0fe8d/fastapi_problem-0.7.6.tar.gz
+[2024-05-16 09:04:42] INFO root fetch - processPackages [pyecm]: Downloading https://files.pythonhosted.org/packages/cd/96/c7a323cb8d5404ad9a04c598f22ff65ca8e24fa4b15c250b2e1b5ada5a70/pyecm-0.0.2.tar.gz
+[2024-05-16 09:04:42] INFO root fetch - processPackages [dooth]: executing diffoscope
+[2024-05-16 09:04:42] INFO root fetch - processPackages [dooth]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dooth-1.1.1-py3-none-any.whl.zip tmp/dooth-1.1.2-py3-none-any.whl.zip --markdown 20240516/d/dooth/1.1.1-1.1.2/README.md --exclude *.pyd
+[2024-05-16 09:04:42] INFO root fetch - processPackages [fastapi-problem]: executing diffoscope
+[2024-05-16 09:04:42] INFO root fetch - processPackages [fastapi-problem]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fastapi_problem-0.7.5.tar.gz tmp/fastapi_problem-0.7.6.tar.gz --markdown 20240516/f/fastapi-problem/0.7.5-0.7.6/README.md --exclude *.pyd
+[2024-05-16 09:04:42] INFO root fetch - processPackages [aau-ais-utilities]: Downloading https://files.pythonhosted.org/packages/b3/74/4b7805a6f03ae9c03c8fc249f18ad26b6139cf04cbdad555cfc8fcf1f623/aau_ais_utilities-0.1.12.tar.gz
+[2024-05-16 09:04:42] INFO root fetch - processPackages [odoo-addon-purchase-order-supplier-return]: Downloading https://files.pythonhosted.org/packages/09/be/d07a03e0aa4abf4212a94dcf6585f6adb9985f7b44bbed1946112f1a7f8c/odoo_addon_purchase_order_supplier_return-16.0.1.0.0.4-py3-none-any.whl
+[2024-05-16 09:04:42] INFO root fetch - processPackages [aau-ais-dipaal]: Downloading https://files.pythonhosted.org/packages/d4/81/1249255b04d726e945d8f89fe3368d677e5f9bef54e7b0142ae0dd4820f3/aau_ais_dipaal-0.1.23.tar.gz
+[2024-05-16 09:04:42] INFO root fetch - processPackages [aau-ais-utilities]: executing diffoscope
+[2024-05-16 09:04:42] INFO root fetch - processPackages [aau-ais-utilities]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aau_ais_utilities-0.1.11.tar.gz tmp/aau_ais_utilities-0.1.12.tar.gz --markdown 20240516/a/aau-ais-utilities/0.1.11-0.1.12/README.md --exclude *.pyd
+[2024-05-16 09:04:42] INFO root fetch - processPackages [xurpas-data-quality]: Downloading https://files.pythonhosted.org/packages/4e/33/71c21c43c0c520fda7f0f1732a5b190a5e3f99b2d5c394a3b199e1d785e6/xurpas_data_quality-0.0.7a1.tar.gz
+[2024-05-16 09:04:42] INFO root fetch - processPackages [pyecm]: executing diffoscope
+[2024-05-16 09:04:42] INFO root fetch - processPackages [pyecm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyecm-0.0.1.tar.gz tmp/pyecm-0.0.2.tar.gz --markdown 20240516/p/pyecm/0.0.1-0.0.2/README.md --exclude *.pyd
+[2024-05-16 09:04:42] INFO root fetch - processPackages [simpleworkspace]: Downloading https://files.pythonhosted.org/packages/f3/ea/1f01aed8402846caae3ae3c6cabbdbd596c5e3a6876580e8eaa59c900b98/simpleworkspace-1.2.207.tar.gz
+[2024-05-16 09:04:42] INFO root fetch - processPackages [odoo-addon-purchase-order-supplier-return]: executing diffoscope
+[2024-05-16 09:04:42] INFO root fetch - processPackages [odoo-addon-purchase-order-supplier-return]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_purchase_order_supplier_return-16.0.1.0.0.3-py3-none-any.whl.zip tmp/odoo_addon_purchase_order_supplier_return-16.0.1.0.0.4-py3-none-any.whl.zip --markdown 20240516/o/odoo-addon-purchase-order-supplier-return/16.0.1.0.0.3-16.0.1.0.0.4/README.md --exclude *.pyd
+[2024-05-16 09:04:42] INFO root fetch - processPackages [aau-ais-dipaal]: executing diffoscope
+[2024-05-16 09:04:42] INFO root fetch - processPackages [aau-ais-dipaal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aau_ais_dipaal-0.1.22.tar.gz tmp/aau_ais_dipaal-0.1.23.tar.gz --markdown 20240516/a/aau-ais-dipaal/0.1.22-0.1.23/README.md --exclude *.pyd
+[2024-05-16 09:04:43] INFO root fetch - processPackages [fosslight-util]: Downloading https://files.pythonhosted.org/packages/2d/d2/e674ac0c05f462aeb548384d4b1f6351624dd534bb73301158868691826c/fosslight_util-1.4.9.tar.gz
+[2024-05-16 09:04:43] INFO root fetch - processPackages [chainforge]: Downloading https://files.pythonhosted.org/packages/52/6c/1ddf72de8162c7675fa2b96ada0f1cd0b308cb187cc78aa7b6105c93adfd/chainforge-0.3.1.9.tar.gz
+[2024-05-16 09:04:43] INFO root fetch - processPackages [xurpas-data-quality]: executing diffoscope
+[2024-05-16 09:04:43] INFO root fetch - processPackages [xurpas-data-quality]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xurpas_data_quality-0.0.7.tar.gz tmp/xurpas_data_quality-0.0.7a1.tar.gz --markdown 20240516/x/xurpas-data-quality/0.0.7-0.0.7a1/README.md --exclude *.pyd
+[2024-05-16 09:04:43] INFO root fetch - processPackages [simpleworkspace]: executing diffoscope
+[2024-05-16 09:04:43] INFO root fetch - processPackages [simpleworkspace]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/simpleworkspace-1.2.206.tar.gz tmp/simpleworkspace-1.2.207.tar.gz --markdown 20240516/s/simpleworkspace/1.2.206-1.2.207/README.md --exclude *.pyd
+[2024-05-16 09:04:43] INFO root fetch - processPackages [fosslight-util]: executing diffoscope
+[2024-05-16 09:04:43] INFO root fetch - processPackages [fosslight-util]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fosslight_util-1.4.8.tar.gz tmp/fosslight_util-1.4.9.tar.gz --markdown 20240516/f/fosslight-util/1.4.8-1.4.9/README.md --exclude *.pyd
+[2024-05-16 09:04:43] INFO root fetch - processPackages [dooth]: Remove: archive file [/home/abi/fetcher/tmp/dooth-1.1.1-py3-none-any.whl.zip]
+[2024-05-16 09:04:43] INFO root fetch - processPackages [dooth]: Remove: archive file [/home/abi/fetcher/tmp/dooth-1.1.2-py3-none-any.whl.zip]
+[2024-05-16 09:04:43] INFO root fetch - processPackages [dooth]: Start processing: CodingRider
+[2024-05-16 09:04:43] INFO root fetch - main [MainThread]: End processing [dooth]: success
+[2024-05-16 09:04:43] INFO root fetch - processPackages [chainforge]: executing diffoscope
+[2024-05-16 09:04:43] INFO root fetch - processPackages [chainforge]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chainforge-0.3.1.8.tar.gz tmp/chainforge-0.3.1.9.tar.gz --markdown 20240516/c/chainforge/0.3.1.8-0.3.1.9/README.md --exclude *.pyd
+[2024-05-16 09:04:43] INFO root fetch - processPackages [CodingRider]: New version: [2.7] Old Version: [2.6]
+[2024-05-16 09:04:43] INFO root fetch - processPackages [aau-ais-utilities]: Remove: archive file [/home/abi/fetcher/tmp/aau_ais_utilities-0.1.11.tar.gz]
+[2024-05-16 09:04:43] INFO root fetch - processPackages [aau-ais-utilities]: Remove: archive file [/home/abi/fetcher/tmp/aau_ais_utilities-0.1.12.tar.gz]
+[2024-05-16 09:04:43] INFO root fetch - processPackages [aau-ais-utilities]: Start processing: odoo-addon-purchase-packaging-default
+[2024-05-16 09:04:43] INFO root fetch - main [MainThread]: End processing [aau-ais-utilities]: success
+[2024-05-16 09:04:43] INFO root fetch - processPackages [fastapi-problem]: Remove: archive file [/home/abi/fetcher/tmp/fastapi_problem-0.7.5.tar.gz]
+[2024-05-16 09:04:43] INFO root fetch - processPackages [fastapi-problem]: Remove: archive file [/home/abi/fetcher/tmp/fastapi_problem-0.7.6.tar.gz]
+[2024-05-16 09:04:43] INFO root fetch - main [MainThread]: End processing [fastapi-problem]: success
+[2024-05-16 09:04:43] INFO root fetch - processPackages [aau-ais-dipaal]: Remove: archive file [/home/abi/fetcher/tmp/aau_ais_dipaal-0.1.22.tar.gz]
+[2024-05-16 09:04:43] INFO root fetch - processPackages [aau-ais-dipaal]: Remove: archive file [/home/abi/fetcher/tmp/aau_ais_dipaal-0.1.23.tar.gz]
+[2024-05-16 09:04:43] INFO root fetch - main [MainThread]: End processing [aau-ais-dipaal]: success
+[2024-05-16 09:04:43] INFO root fetch - processPackages [odoo-addon-purchase-packaging-default]: New version: [16.0.1.0.0.4] Old Version: [16.0.1.0.0.3]
+[2024-05-16 09:04:43] INFO root fetch - processPackages [CodingRider]: Downloading https://files.pythonhosted.org/packages/c6/64/1b18bd77d5c5a036898aac9f98f7f18fabe7cb24d68b576b538f4c47aca5/codingrider-2.6.tar.gz
+[2024-05-16 09:04:43] INFO root fetch - processPackages [xurpas-data-quality]: Remove: archive file [/home/abi/fetcher/tmp/xurpas_data_quality-0.0.7.tar.gz]
+[2024-05-16 09:04:43] INFO root fetch - processPackages [xurpas-data-quality]: Remove: archive file [/home/abi/fetcher/tmp/xurpas_data_quality-0.0.7a1.tar.gz]
+[2024-05-16 09:04:43] INFO root fetch - main [MainThread]: End processing [xurpas-data-quality]: success
+[2024-05-16 09:04:43] INFO root fetch - processPackages [odoo-addon-purchase-order-supplier-return]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_purchase_order_supplier_return-16.0.1.0.0.3-py3-none-any.whl.zip]
+[2024-05-16 09:04:43] INFO root fetch - processPackages [odoo-addon-purchase-order-supplier-return]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_purchase_order_supplier_return-16.0.1.0.0.4-py3-none-any.whl.zip]
+[2024-05-16 09:04:43] INFO root fetch - main [MainThread]: End processing [odoo-addon-purchase-order-supplier-return]: success
+[2024-05-16 09:04:44] INFO root fetch - processPackages [odoo-addon-purchase-packaging-default]: Downloading https://files.pythonhosted.org/packages/a6/69/a1ef48c20917ec15f34cf44a61ad38aa417fd606284e74fd2f981b61d68b/odoo_addon_purchase_packaging_default-16.0.1.0.0.3-py3-none-any.whl
+[2024-05-16 09:04:44] INFO root fetch - processPackages [simpleworkspace]: Remove: archive file [/home/abi/fetcher/tmp/simpleworkspace-1.2.206.tar.gz]
+[2024-05-16 09:04:44] INFO root fetch - processPackages [simpleworkspace]: Remove: archive file [/home/abi/fetcher/tmp/simpleworkspace-1.2.207.tar.gz]
+[2024-05-16 09:04:44] INFO root fetch - main [MainThread]: End processing [simpleworkspace]: success
+[2024-05-16 09:04:44] INFO root fetch - processPackages [CodingRider]: Downloading https://files.pythonhosted.org/packages/58/fb/8985cf87383bd01c51816ef84325aff41134602b13ca61e346eae97e8355/codingrider-2.7.tar.gz
+[2024-05-16 09:04:44] INFO root fetch - processPackages [odoo-addon-purchase-packaging-default]: Downloading https://files.pythonhosted.org/packages/6c/de/22402e7508aa8b8c84ddfdbef786cc641e91eadf3855fde410906ef02030/odoo_addon_purchase_packaging_default-16.0.1.0.0.4-py3-none-any.whl
+[2024-05-16 09:04:44] INFO root fetch - processPackages [CodingRider]: executing diffoscope
+[2024-05-16 09:04:44] INFO root fetch - processPackages [CodingRider]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/codingrider-2.6.tar.gz tmp/codingrider-2.7.tar.gz --markdown 20240516/C/CodingRider/2.6-2.7/README.md --exclude *.pyd
+[2024-05-16 09:04:44] INFO root fetch - processPackages [fosslight-util]: Remove: archive file [/home/abi/fetcher/tmp/fosslight_util-1.4.8.tar.gz]
+[2024-05-16 09:04:44] INFO root fetch - processPackages [fosslight-util]: Remove: archive file [/home/abi/fetcher/tmp/fosslight_util-1.4.9.tar.gz]
+[2024-05-16 09:04:44] INFO root fetch - main [MainThread]: End processing [fosslight-util]: success
+[2024-05-16 09:04:44] INFO root fetch - processPackages [odoo-addon-purchase-packaging-default]: executing diffoscope
+[2024-05-16 09:04:44] INFO root fetch - processPackages [odoo-addon-purchase-packaging-default]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_purchase_packaging_default-16.0.1.0.0.3-py3-none-any.whl.zip tmp/odoo_addon_purchase_packaging_default-16.0.1.0.0.4-py3-none-any.whl.zip --markdown 20240516/o/odoo-addon-purchase-packaging-default/16.0.1.0.0.3-16.0.1.0.0.4/README.md --exclude *.pyd
+[2024-05-16 09:04:44] INFO root fetch - processPackages [pyecm]: Remove: archive file [/home/abi/fetcher/tmp/pyecm-0.0.1.tar.gz]
+[2024-05-16 09:04:44] INFO root fetch - processPackages [pyecm]: Remove: archive file [/home/abi/fetcher/tmp/pyecm-0.0.2.tar.gz]
+[2024-05-16 09:04:44] INFO root fetch - main [MainThread]: End processing [pyecm]: success
+[2024-05-16 09:04:45] INFO root fetch - processPackages [CodingRider]: Remove: archive file [/home/abi/fetcher/tmp/codingrider-2.6.tar.gz]
+[2024-05-16 09:04:45] INFO root fetch - processPackages [CodingRider]: Remove: archive file [/home/abi/fetcher/tmp/codingrider-2.7.tar.gz]
+[2024-05-16 09:04:45] INFO root fetch - main [MainThread]: End processing [CodingRider]: success
+[2024-05-16 09:04:45] INFO root fetch - processPackages [odoo-addon-purchase-packaging-default]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_purchase_packaging_default-16.0.1.0.0.3-py3-none-any.whl.zip]
+[2024-05-16 09:04:45] INFO root fetch - processPackages [odoo-addon-purchase-packaging-default]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_purchase_packaging_default-16.0.1.0.0.4-py3-none-any.whl.zip]
+[2024-05-16 09:04:45] INFO root fetch - main [MainThread]: End processing [odoo-addon-purchase-packaging-default]: success
+[2024-05-16 09:05:59] INFO root fetch - processPackages [chainforge]: Remove: archive file [/home/abi/fetcher/tmp/chainforge-0.3.1.8.tar.gz]
+[2024-05-16 09:05:59] INFO root fetch - processPackages [chainforge]: Remove: archive file [/home/abi/fetcher/tmp/chainforge-0.3.1.9.tar.gz]
+[2024-05-16 09:05:59] INFO root fetch - main [MainThread]: End processing [chainforge]: success
+[2024-05-16 09:05:59] INFO root fetch - main [MainThread]: Store serial: [23230449]
