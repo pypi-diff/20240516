@@ -10544,3 +10544,18 @@ EOFError: EOF read where object expected
 [2024-05-16 05:37:54] INFO root fetch - processPackages [ezkl]: Remove: archive file [/home/abi/fetcher/tmp/ezkl-9.5.0-cp37-abi3-win_amd64.whl.zip]
 [2024-05-16 05:37:54] INFO root fetch - main [MainThread]: End processing [ezkl]: success
 [2024-05-16 05:37:54] INFO root fetch - main [MainThread]: Store serial: [23229115]
+[2024-05-16 05:39:58] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23229115]
+[2024-05-16 05:40:03] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-16 05:40:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pih-mio
+[2024-05-16 05:40:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: unionllm
+[2024-05-16 05:40:03] WARNING root fetch - processPackages [unionllm]: Skipping, unable to determine old version
+[2024-05-16 05:40:03] INFO root fetch - main [MainThread]: End processing [unionllm] error
+[2024-05-16 05:40:03] INFO root fetch - processPackages [pih-mio]: New version: [0.29.8] Old Version: [0.29.5]
+[2024-05-16 05:40:03] INFO root fetch - processPackages [pih-mio]: Downloading https://files.pythonhosted.org/packages/05/57/1ff42c500cb39bc674f64d097b9d9d6a10e0195f493ec0146bec421c6ee6/pih-mio-0.29.5.tar.gz
+[2024-05-16 05:40:03] INFO root fetch - processPackages [pih-mio]: Downloading https://files.pythonhosted.org/packages/bd/de/094405b5fc1147c1cc271aa92ff3158a17a628ffa1e0a549b4036bd85848/pih-mio-0.29.8.tar.gz
+[2024-05-16 05:40:03] INFO root fetch - processPackages [pih-mio]: executing diffoscope
+[2024-05-16 05:40:03] INFO root fetch - processPackages [pih-mio]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pih-mio-0.29.5.tar.gz tmp/pih-mio-0.29.8.tar.gz --markdown 20240516/p/pih-mio/0.29.5-0.29.8/README.md --exclude *.pyd
+[2024-05-16 05:40:04] INFO root fetch - processPackages [pih-mio]: Remove: archive file [/home/abi/fetcher/tmp/pih-mio-0.29.5.tar.gz]
+[2024-05-16 05:40:04] INFO root fetch - processPackages [pih-mio]: Remove: archive file [/home/abi/fetcher/tmp/pih-mio-0.29.8.tar.gz]
+[2024-05-16 05:40:04] INFO root fetch - main [MainThread]: End processing [pih-mio]: success
+[2024-05-16 05:40:04] INFO root fetch - main [MainThread]: Store serial: [23229122]
