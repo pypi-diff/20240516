@@ -9738,3 +9738,18 @@ EOFError: EOF read where object expected
 [2024-05-16 04:41:08] INFO root fetch - main [MainThread]: End processing [espresso-machine]: success
 [2024-05-16 04:41:08] INFO root fetch - main [MainThread]: End processing [espresso-machine]: success
 [2024-05-16 04:41:08] INFO root fetch - main [MainThread]: Store serial: [23228828]
+[2024-05-16 04:43:12] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23228828]
+[2024-05-16 04:43:17] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-16 04:43:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: w3ml
+[2024-05-16 04:43:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: YaraForge
+[2024-05-16 04:43:17] WARNING root fetch - processPackages [w3ml]: Skipping, unable to determine old version
+[2024-05-16 04:43:17] INFO root fetch - main [MainThread]: End processing [w3ml] error
+[2024-05-16 04:43:17] INFO root fetch - processPackages [YaraForge]: New version: [0.1.9b1] Old Version: [0.1.8b1]
+[2024-05-16 04:43:17] INFO root fetch - processPackages [YaraForge]: Downloading https://files.pythonhosted.org/packages/a3/b3/23b6a5d5405b678138d4a0f15f52e253a6c052d1dc5b167a89605aa68308/YaraForge-0.1.8b1.tar.gz
+[2024-05-16 04:43:18] INFO root fetch - processPackages [YaraForge]: Downloading https://files.pythonhosted.org/packages/d6/8b/f38a30b0409cefc74e067a146bfd79bbcc199e47cc8d5efb2f765bccb0bd/YaraForge-0.1.9b1.tar.gz
+[2024-05-16 04:43:18] INFO root fetch - processPackages [YaraForge]: executing diffoscope
+[2024-05-16 04:43:18] INFO root fetch - processPackages [YaraForge]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/YaraForge-0.1.8b1.tar.gz tmp/YaraForge-0.1.9b1.tar.gz --markdown 20240516/Y/YaraForge/0.1.8b1-0.1.9b1/README.md --exclude *.pyd
+[2024-05-16 04:43:19] INFO root fetch - processPackages [YaraForge]: Remove: archive file [/home/abi/fetcher/tmp/YaraForge-0.1.8b1.tar.gz]
+[2024-05-16 04:43:19] INFO root fetch - processPackages [YaraForge]: Remove: archive file [/home/abi/fetcher/tmp/YaraForge-0.1.9b1.tar.gz]
+[2024-05-16 04:43:19] INFO root fetch - main [MainThread]: End processing [YaraForge]: success
+[2024-05-16 04:43:19] INFO root fetch - main [MainThread]: Store serial: [23228836]
