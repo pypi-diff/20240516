@@ -12955,3 +12955,33 @@ EOFError: EOF read where object expected
 [2024-05-16 08:18:22] INFO root fetch - processPackages [zebrafy]: Remove: archive file [/home/abi/fetcher/tmp/zebrafy-1.1.2.tar.gz]
 [2024-05-16 08:18:22] INFO root fetch - main [MainThread]: End processing [zebrafy]: success
 [2024-05-16 08:18:22] INFO root fetch - main [MainThread]: Store serial: [23230107]
+[2024-05-16 08:20:26] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23230107]
+[2024-05-16 08:20:31] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-16 08:20:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: python-project-stub
+[2024-05-16 08:20:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: chainbench
+[2024-05-16 08:20:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: appmesh
+[2024-05-16 08:20:31] INFO root fetch - processPackages [python-project-stub]: New version: [0.0.7] Old Version: [0.0.5]
+[2024-05-16 08:20:31] INFO root fetch - processPackages [python-project-stub]: Downloading https://files.pythonhosted.org/packages/89/62/a0c9a75ac7b41a03c75314f28fa54edbac6735260c743cf321e84c2c4793/python_project_stub-0.0.5.tar.gz
+[2024-05-16 08:20:31] INFO root fetch - processPackages [chainbench]: New version: [0.7.1] Old Version: [0.7.0]
+[2024-05-16 08:20:31] INFO root fetch - processPackages [appmesh]: New version: [0.9.8] Old Version: [0.9.7]
+[2024-05-16 08:20:31] INFO root fetch - processPackages [chainbench]: Downloading https://files.pythonhosted.org/packages/90/15/100d51124671bdd2a3a3f116d5d504b7fa909292818a2e5464075c65c4c8/chainbench-0.7.0.tar.gz
+[2024-05-16 08:20:31] INFO root fetch - processPackages [python-project-stub]: Downloading https://files.pythonhosted.org/packages/09/ec/aa833fa843cc48fcb2ae7b241405dfcdbe2ed146dea9087d2d31843f3290/python_project_stub-0.0.7.tar.gz
+[2024-05-16 08:20:31] INFO root fetch - processPackages [appmesh]: Downloading https://files.pythonhosted.org/packages/c9/08/797699682ae98a7a64f1271851ccb939dfe993d679086b5457b85a398d3b/appmesh-0.9.7-py3-none-any.whl
+[2024-05-16 08:20:31] INFO root fetch - processPackages [python-project-stub]: executing diffoscope
+[2024-05-16 08:20:31] INFO root fetch - processPackages [python-project-stub]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python_project_stub-0.0.5.tar.gz tmp/python_project_stub-0.0.7.tar.gz --markdown 20240516/p/python-project-stub/0.0.5-0.0.7/README.md --exclude *.pyd
+[2024-05-16 08:20:32] INFO root fetch - processPackages [appmesh]: Downloading https://files.pythonhosted.org/packages/d2/cd/6cc20da4fc7c67c07f311ea86e1f8a9b7485821746a54d83cb672b63d178/appmesh-0.9.8-py3-none-any.whl
+[2024-05-16 08:20:32] INFO root fetch - processPackages [chainbench]: Downloading https://files.pythonhosted.org/packages/0b/19/6b31ff866c755b4bca0c6682304bf3d1d39d8e8d78cb1c212a64e2b7be8a/chainbench-0.7.1.tar.gz
+[2024-05-16 08:20:32] INFO root fetch - processPackages [appmesh]: executing diffoscope
+[2024-05-16 08:20:32] INFO root fetch - processPackages [appmesh]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/appmesh-0.9.7-py3-none-any.whl.zip tmp/appmesh-0.9.8-py3-none-any.whl.zip --markdown 20240516/a/appmesh/0.9.7-0.9.8/README.md --exclude *.pyd
+[2024-05-16 08:20:32] INFO root fetch - processPackages [chainbench]: executing diffoscope
+[2024-05-16 08:20:32] INFO root fetch - processPackages [chainbench]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chainbench-0.7.0.tar.gz tmp/chainbench-0.7.1.tar.gz --markdown 20240516/c/chainbench/0.7.0-0.7.1/README.md --exclude *.pyd
+[2024-05-16 08:20:32] INFO root fetch - processPackages [python-project-stub]: Remove: archive file [/home/abi/fetcher/tmp/python_project_stub-0.0.5.tar.gz]
+[2024-05-16 08:20:32] INFO root fetch - processPackages [python-project-stub]: Remove: archive file [/home/abi/fetcher/tmp/python_project_stub-0.0.7.tar.gz]
+[2024-05-16 08:20:32] INFO root fetch - main [MainThread]: End processing [python-project-stub]: success
+[2024-05-16 08:20:32] INFO root fetch - processPackages [chainbench]: Remove: archive file [/home/abi/fetcher/tmp/chainbench-0.7.0.tar.gz]
+[2024-05-16 08:20:32] INFO root fetch - processPackages [chainbench]: Remove: archive file [/home/abi/fetcher/tmp/chainbench-0.7.1.tar.gz]
+[2024-05-16 08:20:32] INFO root fetch - main [MainThread]: End processing [chainbench]: success
+[2024-05-16 08:20:32] INFO root fetch - processPackages [appmesh]: Remove: archive file [/home/abi/fetcher/tmp/appmesh-0.9.7-py3-none-any.whl.zip]
+[2024-05-16 08:20:32] INFO root fetch - processPackages [appmesh]: Remove: archive file [/home/abi/fetcher/tmp/appmesh-0.9.8-py3-none-any.whl.zip]
+[2024-05-16 08:20:32] INFO root fetch - main [MainThread]: End processing [appmesh]: success
+[2024-05-16 08:20:32] INFO root fetch - main [MainThread]: Store serial: [23230114]
