@@ -4759,3 +4759,56 @@ AssertionError: tmp/hygpytools-0.2.0.tar.gz does not exist
 [2024-05-16 02:51:49] INFO root fetch - processPackages [bioversions]: Remove: archive file [/home/abi/fetcher/tmp/bioversions-0.5.99.tar.gz]
 [2024-05-16 02:51:49] INFO root fetch - main [MainThread]: End processing [bioversions]: success
 [2024-05-16 02:51:49] INFO root fetch - main [MainThread]: Store serial: [23227028]
+[2024-05-16 02:53:53] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23227028]
+[2024-05-16 02:53:58] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-05-16 02:53:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: taskiq-sqs
+[2024-05-16 02:53:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: omniblack.utils
+[2024-05-16 02:53:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: jy_lib
+[2024-05-16 02:53:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: anyscale
+[2024-05-16 02:53:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: mns-common
+[2024-05-16 02:53:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: gcsfs
+[2024-05-16 02:53:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: omniblack.string-case
+[2024-05-16 02:53:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: warn-transformer
+[2024-05-16 02:53:58] INFO root fetch - processPackages [gcsfs]: New version: [2024.3.1] Old Version: [2024.2.0]
+[2024-05-16 02:53:58] INFO root fetch - processPackages [mns-common]: New version: [1.1.0.4] Old Version: [1.1.0.3]
+[2024-05-16 02:53:58] INFO root fetch - processPackages [warn-transformer]: New version: [1.3.99] Old Version: [1.3.98]
+[2024-05-16 02:53:58] WARNING root fetch - processPackages [taskiq-sqs]: Skipping, unable to determine old version
+[2024-05-16 02:53:58] INFO root fetch - main [MainThread]: End processing [taskiq-sqs] error
+[2024-05-16 02:53:58] WARNING root fetch - processPackages [omniblack.string-case]: Skipping, unable to determine old version
+[2024-05-16 02:53:58] INFO root fetch - main [MainThread]: End processing [omniblack.string-case] error
+[2024-05-16 02:53:58] WARNING root fetch - processPackages [omniblack.utils]: Skipping, unable to determine old version
+[2024-05-16 02:53:58] INFO root fetch - main [MainThread]: End processing [omniblack.utils] error
+[2024-05-16 02:53:58] INFO root fetch - processPackages [jy_lib]: New version: [0.7.6] Old Version: [0.7.5]
+[2024-05-16 02:53:58] INFO root fetch - processPackages [mns-common]: Downloading https://files.pythonhosted.org/packages/9b/ee/aa3d115b2510e792880535e35ddd1e5a3d94b2b1352d3361f954f26dd04a/mns_common-1.1.0.3.tar.gz
+[2024-05-16 02:53:58] INFO root fetch - processPackages [anyscale]: New version: [0.5.99] Old Version: [0.5.98]
+[2024-05-16 02:53:58] INFO root fetch - processPackages [warn-transformer]: Downloading https://files.pythonhosted.org/packages/b8/99/d6c890a82a61166d1783e52251ba393e28b663b82ae80de85f67cf32c5e8/warn-transformer-1.3.98.tar.gz
+[2024-05-16 02:53:58] INFO root fetch - processPackages [gcsfs]: Downloading https://files.pythonhosted.org/packages/53/ef/4d68b78fb50e5f28494fede47d58381ec7939fa33e11544939afe11a41a1/gcsfs-2024.2.0.tar.gz
+[2024-05-16 02:53:58] WARNING root fetch - processPackages [warn-transformer]: Skipping package: exceeds size limit 25743623>=10485760
+[2024-05-16 02:53:58] INFO root fetch - main [MainThread]: End processing [warn-transformer] error
+[2024-05-16 02:53:58] INFO root fetch - processPackages [jy_lib]: Downloading https://files.pythonhosted.org/packages/f3/e5/a09b0d9b54713fd1946ce6ebba86648bc4172467e67a13c5862dd0a43c80/jy_lib-0.7.5.tar.gz
+[2024-05-16 02:53:58] INFO root fetch - processPackages [anyscale]: Downloading https://files.pythonhosted.org/packages/0d/64/8bf86d6d00617c61b31e91a8455e6fb08278056ee4d72abf6317509d592e/anyscale-0.5.98.tar.gz
+[2024-05-16 02:53:58] INFO root fetch - processPackages [mns-common]: Downloading https://files.pythonhosted.org/packages/7e/61/34372bc361fd1bec608408c5d5232f73ccd6310493e125d3c9858b084631/mns_common-1.1.0.4.tar.gz
+[2024-05-16 02:53:58] INFO root fetch - processPackages [gcsfs]: Downloading https://files.pythonhosted.org/packages/f6/1c/b36b1d0e13db62f7bad0891eaf0da359c34d02d5b558cf0ae66c956356ca/gcsfs-2024.3.1.tar.gz
+[2024-05-16 02:53:58] INFO root fetch - processPackages [mns-common]: executing diffoscope
+[2024-05-16 02:53:58] INFO root fetch - processPackages [mns-common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mns_common-1.1.0.3.tar.gz tmp/mns_common-1.1.0.4.tar.gz --markdown 20240516/m/mns-common/1.1.0.3-1.1.0.4/README.md --exclude *.pyd
+[2024-05-16 02:53:58] INFO root fetch - processPackages [gcsfs]: executing diffoscope
+[2024-05-16 02:53:58] INFO root fetch - processPackages [gcsfs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gcsfs-2024.2.0.tar.gz tmp/gcsfs-2024.3.1.tar.gz --markdown 20240516/g/gcsfs/2024.2.0-2024.3.1/README.md --exclude *.pyd
+[2024-05-16 02:53:59] INFO root fetch - processPackages [jy_lib]: Downloading https://files.pythonhosted.org/packages/6e/08/f5b48c5734c78de59113c43644f39ac7849c076af11b3e40d0cc87409165/jy_lib-0.7.6.tar.gz
+[2024-05-16 02:53:59] INFO root fetch - processPackages [anyscale]: Downloading https://files.pythonhosted.org/packages/61/f0/917cf3e18c478eaae2e53db68c9d20607edab461774054c8f509cc4885b6/anyscale-0.5.99.tar.gz
+[2024-05-16 02:53:59] INFO root fetch - processPackages [jy_lib]: executing diffoscope
+[2024-05-16 02:53:59] INFO root fetch - processPackages [jy_lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jy_lib-0.7.5.tar.gz tmp/jy_lib-0.7.6.tar.gz --markdown 20240516/j/jy_lib/0.7.5-0.7.6/README.md --exclude *.pyd
+[2024-05-16 02:53:59] INFO root fetch - processPackages [anyscale]: executing diffoscope
+[2024-05-16 02:53:59] INFO root fetch - processPackages [anyscale]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/anyscale-0.5.98.tar.gz tmp/anyscale-0.5.99.tar.gz --markdown 20240516/a/anyscale/0.5.98-0.5.99/README.md --exclude *.pyd
+[2024-05-16 02:53:59] INFO root fetch - processPackages [gcsfs]: Remove: archive file [/home/abi/fetcher/tmp/gcsfs-2024.2.0.tar.gz]
+[2024-05-16 02:53:59] INFO root fetch - processPackages [gcsfs]: Remove: archive file [/home/abi/fetcher/tmp/gcsfs-2024.3.1.tar.gz]
+[2024-05-16 02:53:59] INFO root fetch - main [MainThread]: End processing [gcsfs]: success
+[2024-05-16 02:53:59] INFO root fetch - processPackages [mns-common]: Remove: archive file [/home/abi/fetcher/tmp/mns_common-1.1.0.3.tar.gz]
+[2024-05-16 02:53:59] INFO root fetch - processPackages [mns-common]: Remove: archive file [/home/abi/fetcher/tmp/mns_common-1.1.0.4.tar.gz]
+[2024-05-16 02:53:59] INFO root fetch - main [MainThread]: End processing [mns-common]: success
+[2024-05-16 02:53:59] INFO root fetch - processPackages [jy_lib]: Remove: archive file [/home/abi/fetcher/tmp/jy_lib-0.7.5.tar.gz]
+[2024-05-16 02:53:59] INFO root fetch - processPackages [jy_lib]: Remove: archive file [/home/abi/fetcher/tmp/jy_lib-0.7.6.tar.gz]
+[2024-05-16 02:53:59] INFO root fetch - main [MainThread]: End processing [jy_lib]: success
+[2024-05-16 02:54:02] INFO root fetch - processPackages [anyscale]: Remove: archive file [/home/abi/fetcher/tmp/anyscale-0.5.98.tar.gz]
+[2024-05-16 02:54:02] INFO root fetch - processPackages [anyscale]: Remove: archive file [/home/abi/fetcher/tmp/anyscale-0.5.99.tar.gz]
+[2024-05-16 02:54:02] INFO root fetch - main [MainThread]: End processing [anyscale]: success
+[2024-05-16 02:54:02] INFO root fetch - main [MainThread]: Store serial: [23227060]
