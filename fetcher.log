@@ -13164,3 +13164,11 @@ EOFError: EOF read where object expected
 [2024-05-16 08:33:57] INFO root fetch - processPackages [hiclip]: Remove: archive file [/home/abi/fetcher/tmp/hiclip-0.0.4.tar.gz]
 [2024-05-16 08:33:57] INFO root fetch - main [MainThread]: End processing [hiclip]: success
 [2024-05-16 08:33:57] INFO root fetch - main [MainThread]: Store serial: [23230180]
+[2024-05-16 08:36:00] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23230180]
+[2024-05-16 08:36:05] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-05-16 08:36:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: qleegss
+[2024-05-16 08:36:05] INFO root fetch - processPackages [qleegss]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-16 08:36:05] INFO root fetch - processPackages [qleegss]: Downloading https://files.pythonhosted.org/packages/06/1e/3ca6e311e0a7d815c65771d58053745632e0a11ad74e83e01770fdf7c2f7/qleegss-0.0.8.tar.gz
+[2024-05-16 08:36:05] WARNING root fetch - processPackages [qleegss]: Skipping package: exceeds size limit 20058685>=10485760
+[2024-05-16 08:36:05] INFO root fetch - main [MainThread]: End processing [qleegss] error
+[2024-05-16 08:36:05] INFO root fetch - main [MainThread]: Store serial: [23230185]
