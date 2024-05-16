@@ -10844,3 +10844,36 @@ EOFError: EOF read where object expected
 [2024-05-16 05:57:34] INFO root fetch - processPackages [vocalpy]: Remove: archive file [/home/abi/fetcher/tmp/vocalpy-0.9.0.tar.gz]
 [2024-05-16 05:57:34] INFO root fetch - main [MainThread]: End processing [vocalpy]: success
 [2024-05-16 05:57:34] INFO root fetch - main [MainThread]: Store serial: [23229214]
+[2024-05-16 05:59:38] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23229214]
+[2024-05-16 05:59:43] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-16 05:59:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: twstock
+[2024-05-16 05:59:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: w3ml
+[2024-05-16 05:59:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: opengamedata-api-utils
+[2024-05-16 05:59:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: bilbyai-source-label-map
+[2024-05-16 05:59:43] INFO root fetch - processPackages [w3ml]: New version: [2024.5.16rc2] Old Version: [2024.5.16rc1]
+[2024-05-16 05:59:43] INFO root fetch - processPackages [opengamedata-api-utils]: New version: [1.0.6] Old Version: [1.0.5]
+[2024-05-16 05:59:43] INFO root fetch - processPackages [w3ml]: Downloading https://files.pythonhosted.org/packages/36/03/662a23ce686f500bb372806d75fcaf4d3db741b4797ec3a2e553309e6107/w3ml-2024.5.16rc1.tar.gz
+[2024-05-16 05:59:43] INFO root fetch - processPackages [opengamedata-api-utils]: Downloading https://files.pythonhosted.org/packages/c9/3e/c183de21ab6ad9fb99260ec4d08a37dd237f8d9cb3b71689eb8380785df3/opengamedata_api_utils-1.0.5.tar.gz
+[2024-05-16 05:59:43] INFO root fetch - processPackages [twstock]: New version: [1.4.0] Old Version: [1.3.1]
+[2024-05-16 05:59:43] WARNING root fetch - processPackages [bilbyai-source-label-map]: Skipping, unable to determine old version
+[2024-05-16 05:59:43] INFO root fetch - main [MainThread]: End processing [bilbyai-source-label-map] error
+[2024-05-16 05:59:43] INFO root fetch - processPackages [twstock]: Downloading https://files.pythonhosted.org/packages/7b/ec/12fd572740d706be86ba9a0b1bd9920ec740d70d57aa3237d5b431eb2987/twstock-1.3.1.tar.gz
+[2024-05-16 05:59:43] INFO root fetch - processPackages [opengamedata-api-utils]: Downloading https://files.pythonhosted.org/packages/ed/0e/1bef1ed21087afbe3fdd393b047748d5d97616fbb0154b45be5c67f8d6d5/opengamedata_api_utils-1.0.6.tar.gz
+[2024-05-16 05:59:43] INFO root fetch - processPackages [w3ml]: Downloading https://files.pythonhosted.org/packages/bc/72/d360189931036894280f00c62da9520a23bb49e469ffe67df31bc68a2016/w3ml-2024.5.16rc2.tar.gz
+[2024-05-16 05:59:44] INFO root fetch - processPackages [opengamedata-api-utils]: executing diffoscope
+[2024-05-16 05:59:44] INFO root fetch - processPackages [w3ml]: executing diffoscope
+[2024-05-16 05:59:44] INFO root fetch - processPackages [w3ml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/w3ml-2024.5.16rc1.tar.gz tmp/w3ml-2024.5.16rc2.tar.gz --markdown 20240516/w/w3ml/2024.5.16rc1-2024.5.16rc2/README.md --exclude *.pyd
+[2024-05-16 05:59:44] INFO root fetch - processPackages [opengamedata-api-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/opengamedata_api_utils-1.0.5.tar.gz tmp/opengamedata_api_utils-1.0.6.tar.gz --markdown 20240516/o/opengamedata-api-utils/1.0.5-1.0.6/README.md --exclude *.pyd
+[2024-05-16 05:59:44] INFO root fetch - processPackages [twstock]: Downloading https://files.pythonhosted.org/packages/89/43/8223bbd6d58c9b5262ba03623265a5261a716dc5f167c4eee83ce9bef404/twstock-1.4.0.tar.gz
+[2024-05-16 05:59:44] INFO root fetch - processPackages [twstock]: executing diffoscope
+[2024-05-16 05:59:44] INFO root fetch - processPackages [twstock]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/twstock-1.3.1.tar.gz tmp/twstock-1.4.0.tar.gz --markdown 20240516/t/twstock/1.3.1-1.4.0/README.md --exclude *.pyd
+[2024-05-16 05:59:44] INFO root fetch - processPackages [w3ml]: Remove: archive file [/home/abi/fetcher/tmp/w3ml-2024.5.16rc1.tar.gz]
+[2024-05-16 05:59:44] INFO root fetch - processPackages [w3ml]: Remove: archive file [/home/abi/fetcher/tmp/w3ml-2024.5.16rc2.tar.gz]
+[2024-05-16 05:59:44] INFO root fetch - main [MainThread]: End processing [w3ml]: success
+[2024-05-16 05:59:44] INFO root fetch - processPackages [opengamedata-api-utils]: Remove: archive file [/home/abi/fetcher/tmp/opengamedata_api_utils-1.0.5.tar.gz]
+[2024-05-16 05:59:44] INFO root fetch - processPackages [opengamedata-api-utils]: Remove: archive file [/home/abi/fetcher/tmp/opengamedata_api_utils-1.0.6.tar.gz]
+[2024-05-16 05:59:44] INFO root fetch - main [MainThread]: End processing [opengamedata-api-utils]: success
+[2024-05-16 05:59:45] INFO root fetch - processPackages [twstock]: Remove: archive file [/home/abi/fetcher/tmp/twstock-1.3.1.tar.gz]
+[2024-05-16 05:59:45] INFO root fetch - processPackages [twstock]: Remove: archive file [/home/abi/fetcher/tmp/twstock-1.4.0.tar.gz]
+[2024-05-16 05:59:45] INFO root fetch - main [MainThread]: End processing [twstock]: success
+[2024-05-16 05:59:45] INFO root fetch - main [MainThread]: Store serial: [23229231]
