@@ -9173,3 +9173,42 @@ EOFError: EOF read where object expected
 [2024-05-16 04:05:54] WARNING root fetch - processPackages [fanfare]: Skipping, unable to determine old version
 [2024-05-16 04:05:54] INFO root fetch - main [MainThread]: End processing [fanfare] error
 [2024-05-16 04:05:54] INFO root fetch - main [MainThread]: Store serial: [23228545]
+[2024-05-16 04:07:57] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23228545]
+[2024-05-16 04:08:02] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-16 04:08:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pygpt-net
+[2024-05-16 04:08:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: oceanum
+[2024-05-16 04:08:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: alphainspect
+[2024-05-16 04:08:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: odc-apps-dc-tools
+[2024-05-16 04:08:02] INFO root fetch - processPackages [alphainspect]: New version: [0.4.0] Old Version: [0.3.1]
+[2024-05-16 04:08:02] INFO root fetch - processPackages [odc-apps-dc-tools]: New version: [0.2.9] Old Version: [0.2.8]
+[2024-05-16 04:08:02] INFO root fetch - processPackages [oceanum]: New version: [0.9.8] Old Version: [0.9.7]
+[2024-05-16 04:08:02] INFO root fetch - processPackages [pygpt-net]: New version: [2.2.9] Old Version: [2.2.8]
+[2024-05-16 04:08:02] INFO root fetch - processPackages [alphainspect]: Downloading https://files.pythonhosted.org/packages/0c/4a/20bc2ba1c3e16b26ada4032c5061a8d965cd60d16444bedff7a5f9216f4f/alphainspect-0.3.1.tar.gz
+[2024-05-16 04:08:02] INFO root fetch - processPackages [oceanum]: Downloading https://files.pythonhosted.org/packages/57/ed/935840882fb2e119b107f69f3f9b67b25107aa1acd866accb4eb44166804/oceanum-0.9.7.tar.gz
+[2024-05-16 04:08:02] INFO root fetch - processPackages [odc-apps-dc-tools]: Downloading https://files.pythonhosted.org/packages/15/68/02400703862343f991c9ab3aeef03294bc51c6b1940ce637858d9c71ba39/odc-apps-dc-tools-0.2.8.tar.gz
+[2024-05-16 04:08:03] INFO root fetch - processPackages [alphainspect]: Downloading https://files.pythonhosted.org/packages/dd/3b/82f0d4b062af259616bcfe95ae7d639443f7e4103156e4137325394726d0/alphainspect-0.4.0.tar.gz
+[2024-05-16 04:08:03] INFO root fetch - processPackages [pygpt-net]: Downloading https://files.pythonhosted.org/packages/a2/51/eab8c08ccf8061d3c9a0a64e34850f09c2f311fb768c293d3683b097b0a1/pygpt_net-2.2.8.tar.gz
+[2024-05-16 04:08:03] INFO root fetch - processPackages [alphainspect]: executing diffoscope
+[2024-05-16 04:08:03] INFO root fetch - processPackages [alphainspect]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alphainspect-0.3.1.tar.gz tmp/alphainspect-0.4.0.tar.gz --markdown 20240516/a/alphainspect/0.3.1-0.4.0/README.md --exclude *.pyd
+[2024-05-16 04:08:03] INFO root fetch - processPackages [oceanum]: Downloading https://files.pythonhosted.org/packages/d6/84/c1ff2f83b55b69b2f4e65d205b4e2a9f88f1070aa1310d7fd5b4a1df7df1/oceanum-0.9.8.tar.gz
+[2024-05-16 04:08:03] INFO root fetch - processPackages [oceanum]: executing diffoscope
+[2024-05-16 04:08:03] INFO root fetch - processPackages [oceanum]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oceanum-0.9.7.tar.gz tmp/oceanum-0.9.8.tar.gz --markdown 20240516/o/oceanum/0.9.7-0.9.8/README.md --exclude *.pyd
+[2024-05-16 04:08:03] INFO root fetch - processPackages [odc-apps-dc-tools]: Downloading https://files.pythonhosted.org/packages/d2/e6/61d4463c41f8c8a97a0b07fe75be1779d4186eaee66874c6ce92a54ca569/odc-apps-dc-tools-0.2.9.tar.gz
+[2024-05-16 04:08:03] INFO root fetch - processPackages [odc-apps-dc-tools]: executing diffoscope
+[2024-05-16 04:08:03] INFO root fetch - processPackages [odc-apps-dc-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odc-apps-dc-tools-0.2.8.tar.gz tmp/odc-apps-dc-tools-0.2.9.tar.gz --markdown 20240516/o/odc-apps-dc-tools/0.2.8-0.2.9/README.md --exclude *.pyd
+[2024-05-16 04:08:03] INFO root fetch - processPackages [alphainspect]: Remove: archive file [/home/abi/fetcher/tmp/alphainspect-0.3.1.tar.gz]
+[2024-05-16 04:08:03] INFO root fetch - processPackages [alphainspect]: Remove: archive file [/home/abi/fetcher/tmp/alphainspect-0.4.0.tar.gz]
+[2024-05-16 04:08:03] INFO root fetch - main [MainThread]: End processing [alphainspect]: success
+[2024-05-16 04:08:03] INFO root fetch - processPackages [pygpt-net]: Downloading https://files.pythonhosted.org/packages/9a/6b/ef19dace2478125566a1c01459255b7c5ee6d85a70cc2501323506c14e6a/pygpt_net-2.2.9.tar.gz
+[2024-05-16 04:08:03] INFO root fetch - processPackages [oceanum]: Remove: archive file [/home/abi/fetcher/tmp/oceanum-0.9.7.tar.gz]
+[2024-05-16 04:08:03] INFO root fetch - processPackages [oceanum]: Remove: archive file [/home/abi/fetcher/tmp/oceanum-0.9.8.tar.gz]
+[2024-05-16 04:08:03] INFO root fetch - main [MainThread]: End processing [oceanum]: success
+[2024-05-16 04:08:04] INFO root fetch - processPackages [odc-apps-dc-tools]: Remove: archive file [/home/abi/fetcher/tmp/odc-apps-dc-tools-0.2.8.tar.gz]
+[2024-05-16 04:08:04] INFO root fetch - processPackages [odc-apps-dc-tools]: Remove: archive file [/home/abi/fetcher/tmp/odc-apps-dc-tools-0.2.9.tar.gz]
+[2024-05-16 04:08:04] INFO root fetch - main [MainThread]: End processing [odc-apps-dc-tools]: success
+[2024-05-16 04:08:04] INFO root fetch - processPackages [pygpt-net]: executing diffoscope
+[2024-05-16 04:08:04] INFO root fetch - processPackages [pygpt-net]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pygpt_net-2.2.8.tar.gz tmp/pygpt_net-2.2.9.tar.gz --markdown 20240516/p/pygpt-net/2.2.8-2.2.9/README.md --exclude *.pyd
+[2024-05-16 04:08:07] INFO root fetch - processPackages [pygpt-net]: Remove: archive file [/home/abi/fetcher/tmp/pygpt_net-2.2.8.tar.gz]
+[2024-05-16 04:08:07] INFO root fetch - processPackages [pygpt-net]: Remove: archive file [/home/abi/fetcher/tmp/pygpt_net-2.2.9.tar.gz]
+[2024-05-16 04:08:07] INFO root fetch - main [MainThread]: End processing [pygpt-net]: success
+[2024-05-16 04:08:07] INFO root fetch - main [MainThread]: Store serial: [23228557]
