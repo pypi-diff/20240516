@@ -12633,3 +12633,51 @@ EOFError: EOF read where object expected
 [2024-05-16 08:02:14] INFO root fetch - processPackages [acryl-datahub]: Remove: archive file [/home/abi/fetcher/tmp/acryl-datahub-0.9.6rc1.tar.gz]
 [2024-05-16 08:02:14] INFO root fetch - main [MainThread]: End processing [acryl-datahub]: success
 [2024-05-16 08:02:14] INFO root fetch - main [MainThread]: Store serial: [23229997]
+[2024-05-16 08:04:18] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23229997]
+[2024-05-16 08:04:23] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-16 08:04:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: PITpip
+[2024-05-16 08:04:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: matrix-gptbot
+[2024-05-16 08:04:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: niquests
+[2024-05-16 08:04:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: lense
+[2024-05-16 08:04:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: urllib3-future
+[2024-05-16 08:04:23] INFO root fetch - processPackages [lense]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-16 08:04:23] INFO root fetch - processPackages [PITpip]: New version: [1.4.0] Old Version: [1.3.0]
+[2024-05-16 08:04:23] INFO root fetch - processPackages [matrix-gptbot]: New version: [0.3.9] Old Version: [0.3.8]
+[2024-05-16 08:04:23] INFO root fetch - processPackages [PITpip]: Downloading https://files.pythonhosted.org/packages/87/9e/74c7b6063d4cc22440aaf956327a11095da2781448de7f977fdedfb2b0f2/pitpip-1.3.0.tar.gz
+[2024-05-16 08:04:23] INFO root fetch - processPackages [niquests]: New version: [3.6.4] Old Version: [3.6.3]
+[2024-05-16 08:04:23] INFO root fetch - processPackages [urllib3-future]: New version: [2.7.908] Old Version: [2.7.907]
+[2024-05-16 08:04:23] INFO root fetch - processPackages [matrix-gptbot]: Downloading https://files.pythonhosted.org/packages/d7/32/d681dfe9679a330ec33035a50c701126ddd8222d0218a7eaf134bff2583f/matrix_gptbot-0.3.8.tar.gz
+[2024-05-16 08:04:23] INFO root fetch - processPackages [lense]: Downloading https://files.pythonhosted.org/packages/1f/b1/9ae75052fff999c74cd3a7c52f13211a501f5f3477a99e27882970a8bdb5/lense-0.0.8-py3-none-any.whl
+[2024-05-16 08:04:23] INFO root fetch - processPackages [PITpip]: Downloading https://files.pythonhosted.org/packages/1f/4c/793e17626884216e7829623194b1fef550dc375e847ae46c8c689a385855/pitpip-1.4.0.tar.gz
+[2024-05-16 08:04:23] INFO root fetch - processPackages [niquests]: Downloading https://files.pythonhosted.org/packages/b9/cb/c6d2e78587158bf9e8b4b6214f08a0b186eb3adc94b82cda0c305514e8a1/niquests-3.6.3.tar.gz
+[2024-05-16 08:04:23] INFO root fetch - processPackages [urllib3-future]: Downloading https://files.pythonhosted.org/packages/1c/ee/d2db71309aac7c99e7d6abfda9eb472861b0e53fc50293d151e72f92e175/urllib3_future-2.7.907.tar.gz
+[2024-05-16 08:04:23] INFO root fetch - processPackages [PITpip]: executing diffoscope
+[2024-05-16 08:04:23] INFO root fetch - processPackages [PITpip]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pitpip-1.3.0.tar.gz tmp/pitpip-1.4.0.tar.gz --markdown 20240516/P/PITpip/1.3.0-1.4.0/README.md --exclude *.pyd
+[2024-05-16 08:04:24] INFO root fetch - processPackages [lense]: Downloading https://files.pythonhosted.org/packages/f1/5f/2b1607d0b8d05f98ecce0d5b0d143653f1c2da72029a54e6d5f01f768843/lense-0.0.9-py3-none-any.whl
+[2024-05-16 08:04:24] INFO root fetch - processPackages [lense]: executing diffoscope
+[2024-05-16 08:04:24] INFO root fetch - processPackages [lense]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lense-0.0.8-py3-none-any.whl.zip tmp/lense-0.0.9-py3-none-any.whl.zip --markdown 20240516/l/lense/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-16 08:04:24] INFO root fetch - processPackages [urllib3-future]: Downloading https://files.pythonhosted.org/packages/5a/96/ab62f42f6924e063b9fbc6e67123ae736c78e0fea96d80f794a296900f59/urllib3_future-2.7.908.tar.gz
+[2024-05-16 08:04:24] INFO root fetch - processPackages [matrix-gptbot]: Downloading https://files.pythonhosted.org/packages/6c/4a/2439a6a79129802308a126448cca1849029134a6e490258c44e9b81d1ea5/matrix_gptbot-0.3.9.tar.gz
+[2024-05-16 08:04:24] INFO root fetch - processPackages [niquests]: Downloading https://files.pythonhosted.org/packages/e6/eb/5edc4e83f87c627e9896f70900419662f29c544a7ad7d589169efe934e39/niquests-3.6.4.tar.gz
+[2024-05-16 08:04:24] INFO root fetch - processPackages [niquests]: executing diffoscope
+[2024-05-16 08:04:24] INFO root fetch - processPackages [niquests]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/niquests-3.6.3.tar.gz tmp/niquests-3.6.4.tar.gz --markdown 20240516/n/niquests/3.6.3-3.6.4/README.md --exclude *.pyd
+[2024-05-16 08:04:24] INFO root fetch - processPackages [matrix-gptbot]: executing diffoscope
+[2024-05-16 08:04:24] INFO root fetch - processPackages [matrix-gptbot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/matrix_gptbot-0.3.8.tar.gz tmp/matrix_gptbot-0.3.9.tar.gz --markdown 20240516/m/matrix-gptbot/0.3.8-0.3.9/README.md --exclude *.pyd
+[2024-05-16 08:04:24] INFO root fetch - processPackages [PITpip]: Remove: archive file [/home/abi/fetcher/tmp/pitpip-1.3.0.tar.gz]
+[2024-05-16 08:04:24] INFO root fetch - processPackages [PITpip]: Remove: archive file [/home/abi/fetcher/tmp/pitpip-1.4.0.tar.gz]
+[2024-05-16 08:04:24] INFO root fetch - main [MainThread]: End processing [PITpip]: success
+[2024-05-16 08:04:24] INFO root fetch - processPackages [urllib3-future]: executing diffoscope
+[2024-05-16 08:04:24] INFO root fetch - processPackages [urllib3-future]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/urllib3_future-2.7.907.tar.gz tmp/urllib3_future-2.7.908.tar.gz --markdown 20240516/u/urllib3-future/2.7.907-2.7.908/README.md --exclude *.pyd
+[2024-05-16 08:04:24] INFO root fetch - processPackages [lense]: Remove: archive file [/home/abi/fetcher/tmp/lense-0.0.8-py3-none-any.whl.zip]
+[2024-05-16 08:04:24] INFO root fetch - processPackages [lense]: Remove: archive file [/home/abi/fetcher/tmp/lense-0.0.9-py3-none-any.whl.zip]
+[2024-05-16 08:04:24] INFO root fetch - main [MainThread]: End processing [lense]: success
+[2024-05-16 08:04:25] INFO root fetch - processPackages [matrix-gptbot]: Remove: archive file [/home/abi/fetcher/tmp/matrix_gptbot-0.3.8.tar.gz]
+[2024-05-16 08:04:25] INFO root fetch - processPackages [matrix-gptbot]: Remove: archive file [/home/abi/fetcher/tmp/matrix_gptbot-0.3.9.tar.gz]
+[2024-05-16 08:04:25] INFO root fetch - main [MainThread]: End processing [matrix-gptbot]: success
+[2024-05-16 08:04:25] INFO root fetch - processPackages [niquests]: Remove: archive file [/home/abi/fetcher/tmp/niquests-3.6.3.tar.gz]
+[2024-05-16 08:04:25] INFO root fetch - processPackages [niquests]: Remove: archive file [/home/abi/fetcher/tmp/niquests-3.6.4.tar.gz]
+[2024-05-16 08:04:25] INFO root fetch - main [MainThread]: End processing [niquests]: success
+[2024-05-16 08:04:26] INFO root fetch - processPackages [urllib3-future]: Remove: archive file [/home/abi/fetcher/tmp/urllib3_future-2.7.907.tar.gz]
+[2024-05-16 08:04:26] INFO root fetch - processPackages [urllib3-future]: Remove: archive file [/home/abi/fetcher/tmp/urllib3_future-2.7.908.tar.gz]
+[2024-05-16 08:04:26] INFO root fetch - main [MainThread]: End processing [urllib3-future]: success
+[2024-05-16 08:04:26] INFO root fetch - main [MainThread]: Store serial: [23230011]
