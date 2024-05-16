@@ -22211,3 +22211,36 @@ EOFError: EOF read where object expected
 [2024-05-16 11:51:49] INFO root fetch - processPackages [lsst-daf-butler]: Remove: archive file [/home/abi/fetcher/tmp/lsst_daf_butler-27.2024.1900.tar.gz]
 [2024-05-16 11:51:49] INFO root fetch - main [MainThread]: End processing [lsst-daf-butler]: success
 [2024-05-16 11:51:49] INFO root fetch - main [MainThread]: Store serial: [23233429]
+[2024-05-16 11:53:57] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23233429]
+[2024-05-16 11:54:01] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-16 11:54:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: document_image_utils
+[2024-05-16 11:54:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: dataclasses-ujson
+[2024-05-16 11:54:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: upgini
+[2024-05-16 11:54:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: plsp
+[2024-05-16 11:54:02] WARNING root fetch - processPackages [plsp]: Skipping, unable to determine old version
+[2024-05-16 11:54:02] INFO root fetch - main [MainThread]: End processing [plsp] error
+[2024-05-16 11:54:02] INFO root fetch - processPackages [document_image_utils]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-16 11:54:02] INFO root fetch - processPackages [upgini]: New version: [1.1.99] Old Version: [1.1.98]
+[2024-05-16 11:54:02] INFO root fetch - processPackages [document_image_utils]: Downloading https://files.pythonhosted.org/packages/c2/09/d1e0e12fc15b7611a3288e3e3ff6a4231bc3d662f75f4ee7d8d628a4e845/document_image_utils-0.1.8.tar.gz
+[2024-05-16 11:54:02] INFO root fetch - processPackages [dataclasses-ujson]: New version: [0.0.8] Old Version: [0.0.5]
+[2024-05-16 11:54:02] INFO root fetch - processPackages [upgini]: Downloading https://files.pythonhosted.org/packages/59/79/dc47448e0c68a4e00d9d0b7f4c640207fa605fe48cdc53e30221037a1962/upgini-1.1.98.tar.gz
+[2024-05-16 11:54:02] INFO root fetch - processPackages [document_image_utils]: Downloading https://files.pythonhosted.org/packages/67/35/80dcb6dc9d5435df14cff1dd532836f0fe623140964ee7be62c3dd2d3836/document_image_utils-0.1.9.tar.gz
+[2024-05-16 11:54:02] INFO root fetch - processPackages [dataclasses-ujson]: Downloading https://files.pythonhosted.org/packages/fe/e4/6d8902a1fcd5416dc2e87a641c95eb05f13c5b84ec8f393870f29529960a/dataclasses_ujson-0.0.5.tar.gz
+[2024-05-16 11:54:02] INFO root fetch - processPackages [upgini]: Downloading https://files.pythonhosted.org/packages/32/f1/1df90a6a856d855308ddf057a7b8cdad7dbcafb6230f0592bbff90f929fd/upgini-1.1.99.tar.gz
+[2024-05-16 11:54:02] INFO root fetch - processPackages [document_image_utils]: executing diffoscope
+[2024-05-16 11:54:02] INFO root fetch - processPackages [document_image_utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/document_image_utils-0.1.8.tar.gz tmp/document_image_utils-0.1.9.tar.gz --markdown 20240516/d/document_image_utils/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-16 11:54:02] INFO root fetch - processPackages [upgini]: executing diffoscope
+[2024-05-16 11:54:02] INFO root fetch - processPackages [upgini]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/upgini-1.1.98.tar.gz tmp/upgini-1.1.99.tar.gz --markdown 20240516/u/upgini/1.1.98-1.1.99/README.md --exclude *.pyd
+[2024-05-16 11:54:02] INFO root fetch - processPackages [dataclasses-ujson]: Downloading https://files.pythonhosted.org/packages/33/8a/7e9b50a93d307c3878bf534af5f802e9615fe24faa00ef035d758fce82a1/dataclasses_ujson-0.0.8.tar.gz
+[2024-05-16 11:54:02] INFO root fetch - processPackages [dataclasses-ujson]: executing diffoscope
+[2024-05-16 11:54:02] INFO root fetch - processPackages [dataclasses-ujson]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dataclasses_ujson-0.0.5.tar.gz tmp/dataclasses_ujson-0.0.8.tar.gz --markdown 20240516/d/dataclasses-ujson/0.0.5-0.0.8/README.md --exclude *.pyd
+[2024-05-16 11:54:03] INFO root fetch - processPackages [document_image_utils]: Remove: archive file [/home/abi/fetcher/tmp/document_image_utils-0.1.8.tar.gz]
+[2024-05-16 11:54:03] INFO root fetch - processPackages [document_image_utils]: Remove: archive file [/home/abi/fetcher/tmp/document_image_utils-0.1.9.tar.gz]
+[2024-05-16 11:54:03] INFO root fetch - main [MainThread]: End processing [document_image_utils]: success
+[2024-05-16 11:54:03] INFO root fetch - processPackages [upgini]: Remove: archive file [/home/abi/fetcher/tmp/upgini-1.1.98.tar.gz]
+[2024-05-16 11:54:03] INFO root fetch - processPackages [upgini]: Remove: archive file [/home/abi/fetcher/tmp/upgini-1.1.99.tar.gz]
+[2024-05-16 11:54:03] INFO root fetch - main [MainThread]: End processing [upgini]: success
+[2024-05-16 11:54:03] INFO root fetch - processPackages [dataclasses-ujson]: Remove: archive file [/home/abi/fetcher/tmp/dataclasses_ujson-0.0.5.tar.gz]
+[2024-05-16 11:54:03] INFO root fetch - processPackages [dataclasses-ujson]: Remove: archive file [/home/abi/fetcher/tmp/dataclasses_ujson-0.0.8.tar.gz]
+[2024-05-16 11:54:03] INFO root fetch - main [MainThread]: End processing [dataclasses-ujson]: success
+[2024-05-16 11:54:03] INFO root fetch - main [MainThread]: Store serial: [23233439]
