@@ -13919,3 +13919,51 @@ EOFError: EOF read where object expected
 [2024-05-16 09:10:34] INFO root fetch - processPackages [nonebot-plugin-sparkapi]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_sparkapi-1.0.9.tar.gz]
 [2024-05-16 09:10:34] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-sparkapi]: success
 [2024-05-16 09:10:34] INFO root fetch - main [MainThread]: Store serial: [23230501]
+[2024-05-16 09:12:37] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23230501]
+[2024-05-16 09:12:42] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-16 09:12:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: TsingPig-Lab
+[2024-05-16 09:12:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: xurpas-data-quality
+[2024-05-16 09:12:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: dp-launching-app
+[2024-05-16 09:12:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: EasyPage
+[2024-05-16 09:12:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: fun-things
+[2024-05-16 09:12:42] INFO root fetch - processPackages [xurpas-data-quality]: New version: [0.0.7a2] Old Version: [0.0.7a1]
+[2024-05-16 09:12:42] INFO root fetch - processPackages [TsingPig-Lab]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-05-16 09:12:42] INFO root fetch - processPackages [EasyPage]: New version: [0.0.7] Old Version: [0.0.6]
+[2024-05-16 09:12:42] INFO root fetch - processPackages [fun-things]: New version: [0.5.1] Old Version: [0.5.0]
+[2024-05-16 09:12:42] INFO root fetch - processPackages [dp-launching-app]: New version: [0.0.4] Old Version: [0.0.3]
+[2024-05-16 09:12:42] INFO root fetch - processPackages [xurpas-data-quality]: Downloading https://files.pythonhosted.org/packages/4e/33/71c21c43c0c520fda7f0f1732a5b190a5e3f99b2d5c394a3b199e1d785e6/xurpas_data_quality-0.0.7a1.tar.gz
+[2024-05-16 09:12:42] INFO root fetch - processPackages [TsingPig-Lab]: Downloading https://files.pythonhosted.org/packages/b9/98/f2b05d7411c9ce1e1fa84274298101fce188a39293a761f8d3446fce4646/TsingPig_Lab-0.1.0.tar.gz
+[2024-05-16 09:12:42] INFO root fetch - processPackages [EasyPage]: Downloading https://files.pythonhosted.org/packages/8d/ef/8db8afab47aaf8a89aaa4975e0bf615a001f7229e14e46051e5bb2ca92e6/EasyPage-0.0.6.tar.gz
+[2024-05-16 09:12:42] INFO root fetch - processPackages [fun-things]: Downloading https://files.pythonhosted.org/packages/78/e3/fda629d1451890f294227b8a1dc89bf6b7b9e46b45e69176f560d89df4b5/fun_things-0.5.0.tar.gz
+[2024-05-16 09:12:42] INFO root fetch - processPackages [dp-launching-app]: Downloading https://files.pythonhosted.org/packages/ff/e6/bac8a6c1c03c18bfddcf02ab8f9a2d8507a54c6be189a274bcf2ee2f07a3/dp-launching-app-0.0.3.tar.gz
+[2024-05-16 09:12:43] INFO root fetch - processPackages [xurpas-data-quality]: Downloading https://files.pythonhosted.org/packages/05/d3/1ff1514480c337d3fa40f26cb6f7879cee1cb4a482943abaebd8e6e2397a/xurpas_data_quality-0.0.7a2-py3-none-any.whl
+[2024-05-16 09:12:43] INFO root fetch - processPackages [TsingPig-Lab]: Downloading https://files.pythonhosted.org/packages/cf/fd/4db50573e9b00f1185d4a62e0069a3554287a9b7bfa46b0eb8ad83b7150a/TsingPig_Lab-0.1.1.tar.gz
+[2024-05-16 09:12:43] INFO root fetch - processPackages [EasyPage]: Downloading https://files.pythonhosted.org/packages/a9/aa/d7e66e8509c25fae65139bdf3350ef26110ae0f27f00109a0284c74da96d/EasyPage-0.0.7.tar.gz
+[2024-05-16 09:12:43] INFO root fetch - processPackages [xurpas-data-quality]: executing diffoscope
+[2024-05-16 09:12:43] INFO root fetch - processPackages [xurpas-data-quality]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xurpas_data_quality-0.0.7a1.tar.gz tmp/xurpas_data_quality-0.0.7a2-py3-none-any.whl.zip --markdown 20240516/x/xurpas-data-quality/0.0.7a1-0.0.7a2/README.md --exclude *.pyd
+[2024-05-16 09:12:43] INFO root fetch - processPackages [TsingPig-Lab]: executing diffoscope
+[2024-05-16 09:12:43] INFO root fetch - processPackages [TsingPig-Lab]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/TsingPig_Lab-0.1.0.tar.gz tmp/TsingPig_Lab-0.1.1.tar.gz --markdown 20240516/T/TsingPig-Lab/0.1.0-0.1.1/README.md --exclude *.pyd
+[2024-05-16 09:12:43] INFO root fetch - processPackages [dp-launching-app]: Downloading https://files.pythonhosted.org/packages/e9/b2/972972d4a82efe9c54049e0bdf539c92b87446efe344de32c7bf4facb6cb/dp-launching-app-0.0.4.tar.gz
+[2024-05-16 09:12:43] INFO root fetch - processPackages [EasyPage]: executing diffoscope
+[2024-05-16 09:12:43] INFO root fetch - processPackages [EasyPage]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/EasyPage-0.0.6.tar.gz tmp/EasyPage-0.0.7.tar.gz --markdown 20240516/E/EasyPage/0.0.6-0.0.7/README.md --exclude *.pyd
+[2024-05-16 09:12:43] INFO root fetch - processPackages [fun-things]: Downloading https://files.pythonhosted.org/packages/ab/7c/63f96cf08fdb724cb435e68b3f6c36aeca3153bfbd54a58d40e4182db9fc/fun_things-0.5.1.tar.gz
+[2024-05-16 09:12:43] INFO root fetch - processPackages [dp-launching-app]: executing diffoscope
+[2024-05-16 09:12:43] INFO root fetch - processPackages [dp-launching-app]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dp-launching-app-0.0.3.tar.gz tmp/dp-launching-app-0.0.4.tar.gz --markdown 20240516/d/dp-launching-app/0.0.3-0.0.4/README.md --exclude *.pyd
+[2024-05-16 09:12:43] INFO root fetch - processPackages [fun-things]: executing diffoscope
+[2024-05-16 09:12:43] INFO root fetch - processPackages [fun-things]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fun_things-0.5.0.tar.gz tmp/fun_things-0.5.1.tar.gz --markdown 20240516/f/fun-things/0.5.0-0.5.1/README.md --exclude *.pyd
+[2024-05-16 09:12:43] INFO root fetch - processPackages [TsingPig-Lab]: Remove: archive file [/home/abi/fetcher/tmp/TsingPig_Lab-0.1.0.tar.gz]
+[2024-05-16 09:12:43] INFO root fetch - processPackages [TsingPig-Lab]: Remove: archive file [/home/abi/fetcher/tmp/TsingPig_Lab-0.1.1.tar.gz]
+[2024-05-16 09:12:43] INFO root fetch - main [MainThread]: End processing [TsingPig-Lab]: success
+[2024-05-16 09:12:43] INFO root fetch - processPackages [xurpas-data-quality]: Remove: archive file [/home/abi/fetcher/tmp/xurpas_data_quality-0.0.7a1.tar.gz]
+[2024-05-16 09:12:43] INFO root fetch - processPackages [xurpas-data-quality]: Remove: archive file [/home/abi/fetcher/tmp/xurpas_data_quality-0.0.7a2-py3-none-any.whl.zip]
+[2024-05-16 09:12:43] INFO root fetch - main [MainThread]: End processing [xurpas-data-quality]: success
+[2024-05-16 09:12:43] INFO root fetch - processPackages [fun-things]: Remove: archive file [/home/abi/fetcher/tmp/fun_things-0.5.0.tar.gz]
+[2024-05-16 09:12:43] INFO root fetch - processPackages [fun-things]: Remove: archive file [/home/abi/fetcher/tmp/fun_things-0.5.1.tar.gz]
+[2024-05-16 09:12:43] INFO root fetch - main [MainThread]: End processing [fun-things]: success
+[2024-05-16 09:12:44] INFO root fetch - processPackages [EasyPage]: Remove: archive file [/home/abi/fetcher/tmp/EasyPage-0.0.6.tar.gz]
+[2024-05-16 09:12:44] INFO root fetch - processPackages [EasyPage]: Remove: archive file [/home/abi/fetcher/tmp/EasyPage-0.0.7.tar.gz]
+[2024-05-16 09:12:44] INFO root fetch - main [MainThread]: End processing [EasyPage]: success
+[2024-05-16 09:12:44] INFO root fetch - processPackages [dp-launching-app]: Remove: archive file [/home/abi/fetcher/tmp/dp-launching-app-0.0.3.tar.gz]
+[2024-05-16 09:12:44] INFO root fetch - processPackages [dp-launching-app]: Remove: archive file [/home/abi/fetcher/tmp/dp-launching-app-0.0.4.tar.gz]
+[2024-05-16 09:12:44] INFO root fetch - main [MainThread]: End processing [dp-launching-app]: success
+[2024-05-16 09:12:44] INFO root fetch - main [MainThread]: Store serial: [23230512]
