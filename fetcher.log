@@ -8749,3 +8749,24 @@ AssertionError: tmp/hygpytools-0.2.0.tar.gz does not exist
 [2024-05-16 03:25:27] INFO root fetch - processPackages [lmo]: Remove: archive file [/home/abi/fetcher/tmp/lmo-0.9.0.tar.gz]
 [2024-05-16 03:25:27] INFO root fetch - main [MainThread]: End processing [lmo]: success
 [2024-05-16 03:25:27] INFO root fetch - main [MainThread]: Store serial: [23228051]
+[2024-05-16 03:27:31] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23228051]
+[2024-05-16 03:27:36] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-16 03:27:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: streamlit-frontend-listener-component
+[2024-05-16 03:27:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: zfx
+[2024-05-16 03:27:36] INFO root fetch - processPackages [streamlit-frontend-listener-component]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-16 03:27:36] INFO root fetch - processPackages [zfx]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-05-16 03:27:36] INFO root fetch - processPackages [streamlit-frontend-listener-component]: Downloading https://files.pythonhosted.org/packages/ec/aa/693d354c9d4565ccc6348a0006fa12ba04b50a45341f71ce6edd6b1efb37/streamlit-frontend-listener-component-0.0.8.tar.gz
+[2024-05-16 03:27:36] INFO root fetch - processPackages [zfx]: Downloading https://files.pythonhosted.org/packages/59/eb/f257e3407edfa0e36bd6d262b25e02023066e104ba26d20cee83a63198f0/zfx-1.0.8.tar.gz
+[2024-05-16 03:27:37] INFO root fetch - processPackages [streamlit-frontend-listener-component]: Downloading https://files.pythonhosted.org/packages/8c/43/378ad228edf9d80e9b1856eba182b14c778552044cb022b1e340c08bde92/streamlit-frontend-listener-component-0.0.9.tar.gz
+[2024-05-16 03:27:37] INFO root fetch - processPackages [zfx]: Downloading https://files.pythonhosted.org/packages/79/72/81e8c9f95e9effa80a25b20d494a3c3b21ed5cbbd53440c562d52fe8fe8a/zfx-1.0.9.tar.gz
+[2024-05-16 03:27:37] INFO root fetch - processPackages [zfx]: executing diffoscope
+[2024-05-16 03:27:37] INFO root fetch - processPackages [zfx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zfx-1.0.8.tar.gz tmp/zfx-1.0.9.tar.gz --markdown 20240516/z/zfx/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-05-16 03:27:37] INFO root fetch - processPackages [streamlit-frontend-listener-component]: executing diffoscope
+[2024-05-16 03:27:37] INFO root fetch - processPackages [streamlit-frontend-listener-component]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/streamlit-frontend-listener-component-0.0.8.tar.gz tmp/streamlit-frontend-listener-component-0.0.9.tar.gz --markdown 20240516/s/streamlit-frontend-listener-component/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-16 03:27:37] INFO root fetch - processPackages [zfx]: Remove: archive file [/home/abi/fetcher/tmp/zfx-1.0.8.tar.gz]
+[2024-05-16 03:27:37] INFO root fetch - processPackages [zfx]: Remove: archive file [/home/abi/fetcher/tmp/zfx-1.0.9.tar.gz]
+[2024-05-16 03:27:37] INFO root fetch - main [MainThread]: End processing [zfx]: success
+[2024-05-16 03:27:48] INFO root fetch - processPackages [streamlit-frontend-listener-component]: Remove: archive file [/home/abi/fetcher/tmp/streamlit-frontend-listener-component-0.0.8.tar.gz]
+[2024-05-16 03:27:48] INFO root fetch - processPackages [streamlit-frontend-listener-component]: Remove: archive file [/home/abi/fetcher/tmp/streamlit-frontend-listener-component-0.0.9.tar.gz]
+[2024-05-16 03:27:48] INFO root fetch - main [MainThread]: End processing [streamlit-frontend-listener-component]: success
+[2024-05-16 03:27:48] INFO root fetch - main [MainThread]: Store serial: [23228116]
