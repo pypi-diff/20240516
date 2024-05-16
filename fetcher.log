@@ -8870,3 +8870,24 @@ EOFError: EOF read where object expected
 [2024-05-16 03:30:12] INFO root fetch - processPackages [streamlit-custom-sidebar-test]: Remove: archive file [/home/abi/fetcher/tmp/streamlit-custom-sidebar-test-0.0.9.tar.gz]
 [2024-05-16 03:30:12] INFO root fetch - main [MainThread]: End processing [streamlit-custom-sidebar-test]: success
 [2024-05-16 03:30:12] INFO root fetch - main [MainThread]: Store serial: [23228212]
+[2024-05-16 03:32:16] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23228212]
+[2024-05-16 03:32:21] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-16 03:32:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mausoleum
+[2024-05-16 03:32:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: flask-openapi3-scalar
+[2024-05-16 03:32:21] INFO root fetch - processPackages [mausoleum]: New version: [0.9.0] Old Version: [0.8.7]
+[2024-05-16 03:32:21] INFO root fetch - processPackages [flask-openapi3-scalar]: New version: [1.22.37] Old Version: [1.22.35]
+[2024-05-16 03:32:21] INFO root fetch - processPackages [mausoleum]: Downloading https://files.pythonhosted.org/packages/cc/ba/024b7cb210b8594dd3f4fe87f7303fcc59aa74832aabcd1166947778b899/mausoleum-0.8.7.tar.gz
+[2024-05-16 03:32:21] INFO root fetch - processPackages [flask-openapi3-scalar]: Downloading https://files.pythonhosted.org/packages/61/d5/ed1592116a100c3e2c48f3b2c3be078c571f721c8a88c59b8fd8a56c745f/flask_openapi3_scalar-1.22.35.tar.gz
+[2024-05-16 03:32:22] INFO root fetch - processPackages [mausoleum]: Downloading https://files.pythonhosted.org/packages/65/dc/93544613827b1584d6e470d98a7e97571375be0f87b9ceb8e137a7b30760/mausoleum-0.9.0.tar.gz
+[2024-05-16 03:32:22] INFO root fetch - processPackages [mausoleum]: executing diffoscope
+[2024-05-16 03:32:22] INFO root fetch - processPackages [mausoleum]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mausoleum-0.8.7.tar.gz tmp/mausoleum-0.9.0.tar.gz --markdown 20240516/m/mausoleum/0.8.7-0.9.0/README.md --exclude *.pyd
+[2024-05-16 03:32:22] INFO root fetch - processPackages [flask-openapi3-scalar]: Downloading https://files.pythonhosted.org/packages/33/b7/495a84126d9ff2660893f6ba201c1f9e45ca5fd75301a1f0f5523b28c4eb/flask_openapi3_scalar-1.22.37.tar.gz
+[2024-05-16 03:32:22] INFO root fetch - processPackages [flask-openapi3-scalar]: executing diffoscope
+[2024-05-16 03:32:22] INFO root fetch - processPackages [flask-openapi3-scalar]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flask_openapi3_scalar-1.22.35.tar.gz tmp/flask_openapi3_scalar-1.22.37.tar.gz --markdown 20240516/f/flask-openapi3-scalar/1.22.35-1.22.37/README.md --exclude *.pyd
+[2024-05-16 03:32:22] INFO root fetch - processPackages [mausoleum]: Remove: archive file [/home/abi/fetcher/tmp/mausoleum-0.8.7.tar.gz]
+[2024-05-16 03:32:22] INFO root fetch - processPackages [mausoleum]: Remove: archive file [/home/abi/fetcher/tmp/mausoleum-0.9.0.tar.gz]
+[2024-05-16 03:32:22] INFO root fetch - main [MainThread]: End processing [mausoleum]: success
+[2024-05-16 03:32:36] INFO root fetch - processPackages [flask-openapi3-scalar]: Remove: archive file [/home/abi/fetcher/tmp/flask_openapi3_scalar-1.22.35.tar.gz]
+[2024-05-16 03:32:36] INFO root fetch - processPackages [flask-openapi3-scalar]: Remove: archive file [/home/abi/fetcher/tmp/flask_openapi3_scalar-1.22.37.tar.gz]
+[2024-05-16 03:32:36] INFO root fetch - main [MainThread]: End processing [flask-openapi3-scalar]: success
+[2024-05-16 03:32:36] INFO root fetch - main [MainThread]: Store serial: [23228292]
