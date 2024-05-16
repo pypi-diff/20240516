@@ -4603,3 +4603,36 @@ AssertionError: tmp/hygpytools-0.2.0.tar.gz does not exist
 [2024-05-16 02:40:12] INFO root fetch - processPackages [tulona]: Remove: archive file [/home/abi/fetcher/tmp/tulona-0.7.8.tar.gz]
 [2024-05-16 02:40:12] INFO root fetch - main [MainThread]: End processing [tulona]: success
 [2024-05-16 02:40:12] INFO root fetch - main [MainThread]: Store serial: [23226956]
+[2024-05-16 02:42:16] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23226956]
+[2024-05-16 02:42:21] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-16 02:42:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: xtn-tools-pro
+[2024-05-16 02:42:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: dom-tokenizers
+[2024-05-16 02:42:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: seeq
+[2024-05-16 02:42:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: nmdc-submission-schema
+[2024-05-16 02:42:21] INFO root fetch - processPackages [xtn-tools-pro]: New version: [1.0.0.1.6] Old Version: [1.0.0.1.5]
+[2024-05-16 02:42:21] WARNING root fetch - processPackages [dom-tokenizers]: Skipping, unable to determine old version
+[2024-05-16 02:42:21] INFO root fetch - main [MainThread]: End processing [dom-tokenizers] error
+[2024-05-16 02:42:21] INFO root fetch - processPackages [xtn-tools-pro]: Downloading https://files.pythonhosted.org/packages/42/ec/315e81e613ef644c8c8a35bfda50c9908db3abb3cd94249dfdfb47588961/xtn-tools-pro-1.0.0.1.5.tar.gz
+[2024-05-16 02:42:21] INFO root fetch - processPackages [nmdc-submission-schema]: New version: [9.2.0] Old Version: [8.1.1]
+[2024-05-16 02:42:21] INFO root fetch - processPackages [seeq]: New version: [65.0.2] Old Version: [65.0.1]
+[2024-05-16 02:42:21] INFO root fetch - processPackages [nmdc-submission-schema]: Downloading https://files.pythonhosted.org/packages/50/6c/74e9cafbd35249ef47c8bd4e7ddf07717e5f09ab3aa9eba80889a1a1f329/nmdc_submission_schema-8.1.1.tar.gz
+[2024-05-16 02:42:21] INFO root fetch - processPackages [seeq]: Downloading https://files.pythonhosted.org/packages/82/67/c8293207bbe83feb36a9cc3e071d26536090b704cbf3b95eba349ef6af2c/seeq-65.0.1.tar.gz
+[2024-05-16 02:42:21] INFO root fetch - processPackages [xtn-tools-pro]: Downloading https://files.pythonhosted.org/packages/19/ff/dec6d38e03b381ccf9179f68782f2c5d38802fb37cf4b42902bfde3167ad/xtn-tools-pro-1.0.0.1.6.tar.gz
+[2024-05-16 02:42:21] INFO root fetch - processPackages [xtn-tools-pro]: executing diffoscope
+[2024-05-16 02:42:21] INFO root fetch - processPackages [xtn-tools-pro]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xtn-tools-pro-1.0.0.1.5.tar.gz tmp/xtn-tools-pro-1.0.0.1.6.tar.gz --markdown 20240516/x/xtn-tools-pro/1.0.0.1.5-1.0.0.1.6/README.md --exclude *.pyd
+[2024-05-16 02:42:22] INFO root fetch - processPackages [seeq]: Downloading https://files.pythonhosted.org/packages/3e/dd/5a21a3b1be45b385c9fced19ff236c36c2a4e723e1a7f2a993fe4a9248ac/seeq-65.0.2.tar.gz
+[2024-05-16 02:42:22] INFO root fetch - processPackages [nmdc-submission-schema]: Downloading https://files.pythonhosted.org/packages/31/2a/733f43ee46dbf95f74b0b454e5c94208be7dd7a3d1b7e54fc8d6e1bcefda/nmdc_submission_schema-9.2.0.tar.gz
+[2024-05-16 02:42:22] INFO root fetch - processPackages [seeq]: executing diffoscope
+[2024-05-16 02:42:22] INFO root fetch - processPackages [seeq]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/seeq-65.0.1.tar.gz tmp/seeq-65.0.2.tar.gz --markdown 20240516/s/seeq/65.0.1-65.0.2/README.md --exclude *.pyd
+[2024-05-16 02:42:22] INFO root fetch - processPackages [xtn-tools-pro]: Remove: archive file [/home/abi/fetcher/tmp/xtn-tools-pro-1.0.0.1.5.tar.gz]
+[2024-05-16 02:42:22] INFO root fetch - processPackages [xtn-tools-pro]: Remove: archive file [/home/abi/fetcher/tmp/xtn-tools-pro-1.0.0.1.6.tar.gz]
+[2024-05-16 02:42:22] INFO root fetch - main [MainThread]: End processing [xtn-tools-pro]: success
+[2024-05-16 02:42:22] INFO root fetch - processPackages [nmdc-submission-schema]: executing diffoscope
+[2024-05-16 02:42:22] INFO root fetch - processPackages [nmdc-submission-schema]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nmdc_submission_schema-8.1.1.tar.gz tmp/nmdc_submission_schema-9.2.0.tar.gz --markdown 20240516/n/nmdc-submission-schema/8.1.1-9.2.0/README.md --exclude *.pyd
+[2024-05-16 02:42:25] INFO root fetch - processPackages [nmdc-submission-schema]: Remove: archive file [/home/abi/fetcher/tmp/nmdc_submission_schema-8.1.1.tar.gz]
+[2024-05-16 02:42:25] INFO root fetch - processPackages [nmdc-submission-schema]: Remove: archive file [/home/abi/fetcher/tmp/nmdc_submission_schema-9.2.0.tar.gz]
+[2024-05-16 02:42:25] INFO root fetch - main [MainThread]: End processing [nmdc-submission-schema]: success
+[2024-05-16 02:42:27] INFO root fetch - processPackages [seeq]: Remove: archive file [/home/abi/fetcher/tmp/seeq-65.0.1.tar.gz]
+[2024-05-16 02:42:27] INFO root fetch - processPackages [seeq]: Remove: archive file [/home/abi/fetcher/tmp/seeq-65.0.2.tar.gz]
+[2024-05-16 02:42:27] INFO root fetch - main [MainThread]: End processing [seeq]: success
+[2024-05-16 02:42:27] INFO root fetch - main [MainThread]: Store serial: [23226969]
