@@ -11060,3 +11060,27 @@ EOFError: EOF read where object expected
 [2024-05-16 06:19:16] INFO root fetch - processPackages [maidr]: Remove: archive file [/home/abi/fetcher/tmp/maidr-0.1.2.tar.gz]
 [2024-05-16 06:19:16] INFO root fetch - main [MainThread]: End processing [maidr]: success
 [2024-05-16 06:19:16] INFO root fetch - main [MainThread]: Store serial: [23229342]
+[2024-05-16 06:21:21] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23229342]
+[2024-05-16 06:21:26] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-16 06:21:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: odoo-addon-edi-edifact-oca
+[2024-05-16 06:21:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo-addon-edi-product-oca
+[2024-05-16 06:21:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pkgbox
+[2024-05-16 06:21:26] INFO root fetch - processPackages [pkgbox]: New version: [0.4.5] Old Version: [0.4.0]
+[2024-05-16 06:21:26] INFO root fetch - processPackages [odoo-addon-edi-product-oca]: New version: [16.0.1.1.1] Old Version: [16.0.1.1.0.1]
+[2024-05-16 06:21:26] WARNING root fetch - processPackages [odoo-addon-edi-edifact-oca]: Skipping, unable to determine old version
+[2024-05-16 06:21:26] INFO root fetch - main [MainThread]: End processing [odoo-addon-edi-edifact-oca] error
+[2024-05-16 06:21:26] INFO root fetch - processPackages [odoo-addon-edi-product-oca]: Downloading https://files.pythonhosted.org/packages/53/9a/a40c78109351b33571170c7848a839175503a5f4313f378a4ddfa0a28d82/odoo_addon_edi_product_oca-16.0.1.1.0.1-py3-none-any.whl
+[2024-05-16 06:21:26] INFO root fetch - processPackages [pkgbox]: Downloading https://files.pythonhosted.org/packages/06/8a/13fe86aa2e963f5c80b9d14303e88c7d2eb46902ed1903c10c28aea8df92/pkgbox-0.4.0-py3-none-any.whl
+[2024-05-16 06:21:26] INFO root fetch - processPackages [odoo-addon-edi-product-oca]: Downloading https://files.pythonhosted.org/packages/fc/23/ae265ae96827959d07b7f6c89ba27d42667a42972e04ea8ffc1349eadcc1/odoo_addon_edi_product_oca-16.0.1.1.1-py3-none-any.whl
+[2024-05-16 06:21:27] INFO root fetch - processPackages [odoo-addon-edi-product-oca]: executing diffoscope
+[2024-05-16 06:21:27] INFO root fetch - processPackages [odoo-addon-edi-product-oca]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_edi_product_oca-16.0.1.1.0.1-py3-none-any.whl.zip tmp/odoo_addon_edi_product_oca-16.0.1.1.1-py3-none-any.whl.zip --markdown 20240516/o/odoo-addon-edi-product-oca/16.0.1.1.0.1-16.0.1.1.1/README.md --exclude *.pyd
+[2024-05-16 06:21:27] INFO root fetch - processPackages [pkgbox]: Downloading https://files.pythonhosted.org/packages/31/57/fddd78ac860510a17d731de11e22b86dba1089de979924cbfcc562d1aef6/pkgbox-0.4.5-py3-none-any.whl
+[2024-05-16 06:21:27] INFO root fetch - processPackages [pkgbox]: executing diffoscope
+[2024-05-16 06:21:27] INFO root fetch - processPackages [pkgbox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pkgbox-0.4.0-py3-none-any.whl.zip tmp/pkgbox-0.4.5-py3-none-any.whl.zip --markdown 20240516/p/pkgbox/0.4.0-0.4.5/README.md --exclude *.pyd
+[2024-05-16 06:21:27] INFO root fetch - processPackages [odoo-addon-edi-product-oca]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_edi_product_oca-16.0.1.1.0.1-py3-none-any.whl.zip]
+[2024-05-16 06:21:27] INFO root fetch - processPackages [odoo-addon-edi-product-oca]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_edi_product_oca-16.0.1.1.1-py3-none-any.whl.zip]
+[2024-05-16 06:21:27] INFO root fetch - main [MainThread]: End processing [odoo-addon-edi-product-oca]: success
+[2024-05-16 06:21:27] INFO root fetch - processPackages [pkgbox]: Remove: archive file [/home/abi/fetcher/tmp/pkgbox-0.4.0-py3-none-any.whl.zip]
+[2024-05-16 06:21:27] INFO root fetch - processPackages [pkgbox]: Remove: archive file [/home/abi/fetcher/tmp/pkgbox-0.4.5-py3-none-any.whl.zip]
+[2024-05-16 06:21:27] INFO root fetch - main [MainThread]: End processing [pkgbox]: success
+[2024-05-16 06:21:27] INFO root fetch - main [MainThread]: Store serial: [23229348]
