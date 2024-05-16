@@ -9798,3 +9798,24 @@ EOFError: EOF read where object expected
 [2024-05-16 04:47:43] INFO root fetch - processPackages [advanced_navigation]: Remove: archive file [/home/abi/fetcher/tmp/advanced_navigation-0.1.70.tar.gz]
 [2024-05-16 04:47:43] INFO root fetch - main [MainThread]: End processing [advanced_navigation]: success
 [2024-05-16 04:47:43] INFO root fetch - main [MainThread]: Store serial: [23228852]
+[2024-05-16 04:49:47] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23228852]
+[2024-05-16 04:49:51] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-16 04:49:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: odoo14-addon-account-financial-report
+[2024-05-16 04:49:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pandorasat
+[2024-05-16 04:49:51] INFO root fetch - processPackages [pandorasat]: New version: [0.5.9] Old Version: [0.5.8]
+[2024-05-16 04:49:52] INFO root fetch - processPackages [odoo14-addon-account-financial-report]: New version: [14.0.3.9.3.dev9] Old Version: [14.0.3.9.3.dev6]
+[2024-05-16 04:49:52] INFO root fetch - processPackages [pandorasat]: Downloading https://files.pythonhosted.org/packages/e9/03/33ccbe5955637c887961b19fa47165f7fc563fc714b08cfbe8433169c0a4/pandorasat-0.5.8.tar.gz
+[2024-05-16 04:49:52] INFO root fetch - processPackages [odoo14-addon-account-financial-report]: Downloading https://files.pythonhosted.org/packages/70/e2/66079b700096c9b2452b033a1b26ddb218b5eea2e4392442bcae03b815ca/odoo14_addon_account_financial_report-14.0.3.9.3.dev6-py3-none-any.whl
+[2024-05-16 04:49:52] INFO root fetch - processPackages [pandorasat]: Downloading https://files.pythonhosted.org/packages/6e/7f/fad7f2abafc034c096bae639835a53d880ffa596d25ddb1e43dbea00fcf9/pandorasat-0.5.9.tar.gz
+[2024-05-16 04:49:52] INFO root fetch - processPackages [odoo14-addon-account-financial-report]: Downloading https://files.pythonhosted.org/packages/21/a7/771096313bde3d9574e0eb85bb4291d5412c96e493fa7c05aa1626d3c771/odoo14_addon_account_financial_report-14.0.3.9.3.dev9-py3-none-any.whl
+[2024-05-16 04:49:52] INFO root fetch - processPackages [pandorasat]: executing diffoscope
+[2024-05-16 04:49:52] INFO root fetch - processPackages [pandorasat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pandorasat-0.5.8.tar.gz tmp/pandorasat-0.5.9.tar.gz --markdown 20240516/p/pandorasat/0.5.8-0.5.9/README.md --exclude *.pyd
+[2024-05-16 04:49:52] INFO root fetch - processPackages [odoo14-addon-account-financial-report]: executing diffoscope
+[2024-05-16 04:49:52] INFO root fetch - processPackages [odoo14-addon-account-financial-report]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_account_financial_report-14.0.3.9.3.dev6-py3-none-any.whl.zip tmp/odoo14_addon_account_financial_report-14.0.3.9.3.dev9-py3-none-any.whl.zip --markdown 20240516/o/odoo14-addon-account-financial-report/14.0.3.9.3.dev6-14.0.3.9.3.dev9/README.md --exclude *.pyd
+[2024-05-16 04:49:53] INFO root fetch - processPackages [pandorasat]: Remove: archive file [/home/abi/fetcher/tmp/pandorasat-0.5.8.tar.gz]
+[2024-05-16 04:49:53] INFO root fetch - processPackages [pandorasat]: Remove: archive file [/home/abi/fetcher/tmp/pandorasat-0.5.9.tar.gz]
+[2024-05-16 04:49:53] INFO root fetch - main [MainThread]: End processing [pandorasat]: success
+[2024-05-16 04:49:53] INFO root fetch - processPackages [odoo14-addon-account-financial-report]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_account_financial_report-14.0.3.9.3.dev6-py3-none-any.whl.zip]
+[2024-05-16 04:49:53] INFO root fetch - processPackages [odoo14-addon-account-financial-report]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_account_financial_report-14.0.3.9.3.dev9-py3-none-any.whl.zip]
+[2024-05-16 04:49:53] INFO root fetch - main [MainThread]: End processing [odoo14-addon-account-financial-report]: success
+[2024-05-16 04:49:53] INFO root fetch - main [MainThread]: Store serial: [23228857]
