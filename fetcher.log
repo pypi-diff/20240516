@@ -4636,3 +4636,63 @@ AssertionError: tmp/hygpytools-0.2.0.tar.gz does not exist
 [2024-05-16 02:42:27] INFO root fetch - processPackages [seeq]: Remove: archive file [/home/abi/fetcher/tmp/seeq-65.0.2.tar.gz]
 [2024-05-16 02:42:27] INFO root fetch - main [MainThread]: End processing [seeq]: success
 [2024-05-16 02:42:27] INFO root fetch - main [MainThread]: Store serial: [23226969]
+[2024-05-16 02:44:33] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23226969]
+[2024-05-16 02:44:38] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-16 02:44:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: fun-things
+[2024-05-16 02:44:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: multi-bible-search
+[2024-05-16 02:44:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: medicafe
+[2024-05-16 02:44:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: mns-common
+[2024-05-16 02:44:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: localstack-core
+[2024-05-16 02:44:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: tfds-nightly
+[2024-05-16 02:44:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: fun-things
+[2024-05-16 02:44:38] INFO root fetch - processPackages [medicafe]: New version: [0.240515.3] Old Version: [0.240515.2]
+[2024-05-16 02:44:38] INFO root fetch - processPackages [fun-things]: New version: [0.4.0] Old Version: [0.3.1]
+[2024-05-16 02:44:38] INFO root fetch - processPackages [fun-things]: New version: [0.4.0] Old Version: [0.3.1]
+[2024-05-16 02:44:39] INFO root fetch - processPackages [localstack-core]: New version: [3.4.1.dev20240515232118] Old Version: [3.4.1.dev20240515161654]
+[2024-05-16 02:44:39] INFO root fetch - processPackages [mns-common]: New version: [1.1.0.3] Old Version: [1.1.0.2]
+[2024-05-16 02:44:39] INFO root fetch - processPackages [tfds-nightly]: New version: [4.9.4.dev202405150044] Old Version: [4.9.4.dev202405140044]
+[2024-05-16 02:44:39] INFO root fetch - processPackages [medicafe]: Downloading https://files.pythonhosted.org/packages/98/75/d8cb2e18abb49dedd513ada4891e9a76e8e27dba83b6e580e1ac72231a22/medicafe-0.240515.2.tar.gz
+[2024-05-16 02:44:39] INFO root fetch - processPackages [fun-things]: Downloading https://files.pythonhosted.org/packages/cd/f2/79634a17813860dca5e9f6fea31b159c854cb7ddfbb54f5c17b9115aa0d7/fun_things-0.3.1.tar.gz
+[2024-05-16 02:44:39] INFO root fetch - processPackages [multi-bible-search]: New version: [2.0.1] Old Version: [2.0.0]
+[2024-05-16 02:44:39] INFO root fetch - processPackages [fun-things]: Downloading https://files.pythonhosted.org/packages/cd/f2/79634a17813860dca5e9f6fea31b159c854cb7ddfbb54f5c17b9115aa0d7/fun_things-0.3.1.tar.gz
+[2024-05-16 02:44:39] INFO root fetch - processPackages [mns-common]: Downloading https://files.pythonhosted.org/packages/01/8a/b2955f6df31ef4ddff8dc03efc9303a8360e9b4d5a1569762f066e1e5d6f/mns_common-1.1.0.2.tar.gz
+[2024-05-16 02:44:39] INFO root fetch - processPackages [localstack-core]: Downloading https://files.pythonhosted.org/packages/75/0f/a999a6565838167b13af882d81127f2dfe015106a819e8c3f4ac1db35e59/localstack_core-3.4.1.dev20240515161654.tar.gz
+[2024-05-16 02:44:39] INFO root fetch - processPackages [tfds-nightly]: Downloading https://files.pythonhosted.org/packages/39/1f/6ae9e4cf318ce01528ceda8ed581feb48d8fe61ce6bd55c0a3ca0d5af745/tfds-nightly-4.9.4.dev202405140044.tar.gz
+[2024-05-16 02:44:39] INFO root fetch - processPackages [multi-bible-search]: Downloading https://files.pythonhosted.org/packages/36/66/a11e347c432a5d3984dfdd30d543343f71485fdde8afec4703bf8dc95aa6/multi_bible_search-2.0.0.tar.gz
+[2024-05-16 02:44:39] INFO root fetch - processPackages [fun-things]: Downloading https://files.pythonhosted.org/packages/ef/4b/2cec854de67ae4184a480421490b63df1db82f49eebc048623de92acc5f7/fun_things-0.4.0.tar.gz
+[2024-05-16 02:44:39] INFO root fetch - processPackages [fun-things]: Downloading https://files.pythonhosted.org/packages/ef/4b/2cec854de67ae4184a480421490b63df1db82f49eebc048623de92acc5f7/fun_things-0.4.0.tar.gz
+[2024-05-16 02:44:39] INFO root fetch - processPackages [fun-things]: executing diffoscope
+[2024-05-16 02:44:39] INFO root fetch - processPackages [fun-things]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fun_things-0.3.1.tar.gz tmp/fun_things-0.4.0.tar.gz --markdown 20240516/f/fun-things/0.3.1-0.4.0/README.md --exclude *.pyd
+[2024-05-16 02:44:39] WARNING root fetch - processPackages [multi-bible-search]: Skipping package: exceeds size limit 26321611>=10485760
+[2024-05-16 02:44:39] INFO root fetch - main [MainThread]: End processing [multi-bible-search] error
+[2024-05-16 02:44:39] INFO root fetch - processPackages [fun-things]: executing diffoscope
+[2024-05-16 02:44:39] INFO root fetch - processPackages [fun-things]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fun_things-0.3.1.tar.gz tmp/fun_things-0.4.0.tar.gz --markdown 20240516/f/fun-things/0.3.1-0.4.0/README.md --exclude *.pyd
+[2024-05-16 02:44:39] INFO root fetch - processPackages [medicafe]: Downloading https://files.pythonhosted.org/packages/ff/e3/7fc16889b94e4fa6a6ba6cd612fd61a5e3ac2ab2af6e1ea1ed8a8406656f/medicafe-0.240515.3.tar.gz
+[2024-05-16 02:44:39] INFO root fetch - processPackages [mns-common]: Downloading https://files.pythonhosted.org/packages/9b/ee/aa3d115b2510e792880535e35ddd1e5a3d94b2b1352d3361f954f26dd04a/mns_common-1.1.0.3.tar.gz
+[2024-05-16 02:44:39] INFO root fetch - processPackages [localstack-core]: Downloading https://files.pythonhosted.org/packages/a6/44/b1dde380031d8f31c7d0ecef4726544662641abab163d8ae963838f392a7/localstack_core-3.4.1.dev20240515232118.tar.gz
+[2024-05-16 02:44:39] INFO root fetch - processPackages [medicafe]: executing diffoscope
+[2024-05-16 02:44:39] INFO root fetch - processPackages [medicafe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/medicafe-0.240515.2.tar.gz tmp/medicafe-0.240515.3.tar.gz --markdown 20240516/m/medicafe/0.240515.2-0.240515.3/README.md --exclude *.pyd
+[2024-05-16 02:44:39] INFO root fetch - processPackages [mns-common]: executing diffoscope
+[2024-05-16 02:44:39] INFO root fetch - processPackages [mns-common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mns_common-1.1.0.2.tar.gz tmp/mns_common-1.1.0.3.tar.gz --markdown 20240516/m/mns-common/1.1.0.2-1.1.0.3/README.md --exclude *.pyd
+[2024-05-16 02:44:39] INFO root fetch - processPackages [tfds-nightly]: Downloading https://files.pythonhosted.org/packages/a8/74/2ca2785cf7d0541e579a6e7167d4b3273e084eb40ddee79be8ac5dcfed26/tfds-nightly-4.9.4.dev202405150044.tar.gz
+[2024-05-16 02:44:39] INFO root fetch - processPackages [localstack-core]: executing diffoscope
+[2024-05-16 02:44:39] INFO root fetch - processPackages [localstack-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/localstack_core-3.4.1.dev20240515161654.tar.gz tmp/localstack_core-3.4.1.dev20240515232118.tar.gz --markdown 20240516/l/localstack-core/3.4.1.dev20240515161654-3.4.1.dev20240515232118/README.md --exclude *.pyd
+[2024-05-16 02:44:40] INFO root fetch - processPackages [tfds-nightly]: executing diffoscope
+[2024-05-16 02:44:40] INFO root fetch - processPackages [tfds-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tfds-nightly-4.9.4.dev202405140044.tar.gz tmp/tfds-nightly-4.9.4.dev202405150044.tar.gz --markdown 20240516/t/tfds-nightly/4.9.4.dev202405140044-4.9.4.dev202405150044/README.md --exclude *.pyd
+[2024-05-16 02:44:40] INFO root fetch - processPackages [fun-things]: Remove: archive file [/home/abi/fetcher/tmp/fun_things-0.3.1.tar.gz]
+[2024-05-16 02:44:40] INFO root fetch - processPackages [fun-things]: Remove: archive file [/home/abi/fetcher/tmp/fun_things-0.4.0.tar.gz]
+[2024-05-16 02:44:40] INFO root fetch - main [MainThread]: End processing [fun-things]: success
+[2024-05-16 02:44:40] INFO root fetch - main [MainThread]: End processing [fun-things]: success
+[2024-05-16 02:44:40] INFO root fetch - processPackages [medicafe]: Remove: archive file [/home/abi/fetcher/tmp/medicafe-0.240515.2.tar.gz]
+[2024-05-16 02:44:40] INFO root fetch - processPackages [medicafe]: Remove: archive file [/home/abi/fetcher/tmp/medicafe-0.240515.3.tar.gz]
+[2024-05-16 02:44:40] INFO root fetch - main [MainThread]: End processing [medicafe]: success
+[2024-05-16 02:44:40] INFO root fetch - processPackages [mns-common]: Remove: archive file [/home/abi/fetcher/tmp/mns_common-1.1.0.2.tar.gz]
+[2024-05-16 02:44:40] INFO root fetch - processPackages [mns-common]: Remove: archive file [/home/abi/fetcher/tmp/mns_common-1.1.0.3.tar.gz]
+[2024-05-16 02:44:40] INFO root fetch - main [MainThread]: End processing [mns-common]: success
+[2024-05-16 02:44:43] INFO root fetch - processPackages [localstack-core]: Remove: archive file [/home/abi/fetcher/tmp/localstack_core-3.4.1.dev20240515161654.tar.gz]
+[2024-05-16 02:44:43] INFO root fetch - processPackages [localstack-core]: Remove: archive file [/home/abi/fetcher/tmp/localstack_core-3.4.1.dev20240515232118.tar.gz]
+[2024-05-16 02:44:43] INFO root fetch - main [MainThread]: End processing [localstack-core]: success
+[2024-05-16 02:44:49] INFO root fetch - processPackages [tfds-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tfds-nightly-4.9.4.dev202405140044.tar.gz]
+[2024-05-16 02:44:49] INFO root fetch - processPackages [tfds-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tfds-nightly-4.9.4.dev202405150044.tar.gz]
+[2024-05-16 02:44:49] INFO root fetch - main [MainThread]: End processing [tfds-nightly]: success
+[2024-05-16 02:44:49] INFO root fetch - main [MainThread]: Store serial: [23227006]
