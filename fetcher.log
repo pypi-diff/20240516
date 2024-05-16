@@ -13469,3 +13469,45 @@ EOFError: EOF read where object expected
 [2024-05-16 08:53:42] WARNING root fetch - processPackages [Joywata]: Skipping, unable to determine old version
 [2024-05-16 08:53:42] INFO root fetch - main [MainThread]: End processing [Joywata] error
 [2024-05-16 08:53:42] INFO root fetch - main [MainThread]: Store serial: [23230297]
+[2024-05-16 08:55:46] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23230297]
+[2024-05-16 08:55:51] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-16 08:55:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: risb
+[2024-05-16 08:55:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: finter
+[2024-05-16 08:55:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: vectordb-bench
+[2024-05-16 08:55:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: tg-signer
+[2024-05-16 08:55:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: gedhtml
+[2024-05-16 08:55:51] INFO root fetch - processPackages [gedhtml]: New version: [0.0.1] Old Version: [0.0.0]
+[2024-05-16 08:55:51] INFO root fetch - processPackages [vectordb-bench]: New version: [0.0.8] Old Version: [0.0.7]
+[2024-05-16 08:55:51] INFO root fetch - processPackages [gedhtml]: Downloading https://files.pythonhosted.org/packages/1e/d1/e4d8d3a874d41ae0d8fc461dd484c15be9fa044aed7e1042c07c72cdd74c/gedhtml-0.0.0.tar.gz
+[2024-05-16 08:55:51] WARNING root fetch - processPackages [tg-signer]: Skipping, unable to determine old version
+[2024-05-16 08:55:51] INFO root fetch - main [MainThread]: End processing [tg-signer] error
+[2024-05-16 08:55:51] INFO root fetch - processPackages [risb]: New version: [0.1.0] Old Version: [0.0.7]
+[2024-05-16 08:55:51] INFO root fetch - processPackages [finter]: New version: [0.2.9] Old Version: [0.2.8]
+[2024-05-16 08:55:51] INFO root fetch - processPackages [vectordb-bench]: Downloading https://files.pythonhosted.org/packages/ba/53/6fc0c1a34afd4b58a574239e0ce6ab1326abd8a33ba9cea842c0d16308ac/vectordb-bench-0.0.7.tar.gz
+[2024-05-16 08:55:51] INFO root fetch - processPackages [finter]: Downloading https://files.pythonhosted.org/packages/a5/42/62839a9d04ec1ea057f46ba770914804c9ca13fe76705b86c9503ceb5efd/finter-0.2.8-py3-none-any.whl
+[2024-05-16 08:55:51] INFO root fetch - processPackages [risb]: Downloading https://files.pythonhosted.org/packages/17/7b/f3131e3c911c10e0289f342c7764cb3d0773cb74a1241a6128a6115d2374/risb-0.0.7.tar.gz
+[2024-05-16 08:55:51] INFO root fetch - processPackages [gedhtml]: Downloading https://files.pythonhosted.org/packages/90/eb/a189f77e1ce571d204df880fd0135b9a3c4c4c98c728b8ec6bde150d9c51/gedhtml-0.0.1.tar.gz
+[2024-05-16 08:55:51] INFO root fetch - processPackages [gedhtml]: executing diffoscope
+[2024-05-16 08:55:51] INFO root fetch - processPackages [gedhtml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gedhtml-0.0.0.tar.gz tmp/gedhtml-0.0.1.tar.gz --markdown 20240516/g/gedhtml/0.0.0-0.0.1/README.md --exclude *.pyd
+[2024-05-16 08:55:51] INFO root fetch - processPackages [vectordb-bench]: Downloading https://files.pythonhosted.org/packages/6d/1b/55f1feae7734c649398da44c6998e8018192d47599f569a6986718ffceb0/vectordb_bench-0.0.8.tar.gz
+[2024-05-16 08:55:52] INFO root fetch - processPackages [vectordb-bench]: executing diffoscope
+[2024-05-16 08:55:52] INFO root fetch - processPackages [vectordb-bench]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vectordb-bench-0.0.7.tar.gz tmp/vectordb_bench-0.0.8.tar.gz --markdown 20240516/v/vectordb-bench/0.0.7-0.0.8/README.md --exclude *.pyd
+[2024-05-16 08:55:52] INFO root fetch - processPackages [finter]: Downloading https://files.pythonhosted.org/packages/4f/d0/2e1ef5832dd6cbc5f4d24de1b60ad8f90066391220d8d6ebdc279ae3fffd/finter-0.2.9-py3-none-any.whl
+[2024-05-16 08:55:52] INFO root fetch - processPackages [risb]: Downloading https://files.pythonhosted.org/packages/93/15/96006e4971e553ff808c53a743c9b6e910a78cc1dcae779e3b5d50231e9d/risb-0.1.0.tar.gz
+[2024-05-16 08:55:52] INFO root fetch - processPackages [risb]: executing diffoscope
+[2024-05-16 08:55:52] INFO root fetch - processPackages [risb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/risb-0.0.7.tar.gz tmp/risb-0.1.0.tar.gz --markdown 20240516/r/risb/0.0.7-0.1.0/README.md --exclude *.pyd
+[2024-05-16 08:55:52] INFO root fetch - processPackages [finter]: executing diffoscope
+[2024-05-16 08:55:52] INFO root fetch - processPackages [finter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/finter-0.2.8-py3-none-any.whl.zip tmp/finter-0.2.9-py3-none-any.whl.zip --markdown 20240516/f/finter/0.2.8-0.2.9/README.md --exclude *.pyd
+[2024-05-16 08:55:52] INFO root fetch - processPackages [gedhtml]: Remove: archive file [/home/abi/fetcher/tmp/gedhtml-0.0.0.tar.gz]
+[2024-05-16 08:55:52] INFO root fetch - processPackages [gedhtml]: Remove: archive file [/home/abi/fetcher/tmp/gedhtml-0.0.1.tar.gz]
+[2024-05-16 08:55:52] INFO root fetch - main [MainThread]: End processing [gedhtml]: success
+[2024-05-16 08:55:52] INFO root fetch - processPackages [risb]: Remove: archive file [/home/abi/fetcher/tmp/risb-0.0.7.tar.gz]
+[2024-05-16 08:55:52] INFO root fetch - processPackages [risb]: Remove: archive file [/home/abi/fetcher/tmp/risb-0.1.0.tar.gz]
+[2024-05-16 08:55:52] INFO root fetch - main [MainThread]: End processing [risb]: success
+[2024-05-16 08:55:53] INFO root fetch - processPackages [finter]: Remove: archive file [/home/abi/fetcher/tmp/finter-0.2.8-py3-none-any.whl.zip]
+[2024-05-16 08:55:53] INFO root fetch - processPackages [finter]: Remove: archive file [/home/abi/fetcher/tmp/finter-0.2.9-py3-none-any.whl.zip]
+[2024-05-16 08:55:53] INFO root fetch - main [MainThread]: End processing [finter]: success
+[2024-05-16 08:55:53] INFO root fetch - processPackages [vectordb-bench]: Remove: archive file [/home/abi/fetcher/tmp/vectordb-bench-0.0.7.tar.gz]
+[2024-05-16 08:55:53] INFO root fetch - processPackages [vectordb-bench]: Remove: archive file [/home/abi/fetcher/tmp/vectordb_bench-0.0.8.tar.gz]
+[2024-05-16 08:55:53] INFO root fetch - main [MainThread]: End processing [vectordb-bench]: success
+[2024-05-16 08:55:53] INFO root fetch - main [MainThread]: Store serial: [23230316]
