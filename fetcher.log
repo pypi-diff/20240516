@@ -9052,3 +9052,15 @@ EOFError: EOF read where object expected
 [2024-05-16 03:52:56] INFO root fetch - processPackages [pyqfm]: Remove: archive file [/home/abi/fetcher/tmp/pyqfm-0.6.0-py3-none-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
 [2024-05-16 03:52:56] INFO root fetch - main [MainThread]: End processing [pyqfm]: success
 [2024-05-16 03:52:56] INFO root fetch - main [MainThread]: Store serial: [23228500]
+[2024-05-16 03:55:00] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23228500]
+[2024-05-16 03:55:05] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-05-16 03:55:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: dapr-ext-workflow
+[2024-05-16 03:55:05] INFO root fetch - processPackages [dapr-ext-workflow]: New version: [0.4.1] Old Version: [0.4.0]
+[2024-05-16 03:55:05] INFO root fetch - processPackages [dapr-ext-workflow]: Downloading https://files.pythonhosted.org/packages/44/9c/ca70b7a7f639123cdce8779cabab9de998e595b2e6b2fbc03f93531aa8d1/dapr-ext-workflow-0.4.0.tar.gz
+[2024-05-16 03:55:06] INFO root fetch - processPackages [dapr-ext-workflow]: Downloading https://files.pythonhosted.org/packages/5f/5d/a4dc9e6b059c53c4a656fef3365e796d8d1a13d1a644bc54acb9ef79a337/dapr-ext-workflow-0.4.1.tar.gz
+[2024-05-16 03:55:06] INFO root fetch - processPackages [dapr-ext-workflow]: executing diffoscope
+[2024-05-16 03:55:06] INFO root fetch - processPackages [dapr-ext-workflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dapr-ext-workflow-0.4.0.tar.gz tmp/dapr-ext-workflow-0.4.1.tar.gz --markdown 20240516/d/dapr-ext-workflow/0.4.0-0.4.1/README.md --exclude *.pyd
+[2024-05-16 03:55:07] INFO root fetch - processPackages [dapr-ext-workflow]: Remove: archive file [/home/abi/fetcher/tmp/dapr-ext-workflow-0.4.0.tar.gz]
+[2024-05-16 03:55:07] INFO root fetch - processPackages [dapr-ext-workflow]: Remove: archive file [/home/abi/fetcher/tmp/dapr-ext-workflow-0.4.1.tar.gz]
+[2024-05-16 03:55:07] INFO root fetch - main [MainThread]: End processing [dapr-ext-workflow]: success
+[2024-05-16 03:55:07] INFO root fetch - main [MainThread]: Store serial: [23228502]
