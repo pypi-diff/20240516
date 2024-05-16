@@ -14374,3 +14374,102 @@ EOFError: EOF read where object expected
 [2024-05-16 09:32:02] INFO root fetch - processPackages [fireducks]: Remove: archive file [/home/abi/fetcher/tmp/fireducks-0.9.8-cp39-cp39-manylinux_2_28_x86_64.whl.zip]
 [2024-05-16 09:32:02] INFO root fetch - main [MainThread]: End processing [fireducks]: success
 [2024-05-16 09:32:02] INFO root fetch - main [MainThread]: Store serial: [23230653]
+[2024-05-16 09:34:22] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23230653]
+[2024-05-16 09:34:27] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2024-05-16 09:34:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ddpaw
+[2024-05-16 09:34:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: compact-json
+[2024-05-16 09:34:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: TsingPig-Lab
+[2024-05-16 09:34:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: bluepyemodel
+[2024-05-16 09:34:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: odoo14-addon-product-supplierinfo-for-customer-sale
+[2024-05-16 09:34:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: Joywata
+[2024-05-16 09:34:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: oarepo-ui
+[2024-05-16 09:34:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: sarcharts
+[2024-05-16 09:34:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: omnata-plugin-runtime
+[2024-05-16 09:34:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: redis-director
+[2024-05-16 09:34:27] INFO root fetch - processPackages [sarcharts]: New version: [0.2.1] Old Version: [0.2.0]
+[2024-05-16 09:34:27] INFO root fetch - processPackages [Joywata]: New version: [0.0.4] Old Version: [0.0.3]
+[2024-05-16 09:34:27] INFO root fetch - processPackages [TsingPig-Lab]: New version: [0.1.2] Old Version: [0.1.1]
+[2024-05-16 09:34:27] INFO root fetch - processPackages [compact-json]: New version: [1.8.0] Old Version: [1.6.1]
+[2024-05-16 09:34:27] WARNING root fetch - processPackages [redis-director]: Skipping, unable to determine old version
+[2024-05-16 09:34:27] INFO root fetch - processPackages [redis-director]: Start processing: neon-connector
+[2024-05-16 09:34:27] INFO root fetch - main [MainThread]: End processing [redis-director] error
+[2024-05-16 09:34:27] INFO root fetch - processPackages [omnata-plugin-runtime]: New version: [0.3.9a44] Old Version: [0.3.9a43]
+[2024-05-16 09:34:27] INFO root fetch - processPackages [oarepo-ui]: New version: [5.1.9] Old Version: [5.1.8]
+[2024-05-16 09:34:27] WARNING root fetch - processPackages [ddpaw]: Skipping, unable to determine old version
+[2024-05-16 09:34:27] INFO root fetch - processPackages [ddpaw]: Start processing: woningwaardering
+[2024-05-16 09:34:27] INFO root fetch - main [MainThread]: End processing [ddpaw] error
+[2024-05-16 09:34:27] INFO root fetch - processPackages [neon-connector]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-05-16 09:34:27] INFO root fetch - processPackages [odoo14-addon-product-supplierinfo-for-customer-sale]: New version: [14.0.1.2.1.dev2] Old Version: [14.0.1.2.1.dev1]
+[2024-05-16 09:34:27] INFO root fetch - processPackages [bluepyemodel]: New version: [0.0.99] Old Version: [0.0.98]
+[2024-05-16 09:34:27] INFO root fetch - processPackages [sarcharts]: Downloading https://files.pythonhosted.org/packages/3f/b8/b50819465588542098ff350d51b9367a087b1ab66c5147be2f4fb1a72dfe/sarcharts-0.2.0.tar.gz
+[2024-05-16 09:34:27] INFO root fetch - processPackages [Joywata]: Downloading https://files.pythonhosted.org/packages/d0/d4/6d2e7f0690cc1eefc62ac9cee14234067f964d68fa14cbe002e84e10be44/Joywata-0.0.3.tar.gz
+[2024-05-16 09:34:27] INFO root fetch - processPackages [TsingPig-Lab]: Downloading https://files.pythonhosted.org/packages/cf/fd/4db50573e9b00f1185d4a62e0069a3554287a9b7bfa46b0eb8ad83b7150a/TsingPig_Lab-0.1.1.tar.gz
+[2024-05-16 09:34:27] INFO root fetch - processPackages [compact-json]: Downloading https://files.pythonhosted.org/packages/1a/ea/ca5aadae42c4416ec5a7cca1b85a94654cca9b8cb460358de20a2397db77/compact_json-1.6.1.tar.gz
+[2024-05-16 09:34:28] INFO root fetch - processPackages [omnata-plugin-runtime]: Downloading https://files.pythonhosted.org/packages/8e/11/abde4b4d82373bc42a84a5591bf31c6cca540ba9f13337491df615af0b6c/omnata_plugin_runtime-0.3.9a43.tar.gz
+[2024-05-16 09:34:28] INFO root fetch - processPackages [woningwaardering]: New version: [0.1.0a34] Old Version: [0.1.0a33]
+[2024-05-16 09:34:28] INFO root fetch - processPackages [oarepo-ui]: Downloading https://files.pythonhosted.org/packages/87/64/10c65b547fcd49c12a5c9a954426830269b57a4115a7070da01f33307313/oarepo-ui-5.1.8.tar.gz
+[2024-05-16 09:34:28] INFO root fetch - processPackages [neon-connector]: Downloading https://files.pythonhosted.org/packages/e1/d1/d0d78c33a7d23eb9c96aa10332745f11ece7f2372d82d75edbcdebd07cc8/neon_connector-0.0.1.tar.gz
+[2024-05-16 09:34:28] INFO root fetch - processPackages [odoo14-addon-product-supplierinfo-for-customer-sale]: Downloading https://files.pythonhosted.org/packages/7e/69/ac1171d69e625c02b6d9fd5d3bba362bd5a376b5433aa05a053c8439dd27/odoo14_addon_product_supplierinfo_for_customer_sale-14.0.1.2.1.dev1-py3-none-any.whl
+[2024-05-16 09:34:28] INFO root fetch - processPackages [woningwaardering]: Downloading https://files.pythonhosted.org/packages/a0/6e/a87c1b987f7b283e6bb89ef5f180e8efca73a44f5a02997ce670b95de3f0/woningwaardering-0.1.0a33.tar.gz
+[2024-05-16 09:34:28] INFO root fetch - processPackages [bluepyemodel]: Downloading https://files.pythonhosted.org/packages/ae/1c/9a66b9e064763a88e12392ff7254bc1d5a41fd664021437ea9a52d570600/bluepyemodel-0.0.98.tar.gz
+[2024-05-16 09:34:28] INFO root fetch - processPackages [compact-json]: Downloading https://files.pythonhosted.org/packages/38/52/89ecd599c739dbec1221e34a26d2c75a361c8c8a30287cbadfd993ce34ee/compact_json-1.8.0.tar.gz
+[2024-05-16 09:34:28] INFO root fetch - processPackages [omnata-plugin-runtime]: Downloading https://files.pythonhosted.org/packages/de/f5/326ad467bb560d9dc8d7cebfe2aed77d524aeaf8a8ee7c6107f202eb6d0d/omnata_plugin_runtime-0.3.9a44.tar.gz
+[2024-05-16 09:34:28] INFO root fetch - processPackages [TsingPig-Lab]: Downloading https://files.pythonhosted.org/packages/49/66/8f89a32604b06c1471b3d04f8ca7d4e2002a33707027922f98f03dd9674f/TsingPig_Lab-0.1.2.tar.gz
+[2024-05-16 09:34:28] INFO root fetch - processPackages [Joywata]: Downloading https://files.pythonhosted.org/packages/e2/4a/c75c1c2bfa963eaa34c5c6651e639c6985c7e6bcb8bd4f2f1c14aefa1e2e/Joywata-0.0.4.tar.gz
+[2024-05-16 09:34:28] INFO root fetch - processPackages [sarcharts]: Downloading https://files.pythonhosted.org/packages/65/c4/173522002563edcc102f4b6e8e62d6dd8857cac9de01523a59978ef1b54d/sarcharts-0.2.1.tar.gz
+[2024-05-16 09:34:28] INFO root fetch - processPackages [compact-json]: executing diffoscope
+[2024-05-16 09:34:28] INFO root fetch - processPackages [compact-json]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/compact_json-1.6.1.tar.gz tmp/compact_json-1.8.0.tar.gz --markdown 20240516/c/compact-json/1.6.1-1.8.0/README.md --exclude *.pyd
+[2024-05-16 09:34:28] INFO root fetch - processPackages [omnata-plugin-runtime]: executing diffoscope
+[2024-05-16 09:34:28] INFO root fetch - processPackages [omnata-plugin-runtime]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/omnata_plugin_runtime-0.3.9a43.tar.gz tmp/omnata_plugin_runtime-0.3.9a44.tar.gz --markdown 20240516/o/omnata-plugin-runtime/0.3.9a43-0.3.9a44/README.md --exclude *.pyd
+[2024-05-16 09:34:28] INFO root fetch - processPackages [TsingPig-Lab]: executing diffoscope
+[2024-05-16 09:34:28] INFO root fetch - processPackages [TsingPig-Lab]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/TsingPig_Lab-0.1.1.tar.gz tmp/TsingPig_Lab-0.1.2.tar.gz --markdown 20240516/T/TsingPig-Lab/0.1.1-0.1.2/README.md --exclude *.pyd
+[2024-05-16 09:34:28] INFO root fetch - processPackages [Joywata]: executing diffoscope
+[2024-05-16 09:34:28] INFO root fetch - processPackages [Joywata]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Joywata-0.0.3.tar.gz tmp/Joywata-0.0.4.tar.gz --markdown 20240516/J/Joywata/0.0.3-0.0.4/README.md --exclude *.pyd
+[2024-05-16 09:34:28] INFO root fetch - processPackages [neon-connector]: Downloading https://files.pythonhosted.org/packages/82/2c/11ab5b324015260012b64f43eb84fd6d32c89fedb778859cee489863988f/neon_connector-0.0.2.tar.gz
+[2024-05-16 09:34:28] INFO root fetch - processPackages [sarcharts]: executing diffoscope
+[2024-05-16 09:34:28] INFO root fetch - processPackages [sarcharts]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sarcharts-0.2.0.tar.gz tmp/sarcharts-0.2.1.tar.gz --markdown 20240516/s/sarcharts/0.2.0-0.2.1/README.md --exclude *.pyd
+[2024-05-16 09:34:28] INFO root fetch - processPackages [woningwaardering]: Downloading https://files.pythonhosted.org/packages/9b/44/2e4fd6dbd6cb0deefba26399e409326412dfbb33bfb6078a9b35ac59025d/woningwaardering-0.1.0a34.tar.gz
+[2024-05-16 09:34:28] INFO root fetch - processPackages [odoo14-addon-product-supplierinfo-for-customer-sale]: Downloading https://files.pythonhosted.org/packages/5d/86/cad8d97b958338bc48f8d1cb5bc7d7398f627e60752477d371dd53838439/odoo14_addon_product_supplierinfo_for_customer_sale-14.0.1.2.1.dev2-py3-none-any.whl
+[2024-05-16 09:34:28] INFO root fetch - processPackages [neon-connector]: executing diffoscope
+[2024-05-16 09:34:28] INFO root fetch - processPackages [neon-connector]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/neon_connector-0.0.1.tar.gz tmp/neon_connector-0.0.2.tar.gz --markdown 20240516/n/neon-connector/0.0.1-0.0.2/README.md --exclude *.pyd
+[2024-05-16 09:34:28] INFO root fetch - processPackages [odoo14-addon-product-supplierinfo-for-customer-sale]: executing diffoscope
+[2024-05-16 09:34:28] INFO root fetch - processPackages [odoo14-addon-product-supplierinfo-for-customer-sale]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_product_supplierinfo_for_customer_sale-14.0.1.2.1.dev1-py3-none-any.whl.zip tmp/odoo14_addon_product_supplierinfo_for_customer_sale-14.0.1.2.1.dev2-py3-none-any.whl.zip --markdown 20240516/o/odoo14-addon-product-supplierinfo-for-customer-sale/14.0.1.2.1.dev1-14.0.1.2.1.dev2/README.md --exclude *.pyd
+[2024-05-16 09:34:28] INFO root fetch - processPackages [woningwaardering]: executing diffoscope
+[2024-05-16 09:34:28] INFO root fetch - processPackages [woningwaardering]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/woningwaardering-0.1.0a33.tar.gz tmp/woningwaardering-0.1.0a34.tar.gz --markdown 20240516/w/woningwaardering/0.1.0a33-0.1.0a34/README.md --exclude *.pyd
+[2024-05-16 09:34:29] INFO root fetch - processPackages [bluepyemodel]: Downloading https://files.pythonhosted.org/packages/4f/47/cdb97d873b536d0c711e95e2b3623dd29d62b3dedad06807f9db9e2e1d2c/bluepyemodel-0.0.99.tar.gz
+[2024-05-16 09:34:29] INFO root fetch - processPackages [oarepo-ui]: Downloading https://files.pythonhosted.org/packages/79/8e/95316366f4c35e7329fa617d319a0c6b5a7beb26fcd76a93638415957d69/oarepo-ui-5.1.9.tar.gz
+[2024-05-16 09:34:29] INFO root fetch - processPackages [TsingPig-Lab]: Remove: archive file [/home/abi/fetcher/tmp/TsingPig_Lab-0.1.1.tar.gz]
+[2024-05-16 09:34:29] INFO root fetch - processPackages [TsingPig-Lab]: Remove: archive file [/home/abi/fetcher/tmp/TsingPig_Lab-0.1.2.tar.gz]
+[2024-05-16 09:34:29] INFO root fetch - main [MainThread]: End processing [TsingPig-Lab]: success
+[2024-05-16 09:34:29] INFO root fetch - processPackages [oarepo-ui]: executing diffoscope
+[2024-05-16 09:34:29] INFO root fetch - processPackages [oarepo-ui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oarepo-ui-5.1.8.tar.gz tmp/oarepo-ui-5.1.9.tar.gz --markdown 20240516/o/oarepo-ui/5.1.8-5.1.9/README.md --exclude *.pyd
+[2024-05-16 09:34:29] INFO root fetch - processPackages [omnata-plugin-runtime]: Remove: archive file [/home/abi/fetcher/tmp/omnata_plugin_runtime-0.3.9a43.tar.gz]
+[2024-05-16 09:34:29] INFO root fetch - processPackages [omnata-plugin-runtime]: Remove: archive file [/home/abi/fetcher/tmp/omnata_plugin_runtime-0.3.9a44.tar.gz]
+[2024-05-16 09:34:29] INFO root fetch - main [MainThread]: End processing [omnata-plugin-runtime]: success
+[2024-05-16 09:34:29] INFO root fetch - processPackages [Joywata]: Remove: archive file [/home/abi/fetcher/tmp/Joywata-0.0.3.tar.gz]
+[2024-05-16 09:34:29] INFO root fetch - processPackages [Joywata]: Remove: archive file [/home/abi/fetcher/tmp/Joywata-0.0.4.tar.gz]
+[2024-05-16 09:34:29] INFO root fetch - main [MainThread]: End processing [Joywata]: success
+[2024-05-16 09:34:29] INFO root fetch - processPackages [neon-connector]: Remove: archive file [/home/abi/fetcher/tmp/neon_connector-0.0.1.tar.gz]
+[2024-05-16 09:34:29] INFO root fetch - processPackages [neon-connector]: Remove: archive file [/home/abi/fetcher/tmp/neon_connector-0.0.2.tar.gz]
+[2024-05-16 09:34:29] INFO root fetch - main [MainThread]: End processing [neon-connector]: success
+[2024-05-16 09:34:29] INFO root fetch - processPackages [odoo14-addon-product-supplierinfo-for-customer-sale]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_product_supplierinfo_for_customer_sale-14.0.1.2.1.dev1-py3-none-any.whl.zip]
+[2024-05-16 09:34:29] INFO root fetch - processPackages [odoo14-addon-product-supplierinfo-for-customer-sale]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_product_supplierinfo_for_customer_sale-14.0.1.2.1.dev2-py3-none-any.whl.zip]
+[2024-05-16 09:34:29] INFO root fetch - main [MainThread]: End processing [odoo14-addon-product-supplierinfo-for-customer-sale]: success
+[2024-05-16 09:34:29] INFO root fetch - processPackages [sarcharts]: Remove: archive file [/home/abi/fetcher/tmp/sarcharts-0.2.0.tar.gz]
+[2024-05-16 09:34:29] INFO root fetch - processPackages [sarcharts]: Remove: archive file [/home/abi/fetcher/tmp/sarcharts-0.2.1.tar.gz]
+[2024-05-16 09:34:29] INFO root fetch - main [MainThread]: End processing [sarcharts]: success
+[2024-05-16 09:34:30] INFO root fetch - processPackages [compact-json]: Remove: archive file [/home/abi/fetcher/tmp/compact_json-1.6.1.tar.gz]
+[2024-05-16 09:34:30] INFO root fetch - processPackages [compact-json]: Remove: archive file [/home/abi/fetcher/tmp/compact_json-1.8.0.tar.gz]
+[2024-05-16 09:34:30] INFO root fetch - main [MainThread]: End processing [compact-json]: success
+[2024-05-16 09:34:30] INFO root fetch - processPackages [bluepyemodel]: executing diffoscope
+[2024-05-16 09:34:30] INFO root fetch - processPackages [bluepyemodel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bluepyemodel-0.0.98.tar.gz tmp/bluepyemodel-0.0.99.tar.gz --markdown 20240516/b/bluepyemodel/0.0.98-0.0.99/README.md --exclude *.pyd
+[2024-05-16 09:34:30] INFO root fetch - processPackages [woningwaardering]: Remove: archive file [/home/abi/fetcher/tmp/woningwaardering-0.1.0a33.tar.gz]
+[2024-05-16 09:34:30] INFO root fetch - processPackages [woningwaardering]: Remove: archive file [/home/abi/fetcher/tmp/woningwaardering-0.1.0a34.tar.gz]
+[2024-05-16 09:34:30] INFO root fetch - main [MainThread]: End processing [woningwaardering]: success
+[2024-05-16 09:34:30] INFO root fetch - processPackages [oarepo-ui]: Remove: archive file [/home/abi/fetcher/tmp/oarepo-ui-5.1.8.tar.gz]
+[2024-05-16 09:34:30] INFO root fetch - processPackages [oarepo-ui]: Remove: archive file [/home/abi/fetcher/tmp/oarepo-ui-5.1.9.tar.gz]
+[2024-05-16 09:34:30] INFO root fetch - main [MainThread]: End processing [oarepo-ui]: success
+[2024-05-16 09:34:34] INFO root fetch - processPackages [bluepyemodel]: Remove: archive file [/home/abi/fetcher/tmp/bluepyemodel-0.0.98.tar.gz]
+[2024-05-16 09:34:34] INFO root fetch - processPackages [bluepyemodel]: Remove: archive file [/home/abi/fetcher/tmp/bluepyemodel-0.0.99.tar.gz]
+[2024-05-16 09:34:34] INFO root fetch - main [MainThread]: End processing [bluepyemodel]: success
+[2024-05-16 09:34:34] INFO root fetch - main [MainThread]: Store serial: [23230690]
