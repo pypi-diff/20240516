@@ -10980,3 +10980,24 @@ EOFError: EOF read where object expected
 [2024-05-16 06:08:26] WARNING root fetch - processPackages [requests_request]: Skipping, unable to determine old version
 [2024-05-16 06:08:26] INFO root fetch - main [MainThread]: End processing [requests_request] error
 [2024-05-16 06:08:26] INFO root fetch - main [MainThread]: Store serial: [23229277]
+[2024-05-16 06:10:30] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23229277]
+[2024-05-16 06:10:35] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-16 06:10:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mlscat
+[2024-05-16 06:10:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: dex-adaptors
+[2024-05-16 06:10:35] INFO root fetch - processPackages [mlscat]: New version: [0.0.8] Old Version: [0.0.7]
+[2024-05-16 06:10:35] INFO root fetch - processPackages [mlscat]: Downloading https://files.pythonhosted.org/packages/24/d5/ee171eeed544be2eb8eb78df4728494604a938e2450bbcfe74e45193c210/mlscat-0.0.7.tar.gz
+[2024-05-16 06:10:35] INFO root fetch - processPackages [dex-adaptors]: New version: [0.0.3] Old Version: [0.0.2]
+[2024-05-16 06:10:35] INFO root fetch - processPackages [dex-adaptors]: Downloading https://files.pythonhosted.org/packages/a3/df/883785f380c1d12d6c7fe84c0334b6017f6e4da9d15725eb8494629ead5f/dex-adaptors-0.0.2.tar.gz
+[2024-05-16 06:10:35] INFO root fetch - processPackages [mlscat]: Downloading https://files.pythonhosted.org/packages/a9/57/2051f4c37f9a1f316bb7230e7927745a2503bc73b0280fe017ae886e8571/mlscat-0.0.8.tar.gz
+[2024-05-16 06:10:35] INFO root fetch - processPackages [mlscat]: executing diffoscope
+[2024-05-16 06:10:35] INFO root fetch - processPackages [mlscat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mlscat-0.0.7.tar.gz tmp/mlscat-0.0.8.tar.gz --markdown 20240516/m/mlscat/0.0.7-0.0.8/README.md --exclude *.pyd
+[2024-05-16 06:10:35] INFO root fetch - processPackages [dex-adaptors]: Downloading https://files.pythonhosted.org/packages/9c/6d/3c84a0f2f31a7f5d0c521f66f63707a9cb0b6a2c8e906a3e5aab79f5a3f4/dex-adaptors-0.0.3.tar.gz
+[2024-05-16 06:10:36] INFO root fetch - processPackages [dex-adaptors]: executing diffoscope
+[2024-05-16 06:10:36] INFO root fetch - processPackages [dex-adaptors]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dex-adaptors-0.0.2.tar.gz tmp/dex-adaptors-0.0.3.tar.gz --markdown 20240516/d/dex-adaptors/0.0.2-0.0.3/README.md --exclude *.pyd
+[2024-05-16 06:10:36] INFO root fetch - processPackages [mlscat]: Remove: archive file [/home/abi/fetcher/tmp/mlscat-0.0.7.tar.gz]
+[2024-05-16 06:10:36] INFO root fetch - processPackages [mlscat]: Remove: archive file [/home/abi/fetcher/tmp/mlscat-0.0.8.tar.gz]
+[2024-05-16 06:10:36] INFO root fetch - main [MainThread]: End processing [mlscat]: success
+[2024-05-16 06:10:36] INFO root fetch - processPackages [dex-adaptors]: Remove: archive file [/home/abi/fetcher/tmp/dex-adaptors-0.0.2.tar.gz]
+[2024-05-16 06:10:36] INFO root fetch - processPackages [dex-adaptors]: Remove: archive file [/home/abi/fetcher/tmp/dex-adaptors-0.0.3.tar.gz]
+[2024-05-16 06:10:36] INFO root fetch - main [MainThread]: End processing [dex-adaptors]: success
+[2024-05-16 06:10:36] INFO root fetch - main [MainThread]: Store serial: [23229283]
