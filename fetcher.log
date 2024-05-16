@@ -11554,3 +11554,48 @@ EOFError: EOF read where object expected
 [2024-05-16 07:00:31] INFO root fetch - processPackages [odoo-addon-document-page]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_document_page-17.0.1.1.0.1-py3-none-any.whl.zip]
 [2024-05-16 07:00:31] INFO root fetch - main [MainThread]: End processing [odoo-addon-document-page]: success
 [2024-05-16 07:00:31] INFO root fetch - main [MainThread]: Store serial: [23229518]
+[2024-05-16 07:02:35] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23229518]
+[2024-05-16 07:02:40] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-16 07:02:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: django_herobiz_dental
+[2024-05-16 07:02:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: bilbyai-source-label-map
+[2024-05-16 07:02:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: quantplay
+[2024-05-16 07:02:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: nfinance
+[2024-05-16 07:02:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: mavsdk
+[2024-05-16 07:02:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: escaper-lite
+[2024-05-16 07:02:40] WARNING root fetch - processPackages [bilbyai-source-label-map]: Skipping, unable to determine old version
+[2024-05-16 07:02:40] INFO root fetch - main [MainThread]: End processing [bilbyai-source-label-map] error
+[2024-05-16 07:02:40] INFO root fetch - processPackages [mavsdk]: New version: [2.6.1] Old Version: [2.6.0]
+[2024-05-16 07:02:40] INFO root fetch - processPackages [escaper-lite]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-05-16 07:02:40] WARNING root fetch - processPackages [nfinance]: Skipping, unable to determine old version
+[2024-05-16 07:02:40] INFO root fetch - main [MainThread]: End processing [nfinance] error
+[2024-05-16 07:02:40] INFO root fetch - processPackages [django_herobiz_dental]: New version: [1.1.0] Old Version: [1.0.9]
+[2024-05-16 07:02:40] INFO root fetch - processPackages [quantplay]: New version: [1.5.9] Old Version: [1.5.8]
+[2024-05-16 07:02:40] INFO root fetch - processPackages [mavsdk]: Downloading https://files.pythonhosted.org/packages/40/50/ade5235cdad93f1ae4571a60d7880e00efb2993757a549299961c06c42f1/mavsdk-2.6.0-py3-none-win_amd64.whl
+[2024-05-16 07:02:40] INFO root fetch - processPackages [django_herobiz_dental]: Downloading https://files.pythonhosted.org/packages/1b/ac/3aabfa1817437e5d1230ac42049e7a865dd70f4e29b0d1c35b581d287d34/django_herobiz_dental-1.0.9.tar.gz
+[2024-05-16 07:02:40] INFO root fetch - processPackages [escaper-lite]: Downloading https://files.pythonhosted.org/packages/02/52/30bab06b1eea56588a45e8cff2aa343c6f7899e1c6fbba45768ddc5ee8a9/escaper_lite-0.1.0-py3-none-any.whl
+[2024-05-16 07:02:40] INFO root fetch - processPackages [quantplay]: Downloading https://files.pythonhosted.org/packages/71/23/85a802491d69beb714dd8831f123c9440301eb94caca43392e50be63fff6/quantplay-1.5.8.tar.gz
+[2024-05-16 07:02:42] INFO root fetch - processPackages [quantplay]: Downloading https://files.pythonhosted.org/packages/29/44/bc619a0a4e2ecba52ee7f6eac8f51f600a1d90bb67f88a28638d7d9f9c62/quantplay-1.5.9.tar.gz
+[2024-05-16 07:02:42] INFO root fetch - processPackages [mavsdk]: Downloading https://files.pythonhosted.org/packages/ce/11/c1d819fcf5d7f56b0d189c8d541003fcc52932b05889ed2f4ee0f9d5feb4/mavsdk-2.6.1-py3-none-win_amd64.whl
+[2024-05-16 07:02:42] INFO root fetch - processPackages [django_herobiz_dental]: Downloading https://files.pythonhosted.org/packages/35/e9/6f8cd70f3d70fd5f25505df79e837c01bfe57dda6520ea7f61b95f764f9f/django_herobiz_dental-1.1.0.tar.gz
+[2024-05-16 07:02:42] INFO root fetch - processPackages [escaper-lite]: Downloading https://files.pythonhosted.org/packages/ff/a5/f270e127c575b834417626cac335505e745586531e61afd5c545232506d0/escaper_lite-0.1.1-py3-none-any.whl
+[2024-05-16 07:02:42] INFO root fetch - processPackages [quantplay]: executing diffoscope
+[2024-05-16 07:02:42] INFO root fetch - processPackages [quantplay]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quantplay-1.5.8.tar.gz tmp/quantplay-1.5.9.tar.gz --markdown 20240516/q/quantplay/1.5.8-1.5.9/README.md --exclude *.pyd
+[2024-05-16 07:02:42] INFO root fetch - processPackages [mavsdk]: executing diffoscope
+[2024-05-16 07:02:42] INFO root fetch - processPackages [mavsdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mavsdk-2.6.0-py3-none-win_amd64.whl.zip tmp/mavsdk-2.6.1-py3-none-win_amd64.whl.zip --markdown 20240516/m/mavsdk/2.6.0-2.6.1/README.md --exclude *.pyd
+[2024-05-16 07:02:42] INFO root fetch - processPackages [django_herobiz_dental]: executing diffoscope
+[2024-05-16 07:02:42] INFO root fetch - processPackages [django_herobiz_dental]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django_herobiz_dental-1.0.9.tar.gz tmp/django_herobiz_dental-1.1.0.tar.gz --markdown 20240516/d/django_herobiz_dental/1.0.9-1.1.0/README.md --exclude *.pyd
+[2024-05-16 07:02:42] INFO root fetch - processPackages [escaper-lite]: executing diffoscope
+[2024-05-16 07:02:42] INFO root fetch - processPackages [escaper-lite]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/escaper_lite-0.1.0-py3-none-any.whl.zip tmp/escaper_lite-0.1.1-py3-none-any.whl.zip --markdown 20240516/e/escaper-lite/0.1.0-0.1.1/README.md --exclude *.pyd
+[2024-05-16 07:02:43] INFO root fetch - processPackages [quantplay]: Remove: archive file [/home/abi/fetcher/tmp/quantplay-1.5.8.tar.gz]
+[2024-05-16 07:02:43] INFO root fetch - processPackages [quantplay]: Remove: archive file [/home/abi/fetcher/tmp/quantplay-1.5.9.tar.gz]
+[2024-05-16 07:02:43] INFO root fetch - main [MainThread]: End processing [quantplay]: success
+[2024-05-16 07:02:43] INFO root fetch - processPackages [mavsdk]: Remove: archive file [/home/abi/fetcher/tmp/mavsdk-2.6.0-py3-none-win_amd64.whl.zip]
+[2024-05-16 07:02:43] INFO root fetch - processPackages [mavsdk]: Remove: archive file [/home/abi/fetcher/tmp/mavsdk-2.6.1-py3-none-win_amd64.whl.zip]
+[2024-05-16 07:02:43] INFO root fetch - main [MainThread]: End processing [mavsdk]: success
+[2024-05-16 07:02:43] INFO root fetch - processPackages [escaper-lite]: Remove: archive file [/home/abi/fetcher/tmp/escaper_lite-0.1.0-py3-none-any.whl.zip]
+[2024-05-16 07:02:43] INFO root fetch - processPackages [escaper-lite]: Remove: archive file [/home/abi/fetcher/tmp/escaper_lite-0.1.1-py3-none-any.whl.zip]
+[2024-05-16 07:02:43] INFO root fetch - main [MainThread]: End processing [escaper-lite]: success
+[2024-05-16 07:02:44] INFO root fetch - processPackages [django_herobiz_dental]: Remove: archive file [/home/abi/fetcher/tmp/django_herobiz_dental-1.0.9.tar.gz]
+[2024-05-16 07:02:44] INFO root fetch - processPackages [django_herobiz_dental]: Remove: archive file [/home/abi/fetcher/tmp/django_herobiz_dental-1.1.0.tar.gz]
+[2024-05-16 07:02:44] INFO root fetch - main [MainThread]: End processing [django_herobiz_dental]: success
+[2024-05-16 07:02:44] INFO root fetch - main [MainThread]: Store serial: [23229551]
