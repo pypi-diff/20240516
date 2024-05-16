@@ -4513,3 +4513,15 @@ AssertionError: tmp/hygpytools-0.2.0.tar.gz does not exist
 [2024-05-16 02:33:30] INFO root fetch - processPackages [freegenius]: Remove: archive file [/home/abi/fetcher/tmp/freegenius-0.2.9.tar.gz]
 [2024-05-16 02:33:30] INFO root fetch - main [MainThread]: End processing [freegenius]: success
 [2024-05-16 02:33:30] INFO root fetch - main [MainThread]: Store serial: [23226929]
+[2024-05-16 02:35:35] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23226929]
+[2024-05-16 02:35:39] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-05-16 02:35:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pypipr
+[2024-05-16 02:35:39] INFO root fetch - processPackages [pypipr]: New version: [1.0.99] Old Version: [1.0.98]
+[2024-05-16 02:35:40] INFO root fetch - processPackages [pypipr]: Downloading https://files.pythonhosted.org/packages/41/8e/296646c6a3d68ecf6c58c3ec52ece636443172c24750f76c7001939e52d3/pypipr-1.0.98.tar.gz
+[2024-05-16 02:35:40] INFO root fetch - processPackages [pypipr]: Downloading https://files.pythonhosted.org/packages/49/d0/c23afc67d1fa03531bbd97cc72ad024e79b8e25678a6a5674d469d19cdf9/pypipr-1.0.99.tar.gz
+[2024-05-16 02:35:40] INFO root fetch - processPackages [pypipr]: executing diffoscope
+[2024-05-16 02:35:40] INFO root fetch - processPackages [pypipr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pypipr-1.0.98.tar.gz tmp/pypipr-1.0.99.tar.gz --markdown 20240516/p/pypipr/1.0.98-1.0.99/README.md --exclude *.pyd
+[2024-05-16 02:35:41] INFO root fetch - processPackages [pypipr]: Remove: archive file [/home/abi/fetcher/tmp/pypipr-1.0.98.tar.gz]
+[2024-05-16 02:35:41] INFO root fetch - processPackages [pypipr]: Remove: archive file [/home/abi/fetcher/tmp/pypipr-1.0.99.tar.gz]
+[2024-05-16 02:35:41] INFO root fetch - main [MainThread]: End processing [pypipr]: success
+[2024-05-16 02:35:41] INFO root fetch - main [MainThread]: Store serial: [23226932]
