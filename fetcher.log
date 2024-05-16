@@ -13799,3 +13799,90 @@ EOFError: EOF read where object expected
 [2024-05-16 09:05:59] INFO root fetch - processPackages [chainforge]: Remove: archive file [/home/abi/fetcher/tmp/chainforge-0.3.1.9.tar.gz]
 [2024-05-16 09:05:59] INFO root fetch - main [MainThread]: End processing [chainforge]: success
 [2024-05-16 09:05:59] INFO root fetch - main [MainThread]: Store serial: [23230449]
+[2024-05-16 09:08:17] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23230449]
+[2024-05-16 09:08:21] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2024-05-16 09:08:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: CodingRider
+[2024-05-16 09:08:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo-addon-purchase-packaging-default
+[2024-05-16 09:08:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: azureml-rag
+[2024-05-16 09:08:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: torchsense
+[2024-05-16 09:08:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: gedhtml
+[2024-05-16 09:08:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: appmesh
+[2024-05-16 09:08:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: MyLLM
+[2024-05-16 09:08:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: Joywata
+[2024-05-16 09:08:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: project-installer
+[2024-05-16 09:08:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: botasaurus-requests
+[2024-05-16 09:08:21] INFO root fetch - processPackages [CodingRider]: New version: [2.7] Old Version: [2.6]
+[2024-05-16 09:08:21] INFO root fetch - processPackages [Joywata]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-05-16 09:08:21] INFO root fetch - processPackages [odoo-addon-purchase-packaging-default]: New version: [16.0.1.0.0.4] Old Version: [16.0.1.0.0.3]
+[2024-05-16 09:08:21] INFO root fetch - processPackages [gedhtml]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-05-16 09:08:21] INFO root fetch - processPackages [appmesh]: New version: [0.9.8] Old Version: [0.9.7]
+[2024-05-16 09:08:22] WARNING root fetch - processPackages [project-installer]: Skipping, unable to determine old version
+[2024-05-16 09:08:22] INFO root fetch - processPackages [project-installer]: Start processing: tg-signer
+[2024-05-16 09:08:22] INFO root fetch - main [MainThread]: End processing [project-installer] error
+[2024-05-16 09:08:22] WARNING root fetch - processPackages [torchsense]: Skipping, unable to determine old version
+[2024-05-16 09:08:22] INFO root fetch - processPackages [torchsense]: Start processing: xurpas-data-quality
+[2024-05-16 09:08:22] INFO root fetch - main [MainThread]: End processing [torchsense] error
+[2024-05-16 09:08:22] INFO root fetch - processPackages [CodingRider]: Downloading https://files.pythonhosted.org/packages/c6/64/1b18bd77d5c5a036898aac9f98f7f18fabe7cb24d68b576b538f4c47aca5/codingrider-2.6.tar.gz
+[2024-05-16 09:08:22] INFO root fetch - processPackages [azureml-rag]: New version: [0.2.9] Old Version: [0.2.8]
+[2024-05-16 09:08:22] WARNING root fetch - processPackages [botasaurus-requests]: Skipping, unable to determine old version
+[2024-05-16 09:08:22] INFO root fetch - main [MainThread]: End processing [botasaurus-requests] error
+[2024-05-16 09:08:22] INFO root fetch - processPackages [gedhtml]: Downloading https://files.pythonhosted.org/packages/90/eb/a189f77e1ce571d204df880fd0135b9a3c4c4c98c728b8ec6bde150d9c51/gedhtml-0.0.1.tar.gz
+[2024-05-16 09:08:22] INFO root fetch - processPackages [odoo-addon-purchase-packaging-default]: Downloading https://files.pythonhosted.org/packages/a6/69/a1ef48c20917ec15f34cf44a61ad38aa417fd606284e74fd2f981b61d68b/odoo_addon_purchase_packaging_default-16.0.1.0.0.3-py3-none-any.whl
+[2024-05-16 09:08:22] INFO root fetch - processPackages [MyLLM]: New version: [4.8.9] Old Version: [4.8.8]
+[2024-05-16 09:08:22] INFO root fetch - processPackages [appmesh]: Downloading https://files.pythonhosted.org/packages/c9/08/797699682ae98a7a64f1271851ccb939dfe993d679086b5457b85a398d3b/appmesh-0.9.7-py3-none-any.whl
+[2024-05-16 09:08:22] INFO root fetch - processPackages [xurpas-data-quality]: New version: [0.0.7a1] Old Version: [0.0.7]
+[2024-05-16 09:08:22] INFO root fetch - processPackages [Joywata]: Downloading https://files.pythonhosted.org/packages/bf/cd/d1f350a42c5599fcaf0df2b08f6262cfb2872bfb877dcdf2982b20c10460/Joywata-0.0.1.tar.gz
+[2024-05-16 09:08:22] WARNING root fetch - processPackages [tg-signer]: Skipping, unable to determine old version
+[2024-05-16 09:08:22] INFO root fetch - main [MainThread]: End processing [tg-signer] error
+[2024-05-16 09:08:22] INFO root fetch - processPackages [xurpas-data-quality]: Downloading https://files.pythonhosted.org/packages/29/18/aff33d94b07ec5928cf67965ee76398a994851afd2a95a43a24e27f1ef3a/xurpas_data_quality-0.0.7.tar.gz
+[2024-05-16 09:08:22] INFO root fetch - processPackages [azureml-rag]: Downloading https://files.pythonhosted.org/packages/cd/6b/d377d688c115fe0dca01efbe91a0e27be6b61358d1240f8ffd8e690e2d90/azureml_rag-0.2.8-py3-none-any.whl
+[2024-05-16 09:08:22] INFO root fetch - processPackages [MyLLM]: Downloading https://files.pythonhosted.org/packages/17/a3/c8c72d3fe2409e7c53f4f1b62d22d58eda0f109b746f00cee99c542888b9/myllm-4.8.8.tar.gz
+[2024-05-16 09:08:22] INFO root fetch - processPackages [appmesh]: Downloading https://files.pythonhosted.org/packages/d2/cd/6cc20da4fc7c67c07f311ea86e1f8a9b7485821746a54d83cb672b63d178/appmesh-0.9.8-py3-none-any.whl
+[2024-05-16 09:08:22] INFO root fetch - processPackages [CodingRider]: Downloading https://files.pythonhosted.org/packages/58/fb/8985cf87383bd01c51816ef84325aff41134602b13ca61e346eae97e8355/codingrider-2.7.tar.gz
+[2024-05-16 09:08:22] INFO root fetch - processPackages [gedhtml]: Downloading https://files.pythonhosted.org/packages/76/98/eef319239922556a008d60be389d2a90ff4839b5b211ddaf41266f0e5d59/gedhtml-0.0.2.tar.gz
+[2024-05-16 09:08:22] INFO root fetch - processPackages [odoo-addon-purchase-packaging-default]: Downloading https://files.pythonhosted.org/packages/6c/de/22402e7508aa8b8c84ddfdbef786cc641e91eadf3855fde410906ef02030/odoo_addon_purchase_packaging_default-16.0.1.0.0.4-py3-none-any.whl
+[2024-05-16 09:08:22] INFO root fetch - processPackages [CodingRider]: executing diffoscope
+[2024-05-16 09:08:22] INFO root fetch - processPackages [CodingRider]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/codingrider-2.6.tar.gz tmp/codingrider-2.7.tar.gz --markdown 20240516/C/CodingRider/2.6-2.7/README.md --exclude *.pyd
+[2024-05-16 09:08:22] INFO root fetch - processPackages [appmesh]: executing diffoscope
+[2024-05-16 09:08:22] INFO root fetch - processPackages [appmesh]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/appmesh-0.9.7-py3-none-any.whl.zip tmp/appmesh-0.9.8-py3-none-any.whl.zip --markdown 20240516/a/appmesh/0.9.7-0.9.8/README.md --exclude *.pyd
+[2024-05-16 09:08:22] INFO root fetch - processPackages [xurpas-data-quality]: Downloading https://files.pythonhosted.org/packages/4e/33/71c21c43c0c520fda7f0f1732a5b190a5e3f99b2d5c394a3b199e1d785e6/xurpas_data_quality-0.0.7a1.tar.gz
+[2024-05-16 09:08:22] INFO root fetch - processPackages [gedhtml]: executing diffoscope
+[2024-05-16 09:08:22] INFO root fetch - processPackages [gedhtml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gedhtml-0.0.1.tar.gz tmp/gedhtml-0.0.2.tar.gz --markdown 20240516/g/gedhtml/0.0.1-0.0.2/README.md --exclude *.pyd
+[2024-05-16 09:08:22] INFO root fetch - processPackages [Joywata]: Downloading https://files.pythonhosted.org/packages/ba/c5/2a6fb687d0ec07b7621a1b256d5905fb67d5863ca258774431df5eef3dab/Joywata-0.0.2.tar.gz
+[2024-05-16 09:08:22] INFO root fetch - processPackages [odoo-addon-purchase-packaging-default]: executing diffoscope
+[2024-05-16 09:08:22] INFO root fetch - processPackages [odoo-addon-purchase-packaging-default]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_purchase_packaging_default-16.0.1.0.0.3-py3-none-any.whl.zip tmp/odoo_addon_purchase_packaging_default-16.0.1.0.0.4-py3-none-any.whl.zip --markdown 20240516/o/odoo-addon-purchase-packaging-default/16.0.1.0.0.3-16.0.1.0.0.4/README.md --exclude *.pyd
+[2024-05-16 09:08:22] INFO root fetch - processPackages [xurpas-data-quality]: executing diffoscope
+[2024-05-16 09:08:22] INFO root fetch - processPackages [xurpas-data-quality]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xurpas_data_quality-0.0.7.tar.gz tmp/xurpas_data_quality-0.0.7a1.tar.gz --markdown 20240516/x/xurpas-data-quality/0.0.7-0.0.7a1/README.md --exclude *.pyd
+[2024-05-16 09:08:22] INFO root fetch - processPackages [MyLLM]: Downloading https://files.pythonhosted.org/packages/57/3a/bfe2f2c55e10a6dee7a033bc1731f5ed17fe7c958a210478832a958f6d80/myllm-4.8.9.tar.gz
+[2024-05-16 09:08:22] INFO root fetch - processPackages [Joywata]: executing diffoscope
+[2024-05-16 09:08:22] INFO root fetch - processPackages [Joywata]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Joywata-0.0.1.tar.gz tmp/Joywata-0.0.2.tar.gz --markdown 20240516/J/Joywata/0.0.1-0.0.2/README.md --exclude *.pyd
+[2024-05-16 09:08:22] INFO root fetch - processPackages [MyLLM]: executing diffoscope
+[2024-05-16 09:08:22] INFO root fetch - processPackages [MyLLM]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/myllm-4.8.8.tar.gz tmp/myllm-4.8.9.tar.gz --markdown 20240516/M/MyLLM/4.8.8-4.8.9/README.md --exclude *.pyd
+[2024-05-16 09:08:22] INFO root fetch - processPackages [azureml-rag]: Downloading https://files.pythonhosted.org/packages/f3/84/b836de2d4c9aec3f94fbe80a1cf0f12b9999277127ca6b03bf9333080769/azureml_rag-0.2.9-py3-none-any.whl
+[2024-05-16 09:08:23] INFO root fetch - processPackages [azureml-rag]: executing diffoscope
+[2024-05-16 09:08:23] INFO root fetch - processPackages [azureml-rag]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/azureml_rag-0.2.8-py3-none-any.whl.zip tmp/azureml_rag-0.2.9-py3-none-any.whl.zip --markdown 20240516/a/azureml-rag/0.2.8-0.2.9/README.md --exclude *.pyd
+[2024-05-16 09:08:23] INFO root fetch - processPackages [gedhtml]: Remove: archive file [/home/abi/fetcher/tmp/gedhtml-0.0.1.tar.gz]
+[2024-05-16 09:08:23] INFO root fetch - processPackages [gedhtml]: Remove: archive file [/home/abi/fetcher/tmp/gedhtml-0.0.2.tar.gz]
+[2024-05-16 09:08:23] INFO root fetch - main [MainThread]: End processing [gedhtml]: success
+[2024-05-16 09:08:23] INFO root fetch - processPackages [CodingRider]: Remove: archive file [/home/abi/fetcher/tmp/codingrider-2.6.tar.gz]
+[2024-05-16 09:08:23] INFO root fetch - processPackages [CodingRider]: Remove: archive file [/home/abi/fetcher/tmp/codingrider-2.7.tar.gz]
+[2024-05-16 09:08:23] INFO root fetch - main [MainThread]: End processing [CodingRider]: success
+[2024-05-16 09:08:23] INFO root fetch - processPackages [xurpas-data-quality]: Remove: archive file [/home/abi/fetcher/tmp/xurpas_data_quality-0.0.7.tar.gz]
+[2024-05-16 09:08:23] INFO root fetch - processPackages [xurpas-data-quality]: Remove: archive file [/home/abi/fetcher/tmp/xurpas_data_quality-0.0.7a1.tar.gz]
+[2024-05-16 09:08:23] INFO root fetch - main [MainThread]: End processing [xurpas-data-quality]: success
+[2024-05-16 09:08:23] INFO root fetch - processPackages [Joywata]: Remove: archive file [/home/abi/fetcher/tmp/Joywata-0.0.1.tar.gz]
+[2024-05-16 09:08:23] INFO root fetch - processPackages [Joywata]: Remove: archive file [/home/abi/fetcher/tmp/Joywata-0.0.2.tar.gz]
+[2024-05-16 09:08:23] INFO root fetch - processPackages [odoo-addon-purchase-packaging-default]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_purchase_packaging_default-16.0.1.0.0.3-py3-none-any.whl.zip]
+[2024-05-16 09:08:23] INFO root fetch - processPackages [appmesh]: Remove: archive file [/home/abi/fetcher/tmp/appmesh-0.9.7-py3-none-any.whl.zip]
+[2024-05-16 09:08:23] INFO root fetch - main [MainThread]: End processing [Joywata]: success
+[2024-05-16 09:08:23] INFO root fetch - processPackages [odoo-addon-purchase-packaging-default]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_purchase_packaging_default-16.0.1.0.0.4-py3-none-any.whl.zip]
+[2024-05-16 09:08:23] INFO root fetch - processPackages [appmesh]: Remove: archive file [/home/abi/fetcher/tmp/appmesh-0.9.8-py3-none-any.whl.zip]
+[2024-05-16 09:08:23] INFO root fetch - main [MainThread]: End processing [odoo-addon-purchase-packaging-default]: success
+[2024-05-16 09:08:23] INFO root fetch - main [MainThread]: End processing [appmesh]: success
+[2024-05-16 09:08:23] INFO root fetch - processPackages [MyLLM]: Remove: archive file [/home/abi/fetcher/tmp/myllm-4.8.8.tar.gz]
+[2024-05-16 09:08:23] INFO root fetch - processPackages [MyLLM]: Remove: archive file [/home/abi/fetcher/tmp/myllm-4.8.9.tar.gz]
+[2024-05-16 09:08:23] INFO root fetch - main [MainThread]: End processing [MyLLM]: success
+[2024-05-16 09:08:24] INFO root fetch - processPackages [azureml-rag]: Remove: archive file [/home/abi/fetcher/tmp/azureml_rag-0.2.8-py3-none-any.whl.zip]
+[2024-05-16 09:08:24] INFO root fetch - processPackages [azureml-rag]: Remove: archive file [/home/abi/fetcher/tmp/azureml_rag-0.2.9-py3-none-any.whl.zip]
+[2024-05-16 09:08:24] INFO root fetch - main [MainThread]: End processing [azureml-rag]: success
+[2024-05-16 09:08:24] INFO root fetch - main [MainThread]: Store serial: [23230488]
