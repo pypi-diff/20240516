@@ -9753,3 +9753,36 @@ EOFError: EOF read where object expected
 [2024-05-16 04:43:19] INFO root fetch - processPackages [YaraForge]: Remove: archive file [/home/abi/fetcher/tmp/YaraForge-0.1.9b1.tar.gz]
 [2024-05-16 04:43:19] INFO root fetch - main [MainThread]: End processing [YaraForge]: success
 [2024-05-16 04:43:19] INFO root fetch - main [MainThread]: Store serial: [23228836]
+[2024-05-16 04:45:23] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23228836]
+[2024-05-16 04:45:28] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-16 04:45:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: apple-silicon-booknlp
+[2024-05-16 04:45:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: youtube-dl-nightly
+[2024-05-16 04:45:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: plexhints
+[2024-05-16 04:45:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: taskiq-sqs
+[2024-05-16 04:45:28] INFO root fetch - processPackages [plexhints]: New version: [2024.516.22512] Old Version: [2024.516.21511]
+[2024-05-16 04:45:28] INFO root fetch - processPackages [plexhints]: Downloading https://files.pythonhosted.org/packages/55/cf/9a5931a08a85974e7ff2e376a78ed2b282d41b51487473d6ba5e19caaacf/plexhints-2024.516.21511.tar.gz
+[2024-05-16 04:45:28] INFO root fetch - processPackages [taskiq-sqs]: New version: [0.0.3] Old Version: [0.0.1]
+[2024-05-16 04:45:28] INFO root fetch - processPackages [youtube-dl-nightly]: New version: [2024.5.16] Old Version: [2024.4.8]
+[2024-05-16 04:45:28] WARNING root fetch - processPackages [apple-silicon-booknlp]: Skipping, unable to determine old version
+[2024-05-16 04:45:28] INFO root fetch - main [MainThread]: End processing [apple-silicon-booknlp] error
+[2024-05-16 04:45:28] INFO root fetch - processPackages [youtube-dl-nightly]: Downloading https://files.pythonhosted.org/packages/2f/7a/d58f4a5808b9964902b235abb9718d25422df653b171c32a0b0099b020be/youtube_dl_nightly-2024.4.8-py2.py3-none-any.whl
+[2024-05-16 04:45:28] INFO root fetch - processPackages [taskiq-sqs]: Downloading https://files.pythonhosted.org/packages/a5/be/5ed4a708b7d3baf6245c25bf8c2683ffd4494bce96b1ae2c8b747a3a4c72/taskiq_sqs-0.0.1.tar.gz
+[2024-05-16 04:45:28] INFO root fetch - processPackages [plexhints]: Downloading https://files.pythonhosted.org/packages/6d/1d/850808ad03c4fc973ed01f0094bee30c5060209c3c93d556863a1f6bc496/plexhints-2024.516.22512.tar.gz
+[2024-05-16 04:45:28] INFO root fetch - processPackages [plexhints]: executing diffoscope
+[2024-05-16 04:45:28] INFO root fetch - processPackages [plexhints]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/plexhints-2024.516.21511.tar.gz tmp/plexhints-2024.516.22512.tar.gz --markdown 20240516/p/plexhints/2024.516.21511-2024.516.22512/README.md --exclude *.pyd
+[2024-05-16 04:45:28] INFO root fetch - processPackages [taskiq-sqs]: Downloading https://files.pythonhosted.org/packages/21/3a/c5b985e3ffa300f8b18c595444a315f995113aa95556d4c42d750b5dccea/taskiq_sqs-0.0.3.tar.gz
+[2024-05-16 04:45:28] INFO root fetch - processPackages [taskiq-sqs]: executing diffoscope
+[2024-05-16 04:45:28] INFO root fetch - processPackages [taskiq-sqs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/taskiq_sqs-0.0.1.tar.gz tmp/taskiq_sqs-0.0.3.tar.gz --markdown 20240516/t/taskiq-sqs/0.0.1-0.0.3/README.md --exclude *.pyd
+[2024-05-16 04:45:29] INFO root fetch - processPackages [plexhints]: Remove: archive file [/home/abi/fetcher/tmp/plexhints-2024.516.21511.tar.gz]
+[2024-05-16 04:45:29] INFO root fetch - processPackages [plexhints]: Remove: archive file [/home/abi/fetcher/tmp/plexhints-2024.516.22512.tar.gz]
+[2024-05-16 04:45:29] INFO root fetch - main [MainThread]: End processing [plexhints]: success
+[2024-05-16 04:45:29] INFO root fetch - processPackages [taskiq-sqs]: Remove: archive file [/home/abi/fetcher/tmp/taskiq_sqs-0.0.1.tar.gz]
+[2024-05-16 04:45:29] INFO root fetch - processPackages [taskiq-sqs]: Remove: archive file [/home/abi/fetcher/tmp/taskiq_sqs-0.0.3.tar.gz]
+[2024-05-16 04:45:29] INFO root fetch - main [MainThread]: End processing [taskiq-sqs]: success
+[2024-05-16 04:45:30] INFO root fetch - processPackages [youtube-dl-nightly]: Downloading https://files.pythonhosted.org/packages/d3/f5/15f9a933be5849ca2dd4e0ea0a3f3d4da5b0024b0f59ec5f0968987b5bfa/youtube_dl_nightly-2024.5.16-py2.py3-none-any.whl
+[2024-05-16 04:45:30] INFO root fetch - processPackages [youtube-dl-nightly]: executing diffoscope
+[2024-05-16 04:45:30] INFO root fetch - processPackages [youtube-dl-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/youtube_dl_nightly-2024.4.8-py2.py3-none-any.whl.zip tmp/youtube_dl_nightly-2024.5.16-py2.py3-none-any.whl.zip --markdown 20240516/y/youtube-dl-nightly/2024.4.8-2024.5.16/README.md --exclude *.pyd
+[2024-05-16 04:45:33] INFO root fetch - processPackages [youtube-dl-nightly]: Remove: archive file [/home/abi/fetcher/tmp/youtube_dl_nightly-2024.4.8-py2.py3-none-any.whl.zip]
+[2024-05-16 04:45:33] INFO root fetch - processPackages [youtube-dl-nightly]: Remove: archive file [/home/abi/fetcher/tmp/youtube_dl_nightly-2024.5.16-py2.py3-none-any.whl.zip]
+[2024-05-16 04:45:33] INFO root fetch - main [MainThread]: End processing [youtube-dl-nightly]: success
+[2024-05-16 04:45:33] INFO root fetch - main [MainThread]: Store serial: [23228849]
