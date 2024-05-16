@@ -4726,3 +4726,15 @@ AssertionError: tmp/hygpytools-0.2.0.tar.gz does not exist
 [2024-05-16 02:47:11] INFO root fetch - processPackages [streamlit-screen-stats]: Remove: archive file [/home/abi/fetcher/tmp/streamlit-screen-stats-0.0.9.tar.gz]
 [2024-05-16 02:47:11] INFO root fetch - main [MainThread]: End processing [streamlit-screen-stats]: success
 [2024-05-16 02:47:11] INFO root fetch - main [MainThread]: Store serial: [23227018]
+[2024-05-16 02:49:15] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23227018]
+[2024-05-16 02:49:19] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-05-16 02:49:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: qrawl
+[2024-05-16 02:49:20] INFO root fetch - processPackages [qrawl]: New version: [0.2.1] Old Version: [0.2.0]
+[2024-05-16 02:49:20] INFO root fetch - processPackages [qrawl]: Downloading https://files.pythonhosted.org/packages/97/7a/7fd31d07366aac3b3549157c3434983ccf02ee717439add55886bb38ca86/qrawl-0.2.0.tar.gz
+[2024-05-16 02:49:20] INFO root fetch - processPackages [qrawl]: Downloading https://files.pythonhosted.org/packages/51/44/96d9212c0ee3acd12287aef91cf63bcb2b866d0e851ca9e90bcab260bba3/qrawl-0.2.1.tar.gz
+[2024-05-16 02:49:20] INFO root fetch - processPackages [qrawl]: executing diffoscope
+[2024-05-16 02:49:20] INFO root fetch - processPackages [qrawl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qrawl-0.2.0.tar.gz tmp/qrawl-0.2.1.tar.gz --markdown 20240516/q/qrawl/0.2.0-0.2.1/README.md --exclude *.pyd
+[2024-05-16 02:49:21] INFO root fetch - processPackages [qrawl]: Remove: archive file [/home/abi/fetcher/tmp/qrawl-0.2.0.tar.gz]
+[2024-05-16 02:49:21] INFO root fetch - processPackages [qrawl]: Remove: archive file [/home/abi/fetcher/tmp/qrawl-0.2.1.tar.gz]
+[2024-05-16 02:49:21] INFO root fetch - main [MainThread]: End processing [qrawl]: success
+[2024-05-16 02:49:21] INFO root fetch - main [MainThread]: Store serial: [23227022]
