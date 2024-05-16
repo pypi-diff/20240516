@@ -14697,3 +14697,24 @@ EOFError: EOF read where object expected
 [2024-05-16 09:43:19] INFO root fetch - processPackages [spider-admin-pro]: Remove: archive file [/home/abi/fetcher/tmp/spider-admin-pro-2.0.9.tar.gz]
 [2024-05-16 09:43:19] INFO root fetch - main [MainThread]: End processing [spider-admin-pro]: success
 [2024-05-16 09:43:19] INFO root fetch - main [MainThread]: Store serial: [23230774]
+[2024-05-16 09:45:23] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23230774]
+[2024-05-16 09:45:28] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-16 09:45:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: gentccode
+[2024-05-16 09:45:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: fbmc-linearisation-analysis
+[2024-05-16 09:45:29] INFO root fetch - processPackages [gentccode]: New version: [0.2.9] Old Version: [0.2.8]
+[2024-05-16 09:45:29] INFO root fetch - processPackages [fbmc-linearisation-analysis]: New version: [0.4.4] Old Version: [0.4.3]
+[2024-05-16 09:45:29] INFO root fetch - processPackages [gentccode]: Downloading https://files.pythonhosted.org/packages/3c/13/2226588658de89ff262e7dd00715ac8562f24ae44522c5abda9a9859e7d7/gentccode-0.2.8.tar.gz
+[2024-05-16 09:45:29] INFO root fetch - processPackages [fbmc-linearisation-analysis]: Downloading https://files.pythonhosted.org/packages/17/9f/ae1c216c0902009cb0e27fdcb608324662c1ac1b8b8529715fa4acf8dbc4/fbmc_linearisation_analysis-0.4.3.tar.gz
+[2024-05-16 09:45:29] INFO root fetch - processPackages [gentccode]: Downloading https://files.pythonhosted.org/packages/f7/d1/5c17a5c4500f9e17ea50ca48d92414e2937dbc16b71848c2f9db82eadcaf/gentccode-0.2.9.tar.gz
+[2024-05-16 09:45:29] INFO root fetch - processPackages [fbmc-linearisation-analysis]: Downloading https://files.pythonhosted.org/packages/e6/7a/dda6b6b3fc67fc0181bc421a8a317057c905afc185885be32ea3097f2970/fbmc_linearisation_analysis-0.4.4.tar.gz
+[2024-05-16 09:45:29] INFO root fetch - processPackages [gentccode]: executing diffoscope
+[2024-05-16 09:45:29] INFO root fetch - processPackages [gentccode]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gentccode-0.2.8.tar.gz tmp/gentccode-0.2.9.tar.gz --markdown 20240516/g/gentccode/0.2.8-0.2.9/README.md --exclude *.pyd
+[2024-05-16 09:45:29] INFO root fetch - processPackages [fbmc-linearisation-analysis]: executing diffoscope
+[2024-05-16 09:45:29] INFO root fetch - processPackages [fbmc-linearisation-analysis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fbmc_linearisation_analysis-0.4.3.tar.gz tmp/fbmc_linearisation_analysis-0.4.4.tar.gz --markdown 20240516/f/fbmc-linearisation-analysis/0.4.3-0.4.4/README.md --exclude *.pyd
+[2024-05-16 09:45:30] INFO root fetch - processPackages [gentccode]: Remove: archive file [/home/abi/fetcher/tmp/gentccode-0.2.8.tar.gz]
+[2024-05-16 09:45:30] INFO root fetch - processPackages [gentccode]: Remove: archive file [/home/abi/fetcher/tmp/gentccode-0.2.9.tar.gz]
+[2024-05-16 09:45:30] INFO root fetch - main [MainThread]: End processing [gentccode]: success
+[2024-05-16 09:45:30] INFO root fetch - processPackages [fbmc-linearisation-analysis]: Remove: archive file [/home/abi/fetcher/tmp/fbmc_linearisation_analysis-0.4.3.tar.gz]
+[2024-05-16 09:45:30] INFO root fetch - processPackages [fbmc-linearisation-analysis]: Remove: archive file [/home/abi/fetcher/tmp/fbmc_linearisation_analysis-0.4.4.tar.gz]
+[2024-05-16 09:45:30] INFO root fetch - main [MainThread]: End processing [fbmc-linearisation-analysis]: success
+[2024-05-16 09:45:30] INFO root fetch - main [MainThread]: Store serial: [23230780]
