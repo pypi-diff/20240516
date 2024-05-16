@@ -11668,3 +11668,45 @@ EOFError: EOF read where object expected
 [2024-05-16 07:07:04] INFO root fetch - processPackages [pyrisco]: Remove: archive file [/home/abi/fetcher/tmp/pyrisco-0.6.2.tar.gz]
 [2024-05-16 07:07:04] INFO root fetch - main [MainThread]: End processing [pyrisco]: success
 [2024-05-16 07:07:04] INFO root fetch - main [MainThread]: Store serial: [23229586]
+[2024-05-16 07:09:09] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23229586]
+[2024-05-16 07:09:14] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-16 07:09:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mass-composition
+[2024-05-16 07:09:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo-addons-oca-l10n-brazil
+[2024-05-16 07:09:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: turtle-tetris
+[2024-05-16 07:09:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: zq-tools
+[2024-05-16 07:09:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: docmesh-core
+[2024-05-16 07:09:14] INFO root fetch - processPackages [mass-composition]: New version: [0.6.1] Old Version: [0.6.0]
+[2024-05-16 07:09:14] INFO root fetch - processPackages [zq-tools]: New version: [1.0.5] Old Version: [1.0.4]
+[2024-05-16 07:09:14] WARNING root fetch - processPackages [turtle-tetris]: Skipping, unable to determine old version
+[2024-05-16 07:09:14] INFO root fetch - main [MainThread]: End processing [turtle-tetris] error
+[2024-05-16 07:09:14] INFO root fetch - processPackages [docmesh-core]: New version: [0.0.4] Old Version: [0.0.3]
+[2024-05-16 07:09:14] INFO root fetch - processPackages [odoo-addons-oca-l10n-brazil]: New version: [16.0.20240508.0] Old Version: [16.0.20240502.0]
+[2024-05-16 07:09:14] INFO root fetch - processPackages [mass-composition]: Downloading https://files.pythonhosted.org/packages/1a/97/c81d35abb5808ddba5bd048542dd4a97f7ab63286f75e8f772fadbedca10/mass_composition-0.6.0.tar.gz
+[2024-05-16 07:09:14] INFO root fetch - processPackages [zq-tools]: Downloading https://files.pythonhosted.org/packages/06/49/51fcf23da2397977854d8ea140191a600f148f90b444afcbcd5f2518e2cd/zq-tools-1.0.4.tar.gz
+[2024-05-16 07:09:14] INFO root fetch - processPackages [docmesh-core]: Downloading https://files.pythonhosted.org/packages/5f/a0/bc28e9659fef94f9f933286f0034a5edae9cae6b30e4985bdd6bde2af11a/docmesh_core-0.0.3.tar.gz
+[2024-05-16 07:09:14] INFO root fetch - processPackages [odoo-addons-oca-l10n-brazil]: Downloading https://files.pythonhosted.org/packages/a0/01/4acfb535d6cf236bc32ddcc9ebc7de76de2948eda1cac3f3083dbca58353/odoo_addons_oca_l10n_brazil-16.0.20240502.0-py3-none-any.whl
+[2024-05-16 07:09:15] INFO root fetch - processPackages [mass-composition]: Downloading https://files.pythonhosted.org/packages/e5/41/eebe1b7f4fa5d397b5a4f18ce795838423d81f5111fca10aabc0a8ffa5de/mass_composition-0.6.1.tar.gz
+[2024-05-16 07:09:15] INFO root fetch - processPackages [mass-composition]: executing diffoscope
+[2024-05-16 07:09:15] INFO root fetch - processPackages [mass-composition]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mass_composition-0.6.0.tar.gz tmp/mass_composition-0.6.1.tar.gz --markdown 20240516/m/mass-composition/0.6.0-0.6.1/README.md --exclude *.pyd
+[2024-05-16 07:09:15] INFO root fetch - processPackages [docmesh-core]: Downloading https://files.pythonhosted.org/packages/46/e4/b8b784d02ff40fb81ee92e22234342be140f5280dd3f62e74ab324851dc8/docmesh_core-0.0.4.tar.gz
+[2024-05-16 07:09:15] INFO root fetch - processPackages [odoo-addons-oca-l10n-brazil]: Downloading https://files.pythonhosted.org/packages/a1/cf/660fa6516d3a3141f122b7547e617727fa78d8cbd65c6769f18a5dbf6fdb/odoo_addons_oca_l10n_brazil-16.0.20240508.0-py3-none-any.whl
+[2024-05-16 07:09:15] INFO root fetch - processPackages [zq-tools]: Downloading https://files.pythonhosted.org/packages/f3/7e/fcc77dc53a862e03a30ae072a4e40f1934593597974800df671d4b6ad37f/zq-tools-1.0.5.tar.gz
+[2024-05-16 07:09:15] INFO root fetch - processPackages [odoo-addons-oca-l10n-brazil]: executing diffoscope
+[2024-05-16 07:09:15] INFO root fetch - processPackages [odoo-addons-oca-l10n-brazil]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addons_oca_l10n_brazil-16.0.20240502.0-py3-none-any.whl.zip tmp/odoo_addons_oca_l10n_brazil-16.0.20240508.0-py3-none-any.whl.zip --markdown 20240516/o/odoo-addons-oca-l10n-brazil/16.0.20240502.0-16.0.20240508.0/README.md --exclude *.pyd
+[2024-05-16 07:09:15] INFO root fetch - processPackages [docmesh-core]: executing diffoscope
+[2024-05-16 07:09:15] INFO root fetch - processPackages [docmesh-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/docmesh_core-0.0.3.tar.gz tmp/docmesh_core-0.0.4.tar.gz --markdown 20240516/d/docmesh-core/0.0.3-0.0.4/README.md --exclude *.pyd
+[2024-05-16 07:09:15] INFO root fetch - processPackages [zq-tools]: executing diffoscope
+[2024-05-16 07:09:15] INFO root fetch - processPackages [zq-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zq-tools-1.0.4.tar.gz tmp/zq-tools-1.0.5.tar.gz --markdown 20240516/z/zq-tools/1.0.4-1.0.5/README.md --exclude *.pyd
+[2024-05-16 07:09:15] INFO root fetch - processPackages [mass-composition]: Remove: archive file [/home/abi/fetcher/tmp/mass_composition-0.6.0.tar.gz]
+[2024-05-16 07:09:15] INFO root fetch - processPackages [mass-composition]: Remove: archive file [/home/abi/fetcher/tmp/mass_composition-0.6.1.tar.gz]
+[2024-05-16 07:09:15] INFO root fetch - main [MainThread]: End processing [mass-composition]: success
+[2024-05-16 07:09:15] INFO root fetch - processPackages [odoo-addons-oca-l10n-brazil]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addons_oca_l10n_brazil-16.0.20240502.0-py3-none-any.whl.zip]
+[2024-05-16 07:09:15] INFO root fetch - processPackages [odoo-addons-oca-l10n-brazil]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addons_oca_l10n_brazil-16.0.20240508.0-py3-none-any.whl.zip]
+[2024-05-16 07:09:15] INFO root fetch - main [MainThread]: End processing [odoo-addons-oca-l10n-brazil]: success
+[2024-05-16 07:09:16] INFO root fetch - processPackages [docmesh-core]: Remove: archive file [/home/abi/fetcher/tmp/docmesh_core-0.0.3.tar.gz]
+[2024-05-16 07:09:16] INFO root fetch - processPackages [docmesh-core]: Remove: archive file [/home/abi/fetcher/tmp/docmesh_core-0.0.4.tar.gz]
+[2024-05-16 07:09:16] INFO root fetch - main [MainThread]: End processing [docmesh-core]: success
+[2024-05-16 07:09:16] INFO root fetch - processPackages [zq-tools]: Remove: archive file [/home/abi/fetcher/tmp/zq-tools-1.0.4.tar.gz]
+[2024-05-16 07:09:16] INFO root fetch - processPackages [zq-tools]: Remove: archive file [/home/abi/fetcher/tmp/zq-tools-1.0.5.tar.gz]
+[2024-05-16 07:09:16] INFO root fetch - main [MainThread]: End processing [zq-tools]: success
+[2024-05-16 07:09:16] INFO root fetch - main [MainThread]: Store serial: [23229602]
