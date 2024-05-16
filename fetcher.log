@@ -11045,3 +11045,18 @@ EOFError: EOF read where object expected
 [2024-05-16 06:17:05] INFO root fetch - processPackages [hello-robot-stretch-body]: Remove: archive file [/home/abi/fetcher/tmp/hello_robot_stretch_body-0.7.9.tar.gz]
 [2024-05-16 06:17:05] INFO root fetch - main [MainThread]: End processing [hello-robot-stretch-body]: success
 [2024-05-16 06:17:05] INFO root fetch - main [MainThread]: Store serial: [23229334]
+[2024-05-16 06:19:10] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23229334]
+[2024-05-16 06:19:15] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-16 06:19:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: maidr
+[2024-05-16 06:19:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: aiohttp_client_request
+[2024-05-16 06:19:15] INFO root fetch - processPackages [maidr]: New version: [0.1.2] Old Version: [0.1.1]
+[2024-05-16 06:19:15] WARNING root fetch - processPackages [aiohttp_client_request]: Skipping, unable to determine old version
+[2024-05-16 06:19:15] INFO root fetch - main [MainThread]: End processing [aiohttp_client_request] error
+[2024-05-16 06:19:15] INFO root fetch - processPackages [maidr]: Downloading https://files.pythonhosted.org/packages/ca/1e/104dfc5a5e26cf1e797eec35505721efe101f18ff0c5ceae5f316b8f19ba/maidr-0.1.1.tar.gz
+[2024-05-16 06:19:15] INFO root fetch - processPackages [maidr]: Downloading https://files.pythonhosted.org/packages/44/f9/f7cded5e0546848208a93608abf9a0ac226faf2923e40c7527d7a275ef39/maidr-0.1.2.tar.gz
+[2024-05-16 06:19:15] INFO root fetch - processPackages [maidr]: executing diffoscope
+[2024-05-16 06:19:15] INFO root fetch - processPackages [maidr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/maidr-0.1.1.tar.gz tmp/maidr-0.1.2.tar.gz --markdown 20240516/m/maidr/0.1.1-0.1.2/README.md --exclude *.pyd
+[2024-05-16 06:19:16] INFO root fetch - processPackages [maidr]: Remove: archive file [/home/abi/fetcher/tmp/maidr-0.1.1.tar.gz]
+[2024-05-16 06:19:16] INFO root fetch - processPackages [maidr]: Remove: archive file [/home/abi/fetcher/tmp/maidr-0.1.2.tar.gz]
+[2024-05-16 06:19:16] INFO root fetch - main [MainThread]: End processing [maidr]: success
+[2024-05-16 06:19:16] INFO root fetch - main [MainThread]: Store serial: [23229342]
