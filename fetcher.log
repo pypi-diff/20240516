@@ -11186,3 +11186,42 @@ EOFError: EOF read where object expected
 [2024-05-16 06:28:03] INFO root fetch - processPackages [MeUtils]: Remove: archive file [/home/abi/fetcher/tmp/MeUtils-2024.5.6.10.44.50.tar.gz]
 [2024-05-16 06:28:03] INFO root fetch - main [MainThread]: End processing [MeUtils]: success
 [2024-05-16 06:28:03] INFO root fetch - main [MainThread]: Store serial: [23229377]
+[2024-05-16 06:30:07] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23229377]
+[2024-05-16 06:30:12] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-16 06:30:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: litellm
+[2024-05-16 06:30:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: Leonardo-Ai-SDK
+[2024-05-16 06:30:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: w3ml
+[2024-05-16 06:30:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: funkai
+[2024-05-16 06:30:12] INFO root fetch - processPackages [w3ml]: New version: [2024.5.16rc4] Old Version: [2024.5.16rc3]
+[2024-05-16 06:30:12] INFO root fetch - processPackages [litellm]: New version: [1.9.dev0] Old Version: [1.9.5]
+[2024-05-16 06:30:12] INFO root fetch - processPackages [funkai]: New version: [0.9] Old Version: [0.8]
+[2024-05-16 06:30:12] INFO root fetch - processPackages [w3ml]: Downloading https://files.pythonhosted.org/packages/c8/9f/0ba5c7962ebbadd2ec616c12d13520ff19d5a27b15276926139685920d0e/w3ml-2024.5.16rc3.tar.gz
+[2024-05-16 06:30:12] INFO root fetch - processPackages [Leonardo-Ai-SDK]: New version: [5.4.1] Old Version: [5.4.0]
+[2024-05-16 06:30:12] INFO root fetch - processPackages [litellm]: Downloading https://files.pythonhosted.org/packages/38/f3/1cbeaf4074e7b284cd140263ff165948d8f4cc8f5dd72c89be43a0469387/litellm-1.9.5.tar.gz
+[2024-05-16 06:30:12] INFO root fetch - processPackages [funkai]: Downloading https://files.pythonhosted.org/packages/37/22/55608dfa6b9fe8bc321135a0bf7a3eab6d615be8fdc073e6f5a87eae6bae/funkai-0.8.tar.gz
+[2024-05-16 06:30:12] INFO root fetch - processPackages [Leonardo-Ai-SDK]: Downloading https://files.pythonhosted.org/packages/6c/18/cea9a937ae911b71f6f425de0957103f55722c3e0c3d4ab9568c7a4ce1a5/Leonardo-Ai-SDK-5.4.0.tar.gz
+[2024-05-16 06:30:12] INFO root fetch - processPackages [w3ml]: Downloading https://files.pythonhosted.org/packages/5e/51/d36db10ccc2d6c9b0ccfe59b3d5271bb7f56716c0d624c518af249bfe32a/w3ml-2024.5.16rc4.tar.gz
+[2024-05-16 06:30:12] INFO root fetch - processPackages [litellm]: Downloading https://files.pythonhosted.org/packages/ad/6c/162b83e9cf68f5a94c30153e835414c3ee11c8602ffaacc9a032851dfa26/litellm-1.9.dev0.tar.gz
+[2024-05-16 06:30:12] INFO root fetch - processPackages [w3ml]: executing diffoscope
+[2024-05-16 06:30:12] INFO root fetch - processPackages [w3ml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/w3ml-2024.5.16rc3.tar.gz tmp/w3ml-2024.5.16rc4.tar.gz --markdown 20240516/w/w3ml/2024.5.16rc3-2024.5.16rc4/README.md --exclude *.pyd
+[2024-05-16 06:30:12] INFO root fetch - processPackages [funkai]: Downloading https://files.pythonhosted.org/packages/eb/56/02065202f9924e8b076f982f23991f5fe6c2e0cd02d6fbd6350d5b1ff560/funkai-0.9.tar.gz
+[2024-05-16 06:30:13] INFO root fetch - processPackages [funkai]: executing diffoscope
+[2024-05-16 06:30:13] INFO root fetch - processPackages [funkai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/funkai-0.8.tar.gz tmp/funkai-0.9.tar.gz --markdown 20240516/f/funkai/0.8-0.9/README.md --exclude *.pyd
+[2024-05-16 06:30:13] INFO root fetch - processPackages [litellm]: executing diffoscope
+[2024-05-16 06:30:13] INFO root fetch - processPackages [litellm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/litellm-1.9.5.tar.gz tmp/litellm-1.9.dev0.tar.gz --markdown 20240516/l/litellm/1.9.5-1.9.dev0/README.md --exclude *.pyd
+[2024-05-16 06:30:13] INFO root fetch - processPackages [Leonardo-Ai-SDK]: Downloading https://files.pythonhosted.org/packages/a5/37/1fbbe3f6dc02d785e7c2d66f1decc95de48ddf0e7411559ad34d230bf557/Leonardo-Ai-SDK-5.4.1.tar.gz
+[2024-05-16 06:30:13] INFO root fetch - processPackages [Leonardo-Ai-SDK]: executing diffoscope
+[2024-05-16 06:30:13] INFO root fetch - processPackages [Leonardo-Ai-SDK]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Leonardo-Ai-SDK-5.4.0.tar.gz tmp/Leonardo-Ai-SDK-5.4.1.tar.gz --markdown 20240516/L/Leonardo-Ai-SDK/5.4.0-5.4.1/README.md --exclude *.pyd
+[2024-05-16 06:30:13] INFO root fetch - processPackages [w3ml]: Remove: archive file [/home/abi/fetcher/tmp/w3ml-2024.5.16rc3.tar.gz]
+[2024-05-16 06:30:13] INFO root fetch - processPackages [w3ml]: Remove: archive file [/home/abi/fetcher/tmp/w3ml-2024.5.16rc4.tar.gz]
+[2024-05-16 06:30:13] INFO root fetch - main [MainThread]: End processing [w3ml]: success
+[2024-05-16 06:30:13] INFO root fetch - processPackages [funkai]: Remove: archive file [/home/abi/fetcher/tmp/funkai-0.8.tar.gz]
+[2024-05-16 06:30:13] INFO root fetch - processPackages [funkai]: Remove: archive file [/home/abi/fetcher/tmp/funkai-0.9.tar.gz]
+[2024-05-16 06:30:13] INFO root fetch - main [MainThread]: End processing [funkai]: success
+[2024-05-16 06:30:13] INFO root fetch - processPackages [Leonardo-Ai-SDK]: Remove: archive file [/home/abi/fetcher/tmp/Leonardo-Ai-SDK-5.4.0.tar.gz]
+[2024-05-16 06:30:13] INFO root fetch - processPackages [Leonardo-Ai-SDK]: Remove: archive file [/home/abi/fetcher/tmp/Leonardo-Ai-SDK-5.4.1.tar.gz]
+[2024-05-16 06:30:13] INFO root fetch - main [MainThread]: End processing [Leonardo-Ai-SDK]: success
+[2024-05-16 06:30:14] INFO root fetch - processPackages [litellm]: Remove: archive file [/home/abi/fetcher/tmp/litellm-1.9.5.tar.gz]
+[2024-05-16 06:30:14] INFO root fetch - processPackages [litellm]: Remove: archive file [/home/abi/fetcher/tmp/litellm-1.9.dev0.tar.gz]
+[2024-05-16 06:30:14] INFO root fetch - main [MainThread]: End processing [litellm]: success
+[2024-05-16 06:30:14] INFO root fetch - main [MainThread]: Store serial: [23229389]
