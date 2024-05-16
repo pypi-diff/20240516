@@ -4471,3 +4471,45 @@ AssertionError: tmp/hygpytools-0.2.0.tar.gz does not exist
 [2024-05-16 02:31:17] INFO root fetch - processPackages [GenMine]: Remove: archive file [/home/abi/fetcher/tmp/GenMine-1.0.9.tar.gz]
 [2024-05-16 02:31:17] INFO root fetch - main [MainThread]: End processing [GenMine]: success
 [2024-05-16 02:31:17] INFO root fetch - main [MainThread]: Store serial: [23226914]
+[2024-05-16 02:33:22] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23226914]
+[2024-05-16 02:33:27] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-16 02:33:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: blackchirp
+[2024-05-16 02:33:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: freegenius
+[2024-05-16 02:33:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: llama_tools
+[2024-05-16 02:33:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: tsugu
+[2024-05-16 02:33:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: py-alpaca-api
+[2024-05-16 02:33:27] WARNING root fetch - processPackages [blackchirp]: Skipping, unable to determine old version
+[2024-05-16 02:33:27] INFO root fetch - main [MainThread]: End processing [blackchirp] error
+[2024-05-16 02:33:27] INFO root fetch - processPackages [llama_tools]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-16 02:33:27] INFO root fetch - processPackages [tsugu]: New version: [1.0.4] Old Version: [1.0.3]
+[2024-05-16 02:33:27] INFO root fetch - processPackages [freegenius]: New version: [0.2.9] Old Version: [0.2.8]
+[2024-05-16 02:33:27] INFO root fetch - processPackages [llama_tools]: Downloading https://files.pythonhosted.org/packages/a8/55/43247b59a289e0459a611874224f09597a28f206ece4c888349b83d661bb/llama_tools-0.1.8.tar.gz
+[2024-05-16 02:33:27] INFO root fetch - processPackages [tsugu]: Downloading https://files.pythonhosted.org/packages/04/08/9c4abea16ad47342fa1760bad8e2b83bb63a7dc095da2ddaeede3e39a76d/tsugu-1.0.3.tar.gz
+[2024-05-16 02:33:27] INFO root fetch - processPackages [freegenius]: Downloading https://files.pythonhosted.org/packages/d5/ca/411a282eb501daf2e794cd1fb0f3e90fdbc6bf2302cf9c34892282b27dbc/freegenius-0.2.8.tar.gz
+[2024-05-16 02:33:27] INFO root fetch - processPackages [py-alpaca-api]: New version: [0.4.0] Old Version: [0.3.5]
+[2024-05-16 02:33:27] INFO root fetch - processPackages [llama_tools]: Downloading https://files.pythonhosted.org/packages/b1/c0/71823f5e8c32246c13f14ee35afae675e0119488af8210d0d305c5d9dc5c/llama_tools-0.1.9.tar.gz
+[2024-05-16 02:33:28] INFO root fetch - processPackages [py-alpaca-api]: Downloading https://files.pythonhosted.org/packages/26/ce/0e227807da709ce15c0d1c48bb5c0faa37fecb0e4df9c4bd049e24181371/py_alpaca_api-0.3.5.tar.gz
+[2024-05-16 02:33:28] INFO root fetch - processPackages [llama_tools]: executing diffoscope
+[2024-05-16 02:33:28] INFO root fetch - processPackages [llama_tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/llama_tools-0.1.8.tar.gz tmp/llama_tools-0.1.9.tar.gz --markdown 20240516/l/llama_tools/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-16 02:33:28] INFO root fetch - processPackages [tsugu]: Downloading https://files.pythonhosted.org/packages/63/93/5ad9a7e726e9de5f24fd837eff4c4e20ce313ab91371dadb0a03ccf422d7/tsugu-1.0.4.tar.gz
+[2024-05-16 02:33:28] INFO root fetch - processPackages [tsugu]: executing diffoscope
+[2024-05-16 02:33:28] INFO root fetch - processPackages [tsugu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tsugu-1.0.3.tar.gz tmp/tsugu-1.0.4.tar.gz --markdown 20240516/t/tsugu/1.0.3-1.0.4/README.md --exclude *.pyd
+[2024-05-16 02:33:28] INFO root fetch - processPackages [freegenius]: Downloading https://files.pythonhosted.org/packages/85/e0/79c8d3b405fbb09c8afb4fc4cba33e77303a57f60e90bbef2e19a2c5a73a/freegenius-0.2.9.tar.gz
+[2024-05-16 02:33:28] INFO root fetch - processPackages [py-alpaca-api]: Downloading https://files.pythonhosted.org/packages/cc/2d/6fea6da3d43ab5573d7d23fc3a6b4ba98bbf62c1492f891bfdbc22b1b9f0/py_alpaca_api-0.4.0.tar.gz
+[2024-05-16 02:33:28] INFO root fetch - processPackages [freegenius]: executing diffoscope
+[2024-05-16 02:33:28] INFO root fetch - processPackages [freegenius]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/freegenius-0.2.8.tar.gz tmp/freegenius-0.2.9.tar.gz --markdown 20240516/f/freegenius/0.2.8-0.2.9/README.md --exclude *.pyd
+[2024-05-16 02:33:28] INFO root fetch - processPackages [py-alpaca-api]: executing diffoscope
+[2024-05-16 02:33:28] INFO root fetch - processPackages [py-alpaca-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py_alpaca_api-0.3.5.tar.gz tmp/py_alpaca_api-0.4.0.tar.gz --markdown 20240516/p/py-alpaca-api/0.3.5-0.4.0/README.md --exclude *.pyd
+[2024-05-16 02:33:28] INFO root fetch - processPackages [llama_tools]: Remove: archive file [/home/abi/fetcher/tmp/llama_tools-0.1.8.tar.gz]
+[2024-05-16 02:33:28] INFO root fetch - processPackages [llama_tools]: Remove: archive file [/home/abi/fetcher/tmp/llama_tools-0.1.9.tar.gz]
+[2024-05-16 02:33:28] INFO root fetch - main [MainThread]: End processing [llama_tools]: success
+[2024-05-16 02:33:28] INFO root fetch - processPackages [tsugu]: Remove: archive file [/home/abi/fetcher/tmp/tsugu-1.0.3.tar.gz]
+[2024-05-16 02:33:28] INFO root fetch - processPackages [tsugu]: Remove: archive file [/home/abi/fetcher/tmp/tsugu-1.0.4.tar.gz]
+[2024-05-16 02:33:28] INFO root fetch - main [MainThread]: End processing [tsugu]: success
+[2024-05-16 02:33:29] INFO root fetch - processPackages [py-alpaca-api]: Remove: archive file [/home/abi/fetcher/tmp/py_alpaca_api-0.3.5.tar.gz]
+[2024-05-16 02:33:29] INFO root fetch - processPackages [py-alpaca-api]: Remove: archive file [/home/abi/fetcher/tmp/py_alpaca_api-0.4.0.tar.gz]
+[2024-05-16 02:33:29] INFO root fetch - main [MainThread]: End processing [py-alpaca-api]: success
+[2024-05-16 02:33:30] INFO root fetch - processPackages [freegenius]: Remove: archive file [/home/abi/fetcher/tmp/freegenius-0.2.8.tar.gz]
+[2024-05-16 02:33:30] INFO root fetch - processPackages [freegenius]: Remove: archive file [/home/abi/fetcher/tmp/freegenius-0.2.9.tar.gz]
+[2024-05-16 02:33:30] INFO root fetch - main [MainThread]: End processing [freegenius]: success
+[2024-05-16 02:33:30] INFO root fetch - main [MainThread]: Store serial: [23226929]
