@@ -14210,3 +14210,51 @@ EOFError: EOF read where object expected
 [2024-05-16 09:21:33] INFO root fetch - processPackages [OctoBot-Trading]: Remove: archive file [/home/abi/fetcher/tmp/OctoBot-Trading-2.4.9.tar.gz]
 [2024-05-16 09:21:33] INFO root fetch - main [MainThread]: End processing [OctoBot-Trading]: success
 [2024-05-16 09:21:33] INFO root fetch - main [MainThread]: Store serial: [23230593]
+[2024-05-16 09:23:37] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23230593]
+[2024-05-16 09:23:42] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-16 09:23:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: eurmlsdk
+[2024-05-16 09:23:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: grid2demand
+[2024-05-16 09:23:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: yplib
+[2024-05-16 09:23:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: capeditor
+[2024-05-16 09:23:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: argus-htmx-frontend
+[2024-05-16 09:23:42] INFO root fetch - processPackages [grid2demand]: New version: [0.4.2] Old Version: [0.4.1]
+[2024-05-16 09:23:42] INFO root fetch - processPackages [argus-htmx-frontend]: New version: [0.2] Old Version: [0.1]
+[2024-05-16 09:23:42] INFO root fetch - processPackages [eurmlsdk]: New version: [0.0.902] Old Version: [0.0.901]
+[2024-05-16 09:23:42] INFO root fetch - processPackages [capeditor]: New version: [0.5.6] Old Version: [0.5.5]
+[2024-05-16 09:23:42] INFO root fetch - processPackages [yplib]: New version: [5.8.0] Old Version: [5.7.9]
+[2024-05-16 09:23:42] INFO root fetch - processPackages [eurmlsdk]: Downloading https://files.pythonhosted.org/packages/88/4b/fa0097aa9a2c6564ec7917fb0dcb3178acec02c8b1a5e37806d3aca3b4f9/eurmlsdk-0.0.901.tar.gz
+[2024-05-16 09:23:42] INFO root fetch - processPackages [grid2demand]: Downloading https://files.pythonhosted.org/packages/cd/a2/fb904df32fa160f694887cc11e045b9747fb200c5a1b75f8f90535313eae/grid2demand-0.4.1.tar.gz
+[2024-05-16 09:23:43] INFO root fetch - processPackages [yplib]: Downloading https://files.pythonhosted.org/packages/6d/cf/6665d153a92e26f14f6cba5371f1276f3e94505965b46edeed264937b7c8/yplib-5.7.9.tar.gz
+[2024-05-16 09:23:43] INFO root fetch - processPackages [argus-htmx-frontend]: Downloading https://files.pythonhosted.org/packages/9f/32/f4bef625fcd798f44a32c967558389bbb6c25901a9bcdbc04515d130bb9f/argus_htmx_frontend-0.1.tar.gz
+[2024-05-16 09:23:43] INFO root fetch - processPackages [capeditor]: Downloading https://files.pythonhosted.org/packages/84/c5/7440a8f2e9329bf3a28ca97c853516c1c22883f12f7a8ce13d8714b5fcc6/capeditor-0.5.5.tar.gz
+[2024-05-16 09:23:43] INFO root fetch - processPackages [grid2demand]: Downloading https://files.pythonhosted.org/packages/ae/a7/920dfd965bf9ceabb1bbc4ef343bbf7d7023a0e5577b7a728501fd05e698/grid2demand-0.4.2.tar.gz
+[2024-05-16 09:23:43] INFO root fetch - processPackages [eurmlsdk]: Downloading https://files.pythonhosted.org/packages/71/b1/84ed7cb193cd86553761647081260ef2f3b5235ee6d3a3fc60a9b18cc5ca/eurmlsdk-0.0.902.tar.gz
+[2024-05-16 09:23:43] INFO root fetch - processPackages [yplib]: Downloading https://files.pythonhosted.org/packages/63/6e/bc4f73c59168acf135984db9360a0112ceb709f30ce30a826e4e1580f467/yplib-5.8.0.tar.gz
+[2024-05-16 09:23:43] INFO root fetch - processPackages [grid2demand]: executing diffoscope
+[2024-05-16 09:23:43] INFO root fetch - processPackages [grid2demand]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/grid2demand-0.4.1.tar.gz tmp/grid2demand-0.4.2.tar.gz --markdown 20240516/g/grid2demand/0.4.1-0.4.2/README.md --exclude *.pyd
+[2024-05-16 09:23:43] INFO root fetch - processPackages [argus-htmx-frontend]: Downloading https://files.pythonhosted.org/packages/fa/e6/7f71f6d2a044c0215dccc792d352884451f5e276013f37d84493a9594f39/argus_htmx_frontend-0.2.tar.gz
+[2024-05-16 09:23:43] INFO root fetch - processPackages [yplib]: executing diffoscope
+[2024-05-16 09:23:43] INFO root fetch - processPackages [yplib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yplib-5.7.9.tar.gz tmp/yplib-5.8.0.tar.gz --markdown 20240516/y/yplib/5.7.9-5.8.0/README.md --exclude *.pyd
+[2024-05-16 09:23:43] INFO root fetch - processPackages [eurmlsdk]: executing diffoscope
+[2024-05-16 09:23:43] INFO root fetch - processPackages [eurmlsdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eurmlsdk-0.0.901.tar.gz tmp/eurmlsdk-0.0.902.tar.gz --markdown 20240516/e/eurmlsdk/0.0.901-0.0.902/README.md --exclude *.pyd
+[2024-05-16 09:23:43] INFO root fetch - processPackages [capeditor]: Downloading https://files.pythonhosted.org/packages/21/7d/1784b635a992192ad7dab1b7d8af55fa0ea8b7585360f5a9de1e6e03bde0/capeditor-0.5.6.tar.gz
+[2024-05-16 09:23:43] INFO root fetch - processPackages [argus-htmx-frontend]: executing diffoscope
+[2024-05-16 09:23:43] INFO root fetch - processPackages [argus-htmx-frontend]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/argus_htmx_frontend-0.1.tar.gz tmp/argus_htmx_frontend-0.2.tar.gz --markdown 20240516/a/argus-htmx-frontend/0.1-0.2/README.md --exclude *.pyd
+[2024-05-16 09:23:44] INFO root fetch - processPackages [capeditor]: executing diffoscope
+[2024-05-16 09:23:44] INFO root fetch - processPackages [capeditor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/capeditor-0.5.5.tar.gz tmp/capeditor-0.5.6.tar.gz --markdown 20240516/c/capeditor/0.5.5-0.5.6/README.md --exclude *.pyd
+[2024-05-16 09:23:44] INFO root fetch - processPackages [eurmlsdk]: Remove: archive file [/home/abi/fetcher/tmp/eurmlsdk-0.0.901.tar.gz]
+[2024-05-16 09:23:44] INFO root fetch - processPackages [eurmlsdk]: Remove: archive file [/home/abi/fetcher/tmp/eurmlsdk-0.0.902.tar.gz]
+[2024-05-16 09:23:44] INFO root fetch - main [MainThread]: End processing [eurmlsdk]: success
+[2024-05-16 09:23:44] INFO root fetch - processPackages [yplib]: Remove: archive file [/home/abi/fetcher/tmp/yplib-5.7.9.tar.gz]
+[2024-05-16 09:23:44] INFO root fetch - processPackages [yplib]: Remove: archive file [/home/abi/fetcher/tmp/yplib-5.8.0.tar.gz]
+[2024-05-16 09:23:44] INFO root fetch - main [MainThread]: End processing [yplib]: success
+[2024-05-16 09:23:44] INFO root fetch - processPackages [argus-htmx-frontend]: Remove: archive file [/home/abi/fetcher/tmp/argus_htmx_frontend-0.1.tar.gz]
+[2024-05-16 09:23:44] INFO root fetch - processPackages [argus-htmx-frontend]: Remove: archive file [/home/abi/fetcher/tmp/argus_htmx_frontend-0.2.tar.gz]
+[2024-05-16 09:23:44] INFO root fetch - main [MainThread]: End processing [argus-htmx-frontend]: success
+[2024-05-16 09:23:44] INFO root fetch - processPackages [grid2demand]: Remove: archive file [/home/abi/fetcher/tmp/grid2demand-0.4.1.tar.gz]
+[2024-05-16 09:23:44] INFO root fetch - processPackages [grid2demand]: Remove: archive file [/home/abi/fetcher/tmp/grid2demand-0.4.2.tar.gz]
+[2024-05-16 09:23:44] INFO root fetch - main [MainThread]: End processing [grid2demand]: success
+[2024-05-16 09:23:45] INFO root fetch - processPackages [capeditor]: Remove: archive file [/home/abi/fetcher/tmp/capeditor-0.5.5.tar.gz]
+[2024-05-16 09:23:45] INFO root fetch - processPackages [capeditor]: Remove: archive file [/home/abi/fetcher/tmp/capeditor-0.5.6.tar.gz]
+[2024-05-16 09:23:45] INFO root fetch - main [MainThread]: End processing [capeditor]: success
+[2024-05-16 09:23:45] INFO root fetch - main [MainThread]: Store serial: [23230610]
