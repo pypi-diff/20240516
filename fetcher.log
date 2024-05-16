@@ -10237,3 +10237,42 @@ EOFError: EOF read where object expected
 [2024-05-16 05:13:54] INFO root fetch - processPackages [odoo-addon-automation-oca]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_automation_oca-16.0.1.0.0.5-py3-none-any.whl.zip]
 [2024-05-16 05:13:54] INFO root fetch - main [MainThread]: End processing [odoo-addon-automation-oca]: success
 [2024-05-16 05:13:54] INFO root fetch - main [MainThread]: Store serial: [23228995]
+[2024-05-16 05:15:57] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23228995]
+[2024-05-16 05:16:02] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-16 05:16:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: graph-scheduler
+[2024-05-16 05:16:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: keras-cv-nightly
+[2024-05-16 05:16:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: langchain-weaviate
+[2024-05-16 05:16:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: aikicore
+[2024-05-16 05:16:02] INFO root fetch - processPackages [graph-scheduler]: New version: [1.2.0] Old Version: [1.1.2]
+[2024-05-16 05:16:03] INFO root fetch - processPackages [keras-cv-nightly]: New version: [0.9.0.dev2024043000] Old Version: [0.9.0.dev2024042919]
+[2024-05-16 05:16:03] INFO root fetch - processPackages [aikicore]: New version: [1.0.0a7] Old Version: [1.0.0a6]
+[2024-05-16 05:16:03] INFO root fetch - processPackages [langchain-weaviate]: New version: [0.0.2] Old Version: [0.0.1rc6]
+[2024-05-16 05:16:03] INFO root fetch - processPackages [keras-cv-nightly]: Downloading https://files.pythonhosted.org/packages/bd/17/3faa9e969f58abadca2ff3a4053bed558afb777bae344f994feeeaf1cfd3/keras_cv_nightly-0.9.0.dev2024042919.tar.gz
+[2024-05-16 05:16:03] INFO root fetch - processPackages [graph-scheduler]: Downloading https://files.pythonhosted.org/packages/ca/23/defc13688d80aeaee42242a0681ace66ff2c9dd2efb989e856158724e87d/graph-scheduler-1.1.2.tar.gz
+[2024-05-16 05:16:03] INFO root fetch - processPackages [aikicore]: Downloading https://files.pythonhosted.org/packages/bf/8d/7af2c4d23ab2954647d0478137e37ee44bc79accf22435cc02188658b95f/aikicore-1.0.0a6.tar.gz
+[2024-05-16 05:16:03] INFO root fetch - processPackages [langchain-weaviate]: Downloading https://files.pythonhosted.org/packages/b6/e2/7d7cae08f5f2ccdef56570b131cf79e282fd8d5cb176e14b5e72f5087cec/langchain_weaviate-0.0.1rc6.tar.gz
+[2024-05-16 05:16:03] INFO root fetch - processPackages [keras-cv-nightly]: Downloading https://files.pythonhosted.org/packages/81/e8/990891e08c4d6686000132786b783a9e72d0cf684f6f44245f2949fd0e57/keras_cv_nightly-0.9.0.dev2024043000.tar.gz
+[2024-05-16 05:16:03] INFO root fetch - processPackages [keras-cv-nightly]: executing diffoscope
+[2024-05-16 05:16:03] INFO root fetch - processPackages [keras-cv-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/keras_cv_nightly-0.9.0.dev2024042919.tar.gz tmp/keras_cv_nightly-0.9.0.dev2024043000.tar.gz --markdown 20240516/k/keras-cv-nightly/0.9.0.dev2024042919-0.9.0.dev2024043000/README.md --exclude *.pyd
+[2024-05-16 05:16:03] INFO root fetch - processPackages [graph-scheduler]: Downloading https://files.pythonhosted.org/packages/26/90/1f6766aee877b74f00569483547725471baa2a02b8efbb873a9628e11f6b/graph-scheduler-1.2.0.tar.gz
+[2024-05-16 05:16:03] INFO root fetch - processPackages [graph-scheduler]: executing diffoscope
+[2024-05-16 05:16:03] INFO root fetch - processPackages [graph-scheduler]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/graph-scheduler-1.1.2.tar.gz tmp/graph-scheduler-1.2.0.tar.gz --markdown 20240516/g/graph-scheduler/1.1.2-1.2.0/README.md --exclude *.pyd
+[2024-05-16 05:16:03] INFO root fetch - processPackages [aikicore]: Downloading https://files.pythonhosted.org/packages/a7/d3/0120bdbd9f004a120a8dab9c097a9a4d46ccdc916d3df04099dadb160093/aikicore-1.0.0a7.tar.gz
+[2024-05-16 05:16:03] INFO root fetch - processPackages [langchain-weaviate]: Downloading https://files.pythonhosted.org/packages/d6/c5/09f325ea1622b05ead5b01162a4914decb2ec2f758397b360c6adad3e486/langchain_weaviate-0.0.2.tar.gz
+[2024-05-16 05:16:03] INFO root fetch - processPackages [langchain-weaviate]: executing diffoscope
+[2024-05-16 05:16:03] INFO root fetch - processPackages [langchain-weaviate]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/langchain_weaviate-0.0.1rc6.tar.gz tmp/langchain_weaviate-0.0.2.tar.gz --markdown 20240516/l/langchain-weaviate/0.0.1rc6-0.0.2/README.md --exclude *.pyd
+[2024-05-16 05:16:03] INFO root fetch - processPackages [aikicore]: executing diffoscope
+[2024-05-16 05:16:03] INFO root fetch - processPackages [aikicore]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aikicore-1.0.0a6.tar.gz tmp/aikicore-1.0.0a7.tar.gz --markdown 20240516/a/aikicore/1.0.0a6-1.0.0a7/README.md --exclude *.pyd
+[2024-05-16 05:16:04] INFO root fetch - processPackages [aikicore]: Remove: archive file [/home/abi/fetcher/tmp/aikicore-1.0.0a6.tar.gz]
+[2024-05-16 05:16:04] INFO root fetch - processPackages [aikicore]: Remove: archive file [/home/abi/fetcher/tmp/aikicore-1.0.0a7.tar.gz]
+[2024-05-16 05:16:04] INFO root fetch - main [MainThread]: End processing [aikicore]: success
+[2024-05-16 05:16:04] INFO root fetch - processPackages [graph-scheduler]: Remove: archive file [/home/abi/fetcher/tmp/graph-scheduler-1.1.2.tar.gz]
+[2024-05-16 05:16:04] INFO root fetch - processPackages [graph-scheduler]: Remove: archive file [/home/abi/fetcher/tmp/graph-scheduler-1.2.0.tar.gz]
+[2024-05-16 05:16:04] INFO root fetch - main [MainThread]: End processing [graph-scheduler]: success
+[2024-05-16 05:16:04] INFO root fetch - processPackages [langchain-weaviate]: Remove: archive file [/home/abi/fetcher/tmp/langchain_weaviate-0.0.1rc6.tar.gz]
+[2024-05-16 05:16:04] INFO root fetch - processPackages [langchain-weaviate]: Remove: archive file [/home/abi/fetcher/tmp/langchain_weaviate-0.0.2.tar.gz]
+[2024-05-16 05:16:04] INFO root fetch - main [MainThread]: End processing [langchain-weaviate]: success
+[2024-05-16 05:16:05] INFO root fetch - processPackages [keras-cv-nightly]: Remove: archive file [/home/abi/fetcher/tmp/keras_cv_nightly-0.9.0.dev2024042919.tar.gz]
+[2024-05-16 05:16:05] INFO root fetch - processPackages [keras-cv-nightly]: Remove: archive file [/home/abi/fetcher/tmp/keras_cv_nightly-0.9.0.dev2024043000.tar.gz]
+[2024-05-16 05:16:05] INFO root fetch - main [MainThread]: End processing [keras-cv-nightly]: success
+[2024-05-16 05:16:05] INFO root fetch - main [MainThread]: Store serial: [23229007]
