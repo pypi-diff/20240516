@@ -13325,3 +13325,30 @@ EOFError: EOF read where object expected
 [2024-05-16 08:44:49] INFO root fetch - processPackages [cdo-sdk-python]: Remove: archive file [/home/abi/fetcher/tmp/cdo-sdk-python-1.0.99.tar.gz]
 [2024-05-16 08:44:49] INFO root fetch - main [MainThread]: End processing [cdo-sdk-python]: success
 [2024-05-16 08:44:49] INFO root fetch - main [MainThread]: Store serial: [23230238]
+[2024-05-16 08:46:53] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23230238]
+[2024-05-16 08:46:58] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-16 08:46:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: woodAI
+[2024-05-16 08:46:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: motionSegmentation
+[2024-05-16 08:46:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: geotifflib
+[2024-05-16 08:46:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: powerlift
+[2024-05-16 08:46:58] INFO root fetch - processPackages [powerlift]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-05-16 08:46:58] WARNING root fetch - processPackages [geotifflib]: Skipping, unable to determine old version
+[2024-05-16 08:46:58] INFO root fetch - main [MainThread]: End processing [geotifflib] error
+[2024-05-16 08:46:58] WARNING root fetch - processPackages [woodAI]: Skipping, unable to determine old version
+[2024-05-16 08:46:58] INFO root fetch - main [MainThread]: End processing [woodAI] error
+[2024-05-16 08:46:58] INFO root fetch - processPackages [motionSegmentation]: New version: [2.9.0] Old Version: [2.8.8]
+[2024-05-16 08:46:58] INFO root fetch - processPackages [powerlift]: Downloading https://files.pythonhosted.org/packages/e9/b6/b003b596b6b313f496bb6f425f6b68f469ac1e827221695bbdbcbaf21cce/powerlift-0.0.1.tar.gz
+[2024-05-16 08:46:58] INFO root fetch - processPackages [motionSegmentation]: Downloading https://files.pythonhosted.org/packages/ec/c0/cca9188fb6c4c75811eaf70537144fb0485fdfbc870c4f94efc1aa023771/motionSegmentation-2.8.8.tar.gz
+[2024-05-16 08:46:59] INFO root fetch - processPackages [powerlift]: Downloading https://files.pythonhosted.org/packages/62/59/d8a2a88393f78fbdd7fde3dbb09c7065481b2e54a5fb42b1b02b5a7c4d39/powerlift-0.0.2.tar.gz
+[2024-05-16 08:46:59] INFO root fetch - processPackages [motionSegmentation]: Downloading https://files.pythonhosted.org/packages/f4/41/6d8d929e83c6fb49e8698064a82be8a763efdcb29712f20f957ee39d10dd/motionsegmentation-2.9.0.tar.gz
+[2024-05-16 08:46:59] INFO root fetch - processPackages [motionSegmentation]: executing diffoscope
+[2024-05-16 08:46:59] INFO root fetch - processPackages [motionSegmentation]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/motionSegmentation-2.8.8.tar.gz tmp/motionsegmentation-2.9.0.tar.gz --markdown 20240516/m/motionSegmentation/2.8.8-2.9.0/README.md --exclude *.pyd
+[2024-05-16 08:46:59] INFO root fetch - processPackages [powerlift]: executing diffoscope
+[2024-05-16 08:46:59] INFO root fetch - processPackages [powerlift]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/powerlift-0.0.1.tar.gz tmp/powerlift-0.0.2.tar.gz --markdown 20240516/p/powerlift/0.0.1-0.0.2/README.md --exclude *.pyd
+[2024-05-16 08:46:59] INFO root fetch - processPackages [motionSegmentation]: Remove: archive file [/home/abi/fetcher/tmp/motionSegmentation-2.8.8.tar.gz]
+[2024-05-16 08:46:59] INFO root fetch - processPackages [motionSegmentation]: Remove: archive file [/home/abi/fetcher/tmp/motionsegmentation-2.9.0.tar.gz]
+[2024-05-16 08:46:59] INFO root fetch - main [MainThread]: End processing [motionSegmentation]: success
+[2024-05-16 08:46:59] INFO root fetch - processPackages [powerlift]: Remove: archive file [/home/abi/fetcher/tmp/powerlift-0.0.1.tar.gz]
+[2024-05-16 08:46:59] INFO root fetch - processPackages [powerlift]: Remove: archive file [/home/abi/fetcher/tmp/powerlift-0.0.2.tar.gz]
+[2024-05-16 08:46:59] INFO root fetch - main [MainThread]: End processing [powerlift]: success
+[2024-05-16 08:46:59] INFO root fetch - main [MainThread]: Store serial: [23230249]
