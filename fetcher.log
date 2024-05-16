@@ -20255,3 +20255,94 @@ EOFError: EOF read where object expected
 [2024-05-16 11:00:06] INFO root fetch - processPackages [huaweicloudsdkvpc]: Remove: archive file [/home/abi/fetcher/tmp/huaweicloudsdkvpc-3.1.96-py2.py3-none-any.whl.zip]
 [2024-05-16 11:00:06] INFO root fetch - main [MainThread]: End processing [huaweicloudsdkvpc]: success
 [2024-05-16 11:00:06] INFO root fetch - main [MainThread]: Store serial: [23232607]
+[2024-05-16 11:02:11] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23232607]
+[2024-05-16 11:02:16] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2024-05-16 11:02:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: odoo-addon-attribute-set
+[2024-05-16 11:02:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: maticalgos-spark
+[2024-05-16 11:02:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: MainShortcuts
+[2024-05-16 11:02:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: maticalgos-spark
+[2024-05-16 11:02:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: nlpertools
+[2024-05-16 11:02:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: atomic-bomb-engine
+[2024-05-16 11:02:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: buz
+[2024-05-16 11:02:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: cookieplone
+[2024-05-16 11:02:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: funcs-aux
+[2024-05-16 11:02:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: zipp
+[2024-05-16 11:02:16] INFO root fetch - processPackages [maticalgos-spark]: New version: [0.2.2] Old Version: [0.1.3]
+[2024-05-16 11:02:16] INFO root fetch - processPackages [odoo-addon-attribute-set]: New version: [16.0.1.1.0.9] Old Version: [16.0.1.1.0.7]
+[2024-05-16 11:02:16] INFO root fetch - processPackages [zipp]: New version: [3.9.1] Old Version: [3.9.0]
+[2024-05-16 11:02:16] INFO root fetch - processPackages [maticalgos-spark]: New version: [0.2.2] Old Version: [0.1.3]
+[2024-05-16 11:02:16] INFO root fetch - processPackages [cookieplone]: New version: [0.5.4] Old Version: [0.5.3]
+[2024-05-16 11:02:16] INFO root fetch - processPackages [atomic-bomb-engine]: New version: [0.9.1] Old Version: [0.9.0]
+[2024-05-16 11:02:16] INFO root fetch - processPackages [maticalgos-spark]: Downloading https://files.pythonhosted.org/packages/34/59/46bf1c439a01a688aca38ce937211a98a872255011a624274c0ca05dd7bd/maticalgos-spark-0.1.3.tar.gz
+[2024-05-16 11:02:16] INFO root fetch - processPackages [nlpertools]: New version: [1.0.6.dev0] Old Version: [1.0.5]
+[2024-05-16 11:02:16] INFO root fetch - processPackages [buz]: New version: [2.6.7rc1] Old Version: [2.6.6rc1]
+[2024-05-16 11:02:16] INFO root fetch - processPackages [funcs-aux]: New version: [0.1.4] Old Version: [0.1.3]
+[2024-05-16 11:02:16] INFO root fetch - processPackages [MainShortcuts]: New version: [1.6.92] Old Version: [1.6.91]
+[2024-05-16 11:02:16] INFO root fetch - processPackages [maticalgos-spark]: Downloading https://files.pythonhosted.org/packages/34/59/46bf1c439a01a688aca38ce937211a98a872255011a624274c0ca05dd7bd/maticalgos-spark-0.1.3.tar.gz
+[2024-05-16 11:02:17] INFO root fetch - processPackages [cookieplone]: Downloading https://files.pythonhosted.org/packages/03/80/2b86e88356650b2b5f26bd4fd818b07df3d2ac8fee5654f75821499a4cd1/cookieplone-0.5.3.tar.gz
+[2024-05-16 11:02:17] INFO root fetch - processPackages [odoo-addon-attribute-set]: Downloading https://files.pythonhosted.org/packages/79/d4/c93c233a15aa1f9a4d8b6e63f4ef36451fb336905b30a81c484d2ed9de70/odoo_addon_attribute_set-16.0.1.1.0.7-py3-none-any.whl
+[2024-05-16 11:02:17] INFO root fetch - processPackages [zipp]: Downloading https://files.pythonhosted.org/packages/41/2e/1341c5634c25e7254df01ec1f6cbd2bcdee3e647709e7c3647d1b362e3ac/zipp-3.9.0.tar.gz
+[2024-05-16 11:02:17] INFO root fetch - processPackages [atomic-bomb-engine]: Downloading https://files.pythonhosted.org/packages/de/47/589c78a3caf02bccdff9d1da27ba01989773662faca9c96280fad2e297e6/atomic_bomb_engine-0.9.0-cp39-none-win_amd64.whl
+[2024-05-16 11:02:17] INFO root fetch - processPackages [buz]: Downloading https://files.pythonhosted.org/packages/89/a0/f465bad7e9c327fcf225eac1d33a32d49daf1735224e06801e3de2fed41b/buz-2.6.6rc1.tar.gz
+[2024-05-16 11:02:17] INFO root fetch - processPackages [funcs-aux]: Downloading https://files.pythonhosted.org/packages/69/66/b12822fdf4114b4931ed3e551b78765fae59c10e7d6ab1d6386939a339dc/funcs_aux-0.1.3.tar.gz
+[2024-05-16 11:02:17] INFO root fetch - processPackages [nlpertools]: Downloading https://files.pythonhosted.org/packages/31/47/7f3bf087c068a88b0380663081485c903a20cf9bf3fc0a2b1f2c89e9c4e5/nlpertools-1.0.5.tar.gz
+[2024-05-16 11:02:17] INFO root fetch - processPackages [maticalgos-spark]: Downloading https://files.pythonhosted.org/packages/12/af/d8be0f552e3a869f6641df293d0a9bce47cc73227743ccea33e03dc8e033/maticalgos-spark-0.2.2.tar.gz
+[2024-05-16 11:02:17] INFO root fetch - processPackages [maticalgos-spark]: Downloading https://files.pythonhosted.org/packages/12/af/d8be0f552e3a869f6641df293d0a9bce47cc73227743ccea33e03dc8e033/maticalgos-spark-0.2.2.tar.gz
+[2024-05-16 11:02:17] INFO root fetch - processPackages [MainShortcuts]: Downloading https://files.pythonhosted.org/packages/5a/18/f5194b39618b3949dbd48895e4f1a8067e0764b19664c6da13a5397e8901/mainshortcuts-1.6.91.tar.gz
+[2024-05-16 11:02:17] INFO root fetch - processPackages [cookieplone]: Downloading https://files.pythonhosted.org/packages/2a/99/bf2aafa65ded6ac67bbaff714252c855489a57a86f7970ad312d05c13bff/cookieplone-0.5.4.tar.gz
+[2024-05-16 11:02:17] INFO root fetch - processPackages [maticalgos-spark]: executing diffoscope
+[2024-05-16 11:02:17] INFO root fetch - processPackages [maticalgos-spark]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/maticalgos-spark-0.1.3.tar.gz tmp/maticalgos-spark-0.2.2.tar.gz --markdown 20240516/m/maticalgos-spark/0.1.3-0.2.2/README.md --exclude *.pyd
+[2024-05-16 11:02:17] INFO root fetch - processPackages [maticalgos-spark]: executing diffoscope
+[2024-05-16 11:02:17] INFO root fetch - processPackages [maticalgos-spark]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/maticalgos-spark-0.1.3.tar.gz tmp/maticalgos-spark-0.2.2.tar.gz --markdown 20240516/m/maticalgos-spark/0.1.3-0.2.2/README.md --exclude *.pyd
+[2024-05-16 11:02:17] INFO root fetch - processPackages [zipp]: Downloading https://files.pythonhosted.org/packages/21/40/791c00c9788d8a8b005a20248a9ce2fb46aaf12fa12b0ff9e1639aea04af/zipp-3.9.1.tar.gz
+[2024-05-16 11:02:17] INFO root fetch - processPackages [odoo-addon-attribute-set]: Downloading https://files.pythonhosted.org/packages/63/00/2ba9bc2b2cbde06af7e1fc57f7eb18cc408a10821fdd2d72a19e0ea0f6de/odoo_addon_attribute_set-16.0.1.1.0.9-py3-none-any.whl
+[2024-05-16 11:02:17] INFO root fetch - processPackages [cookieplone]: executing diffoscope
+[2024-05-16 11:02:17] INFO root fetch - processPackages [cookieplone]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cookieplone-0.5.3.tar.gz tmp/cookieplone-0.5.4.tar.gz --markdown 20240516/c/cookieplone/0.5.3-0.5.4/README.md --exclude *.pyd
+[2024-05-16 11:02:17] INFO root fetch - processPackages [funcs-aux]: Downloading https://files.pythonhosted.org/packages/2c/a3/9d54ae514c81e418f81db2ae5359a5fbbbe79c971d83f75d0502b2e41df1/funcs_aux-0.1.4.tar.gz
+[2024-05-16 11:02:17] INFO root fetch - processPackages [zipp]: executing diffoscope
+[2024-05-16 11:02:17] INFO root fetch - processPackages [zipp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zipp-3.9.0.tar.gz tmp/zipp-3.9.1.tar.gz --markdown 20240516/z/zipp/3.9.0-3.9.1/README.md --exclude *.pyd
+[2024-05-16 11:02:17] INFO root fetch - processPackages [MainShortcuts]: Downloading https://files.pythonhosted.org/packages/be/60/afe8c5deba1572cab2e3fd7d34e9d9e398ac7fca6df812bc447d2da6670c/mainshortcuts-1.6.92.tar.gz
+[2024-05-16 11:02:17] INFO root fetch - processPackages [buz]: Downloading https://files.pythonhosted.org/packages/8d/01/e734b6a289462a7c0e41347f294891c60aa13914f0204ce8d8d9c21ffdb4/buz-2.6.7rc1.tar.gz
+[2024-05-16 11:02:17] INFO root fetch - processPackages [nlpertools]: Downloading https://files.pythonhosted.org/packages/12/58/8ac511bc28ecfddc8c789dce9adc74527fb38be1fd45418bcd1ad52e1fe1/nlpertools-1.0.6.dev0.tar.gz
+[2024-05-16 11:02:17] INFO root fetch - processPackages [odoo-addon-attribute-set]: executing diffoscope
+[2024-05-16 11:02:17] INFO root fetch - processPackages [odoo-addon-attribute-set]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_attribute_set-16.0.1.1.0.7-py3-none-any.whl.zip tmp/odoo_addon_attribute_set-16.0.1.1.0.9-py3-none-any.whl.zip --markdown 20240516/o/odoo-addon-attribute-set/16.0.1.1.0.7-16.0.1.1.0.9/README.md --exclude *.pyd
+[2024-05-16 11:02:17] INFO root fetch - processPackages [MainShortcuts]: executing diffoscope
+[2024-05-16 11:02:17] INFO root fetch - processPackages [MainShortcuts]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mainshortcuts-1.6.91.tar.gz tmp/mainshortcuts-1.6.92.tar.gz --markdown 20240516/M/MainShortcuts/1.6.91-1.6.92/README.md --exclude *.pyd
+[2024-05-16 11:02:17] INFO root fetch - processPackages [funcs-aux]: executing diffoscope
+[2024-05-16 11:02:17] INFO root fetch - processPackages [funcs-aux]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/funcs_aux-0.1.3.tar.gz tmp/funcs_aux-0.1.4.tar.gz --markdown 20240516/f/funcs-aux/0.1.3-0.1.4/README.md --exclude *.pyd
+[2024-05-16 11:02:17] INFO root fetch - processPackages [nlpertools]: executing diffoscope
+[2024-05-16 11:02:17] INFO root fetch - processPackages [nlpertools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nlpertools-1.0.5.tar.gz tmp/nlpertools-1.0.6.dev0.tar.gz --markdown 20240516/n/nlpertools/1.0.5-1.0.6.dev0/README.md --exclude *.pyd
+[2024-05-16 11:02:17] INFO root fetch - processPackages [atomic-bomb-engine]: Downloading https://files.pythonhosted.org/packages/f2/d0/587dc5dedb6e3e81c2ce988350e6322864b47905247529e088c7b811f975/atomic_bomb_engine-0.9.1-cp39-none-win_amd64.whl
+[2024-05-16 11:02:17] INFO root fetch - processPackages [buz]: executing diffoscope
+[2024-05-16 11:02:17] INFO root fetch - processPackages [buz]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/buz-2.6.6rc1.tar.gz tmp/buz-2.6.7rc1.tar.gz --markdown 20240516/b/buz/2.6.6rc1-2.6.7rc1/README.md --exclude *.pyd
+[2024-05-16 11:02:18] INFO root fetch - processPackages [atomic-bomb-engine]: executing diffoscope
+[2024-05-16 11:02:18] INFO root fetch - processPackages [atomic-bomb-engine]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/atomic_bomb_engine-0.9.0-cp39-none-win_amd64.whl.zip tmp/atomic_bomb_engine-0.9.1-cp39-none-win_amd64.whl.zip --markdown 20240516/a/atomic-bomb-engine/0.9.0-0.9.1/README.md --exclude *.pyd
+[2024-05-16 11:02:18] INFO root fetch - processPackages [maticalgos-spark]: Remove: archive file [/home/abi/fetcher/tmp/maticalgos-spark-0.1.3.tar.gz]
+[2024-05-16 11:02:18] INFO root fetch - processPackages [maticalgos-spark]: Remove: archive file [/home/abi/fetcher/tmp/maticalgos-spark-0.2.2.tar.gz]
+[2024-05-16 11:02:18] INFO root fetch - main [MainThread]: End processing [maticalgos-spark]: success
+[2024-05-16 11:02:18] INFO root fetch - main [MainThread]: End processing [maticalgos-spark]: success
+[2024-05-16 11:02:18] INFO root fetch - processPackages [cookieplone]: Remove: archive file [/home/abi/fetcher/tmp/cookieplone-0.5.3.tar.gz]
+[2024-05-16 11:02:18] INFO root fetch - processPackages [cookieplone]: Remove: archive file [/home/abi/fetcher/tmp/cookieplone-0.5.4.tar.gz]
+[2024-05-16 11:02:18] INFO root fetch - main [MainThread]: End processing [cookieplone]: success
+[2024-05-16 11:02:18] INFO root fetch - processPackages [zipp]: Remove: archive file [/home/abi/fetcher/tmp/zipp-3.9.0.tar.gz]
+[2024-05-16 11:02:18] INFO root fetch - processPackages [zipp]: Remove: archive file [/home/abi/fetcher/tmp/zipp-3.9.1.tar.gz]
+[2024-05-16 11:02:18] INFO root fetch - main [MainThread]: End processing [zipp]: success
+[2024-05-16 11:02:19] INFO root fetch - processPackages [odoo-addon-attribute-set]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_attribute_set-16.0.1.1.0.7-py3-none-any.whl.zip]
+[2024-05-16 11:02:19] INFO root fetch - processPackages [odoo-addon-attribute-set]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_attribute_set-16.0.1.1.0.9-py3-none-any.whl.zip]
+[2024-05-16 11:02:19] INFO root fetch - main [MainThread]: End processing [odoo-addon-attribute-set]: success
+[2024-05-16 11:02:19] INFO root fetch - processPackages [MainShortcuts]: Remove: archive file [/home/abi/fetcher/tmp/mainshortcuts-1.6.91.tar.gz]
+[2024-05-16 11:02:19] INFO root fetch - processPackages [MainShortcuts]: Remove: archive file [/home/abi/fetcher/tmp/mainshortcuts-1.6.92.tar.gz]
+[2024-05-16 11:02:19] INFO root fetch - main [MainThread]: End processing [MainShortcuts]: success
+[2024-05-16 11:02:19] INFO root fetch - processPackages [nlpertools]: Remove: archive file [/home/abi/fetcher/tmp/nlpertools-1.0.5.tar.gz]
+[2024-05-16 11:02:19] INFO root fetch - processPackages [nlpertools]: Remove: archive file [/home/abi/fetcher/tmp/nlpertools-1.0.6.dev0.tar.gz]
+[2024-05-16 11:02:19] INFO root fetch - main [MainThread]: End processing [nlpertools]: success
+[2024-05-16 11:02:19] INFO root fetch - processPackages [funcs-aux]: Remove: archive file [/home/abi/fetcher/tmp/funcs_aux-0.1.3.tar.gz]
+[2024-05-16 11:02:19] INFO root fetch - processPackages [funcs-aux]: Remove: archive file [/home/abi/fetcher/tmp/funcs_aux-0.1.4.tar.gz]
+[2024-05-16 11:02:19] INFO root fetch - main [MainThread]: End processing [funcs-aux]: success
+[2024-05-16 11:02:19] INFO root fetch - processPackages [atomic-bomb-engine]: Remove: archive file [/home/abi/fetcher/tmp/atomic_bomb_engine-0.9.0-cp39-none-win_amd64.whl.zip]
+[2024-05-16 11:02:19] INFO root fetch - processPackages [atomic-bomb-engine]: Remove: archive file [/home/abi/fetcher/tmp/atomic_bomb_engine-0.9.1-cp39-none-win_amd64.whl.zip]
+[2024-05-16 11:02:19] INFO root fetch - main [MainThread]: End processing [atomic-bomb-engine]: success
+[2024-05-16 11:02:19] INFO root fetch - processPackages [buz]: Remove: archive file [/home/abi/fetcher/tmp/buz-2.6.6rc1.tar.gz]
+[2024-05-16 11:02:19] INFO root fetch - processPackages [buz]: Remove: archive file [/home/abi/fetcher/tmp/buz-2.6.7rc1.tar.gz]
+[2024-05-16 11:02:19] INFO root fetch - main [MainThread]: End processing [buz]: success
+[2024-05-16 11:02:19] INFO root fetch - main [MainThread]: Store serial: [23232635]
