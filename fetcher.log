@@ -3985,3 +3985,63 @@ AssertionError: tmp/hygpytools-0.2.0.tar.gz does not exist
 [2024-05-16 02:11:13] INFO root fetch - processPackages [tator]: Remove: archive file [/home/abi/fetcher/tmp/tator-1.2.9.tar.gz]
 [2024-05-16 02:11:13] INFO root fetch - main [MainThread]: End processing [tator]: success
 [2024-05-16 02:11:13] INFO root fetch - main [MainThread]: Store serial: [23226735]
+[2024-05-16 02:13:18] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23226735]
+[2024-05-16 02:13:22] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-16 02:13:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: blackchirp
+[2024-05-16 02:13:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cdk-events-notify
+[2024-05-16 02:13:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cnparser
+[2024-05-16 02:13:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: llama_tools
+[2024-05-16 02:13:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: sentry-kafka-schemas
+[2024-05-16 02:13:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: speakeasy-client-sdk-python
+[2024-05-16 02:13:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: nmdc-schema
+[2024-05-16 02:13:23] INFO root fetch - processPackages [cnparser]: New version: [1.4.6] Old Version: [1.4.5]
+[2024-05-16 02:13:23] INFO root fetch - processPackages [llama_tools]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-16 02:13:23] INFO root fetch - processPackages [sentry-kafka-schemas]: New version: [0.1.9] Old Version: [0.1.83]
+[2024-05-16 02:13:23] INFO root fetch - processPackages [cdk-events-notify]: New version: [2.2.99] Old Version: [2.2.98]
+[2024-05-16 02:13:23] WARNING root fetch - processPackages [blackchirp]: Skipping, unable to determine old version
+[2024-05-16 02:13:23] INFO root fetch - main [MainThread]: End processing [blackchirp] error
+[2024-05-16 02:13:23] INFO root fetch - processPackages [nmdc-schema]: New version: [9.3.2] Old Version: [9.3.1]
+[2024-05-16 02:13:23] INFO root fetch - processPackages [cnparser]: Downloading https://files.pythonhosted.org/packages/e4/74/68f364c56355bf2f3a14a253a20300efe5ed92024a1e7b08615de5e8aa74/cnparser-1.4.5.tar.gz
+[2024-05-16 02:13:23] INFO root fetch - processPackages [speakeasy-client-sdk-python]: New version: [5.9.0] Old Version: [5.8.1]
+[2024-05-16 02:13:23] INFO root fetch - processPackages [llama_tools]: Downloading https://files.pythonhosted.org/packages/a8/55/43247b59a289e0459a611874224f09597a28f206ece4c888349b83d661bb/llama_tools-0.1.8.tar.gz
+[2024-05-16 02:13:23] INFO root fetch - processPackages [cdk-events-notify]: Downloading https://files.pythonhosted.org/packages/b7/7d/50ca1bff3db85ede28826faf2d11bb449770cac87fe89483636e0fe57d94/cdk-events-notify-2.2.98.tar.gz
+[2024-05-16 02:13:23] INFO root fetch - processPackages [sentry-kafka-schemas]: Downloading https://files.pythonhosted.org/packages/a3/c8/f7e1ba5d42f3411f5f23266991655abe46766698c1ea41c6c82e1b8f5486/sentry-kafka-schemas-0.1.83.tar.gz
+[2024-05-16 02:13:23] INFO root fetch - processPackages [nmdc-schema]: Downloading https://files.pythonhosted.org/packages/d6/d4/85cd3f6598f02178bc996dd442fbd716bc57eba43df328dc1cfb0f94e04b/nmdc_schema-9.3.1.tar.gz
+[2024-05-16 02:13:23] INFO root fetch - processPackages [cnparser]: Downloading https://files.pythonhosted.org/packages/6a/78/93e7fb4b1a7be135e39f9d5151429f89317408d2c71a5c2c2b3789dfae2a/cnparser-1.4.6.tar.gz
+[2024-05-16 02:13:23] INFO root fetch - processPackages [speakeasy-client-sdk-python]: Downloading https://files.pythonhosted.org/packages/89/b9/637cc79ad16c259bd80cc7db3bfc9fd9c33a93d6d6706744f8361391a202/speakeasy-client-sdk-python-5.8.1.tar.gz
+[2024-05-16 02:13:23] INFO root fetch - processPackages [llama_tools]: Downloading https://files.pythonhosted.org/packages/b1/c0/71823f5e8c32246c13f14ee35afae675e0119488af8210d0d305c5d9dc5c/llama_tools-0.1.9.tar.gz
+[2024-05-16 02:13:23] INFO root fetch - processPackages [cdk-events-notify]: Downloading https://files.pythonhosted.org/packages/56/4a/9c2a145913d7a35ac252cb2bddabca89cdc95c802a8e342f192100f709be/cdk-events-notify-2.2.99.tar.gz
+[2024-05-16 02:13:23] INFO root fetch - processPackages [cnparser]: executing diffoscope
+[2024-05-16 02:13:23] INFO root fetch - processPackages [cnparser]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cnparser-1.4.5.tar.gz tmp/cnparser-1.4.6.tar.gz --markdown 20240516/c/cnparser/1.4.5-1.4.6/README.md --exclude *.pyd
+[2024-05-16 02:13:23] INFO root fetch - processPackages [llama_tools]: executing diffoscope
+[2024-05-16 02:13:23] INFO root fetch - processPackages [llama_tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/llama_tools-0.1.8.tar.gz tmp/llama_tools-0.1.9.tar.gz --markdown 20240516/l/llama_tools/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-16 02:13:23] INFO root fetch - processPackages [cdk-events-notify]: executing diffoscope
+[2024-05-16 02:13:23] INFO root fetch - processPackages [cdk-events-notify]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-events-notify-2.2.98.tar.gz tmp/cdk-events-notify-2.2.99.tar.gz --markdown 20240516/c/cdk-events-notify/2.2.98-2.2.99/README.md --exclude *.pyd
+[2024-05-16 02:13:23] INFO root fetch - processPackages [sentry-kafka-schemas]: Downloading https://files.pythonhosted.org/packages/8c/08/409be3a73bf2aa8f7b06bf6ede1250b42df881c326dd39800fb5c7d79d1a/sentry-kafka-schemas-0.1.9.tar.gz
+[2024-05-16 02:13:23] INFO root fetch - processPackages [speakeasy-client-sdk-python]: Downloading https://files.pythonhosted.org/packages/c8/58/2a20ae2222ab3af737c59f84c2bce8a55505edf5df7de4209fc0ae8815b9/speakeasy-client-sdk-python-5.9.0.tar.gz
+[2024-05-16 02:13:23] INFO root fetch - processPackages [nmdc-schema]: Downloading https://files.pythonhosted.org/packages/d3/1c/670763f843f1ad612798d7fa4ddf8d523afefbe046bce98113d6e46ae31c/nmdc_schema-9.3.2.tar.gz
+[2024-05-16 02:13:23] INFO root fetch - processPackages [sentry-kafka-schemas]: executing diffoscope
+[2024-05-16 02:13:23] INFO root fetch - processPackages [sentry-kafka-schemas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sentry-kafka-schemas-0.1.83.tar.gz tmp/sentry-kafka-schemas-0.1.9.tar.gz --markdown 20240516/s/sentry-kafka-schemas/0.1.83-0.1.9/README.md --exclude *.pyd
+[2024-05-16 02:13:24] INFO root fetch - processPackages [speakeasy-client-sdk-python]: executing diffoscope
+[2024-05-16 02:13:24] INFO root fetch - processPackages [speakeasy-client-sdk-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/speakeasy-client-sdk-python-5.8.1.tar.gz tmp/speakeasy-client-sdk-python-5.9.0.tar.gz --markdown 20240516/s/speakeasy-client-sdk-python/5.8.1-5.9.0/README.md --exclude *.pyd
+[2024-05-16 02:13:24] INFO root fetch - processPackages [nmdc-schema]: executing diffoscope
+[2024-05-16 02:13:24] INFO root fetch - processPackages [nmdc-schema]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nmdc_schema-9.3.1.tar.gz tmp/nmdc_schema-9.3.2.tar.gz --markdown 20240516/n/nmdc-schema/9.3.1-9.3.2/README.md --exclude *.pyd
+[2024-05-16 02:13:24] INFO root fetch - processPackages [llama_tools]: Remove: archive file [/home/abi/fetcher/tmp/llama_tools-0.1.8.tar.gz]
+[2024-05-16 02:13:24] INFO root fetch - processPackages [llama_tools]: Remove: archive file [/home/abi/fetcher/tmp/llama_tools-0.1.9.tar.gz]
+[2024-05-16 02:13:24] INFO root fetch - main [MainThread]: End processing [llama_tools]: success
+[2024-05-16 02:13:24] INFO root fetch - processPackages [cnparser]: Remove: archive file [/home/abi/fetcher/tmp/cnparser-1.4.5.tar.gz]
+[2024-05-16 02:13:24] INFO root fetch - processPackages [cnparser]: Remove: archive file [/home/abi/fetcher/tmp/cnparser-1.4.6.tar.gz]
+[2024-05-16 02:13:24] INFO root fetch - main [MainThread]: End processing [cnparser]: success
+[2024-05-16 02:13:24] INFO root fetch - processPackages [cdk-events-notify]: Remove: archive file [/home/abi/fetcher/tmp/cdk-events-notify-2.2.98.tar.gz]
+[2024-05-16 02:13:24] INFO root fetch - processPackages [cdk-events-notify]: Remove: archive file [/home/abi/fetcher/tmp/cdk-events-notify-2.2.99.tar.gz]
+[2024-05-16 02:13:24] INFO root fetch - main [MainThread]: End processing [cdk-events-notify]: success
+[2024-05-16 02:13:24] INFO root fetch - processPackages [sentry-kafka-schemas]: Remove: archive file [/home/abi/fetcher/tmp/sentry-kafka-schemas-0.1.83.tar.gz]
+[2024-05-16 02:13:24] INFO root fetch - processPackages [sentry-kafka-schemas]: Remove: archive file [/home/abi/fetcher/tmp/sentry-kafka-schemas-0.1.9.tar.gz]
+[2024-05-16 02:13:24] INFO root fetch - main [MainThread]: End processing [sentry-kafka-schemas]: success
+[2024-05-16 02:13:24] INFO root fetch - processPackages [speakeasy-client-sdk-python]: Remove: archive file [/home/abi/fetcher/tmp/speakeasy-client-sdk-python-5.8.1.tar.gz]
+[2024-05-16 02:13:24] INFO root fetch - processPackages [speakeasy-client-sdk-python]: Remove: archive file [/home/abi/fetcher/tmp/speakeasy-client-sdk-python-5.9.0.tar.gz]
+[2024-05-16 02:13:24] INFO root fetch - main [MainThread]: End processing [speakeasy-client-sdk-python]: success
+[2024-05-16 02:13:26] INFO root fetch - processPackages [nmdc-schema]: Remove: archive file [/home/abi/fetcher/tmp/nmdc_schema-9.3.1.tar.gz]
+[2024-05-16 02:13:26] INFO root fetch - processPackages [nmdc-schema]: Remove: archive file [/home/abi/fetcher/tmp/nmdc_schema-9.3.2.tar.gz]
+[2024-05-16 02:13:26] INFO root fetch - main [MainThread]: End processing [nmdc-schema]: success
+[2024-05-16 02:13:26] INFO root fetch - main [MainThread]: Store serial: [23226758]
