@@ -21502,3 +21502,84 @@ EOFError: EOF read where object expected
 [2024-05-16 11:29:08] INFO root fetch - processPackages [ipex-llm]: Remove: archive file [/home/abi/fetcher/tmp/ipex_llm-2.1.0b20240515-py3-none-win_amd64.whl.zip]
 [2024-05-16 11:29:08] INFO root fetch - main [MainThread]: End processing [ipex-llm]: success
 [2024-05-16 11:29:08] INFO root fetch - main [MainThread]: Store serial: [23233096]
+[2024-05-16 11:31:17] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23233096]
+[2024-05-16 11:31:22] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2024-05-16 11:31:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: scnx-soar-integration-starter
+[2024-05-16 11:31:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: openbb-nightly
+[2024-05-16 11:31:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: nrstitcher-utils
+[2024-05-16 11:31:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: filum-utils
+[2024-05-16 11:31:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: kimm
+[2024-05-16 11:31:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: socketsecurity
+[2024-05-16 11:31:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: CUQIpy
+[2024-05-16 11:31:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: TangoBrowser
+[2024-05-16 11:31:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: qontract-reconcile
+[2024-05-16 11:31:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: h3daemon
+[2024-05-16 11:31:22] INFO root fetch - processPackages [socketsecurity]: New version: [0.0.57] Old Version: [0.0.56]
+[2024-05-16 11:31:22] INFO root fetch - processPackages [nrstitcher-utils]: New version: [0.1.0.dev9] Old Version: [0.1.0.dev8]
+[2024-05-16 11:31:22] INFO root fetch - processPackages [kimm]: New version: [0.2.0] Old Version: [0.1.8]
+[2024-05-16 11:31:22] INFO root fetch - processPackages [openbb-nightly]: New version: [4.1.7.dev202405140009] Old Version: [4.1.7.dev202405130009]
+[2024-05-16 11:31:22] INFO root fetch - processPackages [socketsecurity]: Downloading https://files.pythonhosted.org/packages/ca/c4/a5a3c489030372845ac66ce7baeb8c58083256d675c50edfa33c590978e7/socketsecurity-0.0.56.tar.gz
+[2024-05-16 11:31:22] INFO root fetch - processPackages [filum-utils]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-16 11:31:22] WARNING root fetch - processPackages [scnx-soar-integration-starter]: Skipping, unable to determine old version
+[2024-05-16 11:31:22] INFO root fetch - main [MainThread]: End processing [scnx-soar-integration-starter] error
+[2024-05-16 11:31:22] WARNING root fetch - processPackages [TangoBrowser]: Skipping, unable to determine old version
+[2024-05-16 11:31:22] INFO root fetch - main [MainThread]: End processing [TangoBrowser] error
+[2024-05-16 11:31:22] INFO root fetch - processPackages [nrstitcher-utils]: Downloading https://files.pythonhosted.org/packages/26/e0/9ff0fdaa4088d210c35d7b2f5ec6171638a6f19e26739de6f1d3d66b6bdc/nrstitcher_utils-0.1.0.dev8.tar.gz
+[2024-05-16 11:31:22] INFO root fetch - processPackages [h3daemon]: New version: [0.9.3] Old Version: [0.9.0]
+[2024-05-16 11:31:22] INFO root fetch - processPackages [qontract-reconcile]: New version: [0.9.1rc99] Old Version: [0.9.1rc98]
+[2024-05-16 11:31:22] INFO root fetch - processPackages [CUQIpy]: New version: [1.0.0.post0.dev91] Old Version: [1.0.0.post0.dev84]
+[2024-05-16 11:31:22] INFO root fetch - processPackages [kimm]: Downloading https://files.pythonhosted.org/packages/60/ef/e280502cb23200220a13e9ceb25bc44bdba5351c8f49038b244a998ee9de/kimm-0.1.8.tar.gz
+[2024-05-16 11:31:22] INFO root fetch - processPackages [openbb-nightly]: Downloading https://files.pythonhosted.org/packages/50/10/0308d2ffdff88ba61a7d6c9ad2784c0ca97f841dc4d479d615695fc9e28f/openbb_nightly-4.1.7.dev202405130009.tar.gz
+[2024-05-16 11:31:22] INFO root fetch - processPackages [h3daemon]: Downloading https://files.pythonhosted.org/packages/df/3b/d69ef59c3761c991a40f1139de738bde9d4932626e0988670ed53dda3b23/h3daemon-0.9.0.tar.gz
+[2024-05-16 11:31:22] INFO root fetch - processPackages [filum-utils]: Downloading https://files.pythonhosted.org/packages/78/35/96933d46034f0997d5136e61e643f945177213d6400bfe756a99862b7f04/filum-utils-0.1.8.tar.gz
+[2024-05-16 11:31:22] INFO root fetch - processPackages [nrstitcher-utils]: Downloading https://files.pythonhosted.org/packages/6a/49/8e343ebcb970cb43c552a345849a8f00a1d65f37ff239ffbe10d1a4009e4/nrstitcher_utils-0.1.0.dev9.tar.gz
+[2024-05-16 11:31:22] INFO root fetch - processPackages [qontract-reconcile]: Downloading https://files.pythonhosted.org/packages/ee/0e/ac8ef8d8ff9114b5366efefac8ac0a94430168107cf051385aa73efdd7ef/qontract_reconcile-0.9.1rc98-py3-none-any.whl
+[2024-05-16 11:31:22] INFO root fetch - processPackages [CUQIpy]: Downloading https://files.pythonhosted.org/packages/a3/7a/3055a8605b15ec5a340925b0806d2098b023cdcdfbce3a64efc80ac9b179/CUQIpy-1.0.0.post0.dev84.tar.gz
+[2024-05-16 11:31:22] INFO root fetch - processPackages [nrstitcher-utils]: executing diffoscope
+[2024-05-16 11:31:22] INFO root fetch - processPackages [nrstitcher-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nrstitcher_utils-0.1.0.dev8.tar.gz tmp/nrstitcher_utils-0.1.0.dev9.tar.gz --markdown 20240516/n/nrstitcher-utils/0.1.0.dev8-0.1.0.dev9/README.md --exclude *.pyd
+[2024-05-16 11:31:23] INFO root fetch - processPackages [socketsecurity]: Downloading https://files.pythonhosted.org/packages/85/d3/e268154837f1c76290c295f660d9979c8e36052b29079c0b76b8155534ef/socketsecurity-0.0.57.tar.gz
+[2024-05-16 11:31:23] INFO root fetch - processPackages [kimm]: Downloading https://files.pythonhosted.org/packages/11/12/051c742f7d202c33b77e05d88367e5d281ccf358bd4a3674ea8d190b9ee2/kimm-0.2.0.tar.gz
+[2024-05-16 11:31:23] INFO root fetch - processPackages [h3daemon]: Downloading https://files.pythonhosted.org/packages/f1/76/cfca9c0a83d992fee13548490212c13e2b5cbfcb2501fbec9519f7b335cf/h3daemon-0.9.3.tar.gz
+[2024-05-16 11:31:23] INFO root fetch - processPackages [filum-utils]: Downloading https://files.pythonhosted.org/packages/d6/c7/22f22ae0044dc243acdac4178015668c8c4b6b9c8f47935c46de1b4b8df7/filum-utils-0.1.9.tar.gz
+[2024-05-16 11:31:23] INFO root fetch - processPackages [qontract-reconcile]: Downloading https://files.pythonhosted.org/packages/dd/8b/9de8b95ca80c898ecaafa95edc3438d306b82ab0d29d3895dd6e8f152129/qontract_reconcile-0.9.1rc99-py3-none-any.whl
+[2024-05-16 11:31:23] INFO root fetch - processPackages [kimm]: executing diffoscope
+[2024-05-16 11:31:23] INFO root fetch - processPackages [kimm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kimm-0.1.8.tar.gz tmp/kimm-0.2.0.tar.gz --markdown 20240516/k/kimm/0.1.8-0.2.0/README.md --exclude *.pyd
+[2024-05-16 11:31:23] INFO root fetch - processPackages [h3daemon]: executing diffoscope
+[2024-05-16 11:31:23] INFO root fetch - processPackages [h3daemon]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/h3daemon-0.9.0.tar.gz tmp/h3daemon-0.9.3.tar.gz --markdown 20240516/h/h3daemon/0.9.0-0.9.3/README.md --exclude *.pyd
+[2024-05-16 11:31:23] INFO root fetch - processPackages [filum-utils]: executing diffoscope
+[2024-05-16 11:31:23] INFO root fetch - processPackages [filum-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/filum-utils-0.1.8.tar.gz tmp/filum-utils-0.1.9.tar.gz --markdown 20240516/f/filum-utils/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-16 11:31:23] INFO root fetch - processPackages [openbb-nightly]: Downloading https://files.pythonhosted.org/packages/ce/3a/4ec7932cc61b7d0b21ccfa1cd4466ea93346531c7b92706a012cef1bd083/openbb_nightly-4.1.7.dev202405140009.tar.gz
+[2024-05-16 11:31:23] INFO root fetch - processPackages [socketsecurity]: executing diffoscope
+[2024-05-16 11:31:23] INFO root fetch - processPackages [socketsecurity]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/socketsecurity-0.0.56.tar.gz tmp/socketsecurity-0.0.57.tar.gz --markdown 20240516/s/socketsecurity/0.0.56-0.0.57/README.md --exclude *.pyd
+[2024-05-16 11:31:23] INFO root fetch - processPackages [CUQIpy]: Downloading https://files.pythonhosted.org/packages/20/73/290e5c26c332d440fb4538f8ec866910cfe4be75fbfeb121b4d47fcd6a21/CUQIpy-1.0.0.post0.dev91.tar.gz
+[2024-05-16 11:31:23] INFO root fetch - processPackages [qontract-reconcile]: executing diffoscope
+[2024-05-16 11:31:23] INFO root fetch - processPackages [qontract-reconcile]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qontract_reconcile-0.9.1rc98-py3-none-any.whl.zip tmp/qontract_reconcile-0.9.1rc99-py3-none-any.whl.zip --markdown 20240516/q/qontract-reconcile/0.9.1rc98-0.9.1rc99/README.md --exclude *.pyd
+[2024-05-16 11:31:23] INFO root fetch - processPackages [nrstitcher-utils]: Remove: archive file [/home/abi/fetcher/tmp/nrstitcher_utils-0.1.0.dev8.tar.gz]
+[2024-05-16 11:31:23] INFO root fetch - processPackages [nrstitcher-utils]: Remove: archive file [/home/abi/fetcher/tmp/nrstitcher_utils-0.1.0.dev9.tar.gz]
+[2024-05-16 11:31:23] INFO root fetch - main [MainThread]: End processing [nrstitcher-utils]: success
+[2024-05-16 11:31:23] INFO root fetch - processPackages [CUQIpy]: executing diffoscope
+[2024-05-16 11:31:23] INFO root fetch - processPackages [CUQIpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/CUQIpy-1.0.0.post0.dev84.tar.gz tmp/CUQIpy-1.0.0.post0.dev91.tar.gz --markdown 20240516/C/CUQIpy/1.0.0.post0.dev84-1.0.0.post0.dev91/README.md --exclude *.pyd
+[2024-05-16 11:31:23] INFO root fetch - processPackages [openbb-nightly]: executing diffoscope
+[2024-05-16 11:31:23] INFO root fetch - processPackages [openbb-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openbb_nightly-4.1.7.dev202405130009.tar.gz tmp/openbb_nightly-4.1.7.dev202405140009.tar.gz --markdown 20240516/o/openbb-nightly/4.1.7.dev202405130009-4.1.7.dev202405140009/README.md --exclude *.pyd
+[2024-05-16 11:31:24] INFO root fetch - processPackages [h3daemon]: Remove: archive file [/home/abi/fetcher/tmp/h3daemon-0.9.0.tar.gz]
+[2024-05-16 11:31:24] INFO root fetch - processPackages [h3daemon]: Remove: archive file [/home/abi/fetcher/tmp/h3daemon-0.9.3.tar.gz]
+[2024-05-16 11:31:24] INFO root fetch - main [MainThread]: End processing [h3daemon]: success
+[2024-05-16 11:31:24] INFO root fetch - processPackages [filum-utils]: Remove: archive file [/home/abi/fetcher/tmp/filum-utils-0.1.8.tar.gz]
+[2024-05-16 11:31:24] INFO root fetch - processPackages [filum-utils]: Remove: archive file [/home/abi/fetcher/tmp/filum-utils-0.1.9.tar.gz]
+[2024-05-16 11:31:24] INFO root fetch - main [MainThread]: End processing [filum-utils]: success
+[2024-05-16 11:31:24] INFO root fetch - processPackages [kimm]: Remove: archive file [/home/abi/fetcher/tmp/kimm-0.1.8.tar.gz]
+[2024-05-16 11:31:24] INFO root fetch - processPackages [kimm]: Remove: archive file [/home/abi/fetcher/tmp/kimm-0.2.0.tar.gz]
+[2024-05-16 11:31:24] INFO root fetch - main [MainThread]: End processing [kimm]: success
+[2024-05-16 11:31:25] INFO root fetch - processPackages [CUQIpy]: Remove: archive file [/home/abi/fetcher/tmp/CUQIpy-1.0.0.post0.dev84.tar.gz]
+[2024-05-16 11:31:25] INFO root fetch - processPackages [CUQIpy]: Remove: archive file [/home/abi/fetcher/tmp/CUQIpy-1.0.0.post0.dev91.tar.gz]
+[2024-05-16 11:31:25] INFO root fetch - main [MainThread]: End processing [CUQIpy]: success
+[2024-05-16 11:31:25] INFO root fetch - processPackages [socketsecurity]: Remove: archive file [/home/abi/fetcher/tmp/socketsecurity-0.0.56.tar.gz]
+[2024-05-16 11:31:25] INFO root fetch - processPackages [socketsecurity]: Remove: archive file [/home/abi/fetcher/tmp/socketsecurity-0.0.57.tar.gz]
+[2024-05-16 11:31:25] INFO root fetch - main [MainThread]: End processing [socketsecurity]: success
+[2024-05-16 11:31:25] INFO root fetch - processPackages [qontract-reconcile]: Remove: archive file [/home/abi/fetcher/tmp/qontract_reconcile-0.9.1rc98-py3-none-any.whl.zip]
+[2024-05-16 11:31:25] INFO root fetch - processPackages [qontract-reconcile]: Remove: archive file [/home/abi/fetcher/tmp/qontract_reconcile-0.9.1rc99-py3-none-any.whl.zip]
+[2024-05-16 11:31:25] INFO root fetch - main [MainThread]: End processing [qontract-reconcile]: success
+[2024-05-16 11:31:27] INFO root fetch - processPackages [openbb-nightly]: Remove: archive file [/home/abi/fetcher/tmp/openbb_nightly-4.1.7.dev202405130009.tar.gz]
+[2024-05-16 11:31:27] INFO root fetch - processPackages [openbb-nightly]: Remove: archive file [/home/abi/fetcher/tmp/openbb_nightly-4.1.7.dev202405140009.tar.gz]
+[2024-05-16 11:31:27] INFO root fetch - main [MainThread]: End processing [openbb-nightly]: success
+[2024-05-16 11:31:27] INFO root fetch - main [MainThread]: Store serial: [23233133]
