@@ -4591,3 +4591,15 @@ AssertionError: tmp/hygpytools-0.2.0.tar.gz does not exist
 [2024-05-16 02:38:03] INFO root fetch - processPackages [streamlit-screen-stats]: Remove: archive file [/home/abi/fetcher/tmp/streamlit-screen-stats-0.0.9.tar.gz]
 [2024-05-16 02:38:03] INFO root fetch - main [MainThread]: End processing [streamlit-screen-stats]: success
 [2024-05-16 02:38:03] INFO root fetch - main [MainThread]: Store serial: [23226953]
+[2024-05-16 02:40:07] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23226953]
+[2024-05-16 02:40:11] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-05-16 02:40:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tulona
+[2024-05-16 02:40:11] INFO root fetch - processPackages [tulona]: New version: [0.7.8] Old Version: [0.7.6]
+[2024-05-16 02:40:11] INFO root fetch - processPackages [tulona]: Downloading https://files.pythonhosted.org/packages/90/55/cc085253f0fd9ac36b91a470ef0c6ae1199ab2b7a53ccdf5f7d1bc593a50/tulona-0.7.6.tar.gz
+[2024-05-16 02:40:12] INFO root fetch - processPackages [tulona]: Downloading https://files.pythonhosted.org/packages/fd/4e/04af3138caf4b6d7b2b12a9adbff2710ee2b4240c341fe2b3dcfe8ce3fd5/tulona-0.7.8.tar.gz
+[2024-05-16 02:40:12] INFO root fetch - processPackages [tulona]: executing diffoscope
+[2024-05-16 02:40:12] INFO root fetch - processPackages [tulona]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tulona-0.7.6.tar.gz tmp/tulona-0.7.8.tar.gz --markdown 20240516/t/tulona/0.7.6-0.7.8/README.md --exclude *.pyd
+[2024-05-16 02:40:12] INFO root fetch - processPackages [tulona]: Remove: archive file [/home/abi/fetcher/tmp/tulona-0.7.6.tar.gz]
+[2024-05-16 02:40:12] INFO root fetch - processPackages [tulona]: Remove: archive file [/home/abi/fetcher/tmp/tulona-0.7.8.tar.gz]
+[2024-05-16 02:40:12] INFO root fetch - main [MainThread]: End processing [tulona]: success
+[2024-05-16 02:40:12] INFO root fetch - main [MainThread]: Store serial: [23226956]
