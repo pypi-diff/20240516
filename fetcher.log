@@ -8891,3 +8891,15 @@ EOFError: EOF read where object expected
 [2024-05-16 03:32:36] INFO root fetch - processPackages [flask-openapi3-scalar]: Remove: archive file [/home/abi/fetcher/tmp/flask_openapi3_scalar-1.22.37.tar.gz]
 [2024-05-16 03:32:36] INFO root fetch - main [MainThread]: End processing [flask-openapi3-scalar]: success
 [2024-05-16 03:32:36] INFO root fetch - main [MainThread]: Store serial: [23228292]
+[2024-05-16 03:34:41] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23228292]
+[2024-05-16 03:34:46] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-05-16 03:34:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: Exegol
+[2024-05-16 03:34:46] INFO root fetch - processPackages [Exegol]: New version: [4.3.3] Old Version: [4.3.2]
+[2024-05-16 03:34:46] INFO root fetch - processPackages [Exegol]: Downloading https://files.pythonhosted.org/packages/4c/65/555ed1f88f81617c8f8e2fc496e67fde1b41478a172804036cfe8b046dd5/exegol-4.3.2.tar.gz
+[2024-05-16 03:34:46] INFO root fetch - processPackages [Exegol]: Downloading https://files.pythonhosted.org/packages/85/18/ca1b53f400209dc8362fc150c5d56b8b743d648f584c407f9d45e5f700a7/exegol-4.3.3.tar.gz
+[2024-05-16 03:34:47] INFO root fetch - processPackages [Exegol]: executing diffoscope
+[2024-05-16 03:34:47] INFO root fetch - processPackages [Exegol]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/exegol-4.3.2.tar.gz tmp/exegol-4.3.3.tar.gz --markdown 20240516/E/Exegol/4.3.2-4.3.3/README.md --exclude *.pyd
+[2024-05-16 03:34:48] INFO root fetch - processPackages [Exegol]: Remove: archive file [/home/abi/fetcher/tmp/exegol-4.3.2.tar.gz]
+[2024-05-16 03:34:48] INFO root fetch - processPackages [Exegol]: Remove: archive file [/home/abi/fetcher/tmp/exegol-4.3.3.tar.gz]
+[2024-05-16 03:34:48] INFO root fetch - main [MainThread]: End processing [Exegol]: success
+[2024-05-16 03:34:48] INFO root fetch - main [MainThread]: Store serial: [23228356]
