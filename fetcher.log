@@ -10053,3 +10053,25 @@ EOFError: EOF read where object expected
 [2024-05-16 05:00:53] INFO root fetch - processPackages [espresso-machine]: Remove: archive file [/home/abi/fetcher/tmp/espresso_machine-0.0.114.tar.gz]
 [2024-05-16 05:00:53] INFO root fetch - main [MainThread]: End processing [espresso-machine]: success
 [2024-05-16 05:00:53] INFO root fetch - main [MainThread]: Store serial: [23228925]
+[2024-05-16 05:02:59] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23228925]
+[2024-05-16 05:03:03] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-16 05:03:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: NJFU
+[2024-05-16 05:03:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: NJFU
+[2024-05-16 05:03:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: onnxruntime-qnn
+[2024-05-16 05:03:04] INFO root fetch - processPackages [NJFU]: New version: [0.0.7] Old Version: [0.0.6]
+[2024-05-16 05:03:04] WARNING root fetch - processPackages [onnxruntime-qnn]: Skipping, unable to determine old version
+[2024-05-16 05:03:04] INFO root fetch - main [MainThread]: End processing [onnxruntime-qnn] error
+[2024-05-16 05:03:04] INFO root fetch - processPackages [NJFU]: New version: [0.0.7] Old Version: [0.0.6]
+[2024-05-16 05:03:04] INFO root fetch - processPackages [NJFU]: Downloading https://files.pythonhosted.org/packages/05/8e/bcd91bc8da482fc5e3885c1e33f17d4b9a7bc089719b792ff640d87c5919/NJFU-0.0.6.tar.gz
+[2024-05-16 05:03:04] INFO root fetch - processPackages [NJFU]: Downloading https://files.pythonhosted.org/packages/05/8e/bcd91bc8da482fc5e3885c1e33f17d4b9a7bc089719b792ff640d87c5919/NJFU-0.0.6.tar.gz
+[2024-05-16 05:03:04] INFO root fetch - processPackages [NJFU]: Downloading https://files.pythonhosted.org/packages/9b/67/76afce92858590366a28fb8712c805b9115554b3350ea3ca5bd1e9295afa/NJFU-0.0.7.tar.gz
+[2024-05-16 05:03:04] INFO root fetch - processPackages [NJFU]: Downloading https://files.pythonhosted.org/packages/9b/67/76afce92858590366a28fb8712c805b9115554b3350ea3ca5bd1e9295afa/NJFU-0.0.7.tar.gz
+[2024-05-16 05:03:04] INFO root fetch - processPackages [NJFU]: executing diffoscope
+[2024-05-16 05:03:04] INFO root fetch - processPackages [NJFU]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/NJFU-0.0.6.tar.gz tmp/NJFU-0.0.7.tar.gz --markdown 20240516/N/NJFU/0.0.6-0.0.7/README.md --exclude *.pyd
+[2024-05-16 05:03:04] INFO root fetch - processPackages [NJFU]: executing diffoscope
+[2024-05-16 05:03:04] INFO root fetch - processPackages [NJFU]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/NJFU-0.0.6.tar.gz tmp/NJFU-0.0.7.tar.gz --markdown 20240516/N/NJFU/0.0.6-0.0.7/README.md --exclude *.pyd
+[2024-05-16 05:03:05] INFO root fetch - processPackages [NJFU]: Remove: archive file [/home/abi/fetcher/tmp/NJFU-0.0.6.tar.gz]
+[2024-05-16 05:03:05] INFO root fetch - processPackages [NJFU]: Remove: archive file [/home/abi/fetcher/tmp/NJFU-0.0.7.tar.gz]
+[2024-05-16 05:03:05] INFO root fetch - main [MainThread]: End processing [NJFU]: success
+[2024-05-16 05:03:05] INFO root fetch - main [MainThread]: End processing [NJFU]: success
+[2024-05-16 05:03:05] INFO root fetch - main [MainThread]: Store serial: [23228938]
