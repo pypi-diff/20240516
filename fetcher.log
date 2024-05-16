@@ -10412,3 +10412,63 @@ EOFError: EOF read where object expected
 [2024-05-16 05:29:08] INFO root fetch - processPackages [keras-nlp-nightly]: Remove: archive file [/home/abi/fetcher/tmp/keras-nlp-nightly-0.9.0.dev2024041003.tar.gz]
 [2024-05-16 05:29:08] INFO root fetch - main [MainThread]: End processing [keras-nlp-nightly]: success
 [2024-05-16 05:29:08] INFO root fetch - main [MainThread]: Store serial: [23229051]
+[2024-05-16 05:31:12] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23229051]
+[2024-05-16 05:31:17] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-16 05:31:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cdktf-cdktf-provider-databricks
+[2024-05-16 05:31:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: azure-cosmos
+[2024-05-16 05:31:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: konfuzio-sdk
+[2024-05-16 05:31:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: dbt-snowflake
+[2024-05-16 05:31:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: Hydata
+[2024-05-16 05:31:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: dbt-bigquery
+[2024-05-16 05:31:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: mlabelImg
+[2024-05-16 05:31:17] WARNING root fetch - processPackages [Hydata]: Skipping, unable to determine old version
+[2024-05-16 05:31:17] INFO root fetch - main [MainThread]: End processing [Hydata] error
+[2024-05-16 05:31:17] INFO root fetch - processPackages [dbt-snowflake]: New version: [1.8.0rc1] Old Version: [1.8.0b4]
+[2024-05-16 05:31:17] INFO root fetch - processPackages [konfuzio-sdk]: New version: [0.3.5] Old Version: [0.3.4.dev20240510100753]
+[2024-05-16 05:31:17] INFO root fetch - processPackages [azure-cosmos]: New version: [4.6.1] Old Version: [4.6.0]
+[2024-05-16 05:31:17] INFO root fetch - processPackages [cdktf-cdktf-provider-databricks]: New version: [9.0.3] Old Version: [9.0.2]
+[2024-05-16 05:31:17] INFO root fetch - processPackages [dbt-bigquery]: New version: [1.8.0rc1] Old Version: [1.8.0b2]
+[2024-05-16 05:31:17] INFO root fetch - processPackages [azure-cosmos]: Downloading https://files.pythonhosted.org/packages/32/22/06af125a6e05a4f60f3c1bfa79c869ea0dc64be9e7fcadc4c80388cde967/azure-cosmos-4.6.0.tar.gz
+[2024-05-16 05:31:17] INFO root fetch - processPackages [mlabelImg]: New version: [1.8.8.post1] Old Version: [1.8.8]
+[2024-05-16 05:31:17] INFO root fetch - processPackages [dbt-snowflake]: Downloading https://files.pythonhosted.org/packages/bd/60/b59213c833eeaa21ba493ba25b4a261f4ec9c500a20cffd301de6e3cd9d4/dbt_snowflake-1.8.0b4.tar.gz
+[2024-05-16 05:31:17] INFO root fetch - processPackages [konfuzio-sdk]: Downloading https://files.pythonhosted.org/packages/57/ff/f2e9f33774c0ec675dd0c49c4ce1ab69ff1bf1ac7ac1fd12062ee9fc5c21/konfuzio_sdk-0.3.4.dev20240510100753.tar.gz
+[2024-05-16 05:31:17] INFO root fetch - processPackages [dbt-bigquery]: Downloading https://files.pythonhosted.org/packages/04/c2/108e4355903d19eed3532c4b7190a4d377c9fc184e5a583812af1dadffff/dbt-bigquery-1.8.0b2.tar.gz
+[2024-05-16 05:31:17] INFO root fetch - processPackages [cdktf-cdktf-provider-databricks]: Downloading https://files.pythonhosted.org/packages/22/e6/a37602f6c892854f281c7bb4adc106276e2457550f978d3876eae5aff44f/cdktf-cdktf-provider-databricks-9.0.2.tar.gz
+[2024-05-16 05:31:17] INFO root fetch - processPackages [mlabelImg]: Downloading https://files.pythonhosted.org/packages/92/e2/a9c94a5d0b428b20692b67fb2a3b307883021634f8740fa924da1d837525/mlabelimg-1.8.8.tar.gz
+[2024-05-16 05:31:17] INFO root fetch - processPackages [dbt-bigquery]: Downloading https://files.pythonhosted.org/packages/99/2a/069c63f1a7a7b27f1ac27bdc5caca47114a3c5c15c4ca2402c1cc104affe/dbt_bigquery-1.8.0rc1.tar.gz
+[2024-05-16 05:31:17] INFO root fetch - processPackages [dbt-snowflake]: Downloading https://files.pythonhosted.org/packages/25/f2/5fb7f01e50ef0efd1d2c80f3eaec24566b7100b70ec7363a83cfa9f46575/dbt_snowflake-1.8.0rc1.tar.gz
+[2024-05-16 05:31:17] INFO root fetch - processPackages [konfuzio-sdk]: Downloading https://files.pythonhosted.org/packages/ce/42/b50594cd5b4bb6039de43a40add6228302273e6f8e4eeb8deaf23f038f81/konfuzio_sdk-0.3.5.tar.gz
+[2024-05-16 05:31:17] INFO root fetch - processPackages [dbt-bigquery]: executing diffoscope
+[2024-05-16 05:31:17] INFO root fetch - processPackages [dbt-bigquery]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dbt-bigquery-1.8.0b2.tar.gz tmp/dbt_bigquery-1.8.0rc1.tar.gz --markdown 20240516/d/dbt-bigquery/1.8.0b2-1.8.0rc1/README.md --exclude *.pyd
+[2024-05-16 05:31:17] INFO root fetch - processPackages [dbt-snowflake]: executing diffoscope
+[2024-05-16 05:31:17] INFO root fetch - processPackages [dbt-snowflake]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dbt_snowflake-1.8.0b4.tar.gz tmp/dbt_snowflake-1.8.0rc1.tar.gz --markdown 20240516/d/dbt-snowflake/1.8.0b4-1.8.0rc1/README.md --exclude *.pyd
+[2024-05-16 05:31:17] INFO root fetch - processPackages [azure-cosmos]: Downloading https://files.pythonhosted.org/packages/37/5f/1a3466f5f14dd434e33108766c5809b38db6adf14999d6403e8a376f4ebc/azure-cosmos-4.6.1.tar.gz
+[2024-05-16 05:31:17] INFO root fetch - processPackages [konfuzio-sdk]: executing diffoscope
+[2024-05-16 05:31:17] INFO root fetch - processPackages [konfuzio-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/konfuzio_sdk-0.3.4.dev20240510100753.tar.gz tmp/konfuzio_sdk-0.3.5.tar.gz --markdown 20240516/k/konfuzio-sdk/0.3.4.dev20240510100753-0.3.5/README.md --exclude *.pyd
+[2024-05-16 05:31:18] INFO root fetch - processPackages [mlabelImg]: Downloading https://files.pythonhosted.org/packages/a8/d7/8d2313d3a928b741c48af6341904cc3f10c1d5a4130dbcac87fdb64c82e8/mlabelimg-1.8.8.post1.tar.gz
+[2024-05-16 05:31:18] INFO root fetch - processPackages [azure-cosmos]: executing diffoscope
+[2024-05-16 05:31:18] INFO root fetch - processPackages [azure-cosmos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/azure-cosmos-4.6.0.tar.gz tmp/azure-cosmos-4.6.1.tar.gz --markdown 20240516/a/azure-cosmos/4.6.0-4.6.1/README.md --exclude *.pyd
+[2024-05-16 05:31:18] INFO root fetch - processPackages [mlabelImg]: executing diffoscope
+[2024-05-16 05:31:18] INFO root fetch - processPackages [mlabelImg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mlabelimg-1.8.8.tar.gz tmp/mlabelimg-1.8.8.post1.tar.gz --markdown 20240516/m/mlabelImg/1.8.8-1.8.8.post1/README.md --exclude *.pyd
+[2024-05-16 05:31:18] INFO root fetch - processPackages [cdktf-cdktf-provider-databricks]: Downloading https://files.pythonhosted.org/packages/cc/3a/8e28dd4a45c0a00150d822d03862c508cb6c485bb959ef5ce80e1adb4448/cdktf-cdktf-provider-databricks-9.0.3.tar.gz
+[2024-05-16 05:31:18] INFO root fetch - processPackages [dbt-bigquery]: Remove: archive file [/home/abi/fetcher/tmp/dbt-bigquery-1.8.0b2.tar.gz]
+[2024-05-16 05:31:18] INFO root fetch - processPackages [dbt-bigquery]: Remove: archive file [/home/abi/fetcher/tmp/dbt_bigquery-1.8.0rc1.tar.gz]
+[2024-05-16 05:31:18] INFO root fetch - main [MainThread]: End processing [dbt-bigquery]: success
+[2024-05-16 05:31:18] INFO root fetch - processPackages [dbt-snowflake]: Remove: archive file [/home/abi/fetcher/tmp/dbt_snowflake-1.8.0b4.tar.gz]
+[2024-05-16 05:31:18] INFO root fetch - processPackages [dbt-snowflake]: Remove: archive file [/home/abi/fetcher/tmp/dbt_snowflake-1.8.0rc1.tar.gz]
+[2024-05-16 05:31:18] INFO root fetch - main [MainThread]: End processing [dbt-snowflake]: success
+[2024-05-16 05:31:18] INFO root fetch - processPackages [konfuzio-sdk]: Remove: archive file [/home/abi/fetcher/tmp/konfuzio_sdk-0.3.4.dev20240510100753.tar.gz]
+[2024-05-16 05:31:18] INFO root fetch - processPackages [konfuzio-sdk]: Remove: archive file [/home/abi/fetcher/tmp/konfuzio_sdk-0.3.5.tar.gz]
+[2024-05-16 05:31:18] INFO root fetch - main [MainThread]: End processing [konfuzio-sdk]: success
+[2024-05-16 05:31:18] INFO root fetch - processPackages [mlabelImg]: Remove: archive file [/home/abi/fetcher/tmp/mlabelimg-1.8.8.tar.gz]
+[2024-05-16 05:31:18] INFO root fetch - processPackages [mlabelImg]: Remove: archive file [/home/abi/fetcher/tmp/mlabelimg-1.8.8.post1.tar.gz]
+[2024-05-16 05:31:18] INFO root fetch - main [MainThread]: End processing [mlabelImg]: success
+[2024-05-16 05:31:19] INFO root fetch - processPackages [cdktf-cdktf-provider-databricks]: executing diffoscope
+[2024-05-16 05:31:19] INFO root fetch - processPackages [cdktf-cdktf-provider-databricks]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdktf-cdktf-provider-databricks-9.0.2.tar.gz tmp/cdktf-cdktf-provider-databricks-9.0.3.tar.gz --markdown 20240516/c/cdktf-cdktf-provider-databricks/9.0.2-9.0.3/README.md --exclude *.pyd
+[2024-05-16 05:31:19] INFO root fetch - processPackages [azure-cosmos]: Remove: archive file [/home/abi/fetcher/tmp/azure-cosmos-4.6.0.tar.gz]
+[2024-05-16 05:31:19] INFO root fetch - processPackages [azure-cosmos]: Remove: archive file [/home/abi/fetcher/tmp/azure-cosmos-4.6.1.tar.gz]
+[2024-05-16 05:31:19] INFO root fetch - main [MainThread]: End processing [azure-cosmos]: success
+[2024-05-16 05:31:23] INFO root fetch - processPackages [cdktf-cdktf-provider-databricks]: Remove: archive file [/home/abi/fetcher/tmp/cdktf-cdktf-provider-databricks-9.0.2.tar.gz]
+[2024-05-16 05:31:23] INFO root fetch - processPackages [cdktf-cdktf-provider-databricks]: Remove: archive file [/home/abi/fetcher/tmp/cdktf-cdktf-provider-databricks-9.0.3.tar.gz]
+[2024-05-16 05:31:23] INFO root fetch - main [MainThread]: End processing [cdktf-cdktf-provider-databricks]: success
+[2024-05-16 05:31:23] INFO root fetch - main [MainThread]: Store serial: [23229073]
