@@ -20946,3 +20946,78 @@ EOFError: EOF read where object expected
 [2024-05-16 11:11:14] INFO root fetch - processPackages [perian]: Remove: archive file [/home/abi/fetcher/tmp/perian-0.2.0.tar.gz]
 [2024-05-16 11:11:14] INFO root fetch - main [MainThread]: End processing [perian]: success
 [2024-05-16 11:11:14] INFO root fetch - main [MainThread]: Store serial: [23232864]
+[2024-05-16 11:13:18] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23232864]
+[2024-05-16 11:13:23] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-05-16 11:13:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: viktor
+[2024-05-16 11:13:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: easyntp
+[2024-05-16 11:13:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: folkmq
+[2024-05-16 11:13:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: nonebot-plugin-tsugu-bangdream-bot
+[2024-05-16 11:13:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: aipkgs-core
+[2024-05-16 11:13:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: udata-front
+[2024-05-16 11:13:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: rbloom
+[2024-05-16 11:13:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: leadguru-jobs
+[2024-05-16 11:13:23] INFO root fetch - processPackages [easyntp]: New version: [0.0.1] Old Version: [0.0.0]
+[2024-05-16 11:13:23] INFO root fetch - processPackages [aipkgs-core]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-05-16 11:13:23] INFO root fetch - processPackages [nonebot-plugin-tsugu-bangdream-bot]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-05-16 11:13:23] INFO root fetch - processPackages [rbloom]: New version: [1.5.0] Old Version: [1.4.5]
+[2024-05-16 11:13:23] INFO root fetch - processPackages [viktor]: New version: [14.9.0] Old Version: [14.8.0rc1]
+[2024-05-16 11:13:23] INFO root fetch - processPackages [easyntp]: Downloading https://files.pythonhosted.org/packages/9f/ab/36b050dd02f69c012b9edd72dda275b00a686510e9f1515d870b6e7bf827/easyntp-0.0.0-py3-none-any.whl
+[2024-05-16 11:13:23] INFO root fetch - processPackages [folkmq]: New version: [1.4.5] Old Version: [1.4.4]
+[2024-05-16 11:13:23] INFO root fetch - processPackages [aipkgs-core]: Downloading https://files.pythonhosted.org/packages/1b/95/2d761178d77290df39be6e93078af4b40f985d9809d971cd17dd950588d3/aipkgs_core-1.0.8.tar.gz
+[2024-05-16 11:13:23] INFO root fetch - processPackages [nonebot-plugin-tsugu-bangdream-bot]: Downloading https://files.pythonhosted.org/packages/b5/87/e735f7757426a389836a77eaab39da1f760e06b9b55ff4d546aadc3d2188/nonebot_plugin_tsugu_bangdream_bot-0.1.0.tar.gz
+[2024-05-16 11:13:23] INFO root fetch - processPackages [udata-front]: New version: [4.0.3.dev19867] Old Version: [4.0.3.dev19682]
+[2024-05-16 11:13:23] INFO root fetch - processPackages [rbloom]: Downloading https://files.pythonhosted.org/packages/00/7b/4394b0c9e99f31eba30192fdaf45747319984c52b716e9f8a427efb0b5db/rbloom-1.4.5.tar.gz
+[2024-05-16 11:13:23] INFO root fetch - processPackages [leadguru-jobs]: New version: [0.99.0] Old Version: [0.98.0]
+[2024-05-16 11:13:23] INFO root fetch - processPackages [folkmq]: Downloading https://files.pythonhosted.org/packages/4d/b6/1c7e925ac93ac8b829228057fbff953a997b4f0e74d6acf4fe00cf0553d4/folkmq-1.4.4.tar.gz
+[2024-05-16 11:13:23] INFO root fetch - processPackages [viktor]: Downloading https://files.pythonhosted.org/packages/65/71/1e3795e6bfbd98faab7ebef19d2c8aa72e9a833250f5427adad908d3cd38/viktor-14.8.0rc1-cp39-cp39-win_amd64.whl
+[2024-05-16 11:13:23] INFO root fetch - processPackages [aipkgs-core]: Downloading https://files.pythonhosted.org/packages/c8/b2/fb0706bf9eeeee24d524f103cad3a18e46870855a277a735a6c83ea06692/aipkgs_core-1.0.9.tar.gz
+[2024-05-16 11:13:23] INFO root fetch - processPackages [easyntp]: Downloading https://files.pythonhosted.org/packages/c4/85/da79515122dfbe92fef394d146b837c657417c144837420e2d5312bbf199/easyntp-0.0.1-py3-none-any.whl
+[2024-05-16 11:13:23] INFO root fetch - processPackages [nonebot-plugin-tsugu-bangdream-bot]: Downloading https://files.pythonhosted.org/packages/b6/f2/676e57d6382a7b1878ec12dcda0d5f3a5f539a32518f1086af2bd9c12fc3/nonebot_plugin_tsugu_bangdream_bot-0.1.1.tar.gz
+[2024-05-16 11:13:23] INFO root fetch - processPackages [udata-front]: Downloading https://files.pythonhosted.org/packages/7a/00/db67480a1410cc310e6d599562f7309382274bdb65aba84b54143f33388d/udata_front-4.0.3.dev19682-py2.py3-none-any.whl
+[2024-05-16 11:13:24] INFO root fetch - processPackages [aipkgs-core]: executing diffoscope
+[2024-05-16 11:13:24] INFO root fetch - processPackages [aipkgs-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aipkgs_core-1.0.8.tar.gz tmp/aipkgs_core-1.0.9.tar.gz --markdown 20240516/a/aipkgs-core/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-05-16 11:13:24] INFO root fetch - processPackages [easyntp]: executing diffoscope
+[2024-05-16 11:13:24] INFO root fetch - processPackages [easyntp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/easyntp-0.0.0-py3-none-any.whl.zip tmp/easyntp-0.0.1-py3-none-any.whl.zip --markdown 20240516/e/easyntp/0.0.0-0.0.1/README.md --exclude *.pyd
+[2024-05-16 11:13:24] INFO root fetch - processPackages [nonebot-plugin-tsugu-bangdream-bot]: executing diffoscope
+[2024-05-16 11:13:24] INFO root fetch - processPackages [nonebot-plugin-tsugu-bangdream-bot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot_plugin_tsugu_bangdream_bot-0.1.0.tar.gz tmp/nonebot_plugin_tsugu_bangdream_bot-0.1.1.tar.gz --markdown 20240516/n/nonebot-plugin-tsugu-bangdream-bot/0.1.0-0.1.1/README.md --exclude *.pyd
+[2024-05-16 11:13:24] INFO root fetch - processPackages [leadguru-jobs]: Downloading https://files.pythonhosted.org/packages/58/0a/904c1f8e92c5b6adf3bf97a755cae87648f67ca82bb52bc30055558e0ce3/leadguru_jobs-0.98.0.tar.gz
+[2024-05-16 11:13:24] INFO root fetch - processPackages [folkmq]: Downloading https://files.pythonhosted.org/packages/b6/2a/972e66231ba44628a48074249eb8d07b326ce11532596018ed8b46bcf79c/folkmq-1.4.5.tar.gz
+[2024-05-16 11:13:24] INFO root fetch - processPackages [rbloom]: Downloading https://files.pythonhosted.org/packages/74/d7/350d505c0d4bd91efb951c0c5218fb63408b512d377aaceb6d9ef9e4c93b/rbloom-1.5.0.tar.gz
+[2024-05-16 11:13:24] INFO root fetch - processPackages [folkmq]: executing diffoscope
+[2024-05-16 11:13:24] INFO root fetch - processPackages [folkmq]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/folkmq-1.4.4.tar.gz tmp/folkmq-1.4.5.tar.gz --markdown 20240516/f/folkmq/1.4.4-1.4.5/README.md --exclude *.pyd
+[2024-05-16 11:13:24] INFO root fetch - processPackages [rbloom]: executing diffoscope
+[2024-05-16 11:13:24] INFO root fetch - processPackages [rbloom]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rbloom-1.4.5.tar.gz tmp/rbloom-1.5.0.tar.gz --markdown 20240516/r/rbloom/1.4.5-1.5.0/README.md --exclude *.pyd
+[2024-05-16 11:13:24] INFO root fetch - processPackages [leadguru-jobs]: Downloading https://files.pythonhosted.org/packages/e4/7f/189fe7a4dc1256297dd1956413531652ee35cd4ee527f02aa7f2d608775a/leadguru_jobs-0.99.0.tar.gz
+[2024-05-16 11:13:24] INFO root fetch - processPackages [udata-front]: Downloading https://files.pythonhosted.org/packages/76/9d/d7000683d3bf3b99f8505d282a0099a329d439d1c00d86ef8c06253904eb/udata_front-4.0.3.dev19867-py2.py3-none-any.whl
+[2024-05-16 11:13:24] INFO root fetch - processPackages [leadguru-jobs]: executing diffoscope
+[2024-05-16 11:13:24] INFO root fetch - processPackages [leadguru-jobs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/leadguru_jobs-0.98.0.tar.gz tmp/leadguru_jobs-0.99.0.tar.gz --markdown 20240516/l/leadguru-jobs/0.98.0-0.99.0/README.md --exclude *.pyd
+[2024-05-16 11:13:24] INFO root fetch - processPackages [nonebot-plugin-tsugu-bangdream-bot]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_tsugu_bangdream_bot-0.1.0.tar.gz]
+[2024-05-16 11:13:24] INFO root fetch - processPackages [nonebot-plugin-tsugu-bangdream-bot]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_tsugu_bangdream_bot-0.1.1.tar.gz]
+[2024-05-16 11:13:24] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-tsugu-bangdream-bot]: success
+[2024-05-16 11:13:24] INFO root fetch - processPackages [easyntp]: Remove: archive file [/home/abi/fetcher/tmp/easyntp-0.0.0-py3-none-any.whl.zip]
+[2024-05-16 11:13:24] INFO root fetch - processPackages [easyntp]: Remove: archive file [/home/abi/fetcher/tmp/easyntp-0.0.1-py3-none-any.whl.zip]
+[2024-05-16 11:13:24] INFO root fetch - main [MainThread]: End processing [easyntp]: success
+[2024-05-16 11:13:24] INFO root fetch - processPackages [aipkgs-core]: Remove: archive file [/home/abi/fetcher/tmp/aipkgs_core-1.0.8.tar.gz]
+[2024-05-16 11:13:24] INFO root fetch - processPackages [aipkgs-core]: Remove: archive file [/home/abi/fetcher/tmp/aipkgs_core-1.0.9.tar.gz]
+[2024-05-16 11:13:24] INFO root fetch - main [MainThread]: End processing [aipkgs-core]: success
+[2024-05-16 11:13:25] INFO root fetch - processPackages [udata-front]: executing diffoscope
+[2024-05-16 11:13:25] INFO root fetch - processPackages [udata-front]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/udata_front-4.0.3.dev19682-py2.py3-none-any.whl.zip tmp/udata_front-4.0.3.dev19867-py2.py3-none-any.whl.zip --markdown 20240516/u/udata-front/4.0.3.dev19682-4.0.3.dev19867/README.md --exclude *.pyd
+[2024-05-16 11:13:25] INFO root fetch - processPackages [rbloom]: Remove: archive file [/home/abi/fetcher/tmp/rbloom-1.4.5.tar.gz]
+[2024-05-16 11:13:25] INFO root fetch - processPackages [rbloom]: Remove: archive file [/home/abi/fetcher/tmp/rbloom-1.5.0.tar.gz]
+[2024-05-16 11:13:25] INFO root fetch - main [MainThread]: End processing [rbloom]: success
+[2024-05-16 11:13:25] INFO root fetch - processPackages [folkmq]: Remove: archive file [/home/abi/fetcher/tmp/folkmq-1.4.4.tar.gz]
+[2024-05-16 11:13:25] INFO root fetch - processPackages [folkmq]: Remove: archive file [/home/abi/fetcher/tmp/folkmq-1.4.5.tar.gz]
+[2024-05-16 11:13:25] INFO root fetch - main [MainThread]: End processing [folkmq]: success
+[2024-05-16 11:13:25] INFO root fetch - processPackages [leadguru-jobs]: Remove: archive file [/home/abi/fetcher/tmp/leadguru_jobs-0.98.0.tar.gz]
+[2024-05-16 11:13:25] INFO root fetch - processPackages [leadguru-jobs]: Remove: archive file [/home/abi/fetcher/tmp/leadguru_jobs-0.99.0.tar.gz]
+[2024-05-16 11:13:25] INFO root fetch - main [MainThread]: End processing [leadguru-jobs]: success
+[2024-05-16 11:13:26] INFO root fetch - processPackages [viktor]: Downloading https://files.pythonhosted.org/packages/72/3d/0811671e2a9cae44fb27ab26c1e78dc7c4491333c9620359823f9bac7670/viktor-14.9.0-cp39-cp39-win_amd64.whl
+[2024-05-16 11:13:26] INFO root fetch - processPackages [viktor]: executing diffoscope
+[2024-05-16 11:13:26] INFO root fetch - processPackages [viktor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/viktor-14.8.0rc1-cp39-cp39-win_amd64.whl.zip tmp/viktor-14.9.0-cp39-cp39-win_amd64.whl.zip --markdown 20240516/v/viktor/14.8.0rc1-14.9.0/README.md --exclude *.pyd
+[2024-05-16 11:13:29] INFO root fetch - processPackages [viktor]: Remove: archive file [/home/abi/fetcher/tmp/viktor-14.8.0rc1-cp39-cp39-win_amd64.whl.zip]
+[2024-05-16 11:13:29] INFO root fetch - processPackages [viktor]: Remove: archive file [/home/abi/fetcher/tmp/viktor-14.9.0-cp39-cp39-win_amd64.whl.zip]
+[2024-05-16 11:13:29] INFO root fetch - main [MainThread]: End processing [viktor]: success
+[2024-05-16 11:14:52] INFO root fetch - processPackages [udata-front]: Remove: archive file [/home/abi/fetcher/tmp/udata_front-4.0.3.dev19682-py2.py3-none-any.whl.zip]
+[2024-05-16 11:14:52] INFO root fetch - processPackages [udata-front]: Remove: archive file [/home/abi/fetcher/tmp/udata_front-4.0.3.dev19867-py2.py3-none-any.whl.zip]
+[2024-05-16 11:14:52] INFO root fetch - main [MainThread]: End processing [udata-front]: success
+[2024-05-16 11:14:52] INFO root fetch - main [MainThread]: Store serial: [23232903]
