@@ -10909,3 +10909,9 @@ EOFError: EOF read where object expected
 [2024-05-16 06:01:56] INFO root fetch - processPackages [odoo-addon-ddmrp]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_ddmrp-16.0.1.8.1.2-py3-none-any.whl.zip]
 [2024-05-16 06:01:56] INFO root fetch - main [MainThread]: End processing [odoo-addon-ddmrp]: success
 [2024-05-16 06:01:56] INFO root fetch - main [MainThread]: Store serial: [23229247]
+[2024-05-16 06:04:02] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23229247]
+[2024-05-16 06:04:07] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-05-16 06:04:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: warranted
+[2024-05-16 06:04:07] WARNING root fetch - processPackages [warranted]: Skipping, unable to determine old version
+[2024-05-16 06:04:07] INFO root fetch - main [MainThread]: End processing [warranted] error
+[2024-05-16 06:04:07] INFO root fetch - main [MainThread]: Store serial: [23229253]
