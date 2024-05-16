@@ -9307,3 +9307,45 @@ EOFError: EOF read where object expected
 [2024-05-16 04:18:58] INFO root fetch - processPackages [heudiconv]: Remove: archive file [/home/abi/fetcher/tmp/heudiconv-1.1.2.tar.gz]
 [2024-05-16 04:18:58] INFO root fetch - main [MainThread]: End processing [heudiconv]: success
 [2024-05-16 04:18:58] INFO root fetch - main [MainThread]: Store serial: [23228589]
+[2024-05-16 04:21:02] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23228589]
+[2024-05-16 04:21:07] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-16 04:21:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: supriya
+[2024-05-16 04:21:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: plexhints
+[2024-05-16 04:21:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: windows-booknlp
+[2024-05-16 04:21:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: yoto-api
+[2024-05-16 04:21:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ohmslaw
+[2024-05-16 04:21:07] INFO root fetch - processPackages [windows-booknlp]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-05-16 04:21:07] WARNING root fetch - processPackages [ohmslaw]: Skipping, unable to determine old version
+[2024-05-16 04:21:07] INFO root fetch - main [MainThread]: End processing [ohmslaw] error
+[2024-05-16 04:21:07] INFO root fetch - processPackages [plexhints]: New version: [2024.516.14140] Old Version: [2024.516.12827]
+[2024-05-16 04:21:07] INFO root fetch - processPackages [yoto-api]: New version: [1.9.0] Old Version: [1.8.0]
+[2024-05-16 04:21:07] INFO root fetch - processPackages [windows-booknlp]: Downloading https://files.pythonhosted.org/packages/16/78/e1ee641759994b24fa2be3af13c2bbaade4f3be018eef23225aa4500b0cc/windows_booknlp-0.0.1.tar.gz
+[2024-05-16 04:21:07] INFO root fetch - processPackages [yoto-api]: Downloading https://files.pythonhosted.org/packages/0c/ce/e8631b9319eccf4ffbaef962e56044d41f29cb3f8c07be1556f741f2569a/yoto_api-1.8.0.tar.gz
+[2024-05-16 04:21:07] INFO root fetch - processPackages [plexhints]: Downloading https://files.pythonhosted.org/packages/1a/9d/fb642599ad081a2e3a5aee62a834c1294c569458ee8e073b863db2edbfc9/plexhints-2024.516.12827.tar.gz
+[2024-05-16 04:21:07] INFO root fetch - processPackages [supriya]: New version: [24.5b2] Old Version: [24.5b1]
+[2024-05-16 04:21:07] INFO root fetch - processPackages [yoto-api]: Downloading https://files.pythonhosted.org/packages/28/bc/e9d37198654bf82ae9be692dd9ee95b753eb8ca5b6edf44ab69ecca38f17/yoto_api-1.9.0.tar.gz
+[2024-05-16 04:21:07] INFO root fetch - processPackages [supriya]: Downloading https://files.pythonhosted.org/packages/0f/b7/99573abcbf33b8ca703d3edf951f3e2eb67833bf6778a99c2cca02868079/supriya-24.5b1.tar.gz
+[2024-05-16 04:21:08] INFO root fetch - processPackages [plexhints]: Downloading https://files.pythonhosted.org/packages/3f/89/35c12a255bd065391fdbf6d92755cf9dcef88ee29a6dc3fc673dcb1ed9f4/plexhints-2024.516.14140.tar.gz
+[2024-05-16 04:21:08] INFO root fetch - processPackages [yoto-api]: executing diffoscope
+[2024-05-16 04:21:08] INFO root fetch - processPackages [yoto-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yoto_api-1.8.0.tar.gz tmp/yoto_api-1.9.0.tar.gz --markdown 20240516/y/yoto-api/1.8.0-1.9.0/README.md --exclude *.pyd
+[2024-05-16 04:21:08] INFO root fetch - processPackages [windows-booknlp]: Downloading https://files.pythonhosted.org/packages/1d/e7/0e21701b111f25d2637f8582d10d251871700bda3876ca3d41e5f65be6ea/windows_booknlp-0.0.2.tar.gz
+[2024-05-16 04:21:08] INFO root fetch - processPackages [plexhints]: executing diffoscope
+[2024-05-16 04:21:08] INFO root fetch - processPackages [plexhints]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/plexhints-2024.516.12827.tar.gz tmp/plexhints-2024.516.14140.tar.gz --markdown 20240516/p/plexhints/2024.516.12827-2024.516.14140/README.md --exclude *.pyd
+[2024-05-16 04:21:08] INFO root fetch - processPackages [windows-booknlp]: executing diffoscope
+[2024-05-16 04:21:08] INFO root fetch - processPackages [windows-booknlp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/windows_booknlp-0.0.1.tar.gz tmp/windows_booknlp-0.0.2.tar.gz --markdown 20240516/w/windows-booknlp/0.0.1-0.0.2/README.md --exclude *.pyd
+[2024-05-16 04:21:08] INFO root fetch - processPackages [yoto-api]: Remove: archive file [/home/abi/fetcher/tmp/yoto_api-1.8.0.tar.gz]
+[2024-05-16 04:21:08] INFO root fetch - processPackages [yoto-api]: Remove: archive file [/home/abi/fetcher/tmp/yoto_api-1.9.0.tar.gz]
+[2024-05-16 04:21:08] INFO root fetch - main [MainThread]: End processing [yoto-api]: success
+[2024-05-16 04:21:08] INFO root fetch - processPackages [supriya]: Downloading https://files.pythonhosted.org/packages/dd/6f/cf6cfd38eb4a087bb23d68fd8649a1bceae6224bdee1e6a820df53d48ea8/supriya-24.5b2.tar.gz
+[2024-05-16 04:21:08] INFO root fetch - processPackages [plexhints]: Remove: archive file [/home/abi/fetcher/tmp/plexhints-2024.516.12827.tar.gz]
+[2024-05-16 04:21:08] INFO root fetch - processPackages [plexhints]: Remove: archive file [/home/abi/fetcher/tmp/plexhints-2024.516.14140.tar.gz]
+[2024-05-16 04:21:08] INFO root fetch - main [MainThread]: End processing [plexhints]: success
+[2024-05-16 04:21:09] INFO root fetch - processPackages [supriya]: executing diffoscope
+[2024-05-16 04:21:09] INFO root fetch - processPackages [supriya]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/supriya-24.5b1.tar.gz tmp/supriya-24.5b2.tar.gz --markdown 20240516/s/supriya/24.5b1-24.5b2/README.md --exclude *.pyd
+[2024-05-16 04:21:09] INFO root fetch - processPackages [windows-booknlp]: Remove: archive file [/home/abi/fetcher/tmp/windows_booknlp-0.0.1.tar.gz]
+[2024-05-16 04:21:09] INFO root fetch - processPackages [windows-booknlp]: Remove: archive file [/home/abi/fetcher/tmp/windows_booknlp-0.0.2.tar.gz]
+[2024-05-16 04:21:09] INFO root fetch - main [MainThread]: End processing [windows-booknlp]: success
+[2024-05-16 04:21:19] INFO root fetch - processPackages [supriya]: Remove: archive file [/home/abi/fetcher/tmp/supriya-24.5b1.tar.gz]
+[2024-05-16 04:21:19] INFO root fetch - processPackages [supriya]: Remove: archive file [/home/abi/fetcher/tmp/supriya-24.5b2.tar.gz]
+[2024-05-16 04:21:19] INFO root fetch - main [MainThread]: End processing [supriya]: success
+[2024-05-16 04:21:19] INFO root fetch - main [MainThread]: Store serial: [23228640]
