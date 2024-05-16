@@ -10760,3 +10760,49 @@ EOFError: EOF read where object expected
 [2024-05-16 05:51:03] INFO root fetch - processPackages [aliyun-log-python-sdk]: Remove: archive file [/home/abi/fetcher/tmp/aliyun-log-python-sdk-0.9.2.tar.gz]
 [2024-05-16 05:51:03] INFO root fetch - main [MainThread]: End processing [aliyun-log-python-sdk]: success
 [2024-05-16 05:51:03] INFO root fetch - main [MainThread]: Store serial: [23229188]
+[2024-05-16 05:53:07] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23229188]
+[2024-05-16 05:53:12] INFO root fetch - main [MainThread]: No changed packages found
+[2024-05-16 05:55:14] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23229188]
+[2024-05-16 05:55:19] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-16 05:55:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: w3ml
+[2024-05-16 05:55:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mns-common
+[2024-05-16 05:55:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: spark-rapids-ml
+[2024-05-16 05:55:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: menuchoice
+[2024-05-16 05:55:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: aldy
+[2024-05-16 05:55:19] INFO root fetch - processPackages [w3ml]: New version: [2024.5.16rc1] Old Version: [2024.3.21rc0]
+[2024-05-16 05:55:19] INFO root fetch - processPackages [spark-rapids-ml]: New version: [24.2.0] Old Version: [23.8.0]
+[2024-05-16 05:55:19] INFO root fetch - processPackages [mns-common]: New version: [1.1.0.6] Old Version: [1.1.0.5]
+[2024-05-16 05:55:19] INFO root fetch - processPackages [mns-common]: Downloading https://files.pythonhosted.org/packages/2f/4e/cc48d470d807a196d9af847a3442a8e32c4eeab70cb64d8a20c1ca253f29/mns_common-1.1.0.5.tar.gz
+[2024-05-16 05:55:19] INFO root fetch - processPackages [menuchoice]: New version: [0.4] Old Version: [0.3]
+[2024-05-16 05:55:19] INFO root fetch - processPackages [aldy]: New version: [4.6] Old Version: [4.5]
+[2024-05-16 05:55:19] INFO root fetch - processPackages [w3ml]: Downloading https://files.pythonhosted.org/packages/03/5a/56448a21fdd948414046448ea22fe6ad692b96edc28fd5523a70c02f3870/w3ml-2024.3.21rc0.tar.gz
+[2024-05-16 05:55:19] INFO root fetch - processPackages [spark-rapids-ml]: Downloading https://files.pythonhosted.org/packages/3f/b7/ecb4339abb56ac0b92211ccc153b619114490cb72e68fad2e062c716575e/spark_rapids_ml-23.8.0-158_5dab107-py3-none-any.whl
+[2024-05-16 05:55:19] INFO root fetch - processPackages [menuchoice]: Downloading https://files.pythonhosted.org/packages/06/7e/0616bd1e87fac3fcfb839560b96f7edbfa8aee1e6d4a80f3a333a23b5b58/menuchoice-0.3.tar.gz
+[2024-05-16 05:55:20] INFO root fetch - processPackages [aldy]: Downloading https://files.pythonhosted.org/packages/b3/b6/d40fe3766e2e8f0b09e459ae105d78cd0ff931a4e00d2434c900d13b9bb7/aldy-4.5.tar.gz
+[2024-05-16 05:55:20] INFO root fetch - processPackages [mns-common]: Downloading https://files.pythonhosted.org/packages/de/d6/3586866000e1c21198ed3f78e68b8b59998b514f96c655a80f7398529c4c/mns_common-1.1.0.6.tar.gz
+[2024-05-16 05:55:20] INFO root fetch - processPackages [w3ml]: Downloading https://files.pythonhosted.org/packages/36/03/662a23ce686f500bb372806d75fcaf4d3db741b4797ec3a2e553309e6107/w3ml-2024.5.16rc1.tar.gz
+[2024-05-16 05:55:20] INFO root fetch - processPackages [mns-common]: executing diffoscope
+[2024-05-16 05:55:20] INFO root fetch - processPackages [mns-common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mns_common-1.1.0.5.tar.gz tmp/mns_common-1.1.0.6.tar.gz --markdown 20240516/m/mns-common/1.1.0.5-1.1.0.6/README.md --exclude *.pyd
+[2024-05-16 05:55:20] INFO root fetch - processPackages [menuchoice]: Downloading https://files.pythonhosted.org/packages/93/cf/8a46ec1332697ebc04eafd136ad4f77410c5de10b8c8110ee68d51f50507/menuchoice-0.4.tar.gz
+[2024-05-16 05:55:20] INFO root fetch - processPackages [w3ml]: executing diffoscope
+[2024-05-16 05:55:20] INFO root fetch - processPackages [w3ml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/w3ml-2024.3.21rc0.tar.gz tmp/w3ml-2024.5.16rc1.tar.gz --markdown 20240516/w/w3ml/2024.3.21rc0-2024.5.16rc1/README.md --exclude *.pyd
+[2024-05-16 05:55:20] INFO root fetch - processPackages [spark-rapids-ml]: Downloading https://files.pythonhosted.org/packages/32/b9/30b5f83668ce832669fd8ba4b6151e7770c0a47982b0a22c101f9c6eff1b/spark_rapids_ml-24.2.0-327_e0f644d-py3-none-any.whl
+[2024-05-16 05:55:20] INFO root fetch - processPackages [menuchoice]: executing diffoscope
+[2024-05-16 05:55:20] INFO root fetch - processPackages [menuchoice]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/menuchoice-0.3.tar.gz tmp/menuchoice-0.4.tar.gz --markdown 20240516/m/menuchoice/0.3-0.4/README.md --exclude *.pyd
+[2024-05-16 05:55:20] INFO root fetch - processPackages [spark-rapids-ml]: executing diffoscope
+[2024-05-16 05:55:20] INFO root fetch - processPackages [spark-rapids-ml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spark_rapids_ml-23.8.0-158_5dab107-py3-none-any.whl.zip tmp/spark_rapids_ml-24.2.0-327_e0f644d-py3-none-any.whl.zip --markdown 20240516/s/spark-rapids-ml/23.8.0-24.2.0/README.md --exclude *.pyd
+[2024-05-16 05:55:20] INFO root fetch - processPackages [w3ml]: Remove: archive file [/home/abi/fetcher/tmp/w3ml-2024.3.21rc0.tar.gz]
+[2024-05-16 05:55:20] INFO root fetch - processPackages [w3ml]: Remove: archive file [/home/abi/fetcher/tmp/w3ml-2024.5.16rc1.tar.gz]
+[2024-05-16 05:55:20] INFO root fetch - main [MainThread]: End processing [w3ml]: success
+[2024-05-16 05:55:21] INFO root fetch - processPackages [menuchoice]: Remove: archive file [/home/abi/fetcher/tmp/menuchoice-0.3.tar.gz]
+[2024-05-16 05:55:21] INFO root fetch - processPackages [menuchoice]: Remove: archive file [/home/abi/fetcher/tmp/menuchoice-0.4.tar.gz]
+[2024-05-16 05:55:21] INFO root fetch - main [MainThread]: End processing [menuchoice]: success
+[2024-05-16 05:55:21] WARNING root fetch - processPackages [aldy]: Skipping package: exceeds size limit 12030419>=10485760
+[2024-05-16 05:55:21] INFO root fetch - main [MainThread]: End processing [aldy] error
+[2024-05-16 05:55:21] INFO root fetch - processPackages [mns-common]: Remove: archive file [/home/abi/fetcher/tmp/mns_common-1.1.0.5.tar.gz]
+[2024-05-16 05:55:21] INFO root fetch - processPackages [mns-common]: Remove: archive file [/home/abi/fetcher/tmp/mns_common-1.1.0.6.tar.gz]
+[2024-05-16 05:55:21] INFO root fetch - main [MainThread]: End processing [mns-common]: success
+[2024-05-16 05:55:21] INFO root fetch - processPackages [spark-rapids-ml]: Remove: archive file [/home/abi/fetcher/tmp/spark_rapids_ml-23.8.0-158_5dab107-py3-none-any.whl.zip]
+[2024-05-16 05:55:21] INFO root fetch - processPackages [spark-rapids-ml]: Remove: archive file [/home/abi/fetcher/tmp/spark_rapids_ml-24.2.0-327_e0f644d-py3-none-any.whl.zip]
+[2024-05-16 05:55:21] INFO root fetch - main [MainThread]: End processing [spark-rapids-ml]: success
+[2024-05-16 05:55:21] INFO root fetch - main [MainThread]: Store serial: [23229199]
