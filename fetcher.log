@@ -9017,3 +9017,15 @@ EOFError: EOF read where object expected
 [2024-05-16 03:46:28] INFO root fetch - processPackages [dapr-ext-workflow-dev]: Remove: archive file [/home/abi/fetcher/tmp/dapr-ext-workflow-dev-0.2.0rc1.dev2031.tar.gz]
 [2024-05-16 03:46:28] INFO root fetch - main [MainThread]: End processing [dapr-ext-workflow-dev]: success
 [2024-05-16 03:46:28] INFO root fetch - main [MainThread]: Store serial: [23228488]
+[2024-05-16 03:48:32] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23228488]
+[2024-05-16 03:48:37] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-05-16 03:48:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: plexhints
+[2024-05-16 03:48:37] INFO root fetch - processPackages [plexhints]: New version: [2024.516.12827] Old Version: [2024.515.233942]
+[2024-05-16 03:48:37] INFO root fetch - processPackages [plexhints]: Downloading https://files.pythonhosted.org/packages/00/45/03acb02b66723c895978f049da347a61abd3762231ffc83c1d1404d6cae9/plexhints-2024.515.233942.tar.gz
+[2024-05-16 03:48:37] INFO root fetch - processPackages [plexhints]: Downloading https://files.pythonhosted.org/packages/1a/9d/fb642599ad081a2e3a5aee62a834c1294c569458ee8e073b863db2edbfc9/plexhints-2024.516.12827.tar.gz
+[2024-05-16 03:48:37] INFO root fetch - processPackages [plexhints]: executing diffoscope
+[2024-05-16 03:48:37] INFO root fetch - processPackages [plexhints]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/plexhints-2024.515.233942.tar.gz tmp/plexhints-2024.516.12827.tar.gz --markdown 20240516/p/plexhints/2024.515.233942-2024.516.12827/README.md --exclude *.pyd
+[2024-05-16 03:48:38] INFO root fetch - processPackages [plexhints]: Remove: archive file [/home/abi/fetcher/tmp/plexhints-2024.515.233942.tar.gz]
+[2024-05-16 03:48:38] INFO root fetch - processPackages [plexhints]: Remove: archive file [/home/abi/fetcher/tmp/plexhints-2024.516.12827.tar.gz]
+[2024-05-16 03:48:38] INFO root fetch - main [MainThread]: End processing [plexhints]: success
+[2024-05-16 03:48:38] INFO root fetch - main [MainThread]: Store serial: [23228491]
