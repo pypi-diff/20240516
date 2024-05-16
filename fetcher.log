@@ -12304,3 +12304,63 @@ EOFError: EOF read where object expected
 [2024-05-16 07:46:53] INFO root fetch - processPackages [openbharatocr]: Remove: archive file [/home/abi/fetcher/tmp/openbharatocr-0.2.2.tar.gz]
 [2024-05-16 07:46:53] INFO root fetch - main [MainThread]: End processing [openbharatocr]: success
 [2024-05-16 07:46:53] INFO root fetch - main [MainThread]: Store serial: [23229874]
+[2024-05-16 07:48:56] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23229874]
+[2024-05-16 07:49:01] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-16 07:49:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: promptmage
+[2024-05-16 07:49:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ssam-ew
+[2024-05-16 07:49:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odoo-addon-l10n-es-aeat
+[2024-05-16 07:49:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: rippling-flux-sdk
+[2024-05-16 07:49:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: odoo-addon-l10n-es-aeat-mod349
+[2024-05-16 07:49:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: lightswitch_kr
+[2024-05-16 07:49:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: espresso-machine
+[2024-05-16 07:49:02] INFO root fetch - processPackages [odoo-addon-l10n-es-aeat-mod349]: New version: [17.0.1.0.0.2] Old Version: [16.0.1.3.1]
+[2024-05-16 07:49:02] WARNING root fetch - processPackages [promptmage]: Skipping, unable to determine old version
+[2024-05-16 07:49:02] INFO root fetch - main [MainThread]: End processing [promptmage] error
+[2024-05-16 07:49:02] INFO root fetch - processPackages [ssam-ew]: New version: [1.1.1] Old Version: [1.1.0]
+[2024-05-16 07:49:02] INFO root fetch - processPackages [rippling-flux-sdk]: New version: [0.9.27] Old Version: [0.9.26]
+[2024-05-16 07:49:02] INFO root fetch - processPackages [espresso-machine]: New version: [0.0.117] Old Version: [0.0.116]
+[2024-05-16 07:49:02] INFO root fetch - processPackages [odoo-addon-l10n-es-aeat]: New version: [17.0.1.0.1.8] Old Version: [17.0.1.0.1.6]
+[2024-05-16 07:49:02] INFO root fetch - processPackages [rippling-flux-sdk]: Downloading https://files.pythonhosted.org/packages/0f/9d/f4cd2d2adeaab6fdd684b7eaf8d691c14ca1bef27a4a2790c5e7e06cfff6/rippling_flux_sdk-0.9.26.tar.gz
+[2024-05-16 07:49:02] INFO root fetch - processPackages [lightswitch_kr]: New version: [0.1.2] Old Version: [0.1.1]
+[2024-05-16 07:49:02] INFO root fetch - processPackages [odoo-addon-l10n-es-aeat-mod349]: Downloading https://files.pythonhosted.org/packages/1f/45/27ba82eb16eab11ecf4cdb962132ca2e27a96ed853c54ea4c37dfe8f1d55/odoo_addon_l10n_es_aeat_mod349-16.0.1.3.1-py3-none-any.whl
+[2024-05-16 07:49:02] INFO root fetch - processPackages [ssam-ew]: Downloading https://files.pythonhosted.org/packages/bd/64/bc0f431665b7212f4f3437ed6e3d93f90498b6f7640f506022252d1b53ac/ssam_ew-1.1.0.tar.gz
+[2024-05-16 07:49:02] INFO root fetch - processPackages [espresso-machine]: Downloading https://files.pythonhosted.org/packages/d8/4e/5053d7417f5b5fe64c048e88b3b40278a9678164db2b08b88a35e4685f9b/espresso_machine-0.0.116.tar.gz
+[2024-05-16 07:49:02] INFO root fetch - processPackages [odoo-addon-l10n-es-aeat]: Downloading https://files.pythonhosted.org/packages/e5/63/a037a211cfeec9cb64e58f2129cf6de46a8daabf1a0aa5457484c6b94485/odoo_addon_l10n_es_aeat-17.0.1.0.1.6-py3-none-any.whl
+[2024-05-16 07:49:02] INFO root fetch - processPackages [lightswitch_kr]: Downloading https://files.pythonhosted.org/packages/bb/8f/57ef137cc05d1844923a82d51f646192248f5676333d25431d9f71ce8d8b/lightswitch_kr-0.1.1.tar.gz
+[2024-05-16 07:49:02] INFO root fetch - processPackages [rippling-flux-sdk]: Downloading https://files.pythonhosted.org/packages/94/03/093a310cfb4ff2c4b673f26d4895395ebf647cc4efa7d58bf63c31013fed/rippling_flux_sdk-0.9.27.tar.gz
+[2024-05-16 07:49:02] INFO root fetch - processPackages [ssam-ew]: Downloading https://files.pythonhosted.org/packages/85/f0/c36d272973a8ee675979254dbf476fc08e7eedb3bb67b775a69ae3844bd5/ssam_ew-1.1.1.tar.gz
+[2024-05-16 07:49:02] INFO root fetch - processPackages [odoo-addon-l10n-es-aeat-mod349]: Downloading https://files.pythonhosted.org/packages/cd/e7/7b2e37803066f71507fbde348d78a8fb1907725cd52731f634386f3a425a/odoo_addon_l10n_es_aeat_mod349-17.0.1.0.0.2-py3-none-any.whl
+[2024-05-16 07:49:02] INFO root fetch - processPackages [rippling-flux-sdk]: executing diffoscope
+[2024-05-16 07:49:02] INFO root fetch - processPackages [rippling-flux-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rippling_flux_sdk-0.9.26.tar.gz tmp/rippling_flux_sdk-0.9.27.tar.gz --markdown 20240516/r/rippling-flux-sdk/0.9.26-0.9.27/README.md --exclude *.pyd
+[2024-05-16 07:49:02] INFO root fetch - processPackages [ssam-ew]: executing diffoscope
+[2024-05-16 07:49:02] INFO root fetch - processPackages [ssam-ew]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ssam_ew-1.1.0.tar.gz tmp/ssam_ew-1.1.1.tar.gz --markdown 20240516/s/ssam-ew/1.1.0-1.1.1/README.md --exclude *.pyd
+[2024-05-16 07:49:02] INFO root fetch - processPackages [espresso-machine]: Downloading https://files.pythonhosted.org/packages/ae/41/bbbe40606ec11f9cedc60200bca13fd835557adf87adae43461858065488/espresso_machine-0.0.117.tar.gz
+[2024-05-16 07:49:02] INFO root fetch - processPackages [odoo-addon-l10n-es-aeat]: Downloading https://files.pythonhosted.org/packages/27/f0/43420bb39b66756733b86ea6de12a1fdb3e357ef5925e607967af75c3afc/odoo_addon_l10n_es_aeat-17.0.1.0.1.8-py3-none-any.whl
+[2024-05-16 07:49:02] INFO root fetch - processPackages [odoo-addon-l10n-es-aeat-mod349]: executing diffoscope
+[2024-05-16 07:49:02] INFO root fetch - processPackages [odoo-addon-l10n-es-aeat-mod349]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_l10n_es_aeat_mod349-16.0.1.3.1-py3-none-any.whl.zip tmp/odoo_addon_l10n_es_aeat_mod349-17.0.1.0.0.2-py3-none-any.whl.zip --markdown 20240516/o/odoo-addon-l10n-es-aeat-mod349/16.0.1.3.1-17.0.1.0.0.2/README.md --exclude *.pyd
+[2024-05-16 07:49:02] INFO root fetch - processPackages [lightswitch_kr]: Downloading https://files.pythonhosted.org/packages/d4/db/d218f5adf0f82c55f1a52991b56c1acb4d50d54b623ec85ea887a7b79dec/lightswitch_kr-0.1.2.tar.gz
+[2024-05-16 07:49:02] INFO root fetch - processPackages [odoo-addon-l10n-es-aeat]: executing diffoscope
+[2024-05-16 07:49:02] INFO root fetch - processPackages [odoo-addon-l10n-es-aeat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_l10n_es_aeat-17.0.1.0.1.6-py3-none-any.whl.zip tmp/odoo_addon_l10n_es_aeat-17.0.1.0.1.8-py3-none-any.whl.zip --markdown 20240516/o/odoo-addon-l10n-es-aeat/17.0.1.0.1.6-17.0.1.0.1.8/README.md --exclude *.pyd
+[2024-05-16 07:49:02] INFO root fetch - processPackages [lightswitch_kr]: executing diffoscope
+[2024-05-16 07:49:02] INFO root fetch - processPackages [lightswitch_kr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lightswitch_kr-0.1.1.tar.gz tmp/lightswitch_kr-0.1.2.tar.gz --markdown 20240516/l/lightswitch_kr/0.1.1-0.1.2/README.md --exclude *.pyd
+[2024-05-16 07:49:03] INFO root fetch - processPackages [ssam-ew]: Remove: archive file [/home/abi/fetcher/tmp/ssam_ew-1.1.0.tar.gz]
+[2024-05-16 07:49:03] INFO root fetch - processPackages [ssam-ew]: Remove: archive file [/home/abi/fetcher/tmp/ssam_ew-1.1.1.tar.gz]
+[2024-05-16 07:49:03] INFO root fetch - main [MainThread]: End processing [ssam-ew]: success
+[2024-05-16 07:49:03] INFO root fetch - processPackages [rippling-flux-sdk]: Remove: archive file [/home/abi/fetcher/tmp/rippling_flux_sdk-0.9.26.tar.gz]
+[2024-05-16 07:49:03] INFO root fetch - processPackages [rippling-flux-sdk]: Remove: archive file [/home/abi/fetcher/tmp/rippling_flux_sdk-0.9.27.tar.gz]
+[2024-05-16 07:49:03] INFO root fetch - main [MainThread]: End processing [rippling-flux-sdk]: success
+[2024-05-16 07:49:03] INFO root fetch - processPackages [lightswitch_kr]: Remove: archive file [/home/abi/fetcher/tmp/lightswitch_kr-0.1.1.tar.gz]
+[2024-05-16 07:49:03] INFO root fetch - processPackages [lightswitch_kr]: Remove: archive file [/home/abi/fetcher/tmp/lightswitch_kr-0.1.2.tar.gz]
+[2024-05-16 07:49:03] INFO root fetch - main [MainThread]: End processing [lightswitch_kr]: success
+[2024-05-16 07:49:03] INFO root fetch - processPackages [espresso-machine]: executing diffoscope
+[2024-05-16 07:49:03] INFO root fetch - processPackages [espresso-machine]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/espresso_machine-0.0.116.tar.gz tmp/espresso_machine-0.0.117.tar.gz --markdown 20240516/e/espresso-machine/0.0.116-0.0.117/README.md --exclude *.pyd
+[2024-05-16 07:49:03] INFO root fetch - processPackages [odoo-addon-l10n-es-aeat-mod349]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_l10n_es_aeat_mod349-16.0.1.3.1-py3-none-any.whl.zip]
+[2024-05-16 07:49:03] INFO root fetch - processPackages [odoo-addon-l10n-es-aeat-mod349]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_l10n_es_aeat_mod349-17.0.1.0.0.2-py3-none-any.whl.zip]
+[2024-05-16 07:49:03] INFO root fetch - main [MainThread]: End processing [odoo-addon-l10n-es-aeat-mod349]: success
+[2024-05-16 07:49:04] INFO root fetch - processPackages [odoo-addon-l10n-es-aeat]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_l10n_es_aeat-17.0.1.0.1.6-py3-none-any.whl.zip]
+[2024-05-16 07:49:04] INFO root fetch - processPackages [odoo-addon-l10n-es-aeat]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_l10n_es_aeat-17.0.1.0.1.8-py3-none-any.whl.zip]
+[2024-05-16 07:49:04] INFO root fetch - main [MainThread]: End processing [odoo-addon-l10n-es-aeat]: success
+[2024-05-16 07:49:05] INFO root fetch - processPackages [espresso-machine]: Remove: archive file [/home/abi/fetcher/tmp/espresso_machine-0.0.116.tar.gz]
+[2024-05-16 07:49:05] INFO root fetch - processPackages [espresso-machine]: Remove: archive file [/home/abi/fetcher/tmp/espresso_machine-0.0.117.tar.gz]
+[2024-05-16 07:49:05] INFO root fetch - main [MainThread]: End processing [espresso-machine]: success
+[2024-05-16 07:49:05] INFO root fetch - main [MainThread]: Store serial: [23229893]
