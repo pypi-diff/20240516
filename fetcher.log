@@ -13066,3 +13066,33 @@ EOFError: EOF read where object expected
 [2024-05-16 08:24:54] INFO root fetch - processPackages [topfarm]: Remove: archive file [/home/abi/fetcher/tmp/topfarm-2.3.4.tar.gz]
 [2024-05-16 08:24:54] INFO root fetch - main [MainThread]: End processing [topfarm]: success
 [2024-05-16 08:24:54] INFO root fetch - main [MainThread]: Store serial: [23230143]
+[2024-05-16 08:26:57] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23230143]
+[2024-05-16 08:27:02] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-16 08:27:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: alita-sdk
+[2024-05-16 08:27:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cmeel-casadi-kin-dyn
+[2024-05-16 08:27:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: lightswitch_kr
+[2024-05-16 08:27:02] INFO root fetch - processPackages [lightswitch_kr]: New version: [0.1.2] Old Version: [0.1.1]
+[2024-05-16 08:27:02] INFO root fetch - processPackages [lightswitch_kr]: Downloading https://files.pythonhosted.org/packages/bb/8f/57ef137cc05d1844923a82d51f646192248f5676333d25431d9f71ce8d8b/lightswitch_kr-0.1.1.tar.gz
+[2024-05-16 08:27:02] INFO root fetch - processPackages [alita-sdk]: New version: [0.1.6] Old Version: [0.1.5]
+[2024-05-16 08:27:02] INFO root fetch - processPackages [cmeel-casadi-kin-dyn]: New version: [1.6.9] Old Version: [1.6.8]
+[2024-05-16 08:27:02] INFO root fetch - processPackages [cmeel-casadi-kin-dyn]: Downloading https://files.pythonhosted.org/packages/16/d0/0b93f92983a452d1f51c127992b9ba82912aba8fc2f93c6b9aa4f91b438b/cmeel_casadi_kin_dyn-1.6.8-0-cp39-cp39-manylinux_2_28_x86_64.whl
+[2024-05-16 08:27:02] INFO root fetch - processPackages [lightswitch_kr]: Downloading https://files.pythonhosted.org/packages/d4/db/d218f5adf0f82c55f1a52991b56c1acb4d50d54b623ec85ea887a7b79dec/lightswitch_kr-0.1.2.tar.gz
+[2024-05-16 08:27:02] INFO root fetch - processPackages [alita-sdk]: Downloading https://files.pythonhosted.org/packages/45/c6/4d5ae94f8974dde8a87b4c805253999a01cfdfa63672ae58706df52a8d79/alita_sdk-0.1.5.tar.gz
+[2024-05-16 08:27:03] INFO root fetch - processPackages [lightswitch_kr]: executing diffoscope
+[2024-05-16 08:27:03] INFO root fetch - processPackages [lightswitch_kr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lightswitch_kr-0.1.1.tar.gz tmp/lightswitch_kr-0.1.2.tar.gz --markdown 20240516/l/lightswitch_kr/0.1.1-0.1.2/README.md --exclude *.pyd
+[2024-05-16 08:27:03] INFO root fetch - processPackages [alita-sdk]: Downloading https://files.pythonhosted.org/packages/90/cc/7dd0c3e10ff2624a1750d428a010f5bdacc5f18463b49dcff4c650e10b2c/alita_sdk-0.1.6.tar.gz
+[2024-05-16 08:27:03] INFO root fetch - processPackages [alita-sdk]: executing diffoscope
+[2024-05-16 08:27:03] INFO root fetch - processPackages [alita-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alita_sdk-0.1.5.tar.gz tmp/alita_sdk-0.1.6.tar.gz --markdown 20240516/a/alita-sdk/0.1.5-0.1.6/README.md --exclude *.pyd
+[2024-05-16 08:27:03] INFO root fetch - processPackages [cmeel-casadi-kin-dyn]: Downloading https://files.pythonhosted.org/packages/28/57/4d3f7604a35bee534ed7c4a4a4a9780844739743da3d2c7d51e465f6b6e7/cmeel_casadi_kin_dyn-1.6.9-0-cp39-cp39-manylinux_2_28_x86_64.whl
+[2024-05-16 08:27:03] INFO root fetch - processPackages [lightswitch_kr]: Remove: archive file [/home/abi/fetcher/tmp/lightswitch_kr-0.1.1.tar.gz]
+[2024-05-16 08:27:03] INFO root fetch - processPackages [lightswitch_kr]: Remove: archive file [/home/abi/fetcher/tmp/lightswitch_kr-0.1.2.tar.gz]
+[2024-05-16 08:27:03] INFO root fetch - main [MainThread]: End processing [lightswitch_kr]: success
+[2024-05-16 08:27:03] INFO root fetch - processPackages [cmeel-casadi-kin-dyn]: executing diffoscope
+[2024-05-16 08:27:03] INFO root fetch - processPackages [cmeel-casadi-kin-dyn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cmeel_casadi_kin_dyn-1.6.8-0-cp39-cp39-manylinux_2_28_x86_64.whl.zip tmp/cmeel_casadi_kin_dyn-1.6.9-0-cp39-cp39-manylinux_2_28_x86_64.whl.zip --markdown 20240516/c/cmeel-casadi-kin-dyn/1.6.8-1.6.9/README.md --exclude *.pyd
+[2024-05-16 08:27:03] INFO root fetch - processPackages [alita-sdk]: Remove: archive file [/home/abi/fetcher/tmp/alita_sdk-0.1.5.tar.gz]
+[2024-05-16 08:27:03] INFO root fetch - processPackages [alita-sdk]: Remove: archive file [/home/abi/fetcher/tmp/alita_sdk-0.1.6.tar.gz]
+[2024-05-16 08:27:03] INFO root fetch - main [MainThread]: End processing [alita-sdk]: success
+[2024-05-16 08:27:21] INFO root fetch - processPackages [cmeel-casadi-kin-dyn]: Remove: archive file [/home/abi/fetcher/tmp/cmeel_casadi_kin_dyn-1.6.8-0-cp39-cp39-manylinux_2_28_x86_64.whl.zip]
+[2024-05-16 08:27:21] INFO root fetch - processPackages [cmeel-casadi-kin-dyn]: Remove: archive file [/home/abi/fetcher/tmp/cmeel_casadi_kin_dyn-1.6.9-0-cp39-cp39-manylinux_2_28_x86_64.whl.zip]
+[2024-05-16 08:27:21] INFO root fetch - main [MainThread]: End processing [cmeel-casadi-kin-dyn]: success
+[2024-05-16 08:27:21] INFO root fetch - main [MainThread]: Store serial: [23230153]
