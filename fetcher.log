@@ -8770,3 +8770,103 @@ AssertionError: tmp/hygpytools-0.2.0.tar.gz does not exist
 [2024-05-16 03:27:48] INFO root fetch - processPackages [streamlit-frontend-listener-component]: Remove: archive file [/home/abi/fetcher/tmp/streamlit-frontend-listener-component-0.0.9.tar.gz]
 [2024-05-16 03:27:48] INFO root fetch - main [MainThread]: End processing [streamlit-frontend-listener-component]: success
 [2024-05-16 03:27:48] INFO root fetch - main [MainThread]: Store serial: [23228116]
+[2024-05-16 03:29:53] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23228116]
+[2024-05-16 03:29:58] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-16 03:29:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: klvm-rs
+[2024-05-16 03:29:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: onediff
+[2024-05-16 03:29:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: agilicus
+[2024-05-16 03:29:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: onediffx
+[2024-05-16 03:29:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: streamlit-custom-sidebar-test
+[2024-05-16 03:29:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: arducam-rgbir-remosaic
+[2024-05-16 03:29:58] INFO root fetch - processPackages [onediff]: New version: [1.0.0.dev202405150127] Old Version: [1.0.0.dev202405140127]
+[2024-05-16 03:29:58] INFO root fetch - processPackages [onediffx]: New version: [1.0.0.dev202405150127] Old Version: [1.0.0.dev202405140127]
+[2024-05-16 03:29:59] INFO root fetch - processPackages [agilicus]: New version: [1.99.0] Old Version: [1.98.9]
+[2024-05-16 03:29:59] INFO root fetch - processPackages [streamlit-custom-sidebar-test]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-16 03:29:59] INFO root fetch - processPackages [klvm-rs]: New version: [0.7.0] Old Version: [0.6.1]
+[2024-05-16 03:29:59] INFO root fetch - processPackages [onediff]: Downloading https://files.pythonhosted.org/packages/1e/ef/371bba8484077672fff3b718f015c1bb2029508dfb7bf632905257687db1/onediff-1.0.0.dev202405140127.tar.gz
+[2024-05-16 03:29:59] INFO root fetch - processPackages [onediffx]: Downloading https://files.pythonhosted.org/packages/51/70/bb49754734bb00cfe80938362a3581f0161d66408b8696c4ded427ed937d/onediffx-1.0.0.dev202405140127.tar.gz
+[2024-05-16 03:29:59] WARNING root fetch - processPackages [arducam-rgbir-remosaic]: Skipping, unable to determine old version
+[2024-05-16 03:29:59] INFO root fetch - main [MainThread]: End processing [arducam-rgbir-remosaic] error
+[2024-05-16 03:29:59] INFO root fetch - processPackages [agilicus]: executing diffoscope
+[2024-05-16 03:29:59] INFO root fetch - processPackages [agilicus]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/agilicus-1.98.9.tar.gz tmp/agilicus-1.99.0.tar.gz --markdown 20240516/a/agilicus/1.98.9-1.99.0/README.md --exclude *.pyd
+[2024-05-16 03:29:59] INFO root fetch - processPackages [streamlit-custom-sidebar-test]: Downloading https://files.pythonhosted.org/packages/cc/e6/8d4f59b6132179599ee5d91de765169c2751c297e1bd4a7ad016c728d7af/streamlit-custom-sidebar-test-0.0.8.tar.gz
+[2024-05-16 03:29:59] INFO root fetch - processPackages [onediff]: Downloading https://files.pythonhosted.org/packages/1e/b2/8e8b967a4e77359315cba5a76774c457b0f4d2da743ad2aaebf6b22c1ce2/onediff-1.0.0.dev202405150127.tar.gz
+[2024-05-16 03:29:59] INFO root fetch - processPackages [klvm-rs]: Downloading https://files.pythonhosted.org/packages/1b/94/d882a256ec7ecc8112bef325b49fecca2605aae6a996668ae754d11546f4/klvm_rs-0.6.1.tar.gz
+[2024-05-16 03:29:59] INFO root fetch - processPackages [onediffx]: Downloading https://files.pythonhosted.org/packages/6a/96/2baf5b1ae0dd00f3e9f355d14fee5368511a4e854b72feae69cec69e9759/onediffx-1.0.0.dev202405150127.tar.gz
+[2024-05-16 03:29:59] INFO root fetch - processPackages [onediff]: executing diffoscope
+[2024-05-16 03:29:59] INFO root fetch - processPackages [onediff]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/onediff-1.0.0.dev202405140127.tar.gz tmp/onediff-1.0.0.dev202405150127.tar.gz --markdown 20240516/o/onediff/1.0.0.dev202405140127-1.0.0.dev202405150127/README.md --exclude *.pyd
+[2024-05-16 03:29:59] INFO root fetch - processPackages [onediffx]: executing diffoscope
+[2024-05-16 03:29:59] INFO root fetch - processPackages [onediffx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/onediffx-1.0.0.dev202405140127.tar.gz tmp/onediffx-1.0.0.dev202405150127.tar.gz --markdown 20240516/o/onediffx/1.0.0.dev202405140127-1.0.0.dev202405150127/README.md --exclude *.pyd
+[2024-05-16 03:29:59] INFO root fetch - processPackages [streamlit-custom-sidebar-test]: Downloading https://files.pythonhosted.org/packages/c5/64/f85ec0da55ad4dc310467708f0a8318497e138284aecaacfba3d552b4099/streamlit-custom-sidebar-test-0.0.9.tar.gz
+[2024-05-16 03:30:00] INFO root fetch - processPackages [onediffx]: Remove: archive file [/home/abi/fetcher/tmp/onediffx-1.0.0.dev202405140127.tar.gz]
+[2024-05-16 03:30:00] INFO root fetch - processPackages [onediffx]: Remove: archive file [/home/abi/fetcher/tmp/onediffx-1.0.0.dev202405150127.tar.gz]
+[2024-05-16 03:30:00] INFO root fetch - main [MainThread]: End processing [onediffx]: success
+[2024-05-16 03:30:00] INFO root fetch - processPackages [klvm-rs]: Downloading https://files.pythonhosted.org/packages/ed/94/2d9bd3af81b49fee8bb9899b008045bec6b65268921f43239a4a36d15f72/klvm_rs-0.7.0.tar.gz
+[2024-05-16 03:30:00] INFO root fetch - processPackages [onediff]: Remove: archive file [/home/abi/fetcher/tmp/onediff-1.0.0.dev202405140127.tar.gz]
+[2024-05-16 03:30:00] INFO root fetch - processPackages [onediff]: Remove: archive file [/home/abi/fetcher/tmp/onediff-1.0.0.dev202405150127.tar.gz]
+[2024-05-16 03:30:00] INFO root fetch - main [MainThread]: End processing [onediff]: success
+[2024-05-16 03:30:00] INFO root fetch - processPackages [klvm-rs]: executing diffoscope
+[2024-05-16 03:30:00] INFO root fetch - processPackages [klvm-rs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/klvm_rs-0.6.1.tar.gz tmp/klvm_rs-0.7.0.tar.gz --markdown 20240516/k/klvm-rs/0.6.1-0.7.0/README.md --exclude *.pyd
+[2024-05-16 03:30:00] ERROR root fetch - processPackages [agilicus]: Diffoscope failed: time="2024-05-16T03:29:59+02:00" level=error msg="User-selected graph driver \"vfs\" overwritten by graph driver \"overlay\" from database - delete libpod local files to resolve.  May prevent use of images created by other tools"
+Traceback (most recent call last):
+  File "/srv/diffoscope/diffoscope/main.py", line 767, in main
+    sys.exit(run_diffoscope(parsed_args))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/main.py", line 718, in run_diffoscope
+    difference = compare_root_paths(path1, path2)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 69, in compare_root_paths
+    difference = compare_files(file1, file2)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 149, in compare_files
+    return file1.compare(file2, source)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 532, in compare
+    difference = self._compare_using_details(other, source)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 467, in _compare_using_details
+    details.extend(
+  File "/srv/diffoscope/diffoscope/comparators/utils/container.py", line 197, in compare_pair
+    difference = compare_files(
+                 ^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 149, in compare_files
+    return file1.compare(file2, source)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 532, in compare
+    difference = self._compare_using_details(other, source)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 467, in _compare_using_details
+    details.extend(
+  File "/srv/diffoscope/diffoscope/comparators/utils/container.py", line 197, in compare_pair
+    difference = compare_files(
+                 ^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 149, in compare_files
+    return file1.compare(file2, source)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 532, in compare
+    difference = self._compare_using_details(other, source)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 433, in _compare_using_details
+    details.extend(self.compare_details(other, source))
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/python.py", line 51, in compare_details
+    describe_pyc(self.path),
+    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/python.py", line 65, in describe_pyc
+    return "\n".join(parse_pyc(f))
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/python.py", line 81, in parse_pyc
+    code = marshal.load(f)
+           ^^^^^^^^^^^^^^^
+EOFError: EOF read where object expected
+
+[2024-05-16 03:30:00] INFO root fetch - main [MainThread]: End processing [agilicus] error
+[2024-05-16 03:30:01] INFO root fetch - processPackages [streamlit-custom-sidebar-test]: executing diffoscope
+[2024-05-16 03:30:01] INFO root fetch - processPackages [streamlit-custom-sidebar-test]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/streamlit-custom-sidebar-test-0.0.8.tar.gz tmp/streamlit-custom-sidebar-test-0.0.9.tar.gz --markdown 20240516/s/streamlit-custom-sidebar-test/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-16 03:30:04] INFO root fetch - processPackages [klvm-rs]: Remove: archive file [/home/abi/fetcher/tmp/klvm_rs-0.6.1.tar.gz]
+[2024-05-16 03:30:04] INFO root fetch - processPackages [klvm-rs]: Remove: archive file [/home/abi/fetcher/tmp/klvm_rs-0.7.0.tar.gz]
+[2024-05-16 03:30:04] INFO root fetch - main [MainThread]: End processing [klvm-rs]: success
+[2024-05-16 03:30:12] INFO root fetch - processPackages [streamlit-custom-sidebar-test]: Remove: archive file [/home/abi/fetcher/tmp/streamlit-custom-sidebar-test-0.0.8.tar.gz]
+[2024-05-16 03:30:12] INFO root fetch - processPackages [streamlit-custom-sidebar-test]: Remove: archive file [/home/abi/fetcher/tmp/streamlit-custom-sidebar-test-0.0.9.tar.gz]
+[2024-05-16 03:30:12] INFO root fetch - main [MainThread]: End processing [streamlit-custom-sidebar-test]: success
+[2024-05-16 03:30:12] INFO root fetch - main [MainThread]: Store serial: [23228212]
