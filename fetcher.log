@@ -3867,3 +3867,121 @@ AssertionError: tmp/hygpytools-0.2.0.tar.gz does not exist
 [2024-05-16 02:08:32] INFO root fetch - processPackages [composabl-train-dev]: Remove: archive file [/home/abi/fetcher/tmp/composabl_train_dev-0.8.0.dev9-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
 [2024-05-16 02:08:32] INFO root fetch - main [MainThread]: End processing [composabl-train-dev]: success
 [2024-05-16 02:08:32] INFO root fetch - main [MainThread]: Store serial: [23226690]
+[2024-05-16 02:11:03] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23226690]
+[2024-05-16 02:11:08] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2024-05-16 02:11:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: PySDM
+[2024-05-16 02:11:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: PySDM-examples
+[2024-05-16 02:11:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: chromedriver-py
+[2024-05-16 02:11:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cdk-common
+[2024-05-16 02:11:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: mass-composition
+[2024-05-16 02:11:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: LingerGRN
+[2024-05-16 02:11:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: nothingpy
+[2024-05-16 02:11:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: compressed-tensors-nightly
+[2024-05-16 02:11:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: spaceone-core
+[2024-05-16 02:11:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: s3func
+[2024-05-16 02:11:08] INFO root fetch - processPackages [spaceone-core]: New version: [2.0.9] Old Version: [2.0.81]
+[2024-05-16 02:11:08] INFO root fetch - processPackages [s3func]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-05-16 02:11:08] INFO root fetch - processPackages [mass-composition]: New version: [0.5.2] Old Version: [0.5.1]
+[2024-05-16 02:11:08] INFO root fetch - processPackages [LingerGRN]: New version: [1.9] Old Version: [1.8]
+[2024-05-16 02:11:08] INFO root fetch - processPackages [PySDM]: New version: [2.9] Old Version: [2.8]
+[2024-05-16 02:11:08] INFO root fetch - processPackages [compressed-tensors-nightly]: New version: [0.3.3.20240516] Old Version: [0.3.3.20240514]
+[2024-05-16 02:11:08] INFO root fetch - processPackages [nothingpy]: New version: [0.1.1] Old Version: [0.1]
+[2024-05-16 02:11:08] INFO root fetch - processPackages [spaceone-core]: Downloading https://files.pythonhosted.org/packages/67/79/6b4d2a192f29511e25729ab7145c9a9a3a29dc09e9f063292216aee83dec/spaceone-core-2.0.81.tar.gz
+[2024-05-16 02:11:08] INFO root fetch - processPackages [s3func]: Downloading https://files.pythonhosted.org/packages/40/65/16a222ab0774b9f0be39a9c24b035d13e9e7c772706661e851c23e01b58b/s3func-0.1.0.tar.gz
+[2024-05-16 02:11:09] INFO root fetch - processPackages [chromedriver-py]: New version: [99.0.4844.51] Old Version: [99.0.4844.35]
+[2024-05-16 02:11:09] INFO root fetch - processPackages [PySDM-examples]: New version: [2.9] Old Version: [2.8]
+[2024-05-16 02:11:09] INFO root fetch - processPackages [LingerGRN]: Downloading https://files.pythonhosted.org/packages/df/69/a80f2b27505be0e6d4762954dc10e7e95186ec0d94c1930d038e59cc8f5d/LingerGRN-1.8.tar.gz
+[2024-05-16 02:11:09] INFO root fetch - processPackages [mass-composition]: Downloading https://files.pythonhosted.org/packages/80/7e/f97ae74cd04f9572955a3a47c9ee0f723b801c5e41f533d9cb50d2c25559/mass_composition-0.5.1.tar.gz
+[2024-05-16 02:11:09] INFO root fetch - processPackages [cdk-common]: New version: [2.0.99] Old Version: [2.0.98]
+[2024-05-16 02:11:09] INFO root fetch - processPackages [PySDM]: Downloading https://files.pythonhosted.org/packages/17/d1/08e0d17cbe649fc4b7076f8d101822c798dbbb7083219645877912e8855e/PySDM-2.8.tar.gz
+[2024-05-16 02:11:09] INFO root fetch - processPackages [cdk-common]: Downloading https://files.pythonhosted.org/packages/f3/30/796e7080e9a9b293ccf386b0d95f40dde8e214e0415d2c59be9c661105a9/cdk-common-2.0.98.tar.gz
+[2024-05-16 02:11:09] INFO root fetch - processPackages [compressed-tensors-nightly]: Downloading https://files.pythonhosted.org/packages/02/ef/10b00b24322013d302cfc57d97a9851990ac553a1e467953748c861f4ad3/compressed_tensors_nightly-0.3.3.20240514-py3-none-any.whl
+[2024-05-16 02:11:09] INFO root fetch - processPackages [chromedriver-py]: Downloading https://files.pythonhosted.org/packages/39/03/f1ac791b3c69bd62af64eb3b4f2f0c942828a41ad7eb4840f42ff715c79a/chromedriver-py-99.0.4844.35.tar.gz
+[2024-05-16 02:11:09] INFO root fetch - processPackages [PySDM-examples]: Downloading https://files.pythonhosted.org/packages/4c/5f/2e48117f41afb88b71fd3561ca8f6ef534989001f0cc583f5af2f7a56fa1/PySDM-examples-2.8.tar.gz
+[2024-05-16 02:11:09] INFO root fetch - processPackages [spaceone-core]: Downloading https://files.pythonhosted.org/packages/c6/b6/20c4662546ec879a3b0dfacd3580673a79f673f79dbedabb4a9a917b0f73/spaceone-core-2.0.9.tar.gz
+[2024-05-16 02:11:09] INFO root fetch - processPackages [LingerGRN]: Downloading https://files.pythonhosted.org/packages/63/d4/436d53c01941016a6ae8377f82d2b0e575b4398b54914a012eeeea4d45f7/LingerGRN-1.9.tar.gz
+[2024-05-16 02:11:09] INFO root fetch - processPackages [nothingpy]: Downloading https://files.pythonhosted.org/packages/cb/3a/8559899c2390269d1127843e2c5851fe591c0a4dcaa5650e9e34425ac180/nothingpy-0.1.tar.gz
+[2024-05-16 02:11:09] WARNING root fetch - processPackages [chromedriver-py]: Skipping package: exceeds size limit 29238079>=10485760
+[2024-05-16 02:11:09] INFO root fetch - processPackages [chromedriver-py]: Start processing: nothingpy
+[2024-05-16 02:11:09] INFO root fetch - main [MainThread]: End processing [chromedriver-py] error
+[2024-05-16 02:11:09] INFO root fetch - processPackages [PySDM]: Downloading https://files.pythonhosted.org/packages/a0/87/500d29854c171383aeec947323457a0e9a4b56dad81353ffeb13c855c1af/PySDM-2.9.tar.gz
+[2024-05-16 02:11:09] INFO root fetch - processPackages [s3func]: Downloading https://files.pythonhosted.org/packages/6b/87/fb8096fb3b4f4aae2b8419519ba1d11e3f43118dedc59ca534980bac95e4/s3func-0.1.1.tar.gz
+[2024-05-16 02:11:09] INFO root fetch - processPackages [nothingpy]: New version: [0.1.1] Old Version: [0.1]
+[2024-05-16 02:11:09] INFO root fetch - processPackages [mass-composition]: Downloading https://files.pythonhosted.org/packages/b8/ae/099634d5d6cbbdc006c740d0e93b1d202dffdcdccfd9a72bba55984dfe48/mass_composition-0.5.2.tar.gz
+[2024-05-16 02:11:09] INFO root fetch - processPackages [LingerGRN]: executing diffoscope
+[2024-05-16 02:11:09] INFO root fetch - processPackages [LingerGRN]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/LingerGRN-1.8.tar.gz tmp/LingerGRN-1.9.tar.gz --markdown 20240516/L/LingerGRN/1.8-1.9/README.md --exclude *.pyd
+[2024-05-16 02:11:09] INFO root fetch - processPackages [spaceone-core]: executing diffoscope
+[2024-05-16 02:11:09] INFO root fetch - processPackages [spaceone-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spaceone-core-2.0.81.tar.gz tmp/spaceone-core-2.0.9.tar.gz --markdown 20240516/s/spaceone-core/2.0.81-2.0.9/README.md --exclude *.pyd
+[2024-05-16 02:11:09] INFO root fetch - processPackages [PySDM]: executing diffoscope
+[2024-05-16 02:11:09] INFO root fetch - processPackages [PySDM]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PySDM-2.8.tar.gz tmp/PySDM-2.9.tar.gz --markdown 20240516/P/PySDM/2.8-2.9/README.md --exclude *.pyd
+[2024-05-16 02:11:09] INFO root fetch - processPackages [compressed-tensors-nightly]: Downloading https://files.pythonhosted.org/packages/5f/66/fb7b964982a18f9e30b9eec5c1ef5c97e074ade5b6e944862e3e7dbc1830/compressed_tensors_nightly-0.3.3.20240516-py3-none-any.whl
+[2024-05-16 02:11:09] INFO root fetch - processPackages [mass-composition]: executing diffoscope
+[2024-05-16 02:11:09] INFO root fetch - processPackages [mass-composition]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mass_composition-0.5.1.tar.gz tmp/mass_composition-0.5.2.tar.gz --markdown 20240516/m/mass-composition/0.5.1-0.5.2/README.md --exclude *.pyd
+[2024-05-16 02:11:09] INFO root fetch - processPackages [s3func]: executing diffoscope
+[2024-05-16 02:11:09] INFO root fetch - processPackages [s3func]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/s3func-0.1.0.tar.gz tmp/s3func-0.1.1.tar.gz --markdown 20240516/s/s3func/0.1.0-0.1.1/README.md --exclude *.pyd
+[2024-05-16 02:11:09] INFO root fetch - processPackages [nothingpy]: Downloading https://files.pythonhosted.org/packages/46/d8/5837821b516fd22d7eb0a5772bd2e52ca83359b965c4c226ecfa0d71f3c2/nothingpy-0.1.1.tar.gz
+[2024-05-16 02:11:09] INFO root fetch - processPackages [nothingpy]: Downloading https://files.pythonhosted.org/packages/46/d8/5837821b516fd22d7eb0a5772bd2e52ca83359b965c4c226ecfa0d71f3c2/nothingpy-0.1.1.tar.gz
+[2024-05-16 02:11:09] INFO root fetch - processPackages [cdk-common]: Downloading https://files.pythonhosted.org/packages/11/10/ca183f281275ec945ede082d9491c0bb5bfb9152c437124c86e37cba7079/cdk-common-2.0.99.tar.gz
+[2024-05-16 02:11:09] INFO root fetch - processPackages [compressed-tensors-nightly]: executing diffoscope
+[2024-05-16 02:11:09] INFO root fetch - processPackages [compressed-tensors-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/compressed_tensors_nightly-0.3.3.20240514-py3-none-any.whl.zip tmp/compressed_tensors_nightly-0.3.3.20240516-py3-none-any.whl.zip --markdown 20240516/c/compressed-tensors-nightly/0.3.3.20240514-0.3.3.20240516/README.md --exclude *.pyd
+[2024-05-16 02:11:09] INFO root fetch - processPackages [nothingpy]: executing diffoscope
+[2024-05-16 02:11:09] INFO root fetch - processPackages [nothingpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nothingpy-0.1.tar.gz tmp/nothingpy-0.1.1.tar.gz --markdown 20240516/n/nothingpy/0.1-0.1.1/README.md --exclude *.pyd
+[2024-05-16 02:11:09] INFO root fetch - processPackages [nothingpy]: executing diffoscope
+[2024-05-16 02:11:09] INFO root fetch - processPackages [nothingpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nothingpy-0.1.tar.gz tmp/nothingpy-0.1.1.tar.gz --markdown 20240516/n/nothingpy/0.1-0.1.1/README.md --exclude *.pyd
+[2024-05-16 02:11:10] INFO root fetch - processPackages [cdk-common]: executing diffoscope
+[2024-05-16 02:11:10] INFO root fetch - processPackages [cdk-common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-common-2.0.98.tar.gz tmp/cdk-common-2.0.99.tar.gz --markdown 20240516/c/cdk-common/2.0.98-2.0.99/README.md --exclude *.pyd
+[2024-05-16 02:11:10] INFO root fetch - processPackages [LingerGRN]: Remove: archive file [/home/abi/fetcher/tmp/LingerGRN-1.8.tar.gz]
+[2024-05-16 02:11:10] INFO root fetch - processPackages [LingerGRN]: Remove: archive file [/home/abi/fetcher/tmp/LingerGRN-1.9.tar.gz]
+[2024-05-16 02:11:10] INFO root fetch - processPackages [LingerGRN]: Start processing: pipecat-ai
+[2024-05-16 02:11:10] INFO root fetch - main [MainThread]: End processing [LingerGRN]: success
+[2024-05-16 02:11:10] INFO root fetch - processPackages [pipecat-ai]: New version: [0.0.9] Old Version: [0.0.14]
+[2024-05-16 02:11:10] INFO root fetch - processPackages [pipecat-ai]: Downloading https://files.pythonhosted.org/packages/1b/27/dc0ebbbad7fa397e7b1e6acc65379ee9c4cb387b9ea333ae72cca3ff2810/pipecat_ai-0.0.14.tar.gz
+[2024-05-16 02:11:10] WARNING root fetch - processPackages [pipecat-ai]: Skipping package: exceeds size limit 63268809>=10485760
+[2024-05-16 02:11:10] INFO root fetch - processPackages [pipecat-ai]: Start processing: mct-quantizers-nightly
+[2024-05-16 02:11:10] INFO root fetch - main [MainThread]: End processing [pipecat-ai] error
+[2024-05-16 02:11:10] INFO root fetch - processPackages [nothingpy]: Remove: archive file [/home/abi/fetcher/tmp/nothingpy-0.1.tar.gz]
+[2024-05-16 02:11:10] INFO root fetch - processPackages [nothingpy]: Remove: archive file [/home/abi/fetcher/tmp/nothingpy-0.1.1.tar.gz]
+[2024-05-16 02:11:10] INFO root fetch - processPackages [nothingpy]: Start processing: tator
+[2024-05-16 02:11:10] INFO root fetch - main [MainThread]: End processing [nothingpy]: success
+[2024-05-16 02:11:10] INFO root fetch - processPackages [mct-quantizers-nightly]: New version: [1.5.0.20240515.post1110] Old Version: [1.5.0.20240514.post1051]
+[2024-05-16 02:11:10] INFO root fetch - processPackages [compressed-tensors-nightly]: Remove: archive file [/home/abi/fetcher/tmp/compressed_tensors_nightly-0.3.3.20240514-py3-none-any.whl.zip]
+[2024-05-16 02:11:10] INFO root fetch - processPackages [compressed-tensors-nightly]: Remove: archive file [/home/abi/fetcher/tmp/compressed_tensors_nightly-0.3.3.20240516-py3-none-any.whl.zip]
+[2024-05-16 02:11:10] INFO root fetch - main [MainThread]: End processing [compressed-tensors-nightly]: success
+[2024-05-16 02:11:10] INFO root fetch - processPackages [spaceone-core]: Remove: archive file [/home/abi/fetcher/tmp/spaceone-core-2.0.81.tar.gz]
+[2024-05-16 02:11:10] INFO root fetch - processPackages [spaceone-core]: Remove: archive file [/home/abi/fetcher/tmp/spaceone-core-2.0.9.tar.gz]
+[2024-05-16 02:11:10] INFO root fetch - main [MainThread]: End processing [spaceone-core]: success
+[2024-05-16 02:11:10] INFO root fetch - processPackages [mass-composition]: Remove: archive file [/home/abi/fetcher/tmp/mass_composition-0.5.1.tar.gz]
+[2024-05-16 02:11:10] INFO root fetch - processPackages [mass-composition]: Remove: archive file [/home/abi/fetcher/tmp/mass_composition-0.5.2.tar.gz]
+[2024-05-16 02:11:10] INFO root fetch - main [MainThread]: End processing [mass-composition]: success
+[2024-05-16 02:11:10] INFO root fetch - main [MainThread]: End processing [nothingpy]: success
+[2024-05-16 02:11:10] INFO root fetch - processPackages [mct-quantizers-nightly]: Downloading https://files.pythonhosted.org/packages/88/d2/922a425a4cd9bbd16e617872f739cca45fef067ece820a0b4b6923b0b4d6/mct-quantizers-nightly-1.5.0.20240514.post1051.tar.gz
+[2024-05-16 02:11:10] INFO root fetch - processPackages [tator]: New version: [1.2.9] Old Version: [1.2.8]
+[2024-05-16 02:11:10] INFO root fetch - processPackages [s3func]: Remove: archive file [/home/abi/fetcher/tmp/s3func-0.1.0.tar.gz]
+[2024-05-16 02:11:10] INFO root fetch - processPackages [s3func]: Remove: archive file [/home/abi/fetcher/tmp/s3func-0.1.1.tar.gz]
+[2024-05-16 02:11:10] INFO root fetch - main [MainThread]: End processing [s3func]: success
+[2024-05-16 02:11:10] INFO root fetch - processPackages [PySDM-examples]: Downloading https://files.pythonhosted.org/packages/38/cd/e8c43c853d105d7b3cb064085b972b191719b91b54e18c66a563a2361203/PySDM-examples-2.9.tar.gz
+[2024-05-16 02:11:11] INFO root fetch - processPackages [cdk-common]: Remove: archive file [/home/abi/fetcher/tmp/cdk-common-2.0.98.tar.gz]
+[2024-05-16 02:11:11] INFO root fetch - processPackages [cdk-common]: Remove: archive file [/home/abi/fetcher/tmp/cdk-common-2.0.99.tar.gz]
+[2024-05-16 02:11:11] INFO root fetch - main [MainThread]: End processing [cdk-common]: success
+[2024-05-16 02:11:11] INFO root fetch - processPackages [tator]: Downloading https://files.pythonhosted.org/packages/f9/66/ae4067c632047493bdb8c7e214ca46bd46b9e41c915d28fa928f33bbd85e/tator-1.2.8.tar.gz
+[2024-05-16 02:11:11] INFO root fetch - processPackages [mct-quantizers-nightly]: Downloading https://files.pythonhosted.org/packages/6c/35/ed45e722db6655068df9bf070a9a837dfb209e78cc8f7dc442d875a3b143/mct-quantizers-nightly-1.5.0.20240515.post1110.tar.gz
+[2024-05-16 02:11:11] INFO root fetch - processPackages [mct-quantizers-nightly]: executing diffoscope
+[2024-05-16 02:11:11] INFO root fetch - processPackages [mct-quantizers-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mct-quantizers-nightly-1.5.0.20240514.post1051.tar.gz tmp/mct-quantizers-nightly-1.5.0.20240515.post1110.tar.gz --markdown 20240516/m/mct-quantizers-nightly/1.5.0.20240514.post1051-1.5.0.20240515.post1110/README.md --exclude *.pyd
+[2024-05-16 02:11:11] INFO root fetch - processPackages [PySDM]: Remove: archive file [/home/abi/fetcher/tmp/PySDM-2.8.tar.gz]
+[2024-05-16 02:11:11] INFO root fetch - processPackages [PySDM]: Remove: archive file [/home/abi/fetcher/tmp/PySDM-2.9.tar.gz]
+[2024-05-16 02:11:11] INFO root fetch - main [MainThread]: End processing [PySDM]: success
+[2024-05-16 02:11:11] INFO root fetch - processPackages [PySDM-examples]: executing diffoscope
+[2024-05-16 02:11:11] INFO root fetch - processPackages [PySDM-examples]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PySDM-examples-2.8.tar.gz tmp/PySDM-examples-2.9.tar.gz --markdown 20240516/P/PySDM-examples/2.8-2.9/README.md --exclude *.pyd
+[2024-05-16 02:11:11] INFO root fetch - processPackages [tator]: Downloading https://files.pythonhosted.org/packages/6c/89/e8fb0e9b3c19ca07509e09b45064f3aa953183fa07c8667a7949c37fb634/tator-1.2.9.tar.gz
+[2024-05-16 02:11:11] INFO root fetch - processPackages [tator]: executing diffoscope
+[2024-05-16 02:11:11] INFO root fetch - processPackages [tator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tator-1.2.8.tar.gz tmp/tator-1.2.9.tar.gz --markdown 20240516/t/tator/1.2.8-1.2.9/README.md --exclude *.pyd
+[2024-05-16 02:11:12] INFO root fetch - processPackages [mct-quantizers-nightly]: Remove: archive file [/home/abi/fetcher/tmp/mct-quantizers-nightly-1.5.0.20240514.post1051.tar.gz]
+[2024-05-16 02:11:12] INFO root fetch - processPackages [mct-quantizers-nightly]: Remove: archive file [/home/abi/fetcher/tmp/mct-quantizers-nightly-1.5.0.20240515.post1110.tar.gz]
+[2024-05-16 02:11:12] INFO root fetch - main [MainThread]: End processing [mct-quantizers-nightly]: success
+[2024-05-16 02:11:12] INFO root fetch - processPackages [PySDM-examples]: Remove: archive file [/home/abi/fetcher/tmp/PySDM-examples-2.8.tar.gz]
+[2024-05-16 02:11:12] INFO root fetch - processPackages [PySDM-examples]: Remove: archive file [/home/abi/fetcher/tmp/PySDM-examples-2.9.tar.gz]
+[2024-05-16 02:11:12] INFO root fetch - main [MainThread]: End processing [PySDM-examples]: success
+[2024-05-16 02:11:13] INFO root fetch - processPackages [tator]: Remove: archive file [/home/abi/fetcher/tmp/tator-1.2.8.tar.gz]
+[2024-05-16 02:11:13] INFO root fetch - processPackages [tator]: Remove: archive file [/home/abi/fetcher/tmp/tator-1.2.9.tar.gz]
+[2024-05-16 02:11:13] INFO root fetch - main [MainThread]: End processing [tator]: success
+[2024-05-16 02:11:13] INFO root fetch - main [MainThread]: Store serial: [23226735]
