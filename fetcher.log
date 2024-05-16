@@ -10640,3 +10640,54 @@ EOFError: EOF read where object expected
 [2024-05-16 05:44:29] INFO root fetch - processPackages [haliax]: Remove: archive file [/home/abi/fetcher/tmp/haliax-1.4.dev294.tar.gz]
 [2024-05-16 05:44:29] INFO root fetch - main [MainThread]: End processing [haliax]: success
 [2024-05-16 05:44:29] INFO root fetch - main [MainThread]: Store serial: [23229150]
+[2024-05-16 05:46:33] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23229150]
+[2024-05-16 05:46:38] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-16 05:46:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: haliax
+[2024-05-16 05:46:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: litellm
+[2024-05-16 05:46:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: jsonexussync-client
+[2024-05-16 05:46:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: moonss
+[2024-05-16 05:46:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: omegi-instrumentation-python
+[2024-05-16 05:46:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: dwave-sona-core
+[2024-05-16 05:46:38] INFO root fetch - processPackages [haliax]: New version: [1.4.dev294] Old Version: [1.4.dev293]
+[2024-05-16 05:46:38] INFO root fetch - processPackages [haliax]: Downloading https://files.pythonhosted.org/packages/b1/a5/9683aab51e0ef8a24b08a75789713988a7cb5179a1755fb8cf7bb5bbae60/haliax-1.4.dev293.tar.gz
+[2024-05-16 05:46:38] WARNING root fetch - processPackages [omegi-instrumentation-python]: Skipping, unable to determine old version
+[2024-05-16 05:46:38] INFO root fetch - main [MainThread]: End processing [omegi-instrumentation-python] error
+[2024-05-16 05:46:38] INFO root fetch - processPackages [jsonexussync-client]: New version: [1.0.2] Old Version: [1.0.1]
+[2024-05-16 05:46:38] INFO root fetch - processPackages [moonss]: New version: [0.99] Old Version: [0.98]
+[2024-05-16 05:46:38] INFO root fetch - processPackages [dwave-sona-core]: New version: [1.2.9] Old Version: [1.2.8]
+[2024-05-16 05:46:38] INFO root fetch - processPackages [litellm]: New version: [1.9.dev0] Old Version: [1.9.5]
+[2024-05-16 05:46:38] INFO root fetch - processPackages [jsonexussync-client]: Downloading https://files.pythonhosted.org/packages/ca/75/538e8dd4f0d6138494164ae0f397d9c2cc429957e22c1f028c5bbbb34959/jsonexussync-client-1.0.1.tar.gz
+[2024-05-16 05:46:38] INFO root fetch - processPackages [moonss]: Downloading https://files.pythonhosted.org/packages/df/9c/efa77e88d08939cec835de0cc183c1e3218af6175697e55b7bbffa3d0270/moonss-0.98.tar.gz
+[2024-05-16 05:46:38] INFO root fetch - processPackages [dwave-sona-core]: Downloading https://files.pythonhosted.org/packages/db/7c/9339ceb47958f7d191e79904c25617e39aa742a8888ee55b02cca9f7553b/dwave_sona_core-1.2.8.tar.gz
+[2024-05-16 05:46:38] INFO root fetch - processPackages [haliax]: Downloading https://files.pythonhosted.org/packages/ff/9a/d4bc1e95b442728e9d1e4e26de6e52c25a282edeec00d7a2322b126ca793/haliax-1.4.dev294.tar.gz
+[2024-05-16 05:46:39] INFO root fetch - processPackages [litellm]: Downloading https://files.pythonhosted.org/packages/38/f3/1cbeaf4074e7b284cd140263ff165948d8f4cc8f5dd72c89be43a0469387/litellm-1.9.5.tar.gz
+[2024-05-16 05:46:39] INFO root fetch - processPackages [haliax]: executing diffoscope
+[2024-05-16 05:46:39] INFO root fetch - processPackages [haliax]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/haliax-1.4.dev293.tar.gz tmp/haliax-1.4.dev294.tar.gz --markdown 20240516/h/haliax/1.4.dev293-1.4.dev294/README.md --exclude *.pyd
+[2024-05-16 05:46:39] INFO root fetch - processPackages [dwave-sona-core]: Downloading https://files.pythonhosted.org/packages/82/1f/6cd56c8023053a161c0daaa6d9953b37ecac0cfa01e9c4911db6c9a422f3/dwave_sona_core-1.2.9.tar.gz
+[2024-05-16 05:46:39] INFO root fetch - processPackages [moonss]: Downloading https://files.pythonhosted.org/packages/35/3c/cb62485dde83e7c097a307c0189c884a946fec5e6c16c9fca526b4d99511/moonss-0.99.tar.gz
+[2024-05-16 05:46:39] INFO root fetch - processPackages [jsonexussync-client]: Downloading https://files.pythonhosted.org/packages/b4/49/9b6f32a53b3ab97b8d19d1e4793ef5987e972102e34ef7b460ea55dd8ab7/jsonexussync_client-1.0.2-py3-none-any.whl
+[2024-05-16 05:46:39] INFO root fetch - processPackages [dwave-sona-core]: executing diffoscope
+[2024-05-16 05:46:39] INFO root fetch - processPackages [dwave-sona-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dwave_sona_core-1.2.8.tar.gz tmp/dwave_sona_core-1.2.9.tar.gz --markdown 20240516/d/dwave-sona-core/1.2.8-1.2.9/README.md --exclude *.pyd
+[2024-05-16 05:46:39] INFO root fetch - processPackages [jsonexussync-client]: executing diffoscope
+[2024-05-16 05:46:39] INFO root fetch - processPackages [jsonexussync-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jsonexussync-client-1.0.1.tar.gz tmp/jsonexussync_client-1.0.2-py3-none-any.whl.zip --markdown 20240516/j/jsonexussync-client/1.0.1-1.0.2/README.md --exclude *.pyd
+[2024-05-16 05:46:39] INFO root fetch - processPackages [moonss]: executing diffoscope
+[2024-05-16 05:46:39] INFO root fetch - processPackages [moonss]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/moonss-0.98.tar.gz tmp/moonss-0.99.tar.gz --markdown 20240516/m/moonss/0.98-0.99/README.md --exclude *.pyd
+[2024-05-16 05:46:39] INFO root fetch - processPackages [litellm]: Downloading https://files.pythonhosted.org/packages/ad/6c/162b83e9cf68f5a94c30153e835414c3ee11c8602ffaacc9a032851dfa26/litellm-1.9.dev0.tar.gz
+[2024-05-16 05:46:39] INFO root fetch - processPackages [litellm]: executing diffoscope
+[2024-05-16 05:46:39] INFO root fetch - processPackages [litellm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/litellm-1.9.5.tar.gz tmp/litellm-1.9.dev0.tar.gz --markdown 20240516/l/litellm/1.9.5-1.9.dev0/README.md --exclude *.pyd
+[2024-05-16 05:46:40] INFO root fetch - processPackages [jsonexussync-client]: Remove: archive file [/home/abi/fetcher/tmp/jsonexussync-client-1.0.1.tar.gz]
+[2024-05-16 05:46:40] INFO root fetch - processPackages [jsonexussync-client]: Remove: archive file [/home/abi/fetcher/tmp/jsonexussync_client-1.0.2-py3-none-any.whl.zip]
+[2024-05-16 05:46:40] INFO root fetch - main [MainThread]: End processing [jsonexussync-client]: success
+[2024-05-16 05:46:40] INFO root fetch - processPackages [dwave-sona-core]: Remove: archive file [/home/abi/fetcher/tmp/dwave_sona_core-1.2.8.tar.gz]
+[2024-05-16 05:46:40] INFO root fetch - processPackages [dwave-sona-core]: Remove: archive file [/home/abi/fetcher/tmp/dwave_sona_core-1.2.9.tar.gz]
+[2024-05-16 05:46:40] INFO root fetch - main [MainThread]: End processing [dwave-sona-core]: success
+[2024-05-16 05:46:40] INFO root fetch - processPackages [haliax]: Remove: archive file [/home/abi/fetcher/tmp/haliax-1.4.dev293.tar.gz]
+[2024-05-16 05:46:40] INFO root fetch - processPackages [haliax]: Remove: archive file [/home/abi/fetcher/tmp/haliax-1.4.dev294.tar.gz]
+[2024-05-16 05:46:40] INFO root fetch - main [MainThread]: End processing [haliax]: success
+[2024-05-16 05:46:40] INFO root fetch - processPackages [moonss]: Remove: archive file [/home/abi/fetcher/tmp/moonss-0.98.tar.gz]
+[2024-05-16 05:46:40] INFO root fetch - processPackages [moonss]: Remove: archive file [/home/abi/fetcher/tmp/moonss-0.99.tar.gz]
+[2024-05-16 05:46:40] INFO root fetch - main [MainThread]: End processing [moonss]: success
+[2024-05-16 05:46:41] INFO root fetch - processPackages [litellm]: Remove: archive file [/home/abi/fetcher/tmp/litellm-1.9.5.tar.gz]
+[2024-05-16 05:46:41] INFO root fetch - processPackages [litellm]: Remove: archive file [/home/abi/fetcher/tmp/litellm-1.9.dev0.tar.gz]
+[2024-05-16 05:46:41] INFO root fetch - main [MainThread]: End processing [litellm]: success
+[2024-05-16 05:46:41] INFO root fetch - main [MainThread]: Store serial: [23229170]
