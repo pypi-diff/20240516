@@ -12734,3 +12734,24 @@ EOFError: EOF read where object expected
 [2024-05-16 08:06:37] INFO root fetch - processPackages [litellm]: Remove: archive file [/home/abi/fetcher/tmp/litellm-1.9.dev0.tar.gz]
 [2024-05-16 08:06:37] INFO root fetch - main [MainThread]: End processing [litellm]: success
 [2024-05-16 08:06:37] INFO root fetch - main [MainThread]: Store serial: [23230027]
+[2024-05-16 08:08:41] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23230027]
+[2024-05-16 08:08:46] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-16 08:08:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: PaycomUz
+[2024-05-16 08:08:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pytoniq-core
+[2024-05-16 08:08:46] INFO root fetch - processPackages [PaycomUz]: New version: [3.1] Old Version: [3.0]
+[2024-05-16 08:08:46] INFO root fetch - processPackages [pytoniq-core]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-16 08:08:46] INFO root fetch - processPackages [PaycomUz]: Downloading https://files.pythonhosted.org/packages/1f/7e/8fdb3fb18a4d8e482d9224f85e2fcf155974354f68d85d20766b6bfa58ea/PaycomUz-3.0.tar.gz
+[2024-05-16 08:08:46] INFO root fetch - processPackages [pytoniq-core]: Downloading https://files.pythonhosted.org/packages/80/fd/17719a7a0ccfcc5482b7463af901ba6d3e4f1874aae61f884fe75c3bbdb6/pytoniq-core-0.1.8.tar.gz
+[2024-05-16 08:08:46] INFO root fetch - processPackages [PaycomUz]: Downloading https://files.pythonhosted.org/packages/97/f9/03bc7e1fdf433969277bd1b64d62d8e038dd0601447d2dbb66a5faba80fe/PaycomUz-3.1.tar.gz
+[2024-05-16 08:08:46] INFO root fetch - processPackages [pytoniq-core]: Downloading https://files.pythonhosted.org/packages/1d/c6/2c8daf13fd29ba3b0b2065bf051f422b9e3733d408a6c5931f651d3aa033/pytoniq-core-0.1.9.tar.gz
+[2024-05-16 08:08:46] INFO root fetch - processPackages [PaycomUz]: executing diffoscope
+[2024-05-16 08:08:46] INFO root fetch - processPackages [PaycomUz]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PaycomUz-3.0.tar.gz tmp/PaycomUz-3.1.tar.gz --markdown 20240516/P/PaycomUz/3.0-3.1/README.md --exclude *.pyd
+[2024-05-16 08:08:47] INFO root fetch - processPackages [pytoniq-core]: executing diffoscope
+[2024-05-16 08:08:47] INFO root fetch - processPackages [pytoniq-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytoniq-core-0.1.8.tar.gz tmp/pytoniq-core-0.1.9.tar.gz --markdown 20240516/p/pytoniq-core/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-16 08:08:47] INFO root fetch - processPackages [PaycomUz]: Remove: archive file [/home/abi/fetcher/tmp/PaycomUz-3.0.tar.gz]
+[2024-05-16 08:08:47] INFO root fetch - processPackages [PaycomUz]: Remove: archive file [/home/abi/fetcher/tmp/PaycomUz-3.1.tar.gz]
+[2024-05-16 08:08:47] INFO root fetch - main [MainThread]: End processing [PaycomUz]: success
+[2024-05-16 08:08:47] INFO root fetch - processPackages [pytoniq-core]: Remove: archive file [/home/abi/fetcher/tmp/pytoniq-core-0.1.8.tar.gz]
+[2024-05-16 08:08:47] INFO root fetch - processPackages [pytoniq-core]: Remove: archive file [/home/abi/fetcher/tmp/pytoniq-core-0.1.9.tar.gz]
+[2024-05-16 08:08:47] INFO root fetch - main [MainThread]: End processing [pytoniq-core]: success
+[2024-05-16 08:08:47] INFO root fetch - main [MainThread]: Store serial: [23230033]
