@@ -9212,3 +9212,33 @@ EOFError: EOF read where object expected
 [2024-05-16 04:08:07] INFO root fetch - processPackages [pygpt-net]: Remove: archive file [/home/abi/fetcher/tmp/pygpt_net-2.2.9.tar.gz]
 [2024-05-16 04:08:07] INFO root fetch - main [MainThread]: End processing [pygpt-net]: success
 [2024-05-16 04:08:07] INFO root fetch - main [MainThread]: Store serial: [23228557]
+[2024-05-16 04:10:11] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23228557]
+[2024-05-16 04:10:16] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-16 04:10:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: sparse-lmm
+[2024-05-16 04:10:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: seven-cloudapp-frame
+[2024-05-16 04:10:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: stips
+[2024-05-16 04:10:16] INFO root fetch - processPackages [sparse-lmm]: New version: [0.9] Old Version: [0.8]
+[2024-05-16 04:10:16] INFO root fetch - processPackages [seven-cloudapp-frame]: New version: [1.1.9] Old Version: [1.1.8]
+[2024-05-16 04:10:16] INFO root fetch - processPackages [seven-cloudapp-frame]: Downloading https://files.pythonhosted.org/packages/b9/ca/39a9edf0448dce1557b063b8e2277fb9cfb7583e390be7c95ab7d0ea0641/seven_cloudapp_frame-1.1.8.tar.gz
+[2024-05-16 04:10:16] INFO root fetch - processPackages [stips]: New version: [2.2.1] Old Version: [2.2.0]
+[2024-05-16 04:10:16] INFO root fetch - processPackages [sparse-lmm]: Downloading https://files.pythonhosted.org/packages/6e/62/7fda2b0aabfa80822bbecaeed89e32ce1197427714cfb19352b78cd80c67/sparse-lmm-0.8.tar.gz
+[2024-05-16 04:10:16] INFO root fetch - processPackages [stips]: Downloading https://files.pythonhosted.org/packages/89/c1/c836b8a75111a4ee1ed50fb389ce48e6f3034576d3b3bde07281fdbd0b52/stips-2.2.0.tar.gz
+[2024-05-16 04:10:16] INFO root fetch - processPackages [seven-cloudapp-frame]: Downloading https://files.pythonhosted.org/packages/3c/36/0c224bc89289ec1de22a5c6a2070b6fe931fc13c906476b1e568044096fc/seven_cloudapp_frame-1.1.9.tar.gz
+[2024-05-16 04:10:17] INFO root fetch - processPackages [seven-cloudapp-frame]: executing diffoscope
+[2024-05-16 04:10:17] INFO root fetch - processPackages [seven-cloudapp-frame]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/seven_cloudapp_frame-1.1.8.tar.gz tmp/seven_cloudapp_frame-1.1.9.tar.gz --markdown 20240516/s/seven-cloudapp-frame/1.1.8-1.1.9/README.md --exclude *.pyd
+[2024-05-16 04:10:17] INFO root fetch - processPackages [sparse-lmm]: Downloading https://files.pythonhosted.org/packages/8b/36/beef37edeaad9f4b5613bfed93c61530384f1f0b5f1ef35e262b76007e96/sparse-lmm-0.9.tar.gz
+[2024-05-16 04:10:17] INFO root fetch - processPackages [sparse-lmm]: executing diffoscope
+[2024-05-16 04:10:17] INFO root fetch - processPackages [sparse-lmm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sparse-lmm-0.8.tar.gz tmp/sparse-lmm-0.9.tar.gz --markdown 20240516/s/sparse-lmm/0.8-0.9/README.md --exclude *.pyd
+[2024-05-16 04:10:17] INFO root fetch - processPackages [stips]: Downloading https://files.pythonhosted.org/packages/ed/02/deba65cb97cd71d441aef4df863ff6e94463b8e2bad13b28986a0ac4990e/stips-2.2.1.tar.gz
+[2024-05-16 04:10:17] INFO root fetch - processPackages [sparse-lmm]: Remove: archive file [/home/abi/fetcher/tmp/sparse-lmm-0.8.tar.gz]
+[2024-05-16 04:10:17] INFO root fetch - processPackages [sparse-lmm]: Remove: archive file [/home/abi/fetcher/tmp/sparse-lmm-0.9.tar.gz]
+[2024-05-16 04:10:17] INFO root fetch - main [MainThread]: End processing [sparse-lmm]: success
+[2024-05-16 04:10:18] INFO root fetch - processPackages [seven-cloudapp-frame]: Remove: archive file [/home/abi/fetcher/tmp/seven_cloudapp_frame-1.1.8.tar.gz]
+[2024-05-16 04:10:18] INFO root fetch - processPackages [seven-cloudapp-frame]: Remove: archive file [/home/abi/fetcher/tmp/seven_cloudapp_frame-1.1.9.tar.gz]
+[2024-05-16 04:10:18] INFO root fetch - main [MainThread]: End processing [seven-cloudapp-frame]: success
+[2024-05-16 04:10:18] INFO root fetch - processPackages [stips]: executing diffoscope
+[2024-05-16 04:10:18] INFO root fetch - processPackages [stips]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stips-2.2.0.tar.gz tmp/stips-2.2.1.tar.gz --markdown 20240516/s/stips/2.2.0-2.2.1/README.md --exclude *.pyd
+[2024-05-16 04:10:19] INFO root fetch - processPackages [stips]: Remove: archive file [/home/abi/fetcher/tmp/stips-2.2.0.tar.gz]
+[2024-05-16 04:10:19] INFO root fetch - processPackages [stips]: Remove: archive file [/home/abi/fetcher/tmp/stips-2.2.1.tar.gz]
+[2024-05-16 04:10:19] INFO root fetch - main [MainThread]: End processing [stips]: success
+[2024-05-16 04:10:19] INFO root fetch - main [MainThread]: Store serial: [23228566]
