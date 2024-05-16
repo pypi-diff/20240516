@@ -12038,3 +12038,33 @@ EOFError: EOF read where object expected
 [2024-05-16 07:30:58] INFO root fetch - processPackages [wherobots-python-dbapi]: Remove: archive file [/home/abi/fetcher/tmp/wherobots_python_dbapi-0.5.3.tar.gz]
 [2024-05-16 07:30:58] INFO root fetch - main [MainThread]: End processing [wherobots-python-dbapi]: success
 [2024-05-16 07:30:58] INFO root fetch - main [MainThread]: Store serial: [23229724]
+[2024-05-16 07:33:02] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23229724]
+[2024-05-16 07:33:07] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-16 07:33:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: shopware-api-client
+[2024-05-16 07:33:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: gwml
+[2024-05-16 07:33:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: tflite-runtime-nightly
+[2024-05-16 07:33:07] INFO root fetch - processPackages [gwml]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-16 07:33:07] INFO root fetch - processPackages [shopware-api-client]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-05-16 07:33:07] INFO root fetch - processPackages [shopware-api-client]: Downloading https://files.pythonhosted.org/packages/b7/0f/6c9dc02510fb7785f1be2822ab641b54bf44cf6cb4df1763cdba560cc69b/shopware_api_client-1.0.8.tar.gz
+[2024-05-16 07:33:07] INFO root fetch - processPackages [gwml]: Downloading https://files.pythonhosted.org/packages/f4/0a/7cfe1eee709608ee238b66cf1d56776dd48246253714e1fcc82f06bcad28/gwml-0.0.8-py3-none-any.whl
+[2024-05-16 07:33:07] INFO root fetch - processPackages [shopware-api-client]: Downloading https://files.pythonhosted.org/packages/71/6c/c42b67ee3d6f04c8e4203f50b963d759982a0c08ac17865980b8cf805393/shopware_api_client-1.0.9.tar.gz
+[2024-05-16 07:33:08] INFO root fetch - processPackages [gwml]: Downloading https://files.pythonhosted.org/packages/32/aa/14209e89a634e3b505ccc9df1eb30913fc8651b31052ae6f251d50580169/gwml-0.0.9-py3-none-any.whl
+[2024-05-16 07:33:08] INFO root fetch - processPackages [tflite-runtime-nightly]: New version: [2.17.0.dev20240515] Old Version: [2.17.0.dev20240514]
+[2024-05-16 07:33:08] INFO root fetch - processPackages [shopware-api-client]: executing diffoscope
+[2024-05-16 07:33:08] INFO root fetch - processPackages [shopware-api-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/shopware_api_client-1.0.8.tar.gz tmp/shopware_api_client-1.0.9.tar.gz --markdown 20240516/s/shopware-api-client/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-05-16 07:33:08] INFO root fetch - processPackages [gwml]: executing diffoscope
+[2024-05-16 07:33:08] INFO root fetch - processPackages [gwml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gwml-0.0.8-py3-none-any.whl.zip tmp/gwml-0.0.9-py3-none-any.whl.zip --markdown 20240516/g/gwml/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-16 07:33:08] INFO root fetch - processPackages [tflite-runtime-nightly]: Downloading https://files.pythonhosted.org/packages/17/f6/3aa9a0f214b9dea5a385463ceaec800aaa4bffe916566410e59109191df1/tflite_runtime_nightly-2.17.0.dev20240514-cp39-cp39-manylinux_2_34_armv7l.whl
+[2024-05-16 07:33:08] INFO root fetch - processPackages [gwml]: Remove: archive file [/home/abi/fetcher/tmp/gwml-0.0.8-py3-none-any.whl.zip]
+[2024-05-16 07:33:08] INFO root fetch - processPackages [gwml]: Remove: archive file [/home/abi/fetcher/tmp/gwml-0.0.9-py3-none-any.whl.zip]
+[2024-05-16 07:33:08] INFO root fetch - main [MainThread]: End processing [gwml]: success
+[2024-05-16 07:33:08] INFO root fetch - processPackages [tflite-runtime-nightly]: Downloading https://files.pythonhosted.org/packages/df/5e/b4ac676759ab3807d43b094c690d88968ca389dde457b66f1cec52069250/tflite_runtime_nightly-2.17.0.dev20240515-cp311-cp311-manylinux_2_34_aarch64.whl
+[2024-05-16 07:33:08] INFO root fetch - processPackages [shopware-api-client]: Remove: archive file [/home/abi/fetcher/tmp/shopware_api_client-1.0.8.tar.gz]
+[2024-05-16 07:33:08] INFO root fetch - processPackages [shopware-api-client]: Remove: archive file [/home/abi/fetcher/tmp/shopware_api_client-1.0.9.tar.gz]
+[2024-05-16 07:33:08] INFO root fetch - main [MainThread]: End processing [shopware-api-client]: success
+[2024-05-16 07:33:10] INFO root fetch - processPackages [tflite-runtime-nightly]: executing diffoscope
+[2024-05-16 07:33:10] INFO root fetch - processPackages [tflite-runtime-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tflite_runtime_nightly-2.17.0.dev20240514-cp39-cp39-manylinux_2_34_armv7l.whl.zip tmp/tflite_runtime_nightly-2.17.0.dev20240515-cp311-cp311-manylinux_2_34_aarch64.whl.zip --markdown 20240516/t/tflite-runtime-nightly/2.17.0.dev20240514-2.17.0.dev20240515/README.md --exclude *.pyd
+[2024-05-16 07:33:38] INFO root fetch - processPackages [tflite-runtime-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tflite_runtime_nightly-2.17.0.dev20240514-cp39-cp39-manylinux_2_34_armv7l.whl.zip]
+[2024-05-16 07:33:38] INFO root fetch - processPackages [tflite-runtime-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tflite_runtime_nightly-2.17.0.dev20240515-cp311-cp311-manylinux_2_34_aarch64.whl.zip]
+[2024-05-16 07:33:38] INFO root fetch - main [MainThread]: End processing [tflite-runtime-nightly]: success
+[2024-05-16 07:33:38] INFO root fetch - main [MainThread]: Store serial: [23229734]
