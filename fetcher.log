@@ -12985,3 +12985,42 @@ EOFError: EOF read where object expected
 [2024-05-16 08:20:32] INFO root fetch - processPackages [appmesh]: Remove: archive file [/home/abi/fetcher/tmp/appmesh-0.9.8-py3-none-any.whl.zip]
 [2024-05-16 08:20:32] INFO root fetch - main [MainThread]: End processing [appmesh]: success
 [2024-05-16 08:20:32] INFO root fetch - main [MainThread]: Store serial: [23230114]
+[2024-05-16 08:22:36] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23230114]
+[2024-05-16 08:22:41] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-16 08:22:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: w3ml
+[2024-05-16 08:22:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: alita-tools
+[2024-05-16 08:22:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: visualgo
+[2024-05-16 08:22:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: osw
+[2024-05-16 08:22:41] INFO root fetch - processPackages [w3ml]: New version: [2024.5.16rc9] Old Version: [2024.5.16rc8]
+[2024-05-16 08:22:41] INFO root fetch - processPackages [w3ml]: Downloading https://files.pythonhosted.org/packages/0a/76/18ebc29387168dc24fd9b849499181af787470dd8182fb29f010cd12711b/w3ml-2024.5.16rc8.tar.gz
+[2024-05-16 08:22:41] INFO root fetch - processPackages [alita-tools]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-16 08:22:41] INFO root fetch - processPackages [visualgo]: New version: [2024.5.16] Old Version: [2024.5.15]
+[2024-05-16 08:22:41] INFO root fetch - processPackages [osw]: New version: [0.9.0] Old Version: [0.8.1]
+[2024-05-16 08:22:41] INFO root fetch - processPackages [alita-tools]: Downloading https://files.pythonhosted.org/packages/11/7e/f89b7d2fb29b664d4a1b772c0a8757857534dc4981d9d9547b1410352f8b/alita_tools-0.0.8.tar.gz
+[2024-05-16 08:22:41] INFO root fetch - processPackages [visualgo]: Downloading https://files.pythonhosted.org/packages/1c/13/29f449ece54e824338a50c277f2877602e1fa9bdfaf1ce76d530a9f0a248/visualgo-2024.5.15.tar.gz
+[2024-05-16 08:22:41] INFO root fetch - processPackages [w3ml]: Downloading https://files.pythonhosted.org/packages/18/c6/24d5ae84a84c4d9d240d46be76cda0db5253c4b3423fb3ef2b37f55ef961/w3ml-2024.5.16rc9.tar.gz
+[2024-05-16 08:22:41] INFO root fetch - processPackages [osw]: Downloading https://files.pythonhosted.org/packages/26/a8/326700e2a6461b1445964baa8f725eaa49b86e7d01b90acfe28e9cd8dd9c/osw-0.8.1.tar.gz
+[2024-05-16 08:22:41] INFO root fetch - processPackages [w3ml]: executing diffoscope
+[2024-05-16 08:22:41] INFO root fetch - processPackages [w3ml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/w3ml-2024.5.16rc8.tar.gz tmp/w3ml-2024.5.16rc9.tar.gz --markdown 20240516/w/w3ml/2024.5.16rc8-2024.5.16rc9/README.md --exclude *.pyd
+[2024-05-16 08:22:41] INFO root fetch - processPackages [alita-tools]: Downloading https://files.pythonhosted.org/packages/b2/e0/efa7908f0bf622856778acf50ffea9fd834a7e4b47167ee967dc96ba217d/alita_tools-0.0.9.tar.gz
+[2024-05-16 08:22:41] INFO root fetch - processPackages [visualgo]: Downloading https://files.pythonhosted.org/packages/5a/7a/cfc52e2fdd69412a48c121ee68c5bc268abed06e8a3b291d916b5f2ba978/visualgo-2024.5.16.tar.gz
+[2024-05-16 08:22:41] INFO root fetch - processPackages [visualgo]: executing diffoscope
+[2024-05-16 08:22:41] INFO root fetch - processPackages [visualgo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/visualgo-2024.5.15.tar.gz tmp/visualgo-2024.5.16.tar.gz --markdown 20240516/v/visualgo/2024.5.15-2024.5.16/README.md --exclude *.pyd
+[2024-05-16 08:22:42] INFO root fetch - processPackages [alita-tools]: executing diffoscope
+[2024-05-16 08:22:42] INFO root fetch - processPackages [alita-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alita_tools-0.0.8.tar.gz tmp/alita_tools-0.0.9.tar.gz --markdown 20240516/a/alita-tools/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-16 08:22:42] INFO root fetch - processPackages [osw]: Downloading https://files.pythonhosted.org/packages/13/cc/74dd2c87432fecad0abe454330808f96c0eb0589faea2daeb46dd621947a/osw-0.9.0.tar.gz
+[2024-05-16 08:22:42] INFO root fetch - processPackages [w3ml]: Remove: archive file [/home/abi/fetcher/tmp/w3ml-2024.5.16rc8.tar.gz]
+[2024-05-16 08:22:42] INFO root fetch - processPackages [w3ml]: Remove: archive file [/home/abi/fetcher/tmp/w3ml-2024.5.16rc9.tar.gz]
+[2024-05-16 08:22:42] INFO root fetch - main [MainThread]: End processing [w3ml]: success
+[2024-05-16 08:22:42] INFO root fetch - processPackages [alita-tools]: Remove: archive file [/home/abi/fetcher/tmp/alita_tools-0.0.8.tar.gz]
+[2024-05-16 08:22:42] INFO root fetch - processPackages [alita-tools]: Remove: archive file [/home/abi/fetcher/tmp/alita_tools-0.0.9.tar.gz]
+[2024-05-16 08:22:42] INFO root fetch - main [MainThread]: End processing [alita-tools]: success
+[2024-05-16 08:22:42] INFO root fetch - processPackages [osw]: executing diffoscope
+[2024-05-16 08:22:42] INFO root fetch - processPackages [osw]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/osw-0.8.1.tar.gz tmp/osw-0.9.0.tar.gz --markdown 20240516/o/osw/0.8.1-0.9.0/README.md --exclude *.pyd
+[2024-05-16 08:22:42] INFO root fetch - processPackages [visualgo]: Remove: archive file [/home/abi/fetcher/tmp/visualgo-2024.5.15.tar.gz]
+[2024-05-16 08:22:42] INFO root fetch - processPackages [visualgo]: Remove: archive file [/home/abi/fetcher/tmp/visualgo-2024.5.16.tar.gz]
+[2024-05-16 08:22:42] INFO root fetch - main [MainThread]: End processing [visualgo]: success
+[2024-05-16 08:22:43] INFO root fetch - processPackages [osw]: Remove: archive file [/home/abi/fetcher/tmp/osw-0.8.1.tar.gz]
+[2024-05-16 08:22:43] INFO root fetch - processPackages [osw]: Remove: archive file [/home/abi/fetcher/tmp/osw-0.9.0.tar.gz]
+[2024-05-16 08:22:43] INFO root fetch - main [MainThread]: End processing [osw]: success
+[2024-05-16 08:22:43] INFO root fetch - main [MainThread]: Store serial: [23230126]
