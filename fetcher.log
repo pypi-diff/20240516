@@ -13886,3 +13886,36 @@ EOFError: EOF read where object expected
 [2024-05-16 09:08:24] INFO root fetch - processPackages [azureml-rag]: Remove: archive file [/home/abi/fetcher/tmp/azureml_rag-0.2.9-py3-none-any.whl.zip]
 [2024-05-16 09:08:24] INFO root fetch - main [MainThread]: End processing [azureml-rag]: success
 [2024-05-16 09:08:24] INFO root fetch - main [MainThread]: Store serial: [23230488]
+[2024-05-16 09:10:27] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23230488]
+[2024-05-16 09:10:32] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-16 09:10:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: geotifflib
+[2024-05-16 09:10:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: nonebot-plugin-sparkapi
+[2024-05-16 09:10:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: bilbyai-quant
+[2024-05-16 09:10:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: bilbyai-source-label-map
+[2024-05-16 09:10:32] INFO root fetch - processPackages [nonebot-plugin-sparkapi]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-05-16 09:10:32] INFO root fetch - processPackages [geotifflib]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-05-16 09:10:32] INFO root fetch - processPackages [bilbyai-source-label-map]: New version: [0.2.4] Old Version: [0.2.3]
+[2024-05-16 09:10:33] WARNING root fetch - processPackages [bilbyai-quant]: Skipping, unable to determine old version
+[2024-05-16 09:10:33] INFO root fetch - main [MainThread]: End processing [bilbyai-quant] error
+[2024-05-16 09:10:33] INFO root fetch - processPackages [nonebot-plugin-sparkapi]: Downloading https://files.pythonhosted.org/packages/f7/a7/c7ab32f8ebbfebb29e1f350e2217cdc35a953053ff477fe42549215ce8a2/nonebot_plugin_sparkapi-1.0.8.tar.gz
+[2024-05-16 09:10:33] INFO root fetch - processPackages [bilbyai-source-label-map]: Downloading https://files.pythonhosted.org/packages/c9/20/34271cf574c3306c903f5fa3fb324078cba3842aef497aa00f9ac05e1560/bilbyai_source_label_map-0.2.3.tar.gz
+[2024-05-16 09:10:33] INFO root fetch - processPackages [geotifflib]: Downloading https://files.pythonhosted.org/packages/b9/92/b8dbb24293bfcfd4172ccd85dda5f2871cc320cbe6bc72ba245b9e967b7f/geotifflib-0.0.1.tar.gz
+[2024-05-16 09:10:33] INFO root fetch - processPackages [bilbyai-source-label-map]: Downloading https://files.pythonhosted.org/packages/ff/13/56dae3b7eefeb809bb670175b4dc672a6825e8a8fbc69a635b834c86c193/bilbyai_source_label_map-0.2.4.tar.gz
+[2024-05-16 09:10:33] INFO root fetch - processPackages [nonebot-plugin-sparkapi]: Downloading https://files.pythonhosted.org/packages/c6/13/f0e875e54fd95200c623a5eba48618d69a995d87db99efd16b383d91d317/nonebot_plugin_sparkapi-1.0.9.tar.gz
+[2024-05-16 09:10:33] INFO root fetch - processPackages [geotifflib]: Downloading https://files.pythonhosted.org/packages/a3/15/1f5bcd75287b15282ec452f4f81934880e38a99a15ad3cb91bb04de72d7e/geotifflib-0.0.2.tar.gz
+[2024-05-16 09:10:33] INFO root fetch - processPackages [bilbyai-source-label-map]: executing diffoscope
+[2024-05-16 09:10:33] INFO root fetch - processPackages [bilbyai-source-label-map]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bilbyai_source_label_map-0.2.3.tar.gz tmp/bilbyai_source_label_map-0.2.4.tar.gz --markdown 20240516/b/bilbyai-source-label-map/0.2.3-0.2.4/README.md --exclude *.pyd
+[2024-05-16 09:10:33] INFO root fetch - processPackages [nonebot-plugin-sparkapi]: executing diffoscope
+[2024-05-16 09:10:33] INFO root fetch - processPackages [nonebot-plugin-sparkapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot_plugin_sparkapi-1.0.8.tar.gz tmp/nonebot_plugin_sparkapi-1.0.9.tar.gz --markdown 20240516/n/nonebot-plugin-sparkapi/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-05-16 09:10:33] INFO root fetch - processPackages [geotifflib]: executing diffoscope
+[2024-05-16 09:10:33] INFO root fetch - processPackages [geotifflib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/geotifflib-0.0.1.tar.gz tmp/geotifflib-0.0.2.tar.gz --markdown 20240516/g/geotifflib/0.0.1-0.0.2/README.md --exclude *.pyd
+[2024-05-16 09:10:34] INFO root fetch - processPackages [bilbyai-source-label-map]: Remove: archive file [/home/abi/fetcher/tmp/bilbyai_source_label_map-0.2.3.tar.gz]
+[2024-05-16 09:10:34] INFO root fetch - processPackages [bilbyai-source-label-map]: Remove: archive file [/home/abi/fetcher/tmp/bilbyai_source_label_map-0.2.4.tar.gz]
+[2024-05-16 09:10:34] INFO root fetch - main [MainThread]: End processing [bilbyai-source-label-map]: success
+[2024-05-16 09:10:34] INFO root fetch - processPackages [geotifflib]: Remove: archive file [/home/abi/fetcher/tmp/geotifflib-0.0.1.tar.gz]
+[2024-05-16 09:10:34] INFO root fetch - processPackages [geotifflib]: Remove: archive file [/home/abi/fetcher/tmp/geotifflib-0.0.2.tar.gz]
+[2024-05-16 09:10:34] INFO root fetch - main [MainThread]: End processing [geotifflib]: success
+[2024-05-16 09:10:34] INFO root fetch - processPackages [nonebot-plugin-sparkapi]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_sparkapi-1.0.8.tar.gz]
+[2024-05-16 09:10:34] INFO root fetch - processPackages [nonebot-plugin-sparkapi]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_sparkapi-1.0.9.tar.gz]
+[2024-05-16 09:10:34] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-sparkapi]: success
+[2024-05-16 09:10:34] INFO root fetch - main [MainThread]: Store serial: [23230501]
