@@ -4363,3 +4363,60 @@ AssertionError: tmp/hygpytools-0.2.0.tar.gz does not exist
 [2024-05-16 02:26:44] INFO root fetch - processPackages [spaceone-inventory]: Remove: archive file [/home/abi/fetcher/tmp/spaceone-inventory-2.0.dev99.tar.gz]
 [2024-05-16 02:26:44] INFO root fetch - main [MainThread]: End processing [spaceone-inventory]: success
 [2024-05-16 02:26:44] INFO root fetch - main [MainThread]: Store serial: [23226862]
+[2024-05-16 02:28:48] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23226862]
+[2024-05-16 02:28:53] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-16 02:28:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: rustitude
+[2024-05-16 02:28:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: nvidia-tao-client
+[2024-05-16 02:28:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cdk-gitlab-runner
+[2024-05-16 02:28:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cdk-certbot-dns-route53
+[2024-05-16 02:28:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: streamlit-screen-stats
+[2024-05-16 02:28:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: cdk-aurora-globaldatabase
+[2024-05-16 02:28:53] INFO root fetch - processPackages [rustitude]: New version: [0.4.2] Old Version: [0.4.0]
+[2024-05-16 02:28:53] INFO root fetch - processPackages [nvidia-tao-client]: New version: [5.3.0] Old Version: [5.2.1.dev0]
+[2024-05-16 02:28:53] INFO root fetch - processPackages [streamlit-screen-stats]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-16 02:28:53] INFO root fetch - processPackages [cdk-certbot-dns-route53]: New version: [2.4.99] Old Version: [2.4.98]
+[2024-05-16 02:28:53] INFO root fetch - processPackages [cdk-gitlab-runner]: New version: [2.2.99] Old Version: [2.2.98]
+[2024-05-16 02:28:53] INFO root fetch - processPackages [cdk-aurora-globaldatabase]: New version: [2.3.99] Old Version: [2.3.98]
+[2024-05-16 02:28:53] INFO root fetch - processPackages [streamlit-screen-stats]: Downloading https://files.pythonhosted.org/packages/b5/f3/ffa1db6a0713ba6b2fc4ac5b1e057f98d7180131b56db9b54f5e09b8ea3d/streamlit-screen-stats-0.0.8.tar.gz
+[2024-05-16 02:28:53] INFO root fetch - processPackages [rustitude]: Downloading https://files.pythonhosted.org/packages/00/cf/e06748f052ae92047277c4030a032affff2b65446b589ef45a0edc6aaedf/rustitude-0.4.0.tar.gz
+[2024-05-16 02:28:53] INFO root fetch - processPackages [cdk-gitlab-runner]: Downloading https://files.pythonhosted.org/packages/07/29/9f2cc8590770873b6073743e94ff15a2a7913eb0de3e6a4d2fc133008f62/cdk-gitlab-runner-2.2.98.tar.gz
+[2024-05-16 02:28:53] INFO root fetch - processPackages [cdk-certbot-dns-route53]: Downloading https://files.pythonhosted.org/packages/7d/4d/b1cb6c8586d736f490cc5099e0220282aadb28d3aefc028cf88e6a183b06/cdk-certbot-dns-route53-2.4.98.tar.gz
+[2024-05-16 02:28:54] INFO root fetch - processPackages [cdk-aurora-globaldatabase]: Downloading https://files.pythonhosted.org/packages/e4/39/e997b5acac972df8d777c4a4ad6dfd9f51e03e75fc8e23c973a7772267d5/cdk-aurora-globaldatabase-2.3.98.tar.gz
+[2024-05-16 02:28:54] INFO root fetch - processPackages [nvidia-tao-client]: Downloading https://files.pythonhosted.org/packages/4a/25/058de044b80310def6848f90c5877527fe164f752c5db8db1ef17cce3a0f/nvidia_tao_client-5.2.1.dev0-py3-none-any.whl
+[2024-05-16 02:28:54] INFO root fetch - processPackages [rustitude]: Downloading https://files.pythonhosted.org/packages/60/dd/9ca4de7267610ebe2aa129f92717cd8ac8f2442d827cfbe360603950c45e/rustitude-0.4.2.tar.gz
+[2024-05-16 02:28:54] INFO root fetch - processPackages [cdk-certbot-dns-route53]: Downloading https://files.pythonhosted.org/packages/28/81/76f66486f9d6f5aee6f787bb13f11ab8012414fd95d10756b575fd69b909/cdk-certbot-dns-route53-2.4.99.tar.gz
+[2024-05-16 02:28:54] INFO root fetch - processPackages [streamlit-screen-stats]: Downloading https://files.pythonhosted.org/packages/47/c1/551994788e8d7fbca93c51782419b6f14c5db12208b833677955f6412aab/streamlit-screen-stats-0.0.9.tar.gz
+[2024-05-16 02:28:54] INFO root fetch - processPackages [cdk-gitlab-runner]: Downloading https://files.pythonhosted.org/packages/16/61/e9f00b4e877a6352bd641de360f7577c27548fbcedc3aab19b1cf3852b9a/cdk-gitlab-runner-2.2.99.tar.gz
+[2024-05-16 02:28:54] INFO root fetch - processPackages [cdk-aurora-globaldatabase]: Downloading https://files.pythonhosted.org/packages/51/53/0158facaec2becec86707148eb931de78a7ad1c2b63f80b9911a53e4c17b/cdk-aurora-globaldatabase-2.3.99.tar.gz
+[2024-05-16 02:28:54] INFO root fetch - processPackages [rustitude]: executing diffoscope
+[2024-05-16 02:28:54] INFO root fetch - processPackages [rustitude]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rustitude-0.4.0.tar.gz tmp/rustitude-0.4.2.tar.gz --markdown 20240516/r/rustitude/0.4.0-0.4.2/README.md --exclude *.pyd
+[2024-05-16 02:28:54] INFO root fetch - processPackages [cdk-certbot-dns-route53]: executing diffoscope
+[2024-05-16 02:28:54] INFO root fetch - processPackages [cdk-certbot-dns-route53]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-certbot-dns-route53-2.4.98.tar.gz tmp/cdk-certbot-dns-route53-2.4.99.tar.gz --markdown 20240516/c/cdk-certbot-dns-route53/2.4.98-2.4.99/README.md --exclude *.pyd
+[2024-05-16 02:28:54] INFO root fetch - processPackages [cdk-aurora-globaldatabase]: executing diffoscope
+[2024-05-16 02:28:54] INFO root fetch - processPackages [cdk-aurora-globaldatabase]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-aurora-globaldatabase-2.3.98.tar.gz tmp/cdk-aurora-globaldatabase-2.3.99.tar.gz --markdown 20240516/c/cdk-aurora-globaldatabase/2.3.98-2.3.99/README.md --exclude *.pyd
+[2024-05-16 02:28:54] INFO root fetch - processPackages [cdk-gitlab-runner]: executing diffoscope
+[2024-05-16 02:28:54] INFO root fetch - processPackages [cdk-gitlab-runner]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-gitlab-runner-2.2.98.tar.gz tmp/cdk-gitlab-runner-2.2.99.tar.gz --markdown 20240516/c/cdk-gitlab-runner/2.2.98-2.2.99/README.md --exclude *.pyd
+[2024-05-16 02:28:54] INFO root fetch - processPackages [streamlit-screen-stats]: executing diffoscope
+[2024-05-16 02:28:54] INFO root fetch - processPackages [streamlit-screen-stats]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/streamlit-screen-stats-0.0.8.tar.gz tmp/streamlit-screen-stats-0.0.9.tar.gz --markdown 20240516/s/streamlit-screen-stats/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-16 02:28:54] INFO root fetch - processPackages [nvidia-tao-client]: Downloading https://files.pythonhosted.org/packages/45/9d/8e585ab7507c6d3d0f23a2674150f8b8ea38daf11eeec5b646cd27e83e8d/nvidia_tao_client-5.3.0-py3-none-any.whl
+[2024-05-16 02:28:54] INFO root fetch - processPackages [nvidia-tao-client]: executing diffoscope
+[2024-05-16 02:28:54] INFO root fetch - processPackages [nvidia-tao-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nvidia_tao_client-5.2.1.dev0-py3-none-any.whl.zip tmp/nvidia_tao_client-5.3.0-py3-none-any.whl.zip --markdown 20240516/n/nvidia-tao-client/5.2.1.dev0-5.3.0/README.md --exclude *.pyd
+[2024-05-16 02:28:55] INFO root fetch - processPackages [cdk-aurora-globaldatabase]: Remove: archive file [/home/abi/fetcher/tmp/cdk-aurora-globaldatabase-2.3.98.tar.gz]
+[2024-05-16 02:28:55] INFO root fetch - processPackages [cdk-aurora-globaldatabase]: Remove: archive file [/home/abi/fetcher/tmp/cdk-aurora-globaldatabase-2.3.99.tar.gz]
+[2024-05-16 02:28:55] INFO root fetch - main [MainThread]: End processing [cdk-aurora-globaldatabase]: success
+[2024-05-16 02:28:55] INFO root fetch - processPackages [cdk-certbot-dns-route53]: Remove: archive file [/home/abi/fetcher/tmp/cdk-certbot-dns-route53-2.4.98.tar.gz]
+[2024-05-16 02:28:55] INFO root fetch - processPackages [cdk-certbot-dns-route53]: Remove: archive file [/home/abi/fetcher/tmp/cdk-certbot-dns-route53-2.4.99.tar.gz]
+[2024-05-16 02:28:55] INFO root fetch - main [MainThread]: End processing [cdk-certbot-dns-route53]: success
+[2024-05-16 02:28:55] INFO root fetch - processPackages [rustitude]: Remove: archive file [/home/abi/fetcher/tmp/rustitude-0.4.0.tar.gz]
+[2024-05-16 02:28:55] INFO root fetch - processPackages [rustitude]: Remove: archive file [/home/abi/fetcher/tmp/rustitude-0.4.2.tar.gz]
+[2024-05-16 02:28:55] INFO root fetch - main [MainThread]: End processing [rustitude]: success
+[2024-05-16 02:28:55] INFO root fetch - processPackages [cdk-gitlab-runner]: Remove: archive file [/home/abi/fetcher/tmp/cdk-gitlab-runner-2.2.98.tar.gz]
+[2024-05-16 02:28:55] INFO root fetch - processPackages [cdk-gitlab-runner]: Remove: archive file [/home/abi/fetcher/tmp/cdk-gitlab-runner-2.2.99.tar.gz]
+[2024-05-16 02:28:55] INFO root fetch - main [MainThread]: End processing [cdk-gitlab-runner]: success
+[2024-05-16 02:28:55] INFO root fetch - processPackages [nvidia-tao-client]: Remove: archive file [/home/abi/fetcher/tmp/nvidia_tao_client-5.2.1.dev0-py3-none-any.whl.zip]
+[2024-05-16 02:28:55] INFO root fetch - processPackages [nvidia-tao-client]: Remove: archive file [/home/abi/fetcher/tmp/nvidia_tao_client-5.3.0-py3-none-any.whl.zip]
+[2024-05-16 02:28:55] INFO root fetch - main [MainThread]: End processing [nvidia-tao-client]: success
+[2024-05-16 02:29:07] INFO root fetch - processPackages [streamlit-screen-stats]: Remove: archive file [/home/abi/fetcher/tmp/streamlit-screen-stats-0.0.8.tar.gz]
+[2024-05-16 02:29:07] INFO root fetch - processPackages [streamlit-screen-stats]: Remove: archive file [/home/abi/fetcher/tmp/streamlit-screen-stats-0.0.9.tar.gz]
+[2024-05-16 02:29:07] INFO root fetch - main [MainThread]: End processing [streamlit-screen-stats]: success
+[2024-05-16 02:29:07] INFO root fetch - main [MainThread]: Store serial: [23226896]
