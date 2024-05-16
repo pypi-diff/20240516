@@ -12681,3 +12681,56 @@ EOFError: EOF read where object expected
 [2024-05-16 08:04:26] INFO root fetch - processPackages [urllib3-future]: Remove: archive file [/home/abi/fetcher/tmp/urllib3_future-2.7.908.tar.gz]
 [2024-05-16 08:04:26] INFO root fetch - main [MainThread]: End processing [urllib3-future]: success
 [2024-05-16 08:04:26] INFO root fetch - main [MainThread]: Store serial: [23230011]
+[2024-05-16 08:06:30] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23230011]
+[2024-05-16 08:06:35] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-16 08:06:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: antchain-ak-55afdde95cc7448bad87a98d904c1f44
+[2024-05-16 08:06:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mentabotix
+[2024-05-16 08:06:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: newguy103-syncserver
+[2024-05-16 08:06:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: litellm
+[2024-05-16 08:06:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: fcs-core-model-engine
+[2024-05-16 08:06:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: dumang-ctrl
+[2024-05-16 08:06:35] INFO root fetch - processPackages [newguy103-syncserver]: New version: [1.1.1] Old Version: [1.1.0]
+[2024-05-16 08:06:35] INFO root fetch - processPackages [litellm]: New version: [1.9.dev0] Old Version: [1.9.5]
+[2024-05-16 08:06:35] INFO root fetch - processPackages [antchain-ak-55afdde95cc7448bad87a98d904c1f44]: New version: [1.0.1] Old Version: [1.0.0]
+[2024-05-16 08:06:35] INFO root fetch - processPackages [dumang-ctrl]: New version: [1.0.5] Old Version: [1.0.4]
+[2024-05-16 08:06:35] INFO root fetch - processPackages [mentabotix]: New version: [0.1.4] Old Version: [0.1.3a5]
+[2024-05-16 08:06:35] INFO root fetch - processPackages [fcs-core-model-engine]: New version: [0.9.9] Old Version: [0.9.8]
+[2024-05-16 08:06:35] INFO root fetch - processPackages [litellm]: Downloading https://files.pythonhosted.org/packages/38/f3/1cbeaf4074e7b284cd140263ff165948d8f4cc8f5dd72c89be43a0469387/litellm-1.9.5.tar.gz
+[2024-05-16 08:06:35] INFO root fetch - processPackages [newguy103-syncserver]: Downloading https://files.pythonhosted.org/packages/1f/ef/161dc1d992831f361718020074b97e6f0db976c7d6feadbfdaff90f49665/newguy103-syncserver-1.1.0.tar.gz
+[2024-05-16 08:06:35] INFO root fetch - processPackages [antchain-ak-55afdde95cc7448bad87a98d904c1f44]: Downloading https://files.pythonhosted.org/packages/e3/4a/e3c5c1f5c82f041bea431605ffd2d05e9a3ea8c189c0f750153267211def/antchain_ak_55afdde95cc7448bad87a98d904c1f44-1.0.0.tar.gz
+[2024-05-16 08:06:35] INFO root fetch - processPackages [mentabotix]: Downloading https://files.pythonhosted.org/packages/89/d4/26c4a396c863797b5e765423d33b51b7f764f267803c4b5a72884fe41a51/mentabotix-0.1.3a5.tar.gz
+[2024-05-16 08:06:35] INFO root fetch - processPackages [dumang-ctrl]: Downloading https://files.pythonhosted.org/packages/e6/b8/0767ba6c8fca4c4a578e733100faf144e959a8d26743b10f22b87d82e855/dumang_ctrl-1.0.4.tar.gz
+[2024-05-16 08:06:35] INFO root fetch - processPackages [fcs-core-model-engine]: Downloading https://files.pythonhosted.org/packages/07/13/1bfd22b4856ececf0ac95b3ecf79b61e12c4b44ffbb7effbaae9b5c0e5c5/fcs_core_model_engine-0.9.8-py3-none-win_amd64.whl
+[2024-05-16 08:06:35] WARNING root fetch - processPackages [fcs-core-model-engine]: Skipping package: exceeds size limit 25252979>=10485760
+[2024-05-16 08:06:35] INFO root fetch - main [MainThread]: End processing [fcs-core-model-engine] error
+[2024-05-16 08:06:35] INFO root fetch - processPackages [litellm]: Downloading https://files.pythonhosted.org/packages/ad/6c/162b83e9cf68f5a94c30153e835414c3ee11c8602ffaacc9a032851dfa26/litellm-1.9.dev0.tar.gz
+[2024-05-16 08:06:36] INFO root fetch - processPackages [newguy103-syncserver]: Downloading https://files.pythonhosted.org/packages/62/2c/1ea960a6ccea547fc7d29eaf955ebcca422720d4e12adca747375b605672/newguy103-syncserver-1.1.1.tar.gz
+[2024-05-16 08:06:36] INFO root fetch - processPackages [dumang-ctrl]: Downloading https://files.pythonhosted.org/packages/17/bf/e8bebe3c623ca19ce3a05da6124cfa8c33f8846863565b6d1356e436dcde/dumang_ctrl-1.0.5.tar.gz
+[2024-05-16 08:06:36] INFO root fetch - processPackages [antchain-ak-55afdde95cc7448bad87a98d904c1f44]: Downloading https://files.pythonhosted.org/packages/40/3d/5ab420460ff854c58230fe8fa6ff2e15704567cf16d9ba4797501b7c3cc8/antchain_ak_55afdde95cc7448bad87a98d904c1f44-1.0.1.tar.gz
+[2024-05-16 08:06:36] INFO root fetch - processPackages [mentabotix]: Downloading https://files.pythonhosted.org/packages/98/12/dbd5995d02f834375acf04b2eeb62beb6eb14348227e75e7163ff0d72414/mentabotix-0.1.4.tar.gz
+[2024-05-16 08:06:36] INFO root fetch - processPackages [litellm]: executing diffoscope
+[2024-05-16 08:06:36] INFO root fetch - processPackages [litellm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/litellm-1.9.5.tar.gz tmp/litellm-1.9.dev0.tar.gz --markdown 20240516/l/litellm/1.9.5-1.9.dev0/README.md --exclude *.pyd
+[2024-05-16 08:06:36] INFO root fetch - processPackages [dumang-ctrl]: executing diffoscope
+[2024-05-16 08:06:36] INFO root fetch - processPackages [dumang-ctrl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dumang_ctrl-1.0.4.tar.gz tmp/dumang_ctrl-1.0.5.tar.gz --markdown 20240516/d/dumang-ctrl/1.0.4-1.0.5/README.md --exclude *.pyd
+[2024-05-16 08:06:36] INFO root fetch - processPackages [antchain-ak-55afdde95cc7448bad87a98d904c1f44]: executing diffoscope
+[2024-05-16 08:06:36] INFO root fetch - processPackages [antchain-ak-55afdde95cc7448bad87a98d904c1f44]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/antchain_ak_55afdde95cc7448bad87a98d904c1f44-1.0.0.tar.gz tmp/antchain_ak_55afdde95cc7448bad87a98d904c1f44-1.0.1.tar.gz --markdown 20240516/a/antchain-ak-55afdde95cc7448bad87a98d904c1f44/1.0.0-1.0.1/README.md --exclude *.pyd
+[2024-05-16 08:06:36] INFO root fetch - processPackages [newguy103-syncserver]: executing diffoscope
+[2024-05-16 08:06:36] INFO root fetch - processPackages [newguy103-syncserver]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/newguy103-syncserver-1.1.0.tar.gz tmp/newguy103-syncserver-1.1.1.tar.gz --markdown 20240516/n/newguy103-syncserver/1.1.0-1.1.1/README.md --exclude *.pyd
+[2024-05-16 08:06:36] INFO root fetch - processPackages [mentabotix]: executing diffoscope
+[2024-05-16 08:06:36] INFO root fetch - processPackages [mentabotix]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mentabotix-0.1.3a5.tar.gz tmp/mentabotix-0.1.4.tar.gz --markdown 20240516/m/mentabotix/0.1.3a5-0.1.4/README.md --exclude *.pyd
+[2024-05-16 08:06:36] INFO root fetch - processPackages [newguy103-syncserver]: Remove: archive file [/home/abi/fetcher/tmp/newguy103-syncserver-1.1.0.tar.gz]
+[2024-05-16 08:06:36] INFO root fetch - processPackages [newguy103-syncserver]: Remove: archive file [/home/abi/fetcher/tmp/newguy103-syncserver-1.1.1.tar.gz]
+[2024-05-16 08:06:36] INFO root fetch - main [MainThread]: End processing [newguy103-syncserver]: success
+[2024-05-16 08:06:36] INFO root fetch - processPackages [dumang-ctrl]: Remove: archive file [/home/abi/fetcher/tmp/dumang_ctrl-1.0.4.tar.gz]
+[2024-05-16 08:06:36] INFO root fetch - processPackages [dumang-ctrl]: Remove: archive file [/home/abi/fetcher/tmp/dumang_ctrl-1.0.5.tar.gz]
+[2024-05-16 08:06:36] INFO root fetch - main [MainThread]: End processing [dumang-ctrl]: success
+[2024-05-16 08:06:36] INFO root fetch - processPackages [antchain-ak-55afdde95cc7448bad87a98d904c1f44]: Remove: archive file [/home/abi/fetcher/tmp/antchain_ak_55afdde95cc7448bad87a98d904c1f44-1.0.0.tar.gz]
+[2024-05-16 08:06:36] INFO root fetch - processPackages [antchain-ak-55afdde95cc7448bad87a98d904c1f44]: Remove: archive file [/home/abi/fetcher/tmp/antchain_ak_55afdde95cc7448bad87a98d904c1f44-1.0.1.tar.gz]
+[2024-05-16 08:06:36] INFO root fetch - main [MainThread]: End processing [antchain-ak-55afdde95cc7448bad87a98d904c1f44]: success
+[2024-05-16 08:06:37] INFO root fetch - processPackages [mentabotix]: Remove: archive file [/home/abi/fetcher/tmp/mentabotix-0.1.3a5.tar.gz]
+[2024-05-16 08:06:37] INFO root fetch - processPackages [mentabotix]: Remove: archive file [/home/abi/fetcher/tmp/mentabotix-0.1.4.tar.gz]
+[2024-05-16 08:06:37] INFO root fetch - main [MainThread]: End processing [mentabotix]: success
+[2024-05-16 08:06:37] INFO root fetch - processPackages [litellm]: Remove: archive file [/home/abi/fetcher/tmp/litellm-1.9.5.tar.gz]
+[2024-05-16 08:06:37] INFO root fetch - processPackages [litellm]: Remove: archive file [/home/abi/fetcher/tmp/litellm-1.9.dev0.tar.gz]
+[2024-05-16 08:06:37] INFO root fetch - main [MainThread]: End processing [litellm]: success
+[2024-05-16 08:06:37] INFO root fetch - main [MainThread]: Store serial: [23230027]
