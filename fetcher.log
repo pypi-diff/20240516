@@ -10075,3 +10075,66 @@ EOFError: EOF read where object expected
 [2024-05-16 05:03:05] INFO root fetch - main [MainThread]: End processing [NJFU]: success
 [2024-05-16 05:03:05] INFO root fetch - main [MainThread]: End processing [NJFU]: success
 [2024-05-16 05:03:05] INFO root fetch - main [MainThread]: Store serial: [23228938]
+[2024-05-16 05:05:09] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23228938]
+[2024-05-16 05:05:14] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-05-16 05:05:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: NJFU
+[2024-05-16 05:05:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: plsp
+[2024-05-16 05:05:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odoo-addon-account-invoice-fixed-discount
+[2024-05-16 05:05:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: conntextual
+[2024-05-16 05:05:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: msiaLex
+[2024-05-16 05:05:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: hdx-python-scraper
+[2024-05-16 05:05:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: payrex-python
+[2024-05-16 05:05:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: espresso-machine
+[2024-05-16 05:05:14] INFO root fetch - processPackages [odoo-addon-account-invoice-fixed-discount]: New version: [17.0.1.1.0] Old Version: [17.0.1.0.1]
+[2024-05-16 05:05:14] INFO root fetch - processPackages [NJFU]: New version: [0.0.8] Old Version: [0.0.7]
+[2024-05-16 05:05:14] INFO root fetch - processPackages [espresso-machine]: New version: [0.0.114] Old Version: [0.0.113]
+[2024-05-16 05:05:14] INFO root fetch - processPackages [msiaLex]: New version: [0.3.9.9] Old Version: [0.3.9.8]
+[2024-05-16 05:05:14] INFO root fetch - processPackages [hdx-python-scraper]: New version: [2.3.6] Old Version: [2.3.5]
+[2024-05-16 05:05:14] WARNING root fetch - processPackages [plsp]: Skipping, unable to determine old version
+[2024-05-16 05:05:14] INFO root fetch - main [MainThread]: End processing [plsp] error
+[2024-05-16 05:05:14] INFO root fetch - processPackages [conntextual]: New version: [1.3.4] Old Version: [1.3.3]
+[2024-05-16 05:05:14] WARNING root fetch - processPackages [payrex-python]: Skipping, unable to determine old version
+[2024-05-16 05:05:14] INFO root fetch - main [MainThread]: End processing [payrex-python] error
+[2024-05-16 05:05:14] INFO root fetch - processPackages [NJFU]: Downloading https://files.pythonhosted.org/packages/9b/67/76afce92858590366a28fb8712c805b9115554b3350ea3ca5bd1e9295afa/NJFU-0.0.7.tar.gz
+[2024-05-16 05:05:14] INFO root fetch - processPackages [odoo-addon-account-invoice-fixed-discount]: Downloading https://files.pythonhosted.org/packages/5e/22/3e6e878bca332c9d79f031e1ff23da96df4013114f928e7f6e787b0ef8b5/odoo_addon_account_invoice_fixed_discount-17.0.1.0.1-py3-none-any.whl
+[2024-05-16 05:05:14] INFO root fetch - processPackages [espresso-machine]: Downloading https://files.pythonhosted.org/packages/f6/a6/1b54303a4d26d3aa83baf450c5bccd2018ab863ee52759cca788c1e10b0c/espresso_machine-0.0.113.tar.gz
+[2024-05-16 05:05:14] INFO root fetch - processPackages [msiaLex]: Downloading https://files.pythonhosted.org/packages/c5/ce/891c9069a87e6e6401dc74b8abd9f4657378677725c095b8245ac0128d25/msiaLex-0.3.9.8-py3-none-any.whl
+[2024-05-16 05:05:14] INFO root fetch - processPackages [hdx-python-scraper]: Downloading https://files.pythonhosted.org/packages/22/37/9daf037f08b63c0a9285baaff6bcc2ee417a14cbe07a8d5e3ee7cdd5e7c5/hdx_python_scraper-2.3.5.tar.gz
+[2024-05-16 05:05:14] INFO root fetch - processPackages [conntextual]: Downloading https://files.pythonhosted.org/packages/80/04/c7e22bc0bc0dd58fa7ab2c611134d7009474e9f36816d9cb84cbb897059f/conntextual-1.3.3.tar.gz
+[2024-05-16 05:05:14] INFO root fetch - processPackages [odoo-addon-account-invoice-fixed-discount]: Downloading https://files.pythonhosted.org/packages/fe/96/533a87af2c97326ce436cd4742b5605665e14d2525b8cfa6b6f9504755ca/odoo_addon_account_invoice_fixed_discount-17.0.1.1.0-py3-none-any.whl
+[2024-05-16 05:05:14] INFO root fetch - processPackages [msiaLex]: Downloading https://files.pythonhosted.org/packages/24/5a/f7bf90d29e041c7937e9376c760c2331d1ed81d7bfe7b0c72a7406ef0b0b/msiaLex-0.3.9.9-py3-none-any.whl
+[2024-05-16 05:05:14] INFO root fetch - processPackages [NJFU]: Downloading https://files.pythonhosted.org/packages/59/5d/336d114c78a1a895dbbb83d1410c1460d24a62c88d0bffda2530cd4515ad/NJFU-0.0.8.tar.gz
+[2024-05-16 05:05:14] INFO root fetch - processPackages [odoo-addon-account-invoice-fixed-discount]: executing diffoscope
+[2024-05-16 05:05:14] INFO root fetch - processPackages [odoo-addon-account-invoice-fixed-discount]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_account_invoice_fixed_discount-17.0.1.0.1-py3-none-any.whl.zip tmp/odoo_addon_account_invoice_fixed_discount-17.0.1.1.0-py3-none-any.whl.zip --markdown 20240516/o/odoo-addon-account-invoice-fixed-discount/17.0.1.0.1-17.0.1.1.0/README.md --exclude *.pyd
+[2024-05-16 05:05:14] INFO root fetch - processPackages [msiaLex]: executing diffoscope
+[2024-05-16 05:05:14] INFO root fetch - processPackages [msiaLex]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/msiaLex-0.3.9.8-py3-none-any.whl.zip tmp/msiaLex-0.3.9.9-py3-none-any.whl.zip --markdown 20240516/m/msiaLex/0.3.9.8-0.3.9.9/README.md --exclude *.pyd
+[2024-05-16 05:05:14] INFO root fetch - processPackages [NJFU]: executing diffoscope
+[2024-05-16 05:05:14] INFO root fetch - processPackages [NJFU]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/NJFU-0.0.7.tar.gz tmp/NJFU-0.0.8.tar.gz --markdown 20240516/N/NJFU/0.0.7-0.0.8/README.md --exclude *.pyd
+[2024-05-16 05:05:14] INFO root fetch - processPackages [espresso-machine]: Downloading https://files.pythonhosted.org/packages/d9/94/a23648c9ead83458e01f03f9d923578c588c1083ea6e2d1123f4a8ec3637/espresso_machine-0.0.114.tar.gz
+[2024-05-16 05:05:14] INFO root fetch - processPackages [hdx-python-scraper]: Downloading https://files.pythonhosted.org/packages/47/94/45319fd86a4dc6416016de0488badde8415e17007907e2c32f1318800b12/hdx_python_scraper-2.3.6.tar.gz
+[2024-05-16 05:05:15] INFO root fetch - processPackages [conntextual]: Downloading https://files.pythonhosted.org/packages/92/76/55a11fdda5e49646c8fe8294b851127e612a4a9307cdd323e75013c40209/conntextual-1.3.4.tar.gz
+[2024-05-16 05:05:15] INFO root fetch - processPackages [conntextual]: executing diffoscope
+[2024-05-16 05:05:15] INFO root fetch - processPackages [conntextual]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/conntextual-1.3.3.tar.gz tmp/conntextual-1.3.4.tar.gz --markdown 20240516/c/conntextual/1.3.3-1.3.4/README.md --exclude *.pyd
+[2024-05-16 05:05:15] INFO root fetch - processPackages [espresso-machine]: executing diffoscope
+[2024-05-16 05:05:15] INFO root fetch - processPackages [espresso-machine]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/espresso_machine-0.0.113.tar.gz tmp/espresso_machine-0.0.114.tar.gz --markdown 20240516/e/espresso-machine/0.0.113-0.0.114/README.md --exclude *.pyd
+[2024-05-16 05:05:15] INFO root fetch - processPackages [hdx-python-scraper]: executing diffoscope
+[2024-05-16 05:05:15] INFO root fetch - processPackages [hdx-python-scraper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hdx_python_scraper-2.3.5.tar.gz tmp/hdx_python_scraper-2.3.6.tar.gz --markdown 20240516/h/hdx-python-scraper/2.3.5-2.3.6/README.md --exclude *.pyd
+[2024-05-16 05:05:15] INFO root fetch - processPackages [msiaLex]: Remove: archive file [/home/abi/fetcher/tmp/msiaLex-0.3.9.8-py3-none-any.whl.zip]
+[2024-05-16 05:05:15] INFO root fetch - processPackages [msiaLex]: Remove: archive file [/home/abi/fetcher/tmp/msiaLex-0.3.9.9-py3-none-any.whl.zip]
+[2024-05-16 05:05:15] INFO root fetch - main [MainThread]: End processing [msiaLex]: success
+[2024-05-16 05:05:15] INFO root fetch - processPackages [NJFU]: Remove: archive file [/home/abi/fetcher/tmp/NJFU-0.0.7.tar.gz]
+[2024-05-16 05:05:15] INFO root fetch - processPackages [NJFU]: Remove: archive file [/home/abi/fetcher/tmp/NJFU-0.0.8.tar.gz]
+[2024-05-16 05:05:15] INFO root fetch - main [MainThread]: End processing [NJFU]: success
+[2024-05-16 05:05:15] INFO root fetch - processPackages [odoo-addon-account-invoice-fixed-discount]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_account_invoice_fixed_discount-17.0.1.0.1-py3-none-any.whl.zip]
+[2024-05-16 05:05:15] INFO root fetch - processPackages [odoo-addon-account-invoice-fixed-discount]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_account_invoice_fixed_discount-17.0.1.1.0-py3-none-any.whl.zip]
+[2024-05-16 05:05:15] INFO root fetch - main [MainThread]: End processing [odoo-addon-account-invoice-fixed-discount]: success
+[2024-05-16 05:05:15] INFO root fetch - processPackages [conntextual]: Remove: archive file [/home/abi/fetcher/tmp/conntextual-1.3.3.tar.gz]
+[2024-05-16 05:05:15] INFO root fetch - processPackages [conntextual]: Remove: archive file [/home/abi/fetcher/tmp/conntextual-1.3.4.tar.gz]
+[2024-05-16 05:05:15] INFO root fetch - main [MainThread]: End processing [conntextual]: success
+[2024-05-16 05:05:16] INFO root fetch - processPackages [espresso-machine]: Remove: archive file [/home/abi/fetcher/tmp/espresso_machine-0.0.113.tar.gz]
+[2024-05-16 05:05:16] INFO root fetch - processPackages [espresso-machine]: Remove: archive file [/home/abi/fetcher/tmp/espresso_machine-0.0.114.tar.gz]
+[2024-05-16 05:05:16] INFO root fetch - main [MainThread]: End processing [espresso-machine]: success
+[2024-05-16 05:05:17] INFO root fetch - processPackages [hdx-python-scraper]: Remove: archive file [/home/abi/fetcher/tmp/hdx_python_scraper-2.3.5.tar.gz]
+[2024-05-16 05:05:17] INFO root fetch - processPackages [hdx-python-scraper]: Remove: archive file [/home/abi/fetcher/tmp/hdx_python_scraper-2.3.6.tar.gz]
+[2024-05-16 05:05:17] INFO root fetch - main [MainThread]: End processing [hdx-python-scraper]: success
+[2024-05-16 05:05:17] INFO root fetch - main [MainThread]: Store serial: [23228965]
