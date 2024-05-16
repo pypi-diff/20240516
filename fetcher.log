@@ -4045,3 +4045,78 @@ AssertionError: tmp/hygpytools-0.2.0.tar.gz does not exist
 [2024-05-16 02:13:26] INFO root fetch - processPackages [nmdc-schema]: Remove: archive file [/home/abi/fetcher/tmp/nmdc_schema-9.3.2.tar.gz]
 [2024-05-16 02:13:26] INFO root fetch - main [MainThread]: End processing [nmdc-schema]: success
 [2024-05-16 02:13:26] INFO root fetch - main [MainThread]: Store serial: [23226758]
+[2024-05-16 02:15:32] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23226758]
+[2024-05-16 02:15:37] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-05-16 02:15:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pytorch-ignite
+[2024-05-16 02:15:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: gguf-connector
+[2024-05-16 02:15:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cdktf-gitlab-runner
+[2024-05-16 02:15:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cdk-common
+[2024-05-16 02:15:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cdk-events-notify
+[2024-05-16 02:15:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: cdk-skylight
+[2024-05-16 02:15:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: cnparser
+[2024-05-16 02:15:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: cdk-nag
+[2024-05-16 02:15:37] INFO root fetch - processPackages [cnparser]: New version: [1.5.0] Old Version: [1.4.6]
+[2024-05-16 02:15:37] INFO root fetch - processPackages [cdk-skylight]: New version: [1.1.99] Old Version: [1.1.98]
+[2024-05-16 02:15:37] INFO root fetch - processPackages [cdk-events-notify]: New version: [2.2.99] Old Version: [2.2.98]
+[2024-05-16 02:15:37] INFO root fetch - processPackages [pytorch-ignite]: New version: [0.6.0.dev20240515] Old Version: [0.6.0.dev20240514]
+[2024-05-16 02:15:37] INFO root fetch - processPackages [gguf-connector]: New version: [0.7.9] Old Version: [0.7.8]
+[2024-05-16 02:15:37] INFO root fetch - processPackages [cnparser]: Downloading https://files.pythonhosted.org/packages/6a/78/93e7fb4b1a7be135e39f9d5151429f89317408d2c71a5c2c2b3789dfae2a/cnparser-1.4.6.tar.gz
+[2024-05-16 02:15:37] INFO root fetch - processPackages [cdk-nag]: New version: [2.9.7] Old Version: [2.9.6]
+[2024-05-16 02:15:37] INFO root fetch - processPackages [cdktf-gitlab-runner]: New version: [0.0.99] Old Version: [0.0.98]
+[2024-05-16 02:15:37] INFO root fetch - processPackages [cdk-common]: New version: [2.0.99] Old Version: [2.0.98]
+[2024-05-16 02:15:37] INFO root fetch - processPackages [cdk-skylight]: Downloading https://files.pythonhosted.org/packages/86/f2/01b58f6183b48ce1105016a7f5045925a49464b8c20408459bd101fe5f25/cdk-skylight-1.1.98.tar.gz
+[2024-05-16 02:15:37] INFO root fetch - processPackages [pytorch-ignite]: Downloading https://files.pythonhosted.org/packages/38/ec/53fa717c80c97ab83aca9f9701af9b9a5bef670c2eb50096871db32cf885/pytorch_ignite-0.6.0.dev20240514.tar.gz
+[2024-05-16 02:15:37] INFO root fetch - processPackages [cdk-events-notify]: Downloading https://files.pythonhosted.org/packages/b7/7d/50ca1bff3db85ede28826faf2d11bb449770cac87fe89483636e0fe57d94/cdk-events-notify-2.2.98.tar.gz
+[2024-05-16 02:15:37] INFO root fetch - processPackages [cdktf-gitlab-runner]: Downloading https://files.pythonhosted.org/packages/8a/6e/f1c520e407ce3adf90b51d2d1ca84d283a08c808fc00c9deeff4f4734d82/cdktf-gitlab-runner-0.0.98.tar.gz
+[2024-05-16 02:15:37] INFO root fetch - processPackages [cdk-nag]: Downloading https://files.pythonhosted.org/packages/26/bc/b8768e307b8d360b78f45303ac30baa4232637f372296203b0005cd07cd4/cdk-nag-2.9.6.tar.gz
+[2024-05-16 02:15:37] INFO root fetch - processPackages [cdk-common]: Downloading https://files.pythonhosted.org/packages/f3/30/796e7080e9a9b293ccf386b0d95f40dde8e214e0415d2c59be9c661105a9/cdk-common-2.0.98.tar.gz
+[2024-05-16 02:15:37] INFO root fetch - processPackages [gguf-connector]: Downloading https://files.pythonhosted.org/packages/4e/c2/08f2cd0b156a16296c2279074113989e3762b7ef1ae47820fc4326010569/gguf_connector-0.7.8.tar.gz
+[2024-05-16 02:15:37] INFO root fetch - processPackages [cnparser]: Downloading https://files.pythonhosted.org/packages/e8/50/f6bd5dc180216cc2dce1fb82dbf755d556bdb9e3547a807c6ffdcff0fd9d/cnparser-1.5.0.tar.gz
+[2024-05-16 02:15:37] INFO root fetch - processPackages [cdk-events-notify]: Downloading https://files.pythonhosted.org/packages/56/4a/9c2a145913d7a35ac252cb2bddabca89cdc95c802a8e342f192100f709be/cdk-events-notify-2.2.99.tar.gz
+[2024-05-16 02:15:37] INFO root fetch - processPackages [cdktf-gitlab-runner]: Downloading https://files.pythonhosted.org/packages/59/f2/0d7ab5ec05a2b43bd92c00fd237afddb1e2770c7edaf03b1f7ddef6c0793/cdktf-gitlab-runner-0.0.99.tar.gz
+[2024-05-16 02:15:37] INFO root fetch - processPackages [cdk-nag]: Downloading https://files.pythonhosted.org/packages/71/78/6a2d0c627f1033774d5be3d2faca465e0bc0b07cf97cec491c795775999a/cdk-nag-2.9.7.tar.gz
+[2024-05-16 02:15:37] INFO root fetch - processPackages [cdk-skylight]: Downloading https://files.pythonhosted.org/packages/59/49/3e035cb98d5f97f79c174e211129a2dbe596df70c5df50ac701242fabea2/cdk-skylight-1.1.99.tar.gz
+[2024-05-16 02:15:37] INFO root fetch - processPackages [cdk-events-notify]: executing diffoscope
+[2024-05-16 02:15:37] INFO root fetch - processPackages [cdk-events-notify]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-events-notify-2.2.98.tar.gz tmp/cdk-events-notify-2.2.99.tar.gz --markdown 20240516/c/cdk-events-notify/2.2.98-2.2.99/README.md --exclude *.pyd
+[2024-05-16 02:15:37] INFO root fetch - processPackages [pytorch-ignite]: Downloading https://files.pythonhosted.org/packages/ee/36/fdba8a87c1b1ad64c8d0d1a3f1d65038819a9b2960f08585df890979c959/pytorch_ignite-0.6.0.dev20240515.tar.gz
+[2024-05-16 02:15:37] INFO root fetch - processPackages [cnparser]: executing diffoscope
+[2024-05-16 02:15:37] INFO root fetch - processPackages [cnparser]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cnparser-1.4.6.tar.gz tmp/cnparser-1.5.0.tar.gz --markdown 20240516/c/cnparser/1.4.6-1.5.0/README.md --exclude *.pyd
+[2024-05-16 02:15:37] INFO root fetch - processPackages [cdktf-gitlab-runner]: executing diffoscope
+[2024-05-16 02:15:37] INFO root fetch - processPackages [cdktf-gitlab-runner]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdktf-gitlab-runner-0.0.98.tar.gz tmp/cdktf-gitlab-runner-0.0.99.tar.gz --markdown 20240516/c/cdktf-gitlab-runner/0.0.98-0.0.99/README.md --exclude *.pyd
+[2024-05-16 02:15:38] INFO root fetch - processPackages [gguf-connector]: Downloading https://files.pythonhosted.org/packages/c5/93/ebcc584e4eb599309af430b8b5eaa29ee085f7ae6cfb7134ca4789e27778/gguf_connector-0.7.9.tar.gz
+[2024-05-16 02:15:38] INFO root fetch - processPackages [cdk-skylight]: executing diffoscope
+[2024-05-16 02:15:38] INFO root fetch - processPackages [cdk-skylight]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-skylight-1.1.98.tar.gz tmp/cdk-skylight-1.1.99.tar.gz --markdown 20240516/c/cdk-skylight/1.1.98-1.1.99/README.md --exclude *.pyd
+[2024-05-16 02:15:38] INFO root fetch - processPackages [cdk-common]: Downloading https://files.pythonhosted.org/packages/11/10/ca183f281275ec945ede082d9491c0bb5bfb9152c437124c86e37cba7079/cdk-common-2.0.99.tar.gz
+[2024-05-16 02:15:38] INFO root fetch - processPackages [cdk-nag]: executing diffoscope
+[2024-05-16 02:15:38] INFO root fetch - processPackages [cdk-nag]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-nag-2.9.6.tar.gz tmp/cdk-nag-2.9.7.tar.gz --markdown 20240516/c/cdk-nag/2.9.6-2.9.7/README.md --exclude *.pyd
+[2024-05-16 02:15:38] INFO root fetch - processPackages [pytorch-ignite]: executing diffoscope
+[2024-05-16 02:15:38] INFO root fetch - processPackages [pytorch-ignite]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytorch_ignite-0.6.0.dev20240514.tar.gz tmp/pytorch_ignite-0.6.0.dev20240515.tar.gz --markdown 20240516/p/pytorch-ignite/0.6.0.dev20240514-0.6.0.dev20240515/README.md --exclude *.pyd
+[2024-05-16 02:15:38] INFO root fetch - processPackages [gguf-connector]: executing diffoscope
+[2024-05-16 02:15:38] INFO root fetch - processPackages [gguf-connector]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gguf_connector-0.7.8.tar.gz tmp/gguf_connector-0.7.9.tar.gz --markdown 20240516/g/gguf-connector/0.7.8-0.7.9/README.md --exclude *.pyd
+[2024-05-16 02:15:38] INFO root fetch - processPackages [cdk-common]: executing diffoscope
+[2024-05-16 02:15:38] INFO root fetch - processPackages [cdk-common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-common-2.0.98.tar.gz tmp/cdk-common-2.0.99.tar.gz --markdown 20240516/c/cdk-common/2.0.98-2.0.99/README.md --exclude *.pyd
+[2024-05-16 02:15:38] INFO root fetch - processPackages [cdktf-gitlab-runner]: Remove: archive file [/home/abi/fetcher/tmp/cdktf-gitlab-runner-0.0.98.tar.gz]
+[2024-05-16 02:15:38] INFO root fetch - processPackages [cdktf-gitlab-runner]: Remove: archive file [/home/abi/fetcher/tmp/cdktf-gitlab-runner-0.0.99.tar.gz]
+[2024-05-16 02:15:38] INFO root fetch - main [MainThread]: End processing [cdktf-gitlab-runner]: success
+[2024-05-16 02:15:38] INFO root fetch - processPackages [cdk-events-notify]: Remove: archive file [/home/abi/fetcher/tmp/cdk-events-notify-2.2.98.tar.gz]
+[2024-05-16 02:15:38] INFO root fetch - processPackages [cdk-events-notify]: Remove: archive file [/home/abi/fetcher/tmp/cdk-events-notify-2.2.99.tar.gz]
+[2024-05-16 02:15:38] INFO root fetch - main [MainThread]: End processing [cdk-events-notify]: success
+[2024-05-16 02:15:38] INFO root fetch - processPackages [cnparser]: Remove: archive file [/home/abi/fetcher/tmp/cnparser-1.4.6.tar.gz]
+[2024-05-16 02:15:38] INFO root fetch - processPackages [cnparser]: Remove: archive file [/home/abi/fetcher/tmp/cnparser-1.5.0.tar.gz]
+[2024-05-16 02:15:38] INFO root fetch - main [MainThread]: End processing [cnparser]: success
+[2024-05-16 02:15:38] INFO root fetch - processPackages [cdk-skylight]: Remove: archive file [/home/abi/fetcher/tmp/cdk-skylight-1.1.98.tar.gz]
+[2024-05-16 02:15:38] INFO root fetch - processPackages [cdk-skylight]: Remove: archive file [/home/abi/fetcher/tmp/cdk-skylight-1.1.99.tar.gz]
+[2024-05-16 02:15:38] INFO root fetch - main [MainThread]: End processing [cdk-skylight]: success
+[2024-05-16 02:15:38] INFO root fetch - processPackages [gguf-connector]: Remove: archive file [/home/abi/fetcher/tmp/gguf_connector-0.7.8.tar.gz]
+[2024-05-16 02:15:38] INFO root fetch - processPackages [gguf-connector]: Remove: archive file [/home/abi/fetcher/tmp/gguf_connector-0.7.9.tar.gz]
+[2024-05-16 02:15:38] INFO root fetch - main [MainThread]: End processing [gguf-connector]: success
+[2024-05-16 02:15:39] INFO root fetch - processPackages [cdk-nag]: Remove: archive file [/home/abi/fetcher/tmp/cdk-nag-2.9.6.tar.gz]
+[2024-05-16 02:15:39] INFO root fetch - processPackages [cdk-nag]: Remove: archive file [/home/abi/fetcher/tmp/cdk-nag-2.9.7.tar.gz]
+[2024-05-16 02:15:39] INFO root fetch - main [MainThread]: End processing [cdk-nag]: success
+[2024-05-16 02:15:39] INFO root fetch - processPackages [pytorch-ignite]: Remove: archive file [/home/abi/fetcher/tmp/pytorch_ignite-0.6.0.dev20240514.tar.gz]
+[2024-05-16 02:15:39] INFO root fetch - processPackages [pytorch-ignite]: Remove: archive file [/home/abi/fetcher/tmp/pytorch_ignite-0.6.0.dev20240515.tar.gz]
+[2024-05-16 02:15:39] INFO root fetch - main [MainThread]: End processing [pytorch-ignite]: success
+[2024-05-16 02:15:39] INFO root fetch - processPackages [cdk-common]: Remove: archive file [/home/abi/fetcher/tmp/cdk-common-2.0.98.tar.gz]
+[2024-05-16 02:15:39] INFO root fetch - processPackages [cdk-common]: Remove: archive file [/home/abi/fetcher/tmp/cdk-common-2.0.99.tar.gz]
+[2024-05-16 02:15:39] INFO root fetch - main [MainThread]: End processing [cdk-common]: success
+[2024-05-16 02:15:39] INFO root fetch - main [MainThread]: Store serial: [23226782]
