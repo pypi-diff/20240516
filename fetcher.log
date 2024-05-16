@@ -14631,3 +14631,69 @@ EOFError: EOF read where object expected
 [2024-05-16 09:41:08] INFO root fetch - processPackages [smol_k8s_lab]: Remove: archive file [/home/abi/fetcher/tmp/smol_k8s_lab-5.0.1.tar.gz]
 [2024-05-16 09:41:08] INFO root fetch - main [MainThread]: End processing [smol_k8s_lab]: success
 [2024-05-16 09:41:08] INFO root fetch - main [MainThread]: Store serial: [23230752]
+[2024-05-16 09:43:12] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23230752]
+[2024-05-16 09:43:17] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-16 09:43:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pyqi-api
+[2024-05-16 09:43:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: Deepurify
+[2024-05-16 09:43:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: fastinference-llm
+[2024-05-16 09:43:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cookieplone
+[2024-05-16 09:43:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ELSholdings
+[2024-05-16 09:43:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: spider-admin-pro
+[2024-05-16 09:43:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: redis-director
+[2024-05-16 09:43:17] INFO root fetch - processPackages [cookieplone]: New version: [0.5.3] Old Version: [0.5.2]
+[2024-05-16 09:43:17] INFO root fetch - processPackages [pyqi-api]: New version: [1.0.1] Old Version: [1.0.0]
+[2024-05-16 09:43:17] INFO root fetch - processPackages [spider-admin-pro]: New version: [2.0.9] Old Version: [2.0.8]
+[2024-05-16 09:43:17] INFO root fetch - processPackages [ELSholdings]: New version: [2.2.5] Old Version: [2.2.3]
+[2024-05-16 09:43:17] INFO root fetch - processPackages [redis-director]: New version: [0.3.0] Old Version: [0.2.0]
+[2024-05-16 09:43:17] INFO root fetch - processPackages [Deepurify]: New version: [2.3.4] Old Version: [2.3.3]
+[2024-05-16 09:43:17] INFO root fetch - processPackages [fastinference-llm]: New version: [0.0.4] Old Version: [0.0.2]
+[2024-05-16 09:43:17] INFO root fetch - processPackages [cookieplone]: Downloading https://files.pythonhosted.org/packages/57/6e/4d91db1e12c175f38cb35a8d24bd1284ed4f5e9726580afba96dec23bb7d/cookieplone-0.5.2.tar.gz
+[2024-05-16 09:43:17] INFO root fetch - processPackages [ELSholdings]: Downloading https://files.pythonhosted.org/packages/92/31/f5e8e1356a86325cceb2794ac3b8234fd5fec6921e85b7e588cc840de093/elsholdings-2.2.3.tar.gz
+[2024-05-16 09:43:17] INFO root fetch - processPackages [redis-director]: Downloading https://files.pythonhosted.org/packages/f6/a1/cb8c4ee1b827179b2ad2d2d27d2ebebef6542e73cac67034db6fe5950cd4/redis_director-0.2.0.tar.gz
+[2024-05-16 09:43:17] INFO root fetch - processPackages [pyqi-api]: Downloading https://files.pythonhosted.org/packages/be/3a/08d1a6334868f04c3d16bc14507b5856c3b445194884179895db698de95d/pyqi_api-1.0.0.tar.gz
+[2024-05-16 09:43:17] INFO root fetch - processPackages [spider-admin-pro]: Downloading https://files.pythonhosted.org/packages/2c/cb/bd97c637c8d40ccdac9ddc8c611bf9741537bfe0eb1de7c2cb1b59f6edde/spider-admin-pro-2.0.8.tar.gz
+[2024-05-16 09:43:17] INFO root fetch - processPackages [Deepurify]: Downloading https://files.pythonhosted.org/packages/18/ac/d33066206a2ff3757d8cea133c89ffbb1aa89a5cf4b6c95eda9f88f5d85a/Deepurify-2.3.3-py3-none-any.whl
+[2024-05-16 09:43:17] INFO root fetch - processPackages [fastinference-llm]: Downloading https://files.pythonhosted.org/packages/e8/a3/8097d0b1d0fedd2407572b77a1c197173cb941e3e7c7c3df22ba0929b7b1/fastinference_llm-0.0.2.tar.gz
+[2024-05-16 09:43:17] INFO root fetch - processPackages [pyqi-api]: Downloading https://files.pythonhosted.org/packages/29/e2/cde410ffdf7819f1d75e9933d0463017374be84f8c291137dc9bdabe8205/pyqi_api-1.0.1.tar.gz
+[2024-05-16 09:43:17] INFO root fetch - processPackages [cookieplone]: Downloading https://files.pythonhosted.org/packages/03/80/2b86e88356650b2b5f26bd4fd818b07df3d2ac8fee5654f75821499a4cd1/cookieplone-0.5.3.tar.gz
+[2024-05-16 09:43:18] INFO root fetch - processPackages [ELSholdings]: Downloading https://files.pythonhosted.org/packages/41/99/568cb296a1c961ef6b91afff795a82acabe2fcb55469ed0d7d0122b5d692/elsholdings-2.2.5.tar.gz
+[2024-05-16 09:43:18] INFO root fetch - processPackages [redis-director]: Downloading https://files.pythonhosted.org/packages/c3/6b/a9018955fc0cd4dc8df44ea1f70c853ad054be0ec2650e7a60a235d2954f/redis_director-0.3.0.tar.gz
+[2024-05-16 09:43:18] INFO root fetch - processPackages [pyqi-api]: executing diffoscope
+[2024-05-16 09:43:18] INFO root fetch - processPackages [pyqi-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyqi_api-1.0.0.tar.gz tmp/pyqi_api-1.0.1.tar.gz --markdown 20240516/p/pyqi-api/1.0.0-1.0.1/README.md --exclude *.pyd
+[2024-05-16 09:43:18] INFO root fetch - processPackages [spider-admin-pro]: Downloading https://files.pythonhosted.org/packages/69/ca/296231b298078d639cf5c72336f84f6467b63185045faeafb193334f1429/spider-admin-pro-2.0.9.tar.gz
+[2024-05-16 09:43:18] INFO root fetch - processPackages [cookieplone]: executing diffoscope
+[2024-05-16 09:43:18] INFO root fetch - processPackages [cookieplone]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cookieplone-0.5.2.tar.gz tmp/cookieplone-0.5.3.tar.gz --markdown 20240516/c/cookieplone/0.5.2-0.5.3/README.md --exclude *.pyd
+[2024-05-16 09:43:18] INFO root fetch - processPackages [redis-director]: executing diffoscope
+[2024-05-16 09:43:18] INFO root fetch - processPackages [redis-director]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/redis_director-0.2.0.tar.gz tmp/redis_director-0.3.0.tar.gz --markdown 20240516/r/redis-director/0.2.0-0.3.0/README.md --exclude *.pyd
+[2024-05-16 09:43:18] INFO root fetch - processPackages [ELSholdings]: executing diffoscope
+[2024-05-16 09:43:18] INFO root fetch - processPackages [ELSholdings]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/elsholdings-2.2.3.tar.gz tmp/elsholdings-2.2.5.tar.gz --markdown 20240516/E/ELSholdings/2.2.3-2.2.5/README.md --exclude *.pyd
+[2024-05-16 09:43:18] INFO root fetch - processPackages [fastinference-llm]: Downloading https://files.pythonhosted.org/packages/32/64/666afcc0ab342ac5640c29efe29c2f76dc7ed0a21feac92b02a8c8f7c864/fastinference_llm-0.0.4.tar.gz
+[2024-05-16 09:43:18] INFO root fetch - processPackages [Deepurify]: Downloading https://files.pythonhosted.org/packages/52/85/dda8cad0390619f7d3072c51eda99f6918ec03d07fd0c048f8213c86a6ea/Deepurify-2.3.4.tar.gz
+[2024-05-16 09:43:18] INFO root fetch - processPackages [spider-admin-pro]: executing diffoscope
+[2024-05-16 09:43:18] INFO root fetch - processPackages [spider-admin-pro]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spider-admin-pro-2.0.8.tar.gz tmp/spider-admin-pro-2.0.9.tar.gz --markdown 20240516/s/spider-admin-pro/2.0.8-2.0.9/README.md --exclude *.pyd
+[2024-05-16 09:43:18] INFO root fetch - processPackages [fastinference-llm]: executing diffoscope
+[2024-05-16 09:43:18] INFO root fetch - processPackages [fastinference-llm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fastinference_llm-0.0.2.tar.gz tmp/fastinference_llm-0.0.4.tar.gz --markdown 20240516/f/fastinference-llm/0.0.2-0.0.4/README.md --exclude *.pyd
+[2024-05-16 09:43:18] INFO root fetch - processPackages [Deepurify]: executing diffoscope
+[2024-05-16 09:43:18] INFO root fetch - processPackages [Deepurify]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Deepurify-2.3.3-py3-none-any.whl.zip tmp/Deepurify-2.3.4.tar.gz --markdown 20240516/D/Deepurify/2.3.3-2.3.4/README.md --exclude *.pyd
+[2024-05-16 09:43:18] INFO root fetch - processPackages [pyqi-api]: Remove: archive file [/home/abi/fetcher/tmp/pyqi_api-1.0.0.tar.gz]
+[2024-05-16 09:43:18] INFO root fetch - processPackages [pyqi-api]: Remove: archive file [/home/abi/fetcher/tmp/pyqi_api-1.0.1.tar.gz]
+[2024-05-16 09:43:18] INFO root fetch - main [MainThread]: End processing [pyqi-api]: success
+[2024-05-16 09:43:19] INFO root fetch - processPackages [cookieplone]: Remove: archive file [/home/abi/fetcher/tmp/cookieplone-0.5.2.tar.gz]
+[2024-05-16 09:43:19] INFO root fetch - processPackages [cookieplone]: Remove: archive file [/home/abi/fetcher/tmp/cookieplone-0.5.3.tar.gz]
+[2024-05-16 09:43:19] INFO root fetch - main [MainThread]: End processing [cookieplone]: success
+[2024-05-16 09:43:19] INFO root fetch - processPackages [redis-director]: Remove: archive file [/home/abi/fetcher/tmp/redis_director-0.2.0.tar.gz]
+[2024-05-16 09:43:19] INFO root fetch - processPackages [redis-director]: Remove: archive file [/home/abi/fetcher/tmp/redis_director-0.3.0.tar.gz]
+[2024-05-16 09:43:19] INFO root fetch - main [MainThread]: End processing [redis-director]: success
+[2024-05-16 09:43:19] INFO root fetch - processPackages [fastinference-llm]: Remove: archive file [/home/abi/fetcher/tmp/fastinference_llm-0.0.2.tar.gz]
+[2024-05-16 09:43:19] INFO root fetch - processPackages [fastinference-llm]: Remove: archive file [/home/abi/fetcher/tmp/fastinference_llm-0.0.4.tar.gz]
+[2024-05-16 09:43:19] INFO root fetch - main [MainThread]: End processing [fastinference-llm]: success
+[2024-05-16 09:43:19] INFO root fetch - processPackages [Deepurify]: Remove: archive file [/home/abi/fetcher/tmp/Deepurify-2.3.3-py3-none-any.whl.zip]
+[2024-05-16 09:43:19] INFO root fetch - processPackages [Deepurify]: Remove: archive file [/home/abi/fetcher/tmp/Deepurify-2.3.4.tar.gz]
+[2024-05-16 09:43:19] INFO root fetch - main [MainThread]: End processing [Deepurify]: success
+[2024-05-16 09:43:19] INFO root fetch - processPackages [ELSholdings]: Remove: archive file [/home/abi/fetcher/tmp/elsholdings-2.2.3.tar.gz]
+[2024-05-16 09:43:19] INFO root fetch - processPackages [ELSholdings]: Remove: archive file [/home/abi/fetcher/tmp/elsholdings-2.2.5.tar.gz]
+[2024-05-16 09:43:19] INFO root fetch - main [MainThread]: End processing [ELSholdings]: success
+[2024-05-16 09:43:19] INFO root fetch - processPackages [spider-admin-pro]: Remove: archive file [/home/abi/fetcher/tmp/spider-admin-pro-2.0.8.tar.gz]
+[2024-05-16 09:43:19] INFO root fetch - processPackages [spider-admin-pro]: Remove: archive file [/home/abi/fetcher/tmp/spider-admin-pro-2.0.9.tar.gz]
+[2024-05-16 09:43:19] INFO root fetch - main [MainThread]: End processing [spider-admin-pro]: success
+[2024-05-16 09:43:19] INFO root fetch - main [MainThread]: Store serial: [23230774]
