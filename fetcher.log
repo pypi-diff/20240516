@@ -11887,3 +11887,15 @@ EOFError: EOF read where object expected
 [2024-05-16 07:22:17] INFO root fetch - processPackages [OZI]: Remove: archive file [/home/abi/fetcher/tmp/OZI-1.7.2.tar.gz]
 [2024-05-16 07:22:17] INFO root fetch - main [MainThread]: End processing [OZI]: success
 [2024-05-16 07:22:17] INFO root fetch - main [MainThread]: Store serial: [23229660]
+[2024-05-16 07:24:21] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23229660]
+[2024-05-16 07:24:26] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-05-16 07:24:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: py-dbchat
+[2024-05-16 07:24:26] INFO root fetch - processPackages [py-dbchat]: New version: [0.0.2rc99.post1] Old Version: [0.0.2rc98.post1]
+[2024-05-16 07:24:26] INFO root fetch - processPackages [py-dbchat]: Downloading https://files.pythonhosted.org/packages/f6/18/1775d2217b34cf20972da457954b07826f8eee83addaf30cb9f9e56acda7/py_dbchat-0.0.2rc98.post1.tar.gz
+[2024-05-16 07:24:26] INFO root fetch - processPackages [py-dbchat]: Downloading https://files.pythonhosted.org/packages/73/d9/44b1e50b7a7349a8172af36226caa9ddf526c5c91c863ce32643ae416507/py_dbchat-0.0.2rc99.post1.tar.gz
+[2024-05-16 07:24:26] INFO root fetch - processPackages [py-dbchat]: executing diffoscope
+[2024-05-16 07:24:26] INFO root fetch - processPackages [py-dbchat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py_dbchat-0.0.2rc98.post1.tar.gz tmp/py_dbchat-0.0.2rc99.post1.tar.gz --markdown 20240516/p/py-dbchat/0.0.2rc98.post1-0.0.2rc99.post1/README.md --exclude *.pyd
+[2024-05-16 07:24:27] INFO root fetch - processPackages [py-dbchat]: Remove: archive file [/home/abi/fetcher/tmp/py_dbchat-0.0.2rc98.post1.tar.gz]
+[2024-05-16 07:24:27] INFO root fetch - processPackages [py-dbchat]: Remove: archive file [/home/abi/fetcher/tmp/py_dbchat-0.0.2rc99.post1.tar.gz]
+[2024-05-16 07:24:27] INFO root fetch - main [MainThread]: End processing [py-dbchat]: success
+[2024-05-16 07:24:27] INFO root fetch - main [MainThread]: Store serial: [23229663]
