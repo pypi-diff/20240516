@@ -9005,3 +9005,15 @@ EOFError: EOF read where object expected
 [2024-05-16 03:44:18] INFO root fetch - processPackages [cocnc]: Remove: archive file [/home/abi/fetcher/tmp/cocnc-0.1.1.tar.gz]
 [2024-05-16 03:44:18] INFO root fetch - main [MainThread]: End processing [cocnc]: success
 [2024-05-16 03:44:18] INFO root fetch - main [MainThread]: Store serial: [23228485]
+[2024-05-16 03:46:22] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23228485]
+[2024-05-16 03:46:27] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-05-16 03:46:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: dapr-ext-workflow-dev
+[2024-05-16 03:46:27] INFO root fetch - processPackages [dapr-ext-workflow-dev]: New version: [0.2.0rc1.dev2031] Old Version: [0.2.0rc1.dev1781]
+[2024-05-16 03:46:27] INFO root fetch - processPackages [dapr-ext-workflow-dev]: Downloading https://files.pythonhosted.org/packages/70/ad/b08f77a474e4cae1401a794305134105135e5791095d1b394ef90a5c431a/dapr-ext-workflow-dev-0.2.0rc1.dev1781.tar.gz
+[2024-05-16 03:46:27] INFO root fetch - processPackages [dapr-ext-workflow-dev]: Downloading https://files.pythonhosted.org/packages/b7/9a/5fca1680c7d2afe567bd3c07719229380e725ded182b4f1847d672bdd80e/dapr-ext-workflow-dev-0.2.0rc1.dev2031.tar.gz
+[2024-05-16 03:46:27] INFO root fetch - processPackages [dapr-ext-workflow-dev]: executing diffoscope
+[2024-05-16 03:46:27] INFO root fetch - processPackages [dapr-ext-workflow-dev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dapr-ext-workflow-dev-0.2.0rc1.dev1781.tar.gz tmp/dapr-ext-workflow-dev-0.2.0rc1.dev2031.tar.gz --markdown 20240516/d/dapr-ext-workflow-dev/0.2.0rc1.dev1781-0.2.0rc1.dev2031/README.md --exclude *.pyd
+[2024-05-16 03:46:28] INFO root fetch - processPackages [dapr-ext-workflow-dev]: Remove: archive file [/home/abi/fetcher/tmp/dapr-ext-workflow-dev-0.2.0rc1.dev1781.tar.gz]
+[2024-05-16 03:46:28] INFO root fetch - processPackages [dapr-ext-workflow-dev]: Remove: archive file [/home/abi/fetcher/tmp/dapr-ext-workflow-dev-0.2.0rc1.dev2031.tar.gz]
+[2024-05-16 03:46:28] INFO root fetch - main [MainThread]: End processing [dapr-ext-workflow-dev]: success
+[2024-05-16 03:46:28] INFO root fetch - main [MainThread]: Store serial: [23228488]
