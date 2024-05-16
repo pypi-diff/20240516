@@ -9295,3 +9295,15 @@ EOFError: EOF read where object expected
 [2024-05-16 04:16:47] INFO root fetch - processPackages [erlab]: Remove: archive file [/home/abi/fetcher/tmp/erlab-2.5.1.tar.gz]
 [2024-05-16 04:16:47] INFO root fetch - main [MainThread]: End processing [erlab]: success
 [2024-05-16 04:16:47] INFO root fetch - main [MainThread]: Store serial: [23228584]
+[2024-05-16 04:18:51] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23228584]
+[2024-05-16 04:18:56] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-05-16 04:18:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: heudiconv
+[2024-05-16 04:18:56] INFO root fetch - processPackages [heudiconv]: New version: [1.1.2] Old Version: [1.1.1]
+[2024-05-16 04:18:56] INFO root fetch - processPackages [heudiconv]: Downloading https://files.pythonhosted.org/packages/3c/58/2bb760b6946f3088086100cff8695d72aca6c15a7288f5e08e8ddee3e97f/heudiconv-1.1.1.tar.gz
+[2024-05-16 04:18:56] INFO root fetch - processPackages [heudiconv]: Downloading https://files.pythonhosted.org/packages/d4/6f/05424e66dd62377338950228f58eb790ff628ebdc2ff1681ddbfbcbc7569/heudiconv-1.1.2.tar.gz
+[2024-05-16 04:18:57] INFO root fetch - processPackages [heudiconv]: executing diffoscope
+[2024-05-16 04:18:57] INFO root fetch - processPackages [heudiconv]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/heudiconv-1.1.1.tar.gz tmp/heudiconv-1.1.2.tar.gz --markdown 20240516/h/heudiconv/1.1.1-1.1.2/README.md --exclude *.pyd
+[2024-05-16 04:18:58] INFO root fetch - processPackages [heudiconv]: Remove: archive file [/home/abi/fetcher/tmp/heudiconv-1.1.1.tar.gz]
+[2024-05-16 04:18:58] INFO root fetch - processPackages [heudiconv]: Remove: archive file [/home/abi/fetcher/tmp/heudiconv-1.1.2.tar.gz]
+[2024-05-16 04:18:58] INFO root fetch - main [MainThread]: End processing [heudiconv]: success
+[2024-05-16 04:18:58] INFO root fetch - main [MainThread]: Store serial: [23228589]
