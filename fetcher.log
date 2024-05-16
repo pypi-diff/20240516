@@ -10007,3 +10007,49 @@ EOFError: EOF read where object expected
 [2024-05-16 04:58:40] INFO root fetch - processPackages [hdx-python-scraper]: Remove: archive file [/home/abi/fetcher/tmp/hdx_python_scraper-2.3.6.tar.gz]
 [2024-05-16 04:58:40] INFO root fetch - main [MainThread]: End processing [hdx-python-scraper]: success
 [2024-05-16 04:58:40] INFO root fetch - main [MainThread]: Store serial: [23228913]
+[2024-05-16 05:00:45] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23228913]
+[2024-05-16 05:00:50] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-16 05:00:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: NJFU
+[2024-05-16 05:00:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: espresso-machine
+[2024-05-16 05:00:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: bkstorages
+[2024-05-16 05:00:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: atils
+[2024-05-16 05:00:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: NJFU
+[2024-05-16 05:00:50] INFO root fetch - processPackages [NJFU]: New version: [0.0.6] Old Version: [0.0.5]
+[2024-05-16 05:00:50] INFO root fetch - processPackages [NJFU]: New version: [0.0.6] Old Version: [0.0.5]
+[2024-05-16 05:00:50] INFO root fetch - processPackages [bkstorages]: New version: [1.1.1] Old Version: [1.1.0]
+[2024-05-16 05:00:50] INFO root fetch - processPackages [NJFU]: Downloading https://files.pythonhosted.org/packages/77/4b/d63939446956eec325a632967141b730034fd8f305b41670b59e42c71c88/NJFU-0.0.5.tar.gz
+[2024-05-16 05:00:50] INFO root fetch - processPackages [atils]: New version: [1.4.1] Old Version: [1.2.0]
+[2024-05-16 05:00:50] INFO root fetch - processPackages [espresso-machine]: New version: [0.0.114] Old Version: [0.0.113]
+[2024-05-16 05:00:50] INFO root fetch - processPackages [NJFU]: Downloading https://files.pythonhosted.org/packages/77/4b/d63939446956eec325a632967141b730034fd8f305b41670b59e42c71c88/NJFU-0.0.5.tar.gz
+[2024-05-16 05:00:51] INFO root fetch - processPackages [bkstorages]: Downloading https://files.pythonhosted.org/packages/f6/cc/e7d7abb545bf9353cbc5bed9ba62d57de4c4970d479a05c95db1bc4e00da/bkstorages-1.1.0.tar.gz
+[2024-05-16 05:00:51] INFO root fetch - processPackages [NJFU]: Downloading https://files.pythonhosted.org/packages/05/8e/bcd91bc8da482fc5e3885c1e33f17d4b9a7bc089719b792ff640d87c5919/NJFU-0.0.6.tar.gz
+[2024-05-16 05:00:51] INFO root fetch - processPackages [atils]: Downloading https://files.pythonhosted.org/packages/7f/84/807b748618a5e81679aecc02960f5b638f86c3aff460c887e8e96ad53b88/atils-1.2.0.tar.gz
+[2024-05-16 05:00:51] INFO root fetch - processPackages [NJFU]: Downloading https://files.pythonhosted.org/packages/05/8e/bcd91bc8da482fc5e3885c1e33f17d4b9a7bc089719b792ff640d87c5919/NJFU-0.0.6.tar.gz
+[2024-05-16 05:00:51] INFO root fetch - processPackages [espresso-machine]: Downloading https://files.pythonhosted.org/packages/f6/a6/1b54303a4d26d3aa83baf450c5bccd2018ab863ee52759cca788c1e10b0c/espresso_machine-0.0.113.tar.gz
+[2024-05-16 05:00:51] INFO root fetch - processPackages [NJFU]: executing diffoscope
+[2024-05-16 05:00:51] INFO root fetch - processPackages [NJFU]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/NJFU-0.0.5.tar.gz tmp/NJFU-0.0.6.tar.gz --markdown 20240516/N/NJFU/0.0.5-0.0.6/README.md --exclude *.pyd
+[2024-05-16 05:00:51] INFO root fetch - processPackages [NJFU]: executing diffoscope
+[2024-05-16 05:00:51] INFO root fetch - processPackages [NJFU]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/NJFU-0.0.5.tar.gz tmp/NJFU-0.0.6.tar.gz --markdown 20240516/N/NJFU/0.0.5-0.0.6/README.md --exclude *.pyd
+[2024-05-16 05:00:51] INFO root fetch - processPackages [atils]: Downloading https://files.pythonhosted.org/packages/22/5c/45ca187086136f9045f92b7895d9aac03538f6bc69b2745e1736d575b462/atils-1.4.1.tar.gz
+[2024-05-16 05:00:51] INFO root fetch - processPackages [bkstorages]: Downloading https://files.pythonhosted.org/packages/58/5f/4dd0e1b4ea50c110267e71b59ae4c651748fff56db53166cb37f8823c6ac/bkstorages-1.1.1.tar.gz
+[2024-05-16 05:00:51] INFO root fetch - processPackages [bkstorages]: executing diffoscope
+[2024-05-16 05:00:51] INFO root fetch - processPackages [bkstorages]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bkstorages-1.1.0.tar.gz tmp/bkstorages-1.1.1.tar.gz --markdown 20240516/b/bkstorages/1.1.0-1.1.1/README.md --exclude *.pyd
+[2024-05-16 05:00:51] INFO root fetch - processPackages [atils]: executing diffoscope
+[2024-05-16 05:00:51] INFO root fetch - processPackages [atils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/atils-1.2.0.tar.gz tmp/atils-1.4.1.tar.gz --markdown 20240516/a/atils/1.2.0-1.4.1/README.md --exclude *.pyd
+[2024-05-16 05:00:51] INFO root fetch - processPackages [espresso-machine]: Downloading https://files.pythonhosted.org/packages/d9/94/a23648c9ead83458e01f03f9d923578c588c1083ea6e2d1123f4a8ec3637/espresso_machine-0.0.114.tar.gz
+[2024-05-16 05:00:51] INFO root fetch - processPackages [NJFU]: Remove: archive file [/home/abi/fetcher/tmp/NJFU-0.0.5.tar.gz]
+[2024-05-16 05:00:51] INFO root fetch - processPackages [NJFU]: Remove: archive file [/home/abi/fetcher/tmp/NJFU-0.0.6.tar.gz]
+[2024-05-16 05:00:51] INFO root fetch - main [MainThread]: End processing [NJFU]: success
+[2024-05-16 05:00:51] INFO root fetch - main [MainThread]: End processing [NJFU]: success
+[2024-05-16 05:00:52] INFO root fetch - processPackages [bkstorages]: Remove: archive file [/home/abi/fetcher/tmp/bkstorages-1.1.0.tar.gz]
+[2024-05-16 05:00:52] INFO root fetch - processPackages [bkstorages]: Remove: archive file [/home/abi/fetcher/tmp/bkstorages-1.1.1.tar.gz]
+[2024-05-16 05:00:52] INFO root fetch - main [MainThread]: End processing [bkstorages]: success
+[2024-05-16 05:00:52] INFO root fetch - processPackages [atils]: Remove: archive file [/home/abi/fetcher/tmp/atils-1.2.0.tar.gz]
+[2024-05-16 05:00:52] INFO root fetch - processPackages [atils]: Remove: archive file [/home/abi/fetcher/tmp/atils-1.4.1.tar.gz]
+[2024-05-16 05:00:52] INFO root fetch - main [MainThread]: End processing [atils]: success
+[2024-05-16 05:00:52] INFO root fetch - processPackages [espresso-machine]: executing diffoscope
+[2024-05-16 05:00:52] INFO root fetch - processPackages [espresso-machine]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/espresso_machine-0.0.113.tar.gz tmp/espresso_machine-0.0.114.tar.gz --markdown 20240516/e/espresso-machine/0.0.113-0.0.114/README.md --exclude *.pyd
+[2024-05-16 05:00:53] INFO root fetch - processPackages [espresso-machine]: Remove: archive file [/home/abi/fetcher/tmp/espresso_machine-0.0.113.tar.gz]
+[2024-05-16 05:00:53] INFO root fetch - processPackages [espresso-machine]: Remove: archive file [/home/abi/fetcher/tmp/espresso_machine-0.0.114.tar.gz]
+[2024-05-16 05:00:53] INFO root fetch - main [MainThread]: End processing [espresso-machine]: success
+[2024-05-16 05:00:53] INFO root fetch - main [MainThread]: Store serial: [23228925]
