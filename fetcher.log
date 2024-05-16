@@ -22331,3 +22331,90 @@ EOFError: EOF read where object expected
 [2024-05-16 11:56:42] INFO root fetch - processPackages [fxgui]: Remove: archive file [/home/abi/fetcher/tmp/fxgui-2.2.0.tar.gz]
 [2024-05-16 11:56:42] INFO root fetch - main [MainThread]: End processing [fxgui]: success
 [2024-05-16 11:56:42] INFO root fetch - main [MainThread]: Store serial: [23233469]
+[2024-05-16 11:58:50] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23233469]
+[2024-05-16 11:58:55] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2024-05-16 11:58:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: clusterX
+[2024-05-16 11:58:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: emlib
+[2024-05-16 11:58:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: yeref
+[2024-05-16 11:58:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: autoconf
+[2024-05-16 11:58:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: wipdevice
+[2024-05-16 11:58:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: autofit
+[2024-05-16 11:58:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: autoarray
+[2024-05-16 11:58:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: autogalaxy
+[2024-05-16 11:58:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: nostr-dvm
+[2024-05-16 11:58:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: epammodeldeployment
+[2024-05-16 11:58:55] INFO root fetch - processPackages [wipdevice]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-05-16 11:58:55] INFO root fetch - processPackages [nostr-dvm]: New version: [0.3.7] Old Version: [0.3.6]
+[2024-05-16 11:58:55] INFO root fetch - processPackages [yeref]: New version: [0.9.9] Old Version: [0.9.8]
+[2024-05-16 11:58:55] INFO root fetch - processPackages [autoconf]: New version: [2024.5.16.0] Old Version: [2024.1.27.4]
+[2024-05-16 11:58:55] INFO root fetch - processPackages [emlib]: New version: [1.9.2] Old Version: [1.9.1]
+[2024-05-16 11:58:55] INFO root fetch - processPackages [clusterX]: New version: [2.1.0rc4] Old Version: [2.1.0rc3]
+[2024-05-16 11:58:55] WARNING root fetch - processPackages [epammodeldeployment]: Skipping, unable to determine old version
+[2024-05-16 11:58:55] INFO root fetch - main [MainThread]: End processing [epammodeldeployment] error
+[2024-05-16 11:58:55] INFO root fetch - processPackages [autoarray]: New version: [2024.5.16.0] Old Version: [2024.1.27.4]
+[2024-05-16 11:58:55] INFO root fetch - processPackages [autogalaxy]: New version: [2024.5.16.0] Old Version: [2024.1.27.4]
+[2024-05-16 11:58:55] INFO root fetch - processPackages [autofit]: New version: [2024.5.16.0] Old Version: [2024.1.27.4]
+[2024-05-16 11:58:55] INFO root fetch - processPackages [nostr-dvm]: Downloading https://files.pythonhosted.org/packages/46/2d/b8da570966d57f05a1e75b0934a670aeaa2f949fd53d54bf4a62a6b505a9/nostr_dvm-0.3.6.tar.gz
+[2024-05-16 11:58:55] INFO root fetch - processPackages [wipdevice]: Downloading https://files.pythonhosted.org/packages/5d/d3/53a02a06164c9070da397954be19988e70277ded0d7586fad8dffa3d2799/wipdevice-0.0.1.tar.gz
+[2024-05-16 11:58:55] INFO root fetch - processPackages [yeref]: Downloading https://files.pythonhosted.org/packages/ec/cb/204e6fbe233bbb61cf29c1b491e8c638c8a843edc47fb4e1d8cc8c26608c/yeref-0.9.8.tar.gz
+[2024-05-16 11:58:56] INFO root fetch - processPackages [emlib]: Downloading https://files.pythonhosted.org/packages/ea/67/fcf1b6dc7769f14e2b9f7d88a82eceead943a9d14bd5e7491c508bda8545/emlib-1.9.1.tar.gz
+[2024-05-16 11:58:56] INFO root fetch - processPackages [autoconf]: Downloading https://files.pythonhosted.org/packages/7e/0f/dcb90a3a8f9a5bacb95db1c376062702f4b57fa879aa2f7303d191a80238/autoconf-2024.1.27.4.tar.gz
+[2024-05-16 11:58:56] INFO root fetch - processPackages [autogalaxy]: Downloading https://files.pythonhosted.org/packages/97/22/9f412d646805e54d33f5e1c8179b13870643d311ffb4a46be14c77c43151/autogalaxy-2024.1.27.4.tar.gz
+[2024-05-16 11:58:56] INFO root fetch - processPackages [autoarray]: Downloading https://files.pythonhosted.org/packages/5d/62/765e289f9ced59715187dcb1ba56669e9fc9b6810d1255488dcedd2a447c/autoarray-2024.1.27.4.tar.gz
+[2024-05-16 11:58:56] INFO root fetch - processPackages [clusterX]: Downloading https://files.pythonhosted.org/packages/d9/2b/224d34775fcebed2fb6bb5c6f889d87abbb3c073d7a26ba1a0a43dd29fa7/clusterX-2.1.0rc3.tar.gz
+[2024-05-16 11:58:56] INFO root fetch - processPackages [autofit]: Downloading https://files.pythonhosted.org/packages/e7/ba/f2309c3c052e48be7309e1a7968b4f9dd5af7704d8188a34e258fde9b5c2/autofit-2024.1.27.4.tar.gz
+[2024-05-16 11:58:56] INFO root fetch - processPackages [yeref]: Downloading https://files.pythonhosted.org/packages/01/13/0f11bb3dfb27aaf16ed48b0046f50ac65b1fde32662fbc314d53e2558b2d/yeref-0.9.9.tar.gz
+[2024-05-16 11:58:56] INFO root fetch - processPackages [wipdevice]: Downloading https://files.pythonhosted.org/packages/f8/fe/037e04c94e031415731eef5e784bc4969230ed3d296204e1d479f9821b48/wipdevice-0.0.2.tar.gz
+[2024-05-16 11:58:56] INFO root fetch - processPackages [nostr-dvm]: Downloading https://files.pythonhosted.org/packages/7e/89/2144dd4b3ab20efb90f2c0b3f3a1360ed2a37821375bfe47daf7d8ead306/nostr_dvm-0.3.7.tar.gz
+[2024-05-16 11:58:56] INFO root fetch - processPackages [wipdevice]: executing diffoscope
+[2024-05-16 11:58:56] INFO root fetch - processPackages [wipdevice]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wipdevice-0.0.1.tar.gz tmp/wipdevice-0.0.2.tar.gz --markdown 20240516/w/wipdevice/0.0.1-0.0.2/README.md --exclude *.pyd
+[2024-05-16 11:58:56] INFO root fetch - processPackages [autoconf]: Downloading https://files.pythonhosted.org/packages/60/0f/9c6a4c7382093260b1d270f88209c344b2242c1f274fe7844e74588bf51b/autoconf-2024.5.16.0.tar.gz
+[2024-05-16 11:58:56] INFO root fetch - processPackages [yeref]: executing diffoscope
+[2024-05-16 11:58:56] INFO root fetch - processPackages [yeref]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yeref-0.9.8.tar.gz tmp/yeref-0.9.9.tar.gz --markdown 20240516/y/yeref/0.9.8-0.9.9/README.md --exclude *.pyd
+[2024-05-16 11:58:56] INFO root fetch - processPackages [autogalaxy]: Downloading https://files.pythonhosted.org/packages/8e/96/0da4156a6f187f5a4fc56e0c158afd25bdd32ee43c0aebccf8254c631ee1/autogalaxy-2024.5.16.0.tar.gz
+[2024-05-16 11:58:56] INFO root fetch - processPackages [nostr-dvm]: executing diffoscope
+[2024-05-16 11:58:56] INFO root fetch - processPackages [nostr-dvm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nostr_dvm-0.3.6.tar.gz tmp/nostr_dvm-0.3.7.tar.gz --markdown 20240516/n/nostr-dvm/0.3.6-0.3.7/README.md --exclude *.pyd
+[2024-05-16 11:58:56] INFO root fetch - processPackages [autoarray]: Downloading https://files.pythonhosted.org/packages/29/a3/1065359901bbbc96697551b487858a5013eb0d40fe87120a9b72334d5dad/autoarray-2024.5.16.0.tar.gz
+[2024-05-16 11:58:56] INFO root fetch - processPackages [emlib]: Downloading https://files.pythonhosted.org/packages/2a/c4/46ac55b0f07ecc3157df3355733a20fad3d385671267e699bd178aabd98b/emlib-1.9.2.tar.gz
+[2024-05-16 11:58:56] INFO root fetch - processPackages [autoconf]: executing diffoscope
+[2024-05-16 11:58:56] INFO root fetch - processPackages [autoconf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autoconf-2024.1.27.4.tar.gz tmp/autoconf-2024.5.16.0.tar.gz --markdown 20240516/a/autoconf/2024.1.27.4-2024.5.16.0/README.md --exclude *.pyd
+[2024-05-16 11:58:56] INFO root fetch - processPackages [autofit]: Downloading https://files.pythonhosted.org/packages/ab/9a/a247b4e2151432d6bbd0d7d01997ebac83204d1b1373b3361e50ca71969b/autofit-2024.5.16.0.tar.gz
+[2024-05-16 11:58:56] INFO root fetch - processPackages [clusterX]: Downloading https://files.pythonhosted.org/packages/eb/a6/ae75517bb35af39eb3d50cc8cb3c912b9d13ccbf65f03c1618068ad7f194/clusterX-2.1.0rc4.tar.gz
+[2024-05-16 11:58:56] INFO root fetch - processPackages [emlib]: executing diffoscope
+[2024-05-16 11:58:56] INFO root fetch - processPackages [emlib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/emlib-1.9.1.tar.gz tmp/emlib-1.9.2.tar.gz --markdown 20240516/e/emlib/1.9.1-1.9.2/README.md --exclude *.pyd
+[2024-05-16 11:58:56] INFO root fetch - processPackages [clusterX]: executing diffoscope
+[2024-05-16 11:58:56] INFO root fetch - processPackages [clusterX]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/clusterX-2.1.0rc3.tar.gz tmp/clusterX-2.1.0rc4.tar.gz --markdown 20240516/c/clusterX/2.1.0rc3-2.1.0rc4/README.md --exclude *.pyd
+[2024-05-16 11:58:56] INFO root fetch - processPackages [autoarray]: executing diffoscope
+[2024-05-16 11:58:56] INFO root fetch - processPackages [autoarray]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autoarray-2024.1.27.4.tar.gz tmp/autoarray-2024.5.16.0.tar.gz --markdown 20240516/a/autoarray/2024.1.27.4-2024.5.16.0/README.md --exclude *.pyd
+[2024-05-16 11:58:57] INFO root fetch - processPackages [autogalaxy]: executing diffoscope
+[2024-05-16 11:58:57] INFO root fetch - processPackages [autogalaxy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autogalaxy-2024.1.27.4.tar.gz tmp/autogalaxy-2024.5.16.0.tar.gz --markdown 20240516/a/autogalaxy/2024.1.27.4-2024.5.16.0/README.md --exclude *.pyd
+[2024-05-16 11:58:57] INFO root fetch - processPackages [wipdevice]: Remove: archive file [/home/abi/fetcher/tmp/wipdevice-0.0.1.tar.gz]
+[2024-05-16 11:58:57] INFO root fetch - processPackages [wipdevice]: Remove: archive file [/home/abi/fetcher/tmp/wipdevice-0.0.2.tar.gz]
+[2024-05-16 11:58:57] INFO root fetch - main [MainThread]: End processing [wipdevice]: success
+[2024-05-16 11:58:57] INFO root fetch - processPackages [autoconf]: Remove: archive file [/home/abi/fetcher/tmp/autoconf-2024.1.27.4.tar.gz]
+[2024-05-16 11:58:57] INFO root fetch - processPackages [autoconf]: Remove: archive file [/home/abi/fetcher/tmp/autoconf-2024.5.16.0.tar.gz]
+[2024-05-16 11:58:57] INFO root fetch - main [MainThread]: End processing [autoconf]: success
+[2024-05-16 11:58:57] INFO root fetch - processPackages [yeref]: Remove: archive file [/home/abi/fetcher/tmp/yeref-0.9.8.tar.gz]
+[2024-05-16 11:58:57] INFO root fetch - processPackages [yeref]: Remove: archive file [/home/abi/fetcher/tmp/yeref-0.9.9.tar.gz]
+[2024-05-16 11:58:57] INFO root fetch - main [MainThread]: End processing [yeref]: success
+[2024-05-16 11:58:57] INFO root fetch - processPackages [emlib]: Remove: archive file [/home/abi/fetcher/tmp/emlib-1.9.1.tar.gz]
+[2024-05-16 11:58:57] INFO root fetch - processPackages [emlib]: Remove: archive file [/home/abi/fetcher/tmp/emlib-1.9.2.tar.gz]
+[2024-05-16 11:58:57] INFO root fetch - main [MainThread]: End processing [emlib]: success
+[2024-05-16 11:58:57] INFO root fetch - processPackages [nostr-dvm]: Remove: archive file [/home/abi/fetcher/tmp/nostr_dvm-0.3.6.tar.gz]
+[2024-05-16 11:58:57] INFO root fetch - processPackages [nostr-dvm]: Remove: archive file [/home/abi/fetcher/tmp/nostr_dvm-0.3.7.tar.gz]
+[2024-05-16 11:58:57] INFO root fetch - main [MainThread]: End processing [nostr-dvm]: success
+[2024-05-16 11:58:57] INFO root fetch - processPackages [clusterX]: Remove: archive file [/home/abi/fetcher/tmp/clusterX-2.1.0rc3.tar.gz]
+[2024-05-16 11:58:57] INFO root fetch - processPackages [clusterX]: Remove: archive file [/home/abi/fetcher/tmp/clusterX-2.1.0rc4.tar.gz]
+[2024-05-16 11:58:57] INFO root fetch - main [MainThread]: End processing [clusterX]: success
+[2024-05-16 11:58:58] INFO root fetch - processPackages [autofit]: executing diffoscope
+[2024-05-16 11:58:58] INFO root fetch - processPackages [autofit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autofit-2024.1.27.4.tar.gz tmp/autofit-2024.5.16.0.tar.gz --markdown 20240516/a/autofit/2024.1.27.4-2024.5.16.0/README.md --exclude *.pyd
+[2024-05-16 11:58:59] INFO root fetch - processPackages [autoarray]: Remove: archive file [/home/abi/fetcher/tmp/autoarray-2024.1.27.4.tar.gz]
+[2024-05-16 11:58:59] INFO root fetch - processPackages [autoarray]: Remove: archive file [/home/abi/fetcher/tmp/autoarray-2024.5.16.0.tar.gz]
+[2024-05-16 11:58:59] INFO root fetch - main [MainThread]: End processing [autoarray]: success
+[2024-05-16 11:58:59] INFO root fetch - processPackages [autogalaxy]: Remove: archive file [/home/abi/fetcher/tmp/autogalaxy-2024.1.27.4.tar.gz]
+[2024-05-16 11:58:59] INFO root fetch - processPackages [autogalaxy]: Remove: archive file [/home/abi/fetcher/tmp/autogalaxy-2024.5.16.0.tar.gz]
+[2024-05-16 11:58:59] INFO root fetch - main [MainThread]: End processing [autogalaxy]: success
+[2024-05-16 11:59:00] INFO root fetch - processPackages [autofit]: Remove: archive file [/home/abi/fetcher/tmp/autofit-2024.1.27.4.tar.gz]
+[2024-05-16 11:59:00] INFO root fetch - processPackages [autofit]: Remove: archive file [/home/abi/fetcher/tmp/autofit-2024.5.16.0.tar.gz]
+[2024-05-16 11:59:00] INFO root fetch - main [MainThread]: End processing [autofit]: success
+[2024-05-16 11:59:00] INFO root fetch - main [MainThread]: Store serial: [23233510]
