@@ -20775,3 +20775,76 @@ EOFError: EOF read where object expected
 [2024-05-16 11:06:49] INFO root fetch - processPackages [frequenz-api-weather]: Remove: archive file [/home/abi/fetcher/tmp/frequenz-api-weather-0.4.0.tar.gz]
 [2024-05-16 11:06:49] INFO root fetch - main [MainThread]: End processing [frequenz-api-weather]: success
 [2024-05-16 11:06:49] INFO root fetch - main [MainThread]: Store serial: [23232809]
+[2024-05-16 11:08:54] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23232809]
+[2024-05-16 11:08:59] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-05-16 11:08:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: easyntp
+[2024-05-16 11:08:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pygradflow
+[2024-05-16 11:08:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: aipkgs-core
+[2024-05-16 11:08:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: easyntp
+[2024-05-16 11:08:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: jyhelper
+[2024-05-16 11:08:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pulumi-docker-build
+[2024-05-16 11:08:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: castor-extractor
+[2024-05-16 11:08:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: vbpy
+[2024-05-16 11:08:59] INFO root fetch - processPackages [aipkgs-core]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-05-16 11:08:59] INFO root fetch - processPackages [easyntp]: New version: [0.0.1] Old Version: [0.0.0]
+[2024-05-16 11:08:59] INFO root fetch - processPackages [easyntp]: New version: [0.0.1] Old Version: [0.0.0]
+[2024-05-16 11:08:59] INFO root fetch - processPackages [jyhelper]: New version: [1.2.3] Old Version: [1.2.2]
+[2024-05-16 11:08:59] INFO root fetch - processPackages [pulumi-docker-build]: New version: [0.1.0a1715849163] Old Version: [0.1.0a1715628204]
+[2024-05-16 11:08:59] INFO root fetch - processPackages [pygradflow]: New version: [0.4.9] Old Version: [0.4.8]
+[2024-05-16 11:08:59] INFO root fetch - processPackages [castor-extractor]: New version: [0.9.2] Old Version: [0.9.0]
+[2024-05-16 11:08:59] INFO root fetch - processPackages [vbpy]: New version: [2.0.2] Old Version: [1.1]
+[2024-05-16 11:08:59] INFO root fetch - processPackages [aipkgs-core]: Downloading https://files.pythonhosted.org/packages/1b/95/2d761178d77290df39be6e93078af4b40f985d9809d971cd17dd950588d3/aipkgs_core-1.0.8.tar.gz
+[2024-05-16 11:08:59] INFO root fetch - processPackages [pulumi-docker-build]: Downloading https://files.pythonhosted.org/packages/1b/a6/a26d0b35e817dd3ca9001a968dcd1a1fb5e9ae161113aabef25a0ab160de/pulumi_docker_build-0.1.0a1715628204.tar.gz
+[2024-05-16 11:08:59] INFO root fetch - processPackages [easyntp]: Downloading https://files.pythonhosted.org/packages/9f/ab/36b050dd02f69c012b9edd72dda275b00a686510e9f1515d870b6e7bf827/easyntp-0.0.0-py3-none-any.whl
+[2024-05-16 11:08:59] INFO root fetch - processPackages [easyntp]: Downloading https://files.pythonhosted.org/packages/9f/ab/36b050dd02f69c012b9edd72dda275b00a686510e9f1515d870b6e7bf827/easyntp-0.0.0-py3-none-any.whl
+[2024-05-16 11:08:59] INFO root fetch - processPackages [vbpy]: Downloading https://files.pythonhosted.org/packages/4f/3e/a9b4e12126565b5e59fcffe764bea0716c182ed379ff195ac33a19cddbde/vbpy-1.1.tar.gz
+[2024-05-16 11:08:59] INFO root fetch - processPackages [jyhelper]: Downloading https://files.pythonhosted.org/packages/48/d7/2102f0c13d023ecad33fdc3bd94a81fbd7f29ae32ac3c1a48c361722f3fc/jyhelper-1.2.2.tar.gz
+[2024-05-16 11:08:59] INFO root fetch - processPackages [castor-extractor]: Downloading https://files.pythonhosted.org/packages/24/ae/7d5f85136f27ac52452ae7e111676b11b5ea45ecd4220d707fd531c98b30/castor_extractor-0.9.0.tar.gz
+[2024-05-16 11:08:59] INFO root fetch - processPackages [pygradflow]: Downloading https://files.pythonhosted.org/packages/63/fb/eb248249b7c847e7a8f8214760b3a9477a3ef33cb3379c755d72fc7bf1af/pygradflow-0.4.8.tar.gz
+[2024-05-16 11:08:59] INFO root fetch - processPackages [aipkgs-core]: Downloading https://files.pythonhosted.org/packages/c8/b2/fb0706bf9eeeee24d524f103cad3a18e46870855a277a735a6c83ea06692/aipkgs_core-1.0.9.tar.gz
+[2024-05-16 11:09:00] INFO root fetch - processPackages [pulumi-docker-build]: Downloading https://files.pythonhosted.org/packages/fe/65/9dae36392287aea122523b2cbca255c506ed3c197cba9e5e548faaaaaa3b/pulumi_docker_build-0.1.0a1715849163.tar.gz
+[2024-05-16 11:09:00] INFO root fetch - processPackages [easyntp]: Downloading https://files.pythonhosted.org/packages/c4/85/da79515122dfbe92fef394d146b837c657417c144837420e2d5312bbf199/easyntp-0.0.1-py3-none-any.whl
+[2024-05-16 11:09:00] INFO root fetch - processPackages [easyntp]: Downloading https://files.pythonhosted.org/packages/c4/85/da79515122dfbe92fef394d146b837c657417c144837420e2d5312bbf199/easyntp-0.0.1-py3-none-any.whl
+[2024-05-16 11:09:00] INFO root fetch - processPackages [vbpy]: Downloading https://files.pythonhosted.org/packages/72/c2/569ff3155eb3dbf106bfe1f9f1cab8ddedb6b0a004feb6e82c4df907251a/vbpy-2.0.2.tar.gz
+[2024-05-16 11:09:00] INFO root fetch - processPackages [aipkgs-core]: executing diffoscope
+[2024-05-16 11:09:00] INFO root fetch - processPackages [aipkgs-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aipkgs_core-1.0.8.tar.gz tmp/aipkgs_core-1.0.9.tar.gz --markdown 20240516/a/aipkgs-core/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-05-16 11:09:00] INFO root fetch - processPackages [castor-extractor]: Downloading https://files.pythonhosted.org/packages/82/9e/87b7b468b52cc566af927aded940bce726d5249d88f184d6aa2f55f62308/castor_extractor-0.9.2.tar.gz
+[2024-05-16 11:09:00] INFO root fetch - processPackages [jyhelper]: Downloading https://files.pythonhosted.org/packages/82/8f/f9fc2cf42cc2bae3c9d8f01f73cf5cf391f2d8e88cde668f5ec6ee08a011/jyhelper-1.2.3.tar.gz
+[2024-05-16 11:09:00] INFO root fetch - processPackages [easyntp]: executing diffoscope
+[2024-05-16 11:09:00] INFO root fetch - processPackages [easyntp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/easyntp-0.0.0-py3-none-any.whl.zip tmp/easyntp-0.0.1-py3-none-any.whl.zip --markdown 20240516/e/easyntp/0.0.0-0.0.1/README.md --exclude *.pyd
+[2024-05-16 11:09:00] INFO root fetch - processPackages [easyntp]: executing diffoscope
+[2024-05-16 11:09:00] INFO root fetch - processPackages [easyntp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/easyntp-0.0.0-py3-none-any.whl.zip tmp/easyntp-0.0.1-py3-none-any.whl.zip --markdown 20240516/e/easyntp/0.0.0-0.0.1/README.md --exclude *.pyd
+[2024-05-16 11:09:00] INFO root fetch - processPackages [pulumi-docker-build]: executing diffoscope
+[2024-05-16 11:09:00] INFO root fetch - processPackages [pulumi-docker-build]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_docker_build-0.1.0a1715628204.tar.gz tmp/pulumi_docker_build-0.1.0a1715849163.tar.gz --markdown 20240516/p/pulumi-docker-build/0.1.0a1715628204-0.1.0a1715849163/README.md --exclude *.pyd
+[2024-05-16 11:09:00] INFO root fetch - processPackages [vbpy]: executing diffoscope
+[2024-05-16 11:09:00] INFO root fetch - processPackages [vbpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vbpy-1.1.tar.gz tmp/vbpy-2.0.2.tar.gz --markdown 20240516/v/vbpy/1.1-2.0.2/README.md --exclude *.pyd
+[2024-05-16 11:09:00] INFO root fetch - processPackages [castor-extractor]: executing diffoscope
+[2024-05-16 11:09:00] INFO root fetch - processPackages [castor-extractor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/castor_extractor-0.9.0.tar.gz tmp/castor_extractor-0.9.2.tar.gz --markdown 20240516/c/castor-extractor/0.9.0-0.9.2/README.md --exclude *.pyd
+[2024-05-16 11:09:00] INFO root fetch - processPackages [jyhelper]: executing diffoscope
+[2024-05-16 11:09:00] INFO root fetch - processPackages [jyhelper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jyhelper-1.2.2.tar.gz tmp/jyhelper-1.2.3.tar.gz --markdown 20240516/j/jyhelper/1.2.2-1.2.3/README.md --exclude *.pyd
+[2024-05-16 11:09:00] INFO root fetch - processPackages [pygradflow]: Downloading https://files.pythonhosted.org/packages/11/e9/5d79c5133f5382a85ca4f969840ba095eade539d2aabec45738a1bf7c27f/pygradflow-0.4.9.tar.gz
+[2024-05-16 11:09:00] INFO root fetch - processPackages [pygradflow]: executing diffoscope
+[2024-05-16 11:09:00] INFO root fetch - processPackages [pygradflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pygradflow-0.4.8.tar.gz tmp/pygradflow-0.4.9.tar.gz --markdown 20240516/p/pygradflow/0.4.8-0.4.9/README.md --exclude *.pyd
+[2024-05-16 11:09:01] INFO root fetch - processPackages [easyntp]: Remove: archive file [/home/abi/fetcher/tmp/easyntp-0.0.0-py3-none-any.whl.zip]
+[2024-05-16 11:09:01] INFO root fetch - processPackages [easyntp]: Remove: archive file [/home/abi/fetcher/tmp/easyntp-0.0.1-py3-none-any.whl.zip]
+[2024-05-16 11:09:01] INFO root fetch - main [MainThread]: End processing [easyntp]: success
+[2024-05-16 11:09:01] INFO root fetch - main [MainThread]: End processing [easyntp]: success
+[2024-05-16 11:09:01] INFO root fetch - processPackages [pulumi-docker-build]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_docker_build-0.1.0a1715628204.tar.gz]
+[2024-05-16 11:09:01] INFO root fetch - processPackages [pulumi-docker-build]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_docker_build-0.1.0a1715849163.tar.gz]
+[2024-05-16 11:09:01] INFO root fetch - main [MainThread]: End processing [pulumi-docker-build]: success
+[2024-05-16 11:09:01] INFO root fetch - processPackages [aipkgs-core]: Remove: archive file [/home/abi/fetcher/tmp/aipkgs_core-1.0.8.tar.gz]
+[2024-05-16 11:09:01] INFO root fetch - processPackages [aipkgs-core]: Remove: archive file [/home/abi/fetcher/tmp/aipkgs_core-1.0.9.tar.gz]
+[2024-05-16 11:09:01] INFO root fetch - main [MainThread]: End processing [aipkgs-core]: success
+[2024-05-16 11:09:01] INFO root fetch - processPackages [vbpy]: Remove: archive file [/home/abi/fetcher/tmp/vbpy-1.1.tar.gz]
+[2024-05-16 11:09:01] INFO root fetch - processPackages [vbpy]: Remove: archive file [/home/abi/fetcher/tmp/vbpy-2.0.2.tar.gz]
+[2024-05-16 11:09:01] INFO root fetch - main [MainThread]: End processing [vbpy]: success
+[2024-05-16 11:09:01] INFO root fetch - processPackages [pygradflow]: Remove: archive file [/home/abi/fetcher/tmp/pygradflow-0.4.8.tar.gz]
+[2024-05-16 11:09:01] INFO root fetch - processPackages [pygradflow]: Remove: archive file [/home/abi/fetcher/tmp/pygradflow-0.4.9.tar.gz]
+[2024-05-16 11:09:01] INFO root fetch - main [MainThread]: End processing [pygradflow]: success
+[2024-05-16 11:09:01] INFO root fetch - processPackages [jyhelper]: Remove: archive file [/home/abi/fetcher/tmp/jyhelper-1.2.2.tar.gz]
+[2024-05-16 11:09:01] INFO root fetch - processPackages [jyhelper]: Remove: archive file [/home/abi/fetcher/tmp/jyhelper-1.2.3.tar.gz]
+[2024-05-16 11:09:01] INFO root fetch - main [MainThread]: End processing [jyhelper]: success
+[2024-05-16 11:09:01] INFO root fetch - processPackages [castor-extractor]: Remove: archive file [/home/abi/fetcher/tmp/castor_extractor-0.9.0.tar.gz]
+[2024-05-16 11:09:01] INFO root fetch - processPackages [castor-extractor]: Remove: archive file [/home/abi/fetcher/tmp/castor_extractor-0.9.2.tar.gz]
+[2024-05-16 11:09:01] INFO root fetch - main [MainThread]: End processing [castor-extractor]: success
+[2024-05-16 11:09:01] INFO root fetch - main [MainThread]: Store serial: [23232833]
