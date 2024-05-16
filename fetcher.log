@@ -22091,3 +22091,66 @@ EOFError: EOF read where object expected
 [2024-05-16 11:47:16] INFO root fetch - processPackages [wp-enhanced]: Remove: archive file [/home/abi/fetcher/tmp/wp_enhanced-0.8.9.tar.gz]
 [2024-05-16 11:47:16] INFO root fetch - main [MainThread]: End processing [wp-enhanced]: success
 [2024-05-16 11:47:16] INFO root fetch - main [MainThread]: Store serial: [23233378]
+[2024-05-16 11:49:24] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23233378]
+[2024-05-16 11:49:29] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2024-05-16 11:49:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ramanchada2
+[2024-05-16 11:49:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pandoc-recap
+[2024-05-16 11:49:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: aioabstractapi
+[2024-05-16 11:49:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pynxtools-ellips
+[2024-05-16 11:49:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pozalabs-miditoolkit
+[2024-05-16 11:49:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ca-ez-manager
+[2024-05-16 11:49:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: yeref
+[2024-05-16 11:49:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: eea.volto.policy
+[2024-05-16 11:49:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: rfb-SCPI-sniffer
+[2024-05-16 11:49:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: ms21xx-firmware
+[2024-05-16 11:49:29] INFO root fetch - processPackages [pynxtools-ellips]: New version: [0.0.1a0] Old Version: [0.0.1]
+[2024-05-16 11:49:29] INFO root fetch - processPackages [ramanchada2]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-16 11:49:29] WARNING root fetch - processPackages [ms21xx-firmware]: Skipping, unable to determine old version
+[2024-05-16 11:49:29] INFO root fetch - main [MainThread]: End processing [ms21xx-firmware] error
+[2024-05-16 11:49:29] INFO root fetch - processPackages [pozalabs-miditoolkit]: New version: [1.1.2] Old Version: [1.1.1]
+[2024-05-16 11:49:29] WARNING root fetch - processPackages [ca-ez-manager]: Skipping, unable to determine old version
+[2024-05-16 11:49:29] INFO root fetch - main [MainThread]: End processing [ca-ez-manager] error
+[2024-05-16 11:49:29] WARNING root fetch - processPackages [rfb-SCPI-sniffer]: Skipping, unable to determine old version
+[2024-05-16 11:49:29] INFO root fetch - main [MainThread]: End processing [rfb-SCPI-sniffer] error
+[2024-05-16 11:49:29] INFO root fetch - processPackages [yeref]: New version: [0.9.9] Old Version: [0.9.8]
+[2024-05-16 11:49:29] WARNING root fetch - processPackages [aioabstractapi]: Skipping, unable to determine old version
+[2024-05-16 11:49:29] INFO root fetch - main [MainThread]: End processing [aioabstractapi] error
+[2024-05-16 11:49:29] WARNING root fetch - processPackages [pandoc-recap]: Skipping, unable to determine old version
+[2024-05-16 11:49:29] INFO root fetch - main [MainThread]: End processing [pandoc-recap] error
+[2024-05-16 11:49:29] INFO root fetch - processPackages [eea.volto.policy]: New version: [3.5] Old Version: [3.4]
+[2024-05-16 11:49:29] INFO root fetch - processPackages [yeref]: Downloading https://files.pythonhosted.org/packages/ec/cb/204e6fbe233bbb61cf29c1b491e8c638c8a843edc47fb4e1d8cc8c26608c/yeref-0.9.8.tar.gz
+[2024-05-16 11:49:29] INFO root fetch - processPackages [pynxtools-ellips]: Downloading https://files.pythonhosted.org/packages/10/4e/883ac5c76f0f5306f3e6d87c72dd495d2d7a53159542dc7f8b6a90a7b125/pynxtools_ellips-0.0.1.tar.gz
+[2024-05-16 11:49:29] INFO root fetch - processPackages [ramanchada2]: Downloading https://files.pythonhosted.org/packages/33/96/b0f80571bdbadbf74c83dbcb98f68bc1405fc03fbece8f72a195d94f6be6/ramanchada2-0.0.8.tar.gz
+[2024-05-16 11:49:29] INFO root fetch - processPackages [pozalabs-miditoolkit]: Downloading https://files.pythonhosted.org/packages/dc/c6/8913a40ae0e0ec8e513c64764dcb96c0ec5a4cd0bc7bf0eae879a0c73cd0/pozalabs-miditoolkit-1.1.1.tar.gz
+[2024-05-16 11:49:29] INFO root fetch - processPackages [eea.volto.policy]: Downloading https://files.pythonhosted.org/packages/29/5c/d5cb5978ac3d4000a6635e44a54ea5f649534544d5736b11c46d73c92985/eea.volto.policy-3.4.zip
+[2024-05-16 11:49:29] INFO root fetch - processPackages [yeref]: Downloading https://files.pythonhosted.org/packages/01/13/0f11bb3dfb27aaf16ed48b0046f50ac65b1fde32662fbc314d53e2558b2d/yeref-0.9.9.tar.gz
+[2024-05-16 11:49:29] INFO root fetch - processPackages [yeref]: executing diffoscope
+[2024-05-16 11:49:29] INFO root fetch - processPackages [yeref]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yeref-0.9.8.tar.gz tmp/yeref-0.9.9.tar.gz --markdown 20240516/y/yeref/0.9.8-0.9.9/README.md --exclude *.pyd
+[2024-05-16 11:49:29] INFO root fetch - processPackages [pynxtools-ellips]: Downloading https://files.pythonhosted.org/packages/7d/6b/dea84631b08438b5a620629e08e232a069c040414f186d9b70a81f153e8f/pynxtools_ellips-0.0.1a0.tar.gz
+[2024-05-16 11:49:29] INFO root fetch - processPackages [eea.volto.policy]: Downloading https://files.pythonhosted.org/packages/d4/6e/1066566e9c92be4e50ca2329dfb7d3bfff82b0c8a096a1a54e7bac706c9c/eea.volto.policy-3.5.zip
+[2024-05-16 11:49:30] INFO root fetch - processPackages [pozalabs-miditoolkit]: Downloading https://files.pythonhosted.org/packages/ad/f5/95febd7a04175d7556b75ede6d8af296b29190f05a3e017f7c3592b2cde6/pozalabs-miditoolkit-1.1.2.tar.gz
+[2024-05-16 11:49:30] INFO root fetch - processPackages [eea.volto.policy]: executing diffoscope
+[2024-05-16 11:49:30] INFO root fetch - processPackages [eea.volto.policy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eea.volto.policy-3.4.zip tmp/eea.volto.policy-3.5.zip --markdown 20240516/e/eea.volto.policy/3.4-3.5/README.md --exclude *.pyd
+[2024-05-16 11:49:30] INFO root fetch - processPackages [pynxtools-ellips]: executing diffoscope
+[2024-05-16 11:49:30] INFO root fetch - processPackages [pynxtools-ellips]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pynxtools_ellips-0.0.1.tar.gz tmp/pynxtools_ellips-0.0.1a0.tar.gz --markdown 20240516/p/pynxtools-ellips/0.0.1-0.0.1a0/README.md --exclude *.pyd
+[2024-05-16 11:49:30] INFO root fetch - processPackages [pozalabs-miditoolkit]: executing diffoscope
+[2024-05-16 11:49:30] INFO root fetch - processPackages [pozalabs-miditoolkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pozalabs-miditoolkit-1.1.1.tar.gz tmp/pozalabs-miditoolkit-1.1.2.tar.gz --markdown 20240516/p/pozalabs-miditoolkit/1.1.1-1.1.2/README.md --exclude *.pyd
+[2024-05-16 11:49:30] INFO root fetch - processPackages [ramanchada2]: Downloading https://files.pythonhosted.org/packages/94/16/713eaee6b77940526588b1f2b597ee60602812f8b509d2bf13461a8216ea/ramanchada2-0.0.9.tar.gz
+[2024-05-16 11:49:30] INFO root fetch - processPackages [ramanchada2]: executing diffoscope
+[2024-05-16 11:49:30] INFO root fetch - processPackages [ramanchada2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ramanchada2-0.0.8.tar.gz tmp/ramanchada2-0.0.9.tar.gz --markdown 20240516/r/ramanchada2/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-16 11:49:30] INFO root fetch - processPackages [yeref]: Remove: archive file [/home/abi/fetcher/tmp/yeref-0.9.8.tar.gz]
+[2024-05-16 11:49:30] INFO root fetch - processPackages [yeref]: Remove: archive file [/home/abi/fetcher/tmp/yeref-0.9.9.tar.gz]
+[2024-05-16 11:49:30] INFO root fetch - main [MainThread]: End processing [yeref]: success
+[2024-05-16 11:49:31] INFO root fetch - processPackages [pynxtools-ellips]: Remove: archive file [/home/abi/fetcher/tmp/pynxtools_ellips-0.0.1.tar.gz]
+[2024-05-16 11:49:31] INFO root fetch - processPackages [pynxtools-ellips]: Remove: archive file [/home/abi/fetcher/tmp/pynxtools_ellips-0.0.1a0.tar.gz]
+[2024-05-16 11:49:31] INFO root fetch - main [MainThread]: End processing [pynxtools-ellips]: success
+[2024-05-16 11:49:31] INFO root fetch - processPackages [eea.volto.policy]: Remove: archive file [/home/abi/fetcher/tmp/eea.volto.policy-3.4.zip]
+[2024-05-16 11:49:31] INFO root fetch - processPackages [eea.volto.policy]: Remove: archive file [/home/abi/fetcher/tmp/eea.volto.policy-3.5.zip]
+[2024-05-16 11:49:31] INFO root fetch - main [MainThread]: End processing [eea.volto.policy]: success
+[2024-05-16 11:49:31] INFO root fetch - processPackages [pozalabs-miditoolkit]: Remove: archive file [/home/abi/fetcher/tmp/pozalabs-miditoolkit-1.1.1.tar.gz]
+[2024-05-16 11:49:31] INFO root fetch - processPackages [pozalabs-miditoolkit]: Remove: archive file [/home/abi/fetcher/tmp/pozalabs-miditoolkit-1.1.2.tar.gz]
+[2024-05-16 11:49:31] INFO root fetch - main [MainThread]: End processing [pozalabs-miditoolkit]: success
+[2024-05-16 11:49:32] INFO root fetch - processPackages [ramanchada2]: Remove: archive file [/home/abi/fetcher/tmp/ramanchada2-0.0.8.tar.gz]
+[2024-05-16 11:49:32] INFO root fetch - processPackages [ramanchada2]: Remove: archive file [/home/abi/fetcher/tmp/ramanchada2-0.0.9.tar.gz]
+[2024-05-16 11:49:32] INFO root fetch - main [MainThread]: End processing [ramanchada2]: success
+[2024-05-16 11:49:32] INFO root fetch - main [MainThread]: Store serial: [23233411]
