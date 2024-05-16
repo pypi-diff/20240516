@@ -10974,3 +10974,9 @@ EOFError: EOF read where object expected
 [2024-05-16 06:06:17] INFO root fetch - processPackages [odoo-addon-dms-auto-classification]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_dms_auto_classification-16.0.1.1.0.2-py3-none-any.whl.zip]
 [2024-05-16 06:06:17] INFO root fetch - main [MainThread]: End processing [odoo-addon-dms-auto-classification]: success
 [2024-05-16 06:06:17] INFO root fetch - main [MainThread]: Store serial: [23229272]
+[2024-05-16 06:08:21] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23229272]
+[2024-05-16 06:08:26] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-05-16 06:08:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: requests_request
+[2024-05-16 06:08:26] WARNING root fetch - processPackages [requests_request]: Skipping, unable to determine old version
+[2024-05-16 06:08:26] INFO root fetch - main [MainThread]: End processing [requests_request] error
+[2024-05-16 06:08:26] INFO root fetch - main [MainThread]: Store serial: [23229277]
