@@ -21583,3 +21583,77 @@ EOFError: EOF read where object expected
 [2024-05-16 11:31:27] INFO root fetch - processPackages [openbb-nightly]: Remove: archive file [/home/abi/fetcher/tmp/openbb_nightly-4.1.7.dev202405140009.tar.gz]
 [2024-05-16 11:31:27] INFO root fetch - main [MainThread]: End processing [openbb-nightly]: success
 [2024-05-16 11:31:27] INFO root fetch - main [MainThread]: Store serial: [23233133]
+[2024-05-16 11:33:34] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23233133]
+[2024-05-16 11:33:39] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-05-16 11:33:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mongodb-orm
+[2024-05-16 11:33:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pycognaize
+[2024-05-16 11:33:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: mlpro-int-mujoco
+[2024-05-16 11:33:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: gimera
+[2024-05-16 11:33:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: wata
+[2024-05-16 11:33:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: opsci-toolbox
+[2024-05-16 11:33:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: bagbag
+[2024-05-16 11:33:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: kcli
+[2024-05-16 11:33:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: jesse
+[2024-05-16 11:33:39] INFO root fetch - processPackages [mlpro-int-mujoco]: New version: [1.0.0] Old Version: [0.1.0]
+[2024-05-16 11:33:39] WARNING root fetch - processPackages [opsci-toolbox]: Skipping, unable to determine old version
+[2024-05-16 11:33:39] INFO root fetch - main [MainThread]: End processing [opsci-toolbox] error
+[2024-05-16 11:33:39] INFO root fetch - processPackages [wata]: New version: [0.1.2.17] Old Version: [0.1.2.16.1]
+[2024-05-16 11:33:39] INFO root fetch - processPackages [mongodb-orm]: New version: [0.1.0] Old Version: [0.0.130]
+[2024-05-16 11:33:39] INFO root fetch - processPackages [pycognaize]: New version: [1.4.9] Old Version: [1.4.8]
+[2024-05-16 11:33:39] INFO root fetch - processPackages [gimera]: New version: [0.7.9] Old Version: [0.7.8]
+[2024-05-16 11:33:39] INFO root fetch - processPackages [bagbag]: New version: [0.68.0] Old Version: [0.67.3]
+[2024-05-16 11:33:39] INFO root fetch - processPackages [kcli]: New version: [99.0.202405160920] Old Version: [99.0.202405160914]
+[2024-05-16 11:33:39] INFO root fetch - processPackages [gimera]: Downloading https://files.pythonhosted.org/packages/2e/3e/38d88141bd3707f8ae8e6b3e159b24edc9461c0f4a93e883a527e9762ea2/gimera-0.7.8.tar.gz
+[2024-05-16 11:33:39] INFO root fetch - processPackages [mlpro-int-mujoco]: Downloading https://files.pythonhosted.org/packages/58/61/9aa3c5478ca8d4d232aaae26dd4ae2ab2a291fa4faa3040ff5ee6f2b2b7e/mlpro_int_mujoco-0.1.0.tar.gz
+[2024-05-16 11:33:39] INFO root fetch - processPackages [pycognaize]: Downloading https://files.pythonhosted.org/packages/5c/36/fb3952a90a0f2e57f9c0c1b9893d6d7dd466a2eae7d75130342669893d31/pycognaize-1.4.8.tar.gz
+[2024-05-16 11:33:39] INFO root fetch - processPackages [bagbag]: Downloading https://files.pythonhosted.org/packages/41/8d/a9e067df9e1da190b68d9723decdcf9b39a52c24c9e4c58f4ab910bd6795/bagbag-0.67.3.tar.gz
+[2024-05-16 11:33:39] INFO root fetch - processPackages [kcli]: Downloading https://files.pythonhosted.org/packages/7c/58/698de194a6b48906b54d49193cb15e0149310688b2a176153bc9e87b2d23/kcli-99.0.202405160914.tar.gz
+[2024-05-16 11:33:39] INFO root fetch - processPackages [jesse]: New version: [0.9.2] Old Version: [0.9.1]
+[2024-05-16 11:33:39] INFO root fetch - processPackages [wata]: Downloading https://files.pythonhosted.org/packages/df/88/052d63f7fd0e2a145023bac365c534af4934fa3613de4483d574b9f170c2/wata-0.1.2.16.1.tar.gz
+[2024-05-16 11:33:39] INFO root fetch - processPackages [mongodb-orm]: Downloading https://files.pythonhosted.org/packages/63/98/dbb18e061c99e4dc4d016ac42a90f4c7e6071755cef64b0ffb90f187e3be/mongodb_orm-0.0.130.tar.gz
+[2024-05-16 11:33:39] INFO root fetch - processPackages [gimera]: Downloading https://files.pythonhosted.org/packages/b1/dc/c80f85a8b614af02ff8abe5853e4f4f5d0076d026ec6a58b86c4694563bd/gimera-0.7.9.tar.gz
+[2024-05-16 11:33:39] WARNING root fetch - processPackages [wata]: Skipping package: exceeds size limit 45881728>=10485760
+[2024-05-16 11:33:39] INFO root fetch - main [MainThread]: End processing [wata] error
+[2024-05-16 11:33:39] INFO root fetch - processPackages [pycognaize]: Downloading https://files.pythonhosted.org/packages/fe/bb/26451b0bbddbd03704f60601f1f0392b063e5ada2fb7acef94a2464582c9/pycognaize-1.4.9.tar.gz
+[2024-05-16 11:33:39] INFO root fetch - processPackages [mlpro-int-mujoco]: Downloading https://files.pythonhosted.org/packages/e8/e8/92e0bd26ef52e3ea2b0d0f3d3b0bdc8b746c54b07b06c11ac7b7a0eae96b/mlpro_int_mujoco-1.0.0.tar.gz
+[2024-05-16 11:33:39] INFO root fetch - processPackages [bagbag]: Downloading https://files.pythonhosted.org/packages/4e/11/06e408884a99b6f37ad3065d866c9cd2af966e46abd50cd85e28080b2acc/bagbag-0.68.0.tar.gz
+[2024-05-16 11:33:39] INFO root fetch - processPackages [jesse]: Downloading https://files.pythonhosted.org/packages/3d/42/48c74d04f47eb581a344bec1702569264a10dc46e09154fe195faff3a76a/jesse-0.9.1.tar.gz
+[2024-05-16 11:33:39] INFO root fetch - processPackages [gimera]: executing diffoscope
+[2024-05-16 11:33:39] INFO root fetch - processPackages [gimera]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gimera-0.7.8.tar.gz tmp/gimera-0.7.9.tar.gz --markdown 20240516/g/gimera/0.7.8-0.7.9/README.md --exclude *.pyd
+[2024-05-16 11:33:40] INFO root fetch - processPackages [mongodb-orm]: Downloading https://files.pythonhosted.org/packages/d4/d9/a5c908eb9f8271985429121ebab497f101329c81bba96335237809ec299f/mongodb_orm-0.1.0.tar.gz
+[2024-05-16 11:33:40] INFO root fetch - processPackages [pycognaize]: executing diffoscope
+[2024-05-16 11:33:40] INFO root fetch - processPackages [pycognaize]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pycognaize-1.4.8.tar.gz tmp/pycognaize-1.4.9.tar.gz --markdown 20240516/p/pycognaize/1.4.8-1.4.9/README.md --exclude *.pyd
+[2024-05-16 11:33:40] INFO root fetch - processPackages [mlpro-int-mujoco]: executing diffoscope
+[2024-05-16 11:33:40] INFO root fetch - processPackages [mlpro-int-mujoco]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mlpro_int_mujoco-0.1.0.tar.gz tmp/mlpro_int_mujoco-1.0.0.tar.gz --markdown 20240516/m/mlpro-int-mujoco/0.1.0-1.0.0/README.md --exclude *.pyd
+[2024-05-16 11:33:40] INFO root fetch - processPackages [bagbag]: executing diffoscope
+[2024-05-16 11:33:40] INFO root fetch - processPackages [bagbag]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bagbag-0.67.3.tar.gz tmp/bagbag-0.68.0.tar.gz --markdown 20240516/b/bagbag/0.67.3-0.68.0/README.md --exclude *.pyd
+[2024-05-16 11:33:40] INFO root fetch - processPackages [kcli]: Downloading https://files.pythonhosted.org/packages/0f/dc/fcdeef81439629856d2e3d598fb446c2ace3399f0c2202f6356289c3526d/kcli-99.0.202405160920.tar.gz
+[2024-05-16 11:33:40] INFO root fetch - processPackages [mongodb-orm]: executing diffoscope
+[2024-05-16 11:33:40] INFO root fetch - processPackages [mongodb-orm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mongodb_orm-0.0.130.tar.gz tmp/mongodb_orm-0.1.0.tar.gz --markdown 20240516/m/mongodb-orm/0.0.130-0.1.0/README.md --exclude *.pyd
+[2024-05-16 11:33:40] INFO root fetch - processPackages [kcli]: executing diffoscope
+[2024-05-16 11:33:40] INFO root fetch - processPackages [kcli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kcli-99.0.202405160914.tar.gz tmp/kcli-99.0.202405160920.tar.gz --markdown 20240516/k/kcli/99.0.202405160914-99.0.202405160920/README.md --exclude *.pyd
+[2024-05-16 11:33:40] INFO root fetch - processPackages [gimera]: Remove: archive file [/home/abi/fetcher/tmp/gimera-0.7.8.tar.gz]
+[2024-05-16 11:33:40] INFO root fetch - processPackages [gimera]: Remove: archive file [/home/abi/fetcher/tmp/gimera-0.7.9.tar.gz]
+[2024-05-16 11:33:40] INFO root fetch - main [MainThread]: End processing [gimera]: success
+[2024-05-16 11:33:41] INFO root fetch - processPackages [mongodb-orm]: Remove: archive file [/home/abi/fetcher/tmp/mongodb_orm-0.0.130.tar.gz]
+[2024-05-16 11:33:41] INFO root fetch - processPackages [mongodb-orm]: Remove: archive file [/home/abi/fetcher/tmp/mongodb_orm-0.1.0.tar.gz]
+[2024-05-16 11:33:41] INFO root fetch - main [MainThread]: End processing [mongodb-orm]: success
+[2024-05-16 11:33:41] INFO root fetch - processPackages [mlpro-int-mujoco]: Remove: archive file [/home/abi/fetcher/tmp/mlpro_int_mujoco-0.1.0.tar.gz]
+[2024-05-16 11:33:41] INFO root fetch - processPackages [mlpro-int-mujoco]: Remove: archive file [/home/abi/fetcher/tmp/mlpro_int_mujoco-1.0.0.tar.gz]
+[2024-05-16 11:33:41] INFO root fetch - main [MainThread]: End processing [mlpro-int-mujoco]: success
+[2024-05-16 11:33:41] INFO root fetch - processPackages [jesse]: Downloading https://files.pythonhosted.org/packages/02/58/150ec6c6c6a68ba45091a842e60d38f186d225d3a737941000cf39902f00/jesse-0.9.2.tar.gz
+[2024-05-16 11:33:41] INFO root fetch - processPackages [pycognaize]: Remove: archive file [/home/abi/fetcher/tmp/pycognaize-1.4.8.tar.gz]
+[2024-05-16 11:33:41] INFO root fetch - processPackages [pycognaize]: Remove: archive file [/home/abi/fetcher/tmp/pycognaize-1.4.9.tar.gz]
+[2024-05-16 11:33:41] INFO root fetch - main [MainThread]: End processing [pycognaize]: success
+[2024-05-16 11:33:41] INFO root fetch - processPackages [jesse]: executing diffoscope
+[2024-05-16 11:33:41] INFO root fetch - processPackages [jesse]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jesse-0.9.1.tar.gz tmp/jesse-0.9.2.tar.gz --markdown 20240516/j/jesse/0.9.1-0.9.2/README.md --exclude *.pyd
+[2024-05-16 11:33:41] INFO root fetch - processPackages [bagbag]: Remove: archive file [/home/abi/fetcher/tmp/bagbag-0.67.3.tar.gz]
+[2024-05-16 11:33:41] INFO root fetch - processPackages [bagbag]: Remove: archive file [/home/abi/fetcher/tmp/bagbag-0.68.0.tar.gz]
+[2024-05-16 11:33:41] INFO root fetch - main [MainThread]: End processing [bagbag]: success
+[2024-05-16 11:33:42] INFO root fetch - processPackages [jesse]: Remove: archive file [/home/abi/fetcher/tmp/jesse-0.9.1.tar.gz]
+[2024-05-16 11:33:42] INFO root fetch - processPackages [jesse]: Remove: archive file [/home/abi/fetcher/tmp/jesse-0.9.2.tar.gz]
+[2024-05-16 11:33:42] INFO root fetch - main [MainThread]: End processing [jesse]: success
+[2024-05-16 11:33:43] INFO root fetch - processPackages [kcli]: Remove: archive file [/home/abi/fetcher/tmp/kcli-99.0.202405160914.tar.gz]
+[2024-05-16 11:33:43] INFO root fetch - processPackages [kcli]: Remove: archive file [/home/abi/fetcher/tmp/kcli-99.0.202405160920.tar.gz]
+[2024-05-16 11:33:43] INFO root fetch - main [MainThread]: End processing [kcli]: success
+[2024-05-16 11:33:43] INFO root fetch - main [MainThread]: Store serial: [23233159]
