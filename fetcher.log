@@ -21944,3 +21944,66 @@ EOFError: EOF read where object expected
 [2024-05-16 11:40:29] INFO root fetch - processPackages [slapos.cookbook]: Remove: archive file [/home/abi/fetcher/tmp/slapos.cookbook-1.0.92.tar.gz]
 [2024-05-16 11:40:29] INFO root fetch - main [MainThread]: End processing [slapos.cookbook]: success
 [2024-05-16 11:40:29] INFO root fetch - main [MainThread]: Store serial: [23233257]
+[2024-05-16 11:42:36] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23233257]
+[2024-05-16 11:42:41] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-05-16 11:42:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: decentriq-dcr-compiler
+[2024-05-16 11:42:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: zur-ecu-client
+[2024-05-16 11:42:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: xarray-safe-s1
+[2024-05-16 11:42:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: bentoml
+[2024-05-16 11:42:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: tq42-grpc-client
+[2024-05-16 11:42:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: databouncer
+[2024-05-16 11:42:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: codegrade
+[2024-05-16 11:42:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: appmesh
+[2024-05-16 11:42:41] INFO root fetch - processPackages [appmesh]: New version: [1.0.2] Old Version: [1.0.1]
+[2024-05-16 11:42:41] INFO root fetch - processPackages [tq42-grpc-client]: New version: [1.0.99] Old Version: [1.0.98]
+[2024-05-16 11:42:41] INFO root fetch - processPackages [codegrade]: New version: [16.1.9] Old Version: [16.1.8]
+[2024-05-16 11:42:41] INFO root fetch - processPackages [appmesh]: Downloading https://files.pythonhosted.org/packages/78/c6/11eefbcd2addf135112ad62aeb1ea7e2a452e006304e1189bc43883032dc/appmesh-1.0.1-py3-none-any.whl
+[2024-05-16 11:42:41] INFO root fetch - processPackages [xarray-safe-s1]: New version: [2024.5.6] Old Version: [2024.5.16]
+[2024-05-16 11:42:41] WARNING root fetch - processPackages [databouncer]: Skipping, unable to determine old version
+[2024-05-16 11:42:41] INFO root fetch - main [MainThread]: End processing [databouncer] error
+[2024-05-16 11:42:41] WARNING root fetch - processPackages [zur-ecu-client]: Skipping, unable to determine old version
+[2024-05-16 11:42:41] INFO root fetch - main [MainThread]: End processing [zur-ecu-client] error
+[2024-05-16 11:42:41] INFO root fetch - processPackages [bentoml]: New version: [1.2.9] Old Version: [1.2.8]
+[2024-05-16 11:42:41] INFO root fetch - processPackages [decentriq-dcr-compiler]: New version: [0.8.0.dev2] Old Version: [0.8.0.dev1]
+[2024-05-16 11:42:41] INFO root fetch - processPackages [tq42-grpc-client]: Downloading https://files.pythonhosted.org/packages/f2/bc/b6b38a6e4dae6de52384d9e036f68f22c0dccd82b37b9bf4dcc753671afd/tq42_grpc_client-1.0.98.tar.gz
+[2024-05-16 11:42:41] INFO root fetch - processPackages [codegrade]: Downloading https://files.pythonhosted.org/packages/a2/99/6dd91f125d60162d9298aca4e361d64263b90012dc12a802e2171ac952ee/codegrade-16.1.8.tar.gz
+[2024-05-16 11:42:41] INFO root fetch - processPackages [xarray-safe-s1]: Downloading https://files.pythonhosted.org/packages/53/45/24b117a98a341fa9e76864e16afade0f022022114948c4e069edcf7e756c/xarray_safe_s1-2024.5.16.tar.gz
+[2024-05-16 11:42:41] INFO root fetch - processPackages [bentoml]: Downloading https://files.pythonhosted.org/packages/96/b0/1e4559395d6049e7094e23f8e6718de26946b3e2586ff54c96a542a9e145/bentoml-1.2.8.tar.gz
+[2024-05-16 11:42:42] INFO root fetch - processPackages [decentriq-dcr-compiler]: Downloading https://files.pythonhosted.org/packages/5a/7f/e871c9b0d7714c7b4fd33e65b045eb834ae49beeb980e34679edac949768/decentriq_dcr_compiler-0.8.0.dev1-cp39-none-win_amd64.whl
+[2024-05-16 11:42:42] INFO root fetch - processPackages [appmesh]: Downloading https://files.pythonhosted.org/packages/90/bf/e608262dc3e0d41a888a42cdc173e779778b5335c0942cdc5ef8777b2dff/appmesh-1.0.2-py3-none-any.whl
+[2024-05-16 11:42:42] INFO root fetch - processPackages [appmesh]: executing diffoscope
+[2024-05-16 11:42:42] INFO root fetch - processPackages [appmesh]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/appmesh-1.0.1-py3-none-any.whl.zip tmp/appmesh-1.0.2-py3-none-any.whl.zip --markdown 20240516/a/appmesh/1.0.1-1.0.2/README.md --exclude *.pyd
+[2024-05-16 11:42:42] INFO root fetch - processPackages [xarray-safe-s1]: Downloading https://files.pythonhosted.org/packages/90/25/d8378726e7962bddb1037ab512bc59902ad8c2a2ace9faeeb0473c8d01f1/xarray_safe_s1-2024.5.6.tar.gz
+[2024-05-16 11:42:42] INFO root fetch - processPackages [tq42-grpc-client]: Downloading https://files.pythonhosted.org/packages/c5/9d/1449160d0c285ac0d5baa8e0b780b4be4873244452a54befd42e6224614c/tq42_grpc_client-1.0.99.tar.gz
+[2024-05-16 11:42:42] INFO root fetch - processPackages [codegrade]: Downloading https://files.pythonhosted.org/packages/5c/19/067059110db7547fcfe643055d33ab487be554e0741049ea108c0e330c22/codegrade-16.1.9.tar.gz
+[2024-05-16 11:42:42] INFO root fetch - processPackages [xarray-safe-s1]: executing diffoscope
+[2024-05-16 11:42:42] INFO root fetch - processPackages [xarray-safe-s1]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xarray_safe_s1-2024.5.16.tar.gz tmp/xarray_safe_s1-2024.5.6.tar.gz --markdown 20240516/x/xarray-safe-s1/2024.5.16-2024.5.6/README.md --exclude *.pyd
+[2024-05-16 11:42:42] INFO root fetch - processPackages [tq42-grpc-client]: executing diffoscope
+[2024-05-16 11:42:42] INFO root fetch - processPackages [tq42-grpc-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tq42_grpc_client-1.0.98.tar.gz tmp/tq42_grpc_client-1.0.99.tar.gz --markdown 20240516/t/tq42-grpc-client/1.0.98-1.0.99/README.md --exclude *.pyd
+[2024-05-16 11:42:42] INFO root fetch - processPackages [codegrade]: executing diffoscope
+[2024-05-16 11:42:42] INFO root fetch - processPackages [codegrade]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/codegrade-16.1.8.tar.gz tmp/codegrade-16.1.9.tar.gz --markdown 20240516/c/codegrade/16.1.8-16.1.9/README.md --exclude *.pyd
+[2024-05-16 11:42:42] INFO root fetch - processPackages [bentoml]: Downloading https://files.pythonhosted.org/packages/64/1c/008b7d7f75caf1e68ca286012a0df9462265b353e11056db4ffdca6b8860/bentoml-1.2.9.tar.gz
+[2024-05-16 11:42:42] INFO root fetch - processPackages [decentriq-dcr-compiler]: Downloading https://files.pythonhosted.org/packages/98/cf/9e85c3dd5b245ab2d5902c74d5ab75c0edfe1dab51ca2affd747190ef5be/decentriq_dcr_compiler-0.8.0.dev2-cp39-none-win_amd64.whl
+[2024-05-16 11:42:42] INFO root fetch - processPackages [bentoml]: executing diffoscope
+[2024-05-16 11:42:42] INFO root fetch - processPackages [bentoml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bentoml-1.2.8.tar.gz tmp/bentoml-1.2.9.tar.gz --markdown 20240516/b/bentoml/1.2.8-1.2.9/README.md --exclude *.pyd
+[2024-05-16 11:42:42] INFO root fetch - processPackages [decentriq-dcr-compiler]: executing diffoscope
+[2024-05-16 11:42:42] INFO root fetch - processPackages [decentriq-dcr-compiler]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/decentriq_dcr_compiler-0.8.0.dev1-cp39-none-win_amd64.whl.zip tmp/decentriq_dcr_compiler-0.8.0.dev2-cp39-none-win_amd64.whl.zip --markdown 20240516/d/decentriq-dcr-compiler/0.8.0.dev1-0.8.0.dev2/README.md --exclude *.pyd
+[2024-05-16 11:42:43] INFO root fetch - processPackages [appmesh]: Remove: archive file [/home/abi/fetcher/tmp/appmesh-1.0.1-py3-none-any.whl.zip]
+[2024-05-16 11:42:43] INFO root fetch - processPackages [appmesh]: Remove: archive file [/home/abi/fetcher/tmp/appmesh-1.0.2-py3-none-any.whl.zip]
+[2024-05-16 11:42:43] INFO root fetch - main [MainThread]: End processing [appmesh]: success
+[2024-05-16 11:42:43] INFO root fetch - processPackages [xarray-safe-s1]: Remove: archive file [/home/abi/fetcher/tmp/xarray_safe_s1-2024.5.16.tar.gz]
+[2024-05-16 11:42:43] INFO root fetch - processPackages [xarray-safe-s1]: Remove: archive file [/home/abi/fetcher/tmp/xarray_safe_s1-2024.5.6.tar.gz]
+[2024-05-16 11:42:43] INFO root fetch - main [MainThread]: End processing [xarray-safe-s1]: success
+[2024-05-16 11:42:43] INFO root fetch - processPackages [decentriq-dcr-compiler]: Remove: archive file [/home/abi/fetcher/tmp/decentriq_dcr_compiler-0.8.0.dev1-cp39-none-win_amd64.whl.zip]
+[2024-05-16 11:42:43] INFO root fetch - processPackages [decentriq-dcr-compiler]: Remove: archive file [/home/abi/fetcher/tmp/decentriq_dcr_compiler-0.8.0.dev2-cp39-none-win_amd64.whl.zip]
+[2024-05-16 11:42:43] INFO root fetch - main [MainThread]: End processing [decentriq-dcr-compiler]: success
+[2024-05-16 11:42:44] INFO root fetch - processPackages [tq42-grpc-client]: Remove: archive file [/home/abi/fetcher/tmp/tq42_grpc_client-1.0.98.tar.gz]
+[2024-05-16 11:42:44] INFO root fetch - processPackages [tq42-grpc-client]: Remove: archive file [/home/abi/fetcher/tmp/tq42_grpc_client-1.0.99.tar.gz]
+[2024-05-16 11:42:44] INFO root fetch - main [MainThread]: End processing [tq42-grpc-client]: success
+[2024-05-16 11:42:44] INFO root fetch - processPackages [codegrade]: Remove: archive file [/home/abi/fetcher/tmp/codegrade-16.1.8.tar.gz]
+[2024-05-16 11:42:44] INFO root fetch - processPackages [codegrade]: Remove: archive file [/home/abi/fetcher/tmp/codegrade-16.1.9.tar.gz]
+[2024-05-16 11:42:44] INFO root fetch - main [MainThread]: End processing [codegrade]: success
+[2024-05-16 11:42:46] INFO root fetch - processPackages [bentoml]: Remove: archive file [/home/abi/fetcher/tmp/bentoml-1.2.8.tar.gz]
+[2024-05-16 11:42:46] INFO root fetch - processPackages [bentoml]: Remove: archive file [/home/abi/fetcher/tmp/bentoml-1.2.9.tar.gz]
+[2024-05-16 11:42:46] INFO root fetch - main [MainThread]: End processing [bentoml]: success
+[2024-05-16 11:42:46] INFO root fetch - main [MainThread]: Store serial: [23233346]
