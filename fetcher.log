@@ -15179,3 +15179,83 @@ EOFError: EOF read where object expected
 [2024-05-16 09:58:06] INFO root fetch - processPackages [qontract-reconcile]: Remove: archive file [/home/abi/fetcher/tmp/qontract_reconcile-0.9.1rc99-py3-none-any.whl.zip]
 [2024-05-16 09:58:06] INFO root fetch - main [MainThread]: End processing [qontract-reconcile]: success
 [2024-05-16 09:58:06] INFO root fetch - main [MainThread]: Store serial: [23230941]
+[2024-05-16 10:00:10] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23230941]
+[2024-05-16 10:00:14] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2024-05-16 10:00:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: nsanic
+[2024-05-16 10:00:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: redis-director
+[2024-05-16 10:00:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: affipred
+[2024-05-16 10:00:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: affipred
+[2024-05-16 10:00:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: affipred
+[2024-05-16 10:00:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: binary-file-parser
+[2024-05-16 10:00:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: proxynorm
+[2024-05-16 10:00:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: odoo12-addon-mail-tracking
+[2024-05-16 10:00:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: rfc9457
+[2024-05-16 10:00:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: PREN-flawas
+[2024-05-16 10:00:14] INFO root fetch - processPackages [rfc9457]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-05-16 10:00:15] INFO root fetch - processPackages [redis-director]: New version: [0.5.1] Old Version: [0.5.0]
+[2024-05-16 10:00:15] INFO root fetch - processPackages [affipred]: New version: [0.1.2] Old Version: [0.1.1]
+[2024-05-16 10:00:15] INFO root fetch - processPackages [affipred]: New version: [0.1.2] Old Version: [0.1.1]
+[2024-05-16 10:00:15] INFO root fetch - processPackages [affipred]: New version: [0.1.2] Old Version: [0.1.1]
+[2024-05-16 10:00:15] WARNING root fetch - processPackages [nsanic]: Skipping, unable to determine old version
+[2024-05-16 10:00:15] INFO root fetch - processPackages [nsanic]: Start processing: maticalgos-spark
+[2024-05-16 10:00:15] INFO root fetch - main [MainThread]: End processing [nsanic] error
+[2024-05-16 10:00:15] INFO root fetch - processPackages [binary-file-parser]: New version: [0.2.0] Old Version: [0.1.4]
+[2024-05-16 10:00:15] WARNING root fetch - processPackages [proxynorm]: Skipping, unable to determine old version
+[2024-05-16 10:00:15] INFO root fetch - main [MainThread]: End processing [proxynorm] error
+[2024-05-16 10:00:15] INFO root fetch - processPackages [odoo12-addon-mail-tracking]: New version: [12.0.3.1.0.99.dev6] Old Version: [12.0.3.1.0.99.dev5]
+[2024-05-16 10:00:15] INFO root fetch - processPackages [PREN-flawas]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-16 10:00:15] INFO root fetch - processPackages [redis-director]: Downloading https://files.pythonhosted.org/packages/00/82/9c5d1dcdbb3dc06c53a814e17407ad59f4cc470c3248911a4d1e2e2a7837/redis_director-0.5.0.tar.gz
+[2024-05-16 10:00:15] WARNING root fetch - processPackages [maticalgos-spark]: Skipping, unable to determine old version
+[2024-05-16 10:00:15] INFO root fetch - main [MainThread]: End processing [maticalgos-spark] error
+[2024-05-16 10:00:15] INFO root fetch - processPackages [rfc9457]: Downloading https://files.pythonhosted.org/packages/d5/00/2f925b9822675bd5ee18b47da900207a3b6e08e343be8433f89df276a4a8/rfc9457-0.0.1.tar.gz
+[2024-05-16 10:00:15] INFO root fetch - processPackages [affipred]: Downloading https://files.pythonhosted.org/packages/45/fc/c40236d728bbf1a11ef137c98df8e1f00a74874eaa8dc00ed8506a1ea11f/affipred-0.1.1.tar.gz
+[2024-05-16 10:00:15] INFO root fetch - processPackages [affipred]: Downloading https://files.pythonhosted.org/packages/45/fc/c40236d728bbf1a11ef137c98df8e1f00a74874eaa8dc00ed8506a1ea11f/affipred-0.1.1.tar.gz
+[2024-05-16 10:00:15] INFO root fetch - processPackages [affipred]: Downloading https://files.pythonhosted.org/packages/45/fc/c40236d728bbf1a11ef137c98df8e1f00a74874eaa8dc00ed8506a1ea11f/affipred-0.1.1.tar.gz
+[2024-05-16 10:00:15] INFO root fetch - processPackages [PREN-flawas]: Downloading https://files.pythonhosted.org/packages/7a/00/f05441614283fc3106d11a7c88cbbe431478d04d88ad321018774cec9a00/pren_flawas-0.0.8.tar.gz
+[2024-05-16 10:00:15] INFO root fetch - processPackages [binary-file-parser]: Downloading https://files.pythonhosted.org/packages/87/3a/fd9859bcbb1ee062e744fa58257c8318ec2b525bf553e743bc8177b0bf6f/binary_file_parser-0.1.4.tar.gz
+[2024-05-16 10:00:15] INFO root fetch - processPackages [odoo12-addon-mail-tracking]: Downloading https://files.pythonhosted.org/packages/e3/43/738045bdbec3383a67c14432139327c5a1dab68c1e8c84592c76a5a973a6/odoo12_addon_mail_tracking-12.0.3.1.0.99.dev5-py3-none-any.whl
+[2024-05-16 10:00:15] INFO root fetch - processPackages [redis-director]: Downloading https://files.pythonhosted.org/packages/54/8a/83a6cae41eaca02f454f3e976b778d2f8d7b0aa2f6400bd298141b5ce93b/redis_director-0.5.1.tar.gz
+[2024-05-16 10:00:15] INFO root fetch - processPackages [rfc9457]: Downloading https://files.pythonhosted.org/packages/6d/ea/028f43daaf8b312ac67b6cbd0b5f94cb94797e2f62d298c5f0b1bd952d58/rfc9457-0.0.2.tar.gz
+[2024-05-16 10:00:15] INFO root fetch - processPackages [redis-director]: executing diffoscope
+[2024-05-16 10:00:15] INFO root fetch - processPackages [redis-director]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/redis_director-0.5.0.tar.gz tmp/redis_director-0.5.1.tar.gz --markdown 20240516/r/redis-director/0.5.0-0.5.1/README.md --exclude *.pyd
+[2024-05-16 10:00:15] INFO root fetch - processPackages [affipred]: Downloading https://files.pythonhosted.org/packages/f7/18/e192773accdabe5b28f9692e8dfc9c6eeb6c24506d6b01fe489804d0694a/affipred-0.1.2.tar.gz
+[2024-05-16 10:00:15] INFO root fetch - processPackages [affipred]: Downloading https://files.pythonhosted.org/packages/f7/18/e192773accdabe5b28f9692e8dfc9c6eeb6c24506d6b01fe489804d0694a/affipred-0.1.2.tar.gz
+[2024-05-16 10:00:15] INFO root fetch - processPackages [affipred]: Downloading https://files.pythonhosted.org/packages/f7/18/e192773accdabe5b28f9692e8dfc9c6eeb6c24506d6b01fe489804d0694a/affipred-0.1.2.tar.gz
+[2024-05-16 10:00:15] INFO root fetch - processPackages [binary-file-parser]: Downloading https://files.pythonhosted.org/packages/7b/90/770f1a0336c507cc76e283a77a79381496ac34ac7767d376f0457d43fe8a/binary_file_parser-0.2.0.tar.gz
+[2024-05-16 10:00:15] INFO root fetch - processPackages [rfc9457]: executing diffoscope
+[2024-05-16 10:00:15] INFO root fetch - processPackages [rfc9457]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rfc9457-0.0.1.tar.gz tmp/rfc9457-0.0.2.tar.gz --markdown 20240516/r/rfc9457/0.0.1-0.0.2/README.md --exclude *.pyd
+[2024-05-16 10:00:15] INFO root fetch - processPackages [affipred]: executing diffoscope
+[2024-05-16 10:00:15] INFO root fetch - processPackages [affipred]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/affipred-0.1.1.tar.gz tmp/affipred-0.1.2.tar.gz --markdown 20240516/a/affipred/0.1.1-0.1.2/README.md --exclude *.pyd
+[2024-05-16 10:00:15] INFO root fetch - processPackages [affipred]: executing diffoscope
+[2024-05-16 10:00:15] INFO root fetch - processPackages [affipred]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/affipred-0.1.1.tar.gz tmp/affipred-0.1.2.tar.gz --markdown 20240516/a/affipred/0.1.1-0.1.2/README.md --exclude *.pyd
+[2024-05-16 10:00:15] INFO root fetch - processPackages [affipred]: executing diffoscope
+[2024-05-16 10:00:15] INFO root fetch - processPackages [affipred]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/affipred-0.1.1.tar.gz tmp/affipred-0.1.2.tar.gz --markdown 20240516/a/affipred/0.1.1-0.1.2/README.md --exclude *.pyd
+[2024-05-16 10:00:15] INFO root fetch - processPackages [binary-file-parser]: executing diffoscope
+[2024-05-16 10:00:15] INFO root fetch - processPackages [binary-file-parser]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/binary_file_parser-0.1.4.tar.gz tmp/binary_file_parser-0.2.0.tar.gz --markdown 20240516/b/binary-file-parser/0.1.4-0.2.0/README.md --exclude *.pyd
+[2024-05-16 10:00:16] INFO root fetch - processPackages [odoo12-addon-mail-tracking]: Downloading https://files.pythonhosted.org/packages/4f/e9/bc96c69bba7e9ccfb2be404e775c0ae53bfb070409cd905e2ce8aa0f0211/odoo12_addon_mail_tracking-12.0.3.1.0.99.dev6-py3-none-any.whl
+[2024-05-16 10:00:16] INFO root fetch - processPackages [PREN-flawas]: Downloading https://files.pythonhosted.org/packages/26/0e/1c9f4343ee2bb5893b69f1ad4a5d4e7e1d61864fea4f62bee7194882470e/pren_flawas-0.0.9.tar.gz
+[2024-05-16 10:00:16] INFO root fetch - processPackages [odoo12-addon-mail-tracking]: executing diffoscope
+[2024-05-16 10:00:16] INFO root fetch - processPackages [odoo12-addon-mail-tracking]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo12_addon_mail_tracking-12.0.3.1.0.99.dev5-py3-none-any.whl.zip tmp/odoo12_addon_mail_tracking-12.0.3.1.0.99.dev6-py3-none-any.whl.zip --markdown 20240516/o/odoo12-addon-mail-tracking/12.0.3.1.0.99.dev5-12.0.3.1.0.99.dev6/README.md --exclude *.pyd
+[2024-05-16 10:00:16] INFO root fetch - processPackages [PREN-flawas]: executing diffoscope
+[2024-05-16 10:00:16] INFO root fetch - processPackages [PREN-flawas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pren_flawas-0.0.8.tar.gz tmp/pren_flawas-0.0.9.tar.gz --markdown 20240516/P/PREN-flawas/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-16 10:00:16] INFO root fetch - processPackages [redis-director]: Remove: archive file [/home/abi/fetcher/tmp/redis_director-0.5.0.tar.gz]
+[2024-05-16 10:00:16] INFO root fetch - processPackages [redis-director]: Remove: archive file [/home/abi/fetcher/tmp/redis_director-0.5.1.tar.gz]
+[2024-05-16 10:00:16] INFO root fetch - main [MainThread]: End processing [redis-director]: success
+[2024-05-16 10:00:16] INFO root fetch - processPackages [rfc9457]: Remove: archive file [/home/abi/fetcher/tmp/rfc9457-0.0.1.tar.gz]
+[2024-05-16 10:00:16] INFO root fetch - processPackages [rfc9457]: Remove: archive file [/home/abi/fetcher/tmp/rfc9457-0.0.2.tar.gz]
+[2024-05-16 10:00:16] INFO root fetch - main [MainThread]: End processing [rfc9457]: success
+[2024-05-16 10:00:17] INFO root fetch - processPackages [affipred]: Remove: archive file [/home/abi/fetcher/tmp/affipred-0.1.1.tar.gz]
+[2024-05-16 10:00:17] INFO root fetch - processPackages [affipred]: Remove: archive file [/home/abi/fetcher/tmp/affipred-0.1.2.tar.gz]
+[2024-05-16 10:00:17] INFO root fetch - main [MainThread]: End processing [affipred]: success
+[2024-05-16 10:00:17] INFO root fetch - main [MainThread]: End processing [affipred]: success
+[2024-05-16 10:00:17] INFO root fetch - processPackages [binary-file-parser]: Remove: archive file [/home/abi/fetcher/tmp/binary_file_parser-0.1.4.tar.gz]
+[2024-05-16 10:00:17] INFO root fetch - processPackages [binary-file-parser]: Remove: archive file [/home/abi/fetcher/tmp/binary_file_parser-0.2.0.tar.gz]
+[2024-05-16 10:00:17] INFO root fetch - main [MainThread]: End processing [binary-file-parser]: success
+[2024-05-16 10:00:17] INFO root fetch - main [MainThread]: End processing [affipred]: success
+[2024-05-16 10:00:17] INFO root fetch - processPackages [odoo12-addon-mail-tracking]: Remove: archive file [/home/abi/fetcher/tmp/odoo12_addon_mail_tracking-12.0.3.1.0.99.dev5-py3-none-any.whl.zip]
+[2024-05-16 10:00:17] INFO root fetch - processPackages [odoo12-addon-mail-tracking]: Remove: archive file [/home/abi/fetcher/tmp/odoo12_addon_mail_tracking-12.0.3.1.0.99.dev6-py3-none-any.whl.zip]
+[2024-05-16 10:00:17] INFO root fetch - main [MainThread]: End processing [odoo12-addon-mail-tracking]: success
+[2024-05-16 10:00:18] INFO root fetch - processPackages [PREN-flawas]: Remove: archive file [/home/abi/fetcher/tmp/pren_flawas-0.0.8.tar.gz]
+[2024-05-16 10:00:18] INFO root fetch - processPackages [PREN-flawas]: Remove: archive file [/home/abi/fetcher/tmp/pren_flawas-0.0.9.tar.gz]
+[2024-05-16 10:00:18] INFO root fetch - main [MainThread]: End processing [PREN-flawas]: success
+[2024-05-16 10:00:18] INFO root fetch - main [MainThread]: Store serial: [23230975]
