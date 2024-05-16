@@ -18431,3 +18431,57 @@ EOFError: EOF read where object expected
 [2024-05-16 10:44:59] INFO root fetch - processPackages [tfp-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tfp_nightly-0.9.0.dev20200114-py2.py3-none-any.whl.zip]
 [2024-05-16 10:44:59] INFO root fetch - main [MainThread]: End processing [tfp-nightly]: success
 [2024-05-16 10:44:59] INFO root fetch - main [MainThread]: Store serial: [23232116]
+[2024-05-16 10:47:03] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23232116]
+[2024-05-16 10:47:08] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-16 10:47:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: weavel
+[2024-05-16 10:47:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: asterisk-security
+[2024-05-16 10:47:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: tf-nightly-cpu
+[2024-05-16 10:47:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: seeq
+[2024-05-16 10:47:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: mass-composition
+[2024-05-16 10:47:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: aws-tag-tools
+[2024-05-16 10:47:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: table-schema-to-markdown
+[2024-05-16 10:47:08] INFO root fetch - processPackages [table-schema-to-markdown]: New version: [0.4.9] Old Version: [0.4.8]
+[2024-05-16 10:47:08] INFO root fetch - processPackages [weavel]: New version: [0.4.2] Old Version: [0.4.1]
+[2024-05-16 10:47:08] INFO root fetch - processPackages [mass-composition]: New version: [0.6.2] Old Version: [0.6.1]
+[2024-05-16 10:47:08] INFO root fetch - processPackages [seeq]: New version: [65.0.2] Old Version: [65.0.1]
+[2024-05-16 10:47:08] ERROR root fetch - processPackages [aws-tag-tools]: Unable to get metadata: No such project 'aws-tag-tools'
+[2024-05-16 10:47:08] WARNING root fetch - processPackages [asterisk-security]: Skipping, unable to determine old version
+[2024-05-16 10:47:08] INFO root fetch - main [MainThread]: End processing [aws-tag-tools] error
+[2024-05-16 10:47:08] INFO root fetch - main [MainThread]: End processing [asterisk-security] error
+[2024-05-16 10:47:08] INFO root fetch - processPackages [tf-nightly-cpu]: New version: [2.17.0.dev20240516] Old Version: [2.17.0.dev20240515]
+[2024-05-16 10:47:08] INFO root fetch - processPackages [mass-composition]: Downloading https://files.pythonhosted.org/packages/e5/41/eebe1b7f4fa5d397b5a4f18ce795838423d81f5111fca10aabc0a8ffa5de/mass_composition-0.6.1.tar.gz
+[2024-05-16 10:47:08] INFO root fetch - processPackages [seeq]: Downloading https://files.pythonhosted.org/packages/82/67/c8293207bbe83feb36a9cc3e071d26536090b704cbf3b95eba349ef6af2c/seeq-65.0.1.tar.gz
+[2024-05-16 10:47:08] INFO root fetch - processPackages [table-schema-to-markdown]: Downloading https://files.pythonhosted.org/packages/8c/f1/8a519beb3268896ebc12a7c48ab33779bd79bdecd6a7d0466ef269000b48/table_schema_to_markdown-0.4.8-py3-none-any.whl
+[2024-05-16 10:47:08] INFO root fetch - processPackages [weavel]: Downloading https://files.pythonhosted.org/packages/fe/a5/90ef93f8b9d4ef69998d23dd09ae53ce197865cb2a1da56de492a07faf1f/weavel-0.4.1.tar.gz
+[2024-05-16 10:47:09] INFO root fetch - processPackages [tf-nightly-cpu]: Downloading https://files.pythonhosted.org/packages/06/a2/1822976b31e17299bae87372c17ff8c4e2bf9acb0182bc6d7ce88c6eaff4/tf_nightly_cpu-2.17.0.dev20240515-cp39-cp39-win_amd64.whl
+[2024-05-16 10:47:09] INFO root fetch - processPackages [seeq]: Downloading https://files.pythonhosted.org/packages/3e/dd/5a21a3b1be45b385c9fced19ff236c36c2a4e723e1a7f2a993fe4a9248ac/seeq-65.0.2.tar.gz
+[2024-05-16 10:47:09] INFO root fetch - processPackages [mass-composition]: Downloading https://files.pythonhosted.org/packages/6d/8d/9df7d168de20043676aa0e7d68fd983cf54dc891a21c7743c67981aaf326/mass_composition-0.6.2.tar.gz
+[2024-05-16 10:47:09] INFO root fetch - processPackages [table-schema-to-markdown]: Downloading https://files.pythonhosted.org/packages/81/f3/839e05c1c2ca37d21326bcf34cca25b8025249169e38f9113e5f27e0975c/table_schema_to_markdown-0.4.9-py3-none-any.whl
+[2024-05-16 10:47:09] INFO root fetch - processPackages [seeq]: executing diffoscope
+[2024-05-16 10:47:09] INFO root fetch - processPackages [seeq]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/seeq-65.0.1.tar.gz tmp/seeq-65.0.2.tar.gz --markdown 20240516/s/seeq/65.0.1-65.0.2/README.md --exclude *.pyd
+[2024-05-16 10:47:09] INFO root fetch - processPackages [weavel]: Downloading https://files.pythonhosted.org/packages/b5/53/98671dd7c408704a1279cea90f454c4ad2dbc7c241910c7b4e637ca50875/weavel-0.4.2.tar.gz
+[2024-05-16 10:47:09] INFO root fetch - processPackages [tf-nightly-cpu]: Downloading https://files.pythonhosted.org/packages/c4/d7/75a6690f51caf36401134f2e20b69eed07c9cf4891018a0daad609ebdba4/tf_nightly_cpu-2.17.0.dev20240516-cp39-cp39-win_amd64.whl
+[2024-05-16 10:47:09] INFO root fetch - processPackages [mass-composition]: executing diffoscope
+[2024-05-16 10:47:09] INFO root fetch - processPackages [mass-composition]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mass_composition-0.6.1.tar.gz tmp/mass_composition-0.6.2.tar.gz --markdown 20240516/m/mass-composition/0.6.1-0.6.2/README.md --exclude *.pyd
+[2024-05-16 10:47:09] INFO root fetch - processPackages [weavel]: executing diffoscope
+[2024-05-16 10:47:09] INFO root fetch - processPackages [weavel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/weavel-0.4.1.tar.gz tmp/weavel-0.4.2.tar.gz --markdown 20240516/w/weavel/0.4.1-0.4.2/README.md --exclude *.pyd
+[2024-05-16 10:47:09] INFO root fetch - processPackages [table-schema-to-markdown]: executing diffoscope
+[2024-05-16 10:47:09] INFO root fetch - processPackages [table-schema-to-markdown]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/table_schema_to_markdown-0.4.8-py3-none-any.whl.zip tmp/table_schema_to_markdown-0.4.9-py3-none-any.whl.zip --markdown 20240516/t/table-schema-to-markdown/0.4.8-0.4.9/README.md --exclude *.pyd
+[2024-05-16 10:47:09] INFO root fetch - processPackages [tf-nightly-cpu]: executing diffoscope
+[2024-05-16 10:47:09] INFO root fetch - processPackages [tf-nightly-cpu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tf_nightly_cpu-2.17.0.dev20240515-cp39-cp39-win_amd64.whl.zip tmp/tf_nightly_cpu-2.17.0.dev20240516-cp39-cp39-win_amd64.whl.zip --markdown 20240516/t/tf-nightly-cpu/2.17.0.dev20240515-2.17.0.dev20240516/README.md --exclude *.pyd
+[2024-05-16 10:47:10] INFO root fetch - processPackages [mass-composition]: Remove: archive file [/home/abi/fetcher/tmp/mass_composition-0.6.1.tar.gz]
+[2024-05-16 10:47:10] INFO root fetch - processPackages [mass-composition]: Remove: archive file [/home/abi/fetcher/tmp/mass_composition-0.6.2.tar.gz]
+[2024-05-16 10:47:10] INFO root fetch - main [MainThread]: End processing [mass-composition]: success
+[2024-05-16 10:47:10] INFO root fetch - processPackages [tf-nightly-cpu]: Remove: archive file [/home/abi/fetcher/tmp/tf_nightly_cpu-2.17.0.dev20240515-cp39-cp39-win_amd64.whl.zip]
+[2024-05-16 10:47:10] INFO root fetch - processPackages [tf-nightly-cpu]: Remove: archive file [/home/abi/fetcher/tmp/tf_nightly_cpu-2.17.0.dev20240516-cp39-cp39-win_amd64.whl.zip]
+[2024-05-16 10:47:10] INFO root fetch - main [MainThread]: End processing [tf-nightly-cpu]: success
+[2024-05-16 10:47:10] INFO root fetch - processPackages [table-schema-to-markdown]: Remove: archive file [/home/abi/fetcher/tmp/table_schema_to_markdown-0.4.8-py3-none-any.whl.zip]
+[2024-05-16 10:47:10] INFO root fetch - processPackages [table-schema-to-markdown]: Remove: archive file [/home/abi/fetcher/tmp/table_schema_to_markdown-0.4.9-py3-none-any.whl.zip]
+[2024-05-16 10:47:10] INFO root fetch - main [MainThread]: End processing [table-schema-to-markdown]: success
+[2024-05-16 10:47:10] INFO root fetch - processPackages [weavel]: Remove: archive file [/home/abi/fetcher/tmp/weavel-0.4.1.tar.gz]
+[2024-05-16 10:47:10] INFO root fetch - processPackages [weavel]: Remove: archive file [/home/abi/fetcher/tmp/weavel-0.4.2.tar.gz]
+[2024-05-16 10:47:10] INFO root fetch - main [MainThread]: End processing [weavel]: success
+[2024-05-16 10:47:16] INFO root fetch - processPackages [seeq]: Remove: archive file [/home/abi/fetcher/tmp/seeq-65.0.1.tar.gz]
+[2024-05-16 10:47:16] INFO root fetch - processPackages [seeq]: Remove: archive file [/home/abi/fetcher/tmp/seeq-65.0.2.tar.gz]
+[2024-05-16 10:47:16] INFO root fetch - main [MainThread]: End processing [seeq]: success
+[2024-05-16 10:47:16] INFO root fetch - main [MainThread]: Store serial: [23232179]
