@@ -12472,3 +12472,36 @@ EOFError: EOF read where object expected
 [2024-05-16 07:53:27] INFO root fetch - processPackages [alibabacloud-cloudapi20160714]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_cloudapi20160714-4.1.0.tar.gz]
 [2024-05-16 07:53:27] INFO root fetch - main [MainThread]: End processing [alibabacloud-cloudapi20160714]: success
 [2024-05-16 07:53:27] INFO root fetch - main [MainThread]: Store serial: [23229932]
+[2024-05-16 07:55:34] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23229932]
+[2024-05-16 07:55:39] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-16 07:55:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: goodpy
+[2024-05-16 07:55:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: socketwrench
+[2024-05-16 07:55:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: spark-congruity
+[2024-05-16 07:55:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cuminai
+[2024-05-16 07:55:39] INFO root fetch - processPackages [socketwrench]: New version: [1.8.3] Old Version: [1.8.2]
+[2024-05-16 07:55:39] INFO root fetch - processPackages [goodpy]: New version: [0.0.6] Old Version: [0.0.5]
+[2024-05-16 07:55:39] INFO root fetch - processPackages [cuminai]: New version: [0.0.1.dev165] Old Version: [0.0.1.dev116]
+[2024-05-16 07:55:39] WARNING root fetch - processPackages [spark-congruity]: Skipping, unable to determine old version
+[2024-05-16 07:55:39] INFO root fetch - main [MainThread]: End processing [spark-congruity] error
+[2024-05-16 07:55:39] INFO root fetch - processPackages [socketwrench]: Downloading https://files.pythonhosted.org/packages/01/79/b23096330ab20b8d2c4b7c994b0246a54ecc036bbbfa857c3db3036b2cfc/socketwrench-1.8.2.tar.gz
+[2024-05-16 07:55:39] INFO root fetch - processPackages [goodpy]: Downloading https://files.pythonhosted.org/packages/4a/2a/b906250d04acc096e5e3192bf77cb2cf4a1da47071e7f00f386104c29ffb/goodpy-0.0.5-py2.py3-none-any.whl
+[2024-05-16 07:55:40] INFO root fetch - processPackages [cuminai]: Downloading https://files.pythonhosted.org/packages/39/25/32472fff991e3ddbab4e204ca9f55f02fd4b600fc3004fbf2fcc19f70359/cuminai-0.0.1.dev116.tar.gz
+[2024-05-16 07:55:40] INFO root fetch - processPackages [socketwrench]: Downloading https://files.pythonhosted.org/packages/22/95/d8090b01f650a8b1034e94eab0568572bd0b86356c2787675301caef4437/socketwrench-1.8.3.tar.gz
+[2024-05-16 07:55:40] INFO root fetch - processPackages [goodpy]: Downloading https://files.pythonhosted.org/packages/b9/6c/f480f4287769636e25f5d5fe274c2b29bb105fd37c1062202c795d0f4d89/goodpy-0.0.6-py2.py3-none-any.whl
+[2024-05-16 07:55:40] INFO root fetch - processPackages [socketwrench]: executing diffoscope
+[2024-05-16 07:55:40] INFO root fetch - processPackages [socketwrench]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/socketwrench-1.8.2.tar.gz tmp/socketwrench-1.8.3.tar.gz --markdown 20240516/s/socketwrench/1.8.2-1.8.3/README.md --exclude *.pyd
+[2024-05-16 07:55:40] INFO root fetch - processPackages [goodpy]: executing diffoscope
+[2024-05-16 07:55:40] INFO root fetch - processPackages [goodpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/goodpy-0.0.5-py2.py3-none-any.whl.zip tmp/goodpy-0.0.6-py2.py3-none-any.whl.zip --markdown 20240516/g/goodpy/0.0.5-0.0.6/README.md --exclude *.pyd
+[2024-05-16 07:55:40] INFO root fetch - processPackages [cuminai]: Downloading https://files.pythonhosted.org/packages/a1/89/cb7610895922c4e413bd38c64e2a3c79bd06032ba9dbe06877e700ae8889/cuminai-0.0.1.dev165.tar.gz
+[2024-05-16 07:55:40] INFO root fetch - processPackages [cuminai]: executing diffoscope
+[2024-05-16 07:55:40] INFO root fetch - processPackages [cuminai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cuminai-0.0.1.dev116.tar.gz tmp/cuminai-0.0.1.dev165.tar.gz --markdown 20240516/c/cuminai/0.0.1.dev116-0.0.1.dev165/README.md --exclude *.pyd
+[2024-05-16 07:55:40] INFO root fetch - processPackages [goodpy]: Remove: archive file [/home/abi/fetcher/tmp/goodpy-0.0.5-py2.py3-none-any.whl.zip]
+[2024-05-16 07:55:40] INFO root fetch - processPackages [goodpy]: Remove: archive file [/home/abi/fetcher/tmp/goodpy-0.0.6-py2.py3-none-any.whl.zip]
+[2024-05-16 07:55:40] INFO root fetch - main [MainThread]: End processing [goodpy]: success
+[2024-05-16 07:55:40] INFO root fetch - processPackages [socketwrench]: Remove: archive file [/home/abi/fetcher/tmp/socketwrench-1.8.2.tar.gz]
+[2024-05-16 07:55:40] INFO root fetch - processPackages [socketwrench]: Remove: archive file [/home/abi/fetcher/tmp/socketwrench-1.8.3.tar.gz]
+[2024-05-16 07:55:40] INFO root fetch - main [MainThread]: End processing [socketwrench]: success
+[2024-05-16 07:55:41] INFO root fetch - processPackages [cuminai]: Remove: archive file [/home/abi/fetcher/tmp/cuminai-0.0.1.dev116.tar.gz]
+[2024-05-16 07:55:41] INFO root fetch - processPackages [cuminai]: Remove: archive file [/home/abi/fetcher/tmp/cuminai-0.0.1.dev165.tar.gz]
+[2024-05-16 07:55:41] INFO root fetch - main [MainThread]: End processing [cuminai]: success
+[2024-05-16 07:55:41] INFO root fetch - main [MainThread]: Store serial: [23229943]
