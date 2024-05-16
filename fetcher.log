@@ -22244,3 +22244,90 @@ EOFError: EOF read where object expected
 [2024-05-16 11:54:03] INFO root fetch - processPackages [dataclasses-ujson]: Remove: archive file [/home/abi/fetcher/tmp/dataclasses_ujson-0.0.8.tar.gz]
 [2024-05-16 11:54:03] INFO root fetch - main [MainThread]: End processing [dataclasses-ujson]: success
 [2024-05-16 11:54:03] INFO root fetch - main [MainThread]: Store serial: [23233439]
+[2024-05-16 11:56:11] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23233439]
+[2024-05-16 11:56:16] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2024-05-16 11:56:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: fxgui
+[2024-05-16 11:56:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: langjam
+[2024-05-16 11:56:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: iam-builder
+[2024-05-16 11:56:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: rfb-driver-ea
+[2024-05-16 11:56:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: dataclasses-ujson
+[2024-05-16 11:56:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: vesselasid
+[2024-05-16 11:56:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: decentriq-platform
+[2024-05-16 11:56:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: aipkgs-core
+[2024-05-16 11:56:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: cdo-sdk-python
+[2024-05-16 11:56:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: protein-cluster-conformers
+[2024-05-16 11:56:16] INFO root fetch - processPackages [fxgui]: New version: [2.2.0] Old Version: [2.1.0]
+[2024-05-16 11:56:16] INFO root fetch - processPackages [aipkgs-core]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-05-16 11:56:16] INFO root fetch - processPackages [decentriq-platform]: New version: [0.9.1] Old Version: [0.9.0rc2]
+[2024-05-16 11:56:16] INFO root fetch - processPackages [vesselasid]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-05-16 11:56:16] WARNING root fetch - processPackages [protein-cluster-conformers]: Skipping, unable to determine old version
+[2024-05-16 11:56:16] INFO root fetch - main [MainThread]: End processing [protein-cluster-conformers] error
+[2024-05-16 11:56:16] INFO root fetch - processPackages [dataclasses-ujson]: New version: [0.0.8] Old Version: [0.0.5]
+[2024-05-16 11:56:16] INFO root fetch - processPackages [iam-builder]: New version: [4.4.0] Old Version: [4.3.0]
+[2024-05-16 11:56:16] INFO root fetch - processPackages [cdo-sdk-python]: New version: [1.0.99] Old Version: [1.0.98]
+[2024-05-16 11:56:16] INFO root fetch - processPackages [rfb-driver-ea]: New version: [0.0.3] Old Version: [0.0.2]
+[2024-05-16 11:56:16] INFO root fetch - processPackages [langjam]: New version: [0.1.7] Old Version: [0.1.6]
+[2024-05-16 11:56:16] INFO root fetch - processPackages [fxgui]: Downloading https://files.pythonhosted.org/packages/f5/f8/a40eb2fe56f67b3f82e2374fd2ab76e515d3a6a3947f141aa9d36e741e2d/fxgui-2.1.0.tar.gz
+[2024-05-16 11:56:16] INFO root fetch - processPackages [cdo-sdk-python]: Downloading https://files.pythonhosted.org/packages/aa/54/d9c631d5702693a0921bbc1c50cad785f8fa75671cabdd662546a416a6b9/cdo-sdk-python-1.0.98.tar.gz
+[2024-05-16 11:56:16] INFO root fetch - processPackages [vesselasid]: Downloading https://files.pythonhosted.org/packages/a2/14/baf06cb7af9f5a80ebfeb8f960dbb13c70196f61bd5759c357fe5dacd0ea/vesselasid-1.0.8.tar.gz
+[2024-05-16 11:56:16] INFO root fetch - processPackages [decentriq-platform]: Downloading https://files.pythonhosted.org/packages/8b/c1/695a0f73f216e20fbf9a98a63235989a07b60ced292eb67c210593fda34a/decentriq-platform-0.9.0rc2.tar.gz
+[2024-05-16 11:56:16] INFO root fetch - processPackages [dataclasses-ujson]: Downloading https://files.pythonhosted.org/packages/fe/e4/6d8902a1fcd5416dc2e87a641c95eb05f13c5b84ec8f393870f29529960a/dataclasses_ujson-0.0.5.tar.gz
+[2024-05-16 11:56:16] INFO root fetch - processPackages [iam-builder]: Downloading https://files.pythonhosted.org/packages/5a/1e/6dc5887ddb4939edfbf8c558a1d8c4a63d7184873f36201586782ca424c5/iam_builder-4.3.0.tar.gz
+[2024-05-16 11:56:16] INFO root fetch - processPackages [aipkgs-core]: Downloading https://files.pythonhosted.org/packages/1b/95/2d761178d77290df39be6e93078af4b40f985d9809d971cd17dd950588d3/aipkgs_core-1.0.8.tar.gz
+[2024-05-16 11:56:16] INFO root fetch - processPackages [langjam]: Downloading https://files.pythonhosted.org/packages/ee/b1/fd9b920f93bc8e4fd4a5a3cb2cc313de8f08a2df6b4030dd940065ac3c6a/langjam-0.1.6.tar.gz
+[2024-05-16 11:56:16] INFO root fetch - processPackages [rfb-driver-ea]: Downloading https://files.pythonhosted.org/packages/c5/c5/2160cc3f9c6ddb41e3825f683297d7c354b23d7c2b65be4cc52094635100/rfb_driver_ea-0.0.2.tar.gz
+[2024-05-16 11:56:16] INFO root fetch - processPackages [vesselasid]: Downloading https://files.pythonhosted.org/packages/81/b5/ae62f72cdc101114a8434c7f5b8a6946677975c20649428b068f8f9f1afc/vesselasid-1.0.9.tar.gz
+[2024-05-16 11:56:16] INFO root fetch - processPackages [decentriq-platform]: Downloading https://files.pythonhosted.org/packages/69/7c/b6c9a006e306cc15917be3102e43763687fbce0bf34b98d63390c4fadf94/decentriq-platform-0.9.1.tar.gz
+[2024-05-16 11:56:16] INFO root fetch - processPackages [dataclasses-ujson]: Downloading https://files.pythonhosted.org/packages/33/8a/7e9b50a93d307c3878bf534af5f802e9615fe24faa00ef035d758fce82a1/dataclasses_ujson-0.0.8.tar.gz
+[2024-05-16 11:56:16] INFO root fetch - processPackages [iam-builder]: Downloading https://files.pythonhosted.org/packages/48/0b/717c79a29eb8446d5fb162903ab29544d3de1fe797d341db850758d2228a/iam_builder-4.4.0.tar.gz
+[2024-05-16 11:56:16] INFO root fetch - processPackages [cdo-sdk-python]: Downloading https://files.pythonhosted.org/packages/9b/76/7267c3f3ac308bacc9e809ed54663a42556e896ff4e2d73a469a15d3556a/cdo-sdk-python-1.0.99.tar.gz
+[2024-05-16 11:56:16] INFO root fetch - processPackages [aipkgs-core]: Downloading https://files.pythonhosted.org/packages/c8/b2/fb0706bf9eeeee24d524f103cad3a18e46870855a277a735a6c83ea06692/aipkgs_core-1.0.9.tar.gz
+[2024-05-16 11:56:17] INFO root fetch - processPackages [vesselasid]: executing diffoscope
+[2024-05-16 11:56:17] INFO root fetch - processPackages [vesselasid]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vesselasid-1.0.8.tar.gz tmp/vesselasid-1.0.9.tar.gz --markdown 20240516/v/vesselasid/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-05-16 11:56:17] INFO root fetch - processPackages [fxgui]: Downloading https://files.pythonhosted.org/packages/cb/5d/1c3f73b9895c85d257d002370b31c93c697eb6d8e9163e6e1034efe402f6/fxgui-2.2.0.tar.gz
+[2024-05-16 11:56:17] INFO root fetch - processPackages [dataclasses-ujson]: executing diffoscope
+[2024-05-16 11:56:17] INFO root fetch - processPackages [dataclasses-ujson]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dataclasses_ujson-0.0.5.tar.gz tmp/dataclasses_ujson-0.0.8.tar.gz --markdown 20240516/d/dataclasses-ujson/0.0.5-0.0.8/README.md --exclude *.pyd
+[2024-05-16 11:56:17] INFO root fetch - processPackages [decentriq-platform]: executing diffoscope
+[2024-05-16 11:56:17] INFO root fetch - processPackages [decentriq-platform]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/decentriq-platform-0.9.0rc2.tar.gz tmp/decentriq-platform-0.9.1.tar.gz --markdown 20240516/d/decentriq-platform/0.9.0rc2-0.9.1/README.md --exclude *.pyd
+[2024-05-16 11:56:17] INFO root fetch - processPackages [iam-builder]: executing diffoscope
+[2024-05-16 11:56:17] INFO root fetch - processPackages [iam-builder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/iam_builder-4.3.0.tar.gz tmp/iam_builder-4.4.0.tar.gz --markdown 20240516/i/iam-builder/4.3.0-4.4.0/README.md --exclude *.pyd
+[2024-05-16 11:56:17] INFO root fetch - processPackages [aipkgs-core]: executing diffoscope
+[2024-05-16 11:56:17] INFO root fetch - processPackages [aipkgs-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aipkgs_core-1.0.8.tar.gz tmp/aipkgs_core-1.0.9.tar.gz --markdown 20240516/a/aipkgs-core/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-05-16 11:56:17] INFO root fetch - processPackages [cdo-sdk-python]: executing diffoscope
+[2024-05-16 11:56:17] INFO root fetch - processPackages [cdo-sdk-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdo-sdk-python-1.0.98.tar.gz tmp/cdo-sdk-python-1.0.99.tar.gz --markdown 20240516/c/cdo-sdk-python/1.0.98-1.0.99/README.md --exclude *.pyd
+[2024-05-16 11:56:17] INFO root fetch - processPackages [langjam]: Downloading https://files.pythonhosted.org/packages/76/4d/65406d44622d879c78d956808ece1db05780237bf950b1fcdecb0bacab29/langjam-0.1.7.tar.gz
+[2024-05-16 11:56:17] INFO root fetch - processPackages [rfb-driver-ea]: Downloading https://files.pythonhosted.org/packages/fd/f8/8e8144d5908c74dc826a48b83a226bb9ced3f7a236f9811cdaf74fb570e2/rfb_driver_ea-0.0.3.tar.gz
+[2024-05-16 11:56:17] INFO root fetch - processPackages [langjam]: executing diffoscope
+[2024-05-16 11:56:17] INFO root fetch - processPackages [langjam]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/langjam-0.1.6.tar.gz tmp/langjam-0.1.7.tar.gz --markdown 20240516/l/langjam/0.1.6-0.1.7/README.md --exclude *.pyd
+[2024-05-16 11:56:17] INFO root fetch - processPackages [fxgui]: executing diffoscope
+[2024-05-16 11:56:17] INFO root fetch - processPackages [fxgui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fxgui-2.1.0.tar.gz tmp/fxgui-2.2.0.tar.gz --markdown 20240516/f/fxgui/2.1.0-2.2.0/README.md --exclude *.pyd
+[2024-05-16 11:56:17] INFO root fetch - processPackages [rfb-driver-ea]: executing diffoscope
+[2024-05-16 11:56:17] INFO root fetch - processPackages [rfb-driver-ea]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rfb_driver_ea-0.0.2.tar.gz tmp/rfb_driver_ea-0.0.3.tar.gz --markdown 20240516/r/rfb-driver-ea/0.0.2-0.0.3/README.md --exclude *.pyd
+[2024-05-16 11:56:18] INFO root fetch - processPackages [aipkgs-core]: Remove: archive file [/home/abi/fetcher/tmp/aipkgs_core-1.0.8.tar.gz]
+[2024-05-16 11:56:18] INFO root fetch - processPackages [aipkgs-core]: Remove: archive file [/home/abi/fetcher/tmp/aipkgs_core-1.0.9.tar.gz]
+[2024-05-16 11:56:18] INFO root fetch - main [MainThread]: End processing [aipkgs-core]: success
+[2024-05-16 11:56:18] INFO root fetch - processPackages [iam-builder]: Remove: archive file [/home/abi/fetcher/tmp/iam_builder-4.3.0.tar.gz]
+[2024-05-16 11:56:18] INFO root fetch - processPackages [iam-builder]: Remove: archive file [/home/abi/fetcher/tmp/iam_builder-4.4.0.tar.gz]
+[2024-05-16 11:56:18] INFO root fetch - main [MainThread]: End processing [iam-builder]: success
+[2024-05-16 11:56:18] INFO root fetch - processPackages [vesselasid]: Remove: archive file [/home/abi/fetcher/tmp/vesselasid-1.0.8.tar.gz]
+[2024-05-16 11:56:18] INFO root fetch - processPackages [vesselasid]: Remove: archive file [/home/abi/fetcher/tmp/vesselasid-1.0.9.tar.gz]
+[2024-05-16 11:56:18] INFO root fetch - main [MainThread]: End processing [vesselasid]: success
+[2024-05-16 11:56:18] INFO root fetch - processPackages [dataclasses-ujson]: Remove: archive file [/home/abi/fetcher/tmp/dataclasses_ujson-0.0.5.tar.gz]
+[2024-05-16 11:56:18] INFO root fetch - processPackages [dataclasses-ujson]: Remove: archive file [/home/abi/fetcher/tmp/dataclasses_ujson-0.0.8.tar.gz]
+[2024-05-16 11:56:18] INFO root fetch - main [MainThread]: End processing [dataclasses-ujson]: success
+[2024-05-16 11:56:18] INFO root fetch - processPackages [decentriq-platform]: Remove: archive file [/home/abi/fetcher/tmp/decentriq-platform-0.9.0rc2.tar.gz]
+[2024-05-16 11:56:18] INFO root fetch - processPackages [decentriq-platform]: Remove: archive file [/home/abi/fetcher/tmp/decentriq-platform-0.9.1.tar.gz]
+[2024-05-16 11:56:18] INFO root fetch - main [MainThread]: End processing [decentriq-platform]: success
+[2024-05-16 11:56:18] INFO root fetch - processPackages [langjam]: Remove: archive file [/home/abi/fetcher/tmp/langjam-0.1.6.tar.gz]
+[2024-05-16 11:56:18] INFO root fetch - processPackages [langjam]: Remove: archive file [/home/abi/fetcher/tmp/langjam-0.1.7.tar.gz]
+[2024-05-16 11:56:18] INFO root fetch - main [MainThread]: End processing [langjam]: success
+[2024-05-16 11:56:18] INFO root fetch - processPackages [rfb-driver-ea]: Remove: archive file [/home/abi/fetcher/tmp/rfb_driver_ea-0.0.2.tar.gz]
+[2024-05-16 11:56:18] INFO root fetch - processPackages [rfb-driver-ea]: Remove: archive file [/home/abi/fetcher/tmp/rfb_driver_ea-0.0.3.tar.gz]
+[2024-05-16 11:56:18] INFO root fetch - main [MainThread]: End processing [rfb-driver-ea]: success
+[2024-05-16 11:56:18] INFO root fetch - processPackages [cdo-sdk-python]: Remove: archive file [/home/abi/fetcher/tmp/cdo-sdk-python-1.0.98.tar.gz]
+[2024-05-16 11:56:18] INFO root fetch - processPackages [cdo-sdk-python]: Remove: archive file [/home/abi/fetcher/tmp/cdo-sdk-python-1.0.99.tar.gz]
+[2024-05-16 11:56:18] INFO root fetch - main [MainThread]: End processing [cdo-sdk-python]: success
+[2024-05-16 11:56:42] INFO root fetch - processPackages [fxgui]: Remove: archive file [/home/abi/fetcher/tmp/fxgui-2.1.0.tar.gz]
+[2024-05-16 11:56:42] INFO root fetch - processPackages [fxgui]: Remove: archive file [/home/abi/fetcher/tmp/fxgui-2.2.0.tar.gz]
+[2024-05-16 11:56:42] INFO root fetch - main [MainThread]: End processing [fxgui]: success
+[2024-05-16 11:56:42] INFO root fetch - main [MainThread]: Store serial: [23233469]
