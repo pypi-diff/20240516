@@ -12098,3 +12098,24 @@ EOFError: EOF read where object expected
 [2024-05-16 07:35:56] INFO root fetch - processPackages [eurmlsdk]: Remove: archive file [/home/abi/fetcher/tmp/eurmlsdk-0.0.87.tar.gz]
 [2024-05-16 07:35:56] INFO root fetch - main [MainThread]: End processing [eurmlsdk]: success
 [2024-05-16 07:35:56] INFO root fetch - main [MainThread]: Store serial: [23229747]
+[2024-05-16 07:38:00] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23229747]
+[2024-05-16 07:38:05] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-16 07:38:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: meerschaum
+[2024-05-16 07:38:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: acryl-datahub-cloud
+[2024-05-16 07:38:05] INFO root fetch - processPackages [acryl-datahub-cloud]: New version: [0.3.2rc9] Old Version: [0.3.2rc8]
+[2024-05-16 07:38:05] INFO root fetch - processPackages [acryl-datahub-cloud]: Downloading https://files.pythonhosted.org/packages/8c/34/0ac46c0016b6d395b9e08c97137a35a48a32c50f64d2e1c188582f3aedb8/acryl_datahub_cloud-0.3.2rc8.tar.gz
+[2024-05-16 07:38:05] INFO root fetch - processPackages [meerschaum]: New version: [2.2.0rc1] Old Version: [2.2.0.dev3]
+[2024-05-16 07:38:05] INFO root fetch - processPackages [acryl-datahub-cloud]: Downloading https://files.pythonhosted.org/packages/f8/d8/1e88c6de8e078deee9f13099e2364a2466bc062f1085fa3cf0d831ccffa0/acryl_datahub_cloud-0.3.2rc9.tar.gz
+[2024-05-16 07:38:05] INFO root fetch - processPackages [meerschaum]: Downloading https://files.pythonhosted.org/packages/68/d1/e3a2de41f30eb9b75f7e80f9b9552aa0edb4f4c9a7152810faf7161877e3/meerschaum-2.2.0.dev3.tar.gz
+[2024-05-16 07:38:05] INFO root fetch - processPackages [acryl-datahub-cloud]: executing diffoscope
+[2024-05-16 07:38:05] INFO root fetch - processPackages [acryl-datahub-cloud]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/acryl_datahub_cloud-0.3.2rc8.tar.gz tmp/acryl_datahub_cloud-0.3.2rc9.tar.gz --markdown 20240516/a/acryl-datahub-cloud/0.3.2rc8-0.3.2rc9/README.md --exclude *.pyd
+[2024-05-16 07:38:06] INFO root fetch - processPackages [meerschaum]: Downloading https://files.pythonhosted.org/packages/9b/73/0f78b69f2138cf4874d86eef9d17849144267cc672e5ad443760f43e147f/meerschaum-2.2.0rc1.tar.gz
+[2024-05-16 07:38:06] INFO root fetch - processPackages [meerschaum]: executing diffoscope
+[2024-05-16 07:38:06] INFO root fetch - processPackages [meerschaum]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/meerschaum-2.2.0.dev3.tar.gz tmp/meerschaum-2.2.0rc1.tar.gz --markdown 20240516/m/meerschaum/2.2.0.dev3-2.2.0rc1/README.md --exclude *.pyd
+[2024-05-16 07:38:07] INFO root fetch - processPackages [acryl-datahub-cloud]: Remove: archive file [/home/abi/fetcher/tmp/acryl_datahub_cloud-0.3.2rc8.tar.gz]
+[2024-05-16 07:38:07] INFO root fetch - processPackages [acryl-datahub-cloud]: Remove: archive file [/home/abi/fetcher/tmp/acryl_datahub_cloud-0.3.2rc9.tar.gz]
+[2024-05-16 07:38:07] INFO root fetch - main [MainThread]: End processing [acryl-datahub-cloud]: success
+[2024-05-16 07:38:07] INFO root fetch - processPackages [meerschaum]: Remove: archive file [/home/abi/fetcher/tmp/meerschaum-2.2.0.dev3.tar.gz]
+[2024-05-16 07:38:07] INFO root fetch - processPackages [meerschaum]: Remove: archive file [/home/abi/fetcher/tmp/meerschaum-2.2.0rc1.tar.gz]
+[2024-05-16 07:38:07] INFO root fetch - main [MainThread]: End processing [meerschaum]: success
+[2024-05-16 07:38:07] INFO root fetch - main [MainThread]: Store serial: [23229750]
