@@ -10580,3 +10580,63 @@ EOFError: EOF read where object expected
 [2024-05-16 05:42:16] INFO root fetch - processPackages [alibabacloud-ess20220222]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_ess20220222-1.6.0.tar.gz]
 [2024-05-16 05:42:16] INFO root fetch - main [MainThread]: End processing [alibabacloud-ess20220222]: success
 [2024-05-16 05:42:16] INFO root fetch - main [MainThread]: Store serial: [23229128]
+[2024-05-16 05:44:22] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23229128]
+[2024-05-16 05:44:27] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-16 05:44:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: starrydata
+[2024-05-16 05:44:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: wj-google
+[2024-05-16 05:44:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: haliax
+[2024-05-16 05:44:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: EasyPage
+[2024-05-16 05:44:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: mns-common
+[2024-05-16 05:44:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: TDSR-UWB
+[2024-05-16 05:44:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: fuzzquery
+[2024-05-16 05:44:27] INFO root fetch - processPackages [starrydata]: New version: [1.0.1] Old Version: [1.0.0]
+[2024-05-16 05:44:27] INFO root fetch - processPackages [wj-google]: New version: [0.1.4] Old Version: [0.1.2]
+[2024-05-16 05:44:27] INFO root fetch - processPackages [mns-common]: New version: [1.1.0.5] Old Version: [1.1.0.4]
+[2024-05-16 05:44:27] INFO root fetch - processPackages [EasyPage]: New version: [0.0.6] Old Version: [0.0.5]
+[2024-05-16 05:44:27] INFO root fetch - processPackages [haliax]: New version: [1.4.dev294] Old Version: [1.4.dev293]
+[2024-05-16 05:44:27] INFO root fetch - processPackages [TDSR-UWB]: New version: [1.539] Old Version: [1.538]
+[2024-05-16 05:44:27] ERROR root fetch - processPackages [fuzzquery]: Unable to get metadata: No such project 'fuzzquery'
+[2024-05-16 05:44:27] INFO root fetch - main [MainThread]: End processing [fuzzquery] error
+[2024-05-16 05:44:27] INFO root fetch - processPackages [mns-common]: Downloading https://files.pythonhosted.org/packages/7e/61/34372bc361fd1bec608408c5d5232f73ccd6310493e125d3c9858b084631/mns_common-1.1.0.4.tar.gz
+[2024-05-16 05:44:27] INFO root fetch - processPackages [EasyPage]: Downloading https://files.pythonhosted.org/packages/cd/79/4ccc2878b7bf399df6dcd82ff429e9914f3a8a75a6c9a4ae04272f514ec9/EasyPage-0.0.5.tar.gz
+[2024-05-16 05:44:27] INFO root fetch - processPackages [starrydata]: Downloading https://files.pythonhosted.org/packages/ce/0c/5eb49ad81608667c1ff90946076fc00cda66327d554c5c1965304b59d060/starrydata-1.0.0.tar.gz
+[2024-05-16 05:44:27] INFO root fetch - processPackages [wj-google]: Downloading https://files.pythonhosted.org/packages/ed/7e/2dad1310fe8c53cf086e78aa0dd9089a53ca4677fc188e54d0a93a7fb992/wj_google-0.1.2.tar.gz
+[2024-05-16 05:44:28] INFO root fetch - processPackages [TDSR-UWB]: Downloading https://files.pythonhosted.org/packages/41/ac/4a82475ff48fb04ab9c930377b1ebeb35eb1a9429cface926bea301f9158/TDSR-UWB-1.538.tar.gz
+[2024-05-16 05:44:28] INFO root fetch - processPackages [haliax]: Downloading https://files.pythonhosted.org/packages/b1/a5/9683aab51e0ef8a24b08a75789713988a7cb5179a1755fb8cf7bb5bbae60/haliax-1.4.dev293.tar.gz
+[2024-05-16 05:44:28] INFO root fetch - processPackages [EasyPage]: Downloading https://files.pythonhosted.org/packages/8d/ef/8db8afab47aaf8a89aaa4975e0bf615a001f7229e14e46051e5bb2ca92e6/EasyPage-0.0.6.tar.gz
+[2024-05-16 05:44:28] INFO root fetch - processPackages [EasyPage]: executing diffoscope
+[2024-05-16 05:44:28] INFO root fetch - processPackages [EasyPage]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/EasyPage-0.0.5.tar.gz tmp/EasyPage-0.0.6.tar.gz --markdown 20240516/E/EasyPage/0.0.5-0.0.6/README.md --exclude *.pyd
+[2024-05-16 05:44:28] INFO root fetch - processPackages [starrydata]: Downloading https://files.pythonhosted.org/packages/6e/db/25403de6909909595922176cb14f202d53e505c34aafe939bb16f4cd0a1e/starrydata-1.0.1.tar.gz
+[2024-05-16 05:44:28] INFO root fetch - processPackages [wj-google]: Downloading https://files.pythonhosted.org/packages/d4/59/4d3eab6ece556e4933e73ce270098d857a583fb21a5c3a6dfd8bf31bbb9e/wj_google-0.1.4.tar.gz
+[2024-05-16 05:44:28] INFO root fetch - processPackages [mns-common]: Downloading https://files.pythonhosted.org/packages/2f/4e/cc48d470d807a196d9af847a3442a8e32c4eeab70cb64d8a20c1ca253f29/mns_common-1.1.0.5.tar.gz
+[2024-05-16 05:44:28] INFO root fetch - processPackages [starrydata]: executing diffoscope
+[2024-05-16 05:44:28] INFO root fetch - processPackages [starrydata]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/starrydata-1.0.0.tar.gz tmp/starrydata-1.0.1.tar.gz --markdown 20240516/s/starrydata/1.0.0-1.0.1/README.md --exclude *.pyd
+[2024-05-16 05:44:28] INFO root fetch - processPackages [TDSR-UWB]: Downloading https://files.pythonhosted.org/packages/a7/39/916ad2ed86307e17e761909d4f80d1daf36a932a6751511d18d873db2075/TDSR-UWB-1.539.tar.gz
+[2024-05-16 05:44:28] INFO root fetch - processPackages [wj-google]: executing diffoscope
+[2024-05-16 05:44:28] INFO root fetch - processPackages [wj-google]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wj_google-0.1.2.tar.gz tmp/wj_google-0.1.4.tar.gz --markdown 20240516/w/wj-google/0.1.2-0.1.4/README.md --exclude *.pyd
+[2024-05-16 05:44:28] INFO root fetch - processPackages [haliax]: Downloading https://files.pythonhosted.org/packages/ff/9a/d4bc1e95b442728e9d1e4e26de6e52c25a282edeec00d7a2322b126ca793/haliax-1.4.dev294.tar.gz
+[2024-05-16 05:44:28] INFO root fetch - processPackages [mns-common]: executing diffoscope
+[2024-05-16 05:44:28] INFO root fetch - processPackages [mns-common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mns_common-1.1.0.4.tar.gz tmp/mns_common-1.1.0.5.tar.gz --markdown 20240516/m/mns-common/1.1.0.4-1.1.0.5/README.md --exclude *.pyd
+[2024-05-16 05:44:28] INFO root fetch - processPackages [TDSR-UWB]: executing diffoscope
+[2024-05-16 05:44:28] INFO root fetch - processPackages [TDSR-UWB]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/TDSR-UWB-1.538.tar.gz tmp/TDSR-UWB-1.539.tar.gz --markdown 20240516/T/TDSR-UWB/1.538-1.539/README.md --exclude *.pyd
+[2024-05-16 05:44:28] INFO root fetch - processPackages [haliax]: executing diffoscope
+[2024-05-16 05:44:28] INFO root fetch - processPackages [haliax]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/haliax-1.4.dev293.tar.gz tmp/haliax-1.4.dev294.tar.gz --markdown 20240516/h/haliax/1.4.dev293-1.4.dev294/README.md --exclude *.pyd
+[2024-05-16 05:44:29] INFO root fetch - processPackages [wj-google]: Remove: archive file [/home/abi/fetcher/tmp/wj_google-0.1.2.tar.gz]
+[2024-05-16 05:44:29] INFO root fetch - processPackages [wj-google]: Remove: archive file [/home/abi/fetcher/tmp/wj_google-0.1.4.tar.gz]
+[2024-05-16 05:44:29] INFO root fetch - main [MainThread]: End processing [wj-google]: success
+[2024-05-16 05:44:29] INFO root fetch - processPackages [EasyPage]: Remove: archive file [/home/abi/fetcher/tmp/EasyPage-0.0.5.tar.gz]
+[2024-05-16 05:44:29] INFO root fetch - processPackages [EasyPage]: Remove: archive file [/home/abi/fetcher/tmp/EasyPage-0.0.6.tar.gz]
+[2024-05-16 05:44:29] INFO root fetch - main [MainThread]: End processing [EasyPage]: success
+[2024-05-16 05:44:29] INFO root fetch - processPackages [mns-common]: Remove: archive file [/home/abi/fetcher/tmp/mns_common-1.1.0.4.tar.gz]
+[2024-05-16 05:44:29] INFO root fetch - processPackages [mns-common]: Remove: archive file [/home/abi/fetcher/tmp/mns_common-1.1.0.5.tar.gz]
+[2024-05-16 05:44:29] INFO root fetch - main [MainThread]: End processing [mns-common]: success
+[2024-05-16 05:44:29] INFO root fetch - processPackages [starrydata]: Remove: archive file [/home/abi/fetcher/tmp/starrydata-1.0.0.tar.gz]
+[2024-05-16 05:44:29] INFO root fetch - processPackages [starrydata]: Remove: archive file [/home/abi/fetcher/tmp/starrydata-1.0.1.tar.gz]
+[2024-05-16 05:44:29] INFO root fetch - main [MainThread]: End processing [starrydata]: success
+[2024-05-16 05:44:29] INFO root fetch - processPackages [TDSR-UWB]: Remove: archive file [/home/abi/fetcher/tmp/TDSR-UWB-1.538.tar.gz]
+[2024-05-16 05:44:29] INFO root fetch - processPackages [TDSR-UWB]: Remove: archive file [/home/abi/fetcher/tmp/TDSR-UWB-1.539.tar.gz]
+[2024-05-16 05:44:29] INFO root fetch - main [MainThread]: End processing [TDSR-UWB]: success
+[2024-05-16 05:44:29] INFO root fetch - processPackages [haliax]: Remove: archive file [/home/abi/fetcher/tmp/haliax-1.4.dev293.tar.gz]
+[2024-05-16 05:44:29] INFO root fetch - processPackages [haliax]: Remove: archive file [/home/abi/fetcher/tmp/haliax-1.4.dev294.tar.gz]
+[2024-05-16 05:44:29] INFO root fetch - main [MainThread]: End processing [haliax]: success
+[2024-05-16 05:44:29] INFO root fetch - main [MainThread]: Store serial: [23229150]
