@@ -12800,3 +12800,83 @@ EOFError: EOF read where object expected
 [2024-05-16 08:11:00] INFO root fetch - processPackages [an-website]: Remove: archive file [/home/abi/fetcher/tmp/an-website-24.5.tar.gz]
 [2024-05-16 08:11:00] INFO root fetch - main [MainThread]: End processing [an-website]: success
 [2024-05-16 08:11:00] INFO root fetch - main [MainThread]: Store serial: [23230054]
+[2024-05-16 08:13:04] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23230054]
+[2024-05-16 08:13:09] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-05-16 08:13:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: TsingPig-Lab
+[2024-05-16 08:13:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: django_herobiz_dental
+[2024-05-16 08:13:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ipex-llm
+[2024-05-16 08:13:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ayeaye-fossa
+[2024-05-16 08:13:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: analysta-index
+[2024-05-16 08:13:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pytoniq
+[2024-05-16 08:13:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: ADViewpy
+[2024-05-16 08:13:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: cdk8s-awscdk-resolver
+[2024-05-16 08:13:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: satsure-core-test
+[2024-05-16 08:13:09] INFO root fetch - processPackages [TsingPig-Lab]: New version: [0.0.3] Old Version: [0.0.2]
+[2024-05-16 08:13:09] INFO root fetch - processPackages [satsure-core-test]: New version: [0.2.2] Old Version: [0.2.1]
+[2024-05-16 08:13:09] INFO root fetch - processPackages [analysta-index]: New version: [0.2.9] Old Version: [0.2.8]
+[2024-05-16 08:13:09] INFO root fetch - processPackages [django_herobiz_dental]: New version: [1.1.1] Old Version: [1.1.0]
+[2024-05-16 08:13:09] INFO root fetch - processPackages [ayeaye-fossa]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-16 08:13:09] INFO root fetch - processPackages [cdk8s-awscdk-resolver]: New version: [0.0.99] Old Version: [0.0.98]
+[2024-05-16 08:13:09] INFO root fetch - processPackages [ADViewpy]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-05-16 08:13:09] INFO root fetch - processPackages [TsingPig-Lab]: Downloading https://files.pythonhosted.org/packages/5d/cd/6df8fafda47c5857e34e2477feab8b78de8fb36982a15f2cdcb536bf724c/TsingPig_Lab-0.0.2.tar.gz
+[2024-05-16 08:13:09] INFO root fetch - processPackages [pytoniq]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-16 08:13:09] INFO root fetch - processPackages [ipex-llm]: New version: [2.1.0b20240515] Old Version: [2.1.0b20240514]
+[2024-05-16 08:13:09] INFO root fetch - processPackages [django_herobiz_dental]: Downloading https://files.pythonhosted.org/packages/35/e9/6f8cd70f3d70fd5f25505df79e837c01bfe57dda6520ea7f61b95f764f9f/django_herobiz_dental-1.1.0.tar.gz
+[2024-05-16 08:13:09] INFO root fetch - processPackages [ayeaye-fossa]: Downloading https://files.pythonhosted.org/packages/d8/a1/912b7eb7c2ec90821727eeae723c737b6fccd8c7d43b5b88035f69062531/ayeaye-fossa-0.0.8.tar.gz
+[2024-05-16 08:13:09] INFO root fetch - processPackages [satsure-core-test]: Downloading https://files.pythonhosted.org/packages/1a/49/f5890734e7b5671e9c811537d2f26cf051e6d11516181adcfdc37093a360/satsure-core-test-0.2.1.tar.gz
+[2024-05-16 08:13:09] INFO root fetch - processPackages [cdk8s-awscdk-resolver]: Downloading https://files.pythonhosted.org/packages/07/20/19ec9266389742d2a3c04ab3687b33ce4fbc2bbb57bfcec31da1a9bcbd23/cdk8s-awscdk-resolver-0.0.98.tar.gz
+[2024-05-16 08:13:09] INFO root fetch - processPackages [analysta-index]: Downloading https://files.pythonhosted.org/packages/01/cf/2384baabdae575209a6a4216033a9a5d5e61e6cdad49419226a7bb1ecc2f/analysta_index-0.2.8.tar.gz
+[2024-05-16 08:13:09] INFO root fetch - processPackages [ipex-llm]: Downloading https://files.pythonhosted.org/packages/98/df/6b26dcd03d81ec9dc227aff5c92923e823c2491c2263e143c0160f109c83/ipex_llm-2.1.0b20240514-py3-none-win_amd64.whl
+[2024-05-16 08:13:09] INFO root fetch - processPackages [ADViewpy]: Downloading https://files.pythonhosted.org/packages/01/e1/f2210cfbadd572ff4ef9c4e1f2dcba6d1cf0a705e05159c0d6b08104dfac/ADViewpy-0.0.1-py3-none-any.whl
+[2024-05-16 08:13:09] INFO root fetch - processPackages [pytoniq]: Downloading https://files.pythonhosted.org/packages/83/60/0c6ea7f844b87f5904225428fba7d0a193d5a9110c309119939c7e8c89a9/pytoniq-0.1.8.tar.gz
+[2024-05-16 08:13:09] INFO root fetch - processPackages [ayeaye-fossa]: Downloading https://files.pythonhosted.org/packages/3f/3a/f0d0d26d68a1d713e3a4fd112bc9c5730bf2ffb87570f006537da13a4e41/ayeaye-fossa-0.0.9.tar.gz
+[2024-05-16 08:13:09] ERROR root fetch - processPackages [TsingPig-Lab]: Unable to fetch info: No such project/version 'TsingPig-Lab' 0.0.3
+[2024-05-16 08:13:09] INFO root fetch - main [MainThread]: End processing [TsingPig-Lab] error
+[2024-05-16 08:13:10] INFO root fetch - processPackages [analysta-index]: Downloading https://files.pythonhosted.org/packages/ba/b4/33785982f782c702583fb17e14729d42cb8e9e1112a6cc6102f8435d1b45/analysta_index-0.2.9.tar.gz
+[2024-05-16 08:13:10] INFO root fetch - processPackages [cdk8s-awscdk-resolver]: Downloading https://files.pythonhosted.org/packages/c7/b2/54a44e3f76d560a3b27d6d369382450e19f3b34970ec7c2ee462c06c50c0/cdk8s-awscdk-resolver-0.0.99.tar.gz
+[2024-05-16 08:13:10] INFO root fetch - processPackages [satsure-core-test]: Downloading https://files.pythonhosted.org/packages/84/fa/2d835b081018a321dedff0f010924ebad2ec7682e501a6cdd9bb13841fc0/satsure-core-test-0.2.2.tar.gz
+[2024-05-16 08:13:10] INFO root fetch - processPackages [ayeaye-fossa]: executing diffoscope
+[2024-05-16 08:13:10] INFO root fetch - processPackages [ayeaye-fossa]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ayeaye-fossa-0.0.8.tar.gz tmp/ayeaye-fossa-0.0.9.tar.gz --markdown 20240516/a/ayeaye-fossa/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-16 08:13:10] INFO root fetch - processPackages [analysta-index]: executing diffoscope
+[2024-05-16 08:13:10] INFO root fetch - processPackages [analysta-index]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/analysta_index-0.2.8.tar.gz tmp/analysta_index-0.2.9.tar.gz --markdown 20240516/a/analysta-index/0.2.8-0.2.9/README.md --exclude *.pyd
+[2024-05-16 08:13:10] INFO root fetch - processPackages [django_herobiz_dental]: Downloading https://files.pythonhosted.org/packages/45/d0/559f5ea5fca4c017c28d2c0fcf530b99c5f72915fd3befc31a48703fe167/django_herobiz_dental-1.1.1.tar.gz
+[2024-05-16 08:13:10] INFO root fetch - processPackages [satsure-core-test]: executing diffoscope
+[2024-05-16 08:13:10] INFO root fetch - processPackages [satsure-core-test]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/satsure-core-test-0.2.1.tar.gz tmp/satsure-core-test-0.2.2.tar.gz --markdown 20240516/s/satsure-core-test/0.2.1-0.2.2/README.md --exclude *.pyd
+[2024-05-16 08:13:10] INFO root fetch - processPackages [ADViewpy]: Downloading https://files.pythonhosted.org/packages/91/47/f561232ee37e959f1721626e64470b309ac5d9df8375e302cafdf7e37aa1/ADViewpy-0.0.2.tar.gz
+[2024-05-16 08:13:10] INFO root fetch - processPackages [cdk8s-awscdk-resolver]: executing diffoscope
+[2024-05-16 08:13:10] INFO root fetch - processPackages [cdk8s-awscdk-resolver]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk8s-awscdk-resolver-0.0.98.tar.gz tmp/cdk8s-awscdk-resolver-0.0.99.tar.gz --markdown 20240516/c/cdk8s-awscdk-resolver/0.0.98-0.0.99/README.md --exclude *.pyd
+[2024-05-16 08:13:10] INFO root fetch - processPackages [pytoniq]: Downloading https://files.pythonhosted.org/packages/fc/12/0a8feae4d11e9c3e6d606d74bdb341a15545be7d644d797b3acebd3e1fd9/pytoniq-0.1.9.tar.gz
+[2024-05-16 08:13:10] INFO root fetch - processPackages [ADViewpy]: executing diffoscope
+[2024-05-16 08:13:10] INFO root fetch - processPackages [ADViewpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ADViewpy-0.0.1-py3-none-any.whl.zip tmp/ADViewpy-0.0.2.tar.gz --markdown 20240516/A/ADViewpy/0.0.1-0.0.2/README.md --exclude *.pyd
+[2024-05-16 08:13:10] INFO root fetch - processPackages [pytoniq]: executing diffoscope
+[2024-05-16 08:13:10] INFO root fetch - processPackages [pytoniq]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytoniq-0.1.8.tar.gz tmp/pytoniq-0.1.9.tar.gz --markdown 20240516/p/pytoniq/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-16 08:13:10] INFO root fetch - processPackages [ipex-llm]: Downloading https://files.pythonhosted.org/packages/af/25/eb8a7e92f1cf4cec29e28ed3681235f6ab1fdf835d66d92e727e7773ae82/ipex_llm-2.1.0b20240515-py3-none-win_amd64.whl
+[2024-05-16 08:13:10] INFO root fetch - processPackages [django_herobiz_dental]: executing diffoscope
+[2024-05-16 08:13:10] INFO root fetch - processPackages [django_herobiz_dental]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django_herobiz_dental-1.1.0.tar.gz tmp/django_herobiz_dental-1.1.1.tar.gz --markdown 20240516/d/django_herobiz_dental/1.1.0-1.1.1/README.md --exclude *.pyd
+[2024-05-16 08:13:10] INFO root fetch - processPackages [ipex-llm]: executing diffoscope
+[2024-05-16 08:13:10] INFO root fetch - processPackages [ipex-llm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ipex_llm-2.1.0b20240514-py3-none-win_amd64.whl.zip tmp/ipex_llm-2.1.0b20240515-py3-none-win_amd64.whl.zip --markdown 20240516/i/ipex-llm/2.1.0b20240514-2.1.0b20240515/README.md --exclude *.pyd
+[2024-05-16 08:13:10] INFO root fetch - processPackages [ayeaye-fossa]: Remove: archive file [/home/abi/fetcher/tmp/ayeaye-fossa-0.0.8.tar.gz]
+[2024-05-16 08:13:10] INFO root fetch - processPackages [ayeaye-fossa]: Remove: archive file [/home/abi/fetcher/tmp/ayeaye-fossa-0.0.9.tar.gz]
+[2024-05-16 08:13:10] INFO root fetch - main [MainThread]: End processing [ayeaye-fossa]: success
+[2024-05-16 08:13:11] INFO root fetch - processPackages [satsure-core-test]: Remove: archive file [/home/abi/fetcher/tmp/satsure-core-test-0.2.1.tar.gz]
+[2024-05-16 08:13:11] INFO root fetch - processPackages [satsure-core-test]: Remove: archive file [/home/abi/fetcher/tmp/satsure-core-test-0.2.2.tar.gz]
+[2024-05-16 08:13:11] INFO root fetch - main [MainThread]: End processing [satsure-core-test]: success
+[2024-05-16 08:13:11] INFO root fetch - processPackages [cdk8s-awscdk-resolver]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-awscdk-resolver-0.0.98.tar.gz]
+[2024-05-16 08:13:11] INFO root fetch - processPackages [cdk8s-awscdk-resolver]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-awscdk-resolver-0.0.99.tar.gz]
+[2024-05-16 08:13:11] INFO root fetch - main [MainThread]: End processing [cdk8s-awscdk-resolver]: success
+[2024-05-16 08:13:11] INFO root fetch - processPackages [analysta-index]: Remove: archive file [/home/abi/fetcher/tmp/analysta_index-0.2.8.tar.gz]
+[2024-05-16 08:13:11] INFO root fetch - processPackages [analysta-index]: Remove: archive file [/home/abi/fetcher/tmp/analysta_index-0.2.9.tar.gz]
+[2024-05-16 08:13:11] INFO root fetch - main [MainThread]: End processing [analysta-index]: success
+[2024-05-16 08:13:11] INFO root fetch - processPackages [pytoniq]: Remove: archive file [/home/abi/fetcher/tmp/pytoniq-0.1.8.tar.gz]
+[2024-05-16 08:13:11] INFO root fetch - processPackages [pytoniq]: Remove: archive file [/home/abi/fetcher/tmp/pytoniq-0.1.9.tar.gz]
+[2024-05-16 08:13:11] INFO root fetch - main [MainThread]: End processing [pytoniq]: success
+[2024-05-16 08:13:11] INFO root fetch - processPackages [ADViewpy]: Remove: archive file [/home/abi/fetcher/tmp/ADViewpy-0.0.1-py3-none-any.whl.zip]
+[2024-05-16 08:13:11] INFO root fetch - processPackages [ADViewpy]: Remove: archive file [/home/abi/fetcher/tmp/ADViewpy-0.0.2.tar.gz]
+[2024-05-16 08:13:11] INFO root fetch - main [MainThread]: End processing [ADViewpy]: success
+[2024-05-16 08:13:12] INFO root fetch - processPackages [django_herobiz_dental]: Remove: archive file [/home/abi/fetcher/tmp/django_herobiz_dental-1.1.0.tar.gz]
+[2024-05-16 08:13:12] INFO root fetch - processPackages [django_herobiz_dental]: Remove: archive file [/home/abi/fetcher/tmp/django_herobiz_dental-1.1.1.tar.gz]
+[2024-05-16 08:13:12] INFO root fetch - main [MainThread]: End processing [django_herobiz_dental]: success
+[2024-05-16 08:13:41] INFO root fetch - processPackages [ipex-llm]: Remove: archive file [/home/abi/fetcher/tmp/ipex_llm-2.1.0b20240514-py3-none-win_amd64.whl.zip]
+[2024-05-16 08:13:41] INFO root fetch - processPackages [ipex-llm]: Remove: archive file [/home/abi/fetcher/tmp/ipex_llm-2.1.0b20240515-py3-none-win_amd64.whl.zip]
+[2024-05-16 08:13:41] INFO root fetch - main [MainThread]: End processing [ipex-llm]: success
+[2024-05-16 08:13:41] INFO root fetch - main [MainThread]: Store serial: [23230079]
