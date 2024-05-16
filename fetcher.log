@@ -9603,3 +9603,54 @@ EOFError: EOF read where object expected
 [2024-05-16 04:34:08] INFO root fetch - processPackages [composabl-train-dev]: Remove: archive file [/home/abi/fetcher/tmp/composabl_train_dev-0.8.0.dev9-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
 [2024-05-16 04:34:08] INFO root fetch - main [MainThread]: End processing [composabl-train-dev]: success
 [2024-05-16 04:34:08] INFO root fetch - main [MainThread]: Store serial: [23228756]
+[2024-05-16 04:36:37] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23228756]
+[2024-05-16 04:36:42] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-16 04:36:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tidevice
+[2024-05-16 04:36:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: langchain-airbyte
+[2024-05-16 04:36:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ultyas
+[2024-05-16 04:36:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: espresso-machine
+[2024-05-16 04:36:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: thirdai
+[2024-05-16 04:36:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: spaceone-inventory
+[2024-05-16 04:36:42] INFO root fetch - processPackages [ultyas]: New version: [1.0.5] Old Version: [1.0.4]
+[2024-05-16 04:36:42] WARNING root fetch - processPackages [espresso-machine]: Skipping, unable to determine old version
+[2024-05-16 04:36:42] INFO root fetch - main [MainThread]: End processing [espresso-machine] error
+[2024-05-16 04:36:42] INFO root fetch - processPackages [spaceone-inventory]: New version: [2.0.dev99] Old Version: [2.0.dev98]
+[2024-05-16 04:36:42] INFO root fetch - processPackages [langchain-airbyte]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-05-16 04:36:42] INFO root fetch - processPackages [spaceone-inventory]: Downloading https://files.pythonhosted.org/packages/2b/23/73e091142fbd007706604f94cc95718e79d9259d998aa9dd424fc7cc6f7f/spaceone-inventory-2.0.dev98.tar.gz
+[2024-05-16 04:36:42] INFO root fetch - processPackages [tidevice]: New version: [0.9.9] Old Version: [0.9.8]
+[2024-05-16 04:36:42] INFO root fetch - processPackages [thirdai]: New version: [0.8.2] Old Version: [0.8.1]
+[2024-05-16 04:36:43] INFO root fetch - processPackages [ultyas]: Downloading https://files.pythonhosted.org/packages/5b/29/524bbc6509e19771e4bdc432de5a3722ebde46ee189f9687e70dac0e4d0c/ultyas-1.0.4.tar.gz
+[2024-05-16 04:36:43] INFO root fetch - processPackages [langchain-airbyte]: Downloading https://files.pythonhosted.org/packages/16/a4/dece7c43dee0db1629ece9be227f5e41e0d230d63d11eaf928f8075fd2c0/langchain_airbyte-0.1.0.tar.gz
+[2024-05-16 04:36:43] INFO root fetch - processPackages [tidevice]: Downloading https://files.pythonhosted.org/packages/56/86/dd8f7742c20194dce5edb12b48b80d8eebd0a33d93f39d36d07486e5d2ee/tidevice-0.9.8.tar.gz
+[2024-05-16 04:36:43] INFO root fetch - processPackages [spaceone-inventory]: Downloading https://files.pythonhosted.org/packages/e7/30/f1229bb9f69283d6576804b473d6fe73ff3118fb5543c89d48b18f899ca2/spaceone-inventory-2.0.dev99.tar.gz
+[2024-05-16 04:36:43] INFO root fetch - processPackages [thirdai]: Downloading https://files.pythonhosted.org/packages/49/30/dc4648450fd74b5cf3b7f66b8af6b979bf6bec6e29a6d1a1c1b54f1a136f/thirdai-0.8.1-cp39-cp39-win_amd64.whl
+[2024-05-16 04:36:43] INFO root fetch - processPackages [spaceone-inventory]: executing diffoscope
+[2024-05-16 04:36:43] INFO root fetch - processPackages [spaceone-inventory]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spaceone-inventory-2.0.dev98.tar.gz tmp/spaceone-inventory-2.0.dev99.tar.gz --markdown 20240516/s/spaceone-inventory/2.0.dev98-2.0.dev99/README.md --exclude *.pyd
+[2024-05-16 04:36:43] INFO root fetch - processPackages [langchain-airbyte]: Downloading https://files.pythonhosted.org/packages/47/ef/ac8678113ddf297a36125e67e4f17375b58b4b8fb45628968d511ac4966d/langchain_airbyte-0.1.1.tar.gz
+[2024-05-16 04:36:43] INFO root fetch - processPackages [ultyas]: Downloading https://files.pythonhosted.org/packages/48/d5/9114cf3594c32f3ebde06e0dc21b7549415256785b646a51e488f67bcc7e/ultyas-1.0.5.tar.gz
+[2024-05-16 04:36:43] INFO root fetch - processPackages [langchain-airbyte]: executing diffoscope
+[2024-05-16 04:36:43] INFO root fetch - processPackages [langchain-airbyte]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/langchain_airbyte-0.1.0.tar.gz tmp/langchain_airbyte-0.1.1.tar.gz --markdown 20240516/l/langchain-airbyte/0.1.0-0.1.1/README.md --exclude *.pyd
+[2024-05-16 04:36:43] INFO root fetch - processPackages [tidevice]: Downloading https://files.pythonhosted.org/packages/d0/2b/0785b0a9a84f8204b3554b13a0135ae6d21afc9840aaea71e9d3f1fbddb1/tidevice-0.9.9.tar.gz
+[2024-05-16 04:36:43] INFO root fetch - processPackages [ultyas]: executing diffoscope
+[2024-05-16 04:36:43] INFO root fetch - processPackages [ultyas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ultyas-1.0.4.tar.gz tmp/ultyas-1.0.5.tar.gz --markdown 20240516/u/ultyas/1.0.4-1.0.5/README.md --exclude *.pyd
+[2024-05-16 04:36:43] INFO root fetch - processPackages [thirdai]: Downloading https://files.pythonhosted.org/packages/6d/b4/c9b955f699fa5eca1da233f4648b32b11059f41084c23c02a28c695066aa/thirdai-0.8.2-cp39-cp39-win_amd64.whl
+[2024-05-16 04:36:43] INFO root fetch - processPackages [tidevice]: executing diffoscope
+[2024-05-16 04:36:43] INFO root fetch - processPackages [tidevice]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tidevice-0.9.8.tar.gz tmp/tidevice-0.9.9.tar.gz --markdown 20240516/t/tidevice/0.9.8-0.9.9/README.md --exclude *.pyd
+[2024-05-16 04:36:44] INFO root fetch - processPackages [ultyas]: Remove: archive file [/home/abi/fetcher/tmp/ultyas-1.0.4.tar.gz]
+[2024-05-16 04:36:44] INFO root fetch - processPackages [ultyas]: Remove: archive file [/home/abi/fetcher/tmp/ultyas-1.0.5.tar.gz]
+[2024-05-16 04:36:44] INFO root fetch - main [MainThread]: End processing [ultyas]: success
+[2024-05-16 04:36:44] INFO root fetch - processPackages [langchain-airbyte]: Remove: archive file [/home/abi/fetcher/tmp/langchain_airbyte-0.1.0.tar.gz]
+[2024-05-16 04:36:44] INFO root fetch - processPackages [langchain-airbyte]: Remove: archive file [/home/abi/fetcher/tmp/langchain_airbyte-0.1.1.tar.gz]
+[2024-05-16 04:36:44] INFO root fetch - main [MainThread]: End processing [langchain-airbyte]: success
+[2024-05-16 04:36:44] INFO root fetch - processPackages [spaceone-inventory]: Remove: archive file [/home/abi/fetcher/tmp/spaceone-inventory-2.0.dev98.tar.gz]
+[2024-05-16 04:36:44] INFO root fetch - processPackages [spaceone-inventory]: Remove: archive file [/home/abi/fetcher/tmp/spaceone-inventory-2.0.dev99.tar.gz]
+[2024-05-16 04:36:44] INFO root fetch - main [MainThread]: End processing [spaceone-inventory]: success
+[2024-05-16 04:36:44] INFO root fetch - processPackages [thirdai]: executing diffoscope
+[2024-05-16 04:36:44] INFO root fetch - processPackages [thirdai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/thirdai-0.8.1-cp39-cp39-win_amd64.whl.zip tmp/thirdai-0.8.2-cp39-cp39-win_amd64.whl.zip --markdown 20240516/t/thirdai/0.8.1-0.8.2/README.md --exclude *.pyd
+[2024-05-16 04:36:44] INFO root fetch - processPackages [tidevice]: Remove: archive file [/home/abi/fetcher/tmp/tidevice-0.9.8.tar.gz]
+[2024-05-16 04:36:44] INFO root fetch - processPackages [tidevice]: Remove: archive file [/home/abi/fetcher/tmp/tidevice-0.9.9.tar.gz]
+[2024-05-16 04:36:44] INFO root fetch - main [MainThread]: End processing [tidevice]: success
+[2024-05-16 04:36:45] INFO root fetch - processPackages [thirdai]: Remove: archive file [/home/abi/fetcher/tmp/thirdai-0.8.1-cp39-cp39-win_amd64.whl.zip]
+[2024-05-16 04:36:45] INFO root fetch - processPackages [thirdai]: Remove: archive file [/home/abi/fetcher/tmp/thirdai-0.8.2-cp39-cp39-win_amd64.whl.zip]
+[2024-05-16 04:36:45] INFO root fetch - main [MainThread]: End processing [thirdai]: success
+[2024-05-16 04:36:45] INFO root fetch - main [MainThread]: Store serial: [23228803]
