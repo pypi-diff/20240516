@@ -12068,3 +12068,33 @@ EOFError: EOF read where object expected
 [2024-05-16 07:33:38] INFO root fetch - processPackages [tflite-runtime-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tflite_runtime_nightly-2.17.0.dev20240515-cp311-cp311-manylinux_2_34_aarch64.whl.zip]
 [2024-05-16 07:33:38] INFO root fetch - main [MainThread]: End processing [tflite-runtime-nightly]: success
 [2024-05-16 07:33:38] INFO root fetch - main [MainThread]: Store serial: [23229734]
+[2024-05-16 07:35:50] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23229734]
+[2024-05-16 07:35:55] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-16 07:35:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: TsingPig-Lab
+[2024-05-16 07:35:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: satsure-core-test
+[2024-05-16 07:35:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: eurmlsdk
+[2024-05-16 07:35:55] INFO root fetch - processPackages [satsure-core-test]: New version: [0.2.0] Old Version: [0.1.9]
+[2024-05-16 07:35:55] INFO root fetch - processPackages [eurmlsdk]: New version: [0.0.87] Old Version: [0.0.86]
+[2024-05-16 07:35:55] INFO root fetch - processPackages [TsingPig-Lab]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-05-16 07:35:55] INFO root fetch - processPackages [satsure-core-test]: Downloading https://files.pythonhosted.org/packages/73/16/2accd909107cc6b9f0b1a21213a120df450ba16b7509c14e22911ac6806f/satsure_core_test-0.1.9.tar.gz
+[2024-05-16 07:35:55] INFO root fetch - processPackages [eurmlsdk]: Downloading https://files.pythonhosted.org/packages/0f/f3/afb837b8f2ac40e5d72fbfe0cdcc157eb91d3604a087ee165aff295fbc8d/eurmlsdk-0.0.86.tar.gz
+[2024-05-16 07:35:55] INFO root fetch - processPackages [TsingPig-Lab]: Downloading https://files.pythonhosted.org/packages/72/23/66321bdc3e0e247e4199809fe7eee38dbaa2b411871fd3a90bbf27e00b67/TsingPig_Lab-0.0.1.tar.gz
+[2024-05-16 07:35:55] INFO root fetch - processPackages [satsure-core-test]: Downloading https://files.pythonhosted.org/packages/c9/b2/cdac232f66aeaecb21d75afcf07042c2a182c764b1ebeb8b3e8a72c0639e/satsure_core_test-0.2.0.tar.gz
+[2024-05-16 07:35:55] INFO root fetch - processPackages [eurmlsdk]: Downloading https://files.pythonhosted.org/packages/49/7b/f7e8f3e3deb2880be9c9be8712406cae7b5bfcbdbe1995dd81e1cd00cc6c/eurmlsdk-0.0.87.tar.gz
+[2024-05-16 07:35:55] INFO root fetch - processPackages [TsingPig-Lab]: Downloading https://files.pythonhosted.org/packages/5d/cd/6df8fafda47c5857e34e2477feab8b78de8fb36982a15f2cdcb536bf724c/TsingPig_Lab-0.0.2.tar.gz
+[2024-05-16 07:35:55] INFO root fetch - processPackages [satsure-core-test]: executing diffoscope
+[2024-05-16 07:35:55] INFO root fetch - processPackages [satsure-core-test]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/satsure_core_test-0.1.9.tar.gz tmp/satsure_core_test-0.2.0.tar.gz --markdown 20240516/s/satsure-core-test/0.1.9-0.2.0/README.md --exclude *.pyd
+[2024-05-16 07:35:55] INFO root fetch - processPackages [eurmlsdk]: executing diffoscope
+[2024-05-16 07:35:55] INFO root fetch - processPackages [eurmlsdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eurmlsdk-0.0.86.tar.gz tmp/eurmlsdk-0.0.87.tar.gz --markdown 20240516/e/eurmlsdk/0.0.86-0.0.87/README.md --exclude *.pyd
+[2024-05-16 07:35:55] INFO root fetch - processPackages [TsingPig-Lab]: executing diffoscope
+[2024-05-16 07:35:55] INFO root fetch - processPackages [TsingPig-Lab]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/TsingPig_Lab-0.0.1.tar.gz tmp/TsingPig_Lab-0.0.2.tar.gz --markdown 20240516/T/TsingPig-Lab/0.0.1-0.0.2/README.md --exclude *.pyd
+[2024-05-16 07:35:56] INFO root fetch - processPackages [satsure-core-test]: Remove: archive file [/home/abi/fetcher/tmp/satsure_core_test-0.1.9.tar.gz]
+[2024-05-16 07:35:56] INFO root fetch - processPackages [satsure-core-test]: Remove: archive file [/home/abi/fetcher/tmp/satsure_core_test-0.2.0.tar.gz]
+[2024-05-16 07:35:56] INFO root fetch - main [MainThread]: End processing [satsure-core-test]: success
+[2024-05-16 07:35:56] INFO root fetch - processPackages [TsingPig-Lab]: Remove: archive file [/home/abi/fetcher/tmp/TsingPig_Lab-0.0.1.tar.gz]
+[2024-05-16 07:35:56] INFO root fetch - processPackages [TsingPig-Lab]: Remove: archive file [/home/abi/fetcher/tmp/TsingPig_Lab-0.0.2.tar.gz]
+[2024-05-16 07:35:56] INFO root fetch - main [MainThread]: End processing [TsingPig-Lab]: success
+[2024-05-16 07:35:56] INFO root fetch - processPackages [eurmlsdk]: Remove: archive file [/home/abi/fetcher/tmp/eurmlsdk-0.0.86.tar.gz]
+[2024-05-16 07:35:56] INFO root fetch - processPackages [eurmlsdk]: Remove: archive file [/home/abi/fetcher/tmp/eurmlsdk-0.0.87.tar.gz]
+[2024-05-16 07:35:56] INFO root fetch - main [MainThread]: End processing [eurmlsdk]: success
+[2024-05-16 07:35:56] INFO root fetch - main [MainThread]: Store serial: [23229747]
