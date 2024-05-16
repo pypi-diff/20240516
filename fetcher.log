@@ -11153,3 +11153,36 @@ EOFError: EOF read where object expected
 [2024-05-16 06:25:49] INFO root fetch - processPackages [everai]: Remove: archive file [/home/abi/fetcher/tmp/everai-0.1.55-py3-none-any.whl.zip]
 [2024-05-16 06:25:49] INFO root fetch - main [MainThread]: End processing [everai]: success
 [2024-05-16 06:25:49] INFO root fetch - main [MainThread]: Store serial: [23229364]
+[2024-05-16 06:27:54] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23229364]
+[2024-05-16 06:27:59] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-16 06:27:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: chatllm
+[2024-05-16 06:27:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: vesselasid
+[2024-05-16 06:27:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: aws-lambda-compatible-psycopg2
+[2024-05-16 06:27:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: MeUtils
+[2024-05-16 06:28:00] INFO root fetch - processPackages [vesselasid]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-05-16 06:28:00] INFO root fetch - processPackages [chatllm]: New version: [2024.5.8.9.23.48] Old Version: [2024.5.8.8.58.38]
+[2024-05-16 06:28:00] INFO root fetch - processPackages [vesselasid]: Downloading https://files.pythonhosted.org/packages/a2/14/baf06cb7af9f5a80ebfeb8f960dbb13c70196f61bd5759c357fe5dacd0ea/vesselasid-1.0.8.tar.gz
+[2024-05-16 06:28:00] WARNING root fetch - processPackages [aws-lambda-compatible-psycopg2]: Skipping, unable to determine old version
+[2024-05-16 06:28:00] INFO root fetch - main [MainThread]: End processing [aws-lambda-compatible-psycopg2] error
+[2024-05-16 06:28:00] INFO root fetch - processPackages [chatllm]: Downloading https://files.pythonhosted.org/packages/3c/fe/125ff8548c29e17b9402f677527a323e74d0642c6e0fb7127a7bd7744812/chatllm-2024.5.8.8.58.38.tar.gz
+[2024-05-16 06:28:00] INFO root fetch - processPackages [MeUtils]: New version: [2024.5.6.10.44.50] Old Version: [2024.5.6.10.44.5]
+[2024-05-16 06:28:00] INFO root fetch - processPackages [vesselasid]: Downloading https://files.pythonhosted.org/packages/81/b5/ae62f72cdc101114a8434c7f5b8a6946677975c20649428b068f8f9f1afc/vesselasid-1.0.9.tar.gz
+[2024-05-16 06:28:00] INFO root fetch - processPackages [chatllm]: Downloading https://files.pythonhosted.org/packages/f8/95/b598cc48f3058bf13b7e5a60f81afe2d13e606dd2b9bb98b0a6442529c3a/chatllm-2024.5.8.9.23.48.tar.gz
+[2024-05-16 06:28:00] INFO root fetch - processPackages [MeUtils]: Downloading https://files.pythonhosted.org/packages/78/33/70eacdfe9bf2fe22dc8f2f41b47fb05e33601609969898927a2e56009f4e/MeUtils-2024.5.6.10.44.5.tar.gz
+[2024-05-16 06:28:00] INFO root fetch - processPackages [vesselasid]: executing diffoscope
+[2024-05-16 06:28:00] INFO root fetch - processPackages [vesselasid]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vesselasid-1.0.8.tar.gz tmp/vesselasid-1.0.9.tar.gz --markdown 20240516/v/vesselasid/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-05-16 06:28:00] INFO root fetch - processPackages [chatllm]: executing diffoscope
+[2024-05-16 06:28:00] INFO root fetch - processPackages [chatllm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chatllm-2024.5.8.8.58.38.tar.gz tmp/chatllm-2024.5.8.9.23.48.tar.gz --markdown 20240516/c/chatllm/2024.5.8.8.58.38-2024.5.8.9.23.48/README.md --exclude *.pyd
+[2024-05-16 06:28:01] INFO root fetch - processPackages [vesselasid]: Remove: archive file [/home/abi/fetcher/tmp/vesselasid-1.0.8.tar.gz]
+[2024-05-16 06:28:01] INFO root fetch - processPackages [vesselasid]: Remove: archive file [/home/abi/fetcher/tmp/vesselasid-1.0.9.tar.gz]
+[2024-05-16 06:28:01] INFO root fetch - main [MainThread]: End processing [vesselasid]: success
+[2024-05-16 06:28:01] INFO root fetch - processPackages [MeUtils]: Downloading https://files.pythonhosted.org/packages/02/6d/292bdb40daea1066c52f8a1ec784e268ee7fdec3261940c8419a654a25c2/MeUtils-2024.5.6.10.44.50.tar.gz
+[2024-05-16 06:28:01] INFO root fetch - processPackages [chatllm]: Remove: archive file [/home/abi/fetcher/tmp/chatllm-2024.5.8.8.58.38.tar.gz]
+[2024-05-16 06:28:01] INFO root fetch - processPackages [chatllm]: Remove: archive file [/home/abi/fetcher/tmp/chatllm-2024.5.8.9.23.48.tar.gz]
+[2024-05-16 06:28:01] INFO root fetch - main [MainThread]: End processing [chatllm]: success
+[2024-05-16 06:28:01] INFO root fetch - processPackages [MeUtils]: executing diffoscope
+[2024-05-16 06:28:01] INFO root fetch - processPackages [MeUtils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/MeUtils-2024.5.6.10.44.5.tar.gz tmp/MeUtils-2024.5.6.10.44.50.tar.gz --markdown 20240516/M/MeUtils/2024.5.6.10.44.5-2024.5.6.10.44.50/README.md --exclude *.pyd
+[2024-05-16 06:28:03] INFO root fetch - processPackages [MeUtils]: Remove: archive file [/home/abi/fetcher/tmp/MeUtils-2024.5.6.10.44.5.tar.gz]
+[2024-05-16 06:28:03] INFO root fetch - processPackages [MeUtils]: Remove: archive file [/home/abi/fetcher/tmp/MeUtils-2024.5.6.10.44.50.tar.gz]
+[2024-05-16 06:28:03] INFO root fetch - main [MainThread]: End processing [MeUtils]: success
+[2024-05-16 06:28:03] INFO root fetch - main [MainThread]: Store serial: [23229377]
