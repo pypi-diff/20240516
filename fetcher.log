@@ -11963,3 +11963,51 @@ EOFError: EOF read where object expected
 [2024-05-16 07:26:38] INFO root fetch - main [MainThread]: End processing [biomedisa]: success
 [2024-05-16 07:26:38] INFO root fetch - main [MainThread]: End processing [biomedisa]: success
 [2024-05-16 07:26:38] INFO root fetch - main [MainThread]: Store serial: [23229694]
+[2024-05-16 07:28:42] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23229694]
+[2024-05-16 07:28:47] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-16 07:28:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: blues-lib
+[2024-05-16 07:28:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ssam-ew
+[2024-05-16 07:28:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: w3ml
+[2024-05-16 07:28:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: crazy-thursday
+[2024-05-16 07:28:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: odoo-addon-l10n-it-reverse-charge
+[2024-05-16 07:28:47] INFO root fetch - processPackages [odoo-addon-l10n-it-reverse-charge]: New version: [16.0.1.0.3] Old Version: [16.0.1.0.2.3]
+[2024-05-16 07:28:47] INFO root fetch - processPackages [blues-lib]: New version: [1.1.9] Old Version: [1.1.8]
+[2024-05-16 07:28:47] INFO root fetch - processPackages [w3ml]: New version: [2024.5.16rc8] Old Version: [2024.5.16rc7]
+[2024-05-16 07:28:47] INFO root fetch - processPackages [crazy-thursday]: New version: [2024.5.9.1] Old Version: [2024.5.9.0]
+[2024-05-16 07:28:47] INFO root fetch - processPackages [ssam-ew]: New version: [1.1.1] Old Version: [1.1.0]
+[2024-05-16 07:28:47] INFO root fetch - processPackages [odoo-addon-l10n-it-reverse-charge]: Downloading https://files.pythonhosted.org/packages/ea/5b/7c8feabd87828a8056bed31f307b7c21b80d9312e150dd76a76b24262973/odoo_addon_l10n_it_reverse_charge-16.0.1.0.2.3-py3-none-any.whl
+[2024-05-16 07:28:47] INFO root fetch - processPackages [blues-lib]: Downloading https://files.pythonhosted.org/packages/50/16/975c7a30228267251fedbc0fe991e6f96f5313f614ea886ebd9848d1bfc3/blues_lib-1.1.8.tar.gz
+[2024-05-16 07:28:47] INFO root fetch - processPackages [w3ml]: Downloading https://files.pythonhosted.org/packages/8f/ba/695dd323f0c588dc0b2344ecf90e3375bf806525779ce1120f2b339d30a1/w3ml-2024.5.16rc7.tar.gz
+[2024-05-16 07:28:47] INFO root fetch - processPackages [crazy-thursday]: Downloading https://files.pythonhosted.org/packages/3f/0a/108e3af749c5757158be48151418c2bbea49bff2269af8811bade316080a/crazy_thursday-2024.5.9.0.tar.gz
+[2024-05-16 07:28:47] INFO root fetch - processPackages [ssam-ew]: Downloading https://files.pythonhosted.org/packages/bd/64/bc0f431665b7212f4f3437ed6e3d93f90498b6f7640f506022252d1b53ac/ssam_ew-1.1.0.tar.gz
+[2024-05-16 07:28:47] INFO root fetch - processPackages [blues-lib]: Downloading https://files.pythonhosted.org/packages/64/4c/b37bdd30e913905227cf3085ef64b3b8382dd95843df82a7577ff36813a8/blues_lib-1.1.9.tar.gz
+[2024-05-16 07:28:47] INFO root fetch - processPackages [crazy-thursday]: Downloading https://files.pythonhosted.org/packages/20/70/a719fb059f910b10790f6a51b1c5c3ff943f1349c91c46142f1911323575/crazy_thursday-2024.5.9.1.tar.gz
+[2024-05-16 07:28:47] INFO root fetch - processPackages [odoo-addon-l10n-it-reverse-charge]: Downloading https://files.pythonhosted.org/packages/ea/7d/859e967cccc0c454795d350488afb09851df1490a37885eeeabbc8610355/odoo_addon_l10n_it_reverse_charge-16.0.1.0.3-py3-none-any.whl
+[2024-05-16 07:28:47] INFO root fetch - processPackages [w3ml]: Downloading https://files.pythonhosted.org/packages/0a/76/18ebc29387168dc24fd9b849499181af787470dd8182fb29f010cd12711b/w3ml-2024.5.16rc8.tar.gz
+[2024-05-16 07:28:48] INFO root fetch - processPackages [blues-lib]: executing diffoscope
+[2024-05-16 07:28:48] INFO root fetch - processPackages [blues-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/blues_lib-1.1.8.tar.gz tmp/blues_lib-1.1.9.tar.gz --markdown 20240516/b/blues-lib/1.1.8-1.1.9/README.md --exclude *.pyd
+[2024-05-16 07:28:48] INFO root fetch - processPackages [crazy-thursday]: executing diffoscope
+[2024-05-16 07:28:48] INFO root fetch - processPackages [crazy-thursday]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/crazy_thursday-2024.5.9.0.tar.gz tmp/crazy_thursday-2024.5.9.1.tar.gz --markdown 20240516/c/crazy-thursday/2024.5.9.0-2024.5.9.1/README.md --exclude *.pyd
+[2024-05-16 07:28:48] INFO root fetch - processPackages [ssam-ew]: Downloading https://files.pythonhosted.org/packages/85/f0/c36d272973a8ee675979254dbf476fc08e7eedb3bb67b775a69ae3844bd5/ssam_ew-1.1.1.tar.gz
+[2024-05-16 07:28:48] INFO root fetch - processPackages [w3ml]: executing diffoscope
+[2024-05-16 07:28:48] INFO root fetch - processPackages [w3ml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/w3ml-2024.5.16rc7.tar.gz tmp/w3ml-2024.5.16rc8.tar.gz --markdown 20240516/w/w3ml/2024.5.16rc7-2024.5.16rc8/README.md --exclude *.pyd
+[2024-05-16 07:28:48] INFO root fetch - processPackages [odoo-addon-l10n-it-reverse-charge]: executing diffoscope
+[2024-05-16 07:28:48] INFO root fetch - processPackages [odoo-addon-l10n-it-reverse-charge]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_l10n_it_reverse_charge-16.0.1.0.2.3-py3-none-any.whl.zip tmp/odoo_addon_l10n_it_reverse_charge-16.0.1.0.3-py3-none-any.whl.zip --markdown 20240516/o/odoo-addon-l10n-it-reverse-charge/16.0.1.0.2.3-16.0.1.0.3/README.md --exclude *.pyd
+[2024-05-16 07:28:48] INFO root fetch - processPackages [ssam-ew]: executing diffoscope
+[2024-05-16 07:28:48] INFO root fetch - processPackages [ssam-ew]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ssam_ew-1.1.0.tar.gz tmp/ssam_ew-1.1.1.tar.gz --markdown 20240516/s/ssam-ew/1.1.0-1.1.1/README.md --exclude *.pyd
+[2024-05-16 07:28:48] INFO root fetch - processPackages [crazy-thursday]: Remove: archive file [/home/abi/fetcher/tmp/crazy_thursday-2024.5.9.0.tar.gz]
+[2024-05-16 07:28:48] INFO root fetch - processPackages [crazy-thursday]: Remove: archive file [/home/abi/fetcher/tmp/crazy_thursday-2024.5.9.1.tar.gz]
+[2024-05-16 07:28:48] INFO root fetch - main [MainThread]: End processing [crazy-thursday]: success
+[2024-05-16 07:28:48] INFO root fetch - processPackages [ssam-ew]: Remove: archive file [/home/abi/fetcher/tmp/ssam_ew-1.1.0.tar.gz]
+[2024-05-16 07:28:48] INFO root fetch - processPackages [ssam-ew]: Remove: archive file [/home/abi/fetcher/tmp/ssam_ew-1.1.1.tar.gz]
+[2024-05-16 07:28:48] INFO root fetch - main [MainThread]: End processing [ssam-ew]: success
+[2024-05-16 07:28:48] INFO root fetch - processPackages [w3ml]: Remove: archive file [/home/abi/fetcher/tmp/w3ml-2024.5.16rc7.tar.gz]
+[2024-05-16 07:28:48] INFO root fetch - processPackages [w3ml]: Remove: archive file [/home/abi/fetcher/tmp/w3ml-2024.5.16rc8.tar.gz]
+[2024-05-16 07:28:48] INFO root fetch - main [MainThread]: End processing [w3ml]: success
+[2024-05-16 07:28:48] INFO root fetch - processPackages [blues-lib]: Remove: archive file [/home/abi/fetcher/tmp/blues_lib-1.1.8.tar.gz]
+[2024-05-16 07:28:48] INFO root fetch - processPackages [blues-lib]: Remove: archive file [/home/abi/fetcher/tmp/blues_lib-1.1.9.tar.gz]
+[2024-05-16 07:28:48] INFO root fetch - main [MainThread]: End processing [blues-lib]: success
+[2024-05-16 07:28:49] INFO root fetch - processPackages [odoo-addon-l10n-it-reverse-charge]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_l10n_it_reverse_charge-16.0.1.0.2.3-py3-none-any.whl.zip]
+[2024-05-16 07:28:49] INFO root fetch - processPackages [odoo-addon-l10n-it-reverse-charge]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_l10n_it_reverse_charge-16.0.1.0.3-py3-none-any.whl.zip]
+[2024-05-16 07:28:49] INFO root fetch - main [MainThread]: End processing [odoo-addon-l10n-it-reverse-charge]: success
+[2024-05-16 07:28:49] INFO root fetch - main [MainThread]: Store serial: [23229708]
