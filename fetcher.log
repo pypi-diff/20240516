@@ -9867,3 +9867,60 @@ EOFError: EOF read where object expected
 [2024-05-16 04:52:05] INFO root fetch - processPackages [pragmatic-business-rules]: Remove: archive file [/home/abi/fetcher/tmp/pragmatic_business_rules-0.5.0.tar.gz]
 [2024-05-16 04:52:05] INFO root fetch - main [MainThread]: End processing [pragmatic-business-rules]: success
 [2024-05-16 04:52:05] INFO root fetch - main [MainThread]: Store serial: [23228870]
+[2024-05-16 04:54:09] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23228870]
+[2024-05-16 04:54:14] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-16 04:54:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: advanced_navigation
+[2024-05-16 04:54:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: taskara
+[2024-05-16 04:54:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pypomes-db
+[2024-05-16 04:54:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: YaraForge
+[2024-05-16 04:54:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: omnata-plugin-runtime
+[2024-05-16 04:54:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: runtimepy
+[2024-05-16 04:54:14] INFO root fetch - processPackages [advanced_navigation]: New version: [0.1.73] Old Version: [0.1.70]
+[2024-05-16 04:54:14] INFO root fetch - processPackages [YaraForge]: New version: [0.1.9b1] Old Version: [0.1.8b1]
+[2024-05-16 04:54:14] INFO root fetch - processPackages [pypomes-db]: New version: [0.8.0] Old Version: [0.7.9]
+[2024-05-16 04:54:14] INFO root fetch - processPackages [runtimepy]: New version: [4.4.2] Old Version: [4.4.1]
+[2024-05-16 04:54:14] INFO root fetch - processPackages [taskara]: New version: [0.1.8] Old Version: [0.1.70]
+[2024-05-16 04:54:14] INFO root fetch - processPackages [omnata-plugin-runtime]: New version: [0.3.9a44] Old Version: [0.3.9a43]
+[2024-05-16 04:54:14] INFO root fetch - processPackages [advanced_navigation]: Downloading https://files.pythonhosted.org/packages/ec/c7/820888f2e787ccee6d693d02ff452922741a62fd7666cf1086f2628e3b6d/advanced_navigation-0.1.70.tar.gz
+[2024-05-16 04:54:14] INFO root fetch - processPackages [YaraForge]: Downloading https://files.pythonhosted.org/packages/a3/b3/23b6a5d5405b678138d4a0f15f52e253a6c052d1dc5b167a89605aa68308/YaraForge-0.1.8b1.tar.gz
+[2024-05-16 04:54:14] INFO root fetch - processPackages [runtimepy]: Downloading https://files.pythonhosted.org/packages/f0/06/b86f989c2132cbf8b4a8c05bc98c84d461dd6e1a67320e4803fe425bc7e4/runtimepy-4.4.1.tar.gz
+[2024-05-16 04:54:14] INFO root fetch - processPackages [omnata-plugin-runtime]: Downloading https://files.pythonhosted.org/packages/8e/11/abde4b4d82373bc42a84a5591bf31c6cca540ba9f13337491df615af0b6c/omnata_plugin_runtime-0.3.9a43.tar.gz
+[2024-05-16 04:54:14] INFO root fetch - processPackages [pypomes-db]: Downloading https://files.pythonhosted.org/packages/3c/3b/a42c2e8a5ba7844efa79e1d2003e69ee4562b9fce5616e572784229aae71/pypomes_db-0.7.9.tar.gz
+[2024-05-16 04:54:14] INFO root fetch - processPackages [taskara]: Downloading https://files.pythonhosted.org/packages/5a/83/28b29f953db6d51841383688f7ae05001c6eb1d401000ae93776353da2af/taskara-0.1.70.tar.gz
+[2024-05-16 04:54:14] INFO root fetch - processPackages [runtimepy]: Downloading https://files.pythonhosted.org/packages/40/b4/d00a3c9e4d2028f42094ade22a3aea9e8bbb5ef8503f9f84dd24da6187f6/runtimepy-4.4.2.tar.gz
+[2024-05-16 04:54:14] INFO root fetch - processPackages [YaraForge]: Downloading https://files.pythonhosted.org/packages/d6/8b/f38a30b0409cefc74e067a146bfd79bbcc199e47cc8d5efb2f765bccb0bd/YaraForge-0.1.9b1.tar.gz
+[2024-05-16 04:54:14] INFO root fetch - processPackages [omnata-plugin-runtime]: Downloading https://files.pythonhosted.org/packages/de/f5/326ad467bb560d9dc8d7cebfe2aed77d524aeaf8a8ee7c6107f202eb6d0d/omnata_plugin_runtime-0.3.9a44.tar.gz
+[2024-05-16 04:54:14] INFO root fetch - processPackages [advanced_navigation]: Downloading https://files.pythonhosted.org/packages/b1/a6/ffe4134fcd1e05a2a86735e5770e7c6899b06e9884697951a5c044114951/advanced_navigation-0.1.73.tar.gz
+[2024-05-16 04:54:14] INFO root fetch - processPackages [pypomes-db]: Downloading https://files.pythonhosted.org/packages/09/b1/0fd7c3ac11a578f31e3b8b51eb592f9556c90072fe05b2a11f92172ec699/pypomes_db-0.8.0.tar.gz
+[2024-05-16 04:54:14] INFO root fetch - processPackages [taskara]: Downloading https://files.pythonhosted.org/packages/c0/4f/e9467a6dd755091e2fe2294b58569b289c5252fd70463791829fd99fbfd7/taskara-0.1.8.tar.gz
+[2024-05-16 04:54:14] INFO root fetch - processPackages [runtimepy]: executing diffoscope
+[2024-05-16 04:54:14] INFO root fetch - processPackages [omnata-plugin-runtime]: executing diffoscope
+[2024-05-16 04:54:14] INFO root fetch - processPackages [runtimepy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/runtimepy-4.4.1.tar.gz tmp/runtimepy-4.4.2.tar.gz --markdown 20240516/r/runtimepy/4.4.1-4.4.2/README.md --exclude *.pyd
+[2024-05-16 04:54:14] INFO root fetch - processPackages [omnata-plugin-runtime]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/omnata_plugin_runtime-0.3.9a43.tar.gz tmp/omnata_plugin_runtime-0.3.9a44.tar.gz --markdown 20240516/o/omnata-plugin-runtime/0.3.9a43-0.3.9a44/README.md --exclude *.pyd
+[2024-05-16 04:54:15] INFO root fetch - processPackages [advanced_navigation]: executing diffoscope
+[2024-05-16 04:54:15] INFO root fetch - processPackages [advanced_navigation]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/advanced_navigation-0.1.70.tar.gz tmp/advanced_navigation-0.1.73.tar.gz --markdown 20240516/a/advanced_navigation/0.1.70-0.1.73/README.md --exclude *.pyd
+[2024-05-16 04:54:15] INFO root fetch - processPackages [pypomes-db]: executing diffoscope
+[2024-05-16 04:54:15] INFO root fetch - processPackages [pypomes-db]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pypomes_db-0.7.9.tar.gz tmp/pypomes_db-0.8.0.tar.gz --markdown 20240516/p/pypomes-db/0.7.9-0.8.0/README.md --exclude *.pyd
+[2024-05-16 04:54:15] INFO root fetch - processPackages [YaraForge]: executing diffoscope
+[2024-05-16 04:54:15] INFO root fetch - processPackages [YaraForge]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/YaraForge-0.1.8b1.tar.gz tmp/YaraForge-0.1.9b1.tar.gz --markdown 20240516/Y/YaraForge/0.1.8b1-0.1.9b1/README.md --exclude *.pyd
+[2024-05-16 04:54:15] INFO root fetch - processPackages [taskara]: executing diffoscope
+[2024-05-16 04:54:15] INFO root fetch - processPackages [taskara]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/taskara-0.1.70.tar.gz tmp/taskara-0.1.8.tar.gz --markdown 20240516/t/taskara/0.1.70-0.1.8/README.md --exclude *.pyd
+[2024-05-16 04:54:15] INFO root fetch - processPackages [omnata-plugin-runtime]: Remove: archive file [/home/abi/fetcher/tmp/omnata_plugin_runtime-0.3.9a43.tar.gz]
+[2024-05-16 04:54:15] INFO root fetch - processPackages [omnata-plugin-runtime]: Remove: archive file [/home/abi/fetcher/tmp/omnata_plugin_runtime-0.3.9a44.tar.gz]
+[2024-05-16 04:54:15] INFO root fetch - main [MainThread]: End processing [omnata-plugin-runtime]: success
+[2024-05-16 04:54:15] INFO root fetch - processPackages [taskara]: Remove: archive file [/home/abi/fetcher/tmp/taskara-0.1.70.tar.gz]
+[2024-05-16 04:54:15] INFO root fetch - processPackages [taskara]: Remove: archive file [/home/abi/fetcher/tmp/taskara-0.1.8.tar.gz]
+[2024-05-16 04:54:15] INFO root fetch - main [MainThread]: End processing [taskara]: success
+[2024-05-16 04:54:15] INFO root fetch - processPackages [pypomes-db]: Remove: archive file [/home/abi/fetcher/tmp/pypomes_db-0.7.9.tar.gz]
+[2024-05-16 04:54:15] INFO root fetch - processPackages [pypomes-db]: Remove: archive file [/home/abi/fetcher/tmp/pypomes_db-0.8.0.tar.gz]
+[2024-05-16 04:54:15] INFO root fetch - main [MainThread]: End processing [pypomes-db]: success
+[2024-05-16 04:54:15] INFO root fetch - processPackages [advanced_navigation]: Remove: archive file [/home/abi/fetcher/tmp/advanced_navigation-0.1.70.tar.gz]
+[2024-05-16 04:54:15] INFO root fetch - processPackages [advanced_navigation]: Remove: archive file [/home/abi/fetcher/tmp/advanced_navigation-0.1.73.tar.gz]
+[2024-05-16 04:54:15] INFO root fetch - main [MainThread]: End processing [advanced_navigation]: success
+[2024-05-16 04:54:16] INFO root fetch - processPackages [runtimepy]: Remove: archive file [/home/abi/fetcher/tmp/runtimepy-4.4.1.tar.gz]
+[2024-05-16 04:54:16] INFO root fetch - processPackages [runtimepy]: Remove: archive file [/home/abi/fetcher/tmp/runtimepy-4.4.2.tar.gz]
+[2024-05-16 04:54:16] INFO root fetch - main [MainThread]: End processing [runtimepy]: success
+[2024-05-16 04:54:16] INFO root fetch - processPackages [YaraForge]: Remove: archive file [/home/abi/fetcher/tmp/YaraForge-0.1.8b1.tar.gz]
+[2024-05-16 04:54:16] INFO root fetch - processPackages [YaraForge]: Remove: archive file [/home/abi/fetcher/tmp/YaraForge-0.1.9b1.tar.gz]
+[2024-05-16 04:54:16] INFO root fetch - main [MainThread]: End processing [YaraForge]: success
+[2024-05-16 04:54:16] INFO root fetch - main [MainThread]: Store serial: [23228889]
