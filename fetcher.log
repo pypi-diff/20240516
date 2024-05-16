@@ -22675,3 +22675,57 @@ EOFError: EOF read where object expected
 [2024-05-16 12:06:15] INFO root fetch - processPackages [fxgui]: Remove: archive file [/home/abi/fetcher/tmp/fxgui-2.2.1.tar.gz]
 [2024-05-16 12:06:15] INFO root fetch - main [MainThread]: End processing [fxgui]: success
 [2024-05-16 12:06:15] INFO root fetch - main [MainThread]: Store serial: [23233622]
+[2024-05-16 12:08:23] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23233622]
+[2024-05-16 12:08:28] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-16 12:08:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: kili-common-storage
+[2024-05-16 12:08:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: nonebot-plugin-tetris-stats
+[2024-05-16 12:08:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: tina4-python
+[2024-05-16 12:08:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: toc-pb-python
+[2024-05-16 12:08:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: toc-trade-pb
+[2024-05-16 12:08:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: yeref
+[2024-05-16 12:08:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pyams-security
+[2024-05-16 12:08:28] INFO root fetch - processPackages [tina4-python]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-16 12:08:28] INFO root fetch - processPackages [pyams-security]: New version: [2.3.2] Old Version: [2.3.1]
+[2024-05-16 12:08:28] INFO root fetch - processPackages [kili-common-storage]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-16 12:08:28] WARNING root fetch - processPackages [toc-pb-python]: Skipping, unable to determine old version
+[2024-05-16 12:08:28] INFO root fetch - main [MainThread]: End processing [toc-pb-python] error
+[2024-05-16 12:08:28] WARNING root fetch - processPackages [toc-trade-pb]: Skipping, unable to determine old version
+[2024-05-16 12:08:28] INFO root fetch - main [MainThread]: End processing [toc-trade-pb] error
+[2024-05-16 12:08:28] INFO root fetch - processPackages [pyams-security]: Downloading https://files.pythonhosted.org/packages/16/34/dac5ebea73593aca78f9a200b33e1e5b2c195f868b180cfe43acc91cddbb/pyams_security-2.3.1.tar.gz
+[2024-05-16 12:08:28] INFO root fetch - processPackages [nonebot-plugin-tetris-stats]: New version: [1.2.9] Old Version: [1.2.8]
+[2024-05-16 12:08:28] INFO root fetch - processPackages [yeref]: New version: [0.9.9] Old Version: [0.9.8]
+[2024-05-16 12:08:28] INFO root fetch - processPackages [tina4-python]: Downloading https://files.pythonhosted.org/packages/61/79/4a27baf2c4da4707b63d581b639414c73fb68a3d702236356a9929e6ff99/tina4_python-0.1.8.tar.gz
+[2024-05-16 12:08:28] INFO root fetch - processPackages [kili-common-storage]: Downloading https://files.pythonhosted.org/packages/8f/56/9c89dd989dfb532cd8febf629ec8da3843afbef24227262796997ea5be01/kili_common_storage-0.0.8-py3-none-any.whl
+[2024-05-16 12:08:29] INFO root fetch - processPackages [nonebot-plugin-tetris-stats]: Downloading https://files.pythonhosted.org/packages/c4/7d/b4dc8c270c46d629e23a5b0aa209689d4bfce0475af04c6cae51d2ac257a/nonebot_plugin_tetris_stats-1.2.8.tar.gz
+[2024-05-16 12:08:29] INFO root fetch - processPackages [pyams-security]: Downloading https://files.pythonhosted.org/packages/b2/41/124db0be313676c8e56c0a6d6dbccc2aa983bdf2c20a4d9e249decc8f489/pyams_security-2.3.2.tar.gz
+[2024-05-16 12:08:29] INFO root fetch - processPackages [yeref]: Downloading https://files.pythonhosted.org/packages/ec/cb/204e6fbe233bbb61cf29c1b491e8c638c8a843edc47fb4e1d8cc8c26608c/yeref-0.9.8.tar.gz
+[2024-05-16 12:08:29] INFO root fetch - processPackages [pyams-security]: executing diffoscope
+[2024-05-16 12:08:29] INFO root fetch - processPackages [pyams-security]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyams_security-2.3.1.tar.gz tmp/pyams_security-2.3.2.tar.gz --markdown 20240516/p/pyams-security/2.3.1-2.3.2/README.md --exclude *.pyd
+[2024-05-16 12:08:29] INFO root fetch - processPackages [nonebot-plugin-tetris-stats]: Downloading https://files.pythonhosted.org/packages/28/4b/c734496b6584850e1b36e9877b4b84b19642081c90fe9c0a56a42eab4dbf/nonebot_plugin_tetris_stats-1.2.9.tar.gz
+[2024-05-16 12:08:29] INFO root fetch - processPackages [tina4-python]: Downloading https://files.pythonhosted.org/packages/24/2e/2593f1dbdfcf6fb7c1c21b890b7f8e264fcee760b48d5ceb7680112de137/tina4_python-0.1.9.tar.gz
+[2024-05-16 12:08:29] INFO root fetch - processPackages [yeref]: Downloading https://files.pythonhosted.org/packages/01/13/0f11bb3dfb27aaf16ed48b0046f50ac65b1fde32662fbc314d53e2558b2d/yeref-0.9.9.tar.gz
+[2024-05-16 12:08:29] INFO root fetch - processPackages [nonebot-plugin-tetris-stats]: executing diffoscope
+[2024-05-16 12:08:29] INFO root fetch - processPackages [nonebot-plugin-tetris-stats]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot_plugin_tetris_stats-1.2.8.tar.gz tmp/nonebot_plugin_tetris_stats-1.2.9.tar.gz --markdown 20240516/n/nonebot-plugin-tetris-stats/1.2.8-1.2.9/README.md --exclude *.pyd
+[2024-05-16 12:08:29] INFO root fetch - processPackages [kili-common-storage]: Downloading https://files.pythonhosted.org/packages/cc/7c/087008b1b4d5d95e9d5cac89646938ad5be0dc88f41b1bef1556d50caed1/kili_common_storage-0.0.9-py3-none-any.whl
+[2024-05-16 12:08:29] INFO root fetch - processPackages [yeref]: executing diffoscope
+[2024-05-16 12:08:29] INFO root fetch - processPackages [yeref]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yeref-0.9.8.tar.gz tmp/yeref-0.9.9.tar.gz --markdown 20240516/y/yeref/0.9.8-0.9.9/README.md --exclude *.pyd
+[2024-05-16 12:08:29] INFO root fetch - processPackages [tina4-python]: executing diffoscope
+[2024-05-16 12:08:29] INFO root fetch - processPackages [tina4-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tina4_python-0.1.8.tar.gz tmp/tina4_python-0.1.9.tar.gz --markdown 20240516/t/tina4-python/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-16 12:08:29] INFO root fetch - processPackages [kili-common-storage]: executing diffoscope
+[2024-05-16 12:08:29] INFO root fetch - processPackages [kili-common-storage]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kili_common_storage-0.0.8-py3-none-any.whl.zip tmp/kili_common_storage-0.0.9-py3-none-any.whl.zip --markdown 20240516/k/kili-common-storage/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-16 12:08:30] INFO root fetch - processPackages [pyams-security]: Remove: archive file [/home/abi/fetcher/tmp/pyams_security-2.3.1.tar.gz]
+[2024-05-16 12:08:30] INFO root fetch - processPackages [pyams-security]: Remove: archive file [/home/abi/fetcher/tmp/pyams_security-2.3.2.tar.gz]
+[2024-05-16 12:08:30] INFO root fetch - main [MainThread]: End processing [pyams-security]: success
+[2024-05-16 12:08:30] INFO root fetch - processPackages [nonebot-plugin-tetris-stats]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_tetris_stats-1.2.8.tar.gz]
+[2024-05-16 12:08:30] INFO root fetch - processPackages [nonebot-plugin-tetris-stats]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_tetris_stats-1.2.9.tar.gz]
+[2024-05-16 12:08:30] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-tetris-stats]: success
+[2024-05-16 12:08:30] INFO root fetch - processPackages [yeref]: Remove: archive file [/home/abi/fetcher/tmp/yeref-0.9.8.tar.gz]
+[2024-05-16 12:08:30] INFO root fetch - processPackages [yeref]: Remove: archive file [/home/abi/fetcher/tmp/yeref-0.9.9.tar.gz]
+[2024-05-16 12:08:30] INFO root fetch - main [MainThread]: End processing [yeref]: success
+[2024-05-16 12:08:30] INFO root fetch - processPackages [tina4-python]: Remove: archive file [/home/abi/fetcher/tmp/tina4_python-0.1.8.tar.gz]
+[2024-05-16 12:08:30] INFO root fetch - processPackages [tina4-python]: Remove: archive file [/home/abi/fetcher/tmp/tina4_python-0.1.9.tar.gz]
+[2024-05-16 12:08:30] INFO root fetch - main [MainThread]: End processing [tina4-python]: success
+[2024-05-16 12:08:30] INFO root fetch - processPackages [kili-common-storage]: Remove: archive file [/home/abi/fetcher/tmp/kili_common_storage-0.0.8-py3-none-any.whl.zip]
+[2024-05-16 12:08:30] INFO root fetch - processPackages [kili-common-storage]: Remove: archive file [/home/abi/fetcher/tmp/kili_common_storage-0.0.9-py3-none-any.whl.zip]
+[2024-05-16 12:08:30] INFO root fetch - main [MainThread]: End processing [kili-common-storage]: success
+[2024-05-16 12:08:30] INFO root fetch - main [MainThread]: Store serial: [23233648]
