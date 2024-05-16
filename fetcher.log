@@ -8972,3 +8972,15 @@ EOFError: EOF read where object expected
 [2024-05-16 03:39:56] INFO root fetch - processPackages [pyAgrum-nightly]: Remove: archive file [/home/abi/fetcher/tmp/pyAgrum_nightly-1.9.0.9.dev202310191697564854-cp39-cp39-win_amd64.whl.zip]
 [2024-05-16 03:39:56] INFO root fetch - main [MainThread]: End processing [pyAgrum-nightly]: success
 [2024-05-16 03:39:56] INFO root fetch - main [MainThread]: Store serial: [23228475]
+[2024-05-16 03:42:00] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23228475]
+[2024-05-16 03:42:05] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-05-16 03:42:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: jsepp
+[2024-05-16 03:42:05] INFO root fetch - processPackages [jsepp]: New version: [0.1.8] Old Version: [0.1.7]
+[2024-05-16 03:42:05] INFO root fetch - processPackages [jsepp]: Downloading https://files.pythonhosted.org/packages/de/79/446b695c3cea3f61ab4bf2e85b37e0c062c8c42d944450c4b2aa7ff8da1a/jsepp-0.1.7.tar.gz
+[2024-05-16 03:42:05] INFO root fetch - processPackages [jsepp]: Downloading https://files.pythonhosted.org/packages/3c/8f/47ce03bada88a4fe5733cb0239a612bd4867dd8433c1a81cea0eb7007f6c/jsepp-0.1.8.tar.gz
+[2024-05-16 03:42:06] INFO root fetch - processPackages [jsepp]: executing diffoscope
+[2024-05-16 03:42:06] INFO root fetch - processPackages [jsepp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jsepp-0.1.7.tar.gz tmp/jsepp-0.1.8.tar.gz --markdown 20240516/j/jsepp/0.1.7-0.1.8/README.md --exclude *.pyd
+[2024-05-16 03:42:06] INFO root fetch - processPackages [jsepp]: Remove: archive file [/home/abi/fetcher/tmp/jsepp-0.1.7.tar.gz]
+[2024-05-16 03:42:06] INFO root fetch - processPackages [jsepp]: Remove: archive file [/home/abi/fetcher/tmp/jsepp-0.1.8.tar.gz]
+[2024-05-16 03:42:06] INFO root fetch - main [MainThread]: End processing [jsepp]: success
+[2024-05-16 03:42:06] INFO root fetch - main [MainThread]: Store serial: [23228478]
