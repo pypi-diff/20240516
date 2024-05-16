@@ -12265,3 +12265,42 @@ EOFError: EOF read where object expected
 [2024-05-16 07:44:42] INFO root fetch - processPackages [espresso-machine]: Remove: archive file [/home/abi/fetcher/tmp/espresso_machine-0.0.116.tar.gz]
 [2024-05-16 07:44:42] INFO root fetch - main [MainThread]: End processing [espresso-machine]: success
 [2024-05-16 07:44:42] INFO root fetch - main [MainThread]: Store serial: [23229846]
+[2024-05-16 07:46:46] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23229846]
+[2024-05-16 07:46:51] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-16 07:46:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: TsingPig-Lab
+[2024-05-16 07:46:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: openbharatocr
+[2024-05-16 07:46:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: htt
+[2024-05-16 07:46:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pms-encoder
+[2024-05-16 07:46:51] INFO root fetch - processPackages [pms-encoder]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-16 07:46:51] INFO root fetch - processPackages [openbharatocr]: New version: [0.2.2] Old Version: [0.2.1]
+[2024-05-16 07:46:51] INFO root fetch - processPackages [TsingPig-Lab]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-05-16 07:46:51] INFO root fetch - processPackages [pms-encoder]: Downloading https://files.pythonhosted.org/packages/80/f1/88f2f54188c15bf6cca5ba7a3a347b8d1c83b15a626f541acf3dde5aa63d/pms_encoder-0.0.8.tar.gz
+[2024-05-16 07:46:51] INFO root fetch - processPackages [TsingPig-Lab]: Downloading https://files.pythonhosted.org/packages/72/23/66321bdc3e0e247e4199809fe7eee38dbaa2b411871fd3a90bbf27e00b67/TsingPig_Lab-0.0.1.tar.gz
+[2024-05-16 07:46:51] INFO root fetch - processPackages [htt]: New version: [0.9] Old Version: [0.8]
+[2024-05-16 07:46:51] INFO root fetch - processPackages [openbharatocr]: Downloading https://files.pythonhosted.org/packages/4a/80/1e32130f3b6a5fb6fb308696444ed6f161cbb667395b3d2454275926f7e4/openbharatocr-0.2.1.tar.gz
+[2024-05-16 07:46:51] INFO root fetch - processPackages [TsingPig-Lab]: Downloading https://files.pythonhosted.org/packages/5d/cd/6df8fafda47c5857e34e2477feab8b78de8fb36982a15f2cdcb536bf724c/TsingPig_Lab-0.0.2.tar.gz
+[2024-05-16 07:46:51] INFO root fetch - processPackages [pms-encoder]: Downloading https://files.pythonhosted.org/packages/93/31/8bb081756db42925fab6507b6e0f497d6bf45acd407ff38cb00f2aaec54c/pms_encoder-0.0.9.tar.gz
+[2024-05-16 07:46:51] INFO root fetch - processPackages [htt]: Downloading https://files.pythonhosted.org/packages/44/9f/4e24bd8cc850dd610afb0047bea11fbc8885507fe8ecf1f06b0486d45c93/htt-0.8.tar.gz
+[2024-05-16 07:46:51] INFO root fetch - processPackages [TsingPig-Lab]: executing diffoscope
+[2024-05-16 07:46:51] INFO root fetch - processPackages [TsingPig-Lab]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/TsingPig_Lab-0.0.1.tar.gz tmp/TsingPig_Lab-0.0.2.tar.gz --markdown 20240516/T/TsingPig-Lab/0.0.1-0.0.2/README.md --exclude *.pyd
+[2024-05-16 07:46:51] INFO root fetch - processPackages [pms-encoder]: executing diffoscope
+[2024-05-16 07:46:51] INFO root fetch - processPackages [pms-encoder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pms_encoder-0.0.8.tar.gz tmp/pms_encoder-0.0.9.tar.gz --markdown 20240516/p/pms-encoder/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-16 07:46:51] INFO root fetch - processPackages [htt]: Downloading https://files.pythonhosted.org/packages/87/6a/ca73587d0d0b4fffad8f8daad555cb2903ae583af0db8bd1e235267f8122/htt-0.9.tar.gz
+[2024-05-16 07:46:52] INFO root fetch - processPackages [htt]: executing diffoscope
+[2024-05-16 07:46:52] INFO root fetch - processPackages [htt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/htt-0.8.tar.gz tmp/htt-0.9.tar.gz --markdown 20240516/h/htt/0.8-0.9/README.md --exclude *.pyd
+[2024-05-16 07:46:52] INFO root fetch - processPackages [TsingPig-Lab]: Remove: archive file [/home/abi/fetcher/tmp/TsingPig_Lab-0.0.1.tar.gz]
+[2024-05-16 07:46:52] INFO root fetch - processPackages [TsingPig-Lab]: Remove: archive file [/home/abi/fetcher/tmp/TsingPig_Lab-0.0.2.tar.gz]
+[2024-05-16 07:46:52] INFO root fetch - main [MainThread]: End processing [TsingPig-Lab]: success
+[2024-05-16 07:46:52] INFO root fetch - processPackages [openbharatocr]: Downloading https://files.pythonhosted.org/packages/b7/91/bbb3887801ded5a8580abb09705fa82f47bca873c3f02eeb2e909d54ff4d/openbharatocr-0.2.2.tar.gz
+[2024-05-16 07:46:52] INFO root fetch - processPackages [pms-encoder]: Remove: archive file [/home/abi/fetcher/tmp/pms_encoder-0.0.8.tar.gz]
+[2024-05-16 07:46:52] INFO root fetch - processPackages [pms-encoder]: Remove: archive file [/home/abi/fetcher/tmp/pms_encoder-0.0.9.tar.gz]
+[2024-05-16 07:46:52] INFO root fetch - main [MainThread]: End processing [pms-encoder]: success
+[2024-05-16 07:46:52] INFO root fetch - processPackages [openbharatocr]: executing diffoscope
+[2024-05-16 07:46:52] INFO root fetch - processPackages [openbharatocr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openbharatocr-0.2.1.tar.gz tmp/openbharatocr-0.2.2.tar.gz --markdown 20240516/o/openbharatocr/0.2.1-0.2.2/README.md --exclude *.pyd
+[2024-05-16 07:46:52] INFO root fetch - processPackages [htt]: Remove: archive file [/home/abi/fetcher/tmp/htt-0.8.tar.gz]
+[2024-05-16 07:46:52] INFO root fetch - processPackages [htt]: Remove: archive file [/home/abi/fetcher/tmp/htt-0.9.tar.gz]
+[2024-05-16 07:46:52] INFO root fetch - main [MainThread]: End processing [htt]: success
+[2024-05-16 07:46:53] INFO root fetch - processPackages [openbharatocr]: Remove: archive file [/home/abi/fetcher/tmp/openbharatocr-0.2.1.tar.gz]
+[2024-05-16 07:46:53] INFO root fetch - processPackages [openbharatocr]: Remove: archive file [/home/abi/fetcher/tmp/openbharatocr-0.2.2.tar.gz]
+[2024-05-16 07:46:53] INFO root fetch - main [MainThread]: End processing [openbharatocr]: success
+[2024-05-16 07:46:53] INFO root fetch - main [MainThread]: Store serial: [23229874]
