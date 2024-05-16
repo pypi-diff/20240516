@@ -1,0 +1,721 @@
+# Comparing `tmp/huaweicloudsdkges-3.1.95-py2.py3-none-any.whl.zip` & `tmp/huaweicloudsdkges-3.1.96-py2.py3-none-any.whl.zip`
+
+## zipinfo {}
+
+```diff
+@@ -1,220 +1,220 @@
+-Zip file size: 340572 bytes, number of entries: 218
+--rw-r--r--  2.0 unx        0 b- defN 24-May-09 08:29 huaweicloudsdkges/__init__.py
+--rw-r--r--  2.0 unx     6880 b- defN 24-May-09 08:29 huaweicloudsdkges/v1/__init__.py
+--rw-r--r--  2.0 unx    62507 b- defN 24-May-09 08:29 huaweicloudsdkges/v1/ges_async_client.py
+--rw-r--r--  2.0 unx    62456 b- defN 24-May-09 08:29 huaweicloudsdkges/v1/ges_client.py
+--rw-r--r--  2.0 unx     6794 b- defN 24-May-09 08:29 huaweicloudsdkges/v1/model/__init__.py
+--rw-r--r--  2.0 unx     4478 b- defN 24-May-09 08:29 huaweicloudsdkges/v1/model/attach_eip_request.py
+--rw-r--r--  2.0 unx     4629 b- defN 24-May-09 08:29 huaweicloudsdkges/v1/model/attach_eip_response.py
+--rw-r--r--  2.0 unx    15315 b- defN 24-May-09 08:29 huaweicloudsdkges/v1/model/backup.py
+--rw-r--r--  2.0 unx     2959 b- defN 24-May-09 08:29 huaweicloudsdkges/v1/model/bind_eip_req.py
+--rw-r--r--  2.0 unx     4754 b- defN 24-May-09 08:29 huaweicloudsdkges/v1/model/clear_graph_request.py
+--rw-r--r--  2.0 unx     5604 b- defN 24-May-09 08:29 huaweicloudsdkges/v1/model/clear_graph_response.py
+--rw-r--r--  2.0 unx     3025 b- defN 24-May-09 08:29 huaweicloudsdkges/v1/model/create_backup_request.py
+--rw-r--r--  2.0 unx     5600 b- defN 24-May-09 08:29 huaweicloudsdkges/v1/model/create_backup_response.py
+--rw-r--r--  2.0 unx     2978 b- defN 24-May-09 08:29 huaweicloudsdkges/v1/model/create_graph_req.py
+--rw-r--r--  2.0 unx     3083 b- defN 24-May-09 08:29 huaweicloudsdkges/v1/model/create_graph_request.py
+--rw-r--r--  2.0 unx     5929 b- defN 24-May-09 08:29 huaweicloudsdkges/v1/model/create_graph_response.py
+--rw-r--r--  2.0 unx     6579 b- defN 24-May-09 08:29 huaweicloudsdkges/v1/model/create_metadata_req.py
+--rw-r--r--  2.0 unx     3119 b- defN 24-May-09 08:29 huaweicloudsdkges/v1/model/create_metadata_request.py
+--rw-r--r--  2.0 unx     6025 b- defN 24-May-09 08:29 huaweicloudsdkges/v1/model/create_metadata_response.py
+--rw-r--r--  2.0 unx     3819 b- defN 24-May-09 08:29 huaweicloudsdkges/v1/model/data_source.py
+--rw-r--r--  2.0 unx     3775 b- defN 24-May-09 08:29 huaweicloudsdkges/v1/model/delete_backup_request.py
+--rw-r--r--  2.0 unx     4665 b- defN 24-May-09 08:29 huaweicloudsdkges/v1/model/delete_backup_response.py
+--rw-r--r--  2.0 unx     4193 b- defN 24-May-09 08:29 huaweicloudsdkges/v1/model/delete_graph_request.py
+--rw-r--r--  2.0 unx     5674 b- defN 24-May-09 08:29 huaweicloudsdkges/v1/model/delete_graph_response.py
+--rw-r--r--  2.0 unx     3123 b- defN 24-May-09 08:29 huaweicloudsdkges/v1/model/delete_metadata_request.py
+--rw-r--r--  2.0 unx     4689 b- defN 24-May-09 08:29 huaweicloudsdkges/v1/model/delete_metadata_response.py
+--rw-r--r--  2.0 unx     4486 b- defN 24-May-09 08:29 huaweicloudsdkges/v1/model/detach_eip_request.py
+--rw-r--r--  2.0 unx     4629 b- defN 24-May-09 08:29 huaweicloudsdkges/v1/model/detach_eip_response.py
+--rw-r--r--  2.0 unx     8271 b- defN 24-May-09 08:29 huaweicloudsdkges/v1/model/edgeset_path.py
+--rw-r--r--  2.0 unx     4670 b- defN 24-May-09 08:29 huaweicloudsdkges/v1/model/edgeset_path1.py
+--rw-r--r--  2.0 unx     4294 b- defN 24-May-09 08:29 huaweicloudsdkges/v1/model/encryption_req.py
+--rw-r--r--  2.0 unx     3036 b- defN 24-May-09 08:29 huaweicloudsdkges/v1/model/expand_graph_req.py
+--rw-r--r--  2.0 unx     3789 b- defN 24-May-09 08:29 huaweicloudsdkges/v1/model/expand_graph_request.py
+--rw-r--r--  2.0 unx     5674 b- defN 24-May-09 08:29 huaweicloudsdkges/v1/model/expand_graph_response.py
+--rw-r--r--  2.0 unx     5764 b- defN 24-May-09 08:29 huaweicloudsdkges/v1/model/export_graph_req.py
+--rw-r--r--  2.0 unx     4526 b- defN 24-May-09 08:29 huaweicloudsdkges/v1/model/export_graph_request.py
+--rw-r--r--  2.0 unx     5620 b- defN 24-May-09 08:29 huaweicloudsdkges/v1/model/export_graph_response.py
+--rw-r--r--  2.0 unx     3101 b- defN 24-May-09 08:29 huaweicloudsdkges/v1/model/ges_meta_data.py
+--rw-r--r--  2.0 unx     3206 b- defN 24-May-09 08:29 huaweicloudsdkges/v1/model/ges_quota_resp.py
+--rw-r--r--  2.0 unx    17427 b- defN 24-May-09 08:29 huaweicloudsdkges/v1/model/graph.py
+--rw-r--r--  2.0 unx    36629 b- defN 24-May-09 08:29 huaweicloudsdkges/v1/model/graph1.py
+--rw-r--r--  2.0 unx     3758 b- defN 24-May-09 08:29 huaweicloudsdkges/v1/model/graph_size_type_index_req.py
+--rw-r--r--  2.0 unx    15670 b- defN 24-May-09 08:29 huaweicloudsdkges/v1/model/import_graph_req.py
+--rw-r--r--  2.0 unx     4526 b- defN 24-May-09 08:29 huaweicloudsdkges/v1/model/import_graph_request.py
+--rw-r--r--  2.0 unx     5620 b- defN 24-May-09 08:29 huaweicloudsdkges/v1/model/import_graph_response.py
+--rw-r--r--  2.0 unx    10081 b- defN 24-May-09 08:29 huaweicloudsdkges/v1/model/job.py
+--rw-r--r--  2.0 unx     5252 b- defN 24-May-09 08:29 huaweicloudsdkges/v1/model/job_detail.py
+--rw-r--r--  2.0 unx     3642 b- defN 24-May-09 08:29 huaweicloudsdkges/v1/model/label.py
+--rw-r--r--  2.0 unx     3905 b- defN 24-May-09 08:29 huaweicloudsdkges/v1/model/list_backups_request.py
+--rw-r--r--  2.0 unx     6783 b- defN 24-May-09 08:29 huaweicloudsdkges/v1/model/list_backups_response.py
+--rw-r--r--  2.0 unx     4686 b- defN 24-May-09 08:29 huaweicloudsdkges/v1/model/list_graph_backups_request.py
+--rw-r--r--  2.0 unx     6880 b- defN 24-May-09 08:29 huaweicloudsdkges/v1/model/list_graph_backups_response.py
+--rw-r--r--  2.0 unx     3151 b- defN 24-May-09 08:29 huaweicloudsdkges/v1/model/list_graph_metadatas_request.py
+--rw-r--r--  2.0 unx     5681 b- defN 24-May-09 08:29 huaweicloudsdkges/v1/model/list_graph_metadatas_response.py
+--rw-r--r--  2.0 unx     3894 b- defN 24-May-09 08:29 huaweicloudsdkges/v1/model/list_graphs_request.py
+--rw-r--r--  2.0 unx     6452 b- defN 24-May-09 08:29 huaweicloudsdkges/v1/model/list_graphs_response.py
+--rw-r--r--  2.0 unx     7641 b- defN 24-May-09 08:29 huaweicloudsdkges/v1/model/list_jobs_request.py
+--rw-r--r--  2.0 unx     6246 b- defN 24-May-09 08:29 huaweicloudsdkges/v1/model/list_jobs_response.py
+--rw-r--r--  2.0 unx     3927 b- defN 24-May-09 08:29 huaweicloudsdkges/v1/model/list_metadatas_request.py
+--rw-r--r--  2.0 unx     6837 b- defN 24-May-09 08:29 huaweicloudsdkges/v1/model/list_metadatas_response.py
+--rw-r--r--  2.0 unx     2309 b- defN 24-May-09 08:29 huaweicloudsdkges/v1/model/list_quotas_request.py
+--rw-r--r--  2.0 unx     5420 b- defN 24-May-09 08:29 huaweicloudsdkges/v1/model/list_quotas_response.py
+--rw-r--r--  2.0 unx     4335 b- defN 24-May-09 08:29 huaweicloudsdkges/v1/model/lts_operation_trace_req.py
+--rw-r--r--  2.0 unx     7721 b- defN 24-May-09 08:29 huaweicloudsdkges/v1/model/metadata.py
+--rw-r--r--  2.0 unx     5149 b- defN 24-May-09 08:29 huaweicloudsdkges/v1/model/parallel_edge.py
+--rw-r--r--  2.0 unx    11240 b- defN 24-May-09 08:29 huaweicloudsdkges/v1/model/parameters.py
+--rw-r--r--  2.0 unx     4639 b- defN 24-May-09 08:29 huaweicloudsdkges/v1/model/public_ip.py
+--rw-r--r--  2.0 unx     4646 b- defN 24-May-09 08:29 huaweicloudsdkges/v1/model/quota.py
+--rw-r--r--  2.0 unx     3095 b- defN 24-May-09 08:29 huaweicloudsdkges/v1/model/replication_req.py
+--rw-r--r--  2.0 unx     3064 b- defN 24-May-09 08:29 huaweicloudsdkges/v1/model/resize_graph_req.py
+--rw-r--r--  2.0 unx     3789 b- defN 24-May-09 08:29 huaweicloudsdkges/v1/model/resize_graph_request.py
+--rw-r--r--  2.0 unx     5674 b- defN 24-May-09 08:29 huaweicloudsdkges/v1/model/resize_graph_response.py
+--rw-r--r--  2.0 unx     3766 b- defN 24-May-09 08:29 huaweicloudsdkges/v1/model/restart_graph_request.py
+--rw-r--r--  2.0 unx     5699 b- defN 24-May-09 08:29 huaweicloudsdkges/v1/model/restart_graph_response.py
+--rw-r--r--  2.0 unx     5153 b- defN 24-May-09 08:29 huaweicloudsdkges/v1/model/schema_path.py
+--rw-r--r--  2.0 unx     4652 b- defN 24-May-09 08:29 huaweicloudsdkges/v1/model/schema_path1.py
+--rw-r--r--  2.0 unx     3004 b- defN 24-May-09 08:29 huaweicloudsdkges/v1/model/show_graph_request.py
+--rw-r--r--  2.0 unx     5357 b- defN 24-May-09 08:29 huaweicloudsdkges/v1/model/show_graph_response.py
+--rw-r--r--  2.0 unx     3639 b- defN 24-May-09 08:29 huaweicloudsdkges/v1/model/show_job_request.py
+--rw-r--r--  2.0 unx    13085 b- defN 24-May-09 08:29 huaweicloudsdkges/v1/model/show_job_response.py
+--rw-r--r--  2.0 unx     3586 b- defN 24-May-09 08:29 huaweicloudsdkges/v1/model/start_graph_req.py
+--rw-r--r--  2.0 unx     4506 b- defN 24-May-09 08:29 huaweicloudsdkges/v1/model/start_graph_request.py
+--rw-r--r--  2.0 unx     5658 b- defN 24-May-09 08:29 huaweicloudsdkges/v1/model/start_graph_response.py
+--rw-r--r--  2.0 unx     3733 b- defN 24-May-09 08:29 huaweicloudsdkges/v1/model/stop_graph_request.py
+--rw-r--r--  2.0 unx     5624 b- defN 24-May-09 08:29 huaweicloudsdkges/v1/model/stop_graph_response.py
+--rw-r--r--  2.0 unx     3787 b- defN 24-May-09 08:29 huaweicloudsdkges/v1/model/sys_tags_res.py
+--rw-r--r--  2.0 unx     2973 b- defN 24-May-09 08:29 huaweicloudsdkges/v1/model/unbind_eip_req.py
+--rw-r--r--  2.0 unx     4965 b- defN 24-May-09 08:29 huaweicloudsdkges/v1/model/upgrade_graph_req.py
+--rw-r--r--  2.0 unx     4546 b- defN 24-May-09 08:29 huaweicloudsdkges/v1/model/upgrade_graph_request.py
+--rw-r--r--  2.0 unx     5636 b- defN 24-May-09 08:29 huaweicloudsdkges/v1/model/upgrade_graph_response.py
+--rw-r--r--  2.0 unx     5529 b- defN 24-May-09 08:29 huaweicloudsdkges/v1/model/upload_from_obs_req.py
+--rw-r--r--  2.0 unx     3107 b- defN 24-May-09 08:29 huaweicloudsdkges/v1/model/upload_from_obs_request.py
+--rw-r--r--  2.0 unx     6023 b- defN 24-May-09 08:29 huaweicloudsdkges/v1/model/upload_from_obs_response.py
+--rw-r--r--  2.0 unx     8333 b- defN 24-May-09 08:29 huaweicloudsdkges/v1/model/vertexset_path.py
+--rw-r--r--  2.0 unx     4700 b- defN 24-May-09 08:29 huaweicloudsdkges/v1/model/vertexset_path1.py
+--rw-r--r--  2.0 unx        0 b- defN 24-May-09 08:29 huaweicloudsdkges/v1/region/__init__.py
+--rw-r--r--  2.0 unx     1980 b- defN 24-May-09 08:29 huaweicloudsdkges/v1/region/ges_region.py
+--rw-r--r--  2.0 unx     9490 b- defN 24-May-09 08:29 huaweicloudsdkges/v2/__init__.py
+--rw-r--r--  2.0 unx    73175 b- defN 24-May-09 08:29 huaweicloudsdkges/v2/ges_async_client.py
+--rw-r--r--  2.0 unx    73134 b- defN 24-May-09 08:29 huaweicloudsdkges/v2/ges_client.py
+--rw-r--r--  2.0 unx     9404 b- defN 24-May-09 08:29 huaweicloudsdkges/v2/model/__init__.py
+--rw-r--r--  2.0 unx     3769 b- defN 24-May-09 08:29 huaweicloudsdkges/v2/model/attach_eip2_request.py
+--rw-r--r--  2.0 unx     3074 b- defN 24-May-09 08:29 huaweicloudsdkges/v2/model/attach_eip2_response.py
+--rw-r--r--  2.0 unx     2974 b- defN 24-May-09 08:29 huaweicloudsdkges/v2/model/attach_eip_req.py
+--rw-r--r--  2.0 unx     4032 b- defN 24-May-09 08:29 huaweicloudsdkges/v2/model/clear_graph2_request.py
+--rw-r--r--  2.0 unx     3200 b- defN 24-May-09 08:29 huaweicloudsdkges/v2/model/clear_graph2_response.py
+--rw-r--r--  2.0 unx     3032 b- defN 24-May-09 08:29 huaweicloudsdkges/v2/model/create_backup2_request.py
+--rw-r--r--  2.0 unx     3180 b- defN 24-May-09 08:29 huaweicloudsdkges/v2/model/create_backup2_response.py
+--rw-r--r--  2.0 unx     3091 b- defN 24-May-09 08:29 huaweicloudsdkges/v2/model/create_graph2_request.py
+--rw-r--r--  2.0 unx     3715 b- defN 24-May-09 08:29 huaweicloudsdkges/v2/model/create_graph2_response.py
+--rw-r--r--  2.0 unx     3034 b- defN 24-May-09 08:29 huaweicloudsdkges/v2/model/create_graph_req.py
+--rw-r--r--  2.0 unx    27355 b- defN 24-May-09 08:29 huaweicloudsdkges/v2/model/create_graph_req_graph.py
+--rw-r--r--  2.0 unx     4472 b- defN 24-May-09 08:29 huaweicloudsdkges/v2/model/create_graph_req_graph_encryption.py
+--rw-r--r--  2.0 unx     4515 b- defN 24-May-09 08:29 huaweicloudsdkges/v2/model/create_graph_req_graph_lts_operation_trace.py
+--rw-r--r--  2.0 unx     4854 b- defN 24-May-09 08:29 huaweicloudsdkges/v2/model/create_graph_req_graph_public_ip.py
+--rw-r--r--  2.0 unx     3963 b- defN 24-May-09 08:29 huaweicloudsdkges/v2/model/create_graph_req_graph_sys_tags.py
+--rw-r--r--  2.0 unx     5804 b- defN 24-May-09 08:29 huaweicloudsdkges/v2/model/create_graph_req_graph_vertex_id_type.py
+--rw-r--r--  2.0 unx     3127 b- defN 24-May-09 08:29 huaweicloudsdkges/v2/model/create_metadata2_request.py
+--rw-r--r--  2.0 unx     3787 b- defN 24-May-09 08:29 huaweicloudsdkges/v2/model/create_metadata2_response.py
+--rw-r--r--  2.0 unx     6617 b- defN 24-May-09 08:29 huaweicloudsdkges/v2/model/create_metadata_req.py
+--rw-r--r--  2.0 unx     3291 b- defN 24-May-09 08:29 huaweicloudsdkges/v2/model/create_metadata_req_ges_metadata.py
+--rw-r--r--  2.0 unx     4023 b- defN 24-May-09 08:29 huaweicloudsdkges/v2/model/create_metadata_req_ges_metadata_labels.py
+--rw-r--r--  2.0 unx     3786 b- defN 24-May-09 08:29 huaweicloudsdkges/v2/model/delete_backup2_request.py
+--rw-r--r--  2.0 unx     3098 b- defN 24-May-09 08:29 huaweicloudsdkges/v2/model/delete_backup2_response.py
+--rw-r--r--  2.0 unx     5050 b- defN 24-May-09 08:29 huaweicloudsdkges/v2/model/delete_graph2_request.py
+--rw-r--r--  2.0 unx     3262 b- defN 24-May-09 08:29 huaweicloudsdkges/v2/model/delete_graph2_response.py
+--rw-r--r--  2.0 unx     3130 b- defN 24-May-09 08:29 huaweicloudsdkges/v2/model/delete_metadata2_request.py
+--rw-r--r--  2.0 unx     3114 b- defN 24-May-09 08:29 huaweicloudsdkges/v2/model/delete_metadata2_response.py
+--rw-r--r--  2.0 unx     3881 b- defN 24-May-09 08:29 huaweicloudsdkges/v2/model/deregister_scenes2_request.py
+--rw-r--r--  2.0 unx     4187 b- defN 24-May-09 08:29 huaweicloudsdkges/v2/model/deregister_scenes2_response.py
+--rw-r--r--  2.0 unx     3311 b- defN 24-May-09 08:29 huaweicloudsdkges/v2/model/deregister_scenes_req.py
+--rw-r--r--  2.0 unx     4073 b- defN 24-May-09 08:29 huaweicloudsdkges/v2/model/deregister_scenes_req_scenes.py
+--rw-r--r--  2.0 unx     3769 b- defN 24-May-09 08:29 huaweicloudsdkges/v2/model/detach_eip2_request.py
+--rw-r--r--  2.0 unx     3074 b- defN 24-May-09 08:29 huaweicloudsdkges/v2/model/detach_eip2_response.py
+--rw-r--r--  2.0 unx     2974 b- defN 24-May-09 08:29 huaweicloudsdkges/v2/model/detach_eip_req.py
+--rw-r--r--  2.0 unx     3801 b- defN 24-May-09 08:29 huaweicloudsdkges/v2/model/expand_graph2_request.py
+--rw-r--r--  2.0 unx     3262 b- defN 24-May-09 08:29 huaweicloudsdkges/v2/model/expand_graph2_response.py
+--rw-r--r--  2.0 unx     3060 b- defN 24-May-09 08:29 huaweicloudsdkges/v2/model/expand_graph_req.py
+--rw-r--r--  2.0 unx     3137 b- defN 24-May-09 08:29 huaweicloudsdkges/v2/model/expand_graph_req_expand.py
+--rw-r--r--  2.0 unx     3817 b- defN 24-May-09 08:29 huaweicloudsdkges/v2/model/export_backup2_request.py
+--rw-r--r--  2.0 unx     3100 b- defN 24-May-09 08:29 huaweicloudsdkges/v2/model/export_backup2_response.py
+--rw-r--r--  2.0 unx     3791 b- defN 24-May-09 08:29 huaweicloudsdkges/v2/model/export_backup_req.py
+--rw-r--r--  2.0 unx     3801 b- defN 24-May-09 08:29 huaweicloudsdkges/v2/model/export_graph2_request.py
+--rw-r--r--  2.0 unx     3208 b- defN 24-May-09 08:29 huaweicloudsdkges/v2/model/export_graph2_response.py
+--rw-r--r--  2.0 unx     6620 b- defN 24-May-09 08:29 huaweicloudsdkges/v2/model/export_graph_req.py
+--rw-r--r--  2.0 unx     5366 b- defN 24-May-09 08:29 huaweicloudsdkges/v2/model/export_graph_req_paginate.py
+--rw-r--r--  2.0 unx     3817 b- defN 24-May-09 08:29 huaweicloudsdkges/v2/model/import_backup2_request.py
+--rw-r--r--  2.0 unx     3100 b- defN 24-May-09 08:29 huaweicloudsdkges/v2/model/import_backup2_response.py
+--rw-r--r--  2.0 unx     3093 b- defN 24-May-09 08:29 huaweicloudsdkges/v2/model/import_backup_req.py
+--rw-r--r--  2.0 unx     3801 b- defN 24-May-09 08:29 huaweicloudsdkges/v2/model/import_graph2_request.py
+--rw-r--r--  2.0 unx     3208 b- defN 24-May-09 08:29 huaweicloudsdkges/v2/model/import_graph2_response.py
+--rw-r--r--  2.0 unx    12915 b- defN 24-May-09 08:29 huaweicloudsdkges/v2/model/import_graph_req.py
+--rw-r--r--  2.0 unx     5676 b- defN 24-May-09 08:29 huaweicloudsdkges/v2/model/import_graph_req_parallel_edge.py
+--rw-r--r--  2.0 unx     3916 b- defN 24-May-09 08:29 huaweicloudsdkges/v2/model/list_backups2_request.py
+--rw-r--r--  2.0 unx     4647 b- defN 24-May-09 08:29 huaweicloudsdkges/v2/model/list_backups2_response.py
+--rw-r--r--  2.0 unx    17333 b- defN 24-May-09 08:29 huaweicloudsdkges/v2/model/list_backups_resp_backup_list.py
+--rw-r--r--  2.0 unx     4701 b- defN 24-May-09 08:29 huaweicloudsdkges/v2/model/list_graph_backups2_request.py
+--rw-r--r--  2.0 unx     4707 b- defN 24-May-09 08:29 huaweicloudsdkges/v2/model/list_graph_backups2_response.py
+--rw-r--r--  2.0 unx     3905 b- defN 24-May-09 08:29 huaweicloudsdkges/v2/model/list_graphs2_request.py
+--rw-r--r--  2.0 unx     4303 b- defN 24-May-09 08:29 huaweicloudsdkges/v2/model/list_graphs2_response.py
+--rw-r--r--  2.0 unx    47078 b- defN 24-May-09 08:29 huaweicloudsdkges/v2/model/list_graphs_resp_graphs.py
+--rw-r--r--  2.0 unx     4954 b- defN 24-May-09 08:29 huaweicloudsdkges/v2/model/list_graphs_resp_schema_path.py
+--rw-r--r--  2.0 unx     3626 b- defN 24-May-09 08:29 huaweicloudsdkges/v2/model/list_graphs_resp_tags.py
+--rw-r--r--  2.0 unx     5800 b- defN 24-May-09 08:29 huaweicloudsdkges/v2/model/list_graphs_resp_vertex_id_type.py
+--rw-r--r--  2.0 unx     7679 b- defN 24-May-09 08:29 huaweicloudsdkges/v2/model/list_jobs2_request.py
+--rw-r--r--  2.0 unx     4140 b- defN 24-May-09 08:29 huaweicloudsdkges/v2/model/list_jobs2_response.py
+--rw-r--r--  2.0 unx    11035 b- defN 24-May-09 08:29 huaweicloudsdkges/v2/model/list_jobs_resp_job_list.py
+--rw-r--r--  2.0 unx     3938 b- defN 24-May-09 08:29 huaweicloudsdkges/v2/model/list_metadatas2_request.py
+--rw-r--r--  2.0 unx     4685 b- defN 24-May-09 08:29 huaweicloudsdkges/v2/model/list_metadatas2_response.py
+--rw-r--r--  2.0 unx    10897 b- defN 24-May-09 08:29 huaweicloudsdkges/v2/model/list_metadatas_resp_schema_list.py
+--rw-r--r--  2.0 unx     2312 b- defN 24-May-09 08:29 huaweicloudsdkges/v2/model/list_quotas2_request.py
+--rw-r--r--  2.0 unx     3242 b- defN 24-May-09 08:29 huaweicloudsdkges/v2/model/list_quotas2_response.py
+--rw-r--r--  2.0 unx     3358 b- defN 24-May-09 08:29 huaweicloudsdkges/v2/model/list_quotas_resp_quotas.py
+--rw-r--r--  2.0 unx     5081 b- defN 24-May-09 08:29 huaweicloudsdkges/v2/model/list_quotas_resp_quotas_resources.py
+--rw-r--r--  2.0 unx     6820 b- defN 24-May-09 08:29 huaweicloudsdkges/v2/model/list_scenes2_request.py
+--rw-r--r--  2.0 unx     3409 b- defN 24-May-09 08:29 huaweicloudsdkges/v2/model/list_scenes2_response.py
+--rw-r--r--  2.0 unx     5018 b- defN 24-May-09 08:29 huaweicloudsdkges/v2/model/list_scenes_resp_params.py
+--rw-r--r--  2.0 unx     5511 b- defN 24-May-09 08:29 huaweicloudsdkges/v2/model/list_scenes_resp_results.py
+--rw-r--r--  2.0 unx     3849 b- defN 24-May-09 08:29 huaweicloudsdkges/v2/model/register_scenes2_request.py
+--rw-r--r--  2.0 unx     3199 b- defN 24-May-09 08:29 huaweicloudsdkges/v2/model/register_scenes2_response.py
+--rw-r--r--  2.0 unx     3253 b- defN 24-May-09 08:29 huaweicloudsdkges/v2/model/register_scenes_req.py
+--rw-r--r--  2.0 unx     4039 b- defN 24-May-09 08:29 huaweicloudsdkges/v2/model/register_scenes_req_scenes.py
+--rw-r--r--  2.0 unx     3801 b- defN 24-May-09 08:29 huaweicloudsdkges/v2/model/resize_graph2_request.py
+--rw-r--r--  2.0 unx     3262 b- defN 24-May-09 08:29 huaweicloudsdkges/v2/model/resize_graph2_response.py
+--rw-r--r--  2.0 unx     3060 b- defN 24-May-09 08:29 huaweicloudsdkges/v2/model/resize_graph_req.py
+--rw-r--r--  2.0 unx     3763 b- defN 24-May-09 08:29 huaweicloudsdkges/v2/model/resize_graph_req_resize.py
+--rw-r--r--  2.0 unx     3032 b- defN 24-May-09 08:29 huaweicloudsdkges/v2/model/restart_graph2_request.py
+--rw-r--r--  2.0 unx     3279 b- defN 24-May-09 08:29 huaweicloudsdkges/v2/model/restart_graph2_response.py
+--rw-r--r--  2.0 unx     3011 b- defN 24-May-09 08:29 huaweicloudsdkges/v2/model/show_graph2_request.py
+--rw-r--r--  2.0 unx     3203 b- defN 24-May-09 08:29 huaweicloudsdkges/v2/model/show_graph2_response.py
+--rw-r--r--  2.0 unx    46702 b- defN 24-May-09 08:29 huaweicloudsdkges/v2/model/show_graph_resp_graph.py
+--rw-r--r--  2.0 unx     3650 b- defN 24-May-09 08:29 huaweicloudsdkges/v2/model/show_job2_request.py
+--rw-r--r--  2.0 unx    10988 b- defN 24-May-09 08:29 huaweicloudsdkges/v2/model/show_job2_response.py
+--rw-r--r--  2.0 unx     5644 b- defN 24-May-09 08:29 huaweicloudsdkges/v2/model/show_job_resp_job_detail.py
+--rw-r--r--  2.0 unx     8955 b- defN 24-May-09 08:29 huaweicloudsdkges/v2/model/show_job_resp_job_detail_schema_path.py
+--rw-r--r--  2.0 unx     3116 b- defN 24-May-09 08:29 huaweicloudsdkges/v2/model/show_metadata2_request.py
+--rw-r--r--  2.0 unx     6043 b- defN 24-May-09 08:29 huaweicloudsdkges/v2/model/show_metadata2_response.py
+--rw-r--r--  2.0 unx     3360 b- defN 24-May-09 08:29 huaweicloudsdkges/v2/model/show_metadata_resp_ges_metadata.py
+--rw-r--r--  2.0 unx     4006 b- defN 24-May-09 08:29 huaweicloudsdkges/v2/model/show_metadata_resp_ges_metadata_labels.py
+--rw-r--r--  2.0 unx     3785 b- defN 24-May-09 08:29 huaweicloudsdkges/v2/model/start_graph2_request.py
+--rw-r--r--  2.0 unx     3254 b- defN 24-May-09 08:29 huaweicloudsdkges/v2/model/start_graph2_response.py
+--rw-r--r--  2.0 unx     3586 b- defN 24-May-09 08:29 huaweicloudsdkges/v2/model/start_graph_req.py
+--rw-r--r--  2.0 unx     3011 b- defN 24-May-09 08:29 huaweicloudsdkges/v2/model/stop_graph2_request.py
+--rw-r--r--  2.0 unx     3228 b- defN 24-May-09 08:29 huaweicloudsdkges/v2/model/stop_graph2_response.py
+--rw-r--r--  2.0 unx     3817 b- defN 24-May-09 08:29 huaweicloudsdkges/v2/model/upgrade_graph2_request.py
+--rw-r--r--  2.0 unx     3216 b- defN 24-May-09 08:29 huaweicloudsdkges/v2/model/upgrade_graph2_response.py
+--rw-r--r--  2.0 unx     4970 b- defN 24-May-09 08:29 huaweicloudsdkges/v2/model/upgrade_graph_req.py
+--rw-r--r--  2.0 unx     3115 b- defN 24-May-09 08:29 huaweicloudsdkges/v2/model/upload_from_obs2_request.py
+--rw-r--r--  2.0 unx     3793 b- defN 24-May-09 08:29 huaweicloudsdkges/v2/model/upload_from_obs2_response.py
+--rw-r--r--  2.0 unx     5582 b- defN 24-May-09 08:29 huaweicloudsdkges/v2/model/upload_from_obs_req.py
+--rw-r--r--  2.0 unx     4226 b- defN 24-May-09 08:29 huaweicloudsdkges/v2/model/upload_from_obs_req_encryption.py
+--rw-r--r--  2.0 unx        0 b- defN 24-May-09 08:29 huaweicloudsdkges/v2/region/__init__.py
+--rw-r--r--  2.0 unx     1980 b- defN 24-May-09 08:29 huaweicloudsdkges/v2/region/ges_region.py
+--rw-r--r--  2.0 unx      604 b- defN 24-May-09 08:29 huaweicloudsdkges-3.1.95.dist-info/LICENSE
+--rw-r--r--  2.0 unx     1134 b- defN 24-May-09 08:29 huaweicloudsdkges-3.1.95.dist-info/METADATA
+--rw-r--r--  2.0 unx      110 b- defN 24-May-09 08:29 huaweicloudsdkges-3.1.95.dist-info/WHEEL
+--rw-r--r--  2.0 unx       18 b- defN 24-May-09 08:29 huaweicloudsdkges-3.1.95.dist-info/top_level.txt
+--rw-rw-r--  2.0 unx    23200 b- defN 24-May-09 08:29 huaweicloudsdkges-3.1.95.dist-info/RECORD
+-218 files, 1435861 bytes uncompressed, 302338 bytes compressed:  78.9%
++Zip file size: 340598 bytes, number of entries: 218
++-rw-r--r--  2.0 unx        0 b- defN 24-May-16 08:51 huaweicloudsdkges/__init__.py
++-rw-r--r--  2.0 unx     6880 b- defN 24-May-16 08:51 huaweicloudsdkges/v1/__init__.py
++-rw-r--r--  2.0 unx    62507 b- defN 24-May-16 08:51 huaweicloudsdkges/v1/ges_async_client.py
++-rw-r--r--  2.0 unx    62456 b- defN 24-May-16 08:51 huaweicloudsdkges/v1/ges_client.py
++-rw-r--r--  2.0 unx     6794 b- defN 24-May-16 08:51 huaweicloudsdkges/v1/model/__init__.py
++-rw-r--r--  2.0 unx     4478 b- defN 24-May-16 08:51 huaweicloudsdkges/v1/model/attach_eip_request.py
++-rw-r--r--  2.0 unx     4629 b- defN 24-May-16 08:51 huaweicloudsdkges/v1/model/attach_eip_response.py
++-rw-r--r--  2.0 unx    15315 b- defN 24-May-16 08:51 huaweicloudsdkges/v1/model/backup.py
++-rw-r--r--  2.0 unx     2959 b- defN 24-May-16 08:51 huaweicloudsdkges/v1/model/bind_eip_req.py
++-rw-r--r--  2.0 unx     4754 b- defN 24-May-16 08:51 huaweicloudsdkges/v1/model/clear_graph_request.py
++-rw-r--r--  2.0 unx     5604 b- defN 24-May-16 08:51 huaweicloudsdkges/v1/model/clear_graph_response.py
++-rw-r--r--  2.0 unx     3025 b- defN 24-May-16 08:51 huaweicloudsdkges/v1/model/create_backup_request.py
++-rw-r--r--  2.0 unx     5600 b- defN 24-May-16 08:51 huaweicloudsdkges/v1/model/create_backup_response.py
++-rw-r--r--  2.0 unx     2978 b- defN 24-May-16 08:51 huaweicloudsdkges/v1/model/create_graph_req.py
++-rw-r--r--  2.0 unx     3083 b- defN 24-May-16 08:51 huaweicloudsdkges/v1/model/create_graph_request.py
++-rw-r--r--  2.0 unx     5929 b- defN 24-May-16 08:51 huaweicloudsdkges/v1/model/create_graph_response.py
++-rw-r--r--  2.0 unx     6579 b- defN 24-May-16 08:51 huaweicloudsdkges/v1/model/create_metadata_req.py
++-rw-r--r--  2.0 unx     3119 b- defN 24-May-16 08:51 huaweicloudsdkges/v1/model/create_metadata_request.py
++-rw-r--r--  2.0 unx     6025 b- defN 24-May-16 08:51 huaweicloudsdkges/v1/model/create_metadata_response.py
++-rw-r--r--  2.0 unx     3819 b- defN 24-May-16 08:51 huaweicloudsdkges/v1/model/data_source.py
++-rw-r--r--  2.0 unx     3775 b- defN 24-May-16 08:51 huaweicloudsdkges/v1/model/delete_backup_request.py
++-rw-r--r--  2.0 unx     4665 b- defN 24-May-16 08:51 huaweicloudsdkges/v1/model/delete_backup_response.py
++-rw-r--r--  2.0 unx     4193 b- defN 24-May-16 08:51 huaweicloudsdkges/v1/model/delete_graph_request.py
++-rw-r--r--  2.0 unx     5674 b- defN 24-May-16 08:51 huaweicloudsdkges/v1/model/delete_graph_response.py
++-rw-r--r--  2.0 unx     3123 b- defN 24-May-16 08:51 huaweicloudsdkges/v1/model/delete_metadata_request.py
++-rw-r--r--  2.0 unx     4689 b- defN 24-May-16 08:51 huaweicloudsdkges/v1/model/delete_metadata_response.py
++-rw-r--r--  2.0 unx     4486 b- defN 24-May-16 08:51 huaweicloudsdkges/v1/model/detach_eip_request.py
++-rw-r--r--  2.0 unx     4629 b- defN 24-May-16 08:51 huaweicloudsdkges/v1/model/detach_eip_response.py
++-rw-r--r--  2.0 unx     8271 b- defN 24-May-16 08:51 huaweicloudsdkges/v1/model/edgeset_path.py
++-rw-r--r--  2.0 unx     4670 b- defN 24-May-16 08:51 huaweicloudsdkges/v1/model/edgeset_path1.py
++-rw-r--r--  2.0 unx     4294 b- defN 24-May-16 08:51 huaweicloudsdkges/v1/model/encryption_req.py
++-rw-r--r--  2.0 unx     3036 b- defN 24-May-16 08:51 huaweicloudsdkges/v1/model/expand_graph_req.py
++-rw-r--r--  2.0 unx     3789 b- defN 24-May-16 08:51 huaweicloudsdkges/v1/model/expand_graph_request.py
++-rw-r--r--  2.0 unx     5674 b- defN 24-May-16 08:51 huaweicloudsdkges/v1/model/expand_graph_response.py
++-rw-r--r--  2.0 unx     5764 b- defN 24-May-16 08:51 huaweicloudsdkges/v1/model/export_graph_req.py
++-rw-r--r--  2.0 unx     4526 b- defN 24-May-16 08:51 huaweicloudsdkges/v1/model/export_graph_request.py
++-rw-r--r--  2.0 unx     5620 b- defN 24-May-16 08:51 huaweicloudsdkges/v1/model/export_graph_response.py
++-rw-r--r--  2.0 unx     3101 b- defN 24-May-16 08:51 huaweicloudsdkges/v1/model/ges_meta_data.py
++-rw-r--r--  2.0 unx     3206 b- defN 24-May-16 08:51 huaweicloudsdkges/v1/model/ges_quota_resp.py
++-rw-r--r--  2.0 unx    17427 b- defN 24-May-16 08:51 huaweicloudsdkges/v1/model/graph.py
++-rw-r--r--  2.0 unx    36629 b- defN 24-May-16 08:51 huaweicloudsdkges/v1/model/graph1.py
++-rw-r--r--  2.0 unx     3758 b- defN 24-May-16 08:51 huaweicloudsdkges/v1/model/graph_size_type_index_req.py
++-rw-r--r--  2.0 unx    15670 b- defN 24-May-16 08:51 huaweicloudsdkges/v1/model/import_graph_req.py
++-rw-r--r--  2.0 unx     4526 b- defN 24-May-16 08:51 huaweicloudsdkges/v1/model/import_graph_request.py
++-rw-r--r--  2.0 unx     5620 b- defN 24-May-16 08:51 huaweicloudsdkges/v1/model/import_graph_response.py
++-rw-r--r--  2.0 unx    10081 b- defN 24-May-16 08:51 huaweicloudsdkges/v1/model/job.py
++-rw-r--r--  2.0 unx     5252 b- defN 24-May-16 08:51 huaweicloudsdkges/v1/model/job_detail.py
++-rw-r--r--  2.0 unx     3642 b- defN 24-May-16 08:51 huaweicloudsdkges/v1/model/label.py
++-rw-r--r--  2.0 unx     3905 b- defN 24-May-16 08:51 huaweicloudsdkges/v1/model/list_backups_request.py
++-rw-r--r--  2.0 unx     6783 b- defN 24-May-16 08:51 huaweicloudsdkges/v1/model/list_backups_response.py
++-rw-r--r--  2.0 unx     4686 b- defN 24-May-16 08:51 huaweicloudsdkges/v1/model/list_graph_backups_request.py
++-rw-r--r--  2.0 unx     6880 b- defN 24-May-16 08:51 huaweicloudsdkges/v1/model/list_graph_backups_response.py
++-rw-r--r--  2.0 unx     3151 b- defN 24-May-16 08:51 huaweicloudsdkges/v1/model/list_graph_metadatas_request.py
++-rw-r--r--  2.0 unx     5681 b- defN 24-May-16 08:51 huaweicloudsdkges/v1/model/list_graph_metadatas_response.py
++-rw-r--r--  2.0 unx     3894 b- defN 24-May-16 08:51 huaweicloudsdkges/v1/model/list_graphs_request.py
++-rw-r--r--  2.0 unx     6452 b- defN 24-May-16 08:51 huaweicloudsdkges/v1/model/list_graphs_response.py
++-rw-r--r--  2.0 unx     7641 b- defN 24-May-16 08:51 huaweicloudsdkges/v1/model/list_jobs_request.py
++-rw-r--r--  2.0 unx     6246 b- defN 24-May-16 08:51 huaweicloudsdkges/v1/model/list_jobs_response.py
++-rw-r--r--  2.0 unx     3927 b- defN 24-May-16 08:51 huaweicloudsdkges/v1/model/list_metadatas_request.py
++-rw-r--r--  2.0 unx     6837 b- defN 24-May-16 08:51 huaweicloudsdkges/v1/model/list_metadatas_response.py
++-rw-r--r--  2.0 unx     2309 b- defN 24-May-16 08:51 huaweicloudsdkges/v1/model/list_quotas_request.py
++-rw-r--r--  2.0 unx     5420 b- defN 24-May-16 08:51 huaweicloudsdkges/v1/model/list_quotas_response.py
++-rw-r--r--  2.0 unx     4335 b- defN 24-May-16 08:51 huaweicloudsdkges/v1/model/lts_operation_trace_req.py
++-rw-r--r--  2.0 unx     7721 b- defN 24-May-16 08:51 huaweicloudsdkges/v1/model/metadata.py
++-rw-r--r--  2.0 unx     5149 b- defN 24-May-16 08:51 huaweicloudsdkges/v1/model/parallel_edge.py
++-rw-r--r--  2.0 unx    11240 b- defN 24-May-16 08:51 huaweicloudsdkges/v1/model/parameters.py
++-rw-r--r--  2.0 unx     4639 b- defN 24-May-16 08:51 huaweicloudsdkges/v1/model/public_ip.py
++-rw-r--r--  2.0 unx     4646 b- defN 24-May-16 08:51 huaweicloudsdkges/v1/model/quota.py
++-rw-r--r--  2.0 unx     3095 b- defN 24-May-16 08:51 huaweicloudsdkges/v1/model/replication_req.py
++-rw-r--r--  2.0 unx     3064 b- defN 24-May-16 08:51 huaweicloudsdkges/v1/model/resize_graph_req.py
++-rw-r--r--  2.0 unx     3789 b- defN 24-May-16 08:51 huaweicloudsdkges/v1/model/resize_graph_request.py
++-rw-r--r--  2.0 unx     5674 b- defN 24-May-16 08:51 huaweicloudsdkges/v1/model/resize_graph_response.py
++-rw-r--r--  2.0 unx     3766 b- defN 24-May-16 08:51 huaweicloudsdkges/v1/model/restart_graph_request.py
++-rw-r--r--  2.0 unx     5699 b- defN 24-May-16 08:51 huaweicloudsdkges/v1/model/restart_graph_response.py
++-rw-r--r--  2.0 unx     5153 b- defN 24-May-16 08:51 huaweicloudsdkges/v1/model/schema_path.py
++-rw-r--r--  2.0 unx     4652 b- defN 24-May-16 08:51 huaweicloudsdkges/v1/model/schema_path1.py
++-rw-r--r--  2.0 unx     3004 b- defN 24-May-16 08:51 huaweicloudsdkges/v1/model/show_graph_request.py
++-rw-r--r--  2.0 unx     5357 b- defN 24-May-16 08:51 huaweicloudsdkges/v1/model/show_graph_response.py
++-rw-r--r--  2.0 unx     3639 b- defN 24-May-16 08:51 huaweicloudsdkges/v1/model/show_job_request.py
++-rw-r--r--  2.0 unx    13085 b- defN 24-May-16 08:51 huaweicloudsdkges/v1/model/show_job_response.py
++-rw-r--r--  2.0 unx     3586 b- defN 24-May-16 08:51 huaweicloudsdkges/v1/model/start_graph_req.py
++-rw-r--r--  2.0 unx     4506 b- defN 24-May-16 08:51 huaweicloudsdkges/v1/model/start_graph_request.py
++-rw-r--r--  2.0 unx     5658 b- defN 24-May-16 08:51 huaweicloudsdkges/v1/model/start_graph_response.py
++-rw-r--r--  2.0 unx     3733 b- defN 24-May-16 08:51 huaweicloudsdkges/v1/model/stop_graph_request.py
++-rw-r--r--  2.0 unx     5624 b- defN 24-May-16 08:51 huaweicloudsdkges/v1/model/stop_graph_response.py
++-rw-r--r--  2.0 unx     3787 b- defN 24-May-16 08:51 huaweicloudsdkges/v1/model/sys_tags_res.py
++-rw-r--r--  2.0 unx     2973 b- defN 24-May-16 08:51 huaweicloudsdkges/v1/model/unbind_eip_req.py
++-rw-r--r--  2.0 unx     4965 b- defN 24-May-16 08:51 huaweicloudsdkges/v1/model/upgrade_graph_req.py
++-rw-r--r--  2.0 unx     4546 b- defN 24-May-16 08:51 huaweicloudsdkges/v1/model/upgrade_graph_request.py
++-rw-r--r--  2.0 unx     5636 b- defN 24-May-16 08:51 huaweicloudsdkges/v1/model/upgrade_graph_response.py
++-rw-r--r--  2.0 unx     5529 b- defN 24-May-16 08:51 huaweicloudsdkges/v1/model/upload_from_obs_req.py
++-rw-r--r--  2.0 unx     3107 b- defN 24-May-16 08:51 huaweicloudsdkges/v1/model/upload_from_obs_request.py
++-rw-r--r--  2.0 unx     6023 b- defN 24-May-16 08:51 huaweicloudsdkges/v1/model/upload_from_obs_response.py
++-rw-r--r--  2.0 unx     8333 b- defN 24-May-16 08:51 huaweicloudsdkges/v1/model/vertexset_path.py
++-rw-r--r--  2.0 unx     4700 b- defN 24-May-16 08:51 huaweicloudsdkges/v1/model/vertexset_path1.py
++-rw-r--r--  2.0 unx        0 b- defN 24-May-16 08:51 huaweicloudsdkges/v1/region/__init__.py
++-rw-r--r--  2.0 unx     1980 b- defN 24-May-16 08:51 huaweicloudsdkges/v1/region/ges_region.py
++-rw-r--r--  2.0 unx     9490 b- defN 24-May-16 08:51 huaweicloudsdkges/v2/__init__.py
++-rw-r--r--  2.0 unx    73205 b- defN 24-May-16 08:51 huaweicloudsdkges/v2/ges_async_client.py
++-rw-r--r--  2.0 unx    73164 b- defN 24-May-16 08:51 huaweicloudsdkges/v2/ges_client.py
++-rw-r--r--  2.0 unx     9404 b- defN 24-May-16 08:51 huaweicloudsdkges/v2/model/__init__.py
++-rw-r--r--  2.0 unx     3769 b- defN 24-May-16 08:51 huaweicloudsdkges/v2/model/attach_eip2_request.py
++-rw-r--r--  2.0 unx     3074 b- defN 24-May-16 08:51 huaweicloudsdkges/v2/model/attach_eip2_response.py
++-rw-r--r--  2.0 unx     2974 b- defN 24-May-16 08:51 huaweicloudsdkges/v2/model/attach_eip_req.py
++-rw-r--r--  2.0 unx     4032 b- defN 24-May-16 08:51 huaweicloudsdkges/v2/model/clear_graph2_request.py
++-rw-r--r--  2.0 unx     3200 b- defN 24-May-16 08:51 huaweicloudsdkges/v2/model/clear_graph2_response.py
++-rw-r--r--  2.0 unx     3032 b- defN 24-May-16 08:51 huaweicloudsdkges/v2/model/create_backup2_request.py
++-rw-r--r--  2.0 unx     3180 b- defN 24-May-16 08:51 huaweicloudsdkges/v2/model/create_backup2_response.py
++-rw-r--r--  2.0 unx     3091 b- defN 24-May-16 08:51 huaweicloudsdkges/v2/model/create_graph2_request.py
++-rw-r--r--  2.0 unx     3715 b- defN 24-May-16 08:51 huaweicloudsdkges/v2/model/create_graph2_response.py
++-rw-r--r--  2.0 unx     3034 b- defN 24-May-16 08:51 huaweicloudsdkges/v2/model/create_graph_req.py
++-rw-r--r--  2.0 unx    27355 b- defN 24-May-16 08:51 huaweicloudsdkges/v2/model/create_graph_req_graph.py
++-rw-r--r--  2.0 unx     4472 b- defN 24-May-16 08:51 huaweicloudsdkges/v2/model/create_graph_req_graph_encryption.py
++-rw-r--r--  2.0 unx     4515 b- defN 24-May-16 08:51 huaweicloudsdkges/v2/model/create_graph_req_graph_lts_operation_trace.py
++-rw-r--r--  2.0 unx     4854 b- defN 24-May-16 08:51 huaweicloudsdkges/v2/model/create_graph_req_graph_public_ip.py
++-rw-r--r--  2.0 unx     3963 b- defN 24-May-16 08:51 huaweicloudsdkges/v2/model/create_graph_req_graph_sys_tags.py
++-rw-r--r--  2.0 unx     5804 b- defN 24-May-16 08:51 huaweicloudsdkges/v2/model/create_graph_req_graph_vertex_id_type.py
++-rw-r--r--  2.0 unx     3127 b- defN 24-May-16 08:51 huaweicloudsdkges/v2/model/create_metadata2_request.py
++-rw-r--r--  2.0 unx     3787 b- defN 24-May-16 08:51 huaweicloudsdkges/v2/model/create_metadata2_response.py
++-rw-r--r--  2.0 unx     6617 b- defN 24-May-16 08:51 huaweicloudsdkges/v2/model/create_metadata_req.py
++-rw-r--r--  2.0 unx     3291 b- defN 24-May-16 08:51 huaweicloudsdkges/v2/model/create_metadata_req_ges_metadata.py
++-rw-r--r--  2.0 unx     4023 b- defN 24-May-16 08:51 huaweicloudsdkges/v2/model/create_metadata_req_ges_metadata_labels.py
++-rw-r--r--  2.0 unx     3786 b- defN 24-May-16 08:51 huaweicloudsdkges/v2/model/delete_backup2_request.py
++-rw-r--r--  2.0 unx     3098 b- defN 24-May-16 08:51 huaweicloudsdkges/v2/model/delete_backup2_response.py
++-rw-r--r--  2.0 unx     5050 b- defN 24-May-16 08:51 huaweicloudsdkges/v2/model/delete_graph2_request.py
++-rw-r--r--  2.0 unx     3262 b- defN 24-May-16 08:51 huaweicloudsdkges/v2/model/delete_graph2_response.py
++-rw-r--r--  2.0 unx     3130 b- defN 24-May-16 08:51 huaweicloudsdkges/v2/model/delete_metadata2_request.py
++-rw-r--r--  2.0 unx     3114 b- defN 24-May-16 08:51 huaweicloudsdkges/v2/model/delete_metadata2_response.py
++-rw-r--r--  2.0 unx     3881 b- defN 24-May-16 08:51 huaweicloudsdkges/v2/model/deregister_scenes2_request.py
++-rw-r--r--  2.0 unx     4187 b- defN 24-May-16 08:51 huaweicloudsdkges/v2/model/deregister_scenes2_response.py
++-rw-r--r--  2.0 unx     3311 b- defN 24-May-16 08:51 huaweicloudsdkges/v2/model/deregister_scenes_req.py
++-rw-r--r--  2.0 unx     4073 b- defN 24-May-16 08:51 huaweicloudsdkges/v2/model/deregister_scenes_req_scenes.py
++-rw-r--r--  2.0 unx     3769 b- defN 24-May-16 08:51 huaweicloudsdkges/v2/model/detach_eip2_request.py
++-rw-r--r--  2.0 unx     3074 b- defN 24-May-16 08:51 huaweicloudsdkges/v2/model/detach_eip2_response.py
++-rw-r--r--  2.0 unx     2974 b- defN 24-May-16 08:51 huaweicloudsdkges/v2/model/detach_eip_req.py
++-rw-r--r--  2.0 unx     3801 b- defN 24-May-16 08:51 huaweicloudsdkges/v2/model/expand_graph2_request.py
++-rw-r--r--  2.0 unx     3262 b- defN 24-May-16 08:51 huaweicloudsdkges/v2/model/expand_graph2_response.py
++-rw-r--r--  2.0 unx     3060 b- defN 24-May-16 08:51 huaweicloudsdkges/v2/model/expand_graph_req.py
++-rw-r--r--  2.0 unx     3137 b- defN 24-May-16 08:51 huaweicloudsdkges/v2/model/expand_graph_req_expand.py
++-rw-r--r--  2.0 unx     3817 b- defN 24-May-16 08:51 huaweicloudsdkges/v2/model/export_backup2_request.py
++-rw-r--r--  2.0 unx     3100 b- defN 24-May-16 08:51 huaweicloudsdkges/v2/model/export_backup2_response.py
++-rw-r--r--  2.0 unx     3791 b- defN 24-May-16 08:51 huaweicloudsdkges/v2/model/export_backup_req.py
++-rw-r--r--  2.0 unx     3801 b- defN 24-May-16 08:51 huaweicloudsdkges/v2/model/export_graph2_request.py
++-rw-r--r--  2.0 unx     3208 b- defN 24-May-16 08:51 huaweicloudsdkges/v2/model/export_graph2_response.py
++-rw-r--r--  2.0 unx     6620 b- defN 24-May-16 08:51 huaweicloudsdkges/v2/model/export_graph_req.py
++-rw-r--r--  2.0 unx     5366 b- defN 24-May-16 08:51 huaweicloudsdkges/v2/model/export_graph_req_paginate.py
++-rw-r--r--  2.0 unx     3817 b- defN 24-May-16 08:51 huaweicloudsdkges/v2/model/import_backup2_request.py
++-rw-r--r--  2.0 unx     3100 b- defN 24-May-16 08:51 huaweicloudsdkges/v2/model/import_backup2_response.py
++-rw-r--r--  2.0 unx     3093 b- defN 24-May-16 08:51 huaweicloudsdkges/v2/model/import_backup_req.py
++-rw-r--r--  2.0 unx     3801 b- defN 24-May-16 08:51 huaweicloudsdkges/v2/model/import_graph2_request.py
++-rw-r--r--  2.0 unx     3208 b- defN 24-May-16 08:51 huaweicloudsdkges/v2/model/import_graph2_response.py
++-rw-r--r--  2.0 unx    12915 b- defN 24-May-16 08:51 huaweicloudsdkges/v2/model/import_graph_req.py
++-rw-r--r--  2.0 unx     5676 b- defN 24-May-16 08:51 huaweicloudsdkges/v2/model/import_graph_req_parallel_edge.py
++-rw-r--r--  2.0 unx     3916 b- defN 24-May-16 08:51 huaweicloudsdkges/v2/model/list_backups2_request.py
++-rw-r--r--  2.0 unx     4647 b- defN 24-May-16 08:51 huaweicloudsdkges/v2/model/list_backups2_response.py
++-rw-r--r--  2.0 unx    17333 b- defN 24-May-16 08:51 huaweicloudsdkges/v2/model/list_backups_resp_backup_list.py
++-rw-r--r--  2.0 unx     4701 b- defN 24-May-16 08:51 huaweicloudsdkges/v2/model/list_graph_backups2_request.py
++-rw-r--r--  2.0 unx     4707 b- defN 24-May-16 08:51 huaweicloudsdkges/v2/model/list_graph_backups2_response.py
++-rw-r--r--  2.0 unx     3905 b- defN 24-May-16 08:51 huaweicloudsdkges/v2/model/list_graphs2_request.py
++-rw-r--r--  2.0 unx     4303 b- defN 24-May-16 08:51 huaweicloudsdkges/v2/model/list_graphs2_response.py
++-rw-r--r--  2.0 unx    47078 b- defN 24-May-16 08:51 huaweicloudsdkges/v2/model/list_graphs_resp_graphs.py
++-rw-r--r--  2.0 unx     4954 b- defN 24-May-16 08:51 huaweicloudsdkges/v2/model/list_graphs_resp_schema_path.py
++-rw-r--r--  2.0 unx     3626 b- defN 24-May-16 08:51 huaweicloudsdkges/v2/model/list_graphs_resp_tags.py
++-rw-r--r--  2.0 unx     5800 b- defN 24-May-16 08:51 huaweicloudsdkges/v2/model/list_graphs_resp_vertex_id_type.py
++-rw-r--r--  2.0 unx     7679 b- defN 24-May-16 08:51 huaweicloudsdkges/v2/model/list_jobs2_request.py
++-rw-r--r--  2.0 unx     4140 b- defN 24-May-16 08:51 huaweicloudsdkges/v2/model/list_jobs2_response.py
++-rw-r--r--  2.0 unx    11035 b- defN 24-May-16 08:51 huaweicloudsdkges/v2/model/list_jobs_resp_job_list.py
++-rw-r--r--  2.0 unx     3938 b- defN 24-May-16 08:51 huaweicloudsdkges/v2/model/list_metadatas2_request.py
++-rw-r--r--  2.0 unx     4685 b- defN 24-May-16 08:51 huaweicloudsdkges/v2/model/list_metadatas2_response.py
++-rw-r--r--  2.0 unx    10897 b- defN 24-May-16 08:51 huaweicloudsdkges/v2/model/list_metadatas_resp_schema_list.py
++-rw-r--r--  2.0 unx     2312 b- defN 24-May-16 08:51 huaweicloudsdkges/v2/model/list_quotas2_request.py
++-rw-r--r--  2.0 unx     3242 b- defN 24-May-16 08:51 huaweicloudsdkges/v2/model/list_quotas2_response.py
++-rw-r--r--  2.0 unx     3358 b- defN 24-May-16 08:51 huaweicloudsdkges/v2/model/list_quotas_resp_quotas.py
++-rw-r--r--  2.0 unx     5081 b- defN 24-May-16 08:51 huaweicloudsdkges/v2/model/list_quotas_resp_quotas_resources.py
++-rw-r--r--  2.0 unx     6820 b- defN 24-May-16 08:51 huaweicloudsdkges/v2/model/list_scenes2_request.py
++-rw-r--r--  2.0 unx     3409 b- defN 24-May-16 08:51 huaweicloudsdkges/v2/model/list_scenes2_response.py
++-rw-r--r--  2.0 unx     5018 b- defN 24-May-16 08:51 huaweicloudsdkges/v2/model/list_scenes_resp_params.py
++-rw-r--r--  2.0 unx     5511 b- defN 24-May-16 08:51 huaweicloudsdkges/v2/model/list_scenes_resp_results.py
++-rw-r--r--  2.0 unx     3849 b- defN 24-May-16 08:51 huaweicloudsdkges/v2/model/register_scenes2_request.py
++-rw-r--r--  2.0 unx     3199 b- defN 24-May-16 08:51 huaweicloudsdkges/v2/model/register_scenes2_response.py
++-rw-r--r--  2.0 unx     3253 b- defN 24-May-16 08:51 huaweicloudsdkges/v2/model/register_scenes_req.py
++-rw-r--r--  2.0 unx     4039 b- defN 24-May-16 08:51 huaweicloudsdkges/v2/model/register_scenes_req_scenes.py
++-rw-r--r--  2.0 unx     3801 b- defN 24-May-16 08:51 huaweicloudsdkges/v2/model/resize_graph2_request.py
++-rw-r--r--  2.0 unx     3280 b- defN 24-May-16 08:51 huaweicloudsdkges/v2/model/resize_graph2_response.py
++-rw-r--r--  2.0 unx     3060 b- defN 24-May-16 08:51 huaweicloudsdkges/v2/model/resize_graph_req.py
++-rw-r--r--  2.0 unx     3763 b- defN 24-May-16 08:51 huaweicloudsdkges/v2/model/resize_graph_req_resize.py
++-rw-r--r--  2.0 unx     3032 b- defN 24-May-16 08:51 huaweicloudsdkges/v2/model/restart_graph2_request.py
++-rw-r--r--  2.0 unx     3279 b- defN 24-May-16 08:51 huaweicloudsdkges/v2/model/restart_graph2_response.py
++-rw-r--r--  2.0 unx     3011 b- defN 24-May-16 08:51 huaweicloudsdkges/v2/model/show_graph2_request.py
++-rw-r--r--  2.0 unx     3203 b- defN 24-May-16 08:51 huaweicloudsdkges/v2/model/show_graph2_response.py
++-rw-r--r--  2.0 unx    46702 b- defN 24-May-16 08:51 huaweicloudsdkges/v2/model/show_graph_resp_graph.py
++-rw-r--r--  2.0 unx     3650 b- defN 24-May-16 08:51 huaweicloudsdkges/v2/model/show_job2_request.py
++-rw-r--r--  2.0 unx    10988 b- defN 24-May-16 08:51 huaweicloudsdkges/v2/model/show_job2_response.py
++-rw-r--r--  2.0 unx     5644 b- defN 24-May-16 08:51 huaweicloudsdkges/v2/model/show_job_resp_job_detail.py
++-rw-r--r--  2.0 unx     8955 b- defN 24-May-16 08:51 huaweicloudsdkges/v2/model/show_job_resp_job_detail_schema_path.py
++-rw-r--r--  2.0 unx     3116 b- defN 24-May-16 08:51 huaweicloudsdkges/v2/model/show_metadata2_request.py
++-rw-r--r--  2.0 unx     6043 b- defN 24-May-16 08:51 huaweicloudsdkges/v2/model/show_metadata2_response.py
++-rw-r--r--  2.0 unx     3360 b- defN 24-May-16 08:51 huaweicloudsdkges/v2/model/show_metadata_resp_ges_metadata.py
++-rw-r--r--  2.0 unx     4006 b- defN 24-May-16 08:51 huaweicloudsdkges/v2/model/show_metadata_resp_ges_metadata_labels.py
++-rw-r--r--  2.0 unx     3785 b- defN 24-May-16 08:51 huaweicloudsdkges/v2/model/start_graph2_request.py
++-rw-r--r--  2.0 unx     3254 b- defN 24-May-16 08:51 huaweicloudsdkges/v2/model/start_graph2_response.py
++-rw-r--r--  2.0 unx     3586 b- defN 24-May-16 08:51 huaweicloudsdkges/v2/model/start_graph_req.py
++-rw-r--r--  2.0 unx     3011 b- defN 24-May-16 08:51 huaweicloudsdkges/v2/model/stop_graph2_request.py
++-rw-r--r--  2.0 unx     3228 b- defN 24-May-16 08:51 huaweicloudsdkges/v2/model/stop_graph2_response.py
++-rw-r--r--  2.0 unx     3817 b- defN 24-May-16 08:51 huaweicloudsdkges/v2/model/upgrade_graph2_request.py
++-rw-r--r--  2.0 unx     3216 b- defN 24-May-16 08:51 huaweicloudsdkges/v2/model/upgrade_graph2_response.py
++-rw-r--r--  2.0 unx     4970 b- defN 24-May-16 08:51 huaweicloudsdkges/v2/model/upgrade_graph_req.py
++-rw-r--r--  2.0 unx     3115 b- defN 24-May-16 08:51 huaweicloudsdkges/v2/model/upload_from_obs2_request.py
++-rw-r--r--  2.0 unx     3793 b- defN 24-May-16 08:51 huaweicloudsdkges/v2/model/upload_from_obs2_response.py
++-rw-r--r--  2.0 unx     5582 b- defN 24-May-16 08:51 huaweicloudsdkges/v2/model/upload_from_obs_req.py
++-rw-r--r--  2.0 unx     4226 b- defN 24-May-16 08:51 huaweicloudsdkges/v2/model/upload_from_obs_req_encryption.py
++-rw-r--r--  2.0 unx        0 b- defN 24-May-16 08:51 huaweicloudsdkges/v2/region/__init__.py
++-rw-r--r--  2.0 unx     1980 b- defN 24-May-16 08:51 huaweicloudsdkges/v2/region/ges_region.py
++-rw-r--r--  2.0 unx      604 b- defN 24-May-16 08:52 huaweicloudsdkges-3.1.96.dist-info/LICENSE
++-rw-r--r--  2.0 unx     1134 b- defN 24-May-16 08:52 huaweicloudsdkges-3.1.96.dist-info/METADATA
++-rw-r--r--  2.0 unx      110 b- defN 24-May-16 08:52 huaweicloudsdkges-3.1.96.dist-info/WHEEL
++-rw-r--r--  2.0 unx       18 b- defN 24-May-16 08:52 huaweicloudsdkges-3.1.96.dist-info/top_level.txt
++-rw-rw-r--  2.0 unx    23200 b- defN 24-May-16 08:52 huaweicloudsdkges-3.1.96.dist-info/RECORD
++218 files, 1435939 bytes uncompressed, 302364 bytes compressed:  78.9%
+```
+
+## zipnote {}
+
+```diff
+@@ -633,23 +633,23 @@
+ 
+ Filename: huaweicloudsdkges/v2/region/__init__.py
+ Comment: 
+ 
+ Filename: huaweicloudsdkges/v2/region/ges_region.py
+ Comment: 
+ 
+-Filename: huaweicloudsdkges-3.1.95.dist-info/LICENSE
++Filename: huaweicloudsdkges-3.1.96.dist-info/LICENSE
+ Comment: 
+ 
+-Filename: huaweicloudsdkges-3.1.95.dist-info/METADATA
++Filename: huaweicloudsdkges-3.1.96.dist-info/METADATA
+ Comment: 
+ 
+-Filename: huaweicloudsdkges-3.1.95.dist-info/WHEEL
++Filename: huaweicloudsdkges-3.1.96.dist-info/WHEEL
+ Comment: 
+ 
+-Filename: huaweicloudsdkges-3.1.95.dist-info/top_level.txt
++Filename: huaweicloudsdkges-3.1.96.dist-info/top_level.txt
+ Comment: 
+ 
+-Filename: huaweicloudsdkges-3.1.95.dist-info/RECORD
++Filename: huaweicloudsdkges-3.1.96.dist-info/RECORD
+ Comment: 
+ 
+ Zip file comment:
+```
+
+## huaweicloudsdkges/v2/ges_async_client.py
+
+```diff
+@@ -630,16 +630,16 @@
+         return http_info
+ 
+     def expand_graph2_async(self, request):
+         """扩副本
+ 
+         扩副本能力允许动态扩容多个从节点，扩容的从节点可以处理读请求，从而提高读请求性能。
+         &gt; 1.一万边和百亿边规格的图暂不支持扩副本。
+-        2.进行扩副本操作后，不支持扩容图操作。
+-        3.如果要对图进行扩容和扩副本两个操作，需要您先进行扩容图操作，再进行扩副本操作。
++        2.进行扩副本操作后，不支持变更图规格操作。
++        3.如果要对图进行扩容和扩副本两个操作，需要您先进行变更图规格操作，再进行扩副本操作。
+         
+         Please refer to HUAWEI cloud API Explorer for details.
+ 
+ 
+         :param request: Request instance for ExpandGraph2
+         :type request: :class:`huaweicloudsdkges.v2.ExpandGraph2Request`
+         :rtype: :class:`huaweicloudsdkges.v2.ExpandGraph2Response`
+@@ -1373,18 +1373,18 @@
+         http_info["post_params"] = form_params
+         http_info["body"] = body
+         http_info["response_headers"] = response_headers
+ 
+         return http_info
+ 
+     def resize_graph2_async(self, request):
+-        """扩容图
++        """变更图规格
+ 
+-        扩容图规格。
+-        &gt; 扩容图以后所有索引（复合索引和全文索引）都需要重新创建。
++        变更图规格规格。
++        &gt; 变更图规格以后所有索引（复合索引和全文索引）都需要重新创建。
+         
+         Please refer to HUAWEI cloud API Explorer for details.
+ 
+ 
+         :param request: Request instance for ResizeGraph2
+         :type request: :class:`huaweicloudsdkges.v2.ResizeGraph2Request`
+         :rtype: :class:`huaweicloudsdkges.v2.ResizeGraph2Response`
+```
+
+## huaweicloudsdkges/v2/ges_client.py
+
+```diff
+@@ -630,16 +630,16 @@
+         return http_info
+ 
+     def expand_graph2(self, request):
+         """扩副本
+ 
+         扩副本能力允许动态扩容多个从节点，扩容的从节点可以处理读请求，从而提高读请求性能。
+         &gt; 1.一万边和百亿边规格的图暂不支持扩副本。
+-        2.进行扩副本操作后，不支持扩容图操作。
+-        3.如果要对图进行扩容和扩副本两个操作，需要您先进行扩容图操作，再进行扩副本操作。
++        2.进行扩副本操作后，不支持变更图规格操作。
++        3.如果要对图进行扩容和扩副本两个操作，需要您先进行变更图规格操作，再进行扩副本操作。
+         
+         Please refer to HUAWEI cloud API Explorer for details.
+ 
+         :param request: Request instance for ExpandGraph2
+         :type request: :class:`huaweicloudsdkges.v2.ExpandGraph2Request`
+         :rtype: :class:`huaweicloudsdkges.v2.ExpandGraph2Response`
+         """
+@@ -1373,18 +1373,18 @@
+         http_info["post_params"] = form_params
+         http_info["body"] = body
+         http_info["response_headers"] = response_headers
+ 
+         return http_info
+ 
+     def resize_graph2(self, request):
+-        """扩容图
++        """变更图规格
+ 
+-        扩容图规格。
+-        &gt; 扩容图以后所有索引（复合索引和全文索引）都需要重新创建。
++        变更图规格规格。
++        &gt; 变更图规格以后所有索引（复合索引和全文索引）都需要重新创建。
+         
+         Please refer to HUAWEI cloud API Explorer for details.
+ 
+         :param request: Request instance for ResizeGraph2
+         :type request: :class:`huaweicloudsdkges.v2.ResizeGraph2Request`
+         :rtype: :class:`huaweicloudsdkges.v2.ResizeGraph2Response`
+         """
+```
+
+## huaweicloudsdkges/v2/model/resize_graph2_response.py
+
+```diff
+@@ -26,15 +26,15 @@
+     }
+ 
+     def __init__(self, job_id=None):
+         """ResizeGraph2Response
+ 
+         The model defined in huaweicloud sdk
+ 
+-        :param job_id: 扩容图任务ID。请求失败时字段为空。
++        :param job_id: 变更图规格任务ID。请求失败时字段为空。
+         :type job_id: str
+         """
+         
+         super(ResizeGraph2Response, self).__init__()
+ 
+         self._job_id = None
+         self.discriminator = None
+@@ -42,26 +42,26 @@
+         if job_id is not None:
+             self.job_id = job_id
+ 
+     @property
+     def job_id(self):
+         """Gets the job_id of this ResizeGraph2Response.
+ 
+-        扩容图任务ID。请求失败时字段为空。
++        变更图规格任务ID。请求失败时字段为空。
+ 
+         :return: The job_id of this ResizeGraph2Response.
+         :rtype: str
+         """
+         return self._job_id
+ 
+     @job_id.setter
+     def job_id(self, job_id):
+         """Sets the job_id of this ResizeGraph2Response.
+ 
+-        扩容图任务ID。请求失败时字段为空。
++        变更图规格任务ID。请求失败时字段为空。
+ 
+         :param job_id: The job_id of this ResizeGraph2Response.
+         :type job_id: str
+         """
+         self._job_id = job_id
+ 
+     def to_dict(self):
+```
+
+## Comparing `huaweicloudsdkges-3.1.95.dist-info/LICENSE` & `huaweicloudsdkges-3.1.96.dist-info/LICENSE`
+
+ * *Files identical despite different names*
+
+## Comparing `huaweicloudsdkges-3.1.95.dist-info/METADATA` & `huaweicloudsdkges-3.1.96.dist-info/METADATA`
+
+ * *Files 1% similar despite different names*
+
+```diff
+@@ -1,10 +1,10 @@
+ Metadata-Version: 2.1
+ Name: huaweicloudsdkges
+-Version: 3.1.95
++Version: 3.1.96
+ Summary: GES
+ Home-page: https://github.com/huaweicloud/huaweicloud-sdk-python-v3
+ Author: HuaweiCloud SDK
+ Author-email: hwcloudsdk@huawei.com
+ License: Apache LICENSE 2.0
+ Keywords: huaweicloud,sdk,GES
+ Classifier: Development Status :: 5 - Production/Stable
+@@ -18,10 +18,10 @@
+ Classifier: Programming Language :: Python :: 3.7
+ Classifier: Programming Language :: Python :: 3.8
+ Classifier: Programming Language :: Python :: 3.9
+ Classifier: Topic :: Software Development
+ Requires-Python: >=2.7,!=3.0.*,!=3.1.*,!=3.2.*
+ Description-Content-Type: text/markdown
+ License-File: LICENSE
+-Requires-Dist: huaweicloudsdkcore >=3.1.95
++Requires-Dist: huaweicloudsdkcore >=3.1.96
+ 
+ See detailed information in [huaweicloud-sdk-python-v3](https://github.com/huaweicloud/huaweicloud-sdk-python-v3).
+```
+
+## Comparing `huaweicloudsdkges-3.1.95.dist-info/RECORD` & `huaweicloudsdkges-3.1.96.dist-info/RECORD`
+
+ * *Files 1% similar despite different names*
+
+```diff
+@@ -92,16 +92,16 @@
+ huaweicloudsdkges/v1/model/upload_from_obs_request.py,sha256=JR5PAYLcBKWoN-21FXm7L-D3m5xyGDAIdEd_UsDXRJc,3107
+ huaweicloudsdkges/v1/model/upload_from_obs_response.py,sha256=jW3ctc03L02d7Rpptb_SPYbTK14NJYK3uAU6IX1RhQo,6023
+ huaweicloudsdkges/v1/model/vertexset_path.py,sha256=hXtYnZt2CQGJS3IDWffEDWpkO3aFIqyRlEm47Lw6emw,8333
+ huaweicloudsdkges/v1/model/vertexset_path1.py,sha256=cNkkwdfFC8KVdOlnq2js-2wgsplTstnJAQhtwuhdWl0,4700
+ huaweicloudsdkges/v1/region/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+ huaweicloudsdkges/v1/region/ges_region.py,sha256=z3U4fvl33fAwebfrQCmsD8upI_fKqhC0WBiIASvGhtc,1980
+ huaweicloudsdkges/v2/__init__.py,sha256=x2HSMOHG6-MzqIeo_ggfy09BSv0pJu3Wlo7ijL6rvII,9490
+-huaweicloudsdkges/v2/ges_async_client.py,sha256=D1dXqBhuZcxzXlH7ndhuBSGypGN2uttY0woPNA7WPbc,73175
+-huaweicloudsdkges/v2/ges_client.py,sha256=jt6g1dMmersNWnt4ylynXjxrXBkTM0QxUVGQBQq3AAY,73134
++huaweicloudsdkges/v2/ges_async_client.py,sha256=lISZWi6IY0JC6HLZ1fm_EBZ3N5jsXs2RcL5ek57oOxQ,73205
++huaweicloudsdkges/v2/ges_client.py,sha256=8JjfmDXy0kvNIPnF1e_pH3ZsckjoOw2LZ_GHB_LKdDk,73164
+ huaweicloudsdkges/v2/model/__init__.py,sha256=RPNYb0U33jqnxaTMGZNMqvwf5Id8ANl4yOh0tqwfQWU,9404
+ huaweicloudsdkges/v2/model/attach_eip2_request.py,sha256=PCzoaIFQ7kpK2YAfGP5mCzd81vm1X2Nu6q3yPBIvIpI,3769
+ huaweicloudsdkges/v2/model/attach_eip2_response.py,sha256=pVolPbL5CsnMOqbKDN9bpAGhFLlb-tLo5hesf3paWSI,3074
+ huaweicloudsdkges/v2/model/attach_eip_req.py,sha256=xPLt-oQWOnlxqeWSjoYP6Uu-WZleSrrIIdgXZR-gQ5Q,2974
+ huaweicloudsdkges/v2/model/clear_graph2_request.py,sha256=s4McEtw9zz1BqD0L9xRJ1ECzkgkrroyATs4kZ1nwdYQ,4032
+ huaweicloudsdkges/v2/model/clear_graph2_response.py,sha256=KRArqeSZNW5U6WSWpeXGfhpMwy6PvewQYhApjS6E9V4,3200
+ huaweicloudsdkges/v2/model/create_backup2_request.py,sha256=ub5DTwFxXLLuVRA10czst_8nhtlzM53imB6EQqc11Cc,3032
+@@ -177,15 +177,15 @@
+ huaweicloudsdkges/v2/model/list_scenes_resp_params.py,sha256=kaPwMQdBzwzHjTHwcH5GnKkz2Q62uarC2FRMxjA3vH8,5018
+ huaweicloudsdkges/v2/model/list_scenes_resp_results.py,sha256=o1YmNi_51dLHCnv3GoeIy0AlD3jSeMP-T1w2ds3NFJQ,5511
+ huaweicloudsdkges/v2/model/register_scenes2_request.py,sha256=wm9109ZiaoQh7F6-Zm9xa43WlJxdcBKTUYkuGxD0cnQ,3849
+ huaweicloudsdkges/v2/model/register_scenes2_response.py,sha256=e6BSNq36RzKrmJ7GSY1ijd68LYKhEFfS36WegL6IOeo,3199
+ huaweicloudsdkges/v2/model/register_scenes_req.py,sha256=XJOFnMvWH8njywQDRSAgYLsv9yktyPHDcNoo_FOGIak,3253
+ huaweicloudsdkges/v2/model/register_scenes_req_scenes.py,sha256=W9mpO_UD2yQVPasFDfEaO-h0F5sylff3_1yazIXV9qw,4039
+ huaweicloudsdkges/v2/model/resize_graph2_request.py,sha256=K1zStqueEAc8lIqvz8i50ul3pTxbyha8A4UD4Klm6Cc,3801
+-huaweicloudsdkges/v2/model/resize_graph2_response.py,sha256=IFhX-GQBQlZbCs1b-8pIi0JueToAgxOXUjomjROCsSM,3262
++huaweicloudsdkges/v2/model/resize_graph2_response.py,sha256=44A3Y6ykW5jqTUpo9BkZ8AzVV_GjaxbjTzdW3JrakxI,3280
+ huaweicloudsdkges/v2/model/resize_graph_req.py,sha256=OYXpM0csf2VUeOssaVZMUyRIigl6L6_5KfxK2rAX3d8,3060
+ huaweicloudsdkges/v2/model/resize_graph_req_resize.py,sha256=ICG5ejzEx87-VLCLwNKFQV0utOk1roohFKgZJZQrvXE,3763
+ huaweicloudsdkges/v2/model/restart_graph2_request.py,sha256=CoWO9okZu5-0seoaQIaLb-9Av4S5fkQpFh5BzLxf080,3032
+ huaweicloudsdkges/v2/model/restart_graph2_response.py,sha256=yEMpOhIVwHLT3uHWt8N3IAjRGZVQzwVTTnOJ1pJCYlk,3279
+ huaweicloudsdkges/v2/model/show_graph2_request.py,sha256=O_hvxUB-mkzmvMsh7960M_MVGF36_VxG9oQzJobWWkg,3011
+ huaweicloudsdkges/v2/model/show_graph2_response.py,sha256=lqngoZfi30T7qUeRbjzpzhdM_D7zOg5WNqEtqM-C1K8,3203
+ huaweicloudsdkges/v2/model/show_graph_resp_graph.py,sha256=UhIqhp2ZgPndZkdsDUyg5T0v0ks079TlyttO5OG0kZg,46702
+@@ -207,12 +207,12 @@
+ huaweicloudsdkges/v2/model/upgrade_graph_req.py,sha256=JQDHQW3vcxzyEoseCea4NPfmK9V47HDXrrDuY7UcrWM,4970
+ huaweicloudsdkges/v2/model/upload_from_obs2_request.py,sha256=3dD0LBIJGiYR4YizZ1dB9wMvMB1rgM1j3BEdk5AaCQk,3115
+ huaweicloudsdkges/v2/model/upload_from_obs2_response.py,sha256=XAaCAGoUKG4JevaBdK4guX-akF_7uTgYbMHsEeAB68M,3793
+ huaweicloudsdkges/v2/model/upload_from_obs_req.py,sha256=EUBwizhAFh37rEYihl_DUsvYrfUfRFYHXdxHTZ9O8FM,5582
+ huaweicloudsdkges/v2/model/upload_from_obs_req_encryption.py,sha256=RTR8kMSKHPAhkB8UMV_zbVs3l-JhSr-YV72OwkuAGkQ,4226
+ huaweicloudsdkges/v2/region/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+ huaweicloudsdkges/v2/region/ges_region.py,sha256=z3U4fvl33fAwebfrQCmsD8upI_fKqhC0WBiIASvGhtc,1980
+-huaweicloudsdkges-3.1.95.dist-info/LICENSE,sha256=4_VSTLuxcsybRG9N4Isktlj1rAIBBsfl0Tjc0gBTijo,604
+-huaweicloudsdkges-3.1.95.dist-info/METADATA,sha256=OnF0A-6Sxf3pj5jr5CotLK88NLJjk82SvnqGvZ-gcfI,1134
+-huaweicloudsdkges-3.1.95.dist-info/WHEEL,sha256=DZajD4pwLWue70CAfc7YaxT1wLUciNBvN_TTcvXpltE,110
+-huaweicloudsdkges-3.1.95.dist-info/top_level.txt,sha256=Rd2LzBVpLdc9nilUzqps_NXlVxrJ4P1B6Pk3MaJtxSM,18
+-huaweicloudsdkges-3.1.95.dist-info/RECORD,,
++huaweicloudsdkges-3.1.96.dist-info/LICENSE,sha256=4_VSTLuxcsybRG9N4Isktlj1rAIBBsfl0Tjc0gBTijo,604
++huaweicloudsdkges-3.1.96.dist-info/METADATA,sha256=rnQnQ7s21NjI2ZkIhD3cCJA5UHYmJjqLqdWFhgznGMI,1134
++huaweicloudsdkges-3.1.96.dist-info/WHEEL,sha256=DZajD4pwLWue70CAfc7YaxT1wLUciNBvN_TTcvXpltE,110
++huaweicloudsdkges-3.1.96.dist-info/top_level.txt,sha256=Rd2LzBVpLdc9nilUzqps_NXlVxrJ4P1B6Pk3MaJtxSM,18
++huaweicloudsdkges-3.1.96.dist-info/RECORD,,
+```
+
