@@ -15259,3 +15259,69 @@ EOFError: EOF read where object expected
 [2024-05-16 10:00:18] INFO root fetch - processPackages [PREN-flawas]: Remove: archive file [/home/abi/fetcher/tmp/pren_flawas-0.0.9.tar.gz]
 [2024-05-16 10:00:18] INFO root fetch - main [MainThread]: End processing [PREN-flawas]: success
 [2024-05-16 10:00:18] INFO root fetch - main [MainThread]: Store serial: [23230975]
+[2024-05-16 10:02:22] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23230975]
+[2024-05-16 10:02:27] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-16 10:02:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: odoo-addon-mail-tracking-mass-mailing
+[2024-05-16 10:02:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tencentcloud-sdk-python-ba
+[2024-05-16 10:02:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odoo-addon-mail-tracking
+[2024-05-16 10:02:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: tencentcloud-sdk-python-batch
+[2024-05-16 10:02:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: tencentcloud-sdk-python-bda
+[2024-05-16 10:02:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ixoncdkingress
+[2024-05-16 10:02:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: tencentcloud-sdk-python-bi
+[2024-05-16 10:02:27] INFO root fetch - processPackages [tencentcloud-sdk-python-ba]: New version: [3.0.999] Old Version: [3.0.998]
+[2024-05-16 10:02:27] INFO root fetch - processPackages [odoo-addon-mail-tracking]: New version: [16.0.1.0.4.8] Old Version: [16.0.1.0.4.44]
+[2024-05-16 10:02:27] INFO root fetch - processPackages [tencentcloud-sdk-python-bda]: New version: [3.0.999] Old Version: [3.0.998]
+[2024-05-16 10:02:27] INFO root fetch - processPackages [tencentcloud-sdk-python-bi]: New version: [3.0.999] Old Version: [3.0.998]
+[2024-05-16 10:02:27] INFO root fetch - processPackages [tencentcloud-sdk-python-batch]: New version: [3.0.999] Old Version: [3.0.998]
+[2024-05-16 10:02:27] INFO root fetch - processPackages [odoo-addon-mail-tracking-mass-mailing]: New version: [16.0.1.0.0.9] Old Version: [16.0.1.0.0.8]
+[2024-05-16 10:02:27] INFO root fetch - processPackages [ixoncdkingress]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-16 10:02:27] INFO root fetch - processPackages [tencentcloud-sdk-python-bi]: Downloading https://files.pythonhosted.org/packages/61/2c/dd1a05f83bf5970094ec9cf10d3a16fceb7036457180f5a518b2492a763f/tencentcloud-sdk-python-bi-3.0.998.tar.gz
+[2024-05-16 10:02:27] INFO root fetch - processPackages [tencentcloud-sdk-python-ba]: Downloading https://files.pythonhosted.org/packages/73/9d/f80badd2d43e3d7842c40578884470fdeafe5337b4ed8b8c3ae92741ce7a/tencentcloud-sdk-python-ba-3.0.998.tar.gz
+[2024-05-16 10:02:27] INFO root fetch - processPackages [tencentcloud-sdk-python-bda]: Downloading https://files.pythonhosted.org/packages/d4/3c/0d418abfac1039841ba0a6e74bba770b8a062b81b6d40a2c40d604c9ea01/tencentcloud-sdk-python-bda-3.0.998.tar.gz
+[2024-05-16 10:02:27] INFO root fetch - processPackages [tencentcloud-sdk-python-batch]: Downloading https://files.pythonhosted.org/packages/84/2c/212f86ff53168584fed4fd51300747ef6f235f1dc886a9d7deb92aec4188/tencentcloud-sdk-python-batch-3.0.998.tar.gz
+[2024-05-16 10:02:27] INFO root fetch - processPackages [odoo-addon-mail-tracking]: Downloading https://files.pythonhosted.org/packages/cf/f1/540a3ffab86b630633cd793bb837e503b42759a5886d21f8b2a73720c8c8/odoo_addon_mail_tracking-16.0.1.0.4.44-py3-none-any.whl
+[2024-05-16 10:02:27] INFO root fetch - processPackages [ixoncdkingress]: Downloading https://files.pythonhosted.org/packages/b3/1b/2738933755f61b85947702010ca1d9403e64824e49dcdc082f1b61a07b4a/ixoncdkingress-0.0.8.tar.gz
+[2024-05-16 10:02:27] INFO root fetch - processPackages [odoo-addon-mail-tracking-mass-mailing]: Downloading https://files.pythonhosted.org/packages/b4/ed/aa4a1059c51699445cffe415240ef5fa46943d8595e68052e52a271f5810/odoo_addon_mail_tracking_mass_mailing-16.0.1.0.0.8-py3-none-any.whl
+[2024-05-16 10:02:27] INFO root fetch - processPackages [tencentcloud-sdk-python-bda]: Downloading https://files.pythonhosted.org/packages/53/52/59484777d14af766b1e3906a5fbf026829acf3b6ae015166f4cfcba754c4/tencentcloud-sdk-python-bda-3.0.999.tar.gz
+[2024-05-16 10:02:27] INFO root fetch - processPackages [tencentcloud-sdk-python-ba]: Downloading https://files.pythonhosted.org/packages/a6/5f/7b04992ad00e61483a93d1e3c24ffc72d88d90c52339b59e90b664e805ad/tencentcloud-sdk-python-ba-3.0.999.tar.gz
+[2024-05-16 10:02:27] INFO root fetch - processPackages [tencentcloud-sdk-python-bi]: Downloading https://files.pythonhosted.org/packages/11/cd/7659d8bb5189a3b345538a35453afaf3edf3f9dfe285d24a57179527fe5a/tencentcloud-sdk-python-bi-3.0.999.tar.gz
+[2024-05-16 10:02:27] INFO root fetch - processPackages [tencentcloud-sdk-python-bda]: executing diffoscope
+[2024-05-16 10:02:27] INFO root fetch - processPackages [tencentcloud-sdk-python-bda]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud-sdk-python-bda-3.0.998.tar.gz tmp/tencentcloud-sdk-python-bda-3.0.999.tar.gz --markdown 20240516/t/tencentcloud-sdk-python-bda/3.0.998-3.0.999/README.md --exclude *.pyd
+[2024-05-16 10:02:27] INFO root fetch - processPackages [tencentcloud-sdk-python-batch]: Downloading https://files.pythonhosted.org/packages/ba/0a/fa9126fbd657ceeafa5d044c9bff15dbde88a1d5970d7c57d980a9fbd8a5/tencentcloud-sdk-python-batch-3.0.999.tar.gz
+[2024-05-16 10:02:27] INFO root fetch - processPackages [tencentcloud-sdk-python-ba]: executing diffoscope
+[2024-05-16 10:02:27] INFO root fetch - processPackages [tencentcloud-sdk-python-ba]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud-sdk-python-ba-3.0.998.tar.gz tmp/tencentcloud-sdk-python-ba-3.0.999.tar.gz --markdown 20240516/t/tencentcloud-sdk-python-ba/3.0.998-3.0.999/README.md --exclude *.pyd
+[2024-05-16 10:02:27] INFO root fetch - processPackages [tencentcloud-sdk-python-bi]: executing diffoscope
+[2024-05-16 10:02:27] INFO root fetch - processPackages [tencentcloud-sdk-python-bi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud-sdk-python-bi-3.0.998.tar.gz tmp/tencentcloud-sdk-python-bi-3.0.999.tar.gz --markdown 20240516/t/tencentcloud-sdk-python-bi/3.0.998-3.0.999/README.md --exclude *.pyd
+[2024-05-16 10:02:27] INFO root fetch - processPackages [odoo-addon-mail-tracking]: Downloading https://files.pythonhosted.org/packages/a9/b5/fe980727422eb439e605ad729f40089261801552e5074675cce97c3dbd4f/odoo_addon_mail_tracking-16.0.1.0.4.8-py3-none-any.whl
+[2024-05-16 10:02:27] INFO root fetch - processPackages [tencentcloud-sdk-python-batch]: executing diffoscope
+[2024-05-16 10:02:27] INFO root fetch - processPackages [tencentcloud-sdk-python-batch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud-sdk-python-batch-3.0.998.tar.gz tmp/tencentcloud-sdk-python-batch-3.0.999.tar.gz --markdown 20240516/t/tencentcloud-sdk-python-batch/3.0.998-3.0.999/README.md --exclude *.pyd
+[2024-05-16 10:02:28] INFO root fetch - processPackages [odoo-addon-mail-tracking-mass-mailing]: Downloading https://files.pythonhosted.org/packages/b0/f4/c2cbf7cd6b447cf04b68f4d9b2ff5fd3adeed01e9663ac6690dd0542edaa/odoo_addon_mail_tracking_mass_mailing-16.0.1.0.0.9-py3-none-any.whl
+[2024-05-16 10:02:28] INFO root fetch - processPackages [ixoncdkingress]: Downloading https://files.pythonhosted.org/packages/81/5d/64486ddfc794e9b261c3c76607feaa76e92ecb01cd26ffd13bced3ecac65/ixoncdkingress-0.0.9.tar.gz
+[2024-05-16 10:02:28] INFO root fetch - processPackages [odoo-addon-mail-tracking-mass-mailing]: executing diffoscope
+[2024-05-16 10:02:28] INFO root fetch - processPackages [odoo-addon-mail-tracking-mass-mailing]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_mail_tracking_mass_mailing-16.0.1.0.0.8-py3-none-any.whl.zip tmp/odoo_addon_mail_tracking_mass_mailing-16.0.1.0.0.9-py3-none-any.whl.zip --markdown 20240516/o/odoo-addon-mail-tracking-mass-mailing/16.0.1.0.0.8-16.0.1.0.0.9/README.md --exclude *.pyd
+[2024-05-16 10:02:28] INFO root fetch - processPackages [odoo-addon-mail-tracking]: executing diffoscope
+[2024-05-16 10:02:28] INFO root fetch - processPackages [odoo-addon-mail-tracking]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_mail_tracking-16.0.1.0.4.44-py3-none-any.whl.zip tmp/odoo_addon_mail_tracking-16.0.1.0.4.8-py3-none-any.whl.zip --markdown 20240516/o/odoo-addon-mail-tracking/16.0.1.0.4.44-16.0.1.0.4.8/README.md --exclude *.pyd
+[2024-05-16 10:02:28] INFO root fetch - processPackages [ixoncdkingress]: executing diffoscope
+[2024-05-16 10:02:28] INFO root fetch - processPackages [ixoncdkingress]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ixoncdkingress-0.0.8.tar.gz tmp/ixoncdkingress-0.0.9.tar.gz --markdown 20240516/i/ixoncdkingress/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-16 10:02:28] INFO root fetch - processPackages [tencentcloud-sdk-python-ba]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-ba-3.0.998.tar.gz]
+[2024-05-16 10:02:28] INFO root fetch - processPackages [tencentcloud-sdk-python-ba]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-ba-3.0.999.tar.gz]
+[2024-05-16 10:02:28] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-ba]: success
+[2024-05-16 10:02:28] INFO root fetch - processPackages [tencentcloud-sdk-python-bda]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-bda-3.0.998.tar.gz]
+[2024-05-16 10:02:28] INFO root fetch - processPackages [tencentcloud-sdk-python-bda]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-bda-3.0.999.tar.gz]
+[2024-05-16 10:02:28] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-bda]: success
+[2024-05-16 10:02:29] INFO root fetch - processPackages [tencentcloud-sdk-python-bi]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-bi-3.0.998.tar.gz]
+[2024-05-16 10:02:29] INFO root fetch - processPackages [tencentcloud-sdk-python-bi]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-bi-3.0.999.tar.gz]
+[2024-05-16 10:02:29] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-bi]: success
+[2024-05-16 10:02:29] INFO root fetch - processPackages [tencentcloud-sdk-python-batch]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-batch-3.0.998.tar.gz]
+[2024-05-16 10:02:29] INFO root fetch - processPackages [tencentcloud-sdk-python-batch]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-batch-3.0.999.tar.gz]
+[2024-05-16 10:02:29] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-batch]: success
+[2024-05-16 10:02:29] INFO root fetch - processPackages [ixoncdkingress]: Remove: archive file [/home/abi/fetcher/tmp/ixoncdkingress-0.0.8.tar.gz]
+[2024-05-16 10:02:29] INFO root fetch - processPackages [ixoncdkingress]: Remove: archive file [/home/abi/fetcher/tmp/ixoncdkingress-0.0.9.tar.gz]
+[2024-05-16 10:02:29] INFO root fetch - main [MainThread]: End processing [ixoncdkingress]: success
+[2024-05-16 10:02:29] INFO root fetch - processPackages [odoo-addon-mail-tracking-mass-mailing]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_mail_tracking_mass_mailing-16.0.1.0.0.8-py3-none-any.whl.zip]
+[2024-05-16 10:02:29] INFO root fetch - processPackages [odoo-addon-mail-tracking-mass-mailing]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_mail_tracking_mass_mailing-16.0.1.0.0.9-py3-none-any.whl.zip]
+[2024-05-16 10:02:29] INFO root fetch - main [MainThread]: End processing [odoo-addon-mail-tracking-mass-mailing]: success
+[2024-05-16 10:02:29] INFO root fetch - processPackages [odoo-addon-mail-tracking]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_mail_tracking-16.0.1.0.4.44-py3-none-any.whl.zip]
+[2024-05-16 10:02:29] INFO root fetch - processPackages [odoo-addon-mail-tracking]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_mail_tracking-16.0.1.0.4.8-py3-none-any.whl.zip]
+[2024-05-16 10:02:29] INFO root fetch - main [MainThread]: End processing [odoo-addon-mail-tracking]: success
+[2024-05-16 10:02:29] INFO root fetch - main [MainThread]: Store serial: [23230993]
