@@ -9696,3 +9696,45 @@ EOFError: EOF read where object expected
 [2024-05-16 04:38:57] INFO root fetch - processPackages [espresso-machine]: Remove: archive file [/home/abi/fetcher/tmp/espresso_machine-0.0.11.tar.gz]
 [2024-05-16 04:38:57] INFO root fetch - main [MainThread]: End processing [espresso-machine]: success
 [2024-05-16 04:38:57] INFO root fetch - main [MainThread]: Store serial: [23228815]
+[2024-05-16 04:41:01] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23228815]
+[2024-05-16 04:41:05] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-16 04:41:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: langchain-pinecone
+[2024-05-16 04:41:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: espresso-machine
+[2024-05-16 04:41:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: PypiInstruments
+[2024-05-16 04:41:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: qleegss
+[2024-05-16 04:41:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: espresso-machine
+[2024-05-16 04:41:05] INFO root fetch - processPackages [espresso-machine]: New version: [0.0.111] Old Version: [0.0.11]
+[2024-05-16 04:41:05] INFO root fetch - processPackages [espresso-machine]: New version: [0.0.111] Old Version: [0.0.11]
+[2024-05-16 04:41:05] INFO root fetch - processPackages [PypiInstruments]: New version: [1.0.9] Old Version: [1.0.7]
+[2024-05-16 04:41:05] INFO root fetch - processPackages [langchain-pinecone]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-05-16 04:41:05] INFO root fetch - processPackages [qleegss]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-16 04:41:05] INFO root fetch - processPackages [espresso-machine]: Downloading https://files.pythonhosted.org/packages/84/3b/d0434f52273cc85ab5fab6df6d07ae4663aa5d63a738744aa8754b1b588e/espresso_machine-0.0.11.tar.gz
+[2024-05-16 04:41:05] INFO root fetch - processPackages [espresso-machine]: Downloading https://files.pythonhosted.org/packages/84/3b/d0434f52273cc85ab5fab6df6d07ae4663aa5d63a738744aa8754b1b588e/espresso_machine-0.0.11.tar.gz
+[2024-05-16 04:41:05] INFO root fetch - processPackages [PypiInstruments]: Downloading https://files.pythonhosted.org/packages/1c/71/b2f993061d51bbd7eae2d6ad8493b9a09ec7f42e42cb40f9c781a68196a9/PypiInstruments-1.0.7.tar.gz
+[2024-05-16 04:41:05] INFO root fetch - processPackages [langchain-pinecone]: Downloading https://files.pythonhosted.org/packages/2b/8b/720ed772cdd089879b0e19ce63a021361a03986ffc7cdd4df20e340d2e79/langchain_pinecone-0.1.0.tar.gz
+[2024-05-16 04:41:05] INFO root fetch - processPackages [qleegss]: Downloading https://files.pythonhosted.org/packages/06/1e/3ca6e311e0a7d815c65771d58053745632e0a11ad74e83e01770fdf7c2f7/qleegss-0.0.8.tar.gz
+[2024-05-16 04:41:06] WARNING root fetch - processPackages [qleegss]: Skipping package: exceeds size limit 20058685>=10485760
+[2024-05-16 04:41:06] INFO root fetch - main [MainThread]: End processing [qleegss] error
+[2024-05-16 04:41:06] INFO root fetch - processPackages [PypiInstruments]: Downloading https://files.pythonhosted.org/packages/7d/e4/97f65dff822ee8a319d7b3cc947b134b38c2e966128e7f12939e9102bd0d/PypiInstruments-1.0.9.tar.gz
+[2024-05-16 04:41:06] INFO root fetch - processPackages [langchain-pinecone]: Downloading https://files.pythonhosted.org/packages/8c/e4/811c0bb951698bd09d0ea621d903c050aedb5f2defd33356ae40473f443f/langchain_pinecone-0.1.1.tar.gz
+[2024-05-16 04:41:06] INFO root fetch - processPackages [PypiInstruments]: executing diffoscope
+[2024-05-16 04:41:06] INFO root fetch - processPackages [PypiInstruments]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PypiInstruments-1.0.7.tar.gz tmp/PypiInstruments-1.0.9.tar.gz --markdown 20240516/P/PypiInstruments/1.0.7-1.0.9/README.md --exclude *.pyd
+[2024-05-16 04:41:06] INFO root fetch - processPackages [langchain-pinecone]: executing diffoscope
+[2024-05-16 04:41:06] INFO root fetch - processPackages [langchain-pinecone]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/langchain_pinecone-0.1.0.tar.gz tmp/langchain_pinecone-0.1.1.tar.gz --markdown 20240516/l/langchain-pinecone/0.1.0-0.1.1/README.md --exclude *.pyd
+[2024-05-16 04:41:06] INFO root fetch - processPackages [espresso-machine]: Downloading https://files.pythonhosted.org/packages/c0/33/bc9f67d30986b1104f7543198b10cbb31593073c639a3bf39e6cc0f1a3d7/espresso_machine-0.0.111.tar.gz
+[2024-05-16 04:41:06] INFO root fetch - processPackages [espresso-machine]: Downloading https://files.pythonhosted.org/packages/c0/33/bc9f67d30986b1104f7543198b10cbb31593073c639a3bf39e6cc0f1a3d7/espresso_machine-0.0.111.tar.gz
+[2024-05-16 04:41:06] INFO root fetch - processPackages [PypiInstruments]: Remove: archive file [/home/abi/fetcher/tmp/PypiInstruments-1.0.7.tar.gz]
+[2024-05-16 04:41:06] INFO root fetch - processPackages [PypiInstruments]: Remove: archive file [/home/abi/fetcher/tmp/PypiInstruments-1.0.9.tar.gz]
+[2024-05-16 04:41:06] INFO root fetch - main [MainThread]: End processing [PypiInstruments]: success
+[2024-05-16 04:41:06] INFO root fetch - processPackages [langchain-pinecone]: Remove: archive file [/home/abi/fetcher/tmp/langchain_pinecone-0.1.0.tar.gz]
+[2024-05-16 04:41:06] INFO root fetch - processPackages [langchain-pinecone]: Remove: archive file [/home/abi/fetcher/tmp/langchain_pinecone-0.1.1.tar.gz]
+[2024-05-16 04:41:06] INFO root fetch - main [MainThread]: End processing [langchain-pinecone]: success
+[2024-05-16 04:41:07] INFO root fetch - processPackages [espresso-machine]: executing diffoscope
+[2024-05-16 04:41:07] INFO root fetch - processPackages [espresso-machine]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/espresso_machine-0.0.11.tar.gz tmp/espresso_machine-0.0.111.tar.gz --markdown 20240516/e/espresso-machine/0.0.11-0.0.111/README.md --exclude *.pyd
+[2024-05-16 04:41:07] INFO root fetch - processPackages [espresso-machine]: executing diffoscope
+[2024-05-16 04:41:07] INFO root fetch - processPackages [espresso-machine]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/espresso_machine-0.0.11.tar.gz tmp/espresso_machine-0.0.111.tar.gz --markdown 20240516/e/espresso-machine/0.0.11-0.0.111/README.md --exclude *.pyd
+[2024-05-16 04:41:08] INFO root fetch - processPackages [espresso-machine]: Remove: archive file [/home/abi/fetcher/tmp/espresso_machine-0.0.11.tar.gz]
+[2024-05-16 04:41:08] INFO root fetch - processPackages [espresso-machine]: Remove: archive file [/home/abi/fetcher/tmp/espresso_machine-0.0.111.tar.gz]
+[2024-05-16 04:41:08] INFO root fetch - main [MainThread]: End processing [espresso-machine]: success
+[2024-05-16 04:41:08] INFO root fetch - main [MainThread]: End processing [espresso-machine]: success
+[2024-05-16 04:41:08] INFO root fetch - main [MainThread]: Store serial: [23228828]
