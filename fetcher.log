@@ -4267,3 +4267,42 @@ AssertionError: tmp/hygpytools-0.2.0.tar.gz does not exist
 [2024-05-16 02:22:24] INFO root fetch - processPackages [xiaomusic]: Remove: archive file [/home/abi/fetcher/tmp/xiaomusic-0.1.9.tar.gz]
 [2024-05-16 02:22:24] INFO root fetch - main [MainThread]: End processing [xiaomusic]: success
 [2024-05-16 02:22:24] INFO root fetch - main [MainThread]: Store serial: [23226829]
+[2024-05-16 02:24:28] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23226829]
+[2024-05-16 02:24:33] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-16 02:24:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: xiaomusic
+[2024-05-16 02:24:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: sonus
+[2024-05-16 02:24:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: nothingpy
+[2024-05-16 02:24:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cdk-certbot-dns-route53
+[2024-05-16 02:24:33] INFO root fetch - processPackages [nothingpy]: New version: [0.1.1] Old Version: [0.1]
+[2024-05-16 02:24:33] INFO root fetch - processPackages [sonus]: New version: [0.6.3] Old Version: [0.6.2]
+[2024-05-16 02:24:33] INFO root fetch - processPackages [xiaomusic]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-16 02:24:33] INFO root fetch - processPackages [nothingpy]: Downloading https://files.pythonhosted.org/packages/cb/3a/8559899c2390269d1127843e2c5851fe591c0a4dcaa5650e9e34425ac180/nothingpy-0.1.tar.gz
+[2024-05-16 02:24:33] INFO root fetch - processPackages [xiaomusic]: Downloading https://files.pythonhosted.org/packages/43/b7/00d5b5484c941fbe637c09c55a9c8eb8efa9613e8f748eb82063230d7c40/xiaomusic-0.1.8.tar.gz
+[2024-05-16 02:24:33] INFO root fetch - processPackages [cdk-certbot-dns-route53]: New version: [2.4.99] Old Version: [2.4.98]
+[2024-05-16 02:24:33] INFO root fetch - processPackages [sonus]: Downloading https://files.pythonhosted.org/packages/5c/1b/645454132402952c27ac110d26ce44e2e52f600c1c6a971d62c0e85b6b7f/sonus-0.6.2.tar.gz
+[2024-05-16 02:24:33] INFO root fetch - processPackages [nothingpy]: Downloading https://files.pythonhosted.org/packages/46/d8/5837821b516fd22d7eb0a5772bd2e52ca83359b965c4c226ecfa0d71f3c2/nothingpy-0.1.1.tar.gz
+[2024-05-16 02:24:33] INFO root fetch - processPackages [xiaomusic]: Downloading https://files.pythonhosted.org/packages/a1/21/10e07d79cc47710402442039f3fe0d28c854c8225032a4972152505951a3/xiaomusic-0.1.9.tar.gz
+[2024-05-16 02:24:33] INFO root fetch - processPackages [cdk-certbot-dns-route53]: Downloading https://files.pythonhosted.org/packages/7d/4d/b1cb6c8586d736f490cc5099e0220282aadb28d3aefc028cf88e6a183b06/cdk-certbot-dns-route53-2.4.98.tar.gz
+[2024-05-16 02:24:33] INFO root fetch - processPackages [nothingpy]: executing diffoscope
+[2024-05-16 02:24:33] INFO root fetch - processPackages [nothingpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nothingpy-0.1.tar.gz tmp/nothingpy-0.1.1.tar.gz --markdown 20240516/n/nothingpy/0.1-0.1.1/README.md --exclude *.pyd
+[2024-05-16 02:24:33] INFO root fetch - processPackages [xiaomusic]: executing diffoscope
+[2024-05-16 02:24:33] INFO root fetch - processPackages [xiaomusic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xiaomusic-0.1.8.tar.gz tmp/xiaomusic-0.1.9.tar.gz --markdown 20240516/x/xiaomusic/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-16 02:24:33] INFO root fetch - processPackages [sonus]: Downloading https://files.pythonhosted.org/packages/16/39/16cf4e58078c89a13de644bd718d6327a3b719156f959e7652acd69a7f61/sonus-0.6.3.tar.gz
+[2024-05-16 02:24:34] INFO root fetch - processPackages [cdk-certbot-dns-route53]: Downloading https://files.pythonhosted.org/packages/28/81/76f66486f9d6f5aee6f787bb13f11ab8012414fd95d10756b575fd69b909/cdk-certbot-dns-route53-2.4.99.tar.gz
+[2024-05-16 02:24:34] INFO root fetch - processPackages [cdk-certbot-dns-route53]: executing diffoscope
+[2024-05-16 02:24:34] INFO root fetch - processPackages [cdk-certbot-dns-route53]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-certbot-dns-route53-2.4.98.tar.gz tmp/cdk-certbot-dns-route53-2.4.99.tar.gz --markdown 20240516/c/cdk-certbot-dns-route53/2.4.98-2.4.99/README.md --exclude *.pyd
+[2024-05-16 02:24:34] INFO root fetch - processPackages [sonus]: executing diffoscope
+[2024-05-16 02:24:34] INFO root fetch - processPackages [sonus]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sonus-0.6.2.tar.gz tmp/sonus-0.6.3.tar.gz --markdown 20240516/s/sonus/0.6.2-0.6.3/README.md --exclude *.pyd
+[2024-05-16 02:24:34] INFO root fetch - processPackages [nothingpy]: Remove: archive file [/home/abi/fetcher/tmp/nothingpy-0.1.tar.gz]
+[2024-05-16 02:24:34] INFO root fetch - processPackages [nothingpy]: Remove: archive file [/home/abi/fetcher/tmp/nothingpy-0.1.1.tar.gz]
+[2024-05-16 02:24:34] INFO root fetch - main [MainThread]: End processing [nothingpy]: success
+[2024-05-16 02:24:34] INFO root fetch - processPackages [xiaomusic]: Remove: archive file [/home/abi/fetcher/tmp/xiaomusic-0.1.8.tar.gz]
+[2024-05-16 02:24:34] INFO root fetch - processPackages [xiaomusic]: Remove: archive file [/home/abi/fetcher/tmp/xiaomusic-0.1.9.tar.gz]
+[2024-05-16 02:24:34] INFO root fetch - main [MainThread]: End processing [xiaomusic]: success
+[2024-05-16 02:24:34] INFO root fetch - processPackages [cdk-certbot-dns-route53]: Remove: archive file [/home/abi/fetcher/tmp/cdk-certbot-dns-route53-2.4.98.tar.gz]
+[2024-05-16 02:24:34] INFO root fetch - processPackages [cdk-certbot-dns-route53]: Remove: archive file [/home/abi/fetcher/tmp/cdk-certbot-dns-route53-2.4.99.tar.gz]
+[2024-05-16 02:24:34] INFO root fetch - main [MainThread]: End processing [cdk-certbot-dns-route53]: success
+[2024-05-16 02:24:34] INFO root fetch - processPackages [sonus]: Remove: archive file [/home/abi/fetcher/tmp/sonus-0.6.2.tar.gz]
+[2024-05-16 02:24:34] INFO root fetch - processPackages [sonus]: Remove: archive file [/home/abi/fetcher/tmp/sonus-0.6.3.tar.gz]
+[2024-05-16 02:24:34] INFO root fetch - main [MainThread]: End processing [sonus]: success
+[2024-05-16 02:24:34] INFO root fetch - main [MainThread]: Store serial: [23226842]
