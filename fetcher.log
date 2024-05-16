@@ -14574,3 +14574,60 @@ EOFError: EOF read where object expected
 [2024-05-16 09:38:57] INFO root fetch - processPackages [modelbest-sdk]: Remove: archive file [/home/abi/fetcher/tmp/modelbest_sdk-0.1.3.tar.gz]
 [2024-05-16 09:38:57] INFO root fetch - main [MainThread]: End processing [modelbest-sdk]: success
 [2024-05-16 09:38:57] INFO root fetch - main [MainThread]: Store serial: [23230728]
+[2024-05-16 09:41:01] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23230728]
+[2024-05-16 09:41:05] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-16 09:41:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pms-encoder
+[2024-05-16 09:41:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: smol_k8s_lab
+[2024-05-16 09:41:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: hello-world-demo
+[2024-05-16 09:41:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: socketwrench
+[2024-05-16 09:41:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: jupyterlab-git
+[2024-05-16 09:41:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: bce-python-sdk
+[2024-05-16 09:41:05] INFO root fetch - processPackages [hello-world-demo]: New version: [1.1.0] Old Version: [1.0.1]
+[2024-05-16 09:41:05] INFO root fetch - processPackages [smol_k8s_lab]: New version: [5.0.1] Old Version: [5.0.0]
+[2024-05-16 09:41:05] INFO root fetch - processPackages [pms-encoder]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-16 09:41:05] INFO root fetch - processPackages [socketwrench]: New version: [1.8.5] Old Version: [1.8.4]
+[2024-05-16 09:41:05] INFO root fetch - processPackages [bce-python-sdk]: New version: [0.9.9] Old Version: [0.9.7]
+[2024-05-16 09:41:05] INFO root fetch - processPackages [jupyterlab-git]: New version: [0.9.1] Old Version: [0.9.0rc1]
+[2024-05-16 09:41:05] INFO root fetch - processPackages [pms-encoder]: Downloading https://files.pythonhosted.org/packages/80/f1/88f2f54188c15bf6cca5ba7a3a347b8d1c83b15a626f541acf3dde5aa63d/pms_encoder-0.0.8.tar.gz
+[2024-05-16 09:41:05] INFO root fetch - processPackages [hello-world-demo]: Downloading https://files.pythonhosted.org/packages/5b/b2/ff4183dfe62064c9aafd0bc0a34824c661dafc7f7de2df5c2f60f4f92bc5/hello_world_demo-1.0.1.tar.gz
+[2024-05-16 09:41:05] INFO root fetch - processPackages [socketwrench]: Downloading https://files.pythonhosted.org/packages/0d/b8/e76cdb227c1123a243d3add7b092ceefbcbed9927cca715f661066191059/socketwrench-1.8.4.tar.gz
+[2024-05-16 09:41:06] INFO root fetch - processPackages [smol_k8s_lab]: Downloading https://files.pythonhosted.org/packages/68/4c/a6aab0463c9f805621294334b282bed1b3538cac51222d46c61d423a2c19/smol_k8s_lab-5.0.0.tar.gz
+[2024-05-16 09:41:06] INFO root fetch - processPackages [bce-python-sdk]: Downloading https://files.pythonhosted.org/packages/61/a7/d38439b7e6c7abf2ad281060a124122158b26c7d6d40a5194fc8822be8b1/bce_python_sdk-0.9.7.tar.gz
+[2024-05-16 09:41:06] INFO root fetch - processPackages [jupyterlab-git]: Downloading https://files.pythonhosted.org/packages/ce/f5/cdc01fcfa5890713f625b3bb3c17299ebf2a095c176fa5f8f3d5ceb63ea9/jupyterlab_git-0.9.0rc1.tar.gz
+[2024-05-16 09:41:06] INFO root fetch - processPackages [pms-encoder]: Downloading https://files.pythonhosted.org/packages/93/31/8bb081756db42925fab6507b6e0f497d6bf45acd407ff38cb00f2aaec54c/pms_encoder-0.0.9.tar.gz
+[2024-05-16 09:41:06] INFO root fetch - processPackages [hello-world-demo]: Downloading https://files.pythonhosted.org/packages/dc/33/e51499a7f41210ae4b6365758fe26cc4e122c146ed222e3f6cb8bb389efa/hello_world_demo-1.1.0.tar.gz
+[2024-05-16 09:41:06] INFO root fetch - processPackages [socketwrench]: Downloading https://files.pythonhosted.org/packages/6b/d4/fd7e06fb0cbfb621762d156635c03e3a06f58ea378b805929936a8924c26/socketwrench-1.8.5.tar.gz
+[2024-05-16 09:41:06] INFO root fetch - processPackages [pms-encoder]: executing diffoscope
+[2024-05-16 09:41:06] INFO root fetch - processPackages [pms-encoder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pms_encoder-0.0.8.tar.gz tmp/pms_encoder-0.0.9.tar.gz --markdown 20240516/p/pms-encoder/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-16 09:41:06] INFO root fetch - processPackages [socketwrench]: executing diffoscope
+[2024-05-16 09:41:06] INFO root fetch - processPackages [socketwrench]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/socketwrench-1.8.4.tar.gz tmp/socketwrench-1.8.5.tar.gz --markdown 20240516/s/socketwrench/1.8.4-1.8.5/README.md --exclude *.pyd
+[2024-05-16 09:41:06] INFO root fetch - processPackages [hello-world-demo]: executing diffoscope
+[2024-05-16 09:41:06] INFO root fetch - processPackages [hello-world-demo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hello_world_demo-1.0.1.tar.gz tmp/hello_world_demo-1.1.0.tar.gz --markdown 20240516/h/hello-world-demo/1.0.1-1.1.0/README.md --exclude *.pyd
+[2024-05-16 09:41:06] INFO root fetch - processPackages [bce-python-sdk]: Downloading https://files.pythonhosted.org/packages/6d/21/20d61d3ada0f60e10c0eabdd861f0261b895b99d784b6cf4a49980f065d7/bce_python_sdk-0.9.9.tar.gz
+[2024-05-16 09:41:06] INFO root fetch - processPackages [jupyterlab-git]: Downloading https://files.pythonhosted.org/packages/0d/8e/a312e832604e8fd0d3d17b0f2966a4edffa8e0efb765259ad2ce46eb8e92/jupyterlab_git-0.9.1.tar.gz
+[2024-05-16 09:41:06] INFO root fetch - processPackages [bce-python-sdk]: executing diffoscope
+[2024-05-16 09:41:06] INFO root fetch - processPackages [bce-python-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bce_python_sdk-0.9.7.tar.gz tmp/bce_python_sdk-0.9.9.tar.gz --markdown 20240516/b/bce-python-sdk/0.9.7-0.9.9/README.md --exclude *.pyd
+[2024-05-16 09:41:06] INFO root fetch - processPackages [smol_k8s_lab]: Downloading https://files.pythonhosted.org/packages/f4/a0/235bbb9b1bb1d4e7e0c3d129272a475d18f0bcf84edc3e088fcc10927c45/smol_k8s_lab-5.0.1.tar.gz
+[2024-05-16 09:41:07] INFO root fetch - processPackages [jupyterlab-git]: executing diffoscope
+[2024-05-16 09:41:07] INFO root fetch - processPackages [jupyterlab-git]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jupyterlab_git-0.9.0rc1.tar.gz tmp/jupyterlab_git-0.9.1.tar.gz --markdown 20240516/j/jupyterlab-git/0.9.0rc1-0.9.1/README.md --exclude *.pyd
+[2024-05-16 09:41:07] INFO root fetch - processPackages [smol_k8s_lab]: executing diffoscope
+[2024-05-16 09:41:07] INFO root fetch - processPackages [smol_k8s_lab]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/smol_k8s_lab-5.0.0.tar.gz tmp/smol_k8s_lab-5.0.1.tar.gz --markdown 20240516/s/smol_k8s_lab/5.0.0-5.0.1/README.md --exclude *.pyd
+[2024-05-16 09:41:07] INFO root fetch - processPackages [hello-world-demo]: Remove: archive file [/home/abi/fetcher/tmp/hello_world_demo-1.0.1.tar.gz]
+[2024-05-16 09:41:07] INFO root fetch - processPackages [hello-world-demo]: Remove: archive file [/home/abi/fetcher/tmp/hello_world_demo-1.1.0.tar.gz]
+[2024-05-16 09:41:07] INFO root fetch - main [MainThread]: End processing [hello-world-demo]: success
+[2024-05-16 09:41:07] INFO root fetch - processPackages [pms-encoder]: Remove: archive file [/home/abi/fetcher/tmp/pms_encoder-0.0.8.tar.gz]
+[2024-05-16 09:41:07] INFO root fetch - processPackages [pms-encoder]: Remove: archive file [/home/abi/fetcher/tmp/pms_encoder-0.0.9.tar.gz]
+[2024-05-16 09:41:07] INFO root fetch - main [MainThread]: End processing [pms-encoder]: success
+[2024-05-16 09:41:07] INFO root fetch - processPackages [socketwrench]: Remove: archive file [/home/abi/fetcher/tmp/socketwrench-1.8.4.tar.gz]
+[2024-05-16 09:41:07] INFO root fetch - processPackages [socketwrench]: Remove: archive file [/home/abi/fetcher/tmp/socketwrench-1.8.5.tar.gz]
+[2024-05-16 09:41:07] INFO root fetch - main [MainThread]: End processing [socketwrench]: success
+[2024-05-16 09:41:07] INFO root fetch - processPackages [jupyterlab-git]: Remove: archive file [/home/abi/fetcher/tmp/jupyterlab_git-0.9.0rc1.tar.gz]
+[2024-05-16 09:41:07] INFO root fetch - processPackages [jupyterlab-git]: Remove: archive file [/home/abi/fetcher/tmp/jupyterlab_git-0.9.1.tar.gz]
+[2024-05-16 09:41:07] INFO root fetch - main [MainThread]: End processing [jupyterlab-git]: success
+[2024-05-16 09:41:08] INFO root fetch - processPackages [bce-python-sdk]: Remove: archive file [/home/abi/fetcher/tmp/bce_python_sdk-0.9.7.tar.gz]
+[2024-05-16 09:41:08] INFO root fetch - processPackages [bce-python-sdk]: Remove: archive file [/home/abi/fetcher/tmp/bce_python_sdk-0.9.9.tar.gz]
+[2024-05-16 09:41:08] INFO root fetch - main [MainThread]: End processing [bce-python-sdk]: success
+[2024-05-16 09:41:08] INFO root fetch - processPackages [smol_k8s_lab]: Remove: archive file [/home/abi/fetcher/tmp/smol_k8s_lab-5.0.0.tar.gz]
+[2024-05-16 09:41:08] INFO root fetch - processPackages [smol_k8s_lab]: Remove: archive file [/home/abi/fetcher/tmp/smol_k8s_lab-5.0.1.tar.gz]
+[2024-05-16 09:41:08] INFO root fetch - main [MainThread]: End processing [smol_k8s_lab]: success
+[2024-05-16 09:41:08] INFO root fetch - main [MainThread]: Store serial: [23230752]
