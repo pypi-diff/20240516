@@ -13412,3 +13412,54 @@ EOFError: EOF read where object expected
 [2024-05-16 08:49:17] INFO root fetch - processPackages [magicdaq]: Remove: archive file [/home/abi/fetcher/tmp/magicdaq-1.9.0.tar.gz]
 [2024-05-16 08:49:17] INFO root fetch - main [MainThread]: End processing [magicdaq]: success
 [2024-05-16 08:49:17] INFO root fetch - main [MainThread]: Store serial: [23230270]
+[2024-05-16 08:51:26] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23230270]
+[2024-05-16 08:51:31] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-16 08:51:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: data-prep-toolkit-kfp
+[2024-05-16 08:51:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: simglucose
+[2024-05-16 08:51:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: gwml
+[2024-05-16 08:51:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: netlink-core
+[2024-05-16 08:51:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ddev
+[2024-05-16 08:51:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: visapi
+[2024-05-16 08:51:31] INFO root fetch - processPackages [gwml]: New version: [0.1.0] Old Version: [0.0.9]
+[2024-05-16 08:51:31] INFO root fetch - processPackages [data-prep-toolkit-kfp]: New version: [0.0.1.dev9] Old Version: [0.0.1.dev8]
+[2024-05-16 08:51:31] INFO root fetch - processPackages [netlink-core]: New version: [1.1.2] Old Version: [1.1.1]
+[2024-05-16 08:51:31] INFO root fetch - processPackages [gwml]: Downloading https://files.pythonhosted.org/packages/32/aa/14209e89a634e3b505ccc9df1eb30913fc8651b31052ae6f251d50580169/gwml-0.0.9-py3-none-any.whl
+[2024-05-16 08:51:31] INFO root fetch - processPackages [data-prep-toolkit-kfp]: Downloading https://files.pythonhosted.org/packages/77/32/e1870ff2cf3cfa8aa67341ed691e5828aa67e0420b4dad5cc2db29038c25/data_prep_toolkit_kfp-0.0.1.dev8.tar.gz
+[2024-05-16 08:51:31] INFO root fetch - processPackages [simglucose]: New version: [0.2.9] Old Version: [0.2.8]
+[2024-05-16 08:51:31] INFO root fetch - processPackages [ddev]: New version: [9.0.0] Old Version: [8.0.0]
+[2024-05-16 08:51:31] WARNING root fetch - processPackages [visapi]: Skipping, unable to determine old version
+[2024-05-16 08:51:31] INFO root fetch - main [MainThread]: End processing [visapi] error
+[2024-05-16 08:51:31] INFO root fetch - processPackages [netlink-core]: Downloading https://files.pythonhosted.org/packages/30/de/68dff4f82c9f253d74b2756345d75feacb16589e1dc94316026301ffe5db/netlink-core-1.1.1.tar.gz
+[2024-05-16 08:51:32] INFO root fetch - processPackages [simglucose]: Downloading https://files.pythonhosted.org/packages/b8/a4/cd0e3e25e252cf641f9d200b2a28be317f3207f870ddbd280fad3a313a15/simglucose-0.2.8.tar.gz
+[2024-05-16 08:51:32] INFO root fetch - processPackages [data-prep-toolkit-kfp]: Downloading https://files.pythonhosted.org/packages/ba/bf/e95575aad408e2aa50198d2c293f708992db973fc14a205c8aaefd64e700/data_prep_toolkit_kfp-0.0.1.dev9.tar.gz
+[2024-05-16 08:51:32] INFO root fetch - processPackages [ddev]: Downloading https://files.pythonhosted.org/packages/b9/86/95ce033e1ab817ec84f7f06207637b6df84c4562aff4cad01a872546065c/ddev-8.0.0.tar.gz
+[2024-05-16 08:51:32] INFO root fetch - processPackages [gwml]: Downloading https://files.pythonhosted.org/packages/2b/c3/8b3738c676506f8671920aad4ffae9003062962d53bac1c6327831eb1f7f/gwml-0.1.0-py3-none-any.whl
+[2024-05-16 08:51:32] INFO root fetch - processPackages [data-prep-toolkit-kfp]: executing diffoscope
+[2024-05-16 08:51:32] INFO root fetch - processPackages [data-prep-toolkit-kfp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/data_prep_toolkit_kfp-0.0.1.dev8.tar.gz tmp/data_prep_toolkit_kfp-0.0.1.dev9.tar.gz --markdown 20240516/d/data-prep-toolkit-kfp/0.0.1.dev8-0.0.1.dev9/README.md --exclude *.pyd
+[2024-05-16 08:51:32] INFO root fetch - processPackages [gwml]: executing diffoscope
+[2024-05-16 08:51:32] INFO root fetch - processPackages [gwml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gwml-0.0.9-py3-none-any.whl.zip tmp/gwml-0.1.0-py3-none-any.whl.zip --markdown 20240516/g/gwml/0.0.9-0.1.0/README.md --exclude *.pyd
+[2024-05-16 08:51:32] INFO root fetch - processPackages [netlink-core]: Downloading https://files.pythonhosted.org/packages/03/b9/08c4b0da1dee56ded927807260717216eb2c0df599b79907df771c0b8a07/netlink-core-1.1.2.tar.gz
+[2024-05-16 08:51:32] INFO root fetch - processPackages [simglucose]: Downloading https://files.pythonhosted.org/packages/5d/5d/c3486537e14c3b8081a2bc3c59f017b694145b3df9016a9cc9f84e41e504/simglucose-0.2.9.tar.gz
+[2024-05-16 08:51:32] INFO root fetch - processPackages [ddev]: Downloading https://files.pythonhosted.org/packages/48/58/dac19b20ce3d77b5695ebcc67c776f030d203f49e71cda519986a125d897/ddev-9.0.0.tar.gz
+[2024-05-16 08:51:32] INFO root fetch - processPackages [netlink-core]: executing diffoscope
+[2024-05-16 08:51:32] INFO root fetch - processPackages [netlink-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/netlink-core-1.1.1.tar.gz tmp/netlink-core-1.1.2.tar.gz --markdown 20240516/n/netlink-core/1.1.1-1.1.2/README.md --exclude *.pyd
+[2024-05-16 08:51:32] INFO root fetch - processPackages [simglucose]: executing diffoscope
+[2024-05-16 08:51:32] INFO root fetch - processPackages [simglucose]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/simglucose-0.2.8.tar.gz tmp/simglucose-0.2.9.tar.gz --markdown 20240516/s/simglucose/0.2.8-0.2.9/README.md --exclude *.pyd
+[2024-05-16 08:51:32] INFO root fetch - processPackages [ddev]: executing diffoscope
+[2024-05-16 08:51:32] INFO root fetch - processPackages [ddev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ddev-8.0.0.tar.gz tmp/ddev-9.0.0.tar.gz --markdown 20240516/d/ddev/8.0.0-9.0.0/README.md --exclude *.pyd
+[2024-05-16 08:51:32] INFO root fetch - processPackages [gwml]: Remove: archive file [/home/abi/fetcher/tmp/gwml-0.0.9-py3-none-any.whl.zip]
+[2024-05-16 08:51:32] INFO root fetch - processPackages [gwml]: Remove: archive file [/home/abi/fetcher/tmp/gwml-0.1.0-py3-none-any.whl.zip]
+[2024-05-16 08:51:32] INFO root fetch - main [MainThread]: End processing [gwml]: success
+[2024-05-16 08:51:32] INFO root fetch - processPackages [data-prep-toolkit-kfp]: Remove: archive file [/home/abi/fetcher/tmp/data_prep_toolkit_kfp-0.0.1.dev8.tar.gz]
+[2024-05-16 08:51:32] INFO root fetch - processPackages [data-prep-toolkit-kfp]: Remove: archive file [/home/abi/fetcher/tmp/data_prep_toolkit_kfp-0.0.1.dev9.tar.gz]
+[2024-05-16 08:51:32] INFO root fetch - main [MainThread]: End processing [data-prep-toolkit-kfp]: success
+[2024-05-16 08:51:33] INFO root fetch - processPackages [netlink-core]: Remove: archive file [/home/abi/fetcher/tmp/netlink-core-1.1.1.tar.gz]
+[2024-05-16 08:51:33] INFO root fetch - processPackages [netlink-core]: Remove: archive file [/home/abi/fetcher/tmp/netlink-core-1.1.2.tar.gz]
+[2024-05-16 08:51:33] INFO root fetch - main [MainThread]: End processing [netlink-core]: success
+[2024-05-16 08:51:33] INFO root fetch - processPackages [simglucose]: Remove: archive file [/home/abi/fetcher/tmp/simglucose-0.2.8.tar.gz]
+[2024-05-16 08:51:33] INFO root fetch - processPackages [simglucose]: Remove: archive file [/home/abi/fetcher/tmp/simglucose-0.2.9.tar.gz]
+[2024-05-16 08:51:33] INFO root fetch - main [MainThread]: End processing [simglucose]: success
+[2024-05-16 08:51:33] INFO root fetch - processPackages [ddev]: Remove: archive file [/home/abi/fetcher/tmp/ddev-8.0.0.tar.gz]
+[2024-05-16 08:51:33] INFO root fetch - processPackages [ddev]: Remove: archive file [/home/abi/fetcher/tmp/ddev-9.0.0.tar.gz]
+[2024-05-16 08:51:33] INFO root fetch - main [MainThread]: End processing [ddev]: success
+[2024-05-16 08:51:33] INFO root fetch - main [MainThread]: Store serial: [23230291]
