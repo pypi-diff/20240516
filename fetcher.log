@@ -4168,3 +4168,67 @@ AssertionError: tmp/hygpytools-0.2.0.tar.gz does not exist
 [2024-05-16 02:18:01] INFO root fetch - processPackages [streamlit-screen-stats]: Remove: archive file [/home/abi/fetcher/tmp/streamlit-screen-stats-0.0.9.tar.gz]
 [2024-05-16 02:18:01] INFO root fetch - main [MainThread]: End processing [streamlit-screen-stats]: success
 [2024-05-16 02:18:01] INFO root fetch - main [MainThread]: Store serial: [23226794]
+[2024-05-16 02:20:05] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23226794]
+[2024-05-16 02:20:10] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-16 02:20:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cdk-budibase
+[2024-05-16 02:20:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cdk-gitlab-runner
+[2024-05-16 02:20:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: nvflare
+[2024-05-16 02:20:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cdklabs.cdk-ethereum-node
+[2024-05-16 02:20:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: azure-sql-vector-search
+[2024-05-16 02:20:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: azure-sql-vector-search
+[2024-05-16 02:20:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: captif-slp
+[2024-05-16 02:20:10] INFO root fetch - processPackages [captif-slp]: New version: [0.9] Old Version: [0.8]
+[2024-05-16 02:20:10] INFO root fetch - processPackages [cdk-budibase]: New version: [0.0.99] Old Version: [0.0.98]
+[2024-05-16 02:20:10] INFO root fetch - processPackages [cdk-gitlab-runner]: New version: [2.2.99] Old Version: [2.2.98]
+[2024-05-16 02:20:10] INFO root fetch - processPackages [azure-sql-vector-search]: New version: [0.8.1] Old Version: [0.8.0]
+[2024-05-16 02:20:10] INFO root fetch - processPackages [azure-sql-vector-search]: New version: [0.8.1] Old Version: [0.8.0]
+[2024-05-16 02:20:10] INFO root fetch - processPackages [nvflare]: New version: [2.4.1rc8] Old Version: [2.4.1rc7]
+[2024-05-16 02:20:10] INFO root fetch - processPackages [cdklabs.cdk-ethereum-node]: New version: [0.0.99] Old Version: [0.0.98]
+[2024-05-16 02:20:10] INFO root fetch - processPackages [cdk-budibase]: Downloading https://files.pythonhosted.org/packages/4f/0a/01c6428b0ea2e78dd2dd9e10aba3ba8252b6cd0992b5a90ea9ba90983551/cdk-budibase-0.0.98.tar.gz
+[2024-05-16 02:20:10] INFO root fetch - processPackages [captif-slp]: Downloading https://files.pythonhosted.org/packages/75/c7/7fb5e638eb2c7b5d22b7e0d723ee989855703084d4e73e59b9177bafba52/captif-slp-0.8.tar.gz
+[2024-05-16 02:20:10] INFO root fetch - processPackages [cdk-gitlab-runner]: Downloading https://files.pythonhosted.org/packages/07/29/9f2cc8590770873b6073743e94ff15a2a7913eb0de3e6a4d2fc133008f62/cdk-gitlab-runner-2.2.98.tar.gz
+[2024-05-16 02:20:10] INFO root fetch - processPackages [azure-sql-vector-search]: Downloading https://files.pythonhosted.org/packages/e7/f4/73ca3fb6937f23afc756b8d205be470b52ff1d50d9cf84c9d502730148f3/azure_sql_vector_search-0.8.0.tar.gz
+[2024-05-16 02:20:10] INFO root fetch - processPackages [azure-sql-vector-search]: Downloading https://files.pythonhosted.org/packages/e7/f4/73ca3fb6937f23afc756b8d205be470b52ff1d50d9cf84c9d502730148f3/azure_sql_vector_search-0.8.0.tar.gz
+[2024-05-16 02:20:10] INFO root fetch - processPackages [captif-slp]: Downloading https://files.pythonhosted.org/packages/08/59/6bc2fe7908f5fe4b6d93eb6f7c0c450a0e43b7ade9ce1906f1d0269f6d1f/captif-slp-0.9.tar.gz
+[2024-05-16 02:20:10] INFO root fetch - processPackages [nvflare]: Downloading https://files.pythonhosted.org/packages/c1/29/5d101c1a2db9a90f320f9c0cb3dbfde994dd9c8953482da9c77d02a0d337/nvflare-2.4.1rc7-py3-none-any.whl
+[2024-05-16 02:20:10] INFO root fetch - processPackages [cdklabs.cdk-ethereum-node]: Downloading https://files.pythonhosted.org/packages/d8/1a/417af84315b2d52f6063ccf2072677259777d28fb73cab91e17879faaa26/cdklabs.cdk-ethereum-node-0.0.98.tar.gz
+[2024-05-16 02:20:10] INFO root fetch - processPackages [cdk-budibase]: Downloading https://files.pythonhosted.org/packages/3d/b1/10d1c8f0601959fd0771f3dc7b94b15e702b81729d74397e80ca3dd66c88/cdk-budibase-0.0.99.tar.gz
+[2024-05-16 02:20:10] INFO root fetch - processPackages [captif-slp]: executing diffoscope
+[2024-05-16 02:20:10] INFO root fetch - processPackages [captif-slp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/captif-slp-0.8.tar.gz tmp/captif-slp-0.9.tar.gz --markdown 20240516/c/captif-slp/0.8-0.9/README.md --exclude *.pyd
+[2024-05-16 02:20:11] INFO root fetch - processPackages [cdk-gitlab-runner]: Downloading https://files.pythonhosted.org/packages/16/61/e9f00b4e877a6352bd641de360f7577c27548fbcedc3aab19b1cf3852b9a/cdk-gitlab-runner-2.2.99.tar.gz
+[2024-05-16 02:20:11] INFO root fetch - processPackages [azure-sql-vector-search]: Downloading https://files.pythonhosted.org/packages/21/ac/fdf38db1a31406d8b13f321ed3e3e6f669a636967f8492b72ef8d88fae27/azure_sql_vector_search-0.8.1.tar.gz
+[2024-05-16 02:20:11] INFO root fetch - processPackages [azure-sql-vector-search]: Downloading https://files.pythonhosted.org/packages/21/ac/fdf38db1a31406d8b13f321ed3e3e6f669a636967f8492b72ef8d88fae27/azure_sql_vector_search-0.8.1.tar.gz
+[2024-05-16 02:20:11] INFO root fetch - processPackages [cdk-budibase]: executing diffoscope
+[2024-05-16 02:20:11] INFO root fetch - processPackages [cdk-budibase]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-budibase-0.0.98.tar.gz tmp/cdk-budibase-0.0.99.tar.gz --markdown 20240516/c/cdk-budibase/0.0.98-0.0.99/README.md --exclude *.pyd
+[2024-05-16 02:20:11] INFO root fetch - processPackages [cdk-gitlab-runner]: executing diffoscope
+[2024-05-16 02:20:11] INFO root fetch - processPackages [cdk-gitlab-runner]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-gitlab-runner-2.2.98.tar.gz tmp/cdk-gitlab-runner-2.2.99.tar.gz --markdown 20240516/c/cdk-gitlab-runner/2.2.98-2.2.99/README.md --exclude *.pyd
+[2024-05-16 02:20:11] INFO root fetch - processPackages [azure-sql-vector-search]: executing diffoscope
+[2024-05-16 02:20:11] INFO root fetch - processPackages [azure-sql-vector-search]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/azure_sql_vector_search-0.8.0.tar.gz tmp/azure_sql_vector_search-0.8.1.tar.gz --markdown 20240516/a/azure-sql-vector-search/0.8.0-0.8.1/README.md --exclude *.pyd
+[2024-05-16 02:20:11] INFO root fetch - processPackages [azure-sql-vector-search]: executing diffoscope
+[2024-05-16 02:20:11] INFO root fetch - processPackages [azure-sql-vector-search]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/azure_sql_vector_search-0.8.0.tar.gz tmp/azure_sql_vector_search-0.8.1.tar.gz --markdown 20240516/a/azure-sql-vector-search/0.8.0-0.8.1/README.md --exclude *.pyd
+[2024-05-16 02:20:11] INFO root fetch - processPackages [cdklabs.cdk-ethereum-node]: Downloading https://files.pythonhosted.org/packages/2d/d8/3fd98f927d9988f7c189f488b1829ac7aa7f855bf93f6030e3bed9af9a97/cdklabs.cdk-ethereum-node-0.0.99.tar.gz
+[2024-05-16 02:20:11] INFO root fetch - processPackages [nvflare]: Downloading https://files.pythonhosted.org/packages/9a/5a/6eba4a24aaef13bdf56d3598862d9586ab7a9cf6999e780ac0ae9137e316/nvflare-2.4.1rc8-py3-none-any.whl
+[2024-05-16 02:20:11] INFO root fetch - processPackages [cdklabs.cdk-ethereum-node]: executing diffoscope
+[2024-05-16 02:20:11] INFO root fetch - processPackages [cdklabs.cdk-ethereum-node]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdklabs.cdk-ethereum-node-0.0.98.tar.gz tmp/cdklabs.cdk-ethereum-node-0.0.99.tar.gz --markdown 20240516/c/cdklabs.cdk-ethereum-node/0.0.98-0.0.99/README.md --exclude *.pyd
+[2024-05-16 02:20:11] INFO root fetch - processPackages [captif-slp]: Remove: archive file [/home/abi/fetcher/tmp/captif-slp-0.8.tar.gz]
+[2024-05-16 02:20:11] INFO root fetch - processPackages [captif-slp]: Remove: archive file [/home/abi/fetcher/tmp/captif-slp-0.9.tar.gz]
+[2024-05-16 02:20:11] INFO root fetch - main [MainThread]: End processing [captif-slp]: success
+[2024-05-16 02:20:11] INFO root fetch - processPackages [cdk-budibase]: Remove: archive file [/home/abi/fetcher/tmp/cdk-budibase-0.0.98.tar.gz]
+[2024-05-16 02:20:11] INFO root fetch - processPackages [cdk-budibase]: Remove: archive file [/home/abi/fetcher/tmp/cdk-budibase-0.0.99.tar.gz]
+[2024-05-16 02:20:11] INFO root fetch - main [MainThread]: End processing [cdk-budibase]: success
+[2024-05-16 02:20:11] INFO root fetch - processPackages [nvflare]: executing diffoscope
+[2024-05-16 02:20:11] INFO root fetch - processPackages [nvflare]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nvflare-2.4.1rc7-py3-none-any.whl.zip tmp/nvflare-2.4.1rc8-py3-none-any.whl.zip --markdown 20240516/n/nvflare/2.4.1rc7-2.4.1rc8/README.md --exclude *.pyd
+[2024-05-16 02:20:11] INFO root fetch - processPackages [cdk-gitlab-runner]: Remove: archive file [/home/abi/fetcher/tmp/cdk-gitlab-runner-2.2.98.tar.gz]
+[2024-05-16 02:20:11] INFO root fetch - processPackages [cdk-gitlab-runner]: Remove: archive file [/home/abi/fetcher/tmp/cdk-gitlab-runner-2.2.99.tar.gz]
+[2024-05-16 02:20:11] INFO root fetch - main [MainThread]: End processing [cdk-gitlab-runner]: success
+[2024-05-16 02:20:11] INFO root fetch - processPackages [azure-sql-vector-search]: Remove: archive file [/home/abi/fetcher/tmp/azure_sql_vector_search-0.8.0.tar.gz]
+[2024-05-16 02:20:11] INFO root fetch - processPackages [azure-sql-vector-search]: Remove: archive file [/home/abi/fetcher/tmp/azure_sql_vector_search-0.8.1.tar.gz]
+[2024-05-16 02:20:11] INFO root fetch - main [MainThread]: End processing [azure-sql-vector-search]: success
+[2024-05-16 02:20:12] INFO root fetch - main [MainThread]: End processing [azure-sql-vector-search]: success
+[2024-05-16 02:20:12] INFO root fetch - processPackages [cdklabs.cdk-ethereum-node]: Remove: archive file [/home/abi/fetcher/tmp/cdklabs.cdk-ethereum-node-0.0.98.tar.gz]
+[2024-05-16 02:20:12] INFO root fetch - processPackages [cdklabs.cdk-ethereum-node]: Remove: archive file [/home/abi/fetcher/tmp/cdklabs.cdk-ethereum-node-0.0.99.tar.gz]
+[2024-05-16 02:20:12] INFO root fetch - main [MainThread]: End processing [cdklabs.cdk-ethereum-node]: success
+[2024-05-16 02:20:14] INFO root fetch - processPackages [nvflare]: Remove: archive file [/home/abi/fetcher/tmp/nvflare-2.4.1rc7-py3-none-any.whl.zip]
+[2024-05-16 02:20:14] INFO root fetch - processPackages [nvflare]: Remove: archive file [/home/abi/fetcher/tmp/nvflare-2.4.1rc8-py3-none-any.whl.zip]
+[2024-05-16 02:20:14] INFO root fetch - main [MainThread]: End processing [nvflare]: success
+[2024-05-16 02:20:14] INFO root fetch - main [MainThread]: Store serial: [23226816]
