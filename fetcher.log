@@ -4525,3 +4525,69 @@ AssertionError: tmp/hygpytools-0.2.0.tar.gz does not exist
 [2024-05-16 02:35:41] INFO root fetch - processPackages [pypipr]: Remove: archive file [/home/abi/fetcher/tmp/pypipr-1.0.99.tar.gz]
 [2024-05-16 02:35:41] INFO root fetch - main [MainThread]: End processing [pypipr]: success
 [2024-05-16 02:35:41] INFO root fetch - main [MainThread]: Store serial: [23226932]
+[2024-05-16 02:37:44] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23226932]
+[2024-05-16 02:37:49] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-16 02:37:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: streamlit-screen-stats
+[2024-05-16 02:37:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tsugu-api-python
+[2024-05-16 02:37:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: jarguments
+[2024-05-16 02:37:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: fun-things
+[2024-05-16 02:37:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: dycw-utilities
+[2024-05-16 02:37:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: llama_tools
+[2024-05-16 02:37:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: coll-filter
+[2024-05-16 02:37:49] INFO root fetch - processPackages [streamlit-screen-stats]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-16 02:37:49] INFO root fetch - processPackages [tsugu-api-python]: New version: [1.1.3] Old Version: [1.1.2]
+[2024-05-16 02:37:49] INFO root fetch - processPackages [llama_tools]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-16 02:37:49] INFO root fetch - processPackages [dycw-utilities]: New version: [0.9.0] Old Version: [0.8.8]
+[2024-05-16 02:37:49] INFO root fetch - processPackages [jarguments]: New version: [0.2.0] Old Version: [0.1.0]
+[2024-05-16 02:37:49] INFO root fetch - processPackages [coll-filter]: New version: [1.2.8] Old Version: [1.2.7]
+[2024-05-16 02:37:49] INFO root fetch - processPackages [fun-things]: New version: [0.4.0] Old Version: [0.3.1]
+[2024-05-16 02:37:49] INFO root fetch - processPackages [tsugu-api-python]: Downloading https://files.pythonhosted.org/packages/f5/d1/86ec6989fbe9a06b28bd499e08e65f43145dd491606092f9a1b8f059ded2/tsugu-api-python-1.1.2.tar.gz
+[2024-05-16 02:37:49] INFO root fetch - processPackages [streamlit-screen-stats]: Downloading https://files.pythonhosted.org/packages/b5/f3/ffa1db6a0713ba6b2fc4ac5b1e057f98d7180131b56db9b54f5e09b8ea3d/streamlit-screen-stats-0.0.8.tar.gz
+[2024-05-16 02:37:49] INFO root fetch - processPackages [llama_tools]: Downloading https://files.pythonhosted.org/packages/a8/55/43247b59a289e0459a611874224f09597a28f206ece4c888349b83d661bb/llama_tools-0.1.8.tar.gz
+[2024-05-16 02:37:49] INFO root fetch - processPackages [dycw-utilities]: Downloading https://files.pythonhosted.org/packages/a5/a4/993374a162ca6d880ff284c54df5acfb25a9f3347426746bb1aeeae915b9/dycw_utilities-0.8.8.tar.gz
+[2024-05-16 02:37:49] INFO root fetch - processPackages [jarguments]: Downloading https://files.pythonhosted.org/packages/58/f7/cde48c1812cb6bb9bcc7defc2dc9442b4fbbc0928565c990eb92a2053b25/jarguments-0.1.0.tar.gz
+[2024-05-16 02:37:49] INFO root fetch - processPackages [coll-filter]: Downloading https://files.pythonhosted.org/packages/cb/77/624a3de3080c110dec60bbb421ff0d2c72f2b1b84ecd81bcbea9eedc99fd/coll-filter-1.2.7.tar.gz
+[2024-05-16 02:37:49] INFO root fetch - processPackages [fun-things]: Downloading https://files.pythonhosted.org/packages/cd/f2/79634a17813860dca5e9f6fea31b159c854cb7ddfbb54f5c17b9115aa0d7/fun_things-0.3.1.tar.gz
+[2024-05-16 02:37:49] INFO root fetch - processPackages [llama_tools]: Downloading https://files.pythonhosted.org/packages/b1/c0/71823f5e8c32246c13f14ee35afae675e0119488af8210d0d305c5d9dc5c/llama_tools-0.1.9.tar.gz
+[2024-05-16 02:37:49] INFO root fetch - processPackages [dycw-utilities]: Downloading https://files.pythonhosted.org/packages/18/5f/14fd12b36288c6f50f412854105898b537e348c0c10e7cedb0b54a05a56e/dycw_utilities-0.9.0.tar.gz
+[2024-05-16 02:37:49] INFO root fetch - processPackages [streamlit-screen-stats]: Downloading https://files.pythonhosted.org/packages/47/c1/551994788e8d7fbca93c51782419b6f14c5db12208b833677955f6412aab/streamlit-screen-stats-0.0.9.tar.gz
+[2024-05-16 02:37:49] INFO root fetch - processPackages [tsugu-api-python]: Downloading https://files.pythonhosted.org/packages/83/0b/a2bcfa8db73c9d7742ac063f88264658d1b62fb6cd9c9b78d28bb7bb9bbd/tsugu-api-python-1.1.3.tar.gz
+[2024-05-16 02:37:50] INFO root fetch - processPackages [llama_tools]: executing diffoscope
+[2024-05-16 02:37:50] INFO root fetch - processPackages [llama_tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/llama_tools-0.1.8.tar.gz tmp/llama_tools-0.1.9.tar.gz --markdown 20240516/l/llama_tools/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-16 02:37:50] INFO root fetch - processPackages [dycw-utilities]: executing diffoscope
+[2024-05-16 02:37:50] INFO root fetch - processPackages [dycw-utilities]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dycw_utilities-0.8.8.tar.gz tmp/dycw_utilities-0.9.0.tar.gz --markdown 20240516/d/dycw-utilities/0.8.8-0.9.0/README.md --exclude *.pyd
+[2024-05-16 02:37:50] INFO root fetch - processPackages [tsugu-api-python]: executing diffoscope
+[2024-05-16 02:37:50] INFO root fetch - processPackages [tsugu-api-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tsugu-api-python-1.1.2.tar.gz tmp/tsugu-api-python-1.1.3.tar.gz --markdown 20240516/t/tsugu-api-python/1.1.2-1.1.3/README.md --exclude *.pyd
+[2024-05-16 02:37:50] INFO root fetch - processPackages [streamlit-screen-stats]: executing diffoscope
+[2024-05-16 02:37:50] INFO root fetch - processPackages [streamlit-screen-stats]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/streamlit-screen-stats-0.0.8.tar.gz tmp/streamlit-screen-stats-0.0.9.tar.gz --markdown 20240516/s/streamlit-screen-stats/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-16 02:37:50] INFO root fetch - processPackages [coll-filter]: Downloading https://files.pythonhosted.org/packages/36/ef/f58e7105e91ac4731b0913ba1916a3f72c1dc964efcfe527657cf088ea06/coll-filter-1.2.8.tar.gz
+[2024-05-16 02:37:50] INFO root fetch - processPackages [fun-things]: Downloading https://files.pythonhosted.org/packages/ef/4b/2cec854de67ae4184a480421490b63df1db82f49eebc048623de92acc5f7/fun_things-0.4.0.tar.gz
+[2024-05-16 02:37:50] INFO root fetch - processPackages [jarguments]: Downloading https://files.pythonhosted.org/packages/30/ed/1befcf68a9beceda19a61b16c5929d580ed0fde5d3a1c0b69074ba16d930/jarguments-0.2.0.tar.gz
+[2024-05-16 02:37:50] INFO root fetch - processPackages [fun-things]: executing diffoscope
+[2024-05-16 02:37:50] INFO root fetch - processPackages [jarguments]: executing diffoscope
+[2024-05-16 02:37:50] INFO root fetch - processPackages [jarguments]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jarguments-0.1.0.tar.gz tmp/jarguments-0.2.0.tar.gz --markdown 20240516/j/jarguments/0.1.0-0.2.0/README.md --exclude *.pyd
+[2024-05-16 02:37:50] INFO root fetch - processPackages [fun-things]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fun_things-0.3.1.tar.gz tmp/fun_things-0.4.0.tar.gz --markdown 20240516/f/fun-things/0.3.1-0.4.0/README.md --exclude *.pyd
+[2024-05-16 02:37:50] INFO root fetch - processPackages [coll-filter]: executing diffoscope
+[2024-05-16 02:37:50] INFO root fetch - processPackages [coll-filter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/coll-filter-1.2.7.tar.gz tmp/coll-filter-1.2.8.tar.gz --markdown 20240516/c/coll-filter/1.2.7-1.2.8/README.md --exclude *.pyd
+[2024-05-16 02:37:50] INFO root fetch - processPackages [llama_tools]: Remove: archive file [/home/abi/fetcher/tmp/llama_tools-0.1.8.tar.gz]
+[2024-05-16 02:37:50] INFO root fetch - processPackages [llama_tools]: Remove: archive file [/home/abi/fetcher/tmp/llama_tools-0.1.9.tar.gz]
+[2024-05-16 02:37:50] INFO root fetch - main [MainThread]: End processing [llama_tools]: success
+[2024-05-16 02:37:50] INFO root fetch - processPackages [tsugu-api-python]: Remove: archive file [/home/abi/fetcher/tmp/tsugu-api-python-1.1.2.tar.gz]
+[2024-05-16 02:37:50] INFO root fetch - processPackages [tsugu-api-python]: Remove: archive file [/home/abi/fetcher/tmp/tsugu-api-python-1.1.3.tar.gz]
+[2024-05-16 02:37:50] INFO root fetch - main [MainThread]: End processing [tsugu-api-python]: success
+[2024-05-16 02:37:51] INFO root fetch - processPackages [jarguments]: Remove: archive file [/home/abi/fetcher/tmp/jarguments-0.1.0.tar.gz]
+[2024-05-16 02:37:51] INFO root fetch - processPackages [jarguments]: Remove: archive file [/home/abi/fetcher/tmp/jarguments-0.2.0.tar.gz]
+[2024-05-16 02:37:51] INFO root fetch - main [MainThread]: End processing [jarguments]: success
+[2024-05-16 02:37:51] INFO root fetch - processPackages [fun-things]: Remove: archive file [/home/abi/fetcher/tmp/fun_things-0.3.1.tar.gz]
+[2024-05-16 02:37:51] INFO root fetch - processPackages [fun-things]: Remove: archive file [/home/abi/fetcher/tmp/fun_things-0.4.0.tar.gz]
+[2024-05-16 02:37:51] INFO root fetch - main [MainThread]: End processing [fun-things]: success
+[2024-05-16 02:37:51] INFO root fetch - processPackages [coll-filter]: Remove: archive file [/home/abi/fetcher/tmp/coll-filter-1.2.7.tar.gz]
+[2024-05-16 02:37:51] INFO root fetch - processPackages [coll-filter]: Remove: archive file [/home/abi/fetcher/tmp/coll-filter-1.2.8.tar.gz]
+[2024-05-16 02:37:51] INFO root fetch - main [MainThread]: End processing [coll-filter]: success
+[2024-05-16 02:37:51] INFO root fetch - processPackages [dycw-utilities]: Remove: archive file [/home/abi/fetcher/tmp/dycw_utilities-0.8.8.tar.gz]
+[2024-05-16 02:37:51] INFO root fetch - processPackages [dycw-utilities]: Remove: archive file [/home/abi/fetcher/tmp/dycw_utilities-0.9.0.tar.gz]
+[2024-05-16 02:37:51] INFO root fetch - main [MainThread]: End processing [dycw-utilities]: success
+[2024-05-16 02:38:03] INFO root fetch - processPackages [streamlit-screen-stats]: Remove: archive file [/home/abi/fetcher/tmp/streamlit-screen-stats-0.0.8.tar.gz]
+[2024-05-16 02:38:03] INFO root fetch - processPackages [streamlit-screen-stats]: Remove: archive file [/home/abi/fetcher/tmp/streamlit-screen-stats-0.0.9.tar.gz]
+[2024-05-16 02:38:03] INFO root fetch - main [MainThread]: End processing [streamlit-screen-stats]: success
+[2024-05-16 02:38:03] INFO root fetch - main [MainThread]: Store serial: [23226953]
