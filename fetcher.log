@@ -22418,3 +22418,116 @@ EOFError: EOF read where object expected
 [2024-05-16 11:59:00] INFO root fetch - processPackages [autofit]: Remove: archive file [/home/abi/fetcher/tmp/autofit-2024.5.16.0.tar.gz]
 [2024-05-16 11:59:00] INFO root fetch - main [MainThread]: End processing [autofit]: success
 [2024-05-16 11:59:00] INFO root fetch - main [MainThread]: Store serial: [23233510]
+[2024-05-16 12:01:08] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23233510]
+[2024-05-16 12:01:13] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2024-05-16 12:01:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: autolens
+[2024-05-16 12:01:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: django-sql-explorer-squad
+[2024-05-16 12:01:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: blockmango
+[2024-05-16 12:01:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: autocti
+[2024-05-16 12:01:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: icare-nlp
+[2024-05-16 12:01:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: vesselasid
+[2024-05-16 12:01:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: download-center
+[2024-05-16 12:01:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: orb-billing
+[2024-05-16 12:01:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: woningwaardering
+[2024-05-16 12:01:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: InputPowertools
+[2024-05-16 12:01:13] INFO root fetch - processPackages [vesselasid]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-05-16 12:01:13] INFO root fetch - processPackages [icare-nlp]: New version: [0.0.8] Old Version: [0.0.7]
+[2024-05-16 12:01:13] INFO root fetch - processPackages [blockmango]: New version: [1.1] Old Version: [1.0]
+[2024-05-16 12:01:13] INFO root fetch - processPackages [woningwaardering]: New version: [0.1.0a39] Old Version: [0.1.0a38]
+[2024-05-16 12:01:13] INFO root fetch - processPackages [autocti]: New version: [2024.5.16.0] Old Version: [2024.1.27.4]
+[2024-05-16 12:01:13] INFO root fetch - processPackages [download-center]: New version: [5.3.7] Old Version: [5.3.6]
+[2024-05-16 12:01:13] INFO root fetch - processPackages [vesselasid]: Downloading https://files.pythonhosted.org/packages/a2/14/baf06cb7af9f5a80ebfeb8f960dbb13c70196f61bd5759c357fe5dacd0ea/vesselasid-1.0.8.tar.gz
+[2024-05-16 12:01:13] INFO root fetch - processPackages [orb-billing]: New version: [1.53.0] Old Version: [1.52.0]
+[2024-05-16 12:01:13] INFO root fetch - processPackages [django-sql-explorer-squad]: New version: [0.9.9] Old Version: [0.9.8]
+[2024-05-16 12:01:13] INFO root fetch - processPackages [InputPowertools]: New version: [1.0.2] Old Version: [1.0.1]
+[2024-05-16 12:01:13] INFO root fetch - processPackages [icare-nlp]: Downloading https://files.pythonhosted.org/packages/fe/ca/0ac3bce6cd3a015df4cdf39ab5736ea8b0d4e33abfe72eb1296e9bf6dd3e/icare_nlp-0.0.7.tar.gz
+[2024-05-16 12:01:14] INFO root fetch - processPackages [autolens]: New version: [2024.5.16.0] Old Version: [2024.1.27.4]
+[2024-05-16 12:01:14] INFO root fetch - processPackages [woningwaardering]: Downloading https://files.pythonhosted.org/packages/0f/54/de08d86151c7f69c46f0a04727e9bee52da2079d73c00850ab6331473bc0/woningwaardering-0.1.0a38.tar.gz
+[2024-05-16 12:01:14] WARNING root fetch - processPackages [icare-nlp]: Skipping package: exceeds size limit 92217990>=10485760
+[2024-05-16 12:01:14] INFO root fetch - processPackages [icare-nlp]: Start processing: prometheus-http-sd
+[2024-05-16 12:01:14] INFO root fetch - main [MainThread]: End processing [icare-nlp] error
+[2024-05-16 12:01:14] INFO root fetch - processPackages [blockmango]: Downloading https://files.pythonhosted.org/packages/6b/ac/0a0b5aab9ff179132ba72d2901339c8c8995d2f4fa687d6d9cadd9509907/blockmango-1.0.tar.gz
+[2024-05-16 12:01:14] INFO root fetch - processPackages [prometheus-http-sd]: New version: [1.3.7] Old Version: [1.3.6]
+[2024-05-16 12:01:14] INFO root fetch - processPackages [orb-billing]: Downloading https://files.pythonhosted.org/packages/97/61/d7fe06dee0384cd7368fc3c1750388dc55b594db3d5980de016fc832ddf9/orb_billing-1.52.0.tar.gz
+[2024-05-16 12:01:14] INFO root fetch - processPackages [autocti]: Downloading https://files.pythonhosted.org/packages/8c/0b/b1e615085017f3c69c1b6d9a9c0202cea71427f9687ab5d1f3853865c24c/autocti-2024.1.27.4.tar.gz
+[2024-05-16 12:01:14] INFO root fetch - processPackages [download-center]: Downloading https://files.pythonhosted.org/packages/45/b1/6eb642365671fa2cb9236f237a1c54a5a8fdddaf212cc92a184781fe03ed/download-center-5.3.6.tar.gz
+[2024-05-16 12:01:14] INFO root fetch - processPackages [vesselasid]: Downloading https://files.pythonhosted.org/packages/81/b5/ae62f72cdc101114a8434c7f5b8a6946677975c20649428b068f8f9f1afc/vesselasid-1.0.9.tar.gz
+[2024-05-16 12:01:14] INFO root fetch - processPackages [django-sql-explorer-squad]: Downloading https://files.pythonhosted.org/packages/90/c7/9142ff58231887983b889980e68ebde5a91a43d71727afe94695068ddc43/django_sql_explorer_squad-0.9.8-py3-none-any.whl
+[2024-05-16 12:01:14] INFO root fetch - processPackages [prometheus-http-sd]: Downloading https://files.pythonhosted.org/packages/4b/1c/a8e90d6e119bb2e4acfae29c9d4bfc4ffe22b4e4173e7061493ea6dda047/prometheus_http_sd-1.3.6.tar.gz
+[2024-05-16 12:01:14] INFO root fetch - processPackages [InputPowertools]: Downloading https://files.pythonhosted.org/packages/53/a6/c22ed956043185224cd6a9f6b10bdd139661ea71898c270edddfaf1d1677/InputPowertools-1.0.1.tar.gz
+[2024-05-16 12:01:14] INFO root fetch - processPackages [autolens]: Downloading https://files.pythonhosted.org/packages/49/54/87bb39fd32c0174ce433a4bafb9caa780c4fa9269bcd5a308da25907da80/autolens-2024.1.27.4.tar.gz
+[2024-05-16 12:01:14] INFO root fetch - processPackages [vesselasid]: executing diffoscope
+[2024-05-16 12:01:14] INFO root fetch - processPackages [vesselasid]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vesselasid-1.0.8.tar.gz tmp/vesselasid-1.0.9.tar.gz --markdown 20240516/v/vesselasid/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-05-16 12:01:14] INFO root fetch - processPackages [blockmango]: Downloading https://files.pythonhosted.org/packages/0d/41/de8980a2efc659f53fe6357b6c921adf0e5a383bda29270ce0d1a957cbbc/blockmango-1.1.tar.gz
+[2024-05-16 12:01:14] INFO root fetch - processPackages [woningwaardering]: Downloading https://files.pythonhosted.org/packages/40/76/4ab8b68056f7ac15a42079c3df8a72b28f18f86d83acdce44ee86025d28a/woningwaardering-0.1.0a39.tar.gz
+[2024-05-16 12:01:14] INFO root fetch - processPackages [prometheus-http-sd]: Downloading https://files.pythonhosted.org/packages/1e/0f/d11077a903a2ef1decef357ddf27502344f4d1fbd659800d5124b967bb9e/prometheus_http_sd-1.3.7.tar.gz
+[2024-05-16 12:01:14] INFO root fetch - processPackages [orb-billing]: Downloading https://files.pythonhosted.org/packages/50/9c/39153c3d97293f06b1e30d5a4906c39bd725ec9aff021eb88393deb30ec3/orb_billing-1.53.0.tar.gz
+[2024-05-16 12:01:14] INFO root fetch - processPackages [download-center]: Downloading https://files.pythonhosted.org/packages/9b/9b/c66f1ce355c515f31c47a7dd642ca9e9cfa3c2b1a7a354ee5613e7a432a3/download-center-5.3.7.tar.gz
+[2024-05-16 12:01:14] INFO root fetch - processPackages [prometheus-http-sd]: executing diffoscope
+[2024-05-16 12:01:14] INFO root fetch - processPackages [prometheus-http-sd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/prometheus_http_sd-1.3.6.tar.gz tmp/prometheus_http_sd-1.3.7.tar.gz --markdown 20240516/p/prometheus-http-sd/1.3.6-1.3.7/README.md --exclude *.pyd
+[2024-05-16 12:01:14] INFO root fetch - processPackages [InputPowertools]: Downloading https://files.pythonhosted.org/packages/e4/63/ff645829645e7454a38dc63ebe1201a966ebc5b3a2b6509a73b1944123a5/inputpowertools-1.0.2.tar.gz
+[2024-05-16 12:01:14] INFO root fetch - processPackages [blockmango]: executing diffoscope
+[2024-05-16 12:01:14] INFO root fetch - processPackages [blockmango]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/blockmango-1.0.tar.gz tmp/blockmango-1.1.tar.gz --markdown 20240516/b/blockmango/1.0-1.1/README.md --exclude *.pyd
+[2024-05-16 12:01:14] INFO root fetch - processPackages [woningwaardering]: executing diffoscope
+[2024-05-16 12:01:14] INFO root fetch - processPackages [woningwaardering]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/woningwaardering-0.1.0a38.tar.gz tmp/woningwaardering-0.1.0a39.tar.gz --markdown 20240516/w/woningwaardering/0.1.0a38-0.1.0a39/README.md --exclude *.pyd
+[2024-05-16 12:01:14] INFO root fetch - processPackages [django-sql-explorer-squad]: Downloading https://files.pythonhosted.org/packages/b7/2e/491e0b57bd65f72b320cc98089151b4abdf96aba414e327989a386dca1f2/django_sql_explorer_squad-0.9.9-py3-none-any.whl
+[2024-05-16 12:01:14] INFO root fetch - processPackages [autolens]: Downloading https://files.pythonhosted.org/packages/e2/0b/d33e1e122b7d0bb1cbc410df6bb4fcb5d8a85e46e6447f52d15047926e62/autolens-2024.5.16.0.tar.gz
+[2024-05-16 12:01:14] INFO root fetch - processPackages [autocti]: Downloading https://files.pythonhosted.org/packages/a1/56/8a9fb3099d41d89073f4a9479cb96c3d04efb328d392c644817cbbdf350b/autocti-2024.5.16.0.tar.gz
+[2024-05-16 12:01:14] WARNING root fetch - processPackages [autolens]: Skipping package: exceeds size limit 19843563>=10485760
+[2024-05-16 12:01:14] INFO root fetch - processPackages [autolens]: Start processing: yeref
+[2024-05-16 12:01:14] INFO root fetch - main [MainThread]: End processing [autolens] error
+[2024-05-16 12:01:14] INFO root fetch - processPackages [orb-billing]: executing diffoscope
+[2024-05-16 12:01:14] INFO root fetch - processPackages [orb-billing]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/orb_billing-1.52.0.tar.gz tmp/orb_billing-1.53.0.tar.gz --markdown 20240516/o/orb-billing/1.52.0-1.53.0/README.md --exclude *.pyd
+[2024-05-16 12:01:14] INFO root fetch - processPackages [InputPowertools]: executing diffoscope
+[2024-05-16 12:01:14] INFO root fetch - processPackages [InputPowertools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/InputPowertools-1.0.1.tar.gz tmp/inputpowertools-1.0.2.tar.gz --markdown 20240516/I/InputPowertools/1.0.1-1.0.2/README.md --exclude *.pyd
+[2024-05-16 12:01:14] INFO root fetch - processPackages [download-center]: executing diffoscope
+[2024-05-16 12:01:14] INFO root fetch - processPackages [download-center]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/download-center-5.3.6.tar.gz tmp/download-center-5.3.7.tar.gz --markdown 20240516/d/download-center/5.3.6-5.3.7/README.md --exclude *.pyd
+[2024-05-16 12:01:14] INFO root fetch - processPackages [django-sql-explorer-squad]: executing diffoscope
+[2024-05-16 12:01:14] INFO root fetch - processPackages [django-sql-explorer-squad]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django_sql_explorer_squad-0.9.8-py3-none-any.whl.zip tmp/django_sql_explorer_squad-0.9.9-py3-none-any.whl.zip --markdown 20240516/d/django-sql-explorer-squad/0.9.8-0.9.9/README.md --exclude *.pyd
+[2024-05-16 12:01:14] INFO root fetch - processPackages [yeref]: New version: [0.9.9] Old Version: [0.9.8]
+[2024-05-16 12:01:15] INFO root fetch - processPackages [yeref]: Downloading https://files.pythonhosted.org/packages/ec/cb/204e6fbe233bbb61cf29c1b491e8c638c8a843edc47fb4e1d8cc8c26608c/yeref-0.9.8.tar.gz
+[2024-05-16 12:01:15] INFO root fetch - processPackages [autocti]: executing diffoscope
+[2024-05-16 12:01:15] INFO root fetch - processPackages [autocti]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autocti-2024.1.27.4.tar.gz tmp/autocti-2024.5.16.0.tar.gz --markdown 20240516/a/autocti/2024.1.27.4-2024.5.16.0/README.md --exclude *.pyd
+[2024-05-16 12:01:15] INFO root fetch - processPackages [vesselasid]: Remove: archive file [/home/abi/fetcher/tmp/vesselasid-1.0.8.tar.gz]
+[2024-05-16 12:01:15] INFO root fetch - processPackages [vesselasid]: Remove: archive file [/home/abi/fetcher/tmp/vesselasid-1.0.9.tar.gz]
+[2024-05-16 12:01:15] INFO root fetch - processPackages [vesselasid]: Start processing: rio-tiler
+[2024-05-16 12:01:15] INFO root fetch - main [MainThread]: End processing [vesselasid]: success
+[2024-05-16 12:01:15] INFO root fetch - processPackages [yeref]: Downloading https://files.pythonhosted.org/packages/01/13/0f11bb3dfb27aaf16ed48b0046f50ac65b1fde32662fbc314d53e2558b2d/yeref-0.9.9.tar.gz
+[2024-05-16 12:01:15] INFO root fetch - processPackages [rio-tiler]: New version: [6.6.0] Old Version: [6.5.0]
+[2024-05-16 12:01:15] INFO root fetch - processPackages [prometheus-http-sd]: Remove: archive file [/home/abi/fetcher/tmp/prometheus_http_sd-1.3.6.tar.gz]
+[2024-05-16 12:01:15] INFO root fetch - processPackages [prometheus-http-sd]: Remove: archive file [/home/abi/fetcher/tmp/prometheus_http_sd-1.3.7.tar.gz]
+[2024-05-16 12:01:15] INFO root fetch - processPackages [yeref]: executing diffoscope
+[2024-05-16 12:01:15] INFO root fetch - main [MainThread]: End processing [prometheus-http-sd]: success
+[2024-05-16 12:01:15] INFO root fetch - processPackages [yeref]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yeref-0.9.8.tar.gz tmp/yeref-0.9.9.tar.gz --markdown 20240516/y/yeref/0.9.8-0.9.9/README.md --exclude *.pyd
+[2024-05-16 12:01:15] INFO root fetch - processPackages [blockmango]: Remove: archive file [/home/abi/fetcher/tmp/blockmango-1.0.tar.gz]
+[2024-05-16 12:01:15] INFO root fetch - processPackages [blockmango]: Remove: archive file [/home/abi/fetcher/tmp/blockmango-1.1.tar.gz]
+[2024-05-16 12:01:15] INFO root fetch - main [MainThread]: End processing [blockmango]: success
+[2024-05-16 12:01:15] INFO root fetch - processPackages [rio-tiler]: Downloading https://files.pythonhosted.org/packages/c8/09/7753446e65ab38cea0dd74925bf45f648c56c1649d5937ab33923254b70b/rio_tiler-6.5.0.tar.gz
+[2024-05-16 12:01:16] INFO root fetch - processPackages [download-center]: Remove: archive file [/home/abi/fetcher/tmp/download-center-5.3.6.tar.gz]
+[2024-05-16 12:01:16] INFO root fetch - processPackages [download-center]: Remove: archive file [/home/abi/fetcher/tmp/download-center-5.3.7.tar.gz]
+[2024-05-16 12:01:16] INFO root fetch - main [MainThread]: End processing [download-center]: success
+[2024-05-16 12:01:16] INFO root fetch - processPackages [InputPowertools]: Remove: archive file [/home/abi/fetcher/tmp/InputPowertools-1.0.1.tar.gz]
+[2024-05-16 12:01:16] INFO root fetch - processPackages [InputPowertools]: Remove: archive file [/home/abi/fetcher/tmp/inputpowertools-1.0.2.tar.gz]
+[2024-05-16 12:01:16] INFO root fetch - main [MainThread]: End processing [InputPowertools]: success
+[2024-05-16 12:01:16] INFO root fetch - processPackages [rio-tiler]: Downloading https://files.pythonhosted.org/packages/d4/15/7e26f2a897cb50f9f085ffaa889374efe9dff4dc834815a029d7d4a1d6dd/rio_tiler-6.6.0.tar.gz
+[2024-05-16 12:01:16] INFO root fetch - processPackages [django-sql-explorer-squad]: Remove: archive file [/home/abi/fetcher/tmp/django_sql_explorer_squad-0.9.8-py3-none-any.whl.zip]
+[2024-05-16 12:01:16] INFO root fetch - processPackages [django-sql-explorer-squad]: Remove: archive file [/home/abi/fetcher/tmp/django_sql_explorer_squad-0.9.9-py3-none-any.whl.zip]
+[2024-05-16 12:01:16] INFO root fetch - main [MainThread]: End processing [django-sql-explorer-squad]: success
+[2024-05-16 12:01:16] INFO root fetch - processPackages [orb-billing]: Remove: archive file [/home/abi/fetcher/tmp/orb_billing-1.52.0.tar.gz]
+[2024-05-16 12:01:16] INFO root fetch - processPackages [orb-billing]: Remove: archive file [/home/abi/fetcher/tmp/orb_billing-1.53.0.tar.gz]
+[2024-05-16 12:01:16] INFO root fetch - main [MainThread]: End processing [orb-billing]: success
+[2024-05-16 12:01:16] INFO root fetch - processPackages [rio-tiler]: executing diffoscope
+[2024-05-16 12:01:16] INFO root fetch - processPackages [rio-tiler]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rio_tiler-6.5.0.tar.gz tmp/rio_tiler-6.6.0.tar.gz --markdown 20240516/r/rio-tiler/6.5.0-6.6.0/README.md --exclude *.pyd
+[2024-05-16 12:01:16] INFO root fetch - processPackages [woningwaardering]: Remove: archive file [/home/abi/fetcher/tmp/woningwaardering-0.1.0a38.tar.gz]
+[2024-05-16 12:01:16] INFO root fetch - processPackages [woningwaardering]: Remove: archive file [/home/abi/fetcher/tmp/woningwaardering-0.1.0a39.tar.gz]
+[2024-05-16 12:01:16] INFO root fetch - processPackages [yeref]: Remove: archive file [/home/abi/fetcher/tmp/yeref-0.9.8.tar.gz]
+[2024-05-16 12:01:16] INFO root fetch - main [MainThread]: End processing [woningwaardering]: success
+[2024-05-16 12:01:16] INFO root fetch - processPackages [yeref]: Remove: archive file [/home/abi/fetcher/tmp/yeref-0.9.9.tar.gz]
+[2024-05-16 12:01:16] INFO root fetch - main [MainThread]: End processing [yeref]: success
+[2024-05-16 12:01:16] INFO root fetch - processPackages [autocti]: Remove: archive file [/home/abi/fetcher/tmp/autocti-2024.1.27.4.tar.gz]
+[2024-05-16 12:01:16] INFO root fetch - processPackages [autocti]: Remove: archive file [/home/abi/fetcher/tmp/autocti-2024.5.16.0.tar.gz]
+[2024-05-16 12:01:16] INFO root fetch - main [MainThread]: End processing [autocti]: success
+[2024-05-16 12:01:17] INFO root fetch - processPackages [rio-tiler]: Remove: archive file [/home/abi/fetcher/tmp/rio_tiler-6.5.0.tar.gz]
+[2024-05-16 12:01:17] INFO root fetch - processPackages [rio-tiler]: Remove: archive file [/home/abi/fetcher/tmp/rio_tiler-6.6.0.tar.gz]
+[2024-05-16 12:01:17] INFO root fetch - main [MainThread]: End processing [rio-tiler]: success
+[2024-05-16 12:01:17] INFO root fetch - main [MainThread]: Store serial: [23233549]
