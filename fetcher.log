@@ -9349,3 +9349,105 @@ EOFError: EOF read where object expected
 [2024-05-16 04:21:19] INFO root fetch - processPackages [supriya]: Remove: archive file [/home/abi/fetcher/tmp/supriya-24.5b2.tar.gz]
 [2024-05-16 04:21:19] INFO root fetch - main [MainThread]: End processing [supriya]: success
 [2024-05-16 04:21:19] INFO root fetch - main [MainThread]: Store serial: [23228640]
+[2024-05-16 04:23:24] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23228640]
+[2024-05-16 04:23:29] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2024-05-16 04:23:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: types-pyaudio
+[2024-05-16 04:23:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: types-regex
+[2024-05-16 04:23:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: types-psutil
+[2024-05-16 04:23:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: types-assertpy
+[2024-05-16 04:23:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: types-uWSGI
+[2024-05-16 04:23:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: langchain-exa
+[2024-05-16 04:23:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: tclint
+[2024-05-16 04:23:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: PypiInstruments
+[2024-05-16 04:23:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: swagger2jsonschema
+[2024-05-16 04:23:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: espresso-machine
+[2024-05-16 04:23:29] INFO root fetch - processPackages [langchain-exa]: New version: [0.1.0] Old Version: [0.0.1]
+[2024-05-16 04:23:29] INFO root fetch - processPackages [types-uWSGI]: New version: [2.0.0.20240516] Old Version: [2.0.0.20240425]
+[2024-05-16 04:23:29] INFO root fetch - processPackages [types-psutil]: New version: [5.9.5.9] Old Version: [5.9.5.8]
+[2024-05-16 04:23:29] WARNING root fetch - processPackages [espresso-machine]: Skipping, unable to determine old version
+[2024-05-16 04:23:29] INFO root fetch - processPackages [espresso-machine]: Start processing: espresso-machine-test
+[2024-05-16 04:23:29] INFO root fetch - main [MainThread]: End processing [espresso-machine] error
+[2024-05-16 04:23:29] WARNING root fetch - processPackages [types-assertpy]: Skipping, unable to determine old version
+[2024-05-16 04:23:29] INFO root fetch - processPackages [types-assertpy]: Start processing: google-vizier-dev
+[2024-05-16 04:23:29] INFO root fetch - main [MainThread]: End processing [types-assertpy] error
+[2024-05-16 04:23:29] INFO root fetch - processPackages [PypiInstruments]: New version: [1.0.9] Old Version: [1.0.7]
+[2024-05-16 04:23:29] INFO root fetch - processPackages [types-pyaudio]: New version: [0.2.9] Old Version: [0.2.8]
+[2024-05-16 04:23:29] INFO root fetch - processPackages [swagger2jsonschema]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-05-16 04:23:29] INFO root fetch - processPackages [tclint]: New version: [0.2.5] Old Version: [0.2.4]
+[2024-05-16 04:23:29] INFO root fetch - processPackages [types-regex]: New version: [2024.5.15.20240516] Old Version: [2024.5.10.20240512]
+[2024-05-16 04:23:29] INFO root fetch - processPackages [google-vizier-dev]: New version: [0.1.16.dev20240515210838] Old Version: [0.1.16.dev20240514144958]
+[2024-05-16 04:23:29] WARNING root fetch - processPackages [espresso-machine-test]: Skipping, unable to determine old version
+[2024-05-16 04:23:29] INFO root fetch - processPackages [espresso-machine-test]: Start processing: ipex-llm
+[2024-05-16 04:23:29] INFO root fetch - main [MainThread]: End processing [espresso-machine-test] error
+[2024-05-16 04:23:29] INFO root fetch - processPackages [google-vizier-dev]: Downloading https://files.pythonhosted.org/packages/ea/b6/11d52f5d0b5eeb19c9ccf722f1d84607a03a9c14aab194750966205bb161/google-vizier-dev-0.1.16.dev20240514144958.tar.gz
+[2024-05-16 04:23:29] INFO root fetch - processPackages [langchain-exa]: Downloading https://files.pythonhosted.org/packages/42/e5/e1e07784af7c41c5f809c07c610e6e9785bfe2f833363c1676e72d748b07/langchain_exa-0.0.1.tar.gz
+[2024-05-16 04:23:29] INFO root fetch - processPackages [types-uWSGI]: Downloading https://files.pythonhosted.org/packages/00/dc/1f1aefff4c4ec2048bd71759b27ef0e4223ca96e6e699260c6d080c10b94/types-uWSGI-2.0.0.20240425.tar.gz
+[2024-05-16 04:23:29] INFO root fetch - processPackages [types-psutil]: Downloading https://files.pythonhosted.org/packages/80/5a/9c74621dac0e8576522348dac6d61a43913103caff81521ffa70d1310482/types-psutil-5.9.5.8.tar.gz
+[2024-05-16 04:23:29] INFO root fetch - processPackages [PypiInstruments]: Downloading https://files.pythonhosted.org/packages/1c/71/b2f993061d51bbd7eae2d6ad8493b9a09ec7f42e42cb40f9c781a68196a9/PypiInstruments-1.0.7.tar.gz
+[2024-05-16 04:23:29] INFO root fetch - processPackages [swagger2jsonschema]: Downloading https://files.pythonhosted.org/packages/c3/df/8bace197d6d054230dc3e597fb616af7e7063849fa90fe81ad90ccdcdb11/swagger2jsonschema-0.1.0-py3-none-any.whl
+[2024-05-16 04:23:29] INFO root fetch - processPackages [ipex-llm]: New version: [2.1.0b20240515] Old Version: [2.1.0b20240514]
+[2024-05-16 04:23:29] INFO root fetch - processPackages [types-pyaudio]: Downloading https://files.pythonhosted.org/packages/6e/65/f0944188e9aaef6a647f2350d82c0d96cf23f80e7ea7ca1a413f94958d8b/types-pyaudio-0.2.8.tar.gz
+[2024-05-16 04:23:29] INFO root fetch - processPackages [tclint]: Downloading https://files.pythonhosted.org/packages/1a/0f/e4747cb7f444f86f7a19bac4d58184e297865cd229e1d63f45a32c0a96d3/tclint-0.2.4.tar.gz
+[2024-05-16 04:23:29] INFO root fetch - processPackages [types-regex]: Downloading https://files.pythonhosted.org/packages/3e/61/3a3c437a8a6444db6ce510d52e46ddc408f6af3510ca5c9e110a8ed4209d/types-regex-2024.5.10.20240512.tar.gz
+[2024-05-16 04:23:30] INFO root fetch - processPackages [google-vizier-dev]: Downloading https://files.pythonhosted.org/packages/b3/38/4cdebbd276142a5268e0b9fba13666cb1f6c99034d7e5140f3f2a1e5d867/google-vizier-dev-0.1.16.dev20240515210838.tar.gz
+[2024-05-16 04:23:30] INFO root fetch - processPackages [ipex-llm]: Downloading https://files.pythonhosted.org/packages/98/df/6b26dcd03d81ec9dc227aff5c92923e823c2491c2263e143c0160f109c83/ipex_llm-2.1.0b20240514-py3-none-win_amd64.whl
+[2024-05-16 04:23:30] INFO root fetch - processPackages [langchain-exa]: Downloading https://files.pythonhosted.org/packages/75/d8/5356b82185aff2515e95d448821656c8023c375f2a5da985501ee53b81b1/langchain_exa-0.1.0.tar.gz
+[2024-05-16 04:23:30] INFO root fetch - processPackages [swagger2jsonschema]: Downloading https://files.pythonhosted.org/packages/b8/70/5b615feef541e871337dac0a089d91921813b38f0bf72ca8c14245050a69/swagger2jsonschema-0.1.1-py3-none-any.whl
+[2024-05-16 04:23:30] INFO root fetch - processPackages [types-uWSGI]: Downloading https://files.pythonhosted.org/packages/49/7f/34f8caead3fcc68d0ae3431ef18518ba879925ea22e848469f852cc93cb9/types-uWSGI-2.0.0.20240516.tar.gz
+[2024-05-16 04:23:30] INFO root fetch - processPackages [types-regex]: Downloading https://files.pythonhosted.org/packages/17/86/671b64bf94b959e9f7ef5c2196577dc4adc89be635291ae382a5865ac961/types-regex-2024.5.15.20240516.tar.gz
+[2024-05-16 04:23:30] INFO root fetch - processPackages [types-psutil]: Downloading https://files.pythonhosted.org/packages/48/17/84ab868524425e5f0553f1916898b2a5ec0bf8d3c330d854eb5fabd35aec/types-psutil-5.9.5.9.tar.gz
+[2024-05-16 04:23:30] INFO root fetch - processPackages [PypiInstruments]: Downloading https://files.pythonhosted.org/packages/7d/e4/97f65dff822ee8a319d7b3cc947b134b38c2e966128e7f12939e9102bd0d/PypiInstruments-1.0.9.tar.gz
+[2024-05-16 04:23:30] INFO root fetch - processPackages [google-vizier-dev]: executing diffoscope
+[2024-05-16 04:23:30] INFO root fetch - processPackages [google-vizier-dev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/google-vizier-dev-0.1.16.dev20240514144958.tar.gz tmp/google-vizier-dev-0.1.16.dev20240515210838.tar.gz --markdown 20240516/g/google-vizier-dev/0.1.16.dev20240514144958-0.1.16.dev20240515210838/README.md --exclude *.pyd
+[2024-05-16 04:23:30] INFO root fetch - processPackages [tclint]: Downloading https://files.pythonhosted.org/packages/ef/1d/230a58999e20d56b1e5f0b914d30a94d6f2a1c9f13b202dbf6b1e31df708/tclint-0.2.5.tar.gz
+[2024-05-16 04:23:30] INFO root fetch - processPackages [langchain-exa]: executing diffoscope
+[2024-05-16 04:23:30] INFO root fetch - processPackages [langchain-exa]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/langchain_exa-0.0.1.tar.gz tmp/langchain_exa-0.1.0.tar.gz --markdown 20240516/l/langchain-exa/0.0.1-0.1.0/README.md --exclude *.pyd
+[2024-05-16 04:23:30] INFO root fetch - processPackages [types-uWSGI]: executing diffoscope
+[2024-05-16 04:23:30] INFO root fetch - processPackages [swagger2jsonschema]: executing diffoscope
+[2024-05-16 04:23:30] INFO root fetch - processPackages [swagger2jsonschema]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/swagger2jsonschema-0.1.0-py3-none-any.whl.zip tmp/swagger2jsonschema-0.1.1-py3-none-any.whl.zip --markdown 20240516/s/swagger2jsonschema/0.1.0-0.1.1/README.md --exclude *.pyd
+[2024-05-16 04:23:30] INFO root fetch - processPackages [types-uWSGI]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/types-uWSGI-2.0.0.20240425.tar.gz tmp/types-uWSGI-2.0.0.20240516.tar.gz --markdown 20240516/t/types-uWSGI/2.0.0.20240425-2.0.0.20240516/README.md --exclude *.pyd
+[2024-05-16 04:23:30] INFO root fetch - processPackages [types-regex]: executing diffoscope
+[2024-05-16 04:23:30] INFO root fetch - processPackages [types-regex]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/types-regex-2024.5.10.20240512.tar.gz tmp/types-regex-2024.5.15.20240516.tar.gz --markdown 20240516/t/types-regex/2024.5.10.20240512-2024.5.15.20240516/README.md --exclude *.pyd
+[2024-05-16 04:23:30] INFO root fetch - processPackages [types-psutil]: executing diffoscope
+[2024-05-16 04:23:30] INFO root fetch - processPackages [types-psutil]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/types-psutil-5.9.5.8.tar.gz tmp/types-psutil-5.9.5.9.tar.gz --markdown 20240516/t/types-psutil/5.9.5.8-5.9.5.9/README.md --exclude *.pyd
+[2024-05-16 04:23:30] INFO root fetch - processPackages [PypiInstruments]: executing diffoscope
+[2024-05-16 04:23:30] INFO root fetch - processPackages [PypiInstruments]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PypiInstruments-1.0.7.tar.gz tmp/PypiInstruments-1.0.9.tar.gz --markdown 20240516/P/PypiInstruments/1.0.7-1.0.9/README.md --exclude *.pyd
+[2024-05-16 04:23:30] INFO root fetch - processPackages [tclint]: executing diffoscope
+[2024-05-16 04:23:30] INFO root fetch - processPackages [tclint]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tclint-0.2.4.tar.gz tmp/tclint-0.2.5.tar.gz --markdown 20240516/t/tclint/0.2.4-0.2.5/README.md --exclude *.pyd
+[2024-05-16 04:23:30] INFO root fetch - processPackages [types-pyaudio]: Downloading https://files.pythonhosted.org/packages/da/b8/a5a2a3619e7f817a1f6d1ff3525868bc4b85c998ba1532ff62102ce845e8/types-pyaudio-0.2.9.tar.gz
+[2024-05-16 04:23:30] INFO root fetch - processPackages [types-pyaudio]: executing diffoscope
+[2024-05-16 04:23:30] INFO root fetch - processPackages [types-pyaudio]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/types-pyaudio-0.2.8.tar.gz tmp/types-pyaudio-0.2.9.tar.gz --markdown 20240516/t/types-pyaudio/0.2.8-0.2.9/README.md --exclude *.pyd
+[2024-05-16 04:23:30] INFO root fetch - processPackages [ipex-llm]: Downloading https://files.pythonhosted.org/packages/af/25/eb8a7e92f1cf4cec29e28ed3681235f6ab1fdf835d66d92e727e7773ae82/ipex_llm-2.1.0b20240515-py3-none-win_amd64.whl
+[2024-05-16 04:23:31] INFO root fetch - processPackages [langchain-exa]: Remove: archive file [/home/abi/fetcher/tmp/langchain_exa-0.0.1.tar.gz]
+[2024-05-16 04:23:31] INFO root fetch - processPackages [langchain-exa]: Remove: archive file [/home/abi/fetcher/tmp/langchain_exa-0.1.0.tar.gz]
+[2024-05-16 04:23:31] INFO root fetch - main [MainThread]: End processing [langchain-exa]: success
+[2024-05-16 04:23:31] INFO root fetch - processPackages [types-psutil]: Remove: archive file [/home/abi/fetcher/tmp/types-psutil-5.9.5.8.tar.gz]
+[2024-05-16 04:23:31] INFO root fetch - processPackages [types-psutil]: Remove: archive file [/home/abi/fetcher/tmp/types-psutil-5.9.5.9.tar.gz]
+[2024-05-16 04:23:31] INFO root fetch - main [MainThread]: End processing [types-psutil]: success
+[2024-05-16 04:23:31] INFO root fetch - processPackages [types-regex]: Remove: archive file [/home/abi/fetcher/tmp/types-regex-2024.5.10.20240512.tar.gz]
+[2024-05-16 04:23:31] INFO root fetch - processPackages [types-regex]: Remove: archive file [/home/abi/fetcher/tmp/types-regex-2024.5.15.20240516.tar.gz]
+[2024-05-16 04:23:31] INFO root fetch - main [MainThread]: End processing [types-regex]: success
+[2024-05-16 04:23:31] INFO root fetch - processPackages [types-uWSGI]: Remove: archive file [/home/abi/fetcher/tmp/types-uWSGI-2.0.0.20240425.tar.gz]
+[2024-05-16 04:23:31] INFO root fetch - processPackages [types-uWSGI]: Remove: archive file [/home/abi/fetcher/tmp/types-uWSGI-2.0.0.20240516.tar.gz]
+[2024-05-16 04:23:31] INFO root fetch - main [MainThread]: End processing [types-uWSGI]: success
+[2024-05-16 04:23:31] INFO root fetch - processPackages [swagger2jsonschema]: Remove: archive file [/home/abi/fetcher/tmp/swagger2jsonschema-0.1.0-py3-none-any.whl.zip]
+[2024-05-16 04:23:31] INFO root fetch - processPackages [swagger2jsonschema]: Remove: archive file [/home/abi/fetcher/tmp/swagger2jsonschema-0.1.1-py3-none-any.whl.zip]
+[2024-05-16 04:23:31] INFO root fetch - main [MainThread]: End processing [swagger2jsonschema]: success
+[2024-05-16 04:23:31] INFO root fetch - processPackages [tclint]: Remove: archive file [/home/abi/fetcher/tmp/tclint-0.2.4.tar.gz]
+[2024-05-16 04:23:31] INFO root fetch - processPackages [tclint]: Remove: archive file [/home/abi/fetcher/tmp/tclint-0.2.5.tar.gz]
+[2024-05-16 04:23:31] INFO root fetch - main [MainThread]: End processing [tclint]: success
+[2024-05-16 04:23:31] INFO root fetch - processPackages [types-pyaudio]: Remove: archive file [/home/abi/fetcher/tmp/types-pyaudio-0.2.8.tar.gz]
+[2024-05-16 04:23:31] INFO root fetch - processPackages [types-pyaudio]: Remove: archive file [/home/abi/fetcher/tmp/types-pyaudio-0.2.9.tar.gz]
+[2024-05-16 04:23:31] INFO root fetch - main [MainThread]: End processing [types-pyaudio]: success
+[2024-05-16 04:23:31] INFO root fetch - processPackages [PypiInstruments]: Remove: archive file [/home/abi/fetcher/tmp/PypiInstruments-1.0.7.tar.gz]
+[2024-05-16 04:23:31] INFO root fetch - processPackages [PypiInstruments]: Remove: archive file [/home/abi/fetcher/tmp/PypiInstruments-1.0.9.tar.gz]
+[2024-05-16 04:23:31] INFO root fetch - main [MainThread]: End processing [PypiInstruments]: success
+[2024-05-16 04:23:31] INFO root fetch - processPackages [ipex-llm]: executing diffoscope
+[2024-05-16 04:23:31] INFO root fetch - processPackages [ipex-llm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ipex_llm-2.1.0b20240514-py3-none-win_amd64.whl.zip tmp/ipex_llm-2.1.0b20240515-py3-none-win_amd64.whl.zip --markdown 20240516/i/ipex-llm/2.1.0b20240514-2.1.0b20240515/README.md --exclude *.pyd
+[2024-05-16 04:23:32] INFO root fetch - processPackages [google-vizier-dev]: Remove: archive file [/home/abi/fetcher/tmp/google-vizier-dev-0.1.16.dev20240514144958.tar.gz]
+[2024-05-16 04:23:32] INFO root fetch - processPackages [google-vizier-dev]: Remove: archive file [/home/abi/fetcher/tmp/google-vizier-dev-0.1.16.dev20240515210838.tar.gz]
+[2024-05-16 04:23:32] INFO root fetch - main [MainThread]: End processing [google-vizier-dev]: success
+[2024-05-16 04:24:01] INFO root fetch - processPackages [ipex-llm]: Remove: archive file [/home/abi/fetcher/tmp/ipex_llm-2.1.0b20240514-py3-none-win_amd64.whl.zip]
+[2024-05-16 04:24:01] INFO root fetch - processPackages [ipex-llm]: Remove: archive file [/home/abi/fetcher/tmp/ipex_llm-2.1.0b20240515-py3-none-win_amd64.whl.zip]
+[2024-05-16 04:24:01] INFO root fetch - main [MainThread]: End processing [ipex-llm]: success
+[2024-05-16 04:24:01] INFO root fetch - main [MainThread]: Store serial: [23228682]
