@@ -11492,3 +11492,12 @@ EOFError: EOF read where object expected
 [2024-05-16 06:56:10] INFO root fetch - processPackages [w3ml]: Remove: archive file [/home/abi/fetcher/tmp/w3ml-2024.5.16rc6.tar.gz]
 [2024-05-16 06:56:10] INFO root fetch - main [MainThread]: End processing [w3ml]: success
 [2024-05-16 06:56:10] INFO root fetch - main [MainThread]: Store serial: [23229491]
+[2024-05-16 06:58:15] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23229491]
+[2024-05-16 06:58:20] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-16 06:58:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: hello-world-demo
+[2024-05-16 06:58:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: don-cv
+[2024-05-16 06:58:20] WARNING root fetch - processPackages [don-cv]: Skipping, unable to determine old version
+[2024-05-16 06:58:20] INFO root fetch - main [MainThread]: End processing [don-cv] error
+[2024-05-16 06:58:20] WARNING root fetch - processPackages [hello-world-demo]: Skipping, unable to determine old version
+[2024-05-16 06:58:20] INFO root fetch - main [MainThread]: End processing [hello-world-demo] error
+[2024-05-16 06:58:20] INFO root fetch - main [MainThread]: Store serial: [23229499]
