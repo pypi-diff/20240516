@@ -10472,3 +10472,24 @@ EOFError: EOF read where object expected
 [2024-05-16 05:31:23] INFO root fetch - processPackages [cdktf-cdktf-provider-databricks]: Remove: archive file [/home/abi/fetcher/tmp/cdktf-cdktf-provider-databricks-9.0.3.tar.gz]
 [2024-05-16 05:31:23] INFO root fetch - main [MainThread]: End processing [cdktf-cdktf-provider-databricks]: success
 [2024-05-16 05:31:23] INFO root fetch - main [MainThread]: Store serial: [23229073]
+[2024-05-16 05:33:27] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23229073]
+[2024-05-16 05:33:32] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-16 05:33:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: odoo-addon-l10n-eu-nace
+[2024-05-16 05:33:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ultyas
+[2024-05-16 05:33:32] INFO root fetch - processPackages [ultyas]: New version: [1.0.6] Old Version: [1.0.5]
+[2024-05-16 05:33:32] INFO root fetch - processPackages [ultyas]: Downloading https://files.pythonhosted.org/packages/48/d5/9114cf3594c32f3ebde06e0dc21b7549415256785b646a51e488f67bcc7e/ultyas-1.0.5.tar.gz
+[2024-05-16 05:33:32] INFO root fetch - processPackages [odoo-addon-l10n-eu-nace]: New version: [16.0.1.0.1.4] Old Version: [16.0.1.0.1.3]
+[2024-05-16 05:33:32] INFO root fetch - processPackages [odoo-addon-l10n-eu-nace]: Downloading https://files.pythonhosted.org/packages/12/a4/086bdc07e2a9407469128ee17fcece895648109841eb50f5659cda5208c0/odoo_addon_l10n_eu_nace-16.0.1.0.1.3-py3-none-any.whl
+[2024-05-16 05:33:32] INFO root fetch - processPackages [ultyas]: Downloading https://files.pythonhosted.org/packages/d3/1d/5a04b589306f7cc4cd9dc8fe3dd81dbc36b1639501462ed3d6f1f2d9f735/ultyas-1.0.6.tar.gz
+[2024-05-16 05:33:33] INFO root fetch - processPackages [ultyas]: executing diffoscope
+[2024-05-16 05:33:33] INFO root fetch - processPackages [ultyas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ultyas-1.0.5.tar.gz tmp/ultyas-1.0.6.tar.gz --markdown 20240516/u/ultyas/1.0.5-1.0.6/README.md --exclude *.pyd
+[2024-05-16 05:33:33] INFO root fetch - processPackages [odoo-addon-l10n-eu-nace]: Downloading https://files.pythonhosted.org/packages/f8/28/12e30c81a3c3e883a0b8a09423a6d4ecc2c0ea67b551cc1a090667615f00/odoo_addon_l10n_eu_nace-16.0.1.0.1.4-py3-none-any.whl
+[2024-05-16 05:33:33] INFO root fetch - processPackages [odoo-addon-l10n-eu-nace]: executing diffoscope
+[2024-05-16 05:33:33] INFO root fetch - processPackages [odoo-addon-l10n-eu-nace]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_l10n_eu_nace-16.0.1.0.1.3-py3-none-any.whl.zip tmp/odoo_addon_l10n_eu_nace-16.0.1.0.1.4-py3-none-any.whl.zip --markdown 20240516/o/odoo-addon-l10n-eu-nace/16.0.1.0.1.3-16.0.1.0.1.4/README.md --exclude *.pyd
+[2024-05-16 05:33:33] INFO root fetch - processPackages [ultyas]: Remove: archive file [/home/abi/fetcher/tmp/ultyas-1.0.5.tar.gz]
+[2024-05-16 05:33:33] INFO root fetch - processPackages [ultyas]: Remove: archive file [/home/abi/fetcher/tmp/ultyas-1.0.6.tar.gz]
+[2024-05-16 05:33:33] INFO root fetch - main [MainThread]: End processing [ultyas]: success
+[2024-05-16 05:33:33] INFO root fetch - processPackages [odoo-addon-l10n-eu-nace]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_l10n_eu_nace-16.0.1.0.1.3-py3-none-any.whl.zip]
+[2024-05-16 05:33:33] INFO root fetch - processPackages [odoo-addon-l10n-eu-nace]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_l10n_eu_nace-16.0.1.0.1.4-py3-none-any.whl.zip]
+[2024-05-16 05:33:33] INFO root fetch - main [MainThread]: End processing [odoo-addon-l10n-eu-nace]: success
+[2024-05-16 05:33:33] INFO root fetch - main [MainThread]: Store serial: [23229083]
