@@ -9097,3 +9097,15 @@ EOFError: EOF read where object expected
 [2024-05-16 03:57:18] INFO root fetch - processPackages [omnata-plugin-runtime]: Remove: archive file [/home/abi/fetcher/tmp/omnata_plugin_runtime-0.3.9a44.tar.gz]
 [2024-05-16 03:57:18] INFO root fetch - main [MainThread]: End processing [omnata-plugin-runtime]: success
 [2024-05-16 03:57:18] INFO root fetch - main [MainThread]: Store serial: [23228515]
+[2024-05-16 03:59:22] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23228515]
+[2024-05-16 03:59:27] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-05-16 03:59:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: protein-turnover
+[2024-05-16 03:59:27] INFO root fetch - processPackages [protein-turnover]: New version: [0.3.8] Old Version: [0.3.7]
+[2024-05-16 03:59:27] INFO root fetch - processPackages [protein-turnover]: Downloading https://files.pythonhosted.org/packages/67/85/34020a389deba9aab5931bb1036d8b84a3df028de08890eaeacf3b4085c3/protein_turnover-0.3.7.tar.gz
+[2024-05-16 03:59:28] INFO root fetch - processPackages [protein-turnover]: Downloading https://files.pythonhosted.org/packages/38/8f/767e304cd304905cc70dee8473f3d19976fcef7b4ccf0d37097a8afd6feb/protein_turnover-0.3.8.tar.gz
+[2024-05-16 03:59:28] INFO root fetch - processPackages [protein-turnover]: executing diffoscope
+[2024-05-16 03:59:28] INFO root fetch - processPackages [protein-turnover]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/protein_turnover-0.3.7.tar.gz tmp/protein_turnover-0.3.8.tar.gz --markdown 20240516/p/protein-turnover/0.3.7-0.3.8/README.md --exclude *.pyd
+[2024-05-16 03:59:28] INFO root fetch - processPackages [protein-turnover]: Remove: archive file [/home/abi/fetcher/tmp/protein_turnover-0.3.7.tar.gz]
+[2024-05-16 03:59:28] INFO root fetch - processPackages [protein-turnover]: Remove: archive file [/home/abi/fetcher/tmp/protein_turnover-0.3.8.tar.gz]
+[2024-05-16 03:59:28] INFO root fetch - main [MainThread]: End processing [protein-turnover]: success
+[2024-05-16 03:59:28] INFO root fetch - main [MainThread]: Store serial: [23228518]
