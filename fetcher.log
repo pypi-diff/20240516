@@ -10138,3 +10138,42 @@ EOFError: EOF read where object expected
 [2024-05-16 05:05:17] INFO root fetch - processPackages [hdx-python-scraper]: Remove: archive file [/home/abi/fetcher/tmp/hdx_python_scraper-2.3.6.tar.gz]
 [2024-05-16 05:05:17] INFO root fetch - main [MainThread]: End processing [hdx-python-scraper]: success
 [2024-05-16 05:05:17] INFO root fetch - main [MainThread]: Store serial: [23228965]
+[2024-05-16 05:07:21] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23228965]
+[2024-05-16 05:07:26] INFO root fetch - main [MainThread]: No changed packages found
+[2024-05-16 05:09:26] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23228965]
+[2024-05-16 05:09:31] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-16 05:09:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: http-uploader-cli
+[2024-05-16 05:09:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: NJFU
+[2024-05-16 05:09:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: co3
+[2024-05-16 05:09:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: co3
+[2024-05-16 05:09:31] INFO root fetch - processPackages [NJFU]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-16 05:09:31] INFO root fetch - processPackages [http-uploader-cli]: New version: [0.1.3] Old Version: [0.1.2]
+[2024-05-16 05:09:32] INFO root fetch - processPackages [co3]: New version: [0.6.3] Old Version: [0.0.0]
+[2024-05-16 05:09:32] INFO root fetch - processPackages [co3]: New version: [0.6.3] Old Version: [0.0.0]
+[2024-05-16 05:09:32] INFO root fetch - processPackages [NJFU]: Downloading https://files.pythonhosted.org/packages/59/5d/336d114c78a1a895dbbb83d1410c1460d24a62c88d0bffda2530cd4515ad/NJFU-0.0.8.tar.gz
+[2024-05-16 05:09:32] INFO root fetch - processPackages [http-uploader-cli]: Downloading https://files.pythonhosted.org/packages/1d/a2/c923f4ca3d69f458039cbdf4a1f12b366e2dddbede837b810fbb32632031/http_uploader_cli-0.1.2.tar.gz
+[2024-05-16 05:09:32] INFO root fetch - processPackages [co3]: Downloading https://files.pythonhosted.org/packages/7d/18/13f10d2ffdc6385de6ba3b279a34f1d2b2cc659258b6a9a550967d452460/co3-0.0.0.tar.gz
+[2024-05-16 05:09:32] INFO root fetch - processPackages [co3]: Downloading https://files.pythonhosted.org/packages/7d/18/13f10d2ffdc6385de6ba3b279a34f1d2b2cc659258b6a9a550967d452460/co3-0.0.0.tar.gz
+[2024-05-16 05:09:32] INFO root fetch - processPackages [http-uploader-cli]: Downloading https://files.pythonhosted.org/packages/4e/78/b724bd4bed859f69abc01f029abdbb47fea004ba2ead2635834cfc9031e1/http_uploader_cli-0.1.3.tar.gz
+[2024-05-16 05:09:32] INFO root fetch - processPackages [NJFU]: Downloading https://files.pythonhosted.org/packages/50/8b/feb1ad4357637d5b26dceb7c5a2ce826bd996c6f33a40d84b439419ce3c8/NJFU-0.0.9.tar.gz
+[2024-05-16 05:09:32] INFO root fetch - processPackages [co3]: Downloading https://files.pythonhosted.org/packages/6f/e3/8c324bfa55ca1b084e3931374a4aa0ffc53dfa674a5e2ee00e024946cd70/co3-0.6.3.tar.gz
+[2024-05-16 05:09:32] INFO root fetch - processPackages [co3]: Downloading https://files.pythonhosted.org/packages/6f/e3/8c324bfa55ca1b084e3931374a4aa0ffc53dfa674a5e2ee00e024946cd70/co3-0.6.3.tar.gz
+[2024-05-16 05:09:32] INFO root fetch - processPackages [http-uploader-cli]: executing diffoscope
+[2024-05-16 05:09:32] INFO root fetch - processPackages [http-uploader-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/http_uploader_cli-0.1.2.tar.gz tmp/http_uploader_cli-0.1.3.tar.gz --markdown 20240516/h/http-uploader-cli/0.1.2-0.1.3/README.md --exclude *.pyd
+[2024-05-16 05:09:32] INFO root fetch - processPackages [NJFU]: executing diffoscope
+[2024-05-16 05:09:32] INFO root fetch - processPackages [NJFU]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/NJFU-0.0.8.tar.gz tmp/NJFU-0.0.9.tar.gz --markdown 20240516/N/NJFU/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-16 05:09:32] INFO root fetch - processPackages [co3]: executing diffoscope
+[2024-05-16 05:09:32] INFO root fetch - processPackages [co3]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/co3-0.0.0.tar.gz tmp/co3-0.6.3.tar.gz --markdown 20240516/c/co3/0.0.0-0.6.3/README.md --exclude *.pyd
+[2024-05-16 05:09:32] INFO root fetch - processPackages [co3]: executing diffoscope
+[2024-05-16 05:09:32] INFO root fetch - processPackages [co3]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/co3-0.0.0.tar.gz tmp/co3-0.6.3.tar.gz --markdown 20240516/c/co3/0.0.0-0.6.3/README.md --exclude *.pyd
+[2024-05-16 05:09:33] INFO root fetch - processPackages [NJFU]: Remove: archive file [/home/abi/fetcher/tmp/NJFU-0.0.8.tar.gz]
+[2024-05-16 05:09:33] INFO root fetch - processPackages [NJFU]: Remove: archive file [/home/abi/fetcher/tmp/NJFU-0.0.9.tar.gz]
+[2024-05-16 05:09:33] INFO root fetch - main [MainThread]: End processing [NJFU]: success
+[2024-05-16 05:09:33] INFO root fetch - processPackages [http-uploader-cli]: Remove: archive file [/home/abi/fetcher/tmp/http_uploader_cli-0.1.2.tar.gz]
+[2024-05-16 05:09:33] INFO root fetch - processPackages [http-uploader-cli]: Remove: archive file [/home/abi/fetcher/tmp/http_uploader_cli-0.1.3.tar.gz]
+[2024-05-16 05:09:33] INFO root fetch - main [MainThread]: End processing [http-uploader-cli]: success
+[2024-05-16 05:09:33] INFO root fetch - processPackages [co3]: Remove: archive file [/home/abi/fetcher/tmp/co3-0.0.0.tar.gz]
+[2024-05-16 05:09:33] INFO root fetch - processPackages [co3]: Remove: archive file [/home/abi/fetcher/tmp/co3-0.6.3.tar.gz]
+[2024-05-16 05:09:33] INFO root fetch - main [MainThread]: End processing [co3]: success
+[2024-05-16 05:09:33] INFO root fetch - main [MainThread]: End processing [co3]: success
+[2024-05-16 05:09:33] INFO root fetch - main [MainThread]: Store serial: [23228978]
