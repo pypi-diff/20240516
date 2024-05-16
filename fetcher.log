@@ -13024,3 +13024,45 @@ EOFError: EOF read where object expected
 [2024-05-16 08:22:43] INFO root fetch - processPackages [osw]: Remove: archive file [/home/abi/fetcher/tmp/osw-0.9.0.tar.gz]
 [2024-05-16 08:22:43] INFO root fetch - main [MainThread]: End processing [osw]: success
 [2024-05-16 08:22:43] INFO root fetch - main [MainThread]: Store serial: [23230126]
+[2024-05-16 08:24:47] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23230126]
+[2024-05-16 08:24:52] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-16 08:24:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: nonebot-plugin-tsugu-bangdream-bot
+[2024-05-16 08:24:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: glue-utils
+[2024-05-16 08:24:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: topfarm
+[2024-05-16 08:24:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pms-encoder
+[2024-05-16 08:24:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: iclean
+[2024-05-16 08:24:52] INFO root fetch - processPackages [pms-encoder]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-16 08:24:52] INFO root fetch - processPackages [glue-utils]: New version: [0.4.0rc0] Old Version: [0.3.1]
+[2024-05-16 08:24:52] INFO root fetch - processPackages [pms-encoder]: Downloading https://files.pythonhosted.org/packages/80/f1/88f2f54188c15bf6cca5ba7a3a347b8d1c83b15a626f541acf3dde5aa63d/pms_encoder-0.0.8.tar.gz
+[2024-05-16 08:24:52] WARNING root fetch - processPackages [nonebot-plugin-tsugu-bangdream-bot]: Skipping, unable to determine old version
+[2024-05-16 08:24:52] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-tsugu-bangdream-bot] error
+[2024-05-16 08:24:52] INFO root fetch - processPackages [topfarm]: New version: [2.3.4] Old Version: [2.3.2]
+[2024-05-16 08:24:52] INFO root fetch - processPackages [iclean]: New version: [0.0.4] Old Version: [0.0.3]
+[2024-05-16 08:24:52] INFO root fetch - processPackages [glue-utils]: Downloading https://files.pythonhosted.org/packages/9f/0d/5bec32a5ea0e5a24d168462c7d0c0a8fa17ebd92fdf54401dbd5e7e0c79f/glue_utils-0.3.1.tar.gz
+[2024-05-16 08:24:52] INFO root fetch - processPackages [topfarm]: Downloading https://files.pythonhosted.org/packages/d9/5a/11b67bdd05338dac6ee624f56086bba6d1f5b8f5609f13bf372ff65ecd71/topfarm-2.3.2.tar.gz
+[2024-05-16 08:24:52] INFO root fetch - processPackages [pms-encoder]: Downloading https://files.pythonhosted.org/packages/93/31/8bb081756db42925fab6507b6e0f497d6bf45acd407ff38cb00f2aaec54c/pms_encoder-0.0.9.tar.gz
+[2024-05-16 08:24:52] INFO root fetch - processPackages [iclean]: Downloading https://files.pythonhosted.org/packages/2a/55/a6c207f09f85ebce736fdb032d3262cb31788847d2b3f2a30422fa98a3c4/iclean-0.0.3.tar.gz
+[2024-05-16 08:24:52] INFO root fetch - processPackages [pms-encoder]: executing diffoscope
+[2024-05-16 08:24:52] INFO root fetch - processPackages [pms-encoder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pms_encoder-0.0.8.tar.gz tmp/pms_encoder-0.0.9.tar.gz --markdown 20240516/p/pms-encoder/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-16 08:24:52] INFO root fetch - processPackages [glue-utils]: Downloading https://files.pythonhosted.org/packages/97/25/f09e7caa9b32fc72b46eb1098617f8ea68fbe2a45f769d90cd668bd84d67/glue_utils-0.4.0rc0.tar.gz
+[2024-05-16 08:24:53] INFO root fetch - processPackages [topfarm]: Downloading https://files.pythonhosted.org/packages/20/0a/a6fb60ec536090499c253dc5f4dab4b725186b25a294e1b80f9bfa6ad06c/topfarm-2.3.4.tar.gz
+[2024-05-16 08:24:53] INFO root fetch - processPackages [glue-utils]: executing diffoscope
+[2024-05-16 08:24:53] INFO root fetch - processPackages [glue-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/glue_utils-0.3.1.tar.gz tmp/glue_utils-0.4.0rc0.tar.gz --markdown 20240516/g/glue-utils/0.3.1-0.4.0rc0/README.md --exclude *.pyd
+[2024-05-16 08:24:53] INFO root fetch - processPackages [iclean]: Downloading https://files.pythonhosted.org/packages/82/c2/cfa0ddbb616d828eaf7e4eda87acf4e42ec43d654d5f439cf4aeb762a66f/iclean-0.0.4.tar.gz
+[2024-05-16 08:24:53] INFO root fetch - processPackages [topfarm]: executing diffoscope
+[2024-05-16 08:24:53] INFO root fetch - processPackages [topfarm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/topfarm-2.3.2.tar.gz tmp/topfarm-2.3.4.tar.gz --markdown 20240516/t/topfarm/2.3.2-2.3.4/README.md --exclude *.pyd
+[2024-05-16 08:24:53] INFO root fetch - processPackages [iclean]: executing diffoscope
+[2024-05-16 08:24:53] INFO root fetch - processPackages [iclean]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/iclean-0.0.3.tar.gz tmp/iclean-0.0.4.tar.gz --markdown 20240516/i/iclean/0.0.3-0.0.4/README.md --exclude *.pyd
+[2024-05-16 08:24:53] INFO root fetch - processPackages [pms-encoder]: Remove: archive file [/home/abi/fetcher/tmp/pms_encoder-0.0.8.tar.gz]
+[2024-05-16 08:24:53] INFO root fetch - processPackages [pms-encoder]: Remove: archive file [/home/abi/fetcher/tmp/pms_encoder-0.0.9.tar.gz]
+[2024-05-16 08:24:53] INFO root fetch - main [MainThread]: End processing [pms-encoder]: success
+[2024-05-16 08:24:53] INFO root fetch - processPackages [glue-utils]: Remove: archive file [/home/abi/fetcher/tmp/glue_utils-0.3.1.tar.gz]
+[2024-05-16 08:24:53] INFO root fetch - processPackages [glue-utils]: Remove: archive file [/home/abi/fetcher/tmp/glue_utils-0.4.0rc0.tar.gz]
+[2024-05-16 08:24:53] INFO root fetch - main [MainThread]: End processing [glue-utils]: success
+[2024-05-16 08:24:53] INFO root fetch - processPackages [iclean]: Remove: archive file [/home/abi/fetcher/tmp/iclean-0.0.3.tar.gz]
+[2024-05-16 08:24:53] INFO root fetch - processPackages [iclean]: Remove: archive file [/home/abi/fetcher/tmp/iclean-0.0.4.tar.gz]
+[2024-05-16 08:24:53] INFO root fetch - main [MainThread]: End processing [iclean]: success
+[2024-05-16 08:24:54] INFO root fetch - processPackages [topfarm]: Remove: archive file [/home/abi/fetcher/tmp/topfarm-2.3.2.tar.gz]
+[2024-05-16 08:24:54] INFO root fetch - processPackages [topfarm]: Remove: archive file [/home/abi/fetcher/tmp/topfarm-2.3.4.tar.gz]
+[2024-05-16 08:24:54] INFO root fetch - main [MainThread]: End processing [topfarm]: success
+[2024-05-16 08:24:54] INFO root fetch - main [MainThread]: Store serial: [23230143]
