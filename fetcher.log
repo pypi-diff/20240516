@@ -10216,3 +10216,24 @@ EOFError: EOF read where object expected
 [2024-05-16 05:11:43] INFO root fetch - processPackages [langchain-elasticsearch]: Remove: archive file [/home/abi/fetcher/tmp/langchain_elasticsearch-0.2.0.tar.gz]
 [2024-05-16 05:11:43] INFO root fetch - main [MainThread]: End processing [langchain-elasticsearch]: success
 [2024-05-16 05:11:43] INFO root fetch - main [MainThread]: Store serial: [23228990]
+[2024-05-16 05:13:47] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23228990]
+[2024-05-16 05:13:52] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-16 05:13:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: django-utilsds
+[2024-05-16 05:13:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo-addon-automation-oca
+[2024-05-16 05:13:52] INFO root fetch - processPackages [django-utilsds]: New version: [0.6.0] Old Version: [0.5.2]
+[2024-05-16 05:13:52] INFO root fetch - processPackages [odoo-addon-automation-oca]: New version: [16.0.1.0.0.5] Old Version: [16.0.1.0.0.4]
+[2024-05-16 05:13:52] INFO root fetch - processPackages [django-utilsds]: Downloading https://files.pythonhosted.org/packages/18/66/150eb6f0de06f799d18fa936797b7297fed0a8683e872b6e01ba2392b527/django_utilsds-0.5.2.tar.gz
+[2024-05-16 05:13:52] INFO root fetch - processPackages [odoo-addon-automation-oca]: Downloading https://files.pythonhosted.org/packages/33/65/7aaae76ce95bf7839c747b78987eb1d481959d1b5761c17162d688d88a58/odoo_addon_automation_oca-16.0.1.0.0.4-py3-none-any.whl
+[2024-05-16 05:13:53] INFO root fetch - processPackages [django-utilsds]: Downloading https://files.pythonhosted.org/packages/8a/6e/6683566d8457e8cb62e99539e2ac49e0c3f101a1e8bf753a10c596a9091c/django_utilsds-0.6.0.tar.gz
+[2024-05-16 05:13:53] INFO root fetch - processPackages [django-utilsds]: executing diffoscope
+[2024-05-16 05:13:53] INFO root fetch - processPackages [django-utilsds]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django_utilsds-0.5.2.tar.gz tmp/django_utilsds-0.6.0.tar.gz --markdown 20240516/d/django-utilsds/0.5.2-0.6.0/README.md --exclude *.pyd
+[2024-05-16 05:13:53] INFO root fetch - processPackages [odoo-addon-automation-oca]: Downloading https://files.pythonhosted.org/packages/90/0a/fa1a80f64cf3d199d67c09796cc5e966b6a51ac46ff5efe607bfb27d0f7f/odoo_addon_automation_oca-16.0.1.0.0.5-py3-none-any.whl
+[2024-05-16 05:13:53] INFO root fetch - processPackages [odoo-addon-automation-oca]: executing diffoscope
+[2024-05-16 05:13:53] INFO root fetch - processPackages [odoo-addon-automation-oca]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_automation_oca-16.0.1.0.0.4-py3-none-any.whl.zip tmp/odoo_addon_automation_oca-16.0.1.0.0.5-py3-none-any.whl.zip --markdown 20240516/o/odoo-addon-automation-oca/16.0.1.0.0.4-16.0.1.0.0.5/README.md --exclude *.pyd
+[2024-05-16 05:13:53] INFO root fetch - processPackages [django-utilsds]: Remove: archive file [/home/abi/fetcher/tmp/django_utilsds-0.5.2.tar.gz]
+[2024-05-16 05:13:53] INFO root fetch - processPackages [django-utilsds]: Remove: archive file [/home/abi/fetcher/tmp/django_utilsds-0.6.0.tar.gz]
+[2024-05-16 05:13:53] INFO root fetch - main [MainThread]: End processing [django-utilsds]: success
+[2024-05-16 05:13:54] INFO root fetch - processPackages [odoo-addon-automation-oca]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_automation_oca-16.0.1.0.0.4-py3-none-any.whl.zip]
+[2024-05-16 05:13:54] INFO root fetch - processPackages [odoo-addon-automation-oca]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_automation_oca-16.0.1.0.0.5-py3-none-any.whl.zip]
+[2024-05-16 05:13:54] INFO root fetch - main [MainThread]: End processing [odoo-addon-automation-oca]: success
+[2024-05-16 05:13:54] INFO root fetch - main [MainThread]: Store serial: [23228995]
