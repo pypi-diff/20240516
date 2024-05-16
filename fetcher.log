@@ -9109,3 +9109,61 @@ EOFError: EOF read where object expected
 [2024-05-16 03:59:28] INFO root fetch - processPackages [protein-turnover]: Remove: archive file [/home/abi/fetcher/tmp/protein_turnover-0.3.8.tar.gz]
 [2024-05-16 03:59:28] INFO root fetch - main [MainThread]: End processing [protein-turnover]: success
 [2024-05-16 03:59:28] INFO root fetch - main [MainThread]: Store serial: [23228518]
+[2024-05-16 04:01:32] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23228518]
+[2024-05-16 04:01:37] INFO root fetch - main [MainThread]: No changed packages found
+[2024-05-16 04:03:37] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23228518]
+[2024-05-16 04:03:42] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-16 04:03:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: used-addr-check
+[2024-05-16 04:03:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: qleegss
+[2024-05-16 04:03:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ELSholdings
+[2024-05-16 04:03:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: somedecorators
+[2024-05-16 04:03:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ohmslaw
+[2024-05-16 04:03:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: qbraid
+[2024-05-16 04:03:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: adafruit-circuitpython-connectionmanager
+[2024-05-16 04:03:42] INFO root fetch - processPackages [adafruit-circuitpython-connectionmanager]: New version: [3.0.0] Old Version: [2.0.0]
+[2024-05-16 04:03:42] INFO root fetch - processPackages [ELSholdings]: New version: [2.2.2] Old Version: [2.2.1]
+[2024-05-16 04:03:42] INFO root fetch - processPackages [qleegss]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-16 04:03:42] INFO root fetch - processPackages [ELSholdings]: Downloading https://files.pythonhosted.org/packages/28/83/b4e4100e5007bb16946c0bf43c2a8db6169281ee0e72c31dc72dc817d6f2/elsholdings-2.2.1.tar.gz
+[2024-05-16 04:03:42] INFO root fetch - processPackages [qbraid]: New version: [0.7.0.dev20240516020308] Old Version: [0.7.0.dev20240423224133]
+[2024-05-16 04:03:42] WARNING root fetch - processPackages [ohmslaw]: Skipping, unable to determine old version
+[2024-05-16 04:03:42] INFO root fetch - main [MainThread]: End processing [ohmslaw] error
+[2024-05-16 04:03:42] INFO root fetch - processPackages [used-addr-check]: New version: [0.1.2] Old Version: [0.1.1]
+[2024-05-16 04:03:42] INFO root fetch - processPackages [somedecorators]: New version: [1.2.3] Old Version: [1.2.2]
+[2024-05-16 04:03:42] INFO root fetch - processPackages [qleegss]: Downloading https://files.pythonhosted.org/packages/06/1e/3ca6e311e0a7d815c65771d58053745632e0a11ad74e83e01770fdf7c2f7/qleegss-0.0.8.tar.gz
+[2024-05-16 04:03:42] INFO root fetch - processPackages [adafruit-circuitpython-connectionmanager]: Downloading https://files.pythonhosted.org/packages/35/e2/e65ba8763a2f509d9ac1e87040bcd6a517256aa99d58bd6ed4c0bb492df5/adafruit_circuitpython_connectionmanager-2.0.0.tar.gz
+[2024-05-16 04:03:42] WARNING root fetch - processPackages [qleegss]: Skipping package: exceeds size limit 20058685>=10485760
+[2024-05-16 04:03:42] INFO root fetch - main [MainThread]: End processing [qleegss] error
+[2024-05-16 04:03:42] INFO root fetch - processPackages [used-addr-check]: Downloading https://files.pythonhosted.org/packages/fa/63/7efde79fac83d8f4fa957e09bb36c44161dc76b4c9813e400226a51eaab8/used_addr_check-0.1.1.tar.gz
+[2024-05-16 04:03:42] INFO root fetch - processPackages [somedecorators]: Downloading https://files.pythonhosted.org/packages/c7/9d/c847bb81fb47fbc130cda6202bd0f4cb16162f2da41cf6c3c79062e5dfc6/somedecorators-1.2.2.tar.gz
+[2024-05-16 04:03:42] INFO root fetch - processPackages [qbraid]: Downloading https://files.pythonhosted.org/packages/25/8f/c40824571f1a18eb47eb905feb763b939363bea9c3941fa69e25f26a5290/qbraid-0.7.0.dev20240423224133.tar.gz
+[2024-05-16 04:03:43] INFO root fetch - processPackages [ELSholdings]: Downloading https://files.pythonhosted.org/packages/bb/98/783b1bf85446db5c74d41891f718ba882cfd0525a0f866841e339afe2032/elsholdings-2.2.2.tar.gz
+[2024-05-16 04:03:43] INFO root fetch - processPackages [adafruit-circuitpython-connectionmanager]: Downloading https://files.pythonhosted.org/packages/6c/d9/f1bd106e2d9cc25db5fd020fba72ed1f068cd67661cba7ca085ad0c53b8e/adafruit_circuitpython_connectionmanager-3.0.0.tar.gz
+[2024-05-16 04:03:43] INFO root fetch - processPackages [ELSholdings]: executing diffoscope
+[2024-05-16 04:03:43] INFO root fetch - processPackages [ELSholdings]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/elsholdings-2.2.1.tar.gz tmp/elsholdings-2.2.2.tar.gz --markdown 20240516/E/ELSholdings/2.2.1-2.2.2/README.md --exclude *.pyd
+[2024-05-16 04:03:43] INFO root fetch - processPackages [used-addr-check]: Downloading https://files.pythonhosted.org/packages/24/85/e6318ad4024960f08a9b9a9f38f12b809f78414e8a0d532b6dfb9b95fbe0/used_addr_check-0.1.2.tar.gz
+[2024-05-16 04:03:43] INFO root fetch - processPackages [somedecorators]: Downloading https://files.pythonhosted.org/packages/d4/2b/7ee95b762c9c8dfb1b8e2b4de917e354d4463064769cb5589cd74e802e61/somedecorators-1.2.3.tar.gz
+[2024-05-16 04:03:43] INFO root fetch - processPackages [adafruit-circuitpython-connectionmanager]: executing diffoscope
+[2024-05-16 04:03:43] INFO root fetch - processPackages [adafruit-circuitpython-connectionmanager]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/adafruit_circuitpython_connectionmanager-2.0.0.tar.gz tmp/adafruit_circuitpython_connectionmanager-3.0.0.tar.gz --markdown 20240516/a/adafruit-circuitpython-connectionmanager/2.0.0-3.0.0/README.md --exclude *.pyd
+[2024-05-16 04:03:43] INFO root fetch - processPackages [used-addr-check]: executing diffoscope
+[2024-05-16 04:03:43] INFO root fetch - processPackages [used-addr-check]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/used_addr_check-0.1.1.tar.gz tmp/used_addr_check-0.1.2.tar.gz --markdown 20240516/u/used-addr-check/0.1.1-0.1.2/README.md --exclude *.pyd
+[2024-05-16 04:03:43] INFO root fetch - processPackages [somedecorators]: executing diffoscope
+[2024-05-16 04:03:43] INFO root fetch - processPackages [somedecorators]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/somedecorators-1.2.2.tar.gz tmp/somedecorators-1.2.3.tar.gz --markdown 20240516/s/somedecorators/1.2.2-1.2.3/README.md --exclude *.pyd
+[2024-05-16 04:03:43] INFO root fetch - processPackages [qbraid]: Downloading https://files.pythonhosted.org/packages/13/98/2e46edf170c3f2c5c578daa73930d819af23e2ac04c99c5b64abde455d47/qbraid-0.7.0.dev20240516020308.tar.gz
+[2024-05-16 04:03:43] INFO root fetch - processPackages [qbraid]: executing diffoscope
+[2024-05-16 04:03:43] INFO root fetch - processPackages [qbraid]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qbraid-0.7.0.dev20240423224133.tar.gz tmp/qbraid-0.7.0.dev20240516020308.tar.gz --markdown 20240516/q/qbraid/0.7.0.dev20240423224133-0.7.0.dev20240516020308/README.md --exclude *.pyd
+[2024-05-16 04:03:43] INFO root fetch - processPackages [ELSholdings]: Remove: archive file [/home/abi/fetcher/tmp/elsholdings-2.2.1.tar.gz]
+[2024-05-16 04:03:43] INFO root fetch - processPackages [ELSholdings]: Remove: archive file [/home/abi/fetcher/tmp/elsholdings-2.2.2.tar.gz]
+[2024-05-16 04:03:43] INFO root fetch - main [MainThread]: End processing [ELSholdings]: success
+[2024-05-16 04:03:43] INFO root fetch - processPackages [adafruit-circuitpython-connectionmanager]: Remove: archive file [/home/abi/fetcher/tmp/adafruit_circuitpython_connectionmanager-2.0.0.tar.gz]
+[2024-05-16 04:03:43] INFO root fetch - processPackages [adafruit-circuitpython-connectionmanager]: Remove: archive file [/home/abi/fetcher/tmp/adafruit_circuitpython_connectionmanager-3.0.0.tar.gz]
+[2024-05-16 04:03:43] INFO root fetch - main [MainThread]: End processing [adafruit-circuitpython-connectionmanager]: success
+[2024-05-16 04:03:44] INFO root fetch - processPackages [somedecorators]: Remove: archive file [/home/abi/fetcher/tmp/somedecorators-1.2.2.tar.gz]
+[2024-05-16 04:03:44] INFO root fetch - processPackages [somedecorators]: Remove: archive file [/home/abi/fetcher/tmp/somedecorators-1.2.3.tar.gz]
+[2024-05-16 04:03:44] INFO root fetch - main [MainThread]: End processing [somedecorators]: success
+[2024-05-16 04:03:44] INFO root fetch - processPackages [used-addr-check]: Remove: archive file [/home/abi/fetcher/tmp/used_addr_check-0.1.1.tar.gz]
+[2024-05-16 04:03:44] INFO root fetch - processPackages [used-addr-check]: Remove: archive file [/home/abi/fetcher/tmp/used_addr_check-0.1.2.tar.gz]
+[2024-05-16 04:03:44] INFO root fetch - main [MainThread]: End processing [used-addr-check]: success
+[2024-05-16 04:03:45] INFO root fetch - processPackages [qbraid]: Remove: archive file [/home/abi/fetcher/tmp/qbraid-0.7.0.dev20240423224133.tar.gz]
+[2024-05-16 04:03:45] INFO root fetch - processPackages [qbraid]: Remove: archive file [/home/abi/fetcher/tmp/qbraid-0.7.0.dev20240516020308.tar.gz]
+[2024-05-16 04:03:45] INFO root fetch - main [MainThread]: End processing [qbraid]: success
+[2024-05-16 04:03:45] INFO root fetch - main [MainThread]: Store serial: [23228540]
