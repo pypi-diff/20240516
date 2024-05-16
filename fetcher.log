@@ -12880,3 +12880,51 @@ EOFError: EOF read where object expected
 [2024-05-16 08:13:41] INFO root fetch - processPackages [ipex-llm]: Remove: archive file [/home/abi/fetcher/tmp/ipex_llm-2.1.0b20240515-py3-none-win_amd64.whl.zip]
 [2024-05-16 08:13:41] INFO root fetch - main [MainThread]: End processing [ipex-llm]: success
 [2024-05-16 08:13:41] INFO root fetch - main [MainThread]: Store serial: [23230079]
+[2024-05-16 08:15:49] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23230079]
+[2024-05-16 08:15:54] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-16 08:15:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: fake-bpy-module-latest
+[2024-05-16 08:15:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: fake-bpy-module
+[2024-05-16 08:15:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: check-requirements-txt
+[2024-05-16 08:15:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: nonebot-plugin-sparkapi
+[2024-05-16 08:15:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: JustDeepIt
+[2024-05-16 08:15:54] INFO root fetch - processPackages [nonebot-plugin-sparkapi]: New version: [1.0.8] Old Version: [1.0.7]
+[2024-05-16 08:15:54] INFO root fetch - processPackages [check-requirements-txt]: New version: [1.2.1] Old Version: [1.2.0]
+[2024-05-16 08:15:54] INFO root fetch - processPackages [fake-bpy-module]: New version: [20240515] Old Version: [20240514]
+[2024-05-16 08:15:54] INFO root fetch - processPackages [fake-bpy-module-latest]: New version: [20240515] Old Version: [20240514]
+[2024-05-16 08:15:54] INFO root fetch - processPackages [JustDeepIt]: New version: [0.2.2] Old Version: [0.2.1]
+[2024-05-16 08:15:54] INFO root fetch - processPackages [nonebot-plugin-sparkapi]: Downloading https://files.pythonhosted.org/packages/79/d1/4ba231c5d7c003ea73d90e12bf6e5d99664e2daa10ccd6cea04af811101f/nonebot_plugin_sparkapi-1.0.7.tar.gz
+[2024-05-16 08:15:54] INFO root fetch - processPackages [fake-bpy-module]: Downloading https://files.pythonhosted.org/packages/84/d3/a023c43329868806e8698f7e4e4698c89df2723d02da9f662a172d5c35a9/fake_bpy_module-20240514.tar.gz
+[2024-05-16 08:15:54] INFO root fetch - processPackages [fake-bpy-module-latest]: Downloading https://files.pythonhosted.org/packages/8d/2b/f31ed315a0ce22c90f41379ab0ca642761b83b68e07781ca6c536fe20041/fake_bpy_module_latest-20240514.tar.gz
+[2024-05-16 08:15:54] INFO root fetch - processPackages [check-requirements-txt]: Downloading https://files.pythonhosted.org/packages/a6/31/d85b0f25fb1fddf33a50b78712e0100a01254671397d5830f5992aec0084/check_requirements_txt-1.2.0.tar.gz
+[2024-05-16 08:15:55] INFO root fetch - processPackages [JustDeepIt]: Downloading https://files.pythonhosted.org/packages/b2/19/ec4d4fe09e9d827fc04cc5084e60aee3325c7041443d758656a3af6cae4d/JustDeepIt-0.2.1.tar.gz
+[2024-05-16 08:15:55] INFO root fetch - processPackages [nonebot-plugin-sparkapi]: Downloading https://files.pythonhosted.org/packages/f7/a7/c7ab32f8ebbfebb29e1f350e2217cdc35a953053ff477fe42549215ce8a2/nonebot_plugin_sparkapi-1.0.8.tar.gz
+[2024-05-16 08:15:55] INFO root fetch - processPackages [fake-bpy-module-latest]: Downloading https://files.pythonhosted.org/packages/d9/57/355d2b95a0b7cb626c834a6f7e77674a5e748fb3be373f2cfec8629af7b9/fake_bpy_module_latest-20240515.tar.gz
+[2024-05-16 08:15:55] INFO root fetch - processPackages [fake-bpy-module]: Downloading https://files.pythonhosted.org/packages/c2/49/96880db743d63c7e5fb975acef12c91058b86a09df75bd770c5ff69c1da1/fake_bpy_module-20240515.tar.gz
+[2024-05-16 08:15:55] INFO root fetch - processPackages [nonebot-plugin-sparkapi]: executing diffoscope
+[2024-05-16 08:15:55] INFO root fetch - processPackages [nonebot-plugin-sparkapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot_plugin_sparkapi-1.0.7.tar.gz tmp/nonebot_plugin_sparkapi-1.0.8.tar.gz --markdown 20240516/n/nonebot-plugin-sparkapi/1.0.7-1.0.8/README.md --exclude *.pyd
+[2024-05-16 08:15:55] INFO root fetch - processPackages [check-requirements-txt]: Downloading https://files.pythonhosted.org/packages/9c/55/04f945e65d0f6b871995fe9741f81f48a367c69bfd5ab76c163adaeecd4e/check_requirements_txt-1.2.1.tar.gz
+[2024-05-16 08:15:55] INFO root fetch - processPackages [JustDeepIt]: Downloading https://files.pythonhosted.org/packages/f8/0e/bd02ed92d234333518b820c47115c43ef25bd7503d51123374ec68a85ce7/JustDeepIt-0.2.2.tar.gz
+[2024-05-16 08:15:55] INFO root fetch - processPackages [fake-bpy-module-latest]: executing diffoscope
+[2024-05-16 08:15:55] INFO root fetch - processPackages [check-requirements-txt]: executing diffoscope
+[2024-05-16 08:15:55] INFO root fetch - processPackages [check-requirements-txt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/check_requirements_txt-1.2.0.tar.gz tmp/check_requirements_txt-1.2.1.tar.gz --markdown 20240516/c/check-requirements-txt/1.2.0-1.2.1/README.md --exclude *.pyd
+[2024-05-16 08:15:55] INFO root fetch - processPackages [fake-bpy-module-latest]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fake_bpy_module_latest-20240514.tar.gz tmp/fake_bpy_module_latest-20240515.tar.gz --markdown 20240516/f/fake-bpy-module-latest/20240514-20240515/README.md --exclude *.pyd
+[2024-05-16 08:15:55] INFO root fetch - processPackages [fake-bpy-module]: executing diffoscope
+[2024-05-16 08:15:55] INFO root fetch - processPackages [fake-bpy-module]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fake_bpy_module-20240514.tar.gz tmp/fake_bpy_module-20240515.tar.gz --markdown 20240516/f/fake-bpy-module/20240514-20240515/README.md --exclude *.pyd
+[2024-05-16 08:15:55] INFO root fetch - processPackages [JustDeepIt]: executing diffoscope
+[2024-05-16 08:15:55] INFO root fetch - processPackages [JustDeepIt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/JustDeepIt-0.2.1.tar.gz tmp/JustDeepIt-0.2.2.tar.gz --markdown 20240516/J/JustDeepIt/0.2.1-0.2.2/README.md --exclude *.pyd
+[2024-05-16 08:15:56] INFO root fetch - processPackages [nonebot-plugin-sparkapi]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_sparkapi-1.0.7.tar.gz]
+[2024-05-16 08:15:56] INFO root fetch - processPackages [nonebot-plugin-sparkapi]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_sparkapi-1.0.8.tar.gz]
+[2024-05-16 08:15:56] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-sparkapi]: success
+[2024-05-16 08:15:56] INFO root fetch - processPackages [check-requirements-txt]: Remove: archive file [/home/abi/fetcher/tmp/check_requirements_txt-1.2.0.tar.gz]
+[2024-05-16 08:15:56] INFO root fetch - processPackages [check-requirements-txt]: Remove: archive file [/home/abi/fetcher/tmp/check_requirements_txt-1.2.1.tar.gz]
+[2024-05-16 08:15:56] INFO root fetch - main [MainThread]: End processing [check-requirements-txt]: success
+[2024-05-16 08:15:56] INFO root fetch - processPackages [JustDeepIt]: Remove: archive file [/home/abi/fetcher/tmp/JustDeepIt-0.2.1.tar.gz]
+[2024-05-16 08:15:56] INFO root fetch - processPackages [JustDeepIt]: Remove: archive file [/home/abi/fetcher/tmp/JustDeepIt-0.2.2.tar.gz]
+[2024-05-16 08:15:56] INFO root fetch - main [MainThread]: End processing [JustDeepIt]: success
+[2024-05-16 08:16:03] INFO root fetch - processPackages [fake-bpy-module]: Remove: archive file [/home/abi/fetcher/tmp/fake_bpy_module-20240514.tar.gz]
+[2024-05-16 08:16:03] INFO root fetch - processPackages [fake-bpy-module]: Remove: archive file [/home/abi/fetcher/tmp/fake_bpy_module-20240515.tar.gz]
+[2024-05-16 08:16:03] INFO root fetch - main [MainThread]: End processing [fake-bpy-module]: success
+[2024-05-16 08:16:03] INFO root fetch - processPackages [fake-bpy-module-latest]: Remove: archive file [/home/abi/fetcher/tmp/fake_bpy_module_latest-20240514.tar.gz]
+[2024-05-16 08:16:03] INFO root fetch - processPackages [fake-bpy-module-latest]: Remove: archive file [/home/abi/fetcher/tmp/fake_bpy_module_latest-20240515.tar.gz]
+[2024-05-16 08:16:03] INFO root fetch - main [MainThread]: End processing [fake-bpy-module-latest]: success
+[2024-05-16 08:16:03] INFO root fetch - main [MainThread]: Store serial: [23230093]
