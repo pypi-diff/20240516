@@ -21657,3 +21657,108 @@ EOFError: EOF read where object expected
 [2024-05-16 11:33:43] INFO root fetch - processPackages [kcli]: Remove: archive file [/home/abi/fetcher/tmp/kcli-99.0.202405160920.tar.gz]
 [2024-05-16 11:33:43] INFO root fetch - main [MainThread]: End processing [kcli]: success
 [2024-05-16 11:33:43] INFO root fetch - main [MainThread]: Store serial: [23233159]
+[2024-05-16 11:35:50] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23233159]
+[2024-05-16 11:35:55] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2024-05-16 11:35:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: yeref
+[2024-05-16 11:35:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: lsst-felis
+[2024-05-16 11:35:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: leadguru-jobs
+[2024-05-16 11:35:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: lsst-ctrl-bps-htcondor
+[2024-05-16 11:35:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ml-linear-regression-lib
+[2024-05-16 11:35:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: lsst-ctrl-bps
+[2024-05-16 11:35:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: lsst-daf-relation
+[2024-05-16 11:35:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: dom-tokenizers
+[2024-05-16 11:35:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: indexnetwork-sdk
+[2024-05-16 11:35:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: lsst-pipe-base
+[2024-05-16 11:35:55] INFO root fetch - processPackages [lsst-ctrl-bps]: New version: [27.2024.1900] Old Version: [27.2024.1800]
+[2024-05-16 11:35:55] INFO root fetch - processPackages [dom-tokenizers]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-05-16 11:35:55] INFO root fetch - processPackages [lsst-felis]: New version: [27.2024.1900] Old Version: [27.2024.1800]
+[2024-05-16 11:35:55] INFO root fetch - processPackages [lsst-daf-relation]: New version: [26.2024.900] Old Version: [26.2024.800]
+[2024-05-16 11:35:55] INFO root fetch - processPackages [lsst-pipe-base]: New version: [27.2024.1900] Old Version: [27.2024.1800]
+[2024-05-16 11:35:55] INFO root fetch - processPackages [yeref]: New version: [0.9.9] Old Version: [0.9.8]
+[2024-05-16 11:35:55] WARNING root fetch - processPackages [ml-linear-regression-lib]: Skipping, unable to determine old version
+[2024-05-16 11:35:55] INFO root fetch - processPackages [ml-linear-regression-lib]: Start processing: synrbl
+[2024-05-16 11:35:55] INFO root fetch - main [MainThread]: End processing [ml-linear-regression-lib] error
+[2024-05-16 11:35:55] INFO root fetch - processPackages [indexnetwork-sdk]: New version: [0.0.4] Old Version: [0.0.3]
+[2024-05-16 11:35:55] INFO root fetch - processPackages [synrbl]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-16 11:35:55] INFO root fetch - processPackages [lsst-ctrl-bps-htcondor]: New version: [27.2024.2000] Old Version: [27.2024.1900]
+[2024-05-16 11:35:55] INFO root fetch - processPackages [leadguru-jobs]: New version: [0.99.0] Old Version: [0.98.0]
+[2024-05-16 11:35:55] INFO root fetch - processPackages [yeref]: Downloading https://files.pythonhosted.org/packages/ec/cb/204e6fbe233bbb61cf29c1b491e8c638c8a843edc47fb4e1d8cc8c26608c/yeref-0.9.8.tar.gz
+[2024-05-16 11:35:55] INFO root fetch - processPackages [synrbl]: Downloading https://files.pythonhosted.org/packages/28/86/082dee5389753c8bd486879e55d26d3f2185a225fadf2f1fe4bb9beb9d85/synrbl-0.0.8.tar.gz
+[2024-05-16 11:35:55] INFO root fetch - processPackages [lsst-pipe-base]: Downloading https://files.pythonhosted.org/packages/52/6f/a3398cebb0ec1c038099f427a2faa5c7f8548f8637e37870bb00190e2a7c/lsst_pipe_base-27.2024.1800.tar.gz
+[2024-05-16 11:35:55] INFO root fetch - processPackages [lsst-ctrl-bps]: Downloading https://files.pythonhosted.org/packages/07/c7/05a7e213f007b9f582d47f9051ded89021b227f5879aa2a11c91de8c98b8/lsst_ctrl_bps-27.2024.1800.tar.gz
+[2024-05-16 11:35:55] INFO root fetch - processPackages [dom-tokenizers]: Downloading https://files.pythonhosted.org/packages/e8/87/017af463e84bc8e3272073840963aa01bdc4692316ea864faf8c866aeba8/dom_tokenizers-0.0.1.tar.gz
+[2024-05-16 11:35:55] INFO root fetch - processPackages [lsst-daf-relation]: Downloading https://files.pythonhosted.org/packages/fa/43/6557b29d4399d4e5157bf0c15ae6006c1029bdbd67ffac5e3852f72773cb/lsst-daf-relation-26.2024.800.tar.gz
+[2024-05-16 11:35:55] INFO root fetch - processPackages [indexnetwork-sdk]: Downloading https://files.pythonhosted.org/packages/7a/d9/ae82f15188d6b01e5c0503eb584a51c00fd0caf2b0aec53a9a01079db267/indexnetwork_sdk-0.0.3.tar.gz
+[2024-05-16 11:35:55] INFO root fetch - processPackages [lsst-felis]: Downloading https://files.pythonhosted.org/packages/c3/95/53f32550c1a636e23158ba7146ada74ac1a17d9666d158ee803265129d44/lsst_felis-27.2024.1800.tar.gz
+[2024-05-16 11:35:55] INFO root fetch - processPackages [lsst-ctrl-bps-htcondor]: Downloading https://files.pythonhosted.org/packages/ba/61/bd44fa292f4c50f877739bfd7653399cfad2b269f2efae6e331ceea2e4cc/lsst_ctrl_bps_htcondor-27.2024.1900.tar.gz
+[2024-05-16 11:35:55] INFO root fetch - processPackages [leadguru-jobs]: Downloading https://files.pythonhosted.org/packages/58/0a/904c1f8e92c5b6adf3bf97a755cae87648f67ca82bb52bc30055558e0ce3/leadguru_jobs-0.98.0.tar.gz
+[2024-05-16 11:35:55] INFO root fetch - processPackages [yeref]: Downloading https://files.pythonhosted.org/packages/01/13/0f11bb3dfb27aaf16ed48b0046f50ac65b1fde32662fbc314d53e2558b2d/yeref-0.9.9.tar.gz
+[2024-05-16 11:35:56] INFO root fetch - processPackages [dom-tokenizers]: Downloading https://files.pythonhosted.org/packages/47/9f/b35fcced41eed8d685b6869aacc19d6e46ee4a2473e872e941e2cedaf629/dom_tokenizers-0.0.2.tar.gz
+[2024-05-16 11:35:56] INFO root fetch - processPackages [lsst-pipe-base]: Downloading https://files.pythonhosted.org/packages/fb/11/e7caafa25f67c19403047ad05dcae6a2f8199f768f63f2dedee532d7c5e5/lsst_pipe_base-27.2024.1900.tar.gz
+[2024-05-16 11:35:56] INFO root fetch - processPackages [yeref]: executing diffoscope
+[2024-05-16 11:35:56] INFO root fetch - processPackages [yeref]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yeref-0.9.8.tar.gz tmp/yeref-0.9.9.tar.gz --markdown 20240516/y/yeref/0.9.8-0.9.9/README.md --exclude *.pyd
+[2024-05-16 11:35:56] INFO root fetch - processPackages [lsst-ctrl-bps]: Downloading https://files.pythonhosted.org/packages/30/58/57d777ddf934993cb407ac7cd6b3eddc00a636e33ad9f452309796fa8ae6/lsst_ctrl_bps-27.2024.1900.tar.gz
+[2024-05-16 11:35:56] INFO root fetch - processPackages [synrbl]: Downloading https://files.pythonhosted.org/packages/5c/22/f5f6d1874b599ff46d6155b4de52df7c7f58286b82037d3db18c4cb84902/synrbl-0.0.9.tar.gz
+[2024-05-16 11:35:56] INFO root fetch - processPackages [indexnetwork-sdk]: Downloading https://files.pythonhosted.org/packages/82/a4/9f81284db4219081c7ea8d55270d90bd058ae77dc33a16449ad1e2294db4/indexnetwork_sdk-0.0.4.tar.gz
+[2024-05-16 11:35:56] INFO root fetch - processPackages [lsst-ctrl-bps-htcondor]: Downloading https://files.pythonhosted.org/packages/c4/27/0c9bf22297c61357e7fc8a56f92874c986c7ccf62813391efaee9f5724c7/lsst_ctrl_bps_htcondor-27.2024.2000.tar.gz
+[2024-05-16 11:35:56] INFO root fetch - processPackages [leadguru-jobs]: Downloading https://files.pythonhosted.org/packages/e4/7f/189fe7a4dc1256297dd1956413531652ee35cd4ee527f02aa7f2d608775a/leadguru_jobs-0.99.0.tar.gz
+[2024-05-16 11:35:56] INFO root fetch - processPackages [dom-tokenizers]: executing diffoscope
+[2024-05-16 11:35:56] INFO root fetch - processPackages [dom-tokenizers]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dom_tokenizers-0.0.1.tar.gz tmp/dom_tokenizers-0.0.2.tar.gz --markdown 20240516/d/dom-tokenizers/0.0.1-0.0.2/README.md --exclude *.pyd
+[2024-05-16 11:35:56] INFO root fetch - processPackages [lsst-felis]: Downloading https://files.pythonhosted.org/packages/11/cf/723d20317492f44f320ba963c7d8bd4dc53dcd5810b3c6bb0076497aeb50/lsst_felis-27.2024.1900.tar.gz
+[2024-05-16 11:35:56] INFO root fetch - processPackages [lsst-ctrl-bps]: executing diffoscope
+[2024-05-16 11:35:56] INFO root fetch - processPackages [lsst-ctrl-bps]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lsst_ctrl_bps-27.2024.1800.tar.gz tmp/lsst_ctrl_bps-27.2024.1900.tar.gz --markdown 20240516/l/lsst-ctrl-bps/27.2024.1800-27.2024.1900/README.md --exclude *.pyd
+[2024-05-16 11:35:56] INFO root fetch - processPackages [indexnetwork-sdk]: executing diffoscope
+[2024-05-16 11:35:56] INFO root fetch - processPackages [indexnetwork-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/indexnetwork_sdk-0.0.3.tar.gz tmp/indexnetwork_sdk-0.0.4.tar.gz --markdown 20240516/i/indexnetwork-sdk/0.0.3-0.0.4/README.md --exclude *.pyd
+[2024-05-16 11:35:56] INFO root fetch - processPackages [lsst-pipe-base]: executing diffoscope
+[2024-05-16 11:35:56] INFO root fetch - processPackages [lsst-pipe-base]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lsst_pipe_base-27.2024.1800.tar.gz tmp/lsst_pipe_base-27.2024.1900.tar.gz --markdown 20240516/l/lsst-pipe-base/27.2024.1800-27.2024.1900/README.md --exclude *.pyd
+[2024-05-16 11:35:56] INFO root fetch - processPackages [lsst-ctrl-bps-htcondor]: executing diffoscope
+[2024-05-16 11:35:56] INFO root fetch - processPackages [lsst-ctrl-bps-htcondor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lsst_ctrl_bps_htcondor-27.2024.1900.tar.gz tmp/lsst_ctrl_bps_htcondor-27.2024.2000.tar.gz --markdown 20240516/l/lsst-ctrl-bps-htcondor/27.2024.1900-27.2024.2000/README.md --exclude *.pyd
+[2024-05-16 11:35:56] INFO root fetch - processPackages [leadguru-jobs]: executing diffoscope
+[2024-05-16 11:35:56] INFO root fetch - processPackages [leadguru-jobs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/leadguru_jobs-0.98.0.tar.gz tmp/leadguru_jobs-0.99.0.tar.gz --markdown 20240516/l/leadguru-jobs/0.98.0-0.99.0/README.md --exclude *.pyd
+[2024-05-16 11:35:56] INFO root fetch - processPackages [lsst-felis]: executing diffoscope
+[2024-05-16 11:35:56] INFO root fetch - processPackages [lsst-felis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lsst_felis-27.2024.1800.tar.gz tmp/lsst_felis-27.2024.1900.tar.gz --markdown 20240516/l/lsst-felis/27.2024.1800-27.2024.1900/README.md --exclude *.pyd
+[2024-05-16 11:35:56] INFO root fetch - processPackages [synrbl]: executing diffoscope
+[2024-05-16 11:35:56] INFO root fetch - processPackages [synrbl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/synrbl-0.0.8.tar.gz tmp/synrbl-0.0.9.tar.gz --markdown 20240516/s/synrbl/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-16 11:35:57] INFO root fetch - processPackages [dom-tokenizers]: Remove: archive file [/home/abi/fetcher/tmp/dom_tokenizers-0.0.1.tar.gz]
+[2024-05-16 11:35:57] INFO root fetch - processPackages [dom-tokenizers]: Remove: archive file [/home/abi/fetcher/tmp/dom_tokenizers-0.0.2.tar.gz]
+[2024-05-16 11:35:57] INFO root fetch - processPackages [dom-tokenizers]: Start processing: tg-signer
+[2024-05-16 11:35:57] INFO root fetch - main [MainThread]: End processing [dom-tokenizers]: success
+[2024-05-16 11:35:57] INFO root fetch - processPackages [tg-signer]: New version: [0.1.2] Old Version: [0.1.1]
+[2024-05-16 11:35:57] INFO root fetch - processPackages [yeref]: Remove: archive file [/home/abi/fetcher/tmp/yeref-0.9.8.tar.gz]
+[2024-05-16 11:35:57] INFO root fetch - processPackages [yeref]: Remove: archive file [/home/abi/fetcher/tmp/yeref-0.9.9.tar.gz]
+[2024-05-16 11:35:57] INFO root fetch - processPackages [lsst-daf-relation]: Downloading https://files.pythonhosted.org/packages/71/bb/f3702850950135c920bc613c1ad21699f47d7accc93a5eb9ed959bd215af/lsst-daf-relation-26.2024.900.tar.gz
+[2024-05-16 11:35:57] INFO root fetch - main [MainThread]: End processing [yeref]: success
+[2024-05-16 11:35:57] INFO root fetch - processPackages [indexnetwork-sdk]: Remove: archive file [/home/abi/fetcher/tmp/indexnetwork_sdk-0.0.3.tar.gz]
+[2024-05-16 11:35:57] INFO root fetch - processPackages [indexnetwork-sdk]: Remove: archive file [/home/abi/fetcher/tmp/indexnetwork_sdk-0.0.4.tar.gz]
+[2024-05-16 11:35:57] INFO root fetch - main [MainThread]: End processing [indexnetwork-sdk]: success
+[2024-05-16 11:35:57] INFO root fetch - processPackages [tg-signer]: Downloading https://files.pythonhosted.org/packages/43/a3/bdeb9e580f72158c89b097ee6e68e3eb02a950ea3042612ca3cc8d292830/tg_signer-0.1.1.tar.gz
+[2024-05-16 11:35:57] INFO root fetch - processPackages [lsst-ctrl-bps-htcondor]: Remove: archive file [/home/abi/fetcher/tmp/lsst_ctrl_bps_htcondor-27.2024.1900.tar.gz]
+[2024-05-16 11:35:57] INFO root fetch - processPackages [lsst-ctrl-bps-htcondor]: Remove: archive file [/home/abi/fetcher/tmp/lsst_ctrl_bps_htcondor-27.2024.2000.tar.gz]
+[2024-05-16 11:35:57] INFO root fetch - main [MainThread]: End processing [lsst-ctrl-bps-htcondor]: success
+[2024-05-16 11:35:57] INFO root fetch - processPackages [leadguru-jobs]: Remove: archive file [/home/abi/fetcher/tmp/leadguru_jobs-0.98.0.tar.gz]
+[2024-05-16 11:35:57] INFO root fetch - processPackages [leadguru-jobs]: Remove: archive file [/home/abi/fetcher/tmp/leadguru_jobs-0.99.0.tar.gz]
+[2024-05-16 11:35:57] INFO root fetch - main [MainThread]: End processing [leadguru-jobs]: success
+[2024-05-16 11:35:57] INFO root fetch - processPackages [lsst-felis]: Remove: archive file [/home/abi/fetcher/tmp/lsst_felis-27.2024.1800.tar.gz]
+[2024-05-16 11:35:57] INFO root fetch - processPackages [lsst-felis]: Remove: archive file [/home/abi/fetcher/tmp/lsst_felis-27.2024.1900.tar.gz]
+[2024-05-16 11:35:57] INFO root fetch - processPackages [lsst-daf-relation]: executing diffoscope
+[2024-05-16 11:35:57] INFO root fetch - processPackages [lsst-daf-relation]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lsst-daf-relation-26.2024.800.tar.gz tmp/lsst-daf-relation-26.2024.900.tar.gz --markdown 20240516/l/lsst-daf-relation/26.2024.800-26.2024.900/README.md --exclude *.pyd
+[2024-05-16 11:35:57] INFO root fetch - main [MainThread]: End processing [lsst-felis]: success
+[2024-05-16 11:35:57] INFO root fetch - processPackages [lsst-ctrl-bps]: Remove: archive file [/home/abi/fetcher/tmp/lsst_ctrl_bps-27.2024.1800.tar.gz]
+[2024-05-16 11:35:57] INFO root fetch - processPackages [lsst-ctrl-bps]: Remove: archive file [/home/abi/fetcher/tmp/lsst_ctrl_bps-27.2024.1900.tar.gz]
+[2024-05-16 11:35:57] INFO root fetch - main [MainThread]: End processing [lsst-ctrl-bps]: success
+[2024-05-16 11:35:57] INFO root fetch - processPackages [tg-signer]: Downloading https://files.pythonhosted.org/packages/90/28/e33e3d1524a28b46469b6da69974c3174514981047e7662a443b482476d9/tg_signer-0.1.2.tar.gz
+[2024-05-16 11:35:57] INFO root fetch - processPackages [tg-signer]: executing diffoscope
+[2024-05-16 11:35:57] INFO root fetch - processPackages [tg-signer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tg_signer-0.1.1.tar.gz tmp/tg_signer-0.1.2.tar.gz --markdown 20240516/t/tg-signer/0.1.1-0.1.2/README.md --exclude *.pyd
+[2024-05-16 11:35:57] INFO root fetch - processPackages [lsst-pipe-base]: Remove: archive file [/home/abi/fetcher/tmp/lsst_pipe_base-27.2024.1800.tar.gz]
+[2024-05-16 11:35:57] INFO root fetch - processPackages [lsst-pipe-base]: Remove: archive file [/home/abi/fetcher/tmp/lsst_pipe_base-27.2024.1900.tar.gz]
+[2024-05-16 11:35:57] INFO root fetch - main [MainThread]: End processing [lsst-pipe-base]: success
+[2024-05-16 11:35:58] INFO root fetch - processPackages [lsst-daf-relation]: Remove: archive file [/home/abi/fetcher/tmp/lsst-daf-relation-26.2024.800.tar.gz]
+[2024-05-16 11:35:58] INFO root fetch - processPackages [lsst-daf-relation]: Remove: archive file [/home/abi/fetcher/tmp/lsst-daf-relation-26.2024.900.tar.gz]
+[2024-05-16 11:35:58] INFO root fetch - main [MainThread]: End processing [lsst-daf-relation]: success
+[2024-05-16 11:35:58] INFO root fetch - processPackages [tg-signer]: Remove: archive file [/home/abi/fetcher/tmp/tg_signer-0.1.1.tar.gz]
+[2024-05-16 11:35:58] INFO root fetch - processPackages [tg-signer]: Remove: archive file [/home/abi/fetcher/tmp/tg_signer-0.1.2.tar.gz]
+[2024-05-16 11:35:58] INFO root fetch - main [MainThread]: End processing [tg-signer]: success
+[2024-05-16 11:35:59] INFO root fetch - processPackages [synrbl]: Remove: archive file [/home/abi/fetcher/tmp/synrbl-0.0.8.tar.gz]
+[2024-05-16 11:35:59] INFO root fetch - processPackages [synrbl]: Remove: archive file [/home/abi/fetcher/tmp/synrbl-0.0.9.tar.gz]
+[2024-05-16 11:35:59] INFO root fetch - main [MainThread]: End processing [synrbl]: success
+[2024-05-16 11:35:59] INFO root fetch - main [MainThread]: Store serial: [23233197]
