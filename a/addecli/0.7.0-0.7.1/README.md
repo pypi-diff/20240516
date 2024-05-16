@@ -1,0 +1,38 @@
+# Comparing `tmp/addecli-0.7.0.tar.gz` & `tmp/addecli-0.7.1.tar.gz`
+
+## filetype from file(1)
+
+```diff
+@@ -1 +1 @@
+-gzip compressed data, was "addecli-0.7.0.tar", last modified: Thu May 16 15:27:42 2024, max compression
++gzip compressed data, was "addecli-0.7.1.tar", last modified: Thu May 16 15:37:27 2024, max compression
+```
+
+## Comparing `addecli-0.7.0.tar` & `addecli-0.7.1.tar`
+
+### file list
+
+```diff
+@@ -1,4 +1,16 @@
+--rw-r--r--   0        0        0       10 2024-05-16 15:27:35.150319 addecli-0.7.0/README.md
+--rw-r--r--   0        0        0      455 2024-05-16 15:27:42.238407 addecli-0.7.0/pyproject.toml
+--rw-r--r--   0        0        0        0 2024-05-16 15:27:35.150319 addecli-0.7.0/tests/__init__.py
+--rw-r--r--   0        0        0      260 1970-01-01 00:00:00.000000 addecli-0.7.0/PKG-INFO
++-rw-r--r--   0        0        0       10 2024-05-16 15:37:19.021176 addecli-0.7.1/README.md
++-rw-r--r--   0        0        0       10 2024-05-16 15:37:19.021176 addecli-0.7.1/README.md
++-rw-r--r--   0        0        0      643 2024-05-16 15:37:27.341194 addecli-0.7.1/pyproject.toml
++-rw-r--r--   0        0        0       74 2024-05-16 15:37:19.021176 addecli-0.7.1/src/addecli/__main__.py
++-rw-r--r--   0        0        0      364 2024-05-16 15:37:19.021176 addecli-0.7.1/src/addecli/cli_commands.py
++-rw-r--r--   0        0        0     4633 2024-05-16 15:37:19.021176 addecli-0.7.1/src/addecli/create.py
++-rw-r--r--   0        0        0     3181 2024-05-16 15:37:19.021176 addecli-0.7.1/src/addecli/init_project/.gitignore
++-rw-r--r--   0        0        0     1353 2024-05-16 15:37:19.021176 addecli-0.7.1/src/addecli/init_project/.pre-commit-config.yaml
++-rw-r--r--   0        0        0       58 2024-05-16 15:37:19.021176 addecli-0.7.1/src/addecli/init_project/conftest.py
++-rw-r--r--   0        0        0      757 2024-05-16 15:37:19.021176 addecli-0.7.1/src/addecli/init_project/log-config.yml
++-rw-r--r--   0        0        0     4726 2024-05-16 15:37:19.021176 addecli-0.7.1/src/addecli/init_project/scripts/create/__main__.py
++-rw-r--r--   0        0        0      256 2024-05-16 15:37:19.021176 addecli-0.7.1/src/addecli/init_project/src/config.py
++-rw-r--r--   0        0        0      775 2024-05-16 15:37:19.021176 addecli-0.7.1/src/addecli/init_project/src/main/app/__init__.py
++-rw-r--r--   0        0        0      171 2024-05-16 15:37:19.021176 addecli-0.7.1/src/addecli/init_project/src/metadata/__init__.py
++-rw-r--r--   0        0        0      407 2024-05-16 15:37:19.021176 addecli-0.7.1/src/addecli/init_project/src/metadata/_extras.py
++-rw-r--r--   0        0        0      260 1970-01-01 00:00:00.000000 addecli-0.7.1/PKG-INFO
+```
+
