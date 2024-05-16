@@ -14473,3 +14473,69 @@ EOFError: EOF read where object expected
 [2024-05-16 09:34:34] INFO root fetch - processPackages [bluepyemodel]: Remove: archive file [/home/abi/fetcher/tmp/bluepyemodel-0.0.99.tar.gz]
 [2024-05-16 09:34:34] INFO root fetch - main [MainThread]: End processing [bluepyemodel]: success
 [2024-05-16 09:34:34] INFO root fetch - main [MainThread]: Store serial: [23230690]
+[2024-05-16 09:36:38] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23230690]
+[2024-05-16 09:36:43] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-16 09:36:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: Simplextep
+[2024-05-16 09:36:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: nanos
+[2024-05-16 09:36:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: biomedisa
+[2024-05-16 09:36:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: lektricowifi
+[2024-05-16 09:36:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: bolt11
+[2024-05-16 09:36:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: netlink-sharepoint-alchemy
+[2024-05-16 09:36:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: tdfs4ds
+[2024-05-16 09:36:43] INFO root fetch - processPackages [biomedisa]: New version: [2024.5.21] Old Version: [2024.5.20]
+[2024-05-16 09:36:43] INFO root fetch - processPackages [Simplextep]: New version: [0.1.5] Old Version: [0.1.3]
+[2024-05-16 09:36:43] INFO root fetch - processPackages [netlink-sharepoint-alchemy]: New version: [0.0.5] Old Version: [0.0.4]
+[2024-05-16 09:36:43] INFO root fetch - processPackages [biomedisa]: Downloading https://files.pythonhosted.org/packages/d4/6e/fb1567f82fe602b849b3fa7b97fb8eed471b910de4d182d93267d26dfc3a/biomedisa-2024.5.20.tar.gz
+[2024-05-16 09:36:43] INFO root fetch - processPackages [lektricowifi]: New version: [0.0.9] Old Version: [0.0.27]
+[2024-05-16 09:36:43] INFO root fetch - processPackages [bolt11]: New version: [2.0.6] Old Version: [2.0.5]
+[2024-05-16 09:36:43] INFO root fetch - processPackages [tdfs4ds]: New version: [0.2.2.8] Old Version: [0.2.2.7]
+[2024-05-16 09:36:43] INFO root fetch - processPackages [nanos]: New version: [0.1.3] Old Version: [0.1.2]
+[2024-05-16 09:36:43] INFO root fetch - processPackages [Simplextep]: Downloading https://files.pythonhosted.org/packages/de/bf/9cfeeb319603e7d2123270229e3c7369977cd23026d74150623b25ae3e86/simplextep-0.1.3.tar.gz
+[2024-05-16 09:36:43] INFO root fetch - processPackages [netlink-sharepoint-alchemy]: Downloading https://files.pythonhosted.org/packages/de/3f/334c47b303f2121a682f401779dedd1fd3b8cfe7459ae799229e3ea6c0fe/netlink-sharepoint-alchemy-0.0.4.tar.gz
+[2024-05-16 09:36:43] INFO root fetch - processPackages [bolt11]: Downloading https://files.pythonhosted.org/packages/15/e4/80ba31cc1472f7d98a3d9dc3d0b94c20955148be275a23826ea39524366c/bolt11-2.0.5.tar.gz
+[2024-05-16 09:36:44] INFO root fetch - processPackages [lektricowifi]: Downloading https://files.pythonhosted.org/packages/f8/bb/5b05ce0221a72ebf4c2ff04bececa2990d15b355226e2e0b19f20c783814/lektricowifi-0.0.27.tar.gz
+[2024-05-16 09:36:44] INFO root fetch - processPackages [tdfs4ds]: Downloading https://files.pythonhosted.org/packages/fa/37/57478043d8a5f99023428379798c6bea0e6260352769563dce75e9f2ecf9/tdfs4ds-0.2.2.7-py3-none-any.whl
+[2024-05-16 09:36:44] INFO root fetch - processPackages [nanos]: Downloading https://files.pythonhosted.org/packages/b8/75/9ff2ed7f4a478c4f949b6e8bcb275f50fc715082b4e2f310baffe47ec85c/nanos-0.1.2.tar.gz
+[2024-05-16 09:36:44] INFO root fetch - processPackages [biomedisa]: Downloading https://files.pythonhosted.org/packages/da/7f/4e8b9355d8486b2e5eea130cedc43bf556136a9f58fae7df9a345133e19d/biomedisa-2024.5.21.tar.gz
+[2024-05-16 09:36:44] INFO root fetch - processPackages [Simplextep]: Downloading https://files.pythonhosted.org/packages/6d/a0/85406871cc1112cdd1a58b3523fc795883b6bda9be1f91aa7cb34fb9a036/simplextep-0.1.5.tar.gz
+[2024-05-16 09:36:44] INFO root fetch - processPackages [netlink-sharepoint-alchemy]: Downloading https://files.pythonhosted.org/packages/51/9e/9656ad2633ce201ecf30ee7a5b1a60bb8f7d78e75ce976af48a8129fd5ad/netlink-sharepoint-alchemy-0.0.5.tar.gz
+[2024-05-16 09:36:44] INFO root fetch - processPackages [biomedisa]: executing diffoscope
+[2024-05-16 09:36:44] INFO root fetch - processPackages [biomedisa]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/biomedisa-2024.5.20.tar.gz tmp/biomedisa-2024.5.21.tar.gz --markdown 20240516/b/biomedisa/2024.5.20-2024.5.21/README.md --exclude *.pyd
+[2024-05-16 09:36:44] INFO root fetch - processPackages [bolt11]: Downloading https://files.pythonhosted.org/packages/71/09/a7d6be38655c18803e660dc56fb695c091562a80f16ff1c8549cb20b5374/bolt11-2.0.6.tar.gz
+[2024-05-16 09:36:44] INFO root fetch - processPackages [Simplextep]: executing diffoscope
+[2024-05-16 09:36:44] INFO root fetch - processPackages [Simplextep]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/simplextep-0.1.3.tar.gz tmp/simplextep-0.1.5.tar.gz --markdown 20240516/S/Simplextep/0.1.3-0.1.5/README.md --exclude *.pyd
+[2024-05-16 09:36:44] INFO root fetch - processPackages [netlink-sharepoint-alchemy]: executing diffoscope
+[2024-05-16 09:36:44] INFO root fetch - processPackages [netlink-sharepoint-alchemy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/netlink-sharepoint-alchemy-0.0.4.tar.gz tmp/netlink-sharepoint-alchemy-0.0.5.tar.gz --markdown 20240516/n/netlink-sharepoint-alchemy/0.0.4-0.0.5/README.md --exclude *.pyd
+[2024-05-16 09:36:44] INFO root fetch - processPackages [nanos]: Downloading https://files.pythonhosted.org/packages/b2/e1/35d84b549c19ab72f858dc8a836a8ab3104341e9fdb5c791d455aab9f6c1/nanos-0.1.3.tar.gz
+[2024-05-16 09:36:44] INFO root fetch - processPackages [lektricowifi]: Downloading https://files.pythonhosted.org/packages/14/11/f224fa1f58d2852240b73632f6f13082434177fb1ee9610a7285b6225a73/lektricowifi-0.0.9.tar.gz
+[2024-05-16 09:36:44] INFO root fetch - processPackages [tdfs4ds]: Downloading https://files.pythonhosted.org/packages/08/04/766984098508bfd77b91632a5c66c19626ec5dfe5cc2e6f6bc295bc24fed/tdfs4ds-0.2.2.8-py3-none-any.whl
+[2024-05-16 09:36:44] INFO root fetch - processPackages [bolt11]: executing diffoscope
+[2024-05-16 09:36:44] INFO root fetch - processPackages [bolt11]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bolt11-2.0.5.tar.gz tmp/bolt11-2.0.6.tar.gz --markdown 20240516/b/bolt11/2.0.5-2.0.6/README.md --exclude *.pyd
+[2024-05-16 09:36:44] INFO root fetch - processPackages [nanos]: executing diffoscope
+[2024-05-16 09:36:44] INFO root fetch - processPackages [nanos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nanos-0.1.2.tar.gz tmp/nanos-0.1.3.tar.gz --markdown 20240516/n/nanos/0.1.2-0.1.3/README.md --exclude *.pyd
+[2024-05-16 09:36:44] INFO root fetch - processPackages [lektricowifi]: executing diffoscope
+[2024-05-16 09:36:44] INFO root fetch - processPackages [lektricowifi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lektricowifi-0.0.27.tar.gz tmp/lektricowifi-0.0.9.tar.gz --markdown 20240516/l/lektricowifi/0.0.27-0.0.9/README.md --exclude *.pyd
+[2024-05-16 09:36:44] INFO root fetch - processPackages [tdfs4ds]: executing diffoscope
+[2024-05-16 09:36:44] INFO root fetch - processPackages [tdfs4ds]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tdfs4ds-0.2.2.7-py3-none-any.whl.zip tmp/tdfs4ds-0.2.2.8-py3-none-any.whl.zip --markdown 20240516/t/tdfs4ds/0.2.2.7-0.2.2.8/README.md --exclude *.pyd
+[2024-05-16 09:36:45] INFO root fetch - processPackages [Simplextep]: Remove: archive file [/home/abi/fetcher/tmp/simplextep-0.1.3.tar.gz]
+[2024-05-16 09:36:45] INFO root fetch - processPackages [Simplextep]: Remove: archive file [/home/abi/fetcher/tmp/simplextep-0.1.5.tar.gz]
+[2024-05-16 09:36:45] INFO root fetch - main [MainThread]: End processing [Simplextep]: success
+[2024-05-16 09:36:45] INFO root fetch - processPackages [netlink-sharepoint-alchemy]: Remove: archive file [/home/abi/fetcher/tmp/netlink-sharepoint-alchemy-0.0.4.tar.gz]
+[2024-05-16 09:36:45] INFO root fetch - processPackages [netlink-sharepoint-alchemy]: Remove: archive file [/home/abi/fetcher/tmp/netlink-sharepoint-alchemy-0.0.5.tar.gz]
+[2024-05-16 09:36:45] INFO root fetch - main [MainThread]: End processing [netlink-sharepoint-alchemy]: success
+[2024-05-16 09:36:45] INFO root fetch - processPackages [bolt11]: Remove: archive file [/home/abi/fetcher/tmp/bolt11-2.0.5.tar.gz]
+[2024-05-16 09:36:45] INFO root fetch - processPackages [bolt11]: Remove: archive file [/home/abi/fetcher/tmp/bolt11-2.0.6.tar.gz]
+[2024-05-16 09:36:45] INFO root fetch - main [MainThread]: End processing [bolt11]: success
+[2024-05-16 09:36:45] INFO root fetch - processPackages [lektricowifi]: Remove: archive file [/home/abi/fetcher/tmp/lektricowifi-0.0.27.tar.gz]
+[2024-05-16 09:36:45] INFO root fetch - processPackages [lektricowifi]: Remove: archive file [/home/abi/fetcher/tmp/lektricowifi-0.0.9.tar.gz]
+[2024-05-16 09:36:45] INFO root fetch - main [MainThread]: End processing [lektricowifi]: success
+[2024-05-16 09:36:45] INFO root fetch - processPackages [biomedisa]: Remove: archive file [/home/abi/fetcher/tmp/biomedisa-2024.5.20.tar.gz]
+[2024-05-16 09:36:45] INFO root fetch - processPackages [biomedisa]: Remove: archive file [/home/abi/fetcher/tmp/biomedisa-2024.5.21.tar.gz]
+[2024-05-16 09:36:45] INFO root fetch - main [MainThread]: End processing [biomedisa]: success
+[2024-05-16 09:36:45] INFO root fetch - processPackages [nanos]: Remove: archive file [/home/abi/fetcher/tmp/nanos-0.1.2.tar.gz]
+[2024-05-16 09:36:45] INFO root fetch - processPackages [nanos]: Remove: archive file [/home/abi/fetcher/tmp/nanos-0.1.3.tar.gz]
+[2024-05-16 09:36:45] INFO root fetch - main [MainThread]: End processing [nanos]: success
+[2024-05-16 09:36:45] INFO root fetch - processPackages [tdfs4ds]: Remove: archive file [/home/abi/fetcher/tmp/tdfs4ds-0.2.2.7-py3-none-any.whl.zip]
+[2024-05-16 09:36:45] INFO root fetch - processPackages [tdfs4ds]: Remove: archive file [/home/abi/fetcher/tmp/tdfs4ds-0.2.2.8-py3-none-any.whl.zip]
+[2024-05-16 09:36:45] INFO root fetch - main [MainThread]: End processing [tdfs4ds]: success
+[2024-05-16 09:36:45] INFO root fetch - main [MainThread]: Store serial: [23230709]
