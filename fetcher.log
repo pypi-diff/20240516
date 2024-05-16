@@ -13631,3 +13631,60 @@ EOFError: EOF read where object expected
 [2024-05-16 09:00:17] INFO root fetch - processPackages [quollio-core]: Remove: archive file [/home/abi/fetcher/tmp/quollio_core-0.4.5.tar.gz]
 [2024-05-16 09:00:17] INFO root fetch - main [MainThread]: End processing [quollio-core]: success
 [2024-05-16 09:00:17] INFO root fetch - main [MainThread]: Store serial: [23230377]
+[2024-05-16 09:02:21] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23230377]
+[2024-05-16 09:02:26] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-16 09:02:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: quollio-core
+[2024-05-16 09:02:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: motionSegmentation
+[2024-05-16 09:02:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: htt
+[2024-05-16 09:02:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: tf-models-nightly
+[2024-05-16 09:02:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: unitsnet-py
+[2024-05-16 09:02:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: seqio-nightly
+[2024-05-16 09:02:26] INFO root fetch - processPackages [motionSegmentation]: New version: [2.9.0] Old Version: [2.8.8]
+[2024-05-16 09:02:26] INFO root fetch - processPackages [htt]: New version: [0.9] Old Version: [0.8]
+[2024-05-16 09:02:27] INFO root fetch - processPackages [seqio-nightly]: New version: [0.0.8.dev20220907] Old Version: [0.0.8.dev20220906]
+[2024-05-16 09:02:27] INFO root fetch - processPackages [unitsnet-py]: New version: [0.1.99] Old Version: [0.1.98]
+[2024-05-16 09:02:27] INFO root fetch - processPackages [quollio-core]: New version: [0.4.6] Old Version: [0.4.5]
+[2024-05-16 09:02:27] INFO root fetch - processPackages [motionSegmentation]: Downloading https://files.pythonhosted.org/packages/ec/c0/cca9188fb6c4c75811eaf70537144fb0485fdfbc870c4f94efc1aa023771/motionSegmentation-2.8.8.tar.gz
+[2024-05-16 09:02:27] INFO root fetch - processPackages [htt]: Downloading https://files.pythonhosted.org/packages/44/9f/4e24bd8cc850dd610afb0047bea11fbc8885507fe8ecf1f06b0486d45c93/htt-0.8.tar.gz
+[2024-05-16 09:02:27] INFO root fetch - processPackages [tf-models-nightly]: New version: [2.9.0.dev20220920] Old Version: [2.9.0.dev20220919]
+[2024-05-16 09:02:27] INFO root fetch - processPackages [seqio-nightly]: Downloading https://files.pythonhosted.org/packages/43/a0/f60ad514b6f8534fa5ba8cc5fcc2a8f2e32e7d06d2dbfd43b12c2cb29931/seqio-nightly-0.0.8.dev20220906.tar.gz
+[2024-05-16 09:02:27] INFO root fetch - processPackages [quollio-core]: Downloading https://files.pythonhosted.org/packages/16/cb/32ddd63e77bf589742dba4bbfb39645d12fe2a1087441217aa823afd6c7b/quollio_core-0.4.5.tar.gz
+[2024-05-16 09:02:27] INFO root fetch - processPackages [unitsnet-py]: Downloading https://files.pythonhosted.org/packages/ee/0a/34f188b24df159a2a32de4e4e2d5cc7607e93ab8b313c3699c47195f41ca/unitsnet-py-0.1.98.tar.gz
+[2024-05-16 09:02:27] INFO root fetch - processPackages [tf-models-nightly]: Downloading https://files.pythonhosted.org/packages/73/e9/06af7a12cda1722ec668213b9e91a8a2e918011d3ef8e9a98146ee4f76ef/tf_models_nightly-2.9.0.dev20220919-py2.py3-none-any.whl
+[2024-05-16 09:02:27] INFO root fetch - processPackages [htt]: Downloading https://files.pythonhosted.org/packages/87/6a/ca73587d0d0b4fffad8f8daad555cb2903ae583af0db8bd1e235267f8122/htt-0.9.tar.gz
+[2024-05-16 09:02:27] INFO root fetch - processPackages [motionSegmentation]: Downloading https://files.pythonhosted.org/packages/f4/41/6d8d929e83c6fb49e8698064a82be8a763efdcb29712f20f957ee39d10dd/motionsegmentation-2.9.0.tar.gz
+[2024-05-16 09:02:27] INFO root fetch - processPackages [seqio-nightly]: Downloading https://files.pythonhosted.org/packages/2a/76/25f4c7602cdd724deac948a914e454756abfad2119a525c06d9ce341b918/seqio-nightly-0.0.8.dev20220907.tar.gz
+[2024-05-16 09:02:27] INFO root fetch - processPackages [htt]: executing diffoscope
+[2024-05-16 09:02:27] INFO root fetch - processPackages [htt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/htt-0.8.tar.gz tmp/htt-0.9.tar.gz --markdown 20240516/h/htt/0.8-0.9/README.md --exclude *.pyd
+[2024-05-16 09:02:27] INFO root fetch - processPackages [motionSegmentation]: executing diffoscope
+[2024-05-16 09:02:27] INFO root fetch - processPackages [motionSegmentation]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/motionSegmentation-2.8.8.tar.gz tmp/motionsegmentation-2.9.0.tar.gz --markdown 20240516/m/motionSegmentation/2.8.8-2.9.0/README.md --exclude *.pyd
+[2024-05-16 09:02:27] INFO root fetch - processPackages [quollio-core]: Downloading https://files.pythonhosted.org/packages/1b/30/4eb1f6819a362b33d803c19bb363275b58c0f2b93ae812e5fb33beb737c9/quollio_core-0.4.6.tar.gz
+[2024-05-16 09:02:27] INFO root fetch - processPackages [seqio-nightly]: executing diffoscope
+[2024-05-16 09:02:27] INFO root fetch - processPackages [seqio-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/seqio-nightly-0.0.8.dev20220906.tar.gz tmp/seqio-nightly-0.0.8.dev20220907.tar.gz --markdown 20240516/s/seqio-nightly/0.0.8.dev20220906-0.0.8.dev20220907/README.md --exclude *.pyd
+[2024-05-16 09:02:27] INFO root fetch - processPackages [quollio-core]: executing diffoscope
+[2024-05-16 09:02:27] INFO root fetch - processPackages [quollio-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quollio_core-0.4.5.tar.gz tmp/quollio_core-0.4.6.tar.gz --markdown 20240516/q/quollio-core/0.4.5-0.4.6/README.md --exclude *.pyd
+[2024-05-16 09:02:27] INFO root fetch - processPackages [unitsnet-py]: Downloading https://files.pythonhosted.org/packages/6f/c3/56091fa169b05a85897f9a3ff84c663f9105df9df5d552c62229c909ba28/unitsnet-py-0.1.99.tar.gz
+[2024-05-16 09:02:27] INFO root fetch - processPackages [tf-models-nightly]: Downloading https://files.pythonhosted.org/packages/e2/76/79c5fb2cd23f346ee912b9c289c2a9bab6fc8d178658f931ac9a023224c6/tf_models_nightly-2.9.0.dev20220920-py2.py3-none-any.whl
+[2024-05-16 09:02:27] INFO root fetch - processPackages [unitsnet-py]: executing diffoscope
+[2024-05-16 09:02:27] INFO root fetch - processPackages [unitsnet-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/unitsnet-py-0.1.98.tar.gz tmp/unitsnet-py-0.1.99.tar.gz --markdown 20240516/u/unitsnet-py/0.1.98-0.1.99/README.md --exclude *.pyd
+[2024-05-16 09:02:28] INFO root fetch - processPackages [htt]: Remove: archive file [/home/abi/fetcher/tmp/htt-0.8.tar.gz]
+[2024-05-16 09:02:28] INFO root fetch - processPackages [htt]: Remove: archive file [/home/abi/fetcher/tmp/htt-0.9.tar.gz]
+[2024-05-16 09:02:28] INFO root fetch - main [MainThread]: End processing [htt]: success
+[2024-05-16 09:02:28] INFO root fetch - processPackages [motionSegmentation]: Remove: archive file [/home/abi/fetcher/tmp/motionSegmentation-2.8.8.tar.gz]
+[2024-05-16 09:02:28] INFO root fetch - processPackages [motionSegmentation]: Remove: archive file [/home/abi/fetcher/tmp/motionsegmentation-2.9.0.tar.gz]
+[2024-05-16 09:02:28] INFO root fetch - main [MainThread]: End processing [motionSegmentation]: success
+[2024-05-16 09:02:28] INFO root fetch - processPackages [tf-models-nightly]: executing diffoscope
+[2024-05-16 09:02:28] INFO root fetch - processPackages [tf-models-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tf_models_nightly-2.9.0.dev20220919-py2.py3-none-any.whl.zip tmp/tf_models_nightly-2.9.0.dev20220920-py2.py3-none-any.whl.zip --markdown 20240516/t/tf-models-nightly/2.9.0.dev20220919-2.9.0.dev20220920/README.md --exclude *.pyd
+[2024-05-16 09:02:28] INFO root fetch - processPackages [seqio-nightly]: Remove: archive file [/home/abi/fetcher/tmp/seqio-nightly-0.0.8.dev20220906.tar.gz]
+[2024-05-16 09:02:28] INFO root fetch - processPackages [seqio-nightly]: Remove: archive file [/home/abi/fetcher/tmp/seqio-nightly-0.0.8.dev20220907.tar.gz]
+[2024-05-16 09:02:28] INFO root fetch - main [MainThread]: End processing [seqio-nightly]: success
+[2024-05-16 09:02:28] INFO root fetch - processPackages [quollio-core]: Remove: archive file [/home/abi/fetcher/tmp/quollio_core-0.4.5.tar.gz]
+[2024-05-16 09:02:28] INFO root fetch - processPackages [quollio-core]: Remove: archive file [/home/abi/fetcher/tmp/quollio_core-0.4.6.tar.gz]
+[2024-05-16 09:02:28] INFO root fetch - main [MainThread]: End processing [quollio-core]: success
+[2024-05-16 09:02:30] INFO root fetch - processPackages [unitsnet-py]: Remove: archive file [/home/abi/fetcher/tmp/unitsnet-py-0.1.98.tar.gz]
+[2024-05-16 09:02:30] INFO root fetch - processPackages [unitsnet-py]: Remove: archive file [/home/abi/fetcher/tmp/unitsnet-py-0.1.99.tar.gz]
+[2024-05-16 09:02:30] INFO root fetch - main [MainThread]: End processing [unitsnet-py]: success
+[2024-05-16 09:02:31] INFO root fetch - processPackages [tf-models-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tf_models_nightly-2.9.0.dev20220919-py2.py3-none-any.whl.zip]
+[2024-05-16 09:02:31] INFO root fetch - processPackages [tf-models-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tf_models_nightly-2.9.0.dev20220920-py2.py3-none-any.whl.zip]
+[2024-05-16 09:02:31] INFO root fetch - main [MainThread]: End processing [tf-models-nightly]: success
+[2024-05-16 09:02:31] INFO root fetch - main [MainThread]: Store serial: [23230396]
