@@ -21436,3 +21436,15 @@ EOFError: EOF read where object expected
 [2024-05-16 11:24:17] INFO root fetch - processPackages [pyatlan]: Remove: archive file [/home/abi/fetcher/tmp/pyatlan-2.2.0.tar.gz]
 [2024-05-16 11:24:17] INFO root fetch - main [MainThread]: End processing [pyatlan]: success
 [2024-05-16 11:24:17] INFO root fetch - main [MainThread]: Store serial: [23233070]
+[2024-05-16 11:26:21] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23233070]
+[2024-05-16 11:26:26] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-05-16 11:26:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ssb-jordbruk-fagfunksjoner
+[2024-05-16 11:26:27] INFO root fetch - processPackages [ssb-jordbruk-fagfunksjoner]: New version: [0.2.2] Old Version: [0.2.1]
+[2024-05-16 11:26:27] INFO root fetch - processPackages [ssb-jordbruk-fagfunksjoner]: Downloading https://files.pythonhosted.org/packages/cb/0a/8c82d60362d921571d74ffff8db213a5e8fd3692602b009aa61d8ae1eaac/ssb_jordbruk_fagfunksjoner-0.2.1.tar.gz
+[2024-05-16 11:26:27] INFO root fetch - processPackages [ssb-jordbruk-fagfunksjoner]: Downloading https://files.pythonhosted.org/packages/a2/ce/aad643ce537f0a8f6c68961a26d484e9590941e19d3fee8be47b38f88e4a/ssb_jordbruk_fagfunksjoner-0.2.2.tar.gz
+[2024-05-16 11:26:27] INFO root fetch - processPackages [ssb-jordbruk-fagfunksjoner]: executing diffoscope
+[2024-05-16 11:26:27] INFO root fetch - processPackages [ssb-jordbruk-fagfunksjoner]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ssb_jordbruk_fagfunksjoner-0.2.1.tar.gz tmp/ssb_jordbruk_fagfunksjoner-0.2.2.tar.gz --markdown 20240516/s/ssb-jordbruk-fagfunksjoner/0.2.1-0.2.2/README.md --exclude *.pyd
+[2024-05-16 11:26:28] INFO root fetch - processPackages [ssb-jordbruk-fagfunksjoner]: Remove: archive file [/home/abi/fetcher/tmp/ssb_jordbruk_fagfunksjoner-0.2.1.tar.gz]
+[2024-05-16 11:26:28] INFO root fetch - processPackages [ssb-jordbruk-fagfunksjoner]: Remove: archive file [/home/abi/fetcher/tmp/ssb_jordbruk_fagfunksjoner-0.2.2.tar.gz]
+[2024-05-16 11:26:28] INFO root fetch - main [MainThread]: End processing [ssb-jordbruk-fagfunksjoner]: success
+[2024-05-16 11:26:28] INFO root fetch - main [MainThread]: Store serial: [23233073]
