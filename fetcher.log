@@ -9819,3 +9819,51 @@ EOFError: EOF read where object expected
 [2024-05-16 04:49:53] INFO root fetch - processPackages [odoo14-addon-account-financial-report]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_account_financial_report-14.0.3.9.3.dev9-py3-none-any.whl.zip]
 [2024-05-16 04:49:53] INFO root fetch - main [MainThread]: End processing [odoo14-addon-account-financial-report]: success
 [2024-05-16 04:49:53] INFO root fetch - main [MainThread]: Store serial: [23228857]
+[2024-05-16 04:51:58] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23228857]
+[2024-05-16 04:52:03] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-16 04:52:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: flask-frame
+[2024-05-16 04:52:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pragmatic-business-rules
+[2024-05-16 04:52:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: langchain-aws
+[2024-05-16 04:52:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: web-ui-helper
+[2024-05-16 04:52:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: move-unmarker
+[2024-05-16 04:52:03] INFO root fetch - processPackages [web-ui-helper]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-16 04:52:03] INFO root fetch - processPackages [move-unmarker]: New version: [0.1.3] Old Version: [0.1.2]
+[2024-05-16 04:52:03] INFO root fetch - processPackages [web-ui-helper]: Downloading https://files.pythonhosted.org/packages/c9/ff/b364f60ce185f59ac74059aec301d941570acc93a0d289e15f139c988f81/web-ui-helper-0.0.8.tar.gz
+[2024-05-16 04:52:03] INFO root fetch - processPackages [langchain-aws]: New version: [0.1.4] Old Version: [0.1.3]
+[2024-05-16 04:52:03] INFO root fetch - processPackages [flask-frame]: New version: [0.6.4] Old Version: [0.6.3]
+[2024-05-16 04:52:03] INFO root fetch - processPackages [pragmatic-business-rules]: New version: [0.5.0] Old Version: [0.4.1]
+[2024-05-16 04:52:04] INFO root fetch - processPackages [move-unmarker]: Downloading https://files.pythonhosted.org/packages/45/ae/e3053d495232fd5c42b215a9a1af22f2dcca80f76f17478bbdb901f487aa/move_unmarker-0.1.2.tar.gz
+[2024-05-16 04:52:04] INFO root fetch - processPackages [web-ui-helper]: Downloading https://files.pythonhosted.org/packages/f9/67/3ea65ed5e35cde11b9f359a759db6bfe6183992bce9d5cbf38c61cbca49f/web-ui-helper-0.0.9.tar.gz
+[2024-05-16 04:52:04] INFO root fetch - processPackages [langchain-aws]: Downloading https://files.pythonhosted.org/packages/9a/be/8c1e3af2a162afc813d173e2231cc18e963ae954f4a438d784573bbd80d3/langchain_aws-0.1.3.tar.gz
+[2024-05-16 04:52:04] INFO root fetch - processPackages [flask-frame]: Downloading https://files.pythonhosted.org/packages/11/f9/69bf7ed425e75293d7da5692f8ddc50430fb8a263c555b43680595ebdcde/flask_frame-0.6.3.tar.gz
+[2024-05-16 04:52:04] INFO root fetch - processPackages [pragmatic-business-rules]: Downloading https://files.pythonhosted.org/packages/9c/e9/dd85771846ab6f2e4468f626b0b098e3b9eb2e13c7a49a984f41ed56fe72/pragmatic_business_rules-0.4.1.tar.gz
+[2024-05-16 04:52:04] INFO root fetch - processPackages [web-ui-helper]: executing diffoscope
+[2024-05-16 04:52:04] INFO root fetch - processPackages [web-ui-helper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/web-ui-helper-0.0.8.tar.gz tmp/web-ui-helper-0.0.9.tar.gz --markdown 20240516/w/web-ui-helper/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-16 04:52:04] INFO root fetch - processPackages [move-unmarker]: Downloading https://files.pythonhosted.org/packages/50/d3/27d256199d4b028c001c5720becc0348d2888ad9ca15081ff8cb8d2c74df/move_unmarker-0.1.3.tar.gz
+[2024-05-16 04:52:04] INFO root fetch - processPackages [langchain-aws]: Downloading https://files.pythonhosted.org/packages/08/16/867ca0c8d1b226d73bdd57bebc0be92b682d6375206f42702aef9c6a30d1/langchain_aws-0.1.4.tar.gz
+[2024-05-16 04:52:04] INFO root fetch - processPackages [flask-frame]: Downloading https://files.pythonhosted.org/packages/1d/a1/9199f72ed337d7d3be6a50050d56df568b179c772fee73471f48c771c00b/flask_frame-0.6.4.tar.gz
+[2024-05-16 04:52:04] INFO root fetch - processPackages [move-unmarker]: executing diffoscope
+[2024-05-16 04:52:04] INFO root fetch - processPackages [move-unmarker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/move_unmarker-0.1.2.tar.gz tmp/move_unmarker-0.1.3.tar.gz --markdown 20240516/m/move-unmarker/0.1.2-0.1.3/README.md --exclude *.pyd
+[2024-05-16 04:52:04] INFO root fetch - processPackages [langchain-aws]: executing diffoscope
+[2024-05-16 04:52:04] INFO root fetch - processPackages [langchain-aws]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/langchain_aws-0.1.3.tar.gz tmp/langchain_aws-0.1.4.tar.gz --markdown 20240516/l/langchain-aws/0.1.3-0.1.4/README.md --exclude *.pyd
+[2024-05-16 04:52:04] INFO root fetch - processPackages [pragmatic-business-rules]: Downloading https://files.pythonhosted.org/packages/a9/f4/92f4a909f829cc0cb666ad6fc5e79e81eed54e6f5685537bf39b8e40b87f/pragmatic_business_rules-0.5.0.tar.gz
+[2024-05-16 04:52:04] INFO root fetch - processPackages [flask-frame]: executing diffoscope
+[2024-05-16 04:52:04] INFO root fetch - processPackages [flask-frame]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flask_frame-0.6.3.tar.gz tmp/flask_frame-0.6.4.tar.gz --markdown 20240516/f/flask-frame/0.6.3-0.6.4/README.md --exclude *.pyd
+[2024-05-16 04:52:04] INFO root fetch - processPackages [pragmatic-business-rules]: executing diffoscope
+[2024-05-16 04:52:04] INFO root fetch - processPackages [pragmatic-business-rules]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pragmatic_business_rules-0.4.1.tar.gz tmp/pragmatic_business_rules-0.5.0.tar.gz --markdown 20240516/p/pragmatic-business-rules/0.4.1-0.5.0/README.md --exclude *.pyd
+[2024-05-16 04:52:04] INFO root fetch - processPackages [web-ui-helper]: Remove: archive file [/home/abi/fetcher/tmp/web-ui-helper-0.0.8.tar.gz]
+[2024-05-16 04:52:04] INFO root fetch - processPackages [web-ui-helper]: Remove: archive file [/home/abi/fetcher/tmp/web-ui-helper-0.0.9.tar.gz]
+[2024-05-16 04:52:04] INFO root fetch - main [MainThread]: End processing [web-ui-helper]: success
+[2024-05-16 04:52:05] INFO root fetch - processPackages [move-unmarker]: Remove: archive file [/home/abi/fetcher/tmp/move_unmarker-0.1.2.tar.gz]
+[2024-05-16 04:52:05] INFO root fetch - processPackages [move-unmarker]: Remove: archive file [/home/abi/fetcher/tmp/move_unmarker-0.1.3.tar.gz]
+[2024-05-16 04:52:05] INFO root fetch - main [MainThread]: End processing [move-unmarker]: success
+[2024-05-16 04:52:05] INFO root fetch - processPackages [langchain-aws]: Remove: archive file [/home/abi/fetcher/tmp/langchain_aws-0.1.3.tar.gz]
+[2024-05-16 04:52:05] INFO root fetch - processPackages [langchain-aws]: Remove: archive file [/home/abi/fetcher/tmp/langchain_aws-0.1.4.tar.gz]
+[2024-05-16 04:52:05] INFO root fetch - main [MainThread]: End processing [langchain-aws]: success
+[2024-05-16 04:52:05] INFO root fetch - processPackages [flask-frame]: Remove: archive file [/home/abi/fetcher/tmp/flask_frame-0.6.3.tar.gz]
+[2024-05-16 04:52:05] INFO root fetch - processPackages [flask-frame]: Remove: archive file [/home/abi/fetcher/tmp/flask_frame-0.6.4.tar.gz]
+[2024-05-16 04:52:05] INFO root fetch - main [MainThread]: End processing [flask-frame]: success
+[2024-05-16 04:52:05] INFO root fetch - processPackages [pragmatic-business-rules]: Remove: archive file [/home/abi/fetcher/tmp/pragmatic_business_rules-0.4.1.tar.gz]
+[2024-05-16 04:52:05] INFO root fetch - processPackages [pragmatic-business-rules]: Remove: archive file [/home/abi/fetcher/tmp/pragmatic_business_rules-0.5.0.tar.gz]
+[2024-05-16 04:52:05] INFO root fetch - main [MainThread]: End processing [pragmatic-business-rules]: success
+[2024-05-16 04:52:05] INFO root fetch - main [MainThread]: Store serial: [23228870]
