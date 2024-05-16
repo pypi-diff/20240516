@@ -9977,3 +9977,33 @@ EOFError: EOF read where object expected
 [2024-05-16 04:56:27] INFO root fetch - processPackages [slack-sdk]: Remove: archive file [/home/abi/fetcher/tmp/slack_sdk-3.9.1.tar.gz]
 [2024-05-16 04:56:27] INFO root fetch - main [MainThread]: End processing [slack-sdk]: success
 [2024-05-16 04:56:27] INFO root fetch - main [MainThread]: Store serial: [23228907]
+[2024-05-16 04:58:31] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23228907]
+[2024-05-16 04:58:36] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-16 04:58:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: hdx-python-scraper
+[2024-05-16 04:58:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: nonebot-plugin-sparkapi
+[2024-05-16 04:58:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: NJFU
+[2024-05-16 04:58:36] INFO root fetch - processPackages [nonebot-plugin-sparkapi]: New version: [1.0.5] Old Version: [1.0.4]
+[2024-05-16 04:58:36] INFO root fetch - processPackages [nonebot-plugin-sparkapi]: Downloading https://files.pythonhosted.org/packages/6c/21/e38248bcdd291ad6b8b7f6a575862f2b2f3a9460dfd752f4e87457a75101/nonebot_plugin_sparkapi-1.0.4.tar.gz
+[2024-05-16 04:58:36] INFO root fetch - processPackages [hdx-python-scraper]: New version: [2.3.6] Old Version: [2.3.5]
+[2024-05-16 04:58:36] INFO root fetch - processPackages [NJFU]: New version: [0.0.6] Old Version: [0.0.5]
+[2024-05-16 04:58:36] INFO root fetch - processPackages [nonebot-plugin-sparkapi]: Downloading https://files.pythonhosted.org/packages/af/06/a335d066a3c4cc582b5bb93f6a7180c72734d7f5929e881d4e160d75b39c/nonebot_plugin_sparkapi-1.0.5.tar.gz
+[2024-05-16 04:58:36] INFO root fetch - processPackages [hdx-python-scraper]: Downloading https://files.pythonhosted.org/packages/22/37/9daf037f08b63c0a9285baaff6bcc2ee417a14cbe07a8d5e3ee7cdd5e7c5/hdx_python_scraper-2.3.5.tar.gz
+[2024-05-16 04:58:36] INFO root fetch - processPackages [NJFU]: Downloading https://files.pythonhosted.org/packages/77/4b/d63939446956eec325a632967141b730034fd8f305b41670b59e42c71c88/NJFU-0.0.5.tar.gz
+[2024-05-16 04:58:37] INFO root fetch - processPackages [nonebot-plugin-sparkapi]: executing diffoscope
+[2024-05-16 04:58:37] INFO root fetch - processPackages [nonebot-plugin-sparkapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot_plugin_sparkapi-1.0.4.tar.gz tmp/nonebot_plugin_sparkapi-1.0.5.tar.gz --markdown 20240516/n/nonebot-plugin-sparkapi/1.0.4-1.0.5/README.md --exclude *.pyd
+[2024-05-16 04:58:37] INFO root fetch - processPackages [NJFU]: Downloading https://files.pythonhosted.org/packages/05/8e/bcd91bc8da482fc5e3885c1e33f17d4b9a7bc089719b792ff640d87c5919/NJFU-0.0.6.tar.gz
+[2024-05-16 04:58:37] INFO root fetch - processPackages [nonebot-plugin-sparkapi]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_sparkapi-1.0.4.tar.gz]
+[2024-05-16 04:58:37] INFO root fetch - processPackages [nonebot-plugin-sparkapi]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_sparkapi-1.0.5.tar.gz]
+[2024-05-16 04:58:37] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-sparkapi]: success
+[2024-05-16 04:58:37] INFO root fetch - processPackages [NJFU]: executing diffoscope
+[2024-05-16 04:58:37] INFO root fetch - processPackages [NJFU]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/NJFU-0.0.5.tar.gz tmp/NJFU-0.0.6.tar.gz --markdown 20240516/N/NJFU/0.0.5-0.0.6/README.md --exclude *.pyd
+[2024-05-16 04:58:38] INFO root fetch - processPackages [hdx-python-scraper]: Downloading https://files.pythonhosted.org/packages/47/94/45319fd86a4dc6416016de0488badde8415e17007907e2c32f1318800b12/hdx_python_scraper-2.3.6.tar.gz
+[2024-05-16 04:58:38] INFO root fetch - processPackages [NJFU]: Remove: archive file [/home/abi/fetcher/tmp/NJFU-0.0.5.tar.gz]
+[2024-05-16 04:58:38] INFO root fetch - processPackages [NJFU]: Remove: archive file [/home/abi/fetcher/tmp/NJFU-0.0.6.tar.gz]
+[2024-05-16 04:58:38] INFO root fetch - main [MainThread]: End processing [NJFU]: success
+[2024-05-16 04:58:38] INFO root fetch - processPackages [hdx-python-scraper]: executing diffoscope
+[2024-05-16 04:58:38] INFO root fetch - processPackages [hdx-python-scraper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hdx_python_scraper-2.3.5.tar.gz tmp/hdx_python_scraper-2.3.6.tar.gz --markdown 20240516/h/hdx-python-scraper/2.3.5-2.3.6/README.md --exclude *.pyd
+[2024-05-16 04:58:40] INFO root fetch - processPackages [hdx-python-scraper]: Remove: archive file [/home/abi/fetcher/tmp/hdx_python_scraper-2.3.5.tar.gz]
+[2024-05-16 04:58:40] INFO root fetch - processPackages [hdx-python-scraper]: Remove: archive file [/home/abi/fetcher/tmp/hdx_python_scraper-2.3.6.tar.gz]
+[2024-05-16 04:58:40] INFO root fetch - main [MainThread]: End processing [hdx-python-scraper]: success
+[2024-05-16 04:58:40] INFO root fetch - main [MainThread]: Store serial: [23228913]
