@@ -13172,3 +13172,24 @@ EOFError: EOF read where object expected
 [2024-05-16 08:36:05] WARNING root fetch - processPackages [qleegss]: Skipping package: exceeds size limit 20058685>=10485760
 [2024-05-16 08:36:05] INFO root fetch - main [MainThread]: End processing [qleegss] error
 [2024-05-16 08:36:05] INFO root fetch - main [MainThread]: Store serial: [23230185]
+[2024-05-16 08:38:09] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23230185]
+[2024-05-16 08:38:14] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-16 08:38:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: parkapi-sources
+[2024-05-16 08:38:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: lungo-cli
+[2024-05-16 08:38:14] INFO root fetch - processPackages [parkapi-sources]: New version: [0.3.1] Old Version: [0.3.0]
+[2024-05-16 08:38:14] INFO root fetch - processPackages [lungo-cli]: New version: [0.4.0] Old Version: [0.3.0]
+[2024-05-16 08:38:14] INFO root fetch - processPackages [lungo-cli]: Downloading https://files.pythonhosted.org/packages/cc/3a/078c1b373e1c84c1f484950b6f4377aa923612fb8a004cb5e56535f9577b/lungo_cli-0.3.0.tar.gz
+[2024-05-16 08:38:14] INFO root fetch - processPackages [parkapi-sources]: Downloading https://files.pythonhosted.org/packages/d8/05/dcbbf8affdd5c412559e910691f3c9f51a29c5204383107c4279340347a1/parkapi_sources-0.3.0.tar.gz
+[2024-05-16 08:38:15] INFO root fetch - processPackages [lungo-cli]: Downloading https://files.pythonhosted.org/packages/9a/b7/2f9256115316cbe87c48ede7d4ffe636de36e7b1e80bc49ff2eac0f8eb67/lungo_cli-0.4.0.tar.gz
+[2024-05-16 08:38:15] INFO root fetch - processPackages [lungo-cli]: executing diffoscope
+[2024-05-16 08:38:15] INFO root fetch - processPackages [lungo-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lungo_cli-0.3.0.tar.gz tmp/lungo_cli-0.4.0.tar.gz --markdown 20240516/l/lungo-cli/0.3.0-0.4.0/README.md --exclude *.pyd
+[2024-05-16 08:38:15] INFO root fetch - processPackages [parkapi-sources]: Downloading https://files.pythonhosted.org/packages/79/91/cbb0a2d2df43ff5a07657e2fbce7cb8d5e28393671ddb3b365c053308fe5/parkapi_sources-0.3.1.tar.gz
+[2024-05-16 08:38:15] INFO root fetch - processPackages [parkapi-sources]: executing diffoscope
+[2024-05-16 08:38:15] INFO root fetch - processPackages [parkapi-sources]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/parkapi_sources-0.3.0.tar.gz tmp/parkapi_sources-0.3.1.tar.gz --markdown 20240516/p/parkapi-sources/0.3.0-0.3.1/README.md --exclude *.pyd
+[2024-05-16 08:38:16] INFO root fetch - processPackages [lungo-cli]: Remove: archive file [/home/abi/fetcher/tmp/lungo_cli-0.3.0.tar.gz]
+[2024-05-16 08:38:16] INFO root fetch - processPackages [lungo-cli]: Remove: archive file [/home/abi/fetcher/tmp/lungo_cli-0.4.0.tar.gz]
+[2024-05-16 08:38:16] INFO root fetch - main [MainThread]: End processing [lungo-cli]: success
+[2024-05-16 08:38:16] INFO root fetch - processPackages [parkapi-sources]: Remove: archive file [/home/abi/fetcher/tmp/parkapi_sources-0.3.0.tar.gz]
+[2024-05-16 08:38:16] INFO root fetch - processPackages [parkapi-sources]: Remove: archive file [/home/abi/fetcher/tmp/parkapi_sources-0.3.1.tar.gz]
+[2024-05-16 08:38:16] INFO root fetch - main [MainThread]: End processing [parkapi-sources]: success
+[2024-05-16 08:38:16] INFO root fetch - main [MainThread]: Store serial: [23230191]
