@@ -21118,3 +21118,121 @@ EOFError: EOF read where object expected
 [2024-05-16 11:17:19] INFO root fetch - processPackages [optimalportfolios]: Remove: archive file [/home/abi/fetcher/tmp/optimalportfolios-1.0.9.tar.gz]
 [2024-05-16 11:17:19] INFO root fetch - main [MainThread]: End processing [optimalportfolios]: success
 [2024-05-16 11:17:19] INFO root fetch - main [MainThread]: Store serial: [23232945]
+[2024-05-16 11:19:29] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23232945]
+[2024-05-16 11:19:33] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2024-05-16 11:19:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: perian-cli
+[2024-05-16 11:19:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: inoopa_utils
+[2024-05-16 11:19:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: stepup
+[2024-05-16 11:19:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: aipkgs-core
+[2024-05-16 11:19:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: aws-syndicate
+[2024-05-16 11:19:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: nucliadb-admin-assets
+[2024-05-16 11:19:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: ccs-digitalmarketplace-apiclient
+[2024-05-16 11:19:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: nucliadb-node-binding
+[2024-05-16 11:19:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: mlpro-int-mujoco
+[2024-05-16 11:19:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: perian-cli
+[2024-05-16 11:19:34] INFO root fetch - processPackages [stepup]: New version: [1.2.1] Old Version: [1.2.0]
+[2024-05-16 11:19:34] INFO root fetch - processPackages [perian-cli]: New version: [0.1.1] Old Version: [0.0.26]
+[2024-05-16 11:19:34] INFO root fetch - processPackages [aipkgs-core]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-05-16 11:19:34] INFO root fetch - processPackages [perian-cli]: New version: [0.1.1] Old Version: [0.0.26]
+[2024-05-16 11:19:34] INFO root fetch - processPackages [aws-syndicate]: New version: [1.9.6] Old Version: [1.9.4]
+[2024-05-16 11:19:34] INFO root fetch - processPackages [nucliadb-admin-assets]: New version: [1.0.0.post1545] Old Version: [1.0.0.post1544]
+[2024-05-16 11:19:34] INFO root fetch - processPackages [nucliadb-node-binding]: New version: [3.1.0.post1302] Old Version: [3.1.0.post1299]
+[2024-05-16 11:19:34] INFO root fetch - processPackages [mlpro-int-mujoco]: New version: [1.0.0] Old Version: [0.1.0]
+[2024-05-16 11:19:34] INFO root fetch - processPackages [ccs-digitalmarketplace-apiclient]: New version: [25.9.0] Old Version: [25.8.0]
+[2024-05-16 11:19:34] INFO root fetch - processPackages [inoopa_utils]: New version: [2.9.9] Old Version: [2.9.8]
+[2024-05-16 11:19:34] INFO root fetch - processPackages [perian-cli]: Downloading https://files.pythonhosted.org/packages/9c/a3/1d1e238d04ffbfb90e5734d5980e216c70ccf0cf6ad7a047f6127cde50e1/perian_cli-0.0.26.tar.gz
+[2024-05-16 11:19:34] INFO root fetch - processPackages [perian-cli]: Downloading https://files.pythonhosted.org/packages/9c/a3/1d1e238d04ffbfb90e5734d5980e216c70ccf0cf6ad7a047f6127cde50e1/perian_cli-0.0.26.tar.gz
+[2024-05-16 11:19:34] INFO root fetch - processPackages [aipkgs-core]: Downloading https://files.pythonhosted.org/packages/1b/95/2d761178d77290df39be6e93078af4b40f985d9809d971cd17dd950588d3/aipkgs_core-1.0.8.tar.gz
+[2024-05-16 11:19:34] INFO root fetch - processPackages [nucliadb-admin-assets]: Downloading https://files.pythonhosted.org/packages/a1/56/f1797682dcc91e24507fb4aa821d53c2120991864132c6a1a191e9c3d545/nucliadb_admin_assets-1.0.0.post1544-py3-none-any.whl
+[2024-05-16 11:19:34] INFO root fetch - processPackages [nucliadb-node-binding]: Downloading https://files.pythonhosted.org/packages/2e/d9/1e8ad0564be818709d4cccc99a31eff44fd3c7e3f8c40158e72b7ceb7997/nucliadb_node_binding-3.1.0.post1299.tar.gz
+[2024-05-16 11:19:34] INFO root fetch - processPackages [stepup]: Downloading https://files.pythonhosted.org/packages/d3/0a/f795726a78e4d763daf8e80a4786469fcc9a850fc0049444c21439f0adf1/stepup-1.2.0.tar.gz
+[2024-05-16 11:19:34] INFO root fetch - processPackages [aws-syndicate]: Downloading https://files.pythonhosted.org/packages/47/2d/b452b8d2bc7ff03dd23fab7779b84d1142cb85cb630d2ea027a04dc64b08/aws-syndicate-1.9.4.tar.gz
+[2024-05-16 11:19:34] INFO root fetch - processPackages [mlpro-int-mujoco]: Downloading https://files.pythonhosted.org/packages/58/61/9aa3c5478ca8d4d232aaae26dd4ae2ab2a291fa4faa3040ff5ee6f2b2b7e/mlpro_int_mujoco-0.1.0.tar.gz
+[2024-05-16 11:19:34] INFO root fetch - processPackages [ccs-digitalmarketplace-apiclient]: Downloading https://files.pythonhosted.org/packages/7e/d3/2c538caddca4b5850a3ee5d36cca30cd42369340c347795802139babe32c/ccs-digitalmarketplace-apiclient-25.8.0.tar.gz
+[2024-05-16 11:19:34] INFO root fetch - processPackages [inoopa_utils]: Downloading https://files.pythonhosted.org/packages/a0/24/b911a769e68404b28a043df8fa70dcb1a205d883a5b8eb5551b2e29e769b/inoopa_utils-2.9.8.tar.gz
+[2024-05-16 11:19:34] INFO root fetch - processPackages [perian-cli]: Downloading https://files.pythonhosted.org/packages/03/c2/2c9e4b5785e477fe2494e31de19d37449f42d5af3bbc4b942bd33ffae1a5/perian_cli-0.1.1.tar.gz
+[2024-05-16 11:19:34] INFO root fetch - processPackages [perian-cli]: Downloading https://files.pythonhosted.org/packages/03/c2/2c9e4b5785e477fe2494e31de19d37449f42d5af3bbc4b942bd33ffae1a5/perian_cli-0.1.1.tar.gz
+[2024-05-16 11:19:34] INFO root fetch - processPackages [aipkgs-core]: Downloading https://files.pythonhosted.org/packages/c8/b2/fb0706bf9eeeee24d524f103cad3a18e46870855a277a735a6c83ea06692/aipkgs_core-1.0.9.tar.gz
+[2024-05-16 11:19:34] INFO root fetch - processPackages [perian-cli]: executing diffoscope
+[2024-05-16 11:19:34] INFO root fetch - processPackages [perian-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/perian_cli-0.0.26.tar.gz tmp/perian_cli-0.1.1.tar.gz --markdown 20240516/p/perian-cli/0.0.26-0.1.1/README.md --exclude *.pyd
+[2024-05-16 11:19:34] INFO root fetch - processPackages [perian-cli]: executing diffoscope
+[2024-05-16 11:19:34] INFO root fetch - processPackages [perian-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/perian_cli-0.0.26.tar.gz tmp/perian_cli-0.1.1.tar.gz --markdown 20240516/p/perian-cli/0.0.26-0.1.1/README.md --exclude *.pyd
+[2024-05-16 11:19:34] INFO root fetch - processPackages [aipkgs-core]: executing diffoscope
+[2024-05-16 11:19:34] INFO root fetch - processPackages [aipkgs-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aipkgs_core-1.0.8.tar.gz tmp/aipkgs_core-1.0.9.tar.gz --markdown 20240516/a/aipkgs-core/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-05-16 11:19:34] INFO root fetch - processPackages [nucliadb-node-binding]: Downloading https://files.pythonhosted.org/packages/6c/7a/8d687c3d02bb5cde250e85a663d3f7f921faaa28eb3afb76dbf9a4c1a334/nucliadb_node_binding-3.1.0.post1302.tar.gz
+[2024-05-16 11:19:34] INFO root fetch - processPackages [aws-syndicate]: Downloading https://files.pythonhosted.org/packages/43/b1/5d83585a6e4711dd87d8f7d1a02ac5df4ce206eb737176699dd88db6d2c4/aws-syndicate-1.9.6.tar.gz
+[2024-05-16 11:19:34] INFO root fetch - processPackages [nucliadb-admin-assets]: Downloading https://files.pythonhosted.org/packages/ca/de/ba0fbbec1fa8cc6689a99b0ab43abe71555add230a99c44207b85adf34bd/nucliadb_admin_assets-1.0.0.post1545-py3-none-any.whl
+[2024-05-16 11:19:35] INFO root fetch - processPackages [ccs-digitalmarketplace-apiclient]: Downloading https://files.pythonhosted.org/packages/8c/f9/8c3caeceb7a3e8e2a0f3847d6e8f68c9c3c61e1bf0352216c26d3d799418/ccs-digitalmarketplace-apiclient-25.9.0.tar.gz
+[2024-05-16 11:19:35] INFO root fetch - processPackages [mlpro-int-mujoco]: Downloading https://files.pythonhosted.org/packages/e8/e8/92e0bd26ef52e3ea2b0d0f3d3b0bdc8b746c54b07b06c11ac7b7a0eae96b/mlpro_int_mujoco-1.0.0.tar.gz
+[2024-05-16 11:19:35] INFO root fetch - processPackages [nucliadb-node-binding]: executing diffoscope
+[2024-05-16 11:19:35] INFO root fetch - processPackages [nucliadb-node-binding]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_node_binding-3.1.0.post1299.tar.gz tmp/nucliadb_node_binding-3.1.0.post1302.tar.gz --markdown 20240516/n/nucliadb-node-binding/3.1.0.post1299-3.1.0.post1302/README.md --exclude *.pyd
+[2024-05-16 11:19:35] INFO root fetch - processPackages [stepup]: Downloading https://files.pythonhosted.org/packages/9c/6d/04fde0e19582bd4cda5896c2de6dc4189024f689b2a40f1c2e5402403052/stepup-1.2.1.tar.gz
+[2024-05-16 11:19:35] INFO root fetch - processPackages [inoopa_utils]: Downloading https://files.pythonhosted.org/packages/d9/a2/9ecd86dc35b14396fac082afed001b7cf3eb323bec68b4986cf3b5194b67/inoopa_utils-2.9.9.tar.gz
+[2024-05-16 11:19:35] INFO root fetch - processPackages [aws-syndicate]: executing diffoscope
+[2024-05-16 11:19:35] INFO root fetch - processPackages [aws-syndicate]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aws-syndicate-1.9.4.tar.gz tmp/aws-syndicate-1.9.6.tar.gz --markdown 20240516/a/aws-syndicate/1.9.4-1.9.6/README.md --exclude *.pyd
+[2024-05-16 11:19:35] INFO root fetch - processPackages [ccs-digitalmarketplace-apiclient]: executing diffoscope
+[2024-05-16 11:19:35] INFO root fetch - processPackages [ccs-digitalmarketplace-apiclient]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ccs-digitalmarketplace-apiclient-25.8.0.tar.gz tmp/ccs-digitalmarketplace-apiclient-25.9.0.tar.gz --markdown 20240516/c/ccs-digitalmarketplace-apiclient/25.8.0-25.9.0/README.md --exclude *.pyd
+[2024-05-16 11:19:35] INFO root fetch - processPackages [mlpro-int-mujoco]: executing diffoscope
+[2024-05-16 11:19:35] INFO root fetch - processPackages [mlpro-int-mujoco]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mlpro_int_mujoco-0.1.0.tar.gz tmp/mlpro_int_mujoco-1.0.0.tar.gz --markdown 20240516/m/mlpro-int-mujoco/0.1.0-1.0.0/README.md --exclude *.pyd
+[2024-05-16 11:19:35] INFO root fetch - processPackages [inoopa_utils]: executing diffoscope
+[2024-05-16 11:19:35] INFO root fetch - processPackages [inoopa_utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/inoopa_utils-2.9.8.tar.gz tmp/inoopa_utils-2.9.9.tar.gz --markdown 20240516/i/inoopa_utils/2.9.8-2.9.9/README.md --exclude *.pyd
+[2024-05-16 11:19:35] INFO root fetch - processPackages [nucliadb-admin-assets]: executing diffoscope
+[2024-05-16 11:19:35] INFO root fetch - processPackages [nucliadb-admin-assets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_admin_assets-1.0.0.post1544-py3-none-any.whl.zip tmp/nucliadb_admin_assets-1.0.0.post1545-py3-none-any.whl.zip --markdown 20240516/n/nucliadb-admin-assets/1.0.0.post1544-1.0.0.post1545/README.md --exclude *.pyd
+[2024-05-16 11:19:35] INFO root fetch - processPackages [stepup]: executing diffoscope
+[2024-05-16 11:19:35] INFO root fetch - processPackages [stepup]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stepup-1.2.0.tar.gz tmp/stepup-1.2.1.tar.gz --markdown 20240516/s/stepup/1.2.0-1.2.1/README.md --exclude *.pyd
+[2024-05-16 11:19:36] INFO root fetch - processPackages [perian-cli]: Remove: archive file [/home/abi/fetcher/tmp/perian_cli-0.0.26.tar.gz]
+[2024-05-16 11:19:36] INFO root fetch - processPackages [perian-cli]: Remove: archive file [/home/abi/fetcher/tmp/perian_cli-0.1.1.tar.gz]
+[2024-05-16 11:19:36] INFO root fetch - processPackages [perian-cli]: Start processing: kfish
+[2024-05-16 11:19:36] INFO root fetch - main [MainThread]: End processing [perian-cli]: success
+[2024-05-16 11:19:36] INFO root fetch - processPackages [perian-cli]: Start processing: aipkgs-core
+[2024-05-16 11:19:36] INFO root fetch - main [MainThread]: End processing [perian-cli]: success
+[2024-05-16 11:19:36] INFO root fetch - processPackages [kfish]: New version: [99.0.202405160834] Old Version: [99.0.202405151708]
+[2024-05-16 11:19:36] INFO root fetch - processPackages [aipkgs-core]: Remove: archive file [/home/abi/fetcher/tmp/aipkgs_core-1.0.8.tar.gz]
+[2024-05-16 11:19:36] INFO root fetch - processPackages [aipkgs-core]: Remove: archive file [/home/abi/fetcher/tmp/aipkgs_core-1.0.9.tar.gz]
+[2024-05-16 11:19:36] INFO root fetch - processPackages [aipkgs-core]: Start processing: pkscreener
+[2024-05-16 11:19:36] INFO root fetch - main [MainThread]: End processing [aipkgs-core]: success
+[2024-05-16 11:19:36] INFO root fetch - processPackages [aipkgs-core]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-05-16 11:19:36] INFO root fetch - processPackages [pkscreener]: New version: [0.44.20240515.377] Old Version: [0.44.20240515.376]
+[2024-05-16 11:19:36] INFO root fetch - processPackages [kfish]: Downloading https://files.pythonhosted.org/packages/16/96/1f822d3ee20a11d600944c8ac7fc9f41e8900bc22936acb339f51e8fd405/kfish-99.0.202405151708-py3-none-any.whl
+[2024-05-16 11:19:36] INFO root fetch - processPackages [aipkgs-core]: Downloading https://files.pythonhosted.org/packages/1b/95/2d761178d77290df39be6e93078af4b40f985d9809d971cd17dd950588d3/aipkgs_core-1.0.8.tar.gz
+[2024-05-16 11:19:36] INFO root fetch - processPackages [pkscreener]: Downloading https://files.pythonhosted.org/packages/ea/d7/70571b303841b2b3723ef19f86f1c8946b52047886150070f84dd9914e0c/pkscreener-0.44.20240515.376.tar.gz
+[2024-05-16 11:19:36] INFO root fetch - processPackages [ccs-digitalmarketplace-apiclient]: Remove: archive file [/home/abi/fetcher/tmp/ccs-digitalmarketplace-apiclient-25.8.0.tar.gz]
+[2024-05-16 11:19:36] INFO root fetch - processPackages [ccs-digitalmarketplace-apiclient]: Remove: archive file [/home/abi/fetcher/tmp/ccs-digitalmarketplace-apiclient-25.9.0.tar.gz]
+[2024-05-16 11:19:36] INFO root fetch - main [MainThread]: End processing [ccs-digitalmarketplace-apiclient]: success
+[2024-05-16 11:19:36] INFO root fetch - processPackages [inoopa_utils]: Remove: archive file [/home/abi/fetcher/tmp/inoopa_utils-2.9.8.tar.gz]
+[2024-05-16 11:19:36] INFO root fetch - processPackages [inoopa_utils]: Remove: archive file [/home/abi/fetcher/tmp/inoopa_utils-2.9.9.tar.gz]
+[2024-05-16 11:19:36] INFO root fetch - main [MainThread]: End processing [inoopa_utils]: success
+[2024-05-16 11:19:36] INFO root fetch - processPackages [kfish]: Downloading https://files.pythonhosted.org/packages/f3/8a/731dcc8e2171caa13d5ddc6ed309105dde9dbcf1ec28fa20ad1ba8e7619c/kfish-99.0.202405160834-py3-none-any.whl
+[2024-05-16 11:19:36] INFO root fetch - processPackages [aipkgs-core]: Downloading https://files.pythonhosted.org/packages/c8/b2/fb0706bf9eeeee24d524f103cad3a18e46870855a277a735a6c83ea06692/aipkgs_core-1.0.9.tar.gz
+[2024-05-16 11:19:36] INFO root fetch - processPackages [kfish]: executing diffoscope
+[2024-05-16 11:19:36] INFO root fetch - processPackages [kfish]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kfish-99.0.202405151708-py3-none-any.whl.zip tmp/kfish-99.0.202405160834-py3-none-any.whl.zip --markdown 20240516/k/kfish/99.0.202405151708-99.0.202405160834/README.md --exclude *.pyd
+[2024-05-16 11:19:36] INFO root fetch - processPackages [mlpro-int-mujoco]: Remove: archive file [/home/abi/fetcher/tmp/mlpro_int_mujoco-0.1.0.tar.gz]
+[2024-05-16 11:19:36] INFO root fetch - processPackages [mlpro-int-mujoco]: Remove: archive file [/home/abi/fetcher/tmp/mlpro_int_mujoco-1.0.0.tar.gz]
+[2024-05-16 11:19:36] INFO root fetch - main [MainThread]: End processing [mlpro-int-mujoco]: success
+[2024-05-16 11:19:36] INFO root fetch - processPackages [aipkgs-core]: executing diffoscope
+[2024-05-16 11:19:36] INFO root fetch - processPackages [aipkgs-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aipkgs_core-1.0.8.tar.gz tmp/aipkgs_core-1.0.9.tar.gz --markdown 20240516/a/aipkgs-core/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-05-16 11:19:37] INFO root fetch - processPackages [pkscreener]: Downloading https://files.pythonhosted.org/packages/f4/09/12e5e5aa33ed01a5ae465f89aa8cb65161116af40e2b5699da1012b2e0c5/pkscreener-0.44.20240515.377.tar.gz
+[2024-05-16 11:19:37] INFO root fetch - processPackages [nucliadb-admin-assets]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_admin_assets-1.0.0.post1544-py3-none-any.whl.zip]
+[2024-05-16 11:19:37] INFO root fetch - processPackages [nucliadb-admin-assets]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_admin_assets-1.0.0.post1545-py3-none-any.whl.zip]
+[2024-05-16 11:19:37] INFO root fetch - main [MainThread]: End processing [nucliadb-admin-assets]: success
+[2024-05-16 11:19:37] INFO root fetch - processPackages [pkscreener]: executing diffoscope
+[2024-05-16 11:19:37] INFO root fetch - processPackages [pkscreener]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pkscreener-0.44.20240515.376.tar.gz tmp/pkscreener-0.44.20240515.377.tar.gz --markdown 20240516/p/pkscreener/0.44.20240515.376-0.44.20240515.377/README.md --exclude *.pyd
+[2024-05-16 11:19:37] INFO root fetch - processPackages [aws-syndicate]: Remove: archive file [/home/abi/fetcher/tmp/aws-syndicate-1.9.4.tar.gz]
+[2024-05-16 11:19:37] INFO root fetch - processPackages [aws-syndicate]: Remove: archive file [/home/abi/fetcher/tmp/aws-syndicate-1.9.6.tar.gz]
+[2024-05-16 11:19:37] INFO root fetch - main [MainThread]: End processing [aws-syndicate]: success
+[2024-05-16 11:19:37] INFO root fetch - processPackages [kfish]: Remove: archive file [/home/abi/fetcher/tmp/kfish-99.0.202405151708-py3-none-any.whl.zip]
+[2024-05-16 11:19:37] INFO root fetch - processPackages [kfish]: Remove: archive file [/home/abi/fetcher/tmp/kfish-99.0.202405160834-py3-none-any.whl.zip]
+[2024-05-16 11:19:37] INFO root fetch - main [MainThread]: End processing [kfish]: success
+[2024-05-16 11:19:37] INFO root fetch - processPackages [aipkgs-core]: Remove: archive file [/home/abi/fetcher/tmp/aipkgs_core-1.0.8.tar.gz]
+[2024-05-16 11:19:37] INFO root fetch - processPackages [aipkgs-core]: Remove: archive file [/home/abi/fetcher/tmp/aipkgs_core-1.0.9.tar.gz]
+[2024-05-16 11:19:37] INFO root fetch - main [MainThread]: End processing [aipkgs-core]: success
+[2024-05-16 11:19:37] INFO root fetch - processPackages [nucliadb-node-binding]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_node_binding-3.1.0.post1299.tar.gz]
+[2024-05-16 11:19:37] INFO root fetch - processPackages [nucliadb-node-binding]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_node_binding-3.1.0.post1302.tar.gz]
+[2024-05-16 11:19:37] INFO root fetch - main [MainThread]: End processing [nucliadb-node-binding]: success
+[2024-05-16 11:19:38] INFO root fetch - processPackages [pkscreener]: Remove: archive file [/home/abi/fetcher/tmp/pkscreener-0.44.20240515.376.tar.gz]
+[2024-05-16 11:19:38] INFO root fetch - processPackages [pkscreener]: Remove: archive file [/home/abi/fetcher/tmp/pkscreener-0.44.20240515.377.tar.gz]
+[2024-05-16 11:19:38] INFO root fetch - main [MainThread]: End processing [pkscreener]: success
+[2024-05-16 11:19:38] INFO root fetch - processPackages [stepup]: Remove: archive file [/home/abi/fetcher/tmp/stepup-1.2.0.tar.gz]
+[2024-05-16 11:19:38] INFO root fetch - processPackages [stepup]: Remove: archive file [/home/abi/fetcher/tmp/stepup-1.2.1.tar.gz]
+[2024-05-16 11:19:38] INFO root fetch - main [MainThread]: End processing [stepup]: success
+[2024-05-16 11:19:38] INFO root fetch - main [MainThread]: Store serial: [23232999]
