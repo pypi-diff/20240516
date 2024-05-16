@@ -11722,3 +11722,36 @@ EOFError: EOF read where object expected
 [2024-05-16 07:11:25] INFO root fetch - processPackages [ensure-packages]: Remove: archive file [/home/abi/fetcher/tmp/ensure_packages-0.1.2.tar.gz]
 [2024-05-16 07:11:25] INFO root fetch - main [MainThread]: End processing [ensure-packages]: success
 [2024-05-16 07:11:25] INFO root fetch - main [MainThread]: Store serial: [23229605]
+[2024-05-16 07:13:29] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23229605]
+[2024-05-16 07:13:34] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-16 07:13:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: hello-world-demo
+[2024-05-16 07:13:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: w3ml
+[2024-05-16 07:13:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: magentic
+[2024-05-16 07:13:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: taskara
+[2024-05-16 07:13:34] INFO root fetch - processPackages [w3ml]: New version: [2024.5.16rc7] Old Version: [2024.5.16rc6]
+[2024-05-16 07:13:34] WARNING root fetch - processPackages [hello-world-demo]: Skipping, unable to determine old version
+[2024-05-16 07:13:34] INFO root fetch - main [MainThread]: End processing [hello-world-demo] error
+[2024-05-16 07:13:34] INFO root fetch - processPackages [taskara]: New version: [0.1.8] Old Version: [0.1.71]
+[2024-05-16 07:13:34] INFO root fetch - processPackages [w3ml]: Downloading https://files.pythonhosted.org/packages/0a/27/b703670c9fb9e034665699902ed85178cd202f75ef332aef8e7f53452bea/w3ml-2024.5.16rc6.tar.gz
+[2024-05-16 07:13:34] INFO root fetch - processPackages [magentic]: New version: [0.9.1] Old Version: [0.9.0]
+[2024-05-16 07:13:34] INFO root fetch - processPackages [taskara]: Downloading https://files.pythonhosted.org/packages/10/5d/1df69bfe96a8f154d022bab2809a8219da3cdab2734dcd5af215111ab36d/taskara-0.1.71.tar.gz
+[2024-05-16 07:13:34] INFO root fetch - processPackages [magentic]: Downloading https://files.pythonhosted.org/packages/b1/4c/c92b3a38ac6e6e9e2715083d4b0cd75ceb0e3bcbd7f805d25522283b4708/magentic-0.9.0.tar.gz
+[2024-05-16 07:13:34] INFO root fetch - processPackages [w3ml]: Downloading https://files.pythonhosted.org/packages/8f/ba/695dd323f0c588dc0b2344ecf90e3375bf806525779ce1120f2b339d30a1/w3ml-2024.5.16rc7.tar.gz
+[2024-05-16 07:13:35] INFO root fetch - processPackages [taskara]: Downloading https://files.pythonhosted.org/packages/c0/4f/e9467a6dd755091e2fe2294b58569b289c5252fd70463791829fd99fbfd7/taskara-0.1.8.tar.gz
+[2024-05-16 07:13:35] INFO root fetch - processPackages [w3ml]: executing diffoscope
+[2024-05-16 07:13:35] INFO root fetch - processPackages [w3ml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/w3ml-2024.5.16rc6.tar.gz tmp/w3ml-2024.5.16rc7.tar.gz --markdown 20240516/w/w3ml/2024.5.16rc6-2024.5.16rc7/README.md --exclude *.pyd
+[2024-05-16 07:13:35] INFO root fetch - processPackages [taskara]: executing diffoscope
+[2024-05-16 07:13:35] INFO root fetch - processPackages [taskara]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/taskara-0.1.71.tar.gz tmp/taskara-0.1.8.tar.gz --markdown 20240516/t/taskara/0.1.71-0.1.8/README.md --exclude *.pyd
+[2024-05-16 07:13:35] INFO root fetch - processPackages [magentic]: Downloading https://files.pythonhosted.org/packages/14/4d/5c6c2464c5abac2cf0a83ac11e48dd90edf9b6d646f6825ce23b0bfe99bf/magentic-0.9.1.tar.gz
+[2024-05-16 07:13:35] INFO root fetch - processPackages [magentic]: executing diffoscope
+[2024-05-16 07:13:35] INFO root fetch - processPackages [magentic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/magentic-0.9.0.tar.gz tmp/magentic-0.9.1.tar.gz --markdown 20240516/m/magentic/0.9.0-0.9.1/README.md --exclude *.pyd
+[2024-05-16 07:13:35] INFO root fetch - processPackages [taskara]: Remove: archive file [/home/abi/fetcher/tmp/taskara-0.1.71.tar.gz]
+[2024-05-16 07:13:35] INFO root fetch - processPackages [taskara]: Remove: archive file [/home/abi/fetcher/tmp/taskara-0.1.8.tar.gz]
+[2024-05-16 07:13:35] INFO root fetch - main [MainThread]: End processing [taskara]: success
+[2024-05-16 07:13:35] INFO root fetch - processPackages [w3ml]: Remove: archive file [/home/abi/fetcher/tmp/w3ml-2024.5.16rc6.tar.gz]
+[2024-05-16 07:13:35] INFO root fetch - processPackages [w3ml]: Remove: archive file [/home/abi/fetcher/tmp/w3ml-2024.5.16rc7.tar.gz]
+[2024-05-16 07:13:35] INFO root fetch - main [MainThread]: End processing [w3ml]: success
+[2024-05-16 07:13:35] INFO root fetch - processPackages [magentic]: Remove: archive file [/home/abi/fetcher/tmp/magentic-0.9.0.tar.gz]
+[2024-05-16 07:13:35] INFO root fetch - processPackages [magentic]: Remove: archive file [/home/abi/fetcher/tmp/magentic-0.9.1.tar.gz]
+[2024-05-16 07:13:35] INFO root fetch - main [MainThread]: End processing [magentic]: success
+[2024-05-16 07:13:35] INFO root fetch - main [MainThread]: Store serial: [23229617]
