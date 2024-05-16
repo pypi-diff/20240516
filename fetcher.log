@@ -14287,3 +14287,33 @@ EOFError: EOF read where object expected
 [2024-05-16 09:25:56] INFO root fetch - processPackages [pyspartn]: Remove: archive file [/home/abi/fetcher/tmp/pyspartn-1.0.0.tar.gz]
 [2024-05-16 09:25:56] INFO root fetch - main [MainThread]: End processing [pyspartn]: success
 [2024-05-16 09:25:56] INFO root fetch - main [MainThread]: Store serial: [23230626]
+[2024-05-16 09:28:00] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23230626]
+[2024-05-16 09:28:05] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-16 09:28:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: Joywata
+[2024-05-16 09:28:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: sqlrepo
+[2024-05-16 09:28:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: EasyPage
+[2024-05-16 09:28:05] INFO root fetch - processPackages [Joywata]: New version: [0.0.3] Old Version: [0.0.2]
+[2024-05-16 09:28:05] INFO root fetch - processPackages [EasyPage]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-16 09:28:05] INFO root fetch - processPackages [Joywata]: Downloading https://files.pythonhosted.org/packages/ba/c5/2a6fb687d0ec07b7621a1b256d5905fb67d5863ca258774431df5eef3dab/Joywata-0.0.2.tar.gz
+[2024-05-16 09:28:05] INFO root fetch - processPackages [EasyPage]: Downloading https://files.pythonhosted.org/packages/3f/c1/4134326382533ff7c11d88ba7830b6122f32cbed9b360b2e979a12c1405b/EasyPage-0.0.8.tar.gz
+[2024-05-16 09:28:05] INFO root fetch - processPackages [sqlrepo]: New version: [1.5.0] Old Version: [1.4.2]
+[2024-05-16 09:28:05] INFO root fetch - processPackages [sqlrepo]: Downloading https://files.pythonhosted.org/packages/10/84/e46b2ca42b55580c2264f8085a4a22e1c1d2454310cda60f2d86c0b13084/sqlrepo-1.4.2.tar.gz
+[2024-05-16 09:28:05] INFO root fetch - processPackages [EasyPage]: Downloading https://files.pythonhosted.org/packages/fc/a3/ff1c2856462e317cec0a514ebbf42a0ba9dbcbf1502c5612a81f81449b8c/EasyPage-0.0.9.tar.gz
+[2024-05-16 09:28:05] INFO root fetch - processPackages [Joywata]: Downloading https://files.pythonhosted.org/packages/d0/d4/6d2e7f0690cc1eefc62ac9cee14234067f964d68fa14cbe002e84e10be44/Joywata-0.0.3.tar.gz
+[2024-05-16 09:28:05] INFO root fetch - processPackages [EasyPage]: executing diffoscope
+[2024-05-16 09:28:05] INFO root fetch - processPackages [EasyPage]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/EasyPage-0.0.8.tar.gz tmp/EasyPage-0.0.9.tar.gz --markdown 20240516/E/EasyPage/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-16 09:28:05] INFO root fetch - processPackages [Joywata]: executing diffoscope
+[2024-05-16 09:28:05] INFO root fetch - processPackages [Joywata]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Joywata-0.0.2.tar.gz tmp/Joywata-0.0.3.tar.gz --markdown 20240516/J/Joywata/0.0.2-0.0.3/README.md --exclude *.pyd
+[2024-05-16 09:28:05] INFO root fetch - processPackages [sqlrepo]: Downloading https://files.pythonhosted.org/packages/0e/e6/7f36f1d509fb87011162f79ed21ddf5774ec876be64c5801aea0f0aba448/sqlrepo-1.5.0.tar.gz
+[2024-05-16 09:28:06] INFO root fetch - processPackages [sqlrepo]: executing diffoscope
+[2024-05-16 09:28:06] INFO root fetch - processPackages [sqlrepo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sqlrepo-1.4.2.tar.gz tmp/sqlrepo-1.5.0.tar.gz --markdown 20240516/s/sqlrepo/1.4.2-1.5.0/README.md --exclude *.pyd
+[2024-05-16 09:28:06] INFO root fetch - processPackages [Joywata]: Remove: archive file [/home/abi/fetcher/tmp/Joywata-0.0.2.tar.gz]
+[2024-05-16 09:28:06] INFO root fetch - processPackages [Joywata]: Remove: archive file [/home/abi/fetcher/tmp/Joywata-0.0.3.tar.gz]
+[2024-05-16 09:28:06] INFO root fetch - main [MainThread]: End processing [Joywata]: success
+[2024-05-16 09:28:06] INFO root fetch - processPackages [EasyPage]: Remove: archive file [/home/abi/fetcher/tmp/EasyPage-0.0.8.tar.gz]
+[2024-05-16 09:28:06] INFO root fetch - processPackages [EasyPage]: Remove: archive file [/home/abi/fetcher/tmp/EasyPage-0.0.9.tar.gz]
+[2024-05-16 09:28:06] INFO root fetch - main [MainThread]: End processing [EasyPage]: success
+[2024-05-16 09:28:06] INFO root fetch - processPackages [sqlrepo]: Remove: archive file [/home/abi/fetcher/tmp/sqlrepo-1.4.2.tar.gz]
+[2024-05-16 09:28:06] INFO root fetch - processPackages [sqlrepo]: Remove: archive file [/home/abi/fetcher/tmp/sqlrepo-1.5.0.tar.gz]
+[2024-05-16 09:28:06] INFO root fetch - main [MainThread]: End processing [sqlrepo]: success
+[2024-05-16 09:28:06] INFO root fetch - main [MainThread]: Store serial: [23230634]
