@@ -10559,3 +10559,24 @@ EOFError: EOF read where object expected
 [2024-05-16 05:40:04] INFO root fetch - processPackages [pih-mio]: Remove: archive file [/home/abi/fetcher/tmp/pih-mio-0.29.8.tar.gz]
 [2024-05-16 05:40:04] INFO root fetch - main [MainThread]: End processing [pih-mio]: success
 [2024-05-16 05:40:04] INFO root fetch - main [MainThread]: Store serial: [23229122]
+[2024-05-16 05:42:08] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23229122]
+[2024-05-16 05:42:13] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-16 05:42:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: unionllm
+[2024-05-16 05:42:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: alibabacloud-ess20220222
+[2024-05-16 05:42:13] INFO root fetch - processPackages [unionllm]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-05-16 05:42:13] INFO root fetch - processPackages [alibabacloud-ess20220222]: New version: [1.6.0] Old Version: [1.5.2]
+[2024-05-16 05:42:13] INFO root fetch - processPackages [unionllm]: Downloading https://files.pythonhosted.org/packages/f3/26/2e31661d8c8a86ca4d9dbb15f12890a3adfee626b813541bbdc7eb9e4cfb/unionllm-0.1.0.tar.gz
+[2024-05-16 05:42:13] INFO root fetch - processPackages [alibabacloud-ess20220222]: Downloading https://files.pythonhosted.org/packages/ea/30/609ed16e7eb5f18899afcf2a6af7f7af9b2d4657b8f2ed09db08b651166e/alibabacloud_ess20220222-1.5.2.tar.gz
+[2024-05-16 05:42:13] INFO root fetch - processPackages [unionllm]: Downloading https://files.pythonhosted.org/packages/06/58/4994ca6f347d2610d2d8aef16bab57bbaba5cbf1b3fdc0bc739a85d237a7/unionllm-0.1.1.tar.gz
+[2024-05-16 05:42:13] INFO root fetch - processPackages [alibabacloud-ess20220222]: Downloading https://files.pythonhosted.org/packages/8d/6c/78c169d0e33450e3a75ae8cec9469ef87bd0d1322b929c2c568b707da601/alibabacloud_ess20220222-1.6.0.tar.gz
+[2024-05-16 05:42:13] INFO root fetch - processPackages [unionllm]: executing diffoscope
+[2024-05-16 05:42:13] INFO root fetch - processPackages [unionllm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/unionllm-0.1.0.tar.gz tmp/unionllm-0.1.1.tar.gz --markdown 20240516/u/unionllm/0.1.0-0.1.1/README.md --exclude *.pyd
+[2024-05-16 05:42:13] INFO root fetch - processPackages [alibabacloud-ess20220222]: executing diffoscope
+[2024-05-16 05:42:13] INFO root fetch - processPackages [alibabacloud-ess20220222]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alibabacloud_ess20220222-1.5.2.tar.gz tmp/alibabacloud_ess20220222-1.6.0.tar.gz --markdown 20240516/a/alibabacloud-ess20220222/1.5.2-1.6.0/README.md --exclude *.pyd
+[2024-05-16 05:42:14] INFO root fetch - processPackages [unionllm]: Remove: archive file [/home/abi/fetcher/tmp/unionllm-0.1.0.tar.gz]
+[2024-05-16 05:42:14] INFO root fetch - processPackages [unionllm]: Remove: archive file [/home/abi/fetcher/tmp/unionllm-0.1.1.tar.gz]
+[2024-05-16 05:42:14] INFO root fetch - main [MainThread]: End processing [unionllm]: success
+[2024-05-16 05:42:16] INFO root fetch - processPackages [alibabacloud-ess20220222]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_ess20220222-1.5.2.tar.gz]
+[2024-05-16 05:42:16] INFO root fetch - processPackages [alibabacloud-ess20220222]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_ess20220222-1.6.0.tar.gz]
+[2024-05-16 05:42:16] INFO root fetch - main [MainThread]: End processing [alibabacloud-ess20220222]: success
+[2024-05-16 05:42:16] INFO root fetch - main [MainThread]: Store serial: [23229128]
