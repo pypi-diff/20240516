@@ -11001,3 +11001,24 @@ EOFError: EOF read where object expected
 [2024-05-16 06:10:36] INFO root fetch - processPackages [dex-adaptors]: Remove: archive file [/home/abi/fetcher/tmp/dex-adaptors-0.0.3.tar.gz]
 [2024-05-16 06:10:36] INFO root fetch - main [MainThread]: End processing [dex-adaptors]: success
 [2024-05-16 06:10:36] INFO root fetch - main [MainThread]: Store serial: [23229283]
+[2024-05-16 06:12:40] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23229283]
+[2024-05-16 06:12:45] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-16 06:12:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: msiaLex
+[2024-05-16 06:12:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: teo
+[2024-05-16 06:12:45] INFO root fetch - processPackages [msiaLex]: New version: [0.3.9.9] Old Version: [0.3.9.8]
+[2024-05-16 06:12:45] INFO root fetch - processPackages [teo]: New version: [0.2.9] Old Version: [0.2.8]
+[2024-05-16 06:12:45] INFO root fetch - processPackages [msiaLex]: Downloading https://files.pythonhosted.org/packages/c5/ce/891c9069a87e6e6401dc74b8abd9f4657378677725c095b8245ac0128d25/msiaLex-0.3.9.8-py3-none-any.whl
+[2024-05-16 06:12:45] INFO root fetch - processPackages [teo]: Downloading https://files.pythonhosted.org/packages/b1/e9/d6c6c71d9ba363284528d0085e2537ab5241ca9c41177346095254276a2c/teo-0.2.8.tar.gz
+[2024-05-16 06:12:45] INFO root fetch - processPackages [msiaLex]: Downloading https://files.pythonhosted.org/packages/24/5a/f7bf90d29e041c7937e9376c760c2331d1ed81d7bfe7b0c72a7406ef0b0b/msiaLex-0.3.9.9-py3-none-any.whl
+[2024-05-16 06:12:46] INFO root fetch - processPackages [teo]: Downloading https://files.pythonhosted.org/packages/1a/6e/79fac05caa23b6f8d6325ce41b4c00733012f08b4aee6cd1b1d45c11bd0a/teo-0.2.9.tar.gz
+[2024-05-16 06:12:46] INFO root fetch - processPackages [msiaLex]: executing diffoscope
+[2024-05-16 06:12:46] INFO root fetch - processPackages [msiaLex]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/msiaLex-0.3.9.8-py3-none-any.whl.zip tmp/msiaLex-0.3.9.9-py3-none-any.whl.zip --markdown 20240516/m/msiaLex/0.3.9.8-0.3.9.9/README.md --exclude *.pyd
+[2024-05-16 06:12:46] INFO root fetch - processPackages [teo]: executing diffoscope
+[2024-05-16 06:12:46] INFO root fetch - processPackages [teo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/teo-0.2.8.tar.gz tmp/teo-0.2.9.tar.gz --markdown 20240516/t/teo/0.2.8-0.2.9/README.md --exclude *.pyd
+[2024-05-16 06:12:46] INFO root fetch - processPackages [msiaLex]: Remove: archive file [/home/abi/fetcher/tmp/msiaLex-0.3.9.8-py3-none-any.whl.zip]
+[2024-05-16 06:12:46] INFO root fetch - processPackages [msiaLex]: Remove: archive file [/home/abi/fetcher/tmp/msiaLex-0.3.9.9-py3-none-any.whl.zip]
+[2024-05-16 06:12:46] INFO root fetch - main [MainThread]: End processing [msiaLex]: success
+[2024-05-16 06:12:46] INFO root fetch - processPackages [teo]: Remove: archive file [/home/abi/fetcher/tmp/teo-0.2.8.tar.gz]
+[2024-05-16 06:12:46] INFO root fetch - processPackages [teo]: Remove: archive file [/home/abi/fetcher/tmp/teo-0.2.9.tar.gz]
+[2024-05-16 06:12:46] INFO root fetch - main [MainThread]: End processing [teo]: success
+[2024-05-16 06:12:46] INFO root fetch - main [MainThread]: Store serial: [23229294]
