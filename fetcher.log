@@ -8984,3 +8984,24 @@ EOFError: EOF read where object expected
 [2024-05-16 03:42:06] INFO root fetch - processPackages [jsepp]: Remove: archive file [/home/abi/fetcher/tmp/jsepp-0.1.8.tar.gz]
 [2024-05-16 03:42:06] INFO root fetch - main [MainThread]: End processing [jsepp]: success
 [2024-05-16 03:42:06] INFO root fetch - main [MainThread]: Store serial: [23228478]
+[2024-05-16 03:44:11] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23228478]
+[2024-05-16 03:44:16] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-16 03:44:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cocnc
+[2024-05-16 03:44:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ELSholdings
+[2024-05-16 03:44:16] INFO root fetch - processPackages [ELSholdings]: New version: [2.2.1] Old Version: [2.2.0]
+[2024-05-16 03:44:16] INFO root fetch - processPackages [cocnc]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-05-16 03:44:16] INFO root fetch - processPackages [ELSholdings]: Downloading https://files.pythonhosted.org/packages/c4/7c/c9dc9b727e76585d9f89b0780080ac8763b31da929d6b3f90709a70c7725/elsholdings-2.2.0.tar.gz
+[2024-05-16 03:44:16] INFO root fetch - processPackages [cocnc]: Downloading https://files.pythonhosted.org/packages/6f/23/a031f9a35e6f50c355d50c64ac98c9e8fdb944bc89ca3ca89bf7437232a5/cocnc-0.1.0.tar.gz
+[2024-05-16 03:44:17] INFO root fetch - processPackages [ELSholdings]: Downloading https://files.pythonhosted.org/packages/28/83/b4e4100e5007bb16946c0bf43c2a8db6169281ee0e72c31dc72dc817d6f2/elsholdings-2.2.1.tar.gz
+[2024-05-16 03:44:17] INFO root fetch - processPackages [cocnc]: Downloading https://files.pythonhosted.org/packages/25/c8/2f46d203baa722fee5766166f9bdc2b8b4eca0fca8475e2d134c59148186/cocnc-0.1.1.tar.gz
+[2024-05-16 03:44:17] INFO root fetch - processPackages [ELSholdings]: executing diffoscope
+[2024-05-16 03:44:17] INFO root fetch - processPackages [ELSholdings]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/elsholdings-2.2.0.tar.gz tmp/elsholdings-2.2.1.tar.gz --markdown 20240516/E/ELSholdings/2.2.0-2.2.1/README.md --exclude *.pyd
+[2024-05-16 03:44:17] INFO root fetch - processPackages [cocnc]: executing diffoscope
+[2024-05-16 03:44:17] INFO root fetch - processPackages [cocnc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cocnc-0.1.0.tar.gz tmp/cocnc-0.1.1.tar.gz --markdown 20240516/c/cocnc/0.1.0-0.1.1/README.md --exclude *.pyd
+[2024-05-16 03:44:17] INFO root fetch - processPackages [ELSholdings]: Remove: archive file [/home/abi/fetcher/tmp/elsholdings-2.2.0.tar.gz]
+[2024-05-16 03:44:17] INFO root fetch - processPackages [ELSholdings]: Remove: archive file [/home/abi/fetcher/tmp/elsholdings-2.2.1.tar.gz]
+[2024-05-16 03:44:17] INFO root fetch - main [MainThread]: End processing [ELSholdings]: success
+[2024-05-16 03:44:18] INFO root fetch - processPackages [cocnc]: Remove: archive file [/home/abi/fetcher/tmp/cocnc-0.1.0.tar.gz]
+[2024-05-16 03:44:18] INFO root fetch - processPackages [cocnc]: Remove: archive file [/home/abi/fetcher/tmp/cocnc-0.1.1.tar.gz]
+[2024-05-16 03:44:18] INFO root fetch - main [MainThread]: End processing [cocnc]: success
+[2024-05-16 03:44:18] INFO root fetch - main [MainThread]: Store serial: [23228485]
