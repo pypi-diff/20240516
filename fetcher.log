@@ -14123,3 +14123,90 @@ EOFError: EOF read where object expected
 [2024-05-16 09:19:19] INFO root fetch - processPackages [collate-sqllineage]: Remove: archive file [/home/abi/fetcher/tmp/collate_sqllineage-1.4.0.tar.gz]
 [2024-05-16 09:19:19] INFO root fetch - main [MainThread]: End processing [collate-sqllineage]: success
 [2024-05-16 09:19:19] INFO root fetch - main [MainThread]: Store serial: [23230563]
+[2024-05-16 09:21:23] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23230563]
+[2024-05-16 09:21:28] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2024-05-16 09:21:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: odoo-addon-rma
+[2024-05-16 09:21:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: saes6-jerry
+[2024-05-16 09:21:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: geotifflib
+[2024-05-16 09:21:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: uk-bin-collection
+[2024-05-16 09:21:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: dapla-toolbelt-pseudo
+[2024-05-16 09:21:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: OctoBot-Trading
+[2024-05-16 09:21:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: xfastertransformer-icx
+[2024-05-16 09:21:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: EasyPage
+[2024-05-16 09:21:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: netlink-sharepoint-base
+[2024-05-16 09:21:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: eurmlsdk
+[2024-05-16 09:21:28] INFO root fetch - processPackages [saes6-jerry]: New version: [0.1.1] Old Version: [0.0.9]
+[2024-05-16 09:21:28] INFO root fetch - processPackages [netlink-sharepoint-base]: New version: [0.0.7] Old Version: [0.0.6]
+[2024-05-16 09:21:28] INFO root fetch - processPackages [EasyPage]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-16 09:21:28] INFO root fetch - processPackages [odoo-addon-rma]: New version: [17.0.1.0.0.3] Old Version: [17.0.1.0.0.2]
+[2024-05-16 09:21:28] INFO root fetch - processPackages [geotifflib]: New version: [0.0.3] Old Version: [0.0.2]
+[2024-05-16 09:21:28] INFO root fetch - processPackages [eurmlsdk]: New version: [0.0.901] Old Version: [0.0.90]
+[2024-05-16 09:21:28] WARNING root fetch - processPackages [xfastertransformer-icx]: Skipping, unable to determine old version
+[2024-05-16 09:21:28] INFO root fetch - main [MainThread]: End processing [xfastertransformer-icx] error
+[2024-05-16 09:21:28] INFO root fetch - processPackages [uk-bin-collection]: New version: [0.9.0] Old Version: [0.8.0]
+[2024-05-16 09:21:28] INFO root fetch - processPackages [OctoBot-Trading]: New version: [2.4.9] Old Version: [2.4.82]
+[2024-05-16 09:21:28] INFO root fetch - processPackages [saes6-jerry]: Downloading https://files.pythonhosted.org/packages/3d/fa/f060aeb0eb6de108545bf7746fa5bfc0c2916359802d8eea58819b21fd4d/saes6-jerry-0.0.9.tar.gz
+[2024-05-16 09:21:28] INFO root fetch - processPackages [dapla-toolbelt-pseudo]: New version: [2.0.0] Old Version: [1.8.6]
+[2024-05-16 09:21:28] INFO root fetch - processPackages [geotifflib]: Downloading https://files.pythonhosted.org/packages/a3/15/1f5bcd75287b15282ec452f4f81934880e38a99a15ad3cb91bb04de72d7e/geotifflib-0.0.2.tar.gz
+[2024-05-16 09:21:28] INFO root fetch - processPackages [EasyPage]: Downloading https://files.pythonhosted.org/packages/3f/c1/4134326382533ff7c11d88ba7830b6122f32cbed9b360b2e979a12c1405b/EasyPage-0.0.8.tar.gz
+[2024-05-16 09:21:28] INFO root fetch - processPackages [eurmlsdk]: Downloading https://files.pythonhosted.org/packages/f9/92/f78ad4ae323163e5258194957b5032f932b2b9acf42d1bb275aa055131b7/eurmlsdk-0.0.90.tar.gz
+[2024-05-16 09:21:28] INFO root fetch - processPackages [odoo-addon-rma]: Downloading https://files.pythonhosted.org/packages/9e/66/7cc9cfcb394c21e75162287e62a93ac085a06c5c7b659eca30133be20e0f/odoo_addon_rma-17.0.1.0.0.2-py3-none-any.whl
+[2024-05-16 09:21:29] INFO root fetch - processPackages [netlink-sharepoint-base]: Downloading https://files.pythonhosted.org/packages/50/ec/615c88e41e7aa975f008471ec0f072497998453f6b58db629320d0f02034/netlink-sharepoint-base-0.0.6.tar.gz
+[2024-05-16 09:21:29] INFO root fetch - processPackages [OctoBot-Trading]: Downloading https://files.pythonhosted.org/packages/7a/13/608ffc80ab4dc3b299aa7f6a0d088de40146975bb2d126e36cecd465fc28/OctoBot-Trading-2.4.82.tar.gz
+[2024-05-16 09:21:29] INFO root fetch - processPackages [uk-bin-collection]: Downloading https://files.pythonhosted.org/packages/f6/3c/e25a4eb0a28d67a6748fdb9acd0380565c1585a1ff833d282a9d2acc90a1/uk_bin_collection-0.8.0.tar.gz
+[2024-05-16 09:21:29] INFO root fetch - processPackages [dapla-toolbelt-pseudo]: Downloading https://files.pythonhosted.org/packages/89/96/b3d22ca0c49ea75f33ffee6d03b14074ef5b662b283d62fa67614dbc2b21/dapla_toolbelt_pseudo-1.8.6.tar.gz
+[2024-05-16 09:21:29] INFO root fetch - processPackages [eurmlsdk]: Downloading https://files.pythonhosted.org/packages/88/4b/fa0097aa9a2c6564ec7917fb0dcb3178acec02c8b1a5e37806d3aca3b4f9/eurmlsdk-0.0.901.tar.gz
+[2024-05-16 09:21:29] INFO root fetch - processPackages [saes6-jerry]: Downloading https://files.pythonhosted.org/packages/55/30/2ec17b5c89459fbd10107cc9fbb4c537ac38d470d6ff66c4e5da2235d427/saes6_jerry-0.1.1.tar.gz
+[2024-05-16 09:21:29] INFO root fetch - processPackages [odoo-addon-rma]: Downloading https://files.pythonhosted.org/packages/2c/39/1c18d923dbe9f73becad305d4d8426713535765c6d1318e75456caf777a7/odoo_addon_rma-17.0.1.0.0.3-py3-none-any.whl
+[2024-05-16 09:21:29] INFO root fetch - processPackages [EasyPage]: Downloading https://files.pythonhosted.org/packages/fc/a3/ff1c2856462e317cec0a514ebbf42a0ba9dbcbf1502c5612a81f81449b8c/EasyPage-0.0.9.tar.gz
+[2024-05-16 09:21:29] INFO root fetch - processPackages [geotifflib]: Downloading https://files.pythonhosted.org/packages/f0/4c/e91b31e1d1ddb010956d67531919732bf76e59771f920d82a69ff349a1ab/geotifflib-0.0.3.tar.gz
+[2024-05-16 09:21:29] INFO root fetch - processPackages [eurmlsdk]: executing diffoscope
+[2024-05-16 09:21:29] INFO root fetch - processPackages [eurmlsdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eurmlsdk-0.0.90.tar.gz tmp/eurmlsdk-0.0.901.tar.gz --markdown 20240516/e/eurmlsdk/0.0.90-0.0.901/README.md --exclude *.pyd
+[2024-05-16 09:21:29] INFO root fetch - processPackages [saes6-jerry]: executing diffoscope
+[2024-05-16 09:21:29] INFO root fetch - processPackages [saes6-jerry]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/saes6-jerry-0.0.9.tar.gz tmp/saes6_jerry-0.1.1.tar.gz --markdown 20240516/s/saes6-jerry/0.0.9-0.1.1/README.md --exclude *.pyd
+[2024-05-16 09:21:29] INFO root fetch - processPackages [netlink-sharepoint-base]: Downloading https://files.pythonhosted.org/packages/65/8f/474e3c92aba15964634e8400f21c9ccbe5a554acd46325ed5499cb168894/netlink-sharepoint-base-0.0.7.tar.gz
+[2024-05-16 09:21:29] INFO root fetch - processPackages [uk-bin-collection]: Downloading https://files.pythonhosted.org/packages/55/0e/a2cb2057f203540273a20c67ef245d13d61a542934302f0475c939494a96/uk_bin_collection-0.9.0.tar.gz
+[2024-05-16 09:21:29] INFO root fetch - processPackages [EasyPage]: executing diffoscope
+[2024-05-16 09:21:29] INFO root fetch - processPackages [EasyPage]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/EasyPage-0.0.8.tar.gz tmp/EasyPage-0.0.9.tar.gz --markdown 20240516/E/EasyPage/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-16 09:21:29] INFO root fetch - processPackages [geotifflib]: executing diffoscope
+[2024-05-16 09:21:29] INFO root fetch - processPackages [geotifflib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/geotifflib-0.0.2.tar.gz tmp/geotifflib-0.0.3.tar.gz --markdown 20240516/g/geotifflib/0.0.2-0.0.3/README.md --exclude *.pyd
+[2024-05-16 09:21:29] INFO root fetch - processPackages [odoo-addon-rma]: executing diffoscope
+[2024-05-16 09:21:29] INFO root fetch - processPackages [dapla-toolbelt-pseudo]: Downloading https://files.pythonhosted.org/packages/5b/9e/b41c444bcf16acd5e5ceaa86ecad9715bc0e150057294d3ff0e533a58afa/dapla_toolbelt_pseudo-2.0.0.tar.gz
+[2024-05-16 09:21:29] INFO root fetch - processPackages [odoo-addon-rma]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_rma-17.0.1.0.0.2-py3-none-any.whl.zip tmp/odoo_addon_rma-17.0.1.0.0.3-py3-none-any.whl.zip --markdown 20240516/o/odoo-addon-rma/17.0.1.0.0.2-17.0.1.0.0.3/README.md --exclude *.pyd
+[2024-05-16 09:21:29] INFO root fetch - processPackages [OctoBot-Trading]: Downloading https://files.pythonhosted.org/packages/77/bc/ecdb68086de1f382830bf4a54be7e64fdcf11183cbc9e6485fe1c829615e/OctoBot-Trading-2.4.9.tar.gz
+[2024-05-16 09:21:29] INFO root fetch - processPackages [uk-bin-collection]: executing diffoscope
+[2024-05-16 09:21:29] INFO root fetch - processPackages [uk-bin-collection]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/uk_bin_collection-0.8.0.tar.gz tmp/uk_bin_collection-0.9.0.tar.gz --markdown 20240516/u/uk-bin-collection/0.8.0-0.9.0/README.md --exclude *.pyd
+[2024-05-16 09:21:29] INFO root fetch - processPackages [netlink-sharepoint-base]: executing diffoscope
+[2024-05-16 09:21:29] INFO root fetch - processPackages [netlink-sharepoint-base]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/netlink-sharepoint-base-0.0.6.tar.gz tmp/netlink-sharepoint-base-0.0.7.tar.gz --markdown 20240516/n/netlink-sharepoint-base/0.0.6-0.0.7/README.md --exclude *.pyd
+[2024-05-16 09:21:29] INFO root fetch - processPackages [dapla-toolbelt-pseudo]: executing diffoscope
+[2024-05-16 09:21:29] INFO root fetch - processPackages [dapla-toolbelt-pseudo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dapla_toolbelt_pseudo-1.8.6.tar.gz tmp/dapla_toolbelt_pseudo-2.0.0.tar.gz --markdown 20240516/d/dapla-toolbelt-pseudo/1.8.6-2.0.0/README.md --exclude *.pyd
+[2024-05-16 09:21:29] INFO root fetch - processPackages [OctoBot-Trading]: executing diffoscope
+[2024-05-16 09:21:29] INFO root fetch - processPackages [OctoBot-Trading]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/OctoBot-Trading-2.4.82.tar.gz tmp/OctoBot-Trading-2.4.9.tar.gz --markdown 20240516/O/OctoBot-Trading/2.4.82-2.4.9/README.md --exclude *.pyd
+[2024-05-16 09:21:30] INFO root fetch - processPackages [eurmlsdk]: Remove: archive file [/home/abi/fetcher/tmp/eurmlsdk-0.0.90.tar.gz]
+[2024-05-16 09:21:30] INFO root fetch - processPackages [eurmlsdk]: Remove: archive file [/home/abi/fetcher/tmp/eurmlsdk-0.0.901.tar.gz]
+[2024-05-16 09:21:30] INFO root fetch - main [MainThread]: End processing [eurmlsdk]: success
+[2024-05-16 09:21:30] INFO root fetch - processPackages [geotifflib]: Remove: archive file [/home/abi/fetcher/tmp/geotifflib-0.0.2.tar.gz]
+[2024-05-16 09:21:30] INFO root fetch - processPackages [geotifflib]: Remove: archive file [/home/abi/fetcher/tmp/geotifflib-0.0.3.tar.gz]
+[2024-05-16 09:21:30] INFO root fetch - main [MainThread]: End processing [geotifflib]: success
+[2024-05-16 09:21:30] INFO root fetch - processPackages [saes6-jerry]: Remove: archive file [/home/abi/fetcher/tmp/saes6-jerry-0.0.9.tar.gz]
+[2024-05-16 09:21:30] INFO root fetch - processPackages [saes6-jerry]: Remove: archive file [/home/abi/fetcher/tmp/saes6_jerry-0.1.1.tar.gz]
+[2024-05-16 09:21:30] INFO root fetch - main [MainThread]: End processing [saes6-jerry]: success
+[2024-05-16 09:21:30] INFO root fetch - processPackages [netlink-sharepoint-base]: Remove: archive file [/home/abi/fetcher/tmp/netlink-sharepoint-base-0.0.6.tar.gz]
+[2024-05-16 09:21:30] INFO root fetch - processPackages [netlink-sharepoint-base]: Remove: archive file [/home/abi/fetcher/tmp/netlink-sharepoint-base-0.0.7.tar.gz]
+[2024-05-16 09:21:30] INFO root fetch - main [MainThread]: End processing [netlink-sharepoint-base]: success
+[2024-05-16 09:21:30] INFO root fetch - processPackages [EasyPage]: Remove: archive file [/home/abi/fetcher/tmp/EasyPage-0.0.8.tar.gz]
+[2024-05-16 09:21:30] INFO root fetch - processPackages [EasyPage]: Remove: archive file [/home/abi/fetcher/tmp/EasyPage-0.0.9.tar.gz]
+[2024-05-16 09:21:30] INFO root fetch - main [MainThread]: End processing [EasyPage]: success
+[2024-05-16 09:21:30] INFO root fetch - processPackages [dapla-toolbelt-pseudo]: Remove: archive file [/home/abi/fetcher/tmp/dapla_toolbelt_pseudo-1.8.6.tar.gz]
+[2024-05-16 09:21:30] INFO root fetch - processPackages [dapla-toolbelt-pseudo]: Remove: archive file [/home/abi/fetcher/tmp/dapla_toolbelt_pseudo-2.0.0.tar.gz]
+[2024-05-16 09:21:30] INFO root fetch - main [MainThread]: End processing [dapla-toolbelt-pseudo]: success
+[2024-05-16 09:21:31] INFO root fetch - processPackages [uk-bin-collection]: Remove: archive file [/home/abi/fetcher/tmp/uk_bin_collection-0.8.0.tar.gz]
+[2024-05-16 09:21:31] INFO root fetch - processPackages [uk-bin-collection]: Remove: archive file [/home/abi/fetcher/tmp/uk_bin_collection-0.9.0.tar.gz]
+[2024-05-16 09:21:31] INFO root fetch - main [MainThread]: End processing [uk-bin-collection]: success
+[2024-05-16 09:21:31] INFO root fetch - processPackages [odoo-addon-rma]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_rma-17.0.1.0.0.2-py3-none-any.whl.zip]
+[2024-05-16 09:21:31] INFO root fetch - processPackages [odoo-addon-rma]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_rma-17.0.1.0.0.3-py3-none-any.whl.zip]
+[2024-05-16 09:21:31] INFO root fetch - main [MainThread]: End processing [odoo-addon-rma]: success
+[2024-05-16 09:21:33] INFO root fetch - processPackages [OctoBot-Trading]: Remove: archive file [/home/abi/fetcher/tmp/OctoBot-Trading-2.4.82.tar.gz]
+[2024-05-16 09:21:33] INFO root fetch - processPackages [OctoBot-Trading]: Remove: archive file [/home/abi/fetcher/tmp/OctoBot-Trading-2.4.9.tar.gz]
+[2024-05-16 09:21:33] INFO root fetch - main [MainThread]: End processing [OctoBot-Trading]: success
+[2024-05-16 09:21:33] INFO root fetch - main [MainThread]: Store serial: [23230593]
