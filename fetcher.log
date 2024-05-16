@@ -10877,3 +10877,35 @@ EOFError: EOF read where object expected
 [2024-05-16 05:59:45] INFO root fetch - processPackages [twstock]: Remove: archive file [/home/abi/fetcher/tmp/twstock-1.4.0.tar.gz]
 [2024-05-16 05:59:45] INFO root fetch - main [MainThread]: End processing [twstock]: success
 [2024-05-16 05:59:45] INFO root fetch - main [MainThread]: Store serial: [23229231]
+[2024-05-16 06:01:50] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23229231]
+[2024-05-16 06:01:55] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-16 06:01:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: odoo-addon-ddmrp
+[2024-05-16 06:01:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: circt
+[2024-05-16 06:01:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: postmark-template-translate
+[2024-05-16 06:01:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: django-pint-field
+[2024-05-16 06:01:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: warranted-python
+[2024-05-16 06:01:55] WARNING root fetch - processPackages [postmark-template-translate]: Skipping, unable to determine old version
+[2024-05-16 06:01:55] INFO root fetch - main [MainThread]: End processing [postmark-template-translate] error
+[2024-05-16 06:01:55] WARNING root fetch - processPackages [warranted-python]: Skipping, unable to determine old version
+[2024-05-16 06:01:55] INFO root fetch - main [MainThread]: End processing [warranted-python] error
+[2024-05-16 06:01:55] INFO root fetch - processPackages [django-pint-field]: New version: [0.3.5] Old Version: [0.3.4]
+[2024-05-16 06:01:55] INFO root fetch - processPackages [circt]: New version: [1.75.0] Old Version: [1.74.0]
+[2024-05-16 06:01:55] INFO root fetch - processPackages [odoo-addon-ddmrp]: New version: [16.0.1.8.1.2] Old Version: [16.0.1.8.1.1]
+[2024-05-16 06:01:55] INFO root fetch - processPackages [django-pint-field]: Downloading https://files.pythonhosted.org/packages/1d/8c/4a1091fc125a650d0417f73004c653b2166881b49aa9bffcfd959575bd95/django_pint_field-0.3.4.tar.gz
+[2024-05-16 06:01:55] INFO root fetch - processPackages [odoo-addon-ddmrp]: Downloading https://files.pythonhosted.org/packages/4b/37/b5a84e1c452d64781dcbafff541d3a16383c50204bd38f5bd37ac7864aa0/odoo_addon_ddmrp-16.0.1.8.1.1-py3-none-any.whl
+[2024-05-16 06:01:55] INFO root fetch - processPackages [circt]: Downloading https://files.pythonhosted.org/packages/c5/5b/e196a9a80b9d47d16cc960d8b3a95f45a452c484fe72dbf279f399dcde0e/circt-1.74.0-cp38-cp38-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2024-05-16 06:01:55] WARNING root fetch - processPackages [circt]: Skipping package: exceeds size limit 18168265>=10485760
+[2024-05-16 06:01:55] INFO root fetch - main [MainThread]: End processing [circt] error
+[2024-05-16 06:01:55] INFO root fetch - processPackages [django-pint-field]: Downloading https://files.pythonhosted.org/packages/1a/6a/6e9b1835b81e77eb36036515d1e6caaa45b91744e8e00281117d7bcfbe04/django_pint_field-0.3.5.tar.gz
+[2024-05-16 06:01:56] INFO root fetch - processPackages [odoo-addon-ddmrp]: Downloading https://files.pythonhosted.org/packages/23/70/ccee6c320dbde853ca9eb49f2074aad13c0988ab66be16e000184a7cced1/odoo_addon_ddmrp-16.0.1.8.1.2-py3-none-any.whl
+[2024-05-16 06:01:56] INFO root fetch - processPackages [django-pint-field]: executing diffoscope
+[2024-05-16 06:01:56] INFO root fetch - processPackages [django-pint-field]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django_pint_field-0.3.4.tar.gz tmp/django_pint_field-0.3.5.tar.gz --markdown 20240516/d/django-pint-field/0.3.4-0.3.5/README.md --exclude *.pyd
+[2024-05-16 06:01:56] INFO root fetch - processPackages [odoo-addon-ddmrp]: executing diffoscope
+[2024-05-16 06:01:56] INFO root fetch - processPackages [odoo-addon-ddmrp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_ddmrp-16.0.1.8.1.1-py3-none-any.whl.zip tmp/odoo_addon_ddmrp-16.0.1.8.1.2-py3-none-any.whl.zip --markdown 20240516/o/odoo-addon-ddmrp/16.0.1.8.1.1-16.0.1.8.1.2/README.md --exclude *.pyd
+[2024-05-16 06:01:56] INFO root fetch - processPackages [django-pint-field]: Remove: archive file [/home/abi/fetcher/tmp/django_pint_field-0.3.4.tar.gz]
+[2024-05-16 06:01:56] INFO root fetch - processPackages [django-pint-field]: Remove: archive file [/home/abi/fetcher/tmp/django_pint_field-0.3.5.tar.gz]
+[2024-05-16 06:01:56] INFO root fetch - main [MainThread]: End processing [django-pint-field]: success
+[2024-05-16 06:01:56] INFO root fetch - processPackages [odoo-addon-ddmrp]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_ddmrp-16.0.1.8.1.1-py3-none-any.whl.zip]
+[2024-05-16 06:01:56] INFO root fetch - processPackages [odoo-addon-ddmrp]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_ddmrp-16.0.1.8.1.2-py3-none-any.whl.zip]
+[2024-05-16 06:01:56] INFO root fetch - main [MainThread]: End processing [odoo-addon-ddmrp]: success
+[2024-05-16 06:01:56] INFO root fetch - main [MainThread]: Store serial: [23229247]
