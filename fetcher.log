@@ -11225,3 +11225,9 @@ EOFError: EOF read where object expected
 [2024-05-16 06:30:14] INFO root fetch - processPackages [litellm]: Remove: archive file [/home/abi/fetcher/tmp/litellm-1.9.dev0.tar.gz]
 [2024-05-16 06:30:14] INFO root fetch - main [MainThread]: End processing [litellm]: success
 [2024-05-16 06:30:14] INFO root fetch - main [MainThread]: Store serial: [23229389]
+[2024-05-16 06:32:18] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23229389]
+[2024-05-16 06:32:23] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-05-16 06:32:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ensure-packages
+[2024-05-16 06:32:23] WARNING root fetch - processPackages [ensure-packages]: Skipping, unable to determine old version
+[2024-05-16 06:32:23] INFO root fetch - main [MainThread]: End processing [ensure-packages] error
+[2024-05-16 06:32:23] INFO root fetch - main [MainThread]: Store serial: [23229392]
