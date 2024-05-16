@@ -11415,3 +11415,47 @@ EOFError: EOF read where object expected
 [2024-05-16 06:49:39] INFO root fetch - processPackages [lprocess]: Remove: archive file [/home/abi/fetcher/tmp/lprocess-0.0.9.tar.gz]
 [2024-05-16 06:49:39] INFO root fetch - main [MainThread]: End processing [lprocess]: success
 [2024-05-16 06:49:39] INFO root fetch - main [MainThread]: Store serial: [23229467]
+[2024-05-16 06:51:43] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23229467]
+[2024-05-16 06:51:48] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-16 06:51:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ELSholdings
+[2024-05-16 06:51:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: espresso-machine
+[2024-05-16 06:51:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: py-dbchat
+[2024-05-16 06:51:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ezkl-gpu
+[2024-05-16 06:51:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: quickstart-vdk
+[2024-05-16 06:51:48] INFO root fetch - processPackages [espresso-machine]: New version: [0.0.115] Old Version: [0.0.114]
+[2024-05-16 06:51:48] INFO root fetch - processPackages [ELSholdings]: New version: [2.2.3] Old Version: [2.2.2]
+[2024-05-16 06:51:48] INFO root fetch - processPackages [espresso-machine]: Downloading https://files.pythonhosted.org/packages/d9/94/a23648c9ead83458e01f03f9d923578c588c1083ea6e2d1123f4a8ec3637/espresso_machine-0.0.114.tar.gz
+[2024-05-16 06:51:48] INFO root fetch - processPackages [ELSholdings]: Downloading https://files.pythonhosted.org/packages/bb/98/783b1bf85446db5c74d41891f718ba882cfd0525a0f866841e339afe2032/elsholdings-2.2.2.tar.gz
+[2024-05-16 06:51:48] INFO root fetch - processPackages [ezkl-gpu]: New version: [9.5.0] Old Version: [9.4.4]
+[2024-05-16 06:51:48] INFO root fetch - processPackages [quickstart-vdk]: New version: [0.2.999091100.dev13356] Old Version: [0.2.998635022.dev13355]
+[2024-05-16 06:51:48] INFO root fetch - processPackages [py-dbchat]: New version: [0.0.2rc99.post1] Old Version: [0.0.2rc98.post1]
+[2024-05-16 06:51:48] INFO root fetch - processPackages [ezkl-gpu]: Downloading https://files.pythonhosted.org/packages/0a/7a/6ba1898c5763102473f591d6c6deb50cc26c158d75e30ca3759eca1e6b05/ezkl_gpu-9.4.4-cp37-abi3-manylinux_2_35_x86_64.whl
+[2024-05-16 06:51:48] INFO root fetch - processPackages [py-dbchat]: Downloading https://files.pythonhosted.org/packages/f6/18/1775d2217b34cf20972da457954b07826f8eee83addaf30cb9f9e56acda7/py_dbchat-0.0.2rc98.post1.tar.gz
+[2024-05-16 06:51:48] INFO root fetch - processPackages [quickstart-vdk]: Downloading https://files.pythonhosted.org/packages/e3/a6/b7424a3be777980068df32f41ef9085422b79289fef725cba5cabf2b502e/quickstart-vdk-0.2.998635022.dev13355.tar.gz
+[2024-05-16 06:51:48] WARNING root fetch - processPackages [ezkl-gpu]: Skipping package: exceeds size limit 60535856>=10485760
+[2024-05-16 06:51:48] INFO root fetch - main [MainThread]: End processing [ezkl-gpu] error
+[2024-05-16 06:51:48] INFO root fetch - processPackages [ELSholdings]: Downloading https://files.pythonhosted.org/packages/92/31/f5e8e1356a86325cceb2794ac3b8234fd5fec6921e85b7e588cc840de093/elsholdings-2.2.3.tar.gz
+[2024-05-16 06:51:48] INFO root fetch - processPackages [ELSholdings]: executing diffoscope
+[2024-05-16 06:51:48] INFO root fetch - processPackages [ELSholdings]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/elsholdings-2.2.2.tar.gz tmp/elsholdings-2.2.3.tar.gz --markdown 20240516/E/ELSholdings/2.2.2-2.2.3/README.md --exclude *.pyd
+[2024-05-16 06:51:48] INFO root fetch - processPackages [espresso-machine]: Downloading https://files.pythonhosted.org/packages/e8/bd/d9cec952bd5d704c7f234825721b3f5f79de5fbb6f17c91555b579e94563/espresso_machine-0.0.115.tar.gz
+[2024-05-16 06:51:48] INFO root fetch - processPackages [quickstart-vdk]: Downloading https://files.pythonhosted.org/packages/fa/72/2a48eb94b876fa0c01eda0450a3e80c80101dd5fdfe10124d5474b64f5fd/quickstart-vdk-0.2.999091100.dev13356.tar.gz
+[2024-05-16 06:51:49] INFO root fetch - processPackages [py-dbchat]: Downloading https://files.pythonhosted.org/packages/73/d9/44b1e50b7a7349a8172af36226caa9ddf526c5c91c863ce32643ae416507/py_dbchat-0.0.2rc99.post1.tar.gz
+[2024-05-16 06:51:49] INFO root fetch - processPackages [espresso-machine]: executing diffoscope
+[2024-05-16 06:51:49] INFO root fetch - processPackages [espresso-machine]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/espresso_machine-0.0.114.tar.gz tmp/espresso_machine-0.0.115.tar.gz --markdown 20240516/e/espresso-machine/0.0.114-0.0.115/README.md --exclude *.pyd
+[2024-05-16 06:51:49] INFO root fetch - processPackages [py-dbchat]: executing diffoscope
+[2024-05-16 06:51:49] INFO root fetch - processPackages [py-dbchat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py_dbchat-0.0.2rc98.post1.tar.gz tmp/py_dbchat-0.0.2rc99.post1.tar.gz --markdown 20240516/p/py-dbchat/0.0.2rc98.post1-0.0.2rc99.post1/README.md --exclude *.pyd
+[2024-05-16 06:51:49] INFO root fetch - processPackages [quickstart-vdk]: executing diffoscope
+[2024-05-16 06:51:49] INFO root fetch - processPackages [quickstart-vdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quickstart-vdk-0.2.998635022.dev13355.tar.gz tmp/quickstart-vdk-0.2.999091100.dev13356.tar.gz --markdown 20240516/q/quickstart-vdk/0.2.998635022.dev13355-0.2.999091100.dev13356/README.md --exclude *.pyd
+[2024-05-16 06:51:49] INFO root fetch - processPackages [ELSholdings]: Remove: archive file [/home/abi/fetcher/tmp/elsholdings-2.2.2.tar.gz]
+[2024-05-16 06:51:49] INFO root fetch - processPackages [ELSholdings]: Remove: archive file [/home/abi/fetcher/tmp/elsholdings-2.2.3.tar.gz]
+[2024-05-16 06:51:49] INFO root fetch - main [MainThread]: End processing [ELSholdings]: success
+[2024-05-16 06:51:49] INFO root fetch - processPackages [quickstart-vdk]: Remove: archive file [/home/abi/fetcher/tmp/quickstart-vdk-0.2.998635022.dev13355.tar.gz]
+[2024-05-16 06:51:49] INFO root fetch - processPackages [quickstart-vdk]: Remove: archive file [/home/abi/fetcher/tmp/quickstart-vdk-0.2.999091100.dev13356.tar.gz]
+[2024-05-16 06:51:49] INFO root fetch - main [MainThread]: End processing [quickstart-vdk]: success
+[2024-05-16 06:51:50] INFO root fetch - processPackages [py-dbchat]: Remove: archive file [/home/abi/fetcher/tmp/py_dbchat-0.0.2rc98.post1.tar.gz]
+[2024-05-16 06:51:50] INFO root fetch - processPackages [py-dbchat]: Remove: archive file [/home/abi/fetcher/tmp/py_dbchat-0.0.2rc99.post1.tar.gz]
+[2024-05-16 06:51:50] INFO root fetch - main [MainThread]: End processing [py-dbchat]: success
+[2024-05-16 06:51:50] INFO root fetch - processPackages [espresso-machine]: Remove: archive file [/home/abi/fetcher/tmp/espresso_machine-0.0.114.tar.gz]
+[2024-05-16 06:51:50] INFO root fetch - processPackages [espresso-machine]: Remove: archive file [/home/abi/fetcher/tmp/espresso_machine-0.0.115.tar.gz]
+[2024-05-16 06:51:50] INFO root fetch - main [MainThread]: End processing [espresso-machine]: success
+[2024-05-16 06:51:50] INFO root fetch - main [MainThread]: Store serial: [23229480]
