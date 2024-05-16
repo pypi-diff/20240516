@@ -10358,3 +10358,15 @@ EOFError: EOF read where object expected
 [2024-05-16 05:22:36] INFO root fetch - processPackages [keras-nightly]: Remove: archive file [/home/abi/fetcher/tmp/keras_nightly-3.3.3.dev2024051503.tar.gz]
 [2024-05-16 05:22:36] INFO root fetch - main [MainThread]: End processing [keras-nightly]: success
 [2024-05-16 05:22:36] INFO root fetch - main [MainThread]: Store serial: [23229037]
+[2024-05-16 05:24:40] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23229037]
+[2024-05-16 05:24:45] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-05-16 05:24:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: vesselasid
+[2024-05-16 05:24:45] INFO root fetch - processPackages [vesselasid]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-05-16 05:24:45] INFO root fetch - processPackages [vesselasid]: Downloading https://files.pythonhosted.org/packages/a2/14/baf06cb7af9f5a80ebfeb8f960dbb13c70196f61bd5759c357fe5dacd0ea/vesselasid-1.0.8.tar.gz
+[2024-05-16 05:24:45] INFO root fetch - processPackages [vesselasid]: Downloading https://files.pythonhosted.org/packages/81/b5/ae62f72cdc101114a8434c7f5b8a6946677975c20649428b068f8f9f1afc/vesselasid-1.0.9.tar.gz
+[2024-05-16 05:24:45] INFO root fetch - processPackages [vesselasid]: executing diffoscope
+[2024-05-16 05:24:45] INFO root fetch - processPackages [vesselasid]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vesselasid-1.0.8.tar.gz tmp/vesselasid-1.0.9.tar.gz --markdown 20240516/v/vesselasid/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-05-16 05:24:46] INFO root fetch - processPackages [vesselasid]: Remove: archive file [/home/abi/fetcher/tmp/vesselasid-1.0.8.tar.gz]
+[2024-05-16 05:24:46] INFO root fetch - processPackages [vesselasid]: Remove: archive file [/home/abi/fetcher/tmp/vesselasid-1.0.9.tar.gz]
+[2024-05-16 05:24:46] INFO root fetch - main [MainThread]: End processing [vesselasid]: success
+[2024-05-16 05:24:46] INFO root fetch - main [MainThread]: Store serial: [23229039]
