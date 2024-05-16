@@ -11459,3 +11459,24 @@ EOFError: EOF read where object expected
 [2024-05-16 06:51:50] INFO root fetch - processPackages [espresso-machine]: Remove: archive file [/home/abi/fetcher/tmp/espresso_machine-0.0.115.tar.gz]
 [2024-05-16 06:51:50] INFO root fetch - main [MainThread]: End processing [espresso-machine]: success
 [2024-05-16 06:51:50] INFO root fetch - main [MainThread]: Store serial: [23229480]
+[2024-05-16 06:53:54] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23229480]
+[2024-05-16 06:53:59] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-16 06:53:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ensure-packages
+[2024-05-16 06:53:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tsugu-api-python
+[2024-05-16 06:53:59] INFO root fetch - processPackages [ensure-packages]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-05-16 06:53:59] INFO root fetch - processPackages [tsugu-api-python]: New version: [1.1.6] Old Version: [1.1.5]
+[2024-05-16 06:53:59] INFO root fetch - processPackages [tsugu-api-python]: Downloading https://files.pythonhosted.org/packages/87/cc/fb7458993e0b9133bc37905e663e711e4f5c889b16409f10e73b2aa2f5d6/tsugu-api-python-1.1.5.tar.gz
+[2024-05-16 06:53:59] INFO root fetch - processPackages [ensure-packages]: Downloading https://files.pythonhosted.org/packages/26/d8/85d56d76f3cb88e398e4e20cfa059129ff350c75fa671dd91e7f678bf759/ensure_packages-0.1.0.tar.gz
+[2024-05-16 06:53:59] INFO root fetch - processPackages [tsugu-api-python]: Downloading https://files.pythonhosted.org/packages/49/61/d93ae35f98887ddaf09797f92afddf233ee715d5801f2a5572dc9281e821/tsugu-api-python-1.1.6.tar.gz
+[2024-05-16 06:54:00] INFO root fetch - processPackages [ensure-packages]: Downloading https://files.pythonhosted.org/packages/c6/bc/7f87b8126f049520df7c30ba724a8d15ace25683e4ae1003c981aa94e13a/ensure_packages-0.1.1.tar.gz
+[2024-05-16 06:54:00] INFO root fetch - processPackages [tsugu-api-python]: executing diffoscope
+[2024-05-16 06:54:00] INFO root fetch - processPackages [tsugu-api-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tsugu-api-python-1.1.5.tar.gz tmp/tsugu-api-python-1.1.6.tar.gz --markdown 20240516/t/tsugu-api-python/1.1.5-1.1.6/README.md --exclude *.pyd
+[2024-05-16 06:54:00] INFO root fetch - processPackages [ensure-packages]: executing diffoscope
+[2024-05-16 06:54:00] INFO root fetch - processPackages [ensure-packages]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ensure_packages-0.1.0.tar.gz tmp/ensure_packages-0.1.1.tar.gz --markdown 20240516/e/ensure-packages/0.1.0-0.1.1/README.md --exclude *.pyd
+[2024-05-16 06:54:00] INFO root fetch - processPackages [ensure-packages]: Remove: archive file [/home/abi/fetcher/tmp/ensure_packages-0.1.0.tar.gz]
+[2024-05-16 06:54:00] INFO root fetch - processPackages [ensure-packages]: Remove: archive file [/home/abi/fetcher/tmp/ensure_packages-0.1.1.tar.gz]
+[2024-05-16 06:54:00] INFO root fetch - main [MainThread]: End processing [ensure-packages]: success
+[2024-05-16 06:54:00] INFO root fetch - processPackages [tsugu-api-python]: Remove: archive file [/home/abi/fetcher/tmp/tsugu-api-python-1.1.5.tar.gz]
+[2024-05-16 06:54:00] INFO root fetch - processPackages [tsugu-api-python]: Remove: archive file [/home/abi/fetcher/tmp/tsugu-api-python-1.1.6.tar.gz]
+[2024-05-16 06:54:00] INFO root fetch - main [MainThread]: End processing [tsugu-api-python]: success
+[2024-05-16 06:54:00] INFO root fetch - main [MainThread]: Store serial: [23229488]
