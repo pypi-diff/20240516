@@ -8710,3 +8710,42 @@ AssertionError: tmp/hygpytools-0.2.0.tar.gz does not exist
 [2024-05-16 03:23:16] INFO root fetch - processPackages [flask-openapi3-swagger]: Remove: archive file [/home/abi/fetcher/tmp/flask_openapi3_swagger-5.17.9.tar.gz]
 [2024-05-16 03:23:16] INFO root fetch - main [MainThread]: End processing [flask-openapi3-swagger]: success
 [2024-05-16 03:23:16] INFO root fetch - main [MainThread]: Store serial: [23227975]
+[2024-05-16 03:25:21] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23227975]
+[2024-05-16 03:25:25] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-16 03:25:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: lmo
+[2024-05-16 03:25:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: opentelemetry_wrapper
+[2024-05-16 03:25:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: stellar-spice
+[2024-05-16 03:25:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: llama_tools
+[2024-05-16 03:25:26] INFO root fetch - processPackages [lmo]: New version: [0.9.0] Old Version: [0.8.0]
+[2024-05-16 03:25:26] INFO root fetch - processPackages [llama_tools]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-16 03:25:26] INFO root fetch - processPackages [opentelemetry_wrapper]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-16 03:25:26] INFO root fetch - processPackages [llama_tools]: Downloading https://files.pythonhosted.org/packages/a8/55/43247b59a289e0459a611874224f09597a28f206ece4c888349b83d661bb/llama_tools-0.1.8.tar.gz
+[2024-05-16 03:25:26] INFO root fetch - processPackages [stellar-spice]: New version: [0.3] Old Version: [0.2]
+[2024-05-16 03:25:26] INFO root fetch - processPackages [lmo]: Downloading https://files.pythonhosted.org/packages/d6/e2/5bc8d7628be56a90ebc787a2a1c6abcb70cfe44c72d3d9994f37605a3ee4/lmo-0.8.0.tar.gz
+[2024-05-16 03:25:26] INFO root fetch - processPackages [opentelemetry_wrapper]: Downloading https://files.pythonhosted.org/packages/67/47/b25363c3514656a1f2a3e2d8c2cfa5afcf6bfa4deb213d3d91e82021d38a/opentelemetry_wrapper-0.1.8.tar.gz
+[2024-05-16 03:25:26] INFO root fetch - processPackages [llama_tools]: Downloading https://files.pythonhosted.org/packages/b1/c0/71823f5e8c32246c13f14ee35afae675e0119488af8210d0d305c5d9dc5c/llama_tools-0.1.9.tar.gz
+[2024-05-16 03:25:26] INFO root fetch - processPackages [stellar-spice]: Downloading https://files.pythonhosted.org/packages/a0/36/4507d6889f160eee4b7339d82745e108659aefa2a60c858a952c17672760/stellar_spice-0.2.tar.gz
+[2024-05-16 03:25:26] INFO root fetch - processPackages [llama_tools]: executing diffoscope
+[2024-05-16 03:25:26] INFO root fetch - processPackages [llama_tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/llama_tools-0.1.8.tar.gz tmp/llama_tools-0.1.9.tar.gz --markdown 20240516/l/llama_tools/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-16 03:25:26] INFO root fetch - processPackages [opentelemetry_wrapper]: Downloading https://files.pythonhosted.org/packages/44/2d/d79416f9137147e37a623eac99872df22539e5421c40885476bb41ae2d3f/opentelemetry_wrapper-0.1.9.tar.gz
+[2024-05-16 03:25:26] INFO root fetch - processPackages [stellar-spice]: Downloading https://files.pythonhosted.org/packages/9f/9a/9772e8abbd2d370a8ed9e533c628aa556a5d5ab4d2fa94daee64283bad4f/stellar_spice-0.3.tar.gz
+[2024-05-16 03:25:26] INFO root fetch - processPackages [lmo]: Downloading https://files.pythonhosted.org/packages/c2/4a/98a3d3c554bd23ffc2f4925cf7fae10b27787a307d494a598a574c81d953/lmo-0.9.0.tar.gz
+[2024-05-16 03:25:26] INFO root fetch - processPackages [opentelemetry_wrapper]: executing diffoscope
+[2024-05-16 03:25:26] INFO root fetch - processPackages [opentelemetry_wrapper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/opentelemetry_wrapper-0.1.8.tar.gz tmp/opentelemetry_wrapper-0.1.9.tar.gz --markdown 20240516/o/opentelemetry_wrapper/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-16 03:25:26] INFO root fetch - processPackages [stellar-spice]: executing diffoscope
+[2024-05-16 03:25:26] INFO root fetch - processPackages [stellar-spice]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stellar_spice-0.2.tar.gz tmp/stellar_spice-0.3.tar.gz --markdown 20240516/s/stellar-spice/0.2-0.3/README.md --exclude *.pyd
+[2024-05-16 03:25:26] INFO root fetch - processPackages [lmo]: executing diffoscope
+[2024-05-16 03:25:26] INFO root fetch - processPackages [lmo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lmo-0.8.0.tar.gz tmp/lmo-0.9.0.tar.gz --markdown 20240516/l/lmo/0.8.0-0.9.0/README.md --exclude *.pyd
+[2024-05-16 03:25:26] INFO root fetch - processPackages [llama_tools]: Remove: archive file [/home/abi/fetcher/tmp/llama_tools-0.1.8.tar.gz]
+[2024-05-16 03:25:26] INFO root fetch - processPackages [llama_tools]: Remove: archive file [/home/abi/fetcher/tmp/llama_tools-0.1.9.tar.gz]
+[2024-05-16 03:25:26] INFO root fetch - main [MainThread]: End processing [llama_tools]: success
+[2024-05-16 03:25:27] INFO root fetch - processPackages [opentelemetry_wrapper]: Remove: archive file [/home/abi/fetcher/tmp/opentelemetry_wrapper-0.1.8.tar.gz]
+[2024-05-16 03:25:27] INFO root fetch - processPackages [opentelemetry_wrapper]: Remove: archive file [/home/abi/fetcher/tmp/opentelemetry_wrapper-0.1.9.tar.gz]
+[2024-05-16 03:25:27] INFO root fetch - main [MainThread]: End processing [opentelemetry_wrapper]: success
+[2024-05-16 03:25:27] INFO root fetch - processPackages [stellar-spice]: Remove: archive file [/home/abi/fetcher/tmp/stellar_spice-0.2.tar.gz]
+[2024-05-16 03:25:27] INFO root fetch - processPackages [stellar-spice]: Remove: archive file [/home/abi/fetcher/tmp/stellar_spice-0.3.tar.gz]
+[2024-05-16 03:25:27] INFO root fetch - main [MainThread]: End processing [stellar-spice]: success
+[2024-05-16 03:25:27] INFO root fetch - processPackages [lmo]: Remove: archive file [/home/abi/fetcher/tmp/lmo-0.8.0.tar.gz]
+[2024-05-16 03:25:27] INFO root fetch - processPackages [lmo]: Remove: archive file [/home/abi/fetcher/tmp/lmo-0.9.0.tar.gz]
+[2024-05-16 03:25:27] INFO root fetch - main [MainThread]: End processing [lmo]: success
+[2024-05-16 03:25:27] INFO root fetch - main [MainThread]: Store serial: [23228051]
