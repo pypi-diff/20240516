@@ -12928,3 +12928,30 @@ EOFError: EOF read where object expected
 [2024-05-16 08:16:03] INFO root fetch - processPackages [fake-bpy-module-latest]: Remove: archive file [/home/abi/fetcher/tmp/fake_bpy_module_latest-20240515.tar.gz]
 [2024-05-16 08:16:03] INFO root fetch - main [MainThread]: End processing [fake-bpy-module-latest]: success
 [2024-05-16 08:16:03] INFO root fetch - main [MainThread]: Store serial: [23230093]
+[2024-05-16 08:18:16] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23230093]
+[2024-05-16 08:18:21] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-16 08:18:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pms-encoder
+[2024-05-16 08:18:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: interactive-sdk
+[2024-05-16 08:18:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: Joywata
+[2024-05-16 08:18:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: zebrafy
+[2024-05-16 08:18:21] INFO root fetch - processPackages [pms-encoder]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-16 08:18:21] INFO root fetch - processPackages [pms-encoder]: Downloading https://files.pythonhosted.org/packages/80/f1/88f2f54188c15bf6cca5ba7a3a347b8d1c83b15a626f541acf3dde5aa63d/pms_encoder-0.0.8.tar.gz
+[2024-05-16 08:18:21] INFO root fetch - processPackages [zebrafy]: New version: [1.1.2] Old Version: [1.1.1]
+[2024-05-16 08:18:21] WARNING root fetch - processPackages [interactive-sdk]: Skipping, unable to determine old version
+[2024-05-16 08:18:21] INFO root fetch - main [MainThread]: End processing [interactive-sdk] error
+[2024-05-16 08:18:21] WARNING root fetch - processPackages [Joywata]: Skipping, unable to determine old version
+[2024-05-16 08:18:21] INFO root fetch - main [MainThread]: End processing [Joywata] error
+[2024-05-16 08:18:21] INFO root fetch - processPackages [zebrafy]: Downloading https://files.pythonhosted.org/packages/9d/05/49614d47fc07f75e8f8f21ab085c83e6b4bd9f67b4fcedaa1d5df2b955e9/zebrafy-1.1.1.tar.gz
+[2024-05-16 08:18:21] INFO root fetch - processPackages [pms-encoder]: Downloading https://files.pythonhosted.org/packages/93/31/8bb081756db42925fab6507b6e0f497d6bf45acd407ff38cb00f2aaec54c/pms_encoder-0.0.9.tar.gz
+[2024-05-16 08:18:21] INFO root fetch - processPackages [pms-encoder]: executing diffoscope
+[2024-05-16 08:18:21] INFO root fetch - processPackages [pms-encoder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pms_encoder-0.0.8.tar.gz tmp/pms_encoder-0.0.9.tar.gz --markdown 20240516/p/pms-encoder/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-16 08:18:21] INFO root fetch - processPackages [zebrafy]: Downloading https://files.pythonhosted.org/packages/b8/5a/31780ba5a8753a26b9478e16ab831691ee185a3fc73288ca9eff38c23099/zebrafy-1.1.2.tar.gz
+[2024-05-16 08:18:22] INFO root fetch - processPackages [zebrafy]: executing diffoscope
+[2024-05-16 08:18:22] INFO root fetch - processPackages [zebrafy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zebrafy-1.1.1.tar.gz tmp/zebrafy-1.1.2.tar.gz --markdown 20240516/z/zebrafy/1.1.1-1.1.2/README.md --exclude *.pyd
+[2024-05-16 08:18:22] INFO root fetch - processPackages [pms-encoder]: Remove: archive file [/home/abi/fetcher/tmp/pms_encoder-0.0.8.tar.gz]
+[2024-05-16 08:18:22] INFO root fetch - processPackages [pms-encoder]: Remove: archive file [/home/abi/fetcher/tmp/pms_encoder-0.0.9.tar.gz]
+[2024-05-16 08:18:22] INFO root fetch - main [MainThread]: End processing [pms-encoder]: success
+[2024-05-16 08:18:22] INFO root fetch - processPackages [zebrafy]: Remove: archive file [/home/abi/fetcher/tmp/zebrafy-1.1.1.tar.gz]
+[2024-05-16 08:18:22] INFO root fetch - processPackages [zebrafy]: Remove: archive file [/home/abi/fetcher/tmp/zebrafy-1.1.2.tar.gz]
+[2024-05-16 08:18:22] INFO root fetch - main [MainThread]: End processing [zebrafy]: success
+[2024-05-16 08:18:22] INFO root fetch - main [MainThread]: Store serial: [23230107]
