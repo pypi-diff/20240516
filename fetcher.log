@@ -12119,3 +12119,51 @@ EOFError: EOF read where object expected
 [2024-05-16 07:38:07] INFO root fetch - processPackages [meerschaum]: Remove: archive file [/home/abi/fetcher/tmp/meerschaum-2.2.0rc1.tar.gz]
 [2024-05-16 07:38:07] INFO root fetch - main [MainThread]: End processing [meerschaum]: success
 [2024-05-16 07:38:07] INFO root fetch - main [MainThread]: Store serial: [23229750]
+[2024-05-16 07:40:11] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23229750]
+[2024-05-16 07:40:16] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-16 07:40:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: acryl-datahub-cloud
+[2024-05-16 07:40:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: PyLLSM5DTools
+[2024-05-16 07:40:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: dcw-finder
+[2024-05-16 07:40:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: chik-rs
+[2024-05-16 07:40:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ebilab
+[2024-05-16 07:40:16] INFO root fetch - processPackages [PyLLSM5DTools]: New version: [1.1.0] Old Version: [1.0.5]
+[2024-05-16 07:40:16] INFO root fetch - processPackages [acryl-datahub-cloud]: New version: [0.3.2rc9] Old Version: [0.3.2rc8]
+[2024-05-16 07:40:16] INFO root fetch - processPackages [PyLLSM5DTools]: Downloading https://files.pythonhosted.org/packages/fc/fb/1cbd752292f240d24ace4483a61d4203037c38906c27594eb462c0a68ba2/pyllsm5dtools-1.0.5.tar.gz
+[2024-05-16 07:40:16] INFO root fetch - processPackages [acryl-datahub-cloud]: Downloading https://files.pythonhosted.org/packages/8c/34/0ac46c0016b6d395b9e08c97137a35a48a32c50f64d2e1c188582f3aedb8/acryl_datahub_cloud-0.3.2rc8.tar.gz
+[2024-05-16 07:40:16] INFO root fetch - processPackages [dcw-finder]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-16 07:40:16] INFO root fetch - processPackages [ebilab]: New version: [2.7.0] Old Version: [2.6.0]
+[2024-05-16 07:40:16] INFO root fetch - processPackages [chik-rs]: New version: [0.8.0] Old Version: [0.7.0]
+[2024-05-16 07:40:17] INFO root fetch - processPackages [chik-rs]: Downloading https://files.pythonhosted.org/packages/0c/f4/d2b468e5b8e1073b6d5939cf6dcb800b8b3c4bde13fcdd620359630f981f/chik_rs-0.7.0.tar.gz
+[2024-05-16 07:40:17] INFO root fetch - processPackages [PyLLSM5DTools]: Downloading https://files.pythonhosted.org/packages/3a/a0/9853665024d73907058736589b91bc6f51abdb6fcb1728815b736649e75f/pyllsm5dtools-1.1.0.tar.gz
+[2024-05-16 07:40:17] INFO root fetch - processPackages [ebilab]: Downloading https://files.pythonhosted.org/packages/77/56/7a42771c38f7c6bfa64a1cff2dd23eacbfd923d603ed98aaf989bce5bc7b/ebilab-2.6.0.tar.gz
+[2024-05-16 07:40:17] INFO root fetch - processPackages [dcw-finder]: Downloading https://files.pythonhosted.org/packages/19/a8/1f738810b9b53b808c05bcabb7f431b9f03ca037547b85c856851e9bdac2/dcw-finder-0.0.8.tar.gz
+[2024-05-16 07:40:17] INFO root fetch - processPackages [acryl-datahub-cloud]: Downloading https://files.pythonhosted.org/packages/f8/d8/1e88c6de8e078deee9f13099e2364a2466bc062f1085fa3cf0d831ccffa0/acryl_datahub_cloud-0.3.2rc9.tar.gz
+[2024-05-16 07:40:17] INFO root fetch - processPackages [PyLLSM5DTools]: executing diffoscope
+[2024-05-16 07:40:17] INFO root fetch - processPackages [PyLLSM5DTools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyllsm5dtools-1.0.5.tar.gz tmp/pyllsm5dtools-1.1.0.tar.gz --markdown 20240516/P/PyLLSM5DTools/1.0.5-1.1.0/README.md --exclude *.pyd
+[2024-05-16 07:40:17] INFO root fetch - processPackages [chik-rs]: Downloading https://files.pythonhosted.org/packages/33/fa/c0b4035d115024171af9aeab0920ac7efe3bf213c2569de14b60b04b85bf/chik_rs-0.8.0.tar.gz
+[2024-05-16 07:40:17] INFO root fetch - processPackages [acryl-datahub-cloud]: executing diffoscope
+[2024-05-16 07:40:17] INFO root fetch - processPackages [acryl-datahub-cloud]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/acryl_datahub_cloud-0.3.2rc8.tar.gz tmp/acryl_datahub_cloud-0.3.2rc9.tar.gz --markdown 20240516/a/acryl-datahub-cloud/0.3.2rc8-0.3.2rc9/README.md --exclude *.pyd
+[2024-05-16 07:40:17] INFO root fetch - processPackages [ebilab]: Downloading https://files.pythonhosted.org/packages/a1/5e/0c311870fbb19295e901b0c20ce11bcba4580e863b7444bee7ac5e201ce8/ebilab-2.7.0.tar.gz
+[2024-05-16 07:40:17] INFO root fetch - processPackages [dcw-finder]: Downloading https://files.pythonhosted.org/packages/9d/d4/07781569a8af94ced0ee13fae250d76e80b5f14db81c0cbec3a9e23a0e54/dcw-finder-0.0.9.tar.gz
+[2024-05-16 07:40:17] INFO root fetch - processPackages [chik-rs]: executing diffoscope
+[2024-05-16 07:40:17] INFO root fetch - processPackages [chik-rs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chik_rs-0.7.0.tar.gz tmp/chik_rs-0.8.0.tar.gz --markdown 20240516/c/chik-rs/0.7.0-0.8.0/README.md --exclude *.pyd
+[2024-05-16 07:40:17] INFO root fetch - processPackages [dcw-finder]: executing diffoscope
+[2024-05-16 07:40:17] INFO root fetch - processPackages [dcw-finder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dcw-finder-0.0.8.tar.gz tmp/dcw-finder-0.0.9.tar.gz --markdown 20240516/d/dcw-finder/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-16 07:40:17] INFO root fetch - processPackages [ebilab]: executing diffoscope
+[2024-05-16 07:40:17] INFO root fetch - processPackages [ebilab]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ebilab-2.6.0.tar.gz tmp/ebilab-2.7.0.tar.gz --markdown 20240516/e/ebilab/2.6.0-2.7.0/README.md --exclude *.pyd
+[2024-05-16 07:40:17] INFO root fetch - processPackages [PyLLSM5DTools]: Remove: archive file [/home/abi/fetcher/tmp/pyllsm5dtools-1.0.5.tar.gz]
+[2024-05-16 07:40:17] INFO root fetch - processPackages [PyLLSM5DTools]: Remove: archive file [/home/abi/fetcher/tmp/pyllsm5dtools-1.1.0.tar.gz]
+[2024-05-16 07:40:17] INFO root fetch - main [MainThread]: End processing [PyLLSM5DTools]: success
+[2024-05-16 07:40:18] INFO root fetch - processPackages [dcw-finder]: Remove: archive file [/home/abi/fetcher/tmp/dcw-finder-0.0.8.tar.gz]
+[2024-05-16 07:40:18] INFO root fetch - processPackages [dcw-finder]: Remove: archive file [/home/abi/fetcher/tmp/dcw-finder-0.0.9.tar.gz]
+[2024-05-16 07:40:18] INFO root fetch - main [MainThread]: End processing [dcw-finder]: success
+[2024-05-16 07:40:18] INFO root fetch - processPackages [ebilab]: Remove: archive file [/home/abi/fetcher/tmp/ebilab-2.6.0.tar.gz]
+[2024-05-16 07:40:18] INFO root fetch - processPackages [ebilab]: Remove: archive file [/home/abi/fetcher/tmp/ebilab-2.7.0.tar.gz]
+[2024-05-16 07:40:18] INFO root fetch - main [MainThread]: End processing [ebilab]: success
+[2024-05-16 07:40:18] INFO root fetch - processPackages [acryl-datahub-cloud]: Remove: archive file [/home/abi/fetcher/tmp/acryl_datahub_cloud-0.3.2rc8.tar.gz]
+[2024-05-16 07:40:18] INFO root fetch - processPackages [acryl-datahub-cloud]: Remove: archive file [/home/abi/fetcher/tmp/acryl_datahub_cloud-0.3.2rc9.tar.gz]
+[2024-05-16 07:40:18] INFO root fetch - main [MainThread]: End processing [acryl-datahub-cloud]: success
+[2024-05-16 07:40:19] INFO root fetch - processPackages [chik-rs]: Remove: archive file [/home/abi/fetcher/tmp/chik_rs-0.7.0.tar.gz]
+[2024-05-16 07:40:19] INFO root fetch - processPackages [chik-rs]: Remove: archive file [/home/abi/fetcher/tmp/chik_rs-0.8.0.tar.gz]
+[2024-05-16 07:40:19] INFO root fetch - main [MainThread]: End processing [chik-rs]: success
+[2024-05-16 07:40:19] INFO root fetch - main [MainThread]: Store serial: [23229784]
