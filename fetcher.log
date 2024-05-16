@@ -9541,3 +9541,65 @@ EOFError: EOF read where object expected
 [2024-05-16 04:30:50] INFO root fetch - processPackages [GOES]: Remove: archive file [/home/abi/fetcher/tmp/goes-3.4.2.tar.gz]
 [2024-05-16 04:30:50] INFO root fetch - main [MainThread]: End processing [GOES]: success
 [2024-05-16 04:30:50] INFO root fetch - main [MainThread]: Store serial: [23228709]
+[2024-05-16 04:32:54] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23228709]
+[2024-05-16 04:32:59] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-16 04:32:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: solar-registry
+[2024-05-16 04:32:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: xl2roefact
+[2024-05-16 04:32:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: composabl-dev
+[2024-05-16 04:32:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: composabl-api-dev
+[2024-05-16 04:32:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: composabl-cli-dev
+[2024-05-16 04:32:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: composabl-train-dev
+[2024-05-16 04:32:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: composabl-core-dev
+[2024-05-16 04:32:59] INFO root fetch - processPackages [solar-registry]: New version: [0.2.8] Old Version: [0.2.7]
+[2024-05-16 04:32:59] INFO root fetch - processPackages [composabl-api-dev]: New version: [0.8.0.dev84] Old Version: [0.8.0.dev83]
+[2024-05-16 04:32:59] INFO root fetch - processPackages [composabl-cli-dev]: New version: [0.8.0.dev9] Old Version: [0.8.0.dev84]
+[2024-05-16 04:32:59] INFO root fetch - processPackages [composabl-core-dev]: New version: [0.8.0.dev9] Old Version: [0.8.0.dev84]
+[2024-05-16 04:32:59] INFO root fetch - processPackages [composabl-dev]: New version: [0.8.0.dev9] Old Version: [0.8.0.dev84]
+[2024-05-16 04:32:59] INFO root fetch - processPackages [composabl-train-dev]: New version: [0.8.0.dev9] Old Version: [0.8.0.dev84]
+[2024-05-16 04:32:59] INFO root fetch - processPackages [xl2roefact]: New version: [0.8] Old Version: [0.7rc2]
+[2024-05-16 04:32:59] INFO root fetch - processPackages [composabl-train-dev]: Downloading https://files.pythonhosted.org/packages/cc/22/3be63f33f4c4be15f6fec79fa74c558e454030142a34ec4d1f7706057062/composabl_train_dev-0.8.0.dev84-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2024-05-16 04:32:59] INFO root fetch - processPackages [composabl-api-dev]: Downloading https://files.pythonhosted.org/packages/9f/d2/b9c8978b347460f6f1198efe3e1d08a8bc448d615284cf0386319115c677/composabl_api_dev-0.8.0.dev83-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2024-05-16 04:32:59] INFO root fetch - processPackages [composabl-cli-dev]: Downloading https://files.pythonhosted.org/packages/8a/53/3caca17069b380a08be4ffdd9286fa55312c7fa54cee1a82ed22b4fbbe7a/composabl_cli_dev-0.8.0.dev84-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2024-05-16 04:32:59] INFO root fetch - processPackages [solar-registry]: Downloading https://files.pythonhosted.org/packages/d8/65/22738913646635f8873fff8195cc9d03250cda29ba5bf5939a6632a84011/solar_registry-0.2.7.tar.gz
+[2024-05-16 04:32:59] INFO root fetch - processPackages [composabl-core-dev]: Downloading https://files.pythonhosted.org/packages/54/49/54f23e385e35eb1ae1ada3e1ea8952c1237559c0ac1b0277203d6c2e2254/composabl_core_dev-0.8.0.dev84-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2024-05-16 04:32:59] INFO root fetch - processPackages [composabl-dev]: Downloading https://files.pythonhosted.org/packages/c8/bf/bfb198cb5de7d5cdcb78c59fa12ccbf8f8d692679d1911525cd3f8ed0bc0/composabl_dev-0.8.0.dev84-cp311-cp311-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2024-05-16 04:32:59] WARNING root fetch - processPackages [composabl-core-dev]: Skipping package: exceeds size limit 25788312>=10485760
+[2024-05-16 04:32:59] INFO root fetch - main [MainThread]: End processing [composabl-core-dev] error
+[2024-05-16 04:32:59] INFO root fetch - processPackages [composabl-dev]: Downloading https://files.pythonhosted.org/packages/a1/f2/4e1924d1039233c3b0c2448b4add74067504cd2e888b319ad5a03135216f/composabl_dev-0.8.0.dev9-cp311-cp311-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2024-05-16 04:32:59] INFO root fetch - processPackages [xl2roefact]: Downloading https://files.pythonhosted.org/packages/4c/ba/ce30a169fa92ae3c31f2f4352f8fb20698443514281e423ee056d811926b/xl2roefact-0.7rc2.tar.gz
+[2024-05-16 04:32:59] INFO root fetch - processPackages [solar-registry]: Downloading https://files.pythonhosted.org/packages/0e/f2/d054c6d47257d36b6862b3c6612ca69f03a2aa4b63af145d0ea8a522075a/solar_registry-0.2.8.tar.gz
+[2024-05-16 04:32:59] INFO root fetch - processPackages [composabl-dev]: executing diffoscope
+[2024-05-16 04:32:59] INFO root fetch - processPackages [composabl-dev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/composabl_dev-0.8.0.dev84-cp311-cp311-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/composabl_dev-0.8.0.dev9-cp311-cp311-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20240516/c/composabl-dev/0.8.0.dev84-0.8.0.dev9/README.md --exclude *.pyd
+[2024-05-16 04:33:00] INFO root fetch - processPackages [composabl-api-dev]: Downloading https://files.pythonhosted.org/packages/73/a0/06af390b407e664f725082496828123dc20490e94eda37b8082f5499a3be/composabl_api_dev-0.8.0.dev84-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2024-05-16 04:33:00] INFO root fetch - processPackages [composabl-cli-dev]: Downloading https://files.pythonhosted.org/packages/7a/63/cb2a64c643c2bf337f7f624895969ab1444fad77d056db19bebd8ab5a022/composabl_cli_dev-0.8.0.dev9-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2024-05-16 04:33:00] INFO root fetch - processPackages [solar-registry]: executing diffoscope
+[2024-05-16 04:33:00] INFO root fetch - processPackages [solar-registry]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/solar_registry-0.2.7.tar.gz tmp/solar_registry-0.2.8.tar.gz --markdown 20240516/s/solar-registry/0.2.7-0.2.8/README.md --exclude *.pyd
+[2024-05-16 04:33:00] INFO root fetch - processPackages [composabl-train-dev]: Downloading https://files.pythonhosted.org/packages/95/20/8e2aca4bfa5f684869b85085faa073c8a53504bf7d60833952d33bbdf05a/composabl_train_dev-0.8.0.dev9-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2024-05-16 04:33:00] INFO root fetch - processPackages [composabl-api-dev]: executing diffoscope
+[2024-05-16 04:33:00] INFO root fetch - processPackages [composabl-api-dev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/composabl_api_dev-0.8.0.dev83-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/composabl_api_dev-0.8.0.dev84-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20240516/c/composabl-api-dev/0.8.0.dev83-0.8.0.dev84/README.md --exclude *.pyd
+[2024-05-16 04:33:00] INFO root fetch - processPackages [xl2roefact]: Downloading https://files.pythonhosted.org/packages/d5/45/9d705790836153ed16a5a8ef5f27edc892a40b21fc07a76e69c4c1c22a2a/xl2roefact-0.8.tar.gz
+[2024-05-16 04:33:00] INFO root fetch - processPackages [composabl-train-dev]: executing diffoscope
+[2024-05-16 04:33:00] INFO root fetch - processPackages [composabl-train-dev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/composabl_train_dev-0.8.0.dev84-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/composabl_train_dev-0.8.0.dev9-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20240516/c/composabl-train-dev/0.8.0.dev84-0.8.0.dev9/README.md --exclude *.pyd
+[2024-05-16 04:33:00] INFO root fetch - processPackages [composabl-cli-dev]: executing diffoscope
+[2024-05-16 04:33:00] INFO root fetch - processPackages [composabl-cli-dev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/composabl_cli_dev-0.8.0.dev84-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/composabl_cli_dev-0.8.0.dev9-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20240516/c/composabl-cli-dev/0.8.0.dev84-0.8.0.dev9/README.md --exclude *.pyd
+[2024-05-16 04:33:00] INFO root fetch - processPackages [xl2roefact]: executing diffoscope
+[2024-05-16 04:33:00] INFO root fetch - processPackages [xl2roefact]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xl2roefact-0.7rc2.tar.gz tmp/xl2roefact-0.8.tar.gz --markdown 20240516/x/xl2roefact/0.7rc2-0.8/README.md --exclude *.pyd
+[2024-05-16 04:33:00] INFO root fetch - processPackages [composabl-dev]: Remove: archive file [/home/abi/fetcher/tmp/composabl_dev-0.8.0.dev84-cp311-cp311-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2024-05-16 04:33:00] INFO root fetch - processPackages [composabl-dev]: Remove: archive file [/home/abi/fetcher/tmp/composabl_dev-0.8.0.dev9-cp311-cp311-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2024-05-16 04:33:00] INFO root fetch - main [MainThread]: End processing [composabl-dev]: success
+[2024-05-16 04:33:00] INFO root fetch - processPackages [solar-registry]: Remove: archive file [/home/abi/fetcher/tmp/solar_registry-0.2.7.tar.gz]
+[2024-05-16 04:33:00] INFO root fetch - processPackages [solar-registry]: Remove: archive file [/home/abi/fetcher/tmp/solar_registry-0.2.8.tar.gz]
+[2024-05-16 04:33:00] INFO root fetch - main [MainThread]: End processing [solar-registry]: success
+[2024-05-16 04:33:00] INFO root fetch - processPackages [composabl-api-dev]: Remove: archive file [/home/abi/fetcher/tmp/composabl_api_dev-0.8.0.dev83-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2024-05-16 04:33:00] INFO root fetch - processPackages [composabl-api-dev]: Remove: archive file [/home/abi/fetcher/tmp/composabl_api_dev-0.8.0.dev84-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2024-05-16 04:33:00] INFO root fetch - main [MainThread]: End processing [composabl-api-dev]: success
+[2024-05-16 04:33:01] INFO root fetch - processPackages [xl2roefact]: Remove: archive file [/home/abi/fetcher/tmp/xl2roefact-0.7rc2.tar.gz]
+[2024-05-16 04:33:01] INFO root fetch - processPackages [xl2roefact]: Remove: archive file [/home/abi/fetcher/tmp/xl2roefact-0.8.tar.gz]
+[2024-05-16 04:33:01] INFO root fetch - main [MainThread]: End processing [xl2roefact]: success
+[2024-05-16 04:33:26] INFO root fetch - processPackages [composabl-cli-dev]: Remove: archive file [/home/abi/fetcher/tmp/composabl_cli_dev-0.8.0.dev84-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2024-05-16 04:33:26] INFO root fetch - processPackages [composabl-cli-dev]: Remove: archive file [/home/abi/fetcher/tmp/composabl_cli_dev-0.8.0.dev9-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2024-05-16 04:33:26] INFO root fetch - main [MainThread]: End processing [composabl-cli-dev]: success
+[2024-05-16 04:34:08] INFO root fetch - processPackages [composabl-train-dev]: Remove: archive file [/home/abi/fetcher/tmp/composabl_train_dev-0.8.0.dev84-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2024-05-16 04:34:08] INFO root fetch - processPackages [composabl-train-dev]: Remove: archive file [/home/abi/fetcher/tmp/composabl_train_dev-0.8.0.dev9-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2024-05-16 04:34:08] INFO root fetch - main [MainThread]: End processing [composabl-train-dev]: success
+[2024-05-16 04:34:08] INFO root fetch - main [MainThread]: Store serial: [23228756]
