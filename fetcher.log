@@ -10806,3 +10806,41 @@ EOFError: EOF read where object expected
 [2024-05-16 05:55:21] INFO root fetch - processPackages [spark-rapids-ml]: Remove: archive file [/home/abi/fetcher/tmp/spark_rapids_ml-24.2.0-327_e0f644d-py3-none-any.whl.zip]
 [2024-05-16 05:55:21] INFO root fetch - main [MainThread]: End processing [spark-rapids-ml]: success
 [2024-05-16 05:55:21] INFO root fetch - main [MainThread]: Store serial: [23229199]
+[2024-05-16 05:57:26] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23229199]
+[2024-05-16 05:57:31] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-16 05:57:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: aldy
+[2024-05-16 05:57:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: dwave-sona-core
+[2024-05-16 05:57:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: vocalpy
+[2024-05-16 05:57:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ontolog
+[2024-05-16 05:57:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: qb-parser
+[2024-05-16 05:57:31] INFO root fetch - processPackages [qb-parser]: New version: [0.1.4] Old Version: [0.1.3]
+[2024-05-16 05:57:31] INFO root fetch - processPackages [dwave-sona-core]: New version: [1.2.9] Old Version: [1.2.8]
+[2024-05-16 05:57:31] INFO root fetch - processPackages [aldy]: New version: [4.6] Old Version: [4.5]
+[2024-05-16 05:57:31] INFO root fetch - processPackages [qb-parser]: Downloading https://files.pythonhosted.org/packages/6e/f6/9c130dfe99ccad80e3bcb4e318fa84990e8feeac3ea25546f8909574cab9/qb_parser-0.1.3.tar.gz
+[2024-05-16 05:57:31] WARNING root fetch - processPackages [ontolog]: Skipping, unable to determine old version
+[2024-05-16 05:57:31] INFO root fetch - main [MainThread]: End processing [ontolog] error
+[2024-05-16 05:57:31] INFO root fetch - processPackages [dwave-sona-core]: Downloading https://files.pythonhosted.org/packages/db/7c/9339ceb47958f7d191e79904c25617e39aa742a8888ee55b02cca9f7553b/dwave_sona_core-1.2.8.tar.gz
+[2024-05-16 05:57:31] INFO root fetch - processPackages [vocalpy]: New version: [0.9.0] Old Version: [0.8.2]
+[2024-05-16 05:57:31] INFO root fetch - processPackages [aldy]: Downloading https://files.pythonhosted.org/packages/b3/b6/d40fe3766e2e8f0b09e459ae105d78cd0ff931a4e00d2434c900d13b9bb7/aldy-4.5.tar.gz
+[2024-05-16 05:57:31] WARNING root fetch - processPackages [aldy]: Skipping package: exceeds size limit 12030419>=10485760
+[2024-05-16 05:57:31] INFO root fetch - main [MainThread]: End processing [aldy] error
+[2024-05-16 05:57:32] INFO root fetch - processPackages [vocalpy]: Downloading https://files.pythonhosted.org/packages/76/2b/1103eebef5ae2aa08248f15ca4963b078ac01fe21f50816298e728201d14/vocalpy-0.8.2.tar.gz
+[2024-05-16 05:57:32] INFO root fetch - processPackages [dwave-sona-core]: Downloading https://files.pythonhosted.org/packages/82/1f/6cd56c8023053a161c0daaa6d9953b37ecac0cfa01e9c4911db6c9a422f3/dwave_sona_core-1.2.9.tar.gz
+[2024-05-16 05:57:32] INFO root fetch - processPackages [qb-parser]: Downloading https://files.pythonhosted.org/packages/5b/64/bf5a97f44b577938413066605676ae488017472f611ffd3bc26b753abc88/qb_parser-0.1.4.tar.gz
+[2024-05-16 05:57:32] INFO root fetch - processPackages [dwave-sona-core]: executing diffoscope
+[2024-05-16 05:57:32] INFO root fetch - processPackages [dwave-sona-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dwave_sona_core-1.2.8.tar.gz tmp/dwave_sona_core-1.2.9.tar.gz --markdown 20240516/d/dwave-sona-core/1.2.8-1.2.9/README.md --exclude *.pyd
+[2024-05-16 05:57:32] INFO root fetch - processPackages [qb-parser]: executing diffoscope
+[2024-05-16 05:57:32] INFO root fetch - processPackages [qb-parser]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qb_parser-0.1.3.tar.gz tmp/qb_parser-0.1.4.tar.gz --markdown 20240516/q/qb-parser/0.1.3-0.1.4/README.md --exclude *.pyd
+[2024-05-16 05:57:32] INFO root fetch - processPackages [qb-parser]: Remove: archive file [/home/abi/fetcher/tmp/qb_parser-0.1.3.tar.gz]
+[2024-05-16 05:57:32] INFO root fetch - processPackages [qb-parser]: Remove: archive file [/home/abi/fetcher/tmp/qb_parser-0.1.4.tar.gz]
+[2024-05-16 05:57:32] INFO root fetch - main [MainThread]: End processing [qb-parser]: success
+[2024-05-16 05:57:32] INFO root fetch - processPackages [dwave-sona-core]: Remove: archive file [/home/abi/fetcher/tmp/dwave_sona_core-1.2.8.tar.gz]
+[2024-05-16 05:57:32] INFO root fetch - processPackages [dwave-sona-core]: Remove: archive file [/home/abi/fetcher/tmp/dwave_sona_core-1.2.9.tar.gz]
+[2024-05-16 05:57:32] INFO root fetch - main [MainThread]: End processing [dwave-sona-core]: success
+[2024-05-16 05:57:32] INFO root fetch - processPackages [vocalpy]: Downloading https://files.pythonhosted.org/packages/be/89/a02772fc92a21fe0433708dfdd0f51052107dea8c8be5a7ec0d3d609734c/vocalpy-0.9.0.tar.gz
+[2024-05-16 05:57:33] INFO root fetch - processPackages [vocalpy]: executing diffoscope
+[2024-05-16 05:57:33] INFO root fetch - processPackages [vocalpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vocalpy-0.8.2.tar.gz tmp/vocalpy-0.9.0.tar.gz --markdown 20240516/v/vocalpy/0.8.2-0.9.0/README.md --exclude *.pyd
+[2024-05-16 05:57:34] INFO root fetch - processPackages [vocalpy]: Remove: archive file [/home/abi/fetcher/tmp/vocalpy-0.8.2.tar.gz]
+[2024-05-16 05:57:34] INFO root fetch - processPackages [vocalpy]: Remove: archive file [/home/abi/fetcher/tmp/vocalpy-0.9.0.tar.gz]
+[2024-05-16 05:57:34] INFO root fetch - main [MainThread]: End processing [vocalpy]: success
+[2024-05-16 05:57:34] INFO root fetch - main [MainThread]: Store serial: [23229214]
