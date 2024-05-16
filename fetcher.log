@@ -3709,3 +3709,45 @@ AssertionError: tmp/hygpytools-0.2.0.tar.gz does not exist
 [2024-05-16 02:03:02] INFO root fetch - processPackages [tencentcloud-sdk-python-yunsou]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-yunsou-3.0.999.tar.gz]
 [2024-05-16 02:03:02] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-yunsou]: success
 [2024-05-16 02:03:02] INFO root fetch - main [MainThread]: Store serial: [23226601]
+[2024-05-16 02:05:06] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23226601]
+[2024-05-16 02:05:10] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-16 02:05:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: PythonToSW
+[2024-05-16 02:05:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mct-nightly
+[2024-05-16 02:05:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: onnxscript
+[2024-05-16 02:05:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: lcovparser
+[2024-05-16 02:05:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: jaxkern-nightly
+[2024-05-16 02:05:10] INFO root fetch - processPackages [PythonToSW]: New version: [1.1.2] Old Version: [1.1.1]
+[2024-05-16 02:05:11] INFO root fetch - processPackages [jaxkern-nightly]: New version: [0.dev20221222] Old Version: [0.dev20221221]
+[2024-05-16 02:05:11] INFO root fetch - processPackages [mct-nightly]: New version: [2.0.0.20240515.434] Old Version: [2.0.0.20240514.408]
+[2024-05-16 02:05:11] WARNING root fetch - processPackages [lcovparser]: Skipping, unable to determine old version
+[2024-05-16 02:05:11] INFO root fetch - main [MainThread]: End processing [lcovparser] error
+[2024-05-16 02:05:11] INFO root fetch - processPackages [PythonToSW]: Downloading https://files.pythonhosted.org/packages/44/c8/f13f66fa464ac0d19398dd16c4867b0ce200c17fd74053508bb4dc7e1045/PythonToSW-1.1.1.tar.gz
+[2024-05-16 02:05:11] INFO root fetch - processPackages [onnxscript]: New version: [0.1.0.dev20240515] Old Version: [0.1.0.dev20240514]
+[2024-05-16 02:05:11] INFO root fetch - processPackages [jaxkern-nightly]: Downloading https://files.pythonhosted.org/packages/76/55/ef13835e3e8e1570e91b3bc7235725e556f183e3222d5e7e66ac8de58ba0/jaxkern-nightly-0.dev20221221.tar.gz
+[2024-05-16 02:05:11] INFO root fetch - processPackages [mct-nightly]: Downloading https://files.pythonhosted.org/packages/a6/7b/b6ad6ffa9cc4fac8a9f81b10a7ca375fef0028dbce944e94cc618e6e495c/mct-nightly-2.0.0.20240514.408.tar.gz
+[2024-05-16 02:05:11] INFO root fetch - processPackages [onnxscript]: Downloading https://files.pythonhosted.org/packages/2b/5f/bd931015cffaf94c78f2f2ad3b5568ea6e634c2b81d1c79bcac8c8a0be8c/onnxscript-0.1.0.dev20240514.tar.gz
+[2024-05-16 02:05:11] INFO root fetch - processPackages [jaxkern-nightly]: Downloading https://files.pythonhosted.org/packages/ea/b1/fbac44f07e48f8800aada2de8e9114775baf3f3d605ee80382db18a1c728/jaxkern-nightly-0.dev20221222.tar.gz
+[2024-05-16 02:05:11] INFO root fetch - processPackages [PythonToSW]: Downloading https://files.pythonhosted.org/packages/e9/87/7449d24a0661654850593db2f3711ba8b5ce8a147ad3a551064ce3c7611a/PythonToSW-1.1.2.tar.gz
+[2024-05-16 02:05:11] INFO root fetch - processPackages [jaxkern-nightly]: executing diffoscope
+[2024-05-16 02:05:11] INFO root fetch - processPackages [jaxkern-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jaxkern-nightly-0.dev20221221.tar.gz tmp/jaxkern-nightly-0.dev20221222.tar.gz --markdown 20240516/j/jaxkern-nightly/0.dev20221221-0.dev20221222/README.md --exclude *.pyd
+[2024-05-16 02:05:11] INFO root fetch - processPackages [mct-nightly]: Downloading https://files.pythonhosted.org/packages/43/e2/44e3deed05d39b7053c8ea889908a4980676c82265c38171124046c5a862/mct-nightly-2.0.0.20240515.434.tar.gz
+[2024-05-16 02:05:11] INFO root fetch - processPackages [onnxscript]: Downloading https://files.pythonhosted.org/packages/9a/cf/db91246f0b71f12ab49f95b135e40ef139f4d6c9721ed97f4a0b3ee41c7c/onnxscript-0.1.0.dev20240515.tar.gz
+[2024-05-16 02:05:11] INFO root fetch - processPackages [PythonToSW]: executing diffoscope
+[2024-05-16 02:05:11] INFO root fetch - processPackages [PythonToSW]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PythonToSW-1.1.1.tar.gz tmp/PythonToSW-1.1.2.tar.gz --markdown 20240516/P/PythonToSW/1.1.1-1.1.2/README.md --exclude *.pyd
+[2024-05-16 02:05:11] INFO root fetch - processPackages [mct-nightly]: executing diffoscope
+[2024-05-16 02:05:11] INFO root fetch - processPackages [mct-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mct-nightly-2.0.0.20240514.408.tar.gz tmp/mct-nightly-2.0.0.20240515.434.tar.gz --markdown 20240516/m/mct-nightly/2.0.0.20240514.408-2.0.0.20240515.434/README.md --exclude *.pyd
+[2024-05-16 02:05:11] INFO root fetch - processPackages [onnxscript]: executing diffoscope
+[2024-05-16 02:05:11] INFO root fetch - processPackages [onnxscript]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/onnxscript-0.1.0.dev20240514.tar.gz tmp/onnxscript-0.1.0.dev20240515.tar.gz --markdown 20240516/o/onnxscript/0.1.0.dev20240514-0.1.0.dev20240515/README.md --exclude *.pyd
+[2024-05-16 02:05:12] INFO root fetch - processPackages [jaxkern-nightly]: Remove: archive file [/home/abi/fetcher/tmp/jaxkern-nightly-0.dev20221221.tar.gz]
+[2024-05-16 02:05:12] INFO root fetch - processPackages [jaxkern-nightly]: Remove: archive file [/home/abi/fetcher/tmp/jaxkern-nightly-0.dev20221222.tar.gz]
+[2024-05-16 02:05:12] INFO root fetch - main [MainThread]: End processing [jaxkern-nightly]: success
+[2024-05-16 02:05:12] INFO root fetch - processPackages [PythonToSW]: Remove: archive file [/home/abi/fetcher/tmp/PythonToSW-1.1.1.tar.gz]
+[2024-05-16 02:05:12] INFO root fetch - processPackages [PythonToSW]: Remove: archive file [/home/abi/fetcher/tmp/PythonToSW-1.1.2.tar.gz]
+[2024-05-16 02:05:12] INFO root fetch - main [MainThread]: End processing [PythonToSW]: success
+[2024-05-16 02:05:12] INFO root fetch - processPackages [onnxscript]: Remove: archive file [/home/abi/fetcher/tmp/onnxscript-0.1.0.dev20240514.tar.gz]
+[2024-05-16 02:05:12] INFO root fetch - processPackages [onnxscript]: Remove: archive file [/home/abi/fetcher/tmp/onnxscript-0.1.0.dev20240515.tar.gz]
+[2024-05-16 02:05:12] INFO root fetch - main [MainThread]: End processing [onnxscript]: success
+[2024-05-16 02:05:13] INFO root fetch - processPackages [mct-nightly]: Remove: archive file [/home/abi/fetcher/tmp/mct-nightly-2.0.0.20240514.408.tar.gz]
+[2024-05-16 02:05:13] INFO root fetch - processPackages [mct-nightly]: Remove: archive file [/home/abi/fetcher/tmp/mct-nightly-2.0.0.20240515.434.tar.gz]
+[2024-05-16 02:05:13] INFO root fetch - main [MainThread]: End processing [mct-nightly]: success
+[2024-05-16 02:05:13] INFO root fetch - main [MainThread]: Store serial: [23226614]
