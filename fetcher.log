@@ -20848,3 +20848,101 @@ EOFError: EOF read where object expected
 [2024-05-16 11:09:01] INFO root fetch - processPackages [castor-extractor]: Remove: archive file [/home/abi/fetcher/tmp/castor_extractor-0.9.2.tar.gz]
 [2024-05-16 11:09:01] INFO root fetch - main [MainThread]: End processing [castor-extractor]: success
 [2024-05-16 11:09:01] INFO root fetch - main [MainThread]: Store serial: [23232833]
+[2024-05-16 11:11:05] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23232833]
+[2024-05-16 11:11:10] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2024-05-16 11:11:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: funcs-aux
+[2024-05-16 11:11:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pydeck-grid
+[2024-05-16 11:11:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: alttester-robotframework-library
+[2024-05-16 11:11:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: appmesh
+[2024-05-16 11:11:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: perian
+[2024-05-16 11:11:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: AltTester-Driver
+[2024-05-16 11:11:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: simulated-annealing-variants
+[2024-05-16 11:11:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: odoo14-addon-sale-order-invoice-amount
+[2024-05-16 11:11:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: wheelz-idp-validations
+[2024-05-16 11:11:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: epochalyst
+[2024-05-16 11:11:10] INFO root fetch - processPackages [appmesh]: New version: [1.0.0] Old Version: [0.9.9]
+[2024-05-16 11:11:10] INFO root fetch - processPackages [funcs-aux]: New version: [0.1.4] Old Version: [0.1.3]
+[2024-05-16 11:11:10] INFO root fetch - processPackages [alttester-robotframework-library]: New version: [2.1.0] Old Version: [0.0.1]
+[2024-05-16 11:11:10] INFO root fetch - processPackages [simulated-annealing-variants]: New version: [1.1.8] Old Version: [1.1.7]
+[2024-05-16 11:11:11] INFO root fetch - processPackages [funcs-aux]: Downloading https://files.pythonhosted.org/packages/69/66/b12822fdf4114b4931ed3e551b78765fae59c10e7d6ab1d6386939a339dc/funcs_aux-0.1.3.tar.gz
+[2024-05-16 11:11:11] INFO root fetch - processPackages [pydeck-grid]: New version: [0.4.3] Old Version: [0.4.2]
+[2024-05-16 11:11:11] INFO root fetch - processPackages [perian]: New version: [0.2.0] Old Version: [0.1.25]
+[2024-05-16 11:11:11] INFO root fetch - processPackages [odoo14-addon-sale-order-invoice-amount]: New version: [14.0.1.0.1.dev7] Old Version: [14.0.1.0.1.dev5]
+[2024-05-16 11:11:11] INFO root fetch - processPackages [AltTester-Driver]: New version: [2.1.1] Old Version: [2.1.0]
+[2024-05-16 11:11:11] INFO root fetch - processPackages [epochalyst]: New version: [0.3.3] Old Version: [0.3.2]
+[2024-05-16 11:11:11] INFO root fetch - processPackages [wheelz-idp-validations]: New version: [2.2.5] Old Version: [2.2.4]
+[2024-05-16 11:11:11] INFO root fetch - processPackages [appmesh]: Downloading https://files.pythonhosted.org/packages/fe/7e/858f97ca8ec3b1328fb26196786787d15bf16ccfaf3189893ead3bb31c9f/appmesh-0.9.9-py3-none-any.whl
+[2024-05-16 11:11:11] INFO root fetch - processPackages [alttester-robotframework-library]: Downloading https://files.pythonhosted.org/packages/2a/30/4f673ca18acefaab8a4a814f606fa84cacec6513ca5e19d085a173acefb0/alttester-robotframework-library-0.0.1.tar.gz
+[2024-05-16 11:11:11] INFO root fetch - processPackages [simulated-annealing-variants]: Downloading https://files.pythonhosted.org/packages/0d/5e/e366fb3aca424c20d88bad493f5a5aa0591a65453af5477166018386e92e/simulated_annealing_variants-1.1.7.tar.gz
+[2024-05-16 11:11:11] INFO root fetch - processPackages [epochalyst]: Downloading https://files.pythonhosted.org/packages/46/e8/441178d9be399009c9be5583be393f43a1465b8f9c4d4ae54a4fa7968c87/epochalyst-0.3.2.tar.gz
+[2024-05-16 11:11:11] INFO root fetch - processPackages [funcs-aux]: Downloading https://files.pythonhosted.org/packages/2c/a3/9d54ae514c81e418f81db2ae5359a5fbbbe79c971d83f75d0502b2e41df1/funcs_aux-0.1.4.tar.gz
+[2024-05-16 11:11:11] INFO root fetch - processPackages [perian]: Downloading https://files.pythonhosted.org/packages/88/83/416f7f263d0a62ce154166c5efdadfdbf09d6bc04525ab8ec4c871f4bc56/perian-0.1.25.tar.gz
+[2024-05-16 11:11:11] INFO root fetch - processPackages [odoo14-addon-sale-order-invoice-amount]: Downloading https://files.pythonhosted.org/packages/c3/01/397d8fe76417e1bea32f89ce8b463a7d45c5eacf75e17d344b20f4df94de/odoo14_addon_sale_order_invoice_amount-14.0.1.0.1.dev5-py3-none-any.whl
+[2024-05-16 11:11:11] INFO root fetch - processPackages [wheelz-idp-validations]: Downloading https://files.pythonhosted.org/packages/5f/6a/e57a8df1530456f2a332d119e7aa2bc77bd8094c5991a2b13dc06d78b2d9/wheelz_idp_validations-2.2.4.tar.gz
+[2024-05-16 11:11:11] INFO root fetch - processPackages [AltTester-Driver]: Downloading https://files.pythonhosted.org/packages/c6/87/79f9316270fb56c1f6c49b995be64268d82ab46cd959378a747874c2b60c/alttester_driver-2.1.0.tar.gz
+[2024-05-16 11:11:11] INFO root fetch - processPackages [appmesh]: Downloading https://files.pythonhosted.org/packages/a2/06/ad1f3ad9650581c2288ae4d23737386af065834882a2cb00078dec164a61/appmesh-1.0.0-py3-none-any.whl
+[2024-05-16 11:11:11] INFO root fetch - processPackages [funcs-aux]: executing diffoscope
+[2024-05-16 11:11:11] INFO root fetch - processPackages [funcs-aux]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/funcs_aux-0.1.3.tar.gz tmp/funcs_aux-0.1.4.tar.gz --markdown 20240516/f/funcs-aux/0.1.3-0.1.4/README.md --exclude *.pyd
+[2024-05-16 11:11:11] INFO root fetch - processPackages [pydeck-grid]: Downloading https://files.pythonhosted.org/packages/cd/d2/492da943accef5393e5ed408e7e737a6230f03434fe1ee84beb1c0bbe35f/pydeck-grid-0.4.2.tar.gz
+[2024-05-16 11:11:11] INFO root fetch - processPackages [appmesh]: executing diffoscope
+[2024-05-16 11:11:11] INFO root fetch - processPackages [appmesh]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/appmesh-0.9.9-py3-none-any.whl.zip tmp/appmesh-1.0.0-py3-none-any.whl.zip --markdown 20240516/a/appmesh/0.9.9-1.0.0/README.md --exclude *.pyd
+[2024-05-16 11:11:11] INFO root fetch - processPackages [alttester-robotframework-library]: Downloading https://files.pythonhosted.org/packages/f1/03/ef147641658b4b5371acb67ad64f63d2bf226831edd21eaf00b862991389/alttester_robotframework_library-2.1.0.tar.gz
+[2024-05-16 11:11:11] INFO root fetch - processPackages [simulated-annealing-variants]: Downloading https://files.pythonhosted.org/packages/c5/05/014e0827d4ac3d9bd005967ddcdfd8bf3438e3ea986e617d2137786e0c2b/simulated_annealing_variants-1.1.8.tar.gz
+[2024-05-16 11:11:11] WARNING root fetch - processPackages [pydeck-grid]: Skipping package: exceeds size limit 12175422>=10485760
+[2024-05-16 11:11:11] INFO root fetch - processPackages [pydeck-grid]: Start processing: odoo-addon-sale-stock-picking-blocking
+[2024-05-16 11:11:11] INFO root fetch - main [MainThread]: End processing [pydeck-grid] error
+[2024-05-16 11:11:11] INFO root fetch - processPackages [epochalyst]: Downloading https://files.pythonhosted.org/packages/2e/04/68d7a3a0ab34d2c12c21ae408a5bb16ec86e9580238f50575f2fac9524aa/epochalyst-0.3.3.tar.gz
+[2024-05-16 11:11:11] INFO root fetch - processPackages [wheelz-idp-validations]: Downloading https://files.pythonhosted.org/packages/26/21/fa501a6d5c8def73703d0b95ef759ce08f243d799a7a076d790779ff72ca/wheelz_idp_validations-2.2.5.tar.gz
+[2024-05-16 11:11:11] INFO root fetch - processPackages [perian]: Downloading https://files.pythonhosted.org/packages/cb/08/33eb4e19f7e54fa306423b89a6ac12e9b83133501413ce53dc3d27b20da7/perian-0.2.0.tar.gz
+[2024-05-16 11:11:11] INFO root fetch - processPackages [odoo-addon-sale-stock-picking-blocking]: New version: [17.0.1.0.0.4] Old Version: [17.0.1.0.0.2]
+[2024-05-16 11:11:11] INFO root fetch - processPackages [AltTester-Driver]: Downloading https://files.pythonhosted.org/packages/89/b2/8fdd498396f66a7e7612de7d81212a081f6e731de5b50238973de18119aa/alttester_driver-2.1.1.tar.gz
+[2024-05-16 11:11:11] INFO root fetch - processPackages [alttester-robotframework-library]: executing diffoscope
+[2024-05-16 11:11:11] INFO root fetch - processPackages [alttester-robotframework-library]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alttester-robotframework-library-0.0.1.tar.gz tmp/alttester_robotframework_library-2.1.0.tar.gz --markdown 20240516/a/alttester-robotframework-library/0.0.1-2.1.0/README.md --exclude *.pyd
+[2024-05-16 11:11:11] INFO root fetch - processPackages [odoo14-addon-sale-order-invoice-amount]: Downloading https://files.pythonhosted.org/packages/fe/64/97c4492992e21cc1280359acb134ac49034a160d07179719ca6c95558411/odoo14_addon_sale_order_invoice_amount-14.0.1.0.1.dev7-py3-none-any.whl
+[2024-05-16 11:11:11] INFO root fetch - processPackages [simulated-annealing-variants]: executing diffoscope
+[2024-05-16 11:11:11] INFO root fetch - processPackages [simulated-annealing-variants]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/simulated_annealing_variants-1.1.7.tar.gz tmp/simulated_annealing_variants-1.1.8.tar.gz --markdown 20240516/s/simulated-annealing-variants/1.1.7-1.1.8/README.md --exclude *.pyd
+[2024-05-16 11:11:11] INFO root fetch - processPackages [wheelz-idp-validations]: executing diffoscope
+[2024-05-16 11:11:11] INFO root fetch - processPackages [wheelz-idp-validations]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wheelz_idp_validations-2.2.4.tar.gz tmp/wheelz_idp_validations-2.2.5.tar.gz --markdown 20240516/w/wheelz-idp-validations/2.2.4-2.2.5/README.md --exclude *.pyd
+[2024-05-16 11:11:11] INFO root fetch - processPackages [epochalyst]: executing diffoscope
+[2024-05-16 11:11:11] INFO root fetch - processPackages [epochalyst]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/epochalyst-0.3.2.tar.gz tmp/epochalyst-0.3.3.tar.gz --markdown 20240516/e/epochalyst/0.3.2-0.3.3/README.md --exclude *.pyd
+[2024-05-16 11:11:11] INFO root fetch - processPackages [perian]: executing diffoscope
+[2024-05-16 11:11:11] INFO root fetch - processPackages [perian]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/perian-0.1.25.tar.gz tmp/perian-0.2.0.tar.gz --markdown 20240516/p/perian/0.1.25-0.2.0/README.md --exclude *.pyd
+[2024-05-16 11:11:11] INFO root fetch - processPackages [AltTester-Driver]: executing diffoscope
+[2024-05-16 11:11:11] INFO root fetch - processPackages [AltTester-Driver]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alttester_driver-2.1.0.tar.gz tmp/alttester_driver-2.1.1.tar.gz --markdown 20240516/A/AltTester-Driver/2.1.0-2.1.1/README.md --exclude *.pyd
+[2024-05-16 11:11:11] INFO root fetch - processPackages [odoo-addon-sale-stock-picking-blocking]: Downloading https://files.pythonhosted.org/packages/49/d3/6848d5ebac0431aacc67ccf4cca45543dbb34521696d521abbfa7a6fe10d/odoo_addon_sale_stock_picking_blocking-17.0.1.0.0.2-py3-none-any.whl
+[2024-05-16 11:11:12] INFO root fetch - processPackages [odoo14-addon-sale-order-invoice-amount]: executing diffoscope
+[2024-05-16 11:11:12] INFO root fetch - processPackages [odoo14-addon-sale-order-invoice-amount]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_sale_order_invoice_amount-14.0.1.0.1.dev5-py3-none-any.whl.zip tmp/odoo14_addon_sale_order_invoice_amount-14.0.1.0.1.dev7-py3-none-any.whl.zip --markdown 20240516/o/odoo14-addon-sale-order-invoice-amount/14.0.1.0.1.dev5-14.0.1.0.1.dev7/README.md --exclude *.pyd
+[2024-05-16 11:11:12] INFO root fetch - processPackages [funcs-aux]: Remove: archive file [/home/abi/fetcher/tmp/funcs_aux-0.1.3.tar.gz]
+[2024-05-16 11:11:12] INFO root fetch - processPackages [funcs-aux]: Remove: archive file [/home/abi/fetcher/tmp/funcs_aux-0.1.4.tar.gz]
+[2024-05-16 11:11:12] INFO root fetch - main [MainThread]: End processing [funcs-aux]: success
+[2024-05-16 11:11:12] INFO root fetch - processPackages [appmesh]: Remove: archive file [/home/abi/fetcher/tmp/appmesh-0.9.9-py3-none-any.whl.zip]
+[2024-05-16 11:11:12] INFO root fetch - processPackages [appmesh]: Remove: archive file [/home/abi/fetcher/tmp/appmesh-1.0.0-py3-none-any.whl.zip]
+[2024-05-16 11:11:12] INFO root fetch - main [MainThread]: End processing [appmesh]: success
+[2024-05-16 11:11:12] INFO root fetch - processPackages [odoo-addon-sale-stock-picking-blocking]: Downloading https://files.pythonhosted.org/packages/55/f1/e8cfb336a46a6770147249632890f05d82a97b5738c90b48d097bc62a82b/odoo_addon_sale_stock_picking_blocking-17.0.1.0.0.4-py3-none-any.whl
+[2024-05-16 11:11:12] INFO root fetch - processPackages [odoo-addon-sale-stock-picking-blocking]: executing diffoscope
+[2024-05-16 11:11:12] INFO root fetch - processPackages [odoo-addon-sale-stock-picking-blocking]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_sale_stock_picking_blocking-17.0.1.0.0.2-py3-none-any.whl.zip tmp/odoo_addon_sale_stock_picking_blocking-17.0.1.0.0.4-py3-none-any.whl.zip --markdown 20240516/o/odoo-addon-sale-stock-picking-blocking/17.0.1.0.0.2-17.0.1.0.0.4/README.md --exclude *.pyd
+[2024-05-16 11:11:12] INFO root fetch - processPackages [wheelz-idp-validations]: Remove: archive file [/home/abi/fetcher/tmp/wheelz_idp_validations-2.2.4.tar.gz]
+[2024-05-16 11:11:12] INFO root fetch - processPackages [wheelz-idp-validations]: Remove: archive file [/home/abi/fetcher/tmp/wheelz_idp_validations-2.2.5.tar.gz]
+[2024-05-16 11:11:12] INFO root fetch - main [MainThread]: End processing [wheelz-idp-validations]: success
+[2024-05-16 11:11:12] INFO root fetch - processPackages [simulated-annealing-variants]: Remove: archive file [/home/abi/fetcher/tmp/simulated_annealing_variants-1.1.7.tar.gz]
+[2024-05-16 11:11:12] INFO root fetch - processPackages [simulated-annealing-variants]: Remove: archive file [/home/abi/fetcher/tmp/simulated_annealing_variants-1.1.8.tar.gz]
+[2024-05-16 11:11:12] INFO root fetch - main [MainThread]: End processing [simulated-annealing-variants]: success
+[2024-05-16 11:11:12] INFO root fetch - processPackages [alttester-robotframework-library]: Remove: archive file [/home/abi/fetcher/tmp/alttester-robotframework-library-0.0.1.tar.gz]
+[2024-05-16 11:11:12] INFO root fetch - processPackages [odoo14-addon-sale-order-invoice-amount]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_sale_order_invoice_amount-14.0.1.0.1.dev5-py3-none-any.whl.zip]
+[2024-05-16 11:11:12] INFO root fetch - processPackages [alttester-robotframework-library]: Remove: archive file [/home/abi/fetcher/tmp/alttester_robotframework_library-2.1.0.tar.gz]
+[2024-05-16 11:11:12] INFO root fetch - processPackages [odoo14-addon-sale-order-invoice-amount]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_sale_order_invoice_amount-14.0.1.0.1.dev7-py3-none-any.whl.zip]
+[2024-05-16 11:11:12] INFO root fetch - main [MainThread]: End processing [alttester-robotframework-library]: success
+[2024-05-16 11:11:12] INFO root fetch - main [MainThread]: End processing [odoo14-addon-sale-order-invoice-amount]: success
+[2024-05-16 11:11:12] INFO root fetch - processPackages [epochalyst]: Remove: archive file [/home/abi/fetcher/tmp/epochalyst-0.3.2.tar.gz]
+[2024-05-16 11:11:12] INFO root fetch - processPackages [epochalyst]: Remove: archive file [/home/abi/fetcher/tmp/epochalyst-0.3.3.tar.gz]
+[2024-05-16 11:11:12] INFO root fetch - main [MainThread]: End processing [epochalyst]: success
+[2024-05-16 11:11:13] INFO root fetch - processPackages [AltTester-Driver]: Remove: archive file [/home/abi/fetcher/tmp/alttester_driver-2.1.0.tar.gz]
+[2024-05-16 11:11:13] INFO root fetch - processPackages [AltTester-Driver]: Remove: archive file [/home/abi/fetcher/tmp/alttester_driver-2.1.1.tar.gz]
+[2024-05-16 11:11:13] INFO root fetch - main [MainThread]: End processing [AltTester-Driver]: success
+[2024-05-16 11:11:13] INFO root fetch - processPackages [odoo-addon-sale-stock-picking-blocking]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_sale_stock_picking_blocking-17.0.1.0.0.2-py3-none-any.whl.zip]
+[2024-05-16 11:11:13] INFO root fetch - processPackages [odoo-addon-sale-stock-picking-blocking]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_sale_stock_picking_blocking-17.0.1.0.0.4-py3-none-any.whl.zip]
+[2024-05-16 11:11:13] INFO root fetch - main [MainThread]: End processing [odoo-addon-sale-stock-picking-blocking]: success
+[2024-05-16 11:11:14] INFO root fetch - processPackages [perian]: Remove: archive file [/home/abi/fetcher/tmp/perian-0.1.25.tar.gz]
+[2024-05-16 11:11:14] INFO root fetch - processPackages [perian]: Remove: archive file [/home/abi/fetcher/tmp/perian-0.2.0.tar.gz]
+[2024-05-16 11:11:14] INFO root fetch - main [MainThread]: End processing [perian]: success
+[2024-05-16 11:11:14] INFO root fetch - main [MainThread]: Store serial: [23232864]
