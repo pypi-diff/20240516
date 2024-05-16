@@ -9451,3 +9451,51 @@ EOFError: EOF read where object expected
 [2024-05-16 04:24:01] INFO root fetch - processPackages [ipex-llm]: Remove: archive file [/home/abi/fetcher/tmp/ipex_llm-2.1.0b20240515-py3-none-win_amd64.whl.zip]
 [2024-05-16 04:24:01] INFO root fetch - main [MainThread]: End processing [ipex-llm]: success
 [2024-05-16 04:24:01] INFO root fetch - main [MainThread]: Store serial: [23228682]
+[2024-05-16 04:26:11] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23228682]
+[2024-05-16 04:26:16] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-16 04:26:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: PypiInstruments
+[2024-05-16 04:26:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: iam-actions
+[2024-05-16 04:26:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: html2object
+[2024-05-16 04:26:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: RegScale-CLI
+[2024-05-16 04:26:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: naif-eop-high-prec
+[2024-05-16 04:26:16] INFO root fetch - processPackages [PypiInstruments]: New version: [1.0.9] Old Version: [1.0.7]
+[2024-05-16 04:26:16] INFO root fetch - processPackages [html2object]: New version: [0.1.4] Old Version: [0.1.3]
+[2024-05-16 04:26:16] INFO root fetch - processPackages [iam-actions]: New version: [1.2.20240515] Old Version: [1.2.20240514]
+[2024-05-16 04:26:16] INFO root fetch - processPackages [PypiInstruments]: Downloading https://files.pythonhosted.org/packages/1c/71/b2f993061d51bbd7eae2d6ad8493b9a09ec7f42e42cb40f9c781a68196a9/PypiInstruments-1.0.7.tar.gz
+[2024-05-16 04:26:16] INFO root fetch - processPackages [html2object]: Downloading https://files.pythonhosted.org/packages/99/4e/75a316af2dbdf6c7318fd62143f09a73fc1a3ab034166f2d90d04ceedccf/html2object-0.1.3.tar.gz
+[2024-05-16 04:26:16] INFO root fetch - processPackages [RegScale-CLI]: New version: [5.9.0] Old Version: [5.8.0]
+[2024-05-16 04:26:16] INFO root fetch - processPackages [iam-actions]: Downloading https://files.pythonhosted.org/packages/a6/92/63f0127f13b64aafe56e3a2e74482f2791e3fb8e667c7470eca791775b51/iam_actions-1.2.20240514.tar.gz
+[2024-05-16 04:26:17] INFO root fetch - processPackages [naif-eop-high-prec]: New version: [2024.5.16] Old Version: [2024.2.9]
+[2024-05-16 04:26:17] INFO root fetch - processPackages [PypiInstruments]: Downloading https://files.pythonhosted.org/packages/7d/e4/97f65dff822ee8a319d7b3cc947b134b38c2e966128e7f12939e9102bd0d/PypiInstruments-1.0.9.tar.gz
+[2024-05-16 04:26:17] INFO root fetch - processPackages [RegScale-CLI]: Downloading https://files.pythonhosted.org/packages/2b/3f/878438fa28f5ffd3c38125c73b4b234937896776bf6f52a64031c5602a30/RegScale_CLI-5.8.0-py3-none-any.whl
+[2024-05-16 04:26:17] INFO root fetch - processPackages [naif-eop-high-prec]: Downloading https://files.pythonhosted.org/packages/e1/59/e3a6830edaba8186c7efa9572180066dd630288b9f582886ff1128f69c87/naif_eop_high_prec-2024.2.9.tar.gz
+[2024-05-16 04:26:17] INFO root fetch - processPackages [PypiInstruments]: executing diffoscope
+[2024-05-16 04:26:17] INFO root fetch - processPackages [PypiInstruments]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PypiInstruments-1.0.7.tar.gz tmp/PypiInstruments-1.0.9.tar.gz --markdown 20240516/P/PypiInstruments/1.0.7-1.0.9/README.md --exclude *.pyd
+[2024-05-16 04:26:17] INFO root fetch - processPackages [html2object]: Downloading https://files.pythonhosted.org/packages/cd/08/008242f71fda43b3539ee0472c4721734a7b3be6b7176930f3a65de5538a/html2object-0.1.4.tar.gz
+[2024-05-16 04:26:17] INFO root fetch - processPackages [iam-actions]: Downloading https://files.pythonhosted.org/packages/c7/15/421724d6f77022255ad3e2da7142bf007818b017794c1693c6bf2021f6a0/iam_actions-1.2.20240515.tar.gz
+[2024-05-16 04:26:17] INFO root fetch - processPackages [html2object]: executing diffoscope
+[2024-05-16 04:26:17] INFO root fetch - processPackages [html2object]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/html2object-0.1.3.tar.gz tmp/html2object-0.1.4.tar.gz --markdown 20240516/h/html2object/0.1.3-0.1.4/README.md --exclude *.pyd
+[2024-05-16 04:26:17] INFO root fetch - processPackages [iam-actions]: executing diffoscope
+[2024-05-16 04:26:17] INFO root fetch - processPackages [iam-actions]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/iam_actions-1.2.20240514.tar.gz tmp/iam_actions-1.2.20240515.tar.gz --markdown 20240516/i/iam-actions/1.2.20240514-1.2.20240515/README.md --exclude *.pyd
+[2024-05-16 04:26:17] INFO root fetch - processPackages [RegScale-CLI]: Downloading https://files.pythonhosted.org/packages/81/07/778978d646b2a15a81f5db8b7ec76ce6f41543e491b67f82cc41051e8332/RegScale_CLI-5.9.0-py3-none-any.whl
+[2024-05-16 04:26:17] INFO root fetch - processPackages [RegScale-CLI]: executing diffoscope
+[2024-05-16 04:26:17] INFO root fetch - processPackages [RegScale-CLI]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/RegScale_CLI-5.8.0-py3-none-any.whl.zip tmp/RegScale_CLI-5.9.0-py3-none-any.whl.zip --markdown 20240516/R/RegScale-CLI/5.8.0-5.9.0/README.md --exclude *.pyd
+[2024-05-16 04:26:17] INFO root fetch - processPackages [PypiInstruments]: Remove: archive file [/home/abi/fetcher/tmp/PypiInstruments-1.0.7.tar.gz]
+[2024-05-16 04:26:17] INFO root fetch - processPackages [PypiInstruments]: Remove: archive file [/home/abi/fetcher/tmp/PypiInstruments-1.0.9.tar.gz]
+[2024-05-16 04:26:17] INFO root fetch - main [MainThread]: End processing [PypiInstruments]: success
+[2024-05-16 04:26:18] INFO root fetch - processPackages [html2object]: Remove: archive file [/home/abi/fetcher/tmp/html2object-0.1.3.tar.gz]
+[2024-05-16 04:26:18] INFO root fetch - processPackages [html2object]: Remove: archive file [/home/abi/fetcher/tmp/html2object-0.1.4.tar.gz]
+[2024-05-16 04:26:18] INFO root fetch - main [MainThread]: End processing [html2object]: success
+[2024-05-16 04:26:18] INFO root fetch - processPackages [naif-eop-high-prec]: Downloading https://files.pythonhosted.org/packages/7e/73/954b9ff0054199abad8d7ccaa691b9e4d3c02ca146d1e7b4f984f9b99578/naif_eop_high_prec-2024.5.16.tar.gz
+[2024-05-16 04:26:18] INFO root fetch - processPackages [naif-eop-high-prec]: executing diffoscope
+[2024-05-16 04:26:18] INFO root fetch - processPackages [naif-eop-high-prec]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/naif_eop_high_prec-2024.2.9.tar.gz tmp/naif_eop_high_prec-2024.5.16.tar.gz --markdown 20240516/n/naif-eop-high-prec/2024.2.9-2024.5.16/README.md --exclude *.pyd
+[2024-05-16 04:26:18] INFO root fetch - processPackages [RegScale-CLI]: Remove: archive file [/home/abi/fetcher/tmp/RegScale_CLI-5.8.0-py3-none-any.whl.zip]
+[2024-05-16 04:26:18] INFO root fetch - processPackages [RegScale-CLI]: Remove: archive file [/home/abi/fetcher/tmp/RegScale_CLI-5.9.0-py3-none-any.whl.zip]
+[2024-05-16 04:26:18] INFO root fetch - main [MainThread]: End processing [RegScale-CLI]: success
+[2024-05-16 04:26:22] INFO root fetch - processPackages [naif-eop-high-prec]: Remove: archive file [/home/abi/fetcher/tmp/naif_eop_high_prec-2024.2.9.tar.gz]
+[2024-05-16 04:26:22] INFO root fetch - processPackages [naif-eop-high-prec]: Remove: archive file [/home/abi/fetcher/tmp/naif_eop_high_prec-2024.5.16.tar.gz]
+[2024-05-16 04:26:22] INFO root fetch - main [MainThread]: End processing [naif-eop-high-prec]: success
+[2024-05-16 04:26:22] INFO root fetch - processPackages [iam-actions]: Remove: archive file [/home/abi/fetcher/tmp/iam_actions-1.2.20240514.tar.gz]
+[2024-05-16 04:26:22] INFO root fetch - processPackages [iam-actions]: Remove: archive file [/home/abi/fetcher/tmp/iam_actions-1.2.20240515.tar.gz]
+[2024-05-16 04:26:22] INFO root fetch - main [MainThread]: End processing [iam-actions]: success
+[2024-05-16 04:26:22] INFO root fetch - main [MainThread]: Store serial: [23228698]
