@@ -10915,3 +10915,62 @@ EOFError: EOF read where object expected
 [2024-05-16 06:04:07] WARNING root fetch - processPackages [warranted]: Skipping, unable to determine old version
 [2024-05-16 06:04:07] INFO root fetch - main [MainThread]: End processing [warranted] error
 [2024-05-16 06:04:07] INFO root fetch - main [MainThread]: Store serial: [23229253]
+[2024-05-16 06:06:10] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23229253]
+[2024-05-16 06:06:15] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-05-16 06:06:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: wuji
+[2024-05-16 06:06:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: django-pint-field
+[2024-05-16 06:06:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: httpx_request
+[2024-05-16 06:06:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: odoo-addon-dms
+[2024-05-16 06:06:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: chromedriver-binary
+[2024-05-16 06:06:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: w3ml
+[2024-05-16 06:06:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: odoo-addon-dms-auto-classification
+[2024-05-16 06:06:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: requests_request
+[2024-05-16 06:06:16] INFO root fetch - processPackages [django-pint-field]: New version: [0.3.5] Old Version: [0.3.4]
+[2024-05-16 06:06:16] INFO root fetch - processPackages [w3ml]: New version: [2024.5.16rc3] Old Version: [2024.5.16rc2]
+[2024-05-16 06:06:16] WARNING root fetch - processPackages [httpx_request]: Skipping, unable to determine old version
+[2024-05-16 06:06:16] INFO root fetch - main [MainThread]: End processing [httpx_request] error
+[2024-05-16 06:06:16] INFO root fetch - processPackages [wuji]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-16 06:06:16] INFO root fetch - processPackages [chromedriver-binary]: New version: [99.0.4844.51.0] Old Version: [99.0.4844.35.0]
+[2024-05-16 06:06:16] INFO root fetch - processPackages [django-pint-field]: Downloading https://files.pythonhosted.org/packages/1d/8c/4a1091fc125a650d0417f73004c653b2166881b49aa9bffcfd959575bd95/django_pint_field-0.3.4.tar.gz
+[2024-05-16 06:06:16] INFO root fetch - processPackages [odoo-addon-dms]: New version: [16.0.1.6.1.15] Old Version: [16.0.1.6.1.13]
+[2024-05-16 06:06:16] INFO root fetch - processPackages [w3ml]: Downloading https://files.pythonhosted.org/packages/bc/72/d360189931036894280f00c62da9520a23bb49e469ffe67df31bc68a2016/w3ml-2024.5.16rc2.tar.gz
+[2024-05-16 06:06:16] INFO root fetch - processPackages [wuji]: Downloading https://files.pythonhosted.org/packages/7f/a5/067714c60d82e31644f08965bc491148a770edf8b5a2ed909a3d3627a247/wuji-0.1.8.tar.gz
+[2024-05-16 06:06:16] INFO root fetch - processPackages [odoo-addon-dms-auto-classification]: New version: [16.0.1.1.0.2] Old Version: [16.0.1.1.0.1]
+[2024-05-16 06:06:16] WARNING root fetch - processPackages [requests_request]: Skipping, unable to determine old version
+[2024-05-16 06:06:16] INFO root fetch - main [MainThread]: End processing [requests_request] error
+[2024-05-16 06:06:16] INFO root fetch - processPackages [chromedriver-binary]: Downloading https://files.pythonhosted.org/packages/50/a2/f36a3d2f2aa37ccc496e5f81d594f06e3965b836712da14b4b01d2f05ca8/chromedriver-binary-99.0.4844.35.0.tar.gz
+[2024-05-16 06:06:16] INFO root fetch - processPackages [odoo-addon-dms]: Downloading https://files.pythonhosted.org/packages/61/55/2b694edc0df39bfd6e35344bdafc1ef247719a1a11dc8afdbb1066cb0f7d/odoo_addon_dms-16.0.1.6.1.13-py3-none-any.whl
+[2024-05-16 06:06:16] INFO root fetch - processPackages [wuji]: Downloading https://files.pythonhosted.org/packages/37/42/5e0fc5d99c438cf34f2143a438ca55e1270222dcc0d26563943396cd948d/wuji-0.1.9.tar.gz
+[2024-05-16 06:06:16] INFO root fetch - processPackages [odoo-addon-dms-auto-classification]: Downloading https://files.pythonhosted.org/packages/6f/56/7b7fda04207bad4e549e21c0ef56d17e641863f43e23d236bd9b28d489ca/odoo_addon_dms_auto_classification-16.0.1.1.0.1-py3-none-any.whl
+[2024-05-16 06:06:16] WARNING root fetch - processPackages [odoo-addon-dms]: Skipping package: exceeds size limit 15664756>=10485760
+[2024-05-16 06:06:16] INFO root fetch - main [MainThread]: End processing [odoo-addon-dms] error
+[2024-05-16 06:06:16] INFO root fetch - processPackages [django-pint-field]: Downloading https://files.pythonhosted.org/packages/1a/6a/6e9b1835b81e77eb36036515d1e6caaa45b91744e8e00281117d7bcfbe04/django_pint_field-0.3.5.tar.gz
+[2024-05-16 06:06:16] INFO root fetch - processPackages [w3ml]: Downloading https://files.pythonhosted.org/packages/c8/9f/0ba5c7962ebbadd2ec616c12d13520ff19d5a27b15276926139685920d0e/w3ml-2024.5.16rc3.tar.gz
+[2024-05-16 06:06:16] INFO root fetch - processPackages [chromedriver-binary]: Downloading https://files.pythonhosted.org/packages/d9/eb/3bd2a308b9e6f7441fbed7b759578bddade2cb983bb4ffe7fc3777863314/chromedriver-binary-99.0.4844.51.0.tar.gz
+[2024-05-16 06:06:16] INFO root fetch - processPackages [wuji]: executing diffoscope
+[2024-05-16 06:06:16] INFO root fetch - processPackages [wuji]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wuji-0.1.8.tar.gz tmp/wuji-0.1.9.tar.gz --markdown 20240516/w/wuji/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-16 06:06:16] INFO root fetch - processPackages [django-pint-field]: executing diffoscope
+[2024-05-16 06:06:16] INFO root fetch - processPackages [django-pint-field]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django_pint_field-0.3.4.tar.gz tmp/django_pint_field-0.3.5.tar.gz --markdown 20240516/d/django-pint-field/0.3.4-0.3.5/README.md --exclude *.pyd
+[2024-05-16 06:06:16] INFO root fetch - processPackages [chromedriver-binary]: executing diffoscope
+[2024-05-16 06:06:16] INFO root fetch - processPackages [chromedriver-binary]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chromedriver-binary-99.0.4844.35.0.tar.gz tmp/chromedriver-binary-99.0.4844.51.0.tar.gz --markdown 20240516/c/chromedriver-binary/99.0.4844.35.0-99.0.4844.51.0/README.md --exclude *.pyd
+[2024-05-16 06:06:16] INFO root fetch - processPackages [w3ml]: executing diffoscope
+[2024-05-16 06:06:16] INFO root fetch - processPackages [w3ml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/w3ml-2024.5.16rc2.tar.gz tmp/w3ml-2024.5.16rc3.tar.gz --markdown 20240516/w/w3ml/2024.5.16rc2-2024.5.16rc3/README.md --exclude *.pyd
+[2024-05-16 06:06:16] INFO root fetch - processPackages [odoo-addon-dms-auto-classification]: Downloading https://files.pythonhosted.org/packages/3f/30/084b6901bcaeb421468634297102700214020eb869649f5f0666fd0d4892/odoo_addon_dms_auto_classification-16.0.1.1.0.2-py3-none-any.whl
+[2024-05-16 06:06:16] INFO root fetch - processPackages [odoo-addon-dms-auto-classification]: executing diffoscope
+[2024-05-16 06:06:16] INFO root fetch - processPackages [odoo-addon-dms-auto-classification]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_dms_auto_classification-16.0.1.1.0.1-py3-none-any.whl.zip tmp/odoo_addon_dms_auto_classification-16.0.1.1.0.2-py3-none-any.whl.zip --markdown 20240516/o/odoo-addon-dms-auto-classification/16.0.1.1.0.1-16.0.1.1.0.2/README.md --exclude *.pyd
+[2024-05-16 06:06:17] INFO root fetch - processPackages [chromedriver-binary]: Remove: archive file [/home/abi/fetcher/tmp/chromedriver-binary-99.0.4844.35.0.tar.gz]
+[2024-05-16 06:06:17] INFO root fetch - processPackages [chromedriver-binary]: Remove: archive file [/home/abi/fetcher/tmp/chromedriver-binary-99.0.4844.51.0.tar.gz]
+[2024-05-16 06:06:17] INFO root fetch - main [MainThread]: End processing [chromedriver-binary]: success
+[2024-05-16 06:06:17] INFO root fetch - processPackages [w3ml]: Remove: archive file [/home/abi/fetcher/tmp/w3ml-2024.5.16rc2.tar.gz]
+[2024-05-16 06:06:17] INFO root fetch - processPackages [w3ml]: Remove: archive file [/home/abi/fetcher/tmp/w3ml-2024.5.16rc3.tar.gz]
+[2024-05-16 06:06:17] INFO root fetch - main [MainThread]: End processing [w3ml]: success
+[2024-05-16 06:06:17] INFO root fetch - processPackages [wuji]: Remove: archive file [/home/abi/fetcher/tmp/wuji-0.1.8.tar.gz]
+[2024-05-16 06:06:17] INFO root fetch - processPackages [wuji]: Remove: archive file [/home/abi/fetcher/tmp/wuji-0.1.9.tar.gz]
+[2024-05-16 06:06:17] INFO root fetch - main [MainThread]: End processing [wuji]: success
+[2024-05-16 06:06:17] INFO root fetch - processPackages [django-pint-field]: Remove: archive file [/home/abi/fetcher/tmp/django_pint_field-0.3.4.tar.gz]
+[2024-05-16 06:06:17] INFO root fetch - processPackages [django-pint-field]: Remove: archive file [/home/abi/fetcher/tmp/django_pint_field-0.3.5.tar.gz]
+[2024-05-16 06:06:17] INFO root fetch - main [MainThread]: End processing [django-pint-field]: success
+[2024-05-16 06:06:17] INFO root fetch - processPackages [odoo-addon-dms-auto-classification]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_dms_auto_classification-16.0.1.1.0.1-py3-none-any.whl.zip]
+[2024-05-16 06:06:17] INFO root fetch - processPackages [odoo-addon-dms-auto-classification]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_dms_auto_classification-16.0.1.1.0.2-py3-none-any.whl.zip]
+[2024-05-16 06:06:17] INFO root fetch - main [MainThread]: End processing [odoo-addon-dms-auto-classification]: success
+[2024-05-16 06:06:17] INFO root fetch - main [MainThread]: Store serial: [23229272]
