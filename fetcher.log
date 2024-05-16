@@ -4869,3 +4869,32 @@ AssertionError: tmp/hygpytools-0.2.0.tar.gz does not exist
 [2024-05-16 02:56:25] INFO root fetch - processPackages [streamlit-screen-stats]: Remove: archive file [/home/abi/fetcher/tmp/streamlit-screen-stats-0.0.9.tar.gz]
 [2024-05-16 02:56:25] INFO root fetch - main [MainThread]: End processing [streamlit-screen-stats]: success
 [2024-05-16 02:56:25] INFO root fetch - main [MainThread]: Store serial: [23227078]
+[2024-05-16 02:58:30] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23227078]
+[2024-05-16 02:58:35] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-16 02:58:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pycde
+[2024-05-16 02:58:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pih-mio
+[2024-05-16 02:58:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: onepm
+[2024-05-16 02:58:35] INFO root fetch - processPackages [pycde]: New version: [0.3.1.dev989] Old Version: [0.3.1.dev983]
+[2024-05-16 02:58:35] INFO root fetch - processPackages [onepm]: New version: [24.1.2] Old Version: [24.1.1]
+[2024-05-16 02:58:35] INFO root fetch - processPackages [pih-mio]: New version: [0.29.8] Old Version: [0.29.5]
+[2024-05-16 02:58:35] INFO root fetch - processPackages [onepm]: Downloading https://files.pythonhosted.org/packages/58/12/98caff0e15e92b41bf9344ba41972e266268208acbfd2720b174fa5d636f/onepm-24.1.1.tar.gz
+[2024-05-16 02:58:35] INFO root fetch - processPackages [pih-mio]: Downloading https://files.pythonhosted.org/packages/05/57/1ff42c500cb39bc674f64d097b9d9d6a10e0195f493ec0146bec421c6ee6/pih-mio-0.29.5.tar.gz
+[2024-05-16 02:58:35] INFO root fetch - processPackages [pycde]: Downloading https://files.pythonhosted.org/packages/a1/40/adb2c1e8f8ff5f10258691b88b10dabeaafd037af1cad5e9ac7582690313/pycde-0.3.1.dev989-cp39-cp39-win_amd64.whl
+[2024-05-16 02:58:36] INFO root fetch - processPackages [pih-mio]: Downloading https://files.pythonhosted.org/packages/bd/de/094405b5fc1147c1cc271aa92ff3158a17a628ffa1e0a549b4036bd85848/pih-mio-0.29.8.tar.gz
+[2024-05-16 02:58:36] INFO root fetch - processPackages [onepm]: Downloading https://files.pythonhosted.org/packages/a6/2f/eaff67a97da79fd9f385da4a6c6fe2769479fc58ca549cbf118bad4db2f5/onepm-24.1.2.tar.gz
+[2024-05-16 02:58:36] INFO root fetch - processPackages [pih-mio]: executing diffoscope
+[2024-05-16 02:58:36] INFO root fetch - processPackages [pih-mio]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pih-mio-0.29.5.tar.gz tmp/pih-mio-0.29.8.tar.gz --markdown 20240516/p/pih-mio/0.29.5-0.29.8/README.md --exclude *.pyd
+[2024-05-16 02:58:36] INFO root fetch - processPackages [onepm]: executing diffoscope
+[2024-05-16 02:58:36] INFO root fetch - processPackages [onepm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/onepm-24.1.1.tar.gz tmp/onepm-24.1.2.tar.gz --markdown 20240516/o/onepm/24.1.1-24.1.2/README.md --exclude *.pyd
+[2024-05-16 02:58:36] INFO root fetch - processPackages [pycde]: executing diffoscope
+[2024-05-16 02:58:36] INFO root fetch - processPackages [pycde]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pycde-0.3.1.dev983-cp39-cp39-win_amd64.whl.zip tmp/pycde-0.3.1.dev989-cp39-cp39-win_amd64.whl.zip --markdown 20240516/p/pycde/0.3.1.dev983-0.3.1.dev989/README.md --exclude *.pyd
+[2024-05-16 02:58:36] INFO root fetch - processPackages [onepm]: Remove: archive file [/home/abi/fetcher/tmp/onepm-24.1.1.tar.gz]
+[2024-05-16 02:58:36] INFO root fetch - processPackages [onepm]: Remove: archive file [/home/abi/fetcher/tmp/onepm-24.1.2.tar.gz]
+[2024-05-16 02:58:36] INFO root fetch - main [MainThread]: End processing [onepm]: success
+[2024-05-16 02:58:36] INFO root fetch - processPackages [pih-mio]: Remove: archive file [/home/abi/fetcher/tmp/pih-mio-0.29.5.tar.gz]
+[2024-05-16 02:58:36] INFO root fetch - processPackages [pih-mio]: Remove: archive file [/home/abi/fetcher/tmp/pih-mio-0.29.8.tar.gz]
+[2024-05-16 02:58:36] INFO root fetch - main [MainThread]: End processing [pih-mio]: success
+[2024-05-16 02:59:46] INFO root fetch - processPackages [pycde]: Remove: archive file [/home/abi/fetcher/tmp/pycde-0.3.1.dev983-cp39-cp39-win_amd64.whl.zip]
+[2024-05-16 02:59:46] INFO root fetch - processPackages [pycde]: Remove: archive file [/home/abi/fetcher/tmp/pycde-0.3.1.dev989-cp39-cp39-win_amd64.whl.zip]
+[2024-05-16 02:59:46] INFO root fetch - main [MainThread]: End processing [pycde]: success
+[2024-05-16 02:59:46] INFO root fetch - main [MainThread]: Store serial: [23227089]
