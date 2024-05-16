@@ -10370,3 +10370,24 @@ EOFError: EOF read where object expected
 [2024-05-16 05:24:46] INFO root fetch - processPackages [vesselasid]: Remove: archive file [/home/abi/fetcher/tmp/vesselasid-1.0.9.tar.gz]
 [2024-05-16 05:24:46] INFO root fetch - main [MainThread]: End processing [vesselasid]: success
 [2024-05-16 05:24:46] INFO root fetch - main [MainThread]: Store serial: [23229039]
+[2024-05-16 05:26:52] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23229039]
+[2024-05-16 05:26:56] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-16 05:26:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: qb-parser
+[2024-05-16 05:26:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: aind-exaspim-pipeline-utils
+[2024-05-16 05:26:56] INFO root fetch - processPackages [qb-parser]: New version: [0.1.2] Old Version: [0.1.1]
+[2024-05-16 05:26:56] INFO root fetch - processPackages [qb-parser]: Downloading https://files.pythonhosted.org/packages/7b/26/d3a1f75cc07e313ce0c5651ae47821e3cb5b7838fe406b9603fc7e8ee63d/qb_parser-0.1.1.tar.gz
+[2024-05-16 05:26:56] INFO root fetch - processPackages [aind-exaspim-pipeline-utils]: New version: [0.8.3] Old Version: [0.8.2]
+[2024-05-16 05:26:57] INFO root fetch - processPackages [qb-parser]: Downloading https://files.pythonhosted.org/packages/6b/b3/3ef5ca944ce82b36e872be7ff007b72cf9b56356d348e527550ed72198de/qb_parser-0.1.2.tar.gz
+[2024-05-16 05:26:57] INFO root fetch - processPackages [aind-exaspim-pipeline-utils]: Downloading https://files.pythonhosted.org/packages/0f/1b/0ed7bda35b655df984bfb29446b7ddd62ce38828923cef4e162f285150f9/aind_exaspim_pipeline_utils-0.8.2.tar.gz
+[2024-05-16 05:26:57] INFO root fetch - processPackages [qb-parser]: executing diffoscope
+[2024-05-16 05:26:57] INFO root fetch - processPackages [qb-parser]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qb_parser-0.1.1.tar.gz tmp/qb_parser-0.1.2.tar.gz --markdown 20240516/q/qb-parser/0.1.1-0.1.2/README.md --exclude *.pyd
+[2024-05-16 05:26:57] INFO root fetch - processPackages [aind-exaspim-pipeline-utils]: Downloading https://files.pythonhosted.org/packages/10/2c/5b3774411a0f43ab224714982aa97b16dab938d7cf6f3cfbed99ab83212f/aind_exaspim_pipeline_utils-0.8.3.tar.gz
+[2024-05-16 05:26:57] INFO root fetch - processPackages [aind-exaspim-pipeline-utils]: executing diffoscope
+[2024-05-16 05:26:57] INFO root fetch - processPackages [aind-exaspim-pipeline-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aind_exaspim_pipeline_utils-0.8.2.tar.gz tmp/aind_exaspim_pipeline_utils-0.8.3.tar.gz --markdown 20240516/a/aind-exaspim-pipeline-utils/0.8.2-0.8.3/README.md --exclude *.pyd
+[2024-05-16 05:26:57] INFO root fetch - processPackages [qb-parser]: Remove: archive file [/home/abi/fetcher/tmp/qb_parser-0.1.1.tar.gz]
+[2024-05-16 05:26:57] INFO root fetch - processPackages [qb-parser]: Remove: archive file [/home/abi/fetcher/tmp/qb_parser-0.1.2.tar.gz]
+[2024-05-16 05:26:57] INFO root fetch - main [MainThread]: End processing [qb-parser]: success
+[2024-05-16 05:26:58] INFO root fetch - processPackages [aind-exaspim-pipeline-utils]: Remove: archive file [/home/abi/fetcher/tmp/aind_exaspim_pipeline_utils-0.8.2.tar.gz]
+[2024-05-16 05:26:58] INFO root fetch - processPackages [aind-exaspim-pipeline-utils]: Remove: archive file [/home/abi/fetcher/tmp/aind_exaspim_pipeline_utils-0.8.3.tar.gz]
+[2024-05-16 05:26:58] INFO root fetch - main [MainThread]: End processing [aind-exaspim-pipeline-utils]: success
+[2024-05-16 05:26:58] INFO root fetch - main [MainThread]: Store serial: [23229045]
