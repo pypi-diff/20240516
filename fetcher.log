@@ -18485,3 +18485,58 @@ EOFError: EOF read where object expected
 [2024-05-16 10:47:16] INFO root fetch - processPackages [seeq]: Remove: archive file [/home/abi/fetcher/tmp/seeq-65.0.2.tar.gz]
 [2024-05-16 10:47:16] INFO root fetch - main [MainThread]: End processing [seeq]: success
 [2024-05-16 10:47:16] INFO root fetch - main [MainThread]: Store serial: [23232179]
+[2024-05-16 10:49:20] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23232179]
+[2024-05-16 10:49:25] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-16 10:49:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: aws-ssm-juggle
+[2024-05-16 10:49:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: upstash-ratelimit
+[2024-05-16 10:49:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: eodc-faas-openeo
+[2024-05-16 10:49:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: sparrowTools
+[2024-05-16 10:49:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: julearn
+[2024-05-16 10:49:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: BlurGenerator
+[2024-05-16 10:49:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: web3client
+[2024-05-16 10:49:25] INFO root fetch - processPackages [upstash-ratelimit]: New version: [1.0.0] Old Version: [0.5.1]
+[2024-05-16 10:49:25] INFO root fetch - processPackages [julearn]: New version: [0.3.3.dev8] Old Version: [0.3.3.dev4]
+[2024-05-16 10:49:25] INFO root fetch - processPackages [web3client]: New version: [1.3.9] Old Version: [1.3.8]
+[2024-05-16 10:49:25] INFO root fetch - processPackages [eodc-faas-openeo]: New version: [2024.5.9] Old Version: [2024.5.8]
+[2024-05-16 10:49:25] INFO root fetch - processPackages [BlurGenerator]: New version: [1.1.0] Old Version: [1.0.4]
+[2024-05-16 10:49:25] INFO root fetch - processPackages [julearn]: Downloading https://files.pythonhosted.org/packages/b1/e1/2c8e747a76ef868f1b6ea5714cbf984d8ac45db77ebbd3af0f1605361054/julearn-0.3.3.dev4.tar.gz
+[2024-05-16 10:49:25] INFO root fetch - processPackages [aws-ssm-juggle]: New version: [24.5.4] Old Version: [24.5.3]
+[2024-05-16 10:49:25] WARNING root fetch - processPackages [sparrowTools]: Skipping, unable to determine old version
+[2024-05-16 10:49:25] INFO root fetch - main [MainThread]: End processing [sparrowTools] error
+[2024-05-16 10:49:25] INFO root fetch - processPackages [eodc-faas-openeo]: Downloading https://files.pythonhosted.org/packages/ca/be/0cac445d65820cd08e905a2a081f566a22c846175ec54bf2dcb1d760fd54/eodc_faas_openeo-2024.5.8.tar.gz
+[2024-05-16 10:49:25] INFO root fetch - processPackages [upstash-ratelimit]: Downloading https://files.pythonhosted.org/packages/ae/f9/607fed068dcf6557e1cc200e9a6a745a012dac9a78d0d667f86395d3fe24/upstash_ratelimit-0.5.1.tar.gz
+[2024-05-16 10:49:25] INFO root fetch - processPackages [web3client]: Downloading https://files.pythonhosted.org/packages/bf/f3/536423ddc7d36b39e5a781869ca8136f08307285563a3d98d99af14c227f/web3client-1.3.8.tar.gz
+[2024-05-16 10:49:25] INFO root fetch - processPackages [BlurGenerator]: Downloading https://files.pythonhosted.org/packages/bb/fe/905fc32b5ec94774a19e08b5a27c015298a29af25c17b30fe815c5655252/BlurGenerator-1.0.4.tar.gz
+[2024-05-16 10:49:25] INFO root fetch - processPackages [aws-ssm-juggle]: Downloading https://files.pythonhosted.org/packages/ba/24/42dfbf5595909b1d4dab42ef25bb731eb18e53bd7c79d4413bd850acfea5/aws_ssm_juggle-24.5.3.tar.gz
+[2024-05-16 10:49:25] INFO root fetch - processPackages [eodc-faas-openeo]: Downloading https://files.pythonhosted.org/packages/70/a2/67861a0850781907e58d3018eb24cc9a315713ff6b39c0d686305dfc2295/eodc_faas_openeo-2024.5.9.tar.gz
+[2024-05-16 10:49:25] WARNING root fetch - processPackages [BlurGenerator]: Skipping package: exceeds size limit 19102691>=10485760
+[2024-05-16 10:49:25] INFO root fetch - main [MainThread]: End processing [BlurGenerator] error
+[2024-05-16 10:49:25] INFO root fetch - processPackages [julearn]: Downloading https://files.pythonhosted.org/packages/0d/f9/915966a039e9a791dae631c8ffab39898ee611523cfd2938e2f72d89314a/julearn-0.3.3.dev8.tar.gz
+[2024-05-16 10:49:26] INFO root fetch - processPackages [eodc-faas-openeo]: executing diffoscope
+[2024-05-16 10:49:26] INFO root fetch - processPackages [eodc-faas-openeo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eodc_faas_openeo-2024.5.8.tar.gz tmp/eodc_faas_openeo-2024.5.9.tar.gz --markdown 20240516/e/eodc-faas-openeo/2024.5.8-2024.5.9/README.md --exclude *.pyd
+[2024-05-16 10:49:26] INFO root fetch - processPackages [upstash-ratelimit]: Downloading https://files.pythonhosted.org/packages/a3/e6/4dc86c79d29fecca851cd8a221d03999f6887562672e84c0da03b8199e68/upstash_ratelimit-1.0.0.tar.gz
+[2024-05-16 10:49:26] INFO root fetch - processPackages [aws-ssm-juggle]: Downloading https://files.pythonhosted.org/packages/43/ff/7fc219fd893568f7a03fe014f31768bcbeee71906e3f4d9fe1e2c43fc67d/aws_ssm_juggle-24.5.4.tar.gz
+[2024-05-16 10:49:26] INFO root fetch - processPackages [upstash-ratelimit]: executing diffoscope
+[2024-05-16 10:49:26] INFO root fetch - processPackages [upstash-ratelimit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/upstash_ratelimit-0.5.1.tar.gz tmp/upstash_ratelimit-1.0.0.tar.gz --markdown 20240516/u/upstash-ratelimit/0.5.1-1.0.0/README.md --exclude *.pyd
+[2024-05-16 10:49:26] INFO root fetch - processPackages [julearn]: executing diffoscope
+[2024-05-16 10:49:26] INFO root fetch - processPackages [julearn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/julearn-0.3.3.dev4.tar.gz tmp/julearn-0.3.3.dev8.tar.gz --markdown 20240516/j/julearn/0.3.3.dev4-0.3.3.dev8/README.md --exclude *.pyd
+[2024-05-16 10:49:26] INFO root fetch - processPackages [aws-ssm-juggle]: executing diffoscope
+[2024-05-16 10:49:26] INFO root fetch - processPackages [aws-ssm-juggle]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aws_ssm_juggle-24.5.3.tar.gz tmp/aws_ssm_juggle-24.5.4.tar.gz --markdown 20240516/a/aws-ssm-juggle/24.5.3-24.5.4/README.md --exclude *.pyd
+[2024-05-16 10:49:26] INFO root fetch - processPackages [web3client]: Downloading https://files.pythonhosted.org/packages/d6/c5/520f97571807e8beb7699363ca83678998da4e7aafd749fa2405d3a8742b/web3client-1.3.9.tar.gz
+[2024-05-16 10:49:26] INFO root fetch - processPackages [eodc-faas-openeo]: Remove: archive file [/home/abi/fetcher/tmp/eodc_faas_openeo-2024.5.8.tar.gz]
+[2024-05-16 10:49:26] INFO root fetch - processPackages [eodc-faas-openeo]: Remove: archive file [/home/abi/fetcher/tmp/eodc_faas_openeo-2024.5.9.tar.gz]
+[2024-05-16 10:49:26] INFO root fetch - main [MainThread]: End processing [eodc-faas-openeo]: success
+[2024-05-16 10:49:26] INFO root fetch - processPackages [upstash-ratelimit]: Remove: archive file [/home/abi/fetcher/tmp/upstash_ratelimit-0.5.1.tar.gz]
+[2024-05-16 10:49:26] INFO root fetch - processPackages [upstash-ratelimit]: Remove: archive file [/home/abi/fetcher/tmp/upstash_ratelimit-1.0.0.tar.gz]
+[2024-05-16 10:49:26] INFO root fetch - main [MainThread]: End processing [upstash-ratelimit]: success
+[2024-05-16 10:49:27] INFO root fetch - processPackages [aws-ssm-juggle]: Remove: archive file [/home/abi/fetcher/tmp/aws_ssm_juggle-24.5.3.tar.gz]
+[2024-05-16 10:49:27] INFO root fetch - processPackages [aws-ssm-juggle]: Remove: archive file [/home/abi/fetcher/tmp/aws_ssm_juggle-24.5.4.tar.gz]
+[2024-05-16 10:49:27] INFO root fetch - main [MainThread]: End processing [aws-ssm-juggle]: success
+[2024-05-16 10:49:27] INFO root fetch - processPackages [web3client]: executing diffoscope
+[2024-05-16 10:49:27] INFO root fetch - processPackages [web3client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/web3client-1.3.8.tar.gz tmp/web3client-1.3.9.tar.gz --markdown 20240516/w/web3client/1.3.8-1.3.9/README.md --exclude *.pyd
+[2024-05-16 10:49:27] INFO root fetch - processPackages [julearn]: Remove: archive file [/home/abi/fetcher/tmp/julearn-0.3.3.dev4.tar.gz]
+[2024-05-16 10:49:27] INFO root fetch - processPackages [julearn]: Remove: archive file [/home/abi/fetcher/tmp/julearn-0.3.3.dev8.tar.gz]
+[2024-05-16 10:49:27] INFO root fetch - main [MainThread]: End processing [julearn]: success
+[2024-05-16 10:52:27] ERROR root fetch - processPackages [web3client]: Timeout during execution of pkgdiff
+[2024-05-16 10:52:27] INFO root fetch - main [MainThread]: End processing [web3client] error
+[2024-05-16 10:52:27] INFO root fetch - main [MainThread]: Store serial: [23232204]
