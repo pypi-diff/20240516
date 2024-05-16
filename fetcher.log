@@ -22031,3 +22031,63 @@ EOFError: EOF read where object expected
 [2024-05-16 11:45:01] INFO root fetch - processPackages [funcnodes]: Remove: archive file [/home/abi/fetcher/tmp/funcnodes-0.2.9.tar.gz]
 [2024-05-16 11:45:01] INFO root fetch - main [MainThread]: End processing [funcnodes]: success
 [2024-05-16 11:45:01] INFO root fetch - main [MainThread]: Store serial: [23233357]
+[2024-05-16 11:47:09] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23233357]
+[2024-05-16 11:47:14] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-16 11:47:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ca-ez-manager
+[2024-05-16 11:47:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: efootprint
+[2024-05-16 11:47:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: inception-reports
+[2024-05-16 11:47:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: wp-enhanced
+[2024-05-16 11:47:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cortex-xdr-client
+[2024-05-16 11:47:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: aipkgs-core
+[2024-05-16 11:47:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: document_image_utils
+[2024-05-16 11:47:14] INFO root fetch - processPackages [inception-reports]: New version: [0.3] Old Version: [0.2]
+[2024-05-16 11:47:14] INFO root fetch - processPackages [document_image_utils]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-16 11:47:14] INFO root fetch - processPackages [efootprint]: New version: [2.1.0] Old Version: [2.0.5]
+[2024-05-16 11:47:14] INFO root fetch - processPackages [aipkgs-core]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-05-16 11:47:14] INFO root fetch - processPackages [wp-enhanced]: New version: [0.8.9] Old Version: [0.8.8]
+[2024-05-16 11:47:14] WARNING root fetch - processPackages [ca-ez-manager]: Skipping, unable to determine old version
+[2024-05-16 11:47:14] INFO root fetch - main [MainThread]: End processing [ca-ez-manager] error
+[2024-05-16 11:47:14] INFO root fetch - processPackages [cortex-xdr-client]: New version: [1.8.9] Old Version: [1.8.8]
+[2024-05-16 11:47:14] INFO root fetch - processPackages [inception-reports]: Downloading https://files.pythonhosted.org/packages/e4/1c/dcefb23607cb76c8f132d0b36069d0f341ce30ce8bbc698ae31dc1dbf324/inception_reports-0.2.tar.gz
+[2024-05-16 11:47:14] INFO root fetch - processPackages [efootprint]: Downloading https://files.pythonhosted.org/packages/b9/1c/dfeb2458d213455844776430b862e4541d5f56bb88e7ed70ba562033ca92/efootprint-2.0.5.tar.gz
+[2024-05-16 11:47:14] INFO root fetch - processPackages [aipkgs-core]: Downloading https://files.pythonhosted.org/packages/1b/95/2d761178d77290df39be6e93078af4b40f985d9809d971cd17dd950588d3/aipkgs_core-1.0.8.tar.gz
+[2024-05-16 11:47:14] INFO root fetch - processPackages [document_image_utils]: Downloading https://files.pythonhosted.org/packages/c2/09/d1e0e12fc15b7611a3288e3e3ff6a4231bc3d662f75f4ee7d8d628a4e845/document_image_utils-0.1.8.tar.gz
+[2024-05-16 11:47:14] INFO root fetch - processPackages [wp-enhanced]: Downloading https://files.pythonhosted.org/packages/6c/14/d10936a7ba480a7559b10cd60342c6b70a6878615141cf4d60922fbb9376/wp_enhanced-0.8.8.tar.gz
+[2024-05-16 11:47:14] INFO root fetch - processPackages [cortex-xdr-client]: Downloading https://files.pythonhosted.org/packages/05/0e/324dbc2018ca8930e211d2b5cb8cdbc2e3f2fd0f84ad4819a65f8bb0cf3c/cortex_xdr_client-1.8.8.tar.gz
+[2024-05-16 11:47:14] INFO root fetch - processPackages [inception-reports]: Downloading https://files.pythonhosted.org/packages/7d/0b/a188ff07d136bc83ec06639c2a3fab4d3df1d709d5fe4d9121655359dfde/inception_reports-0.3.tar.gz
+[2024-05-16 11:47:14] INFO root fetch - processPackages [aipkgs-core]: Downloading https://files.pythonhosted.org/packages/c8/b2/fb0706bf9eeeee24d524f103cad3a18e46870855a277a735a6c83ea06692/aipkgs_core-1.0.9.tar.gz
+[2024-05-16 11:47:14] INFO root fetch - processPackages [efootprint]: Downloading https://files.pythonhosted.org/packages/c5/7c/d41df98665a4b464afecb5e8393f8d83089c60933ce2abfb82cfc7b9071e/efootprint-2.1.0.tar.gz
+[2024-05-16 11:47:15] INFO root fetch - processPackages [aipkgs-core]: executing diffoscope
+[2024-05-16 11:47:15] INFO root fetch - processPackages [inception-reports]: executing diffoscope
+[2024-05-16 11:47:15] INFO root fetch - processPackages [aipkgs-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aipkgs_core-1.0.8.tar.gz tmp/aipkgs_core-1.0.9.tar.gz --markdown 20240516/a/aipkgs-core/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-05-16 11:47:15] INFO root fetch - processPackages [inception-reports]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/inception_reports-0.2.tar.gz tmp/inception_reports-0.3.tar.gz --markdown 20240516/i/inception-reports/0.2-0.3/README.md --exclude *.pyd
+[2024-05-16 11:47:15] INFO root fetch - processPackages [efootprint]: executing diffoscope
+[2024-05-16 11:47:15] INFO root fetch - processPackages [efootprint]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/efootprint-2.0.5.tar.gz tmp/efootprint-2.1.0.tar.gz --markdown 20240516/e/efootprint/2.0.5-2.1.0/README.md --exclude *.pyd
+[2024-05-16 11:47:15] INFO root fetch - processPackages [document_image_utils]: Downloading https://files.pythonhosted.org/packages/67/35/80dcb6dc9d5435df14cff1dd532836f0fe623140964ee7be62c3dd2d3836/document_image_utils-0.1.9.tar.gz
+[2024-05-16 11:47:15] INFO root fetch - processPackages [cortex-xdr-client]: Downloading https://files.pythonhosted.org/packages/32/98/5f6ff2b161ce212f3b987011d520d2792454a1aaa4cb5c21da84f1099b74/cortex_xdr_client-1.8.9.tar.gz
+[2024-05-16 11:47:15] INFO root fetch - processPackages [wp-enhanced]: Downloading https://files.pythonhosted.org/packages/38/9b/c6308f27df637818e8db9d0193182c4338edfd0f3c3e1025d09e0011ac8e/wp_enhanced-0.8.9.tar.gz
+[2024-05-16 11:47:15] INFO root fetch - processPackages [document_image_utils]: executing diffoscope
+[2024-05-16 11:47:15] INFO root fetch - processPackages [document_image_utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/document_image_utils-0.1.8.tar.gz tmp/document_image_utils-0.1.9.tar.gz --markdown 20240516/d/document_image_utils/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-16 11:47:15] INFO root fetch - processPackages [cortex-xdr-client]: executing diffoscope
+[2024-05-16 11:47:15] INFO root fetch - processPackages [cortex-xdr-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cortex_xdr_client-1.8.8.tar.gz tmp/cortex_xdr_client-1.8.9.tar.gz --markdown 20240516/c/cortex-xdr-client/1.8.8-1.8.9/README.md --exclude *.pyd
+[2024-05-16 11:47:15] INFO root fetch - processPackages [wp-enhanced]: executing diffoscope
+[2024-05-16 11:47:15] INFO root fetch - processPackages [wp-enhanced]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wp_enhanced-0.8.8.tar.gz tmp/wp_enhanced-0.8.9.tar.gz --markdown 20240516/w/wp-enhanced/0.8.8-0.8.9/README.md --exclude *.pyd
+[2024-05-16 11:47:16] INFO root fetch - processPackages [aipkgs-core]: Remove: archive file [/home/abi/fetcher/tmp/aipkgs_core-1.0.8.tar.gz]
+[2024-05-16 11:47:16] INFO root fetch - processPackages [aipkgs-core]: Remove: archive file [/home/abi/fetcher/tmp/aipkgs_core-1.0.9.tar.gz]
+[2024-05-16 11:47:16] INFO root fetch - main [MainThread]: End processing [aipkgs-core]: success
+[2024-05-16 11:47:16] INFO root fetch - processPackages [inception-reports]: Remove: archive file [/home/abi/fetcher/tmp/inception_reports-0.2.tar.gz]
+[2024-05-16 11:47:16] INFO root fetch - processPackages [inception-reports]: Remove: archive file [/home/abi/fetcher/tmp/inception_reports-0.3.tar.gz]
+[2024-05-16 11:47:16] INFO root fetch - main [MainThread]: End processing [inception-reports]: success
+[2024-05-16 11:47:16] INFO root fetch - processPackages [efootprint]: Remove: archive file [/home/abi/fetcher/tmp/efootprint-2.0.5.tar.gz]
+[2024-05-16 11:47:16] INFO root fetch - processPackages [efootprint]: Remove: archive file [/home/abi/fetcher/tmp/efootprint-2.1.0.tar.gz]
+[2024-05-16 11:47:16] INFO root fetch - main [MainThread]: End processing [efootprint]: success
+[2024-05-16 11:47:16] INFO root fetch - processPackages [document_image_utils]: Remove: archive file [/home/abi/fetcher/tmp/document_image_utils-0.1.8.tar.gz]
+[2024-05-16 11:47:16] INFO root fetch - processPackages [document_image_utils]: Remove: archive file [/home/abi/fetcher/tmp/document_image_utils-0.1.9.tar.gz]
+[2024-05-16 11:47:16] INFO root fetch - main [MainThread]: End processing [document_image_utils]: success
+[2024-05-16 11:47:16] INFO root fetch - processPackages [cortex-xdr-client]: Remove: archive file [/home/abi/fetcher/tmp/cortex_xdr_client-1.8.8.tar.gz]
+[2024-05-16 11:47:16] INFO root fetch - processPackages [cortex-xdr-client]: Remove: archive file [/home/abi/fetcher/tmp/cortex_xdr_client-1.8.9.tar.gz]
+[2024-05-16 11:47:16] INFO root fetch - main [MainThread]: End processing [cortex-xdr-client]: success
+[2024-05-16 11:47:16] INFO root fetch - processPackages [wp-enhanced]: Remove: archive file [/home/abi/fetcher/tmp/wp_enhanced-0.8.8.tar.gz]
+[2024-05-16 11:47:16] INFO root fetch - processPackages [wp-enhanced]: Remove: archive file [/home/abi/fetcher/tmp/wp_enhanced-0.8.9.tar.gz]
+[2024-05-16 11:47:16] INFO root fetch - main [MainThread]: End processing [wp-enhanced]: success
+[2024-05-16 11:47:16] INFO root fetch - main [MainThread]: Store serial: [23233378]
