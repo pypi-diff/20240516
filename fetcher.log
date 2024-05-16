@@ -9654,3 +9654,45 @@ EOFError: EOF read where object expected
 [2024-05-16 04:36:45] INFO root fetch - processPackages [thirdai]: Remove: archive file [/home/abi/fetcher/tmp/thirdai-0.8.2-cp39-cp39-win_amd64.whl.zip]
 [2024-05-16 04:36:45] INFO root fetch - main [MainThread]: End processing [thirdai]: success
 [2024-05-16 04:36:45] INFO root fetch - main [MainThread]: Store serial: [23228803]
+[2024-05-16 04:38:49] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23228803]
+[2024-05-16 04:38:54] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-16 04:38:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: omnata-plugin-runtime
+[2024-05-16 04:38:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ovos-skill-audio-recording
+[2024-05-16 04:38:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: espresso-machine
+[2024-05-16 04:38:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: qtmodel
+[2024-05-16 04:38:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: langchain-pinecone
+[2024-05-16 04:38:54] INFO root fetch - processPackages [espresso-machine]: New version: [0.0.11] Old Version: [0.0.1]
+[2024-05-16 04:38:54] INFO root fetch - processPackages [qtmodel]: New version: [0.3.2] Old Version: [0.3.1]
+[2024-05-16 04:38:54] INFO root fetch - processPackages [omnata-plugin-runtime]: New version: [0.3.9a44] Old Version: [0.3.9a43]
+[2024-05-16 04:38:54] INFO root fetch - processPackages [langchain-pinecone]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-05-16 04:38:54] INFO root fetch - processPackages [qtmodel]: Downloading https://files.pythonhosted.org/packages/55/16/11d8b5914af6a331a1887dd4c038fee7eb19ad46053343f7b6561e719bcd/qtmodel-0.3.1.tar.gz
+[2024-05-16 04:38:54] WARNING root fetch - processPackages [ovos-skill-audio-recording]: Skipping, unable to determine old version
+[2024-05-16 04:38:54] INFO root fetch - main [MainThread]: End processing [ovos-skill-audio-recording] error
+[2024-05-16 04:38:54] INFO root fetch - processPackages [omnata-plugin-runtime]: Downloading https://files.pythonhosted.org/packages/8e/11/abde4b4d82373bc42a84a5591bf31c6cca540ba9f13337491df615af0b6c/omnata_plugin_runtime-0.3.9a43.tar.gz
+[2024-05-16 04:38:54] INFO root fetch - processPackages [espresso-machine]: Downloading https://files.pythonhosted.org/packages/9e/24/1b9960cbc0dec4b1c28329aabc43b151a8e8acd27248a718727fbff1aabf/espresso_machine-0.0.1.tar.gz
+[2024-05-16 04:38:55] INFO root fetch - processPackages [langchain-pinecone]: Downloading https://files.pythonhosted.org/packages/2b/8b/720ed772cdd089879b0e19ce63a021361a03986ffc7cdd4df20e340d2e79/langchain_pinecone-0.1.0.tar.gz
+[2024-05-16 04:38:55] INFO root fetch - processPackages [omnata-plugin-runtime]: Downloading https://files.pythonhosted.org/packages/de/f5/326ad467bb560d9dc8d7cebfe2aed77d524aeaf8a8ee7c6107f202eb6d0d/omnata_plugin_runtime-0.3.9a44.tar.gz
+[2024-05-16 04:38:55] INFO root fetch - processPackages [omnata-plugin-runtime]: executing diffoscope
+[2024-05-16 04:38:55] INFO root fetch - processPackages [omnata-plugin-runtime]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/omnata_plugin_runtime-0.3.9a43.tar.gz tmp/omnata_plugin_runtime-0.3.9a44.tar.gz --markdown 20240516/o/omnata-plugin-runtime/0.3.9a43-0.3.9a44/README.md --exclude *.pyd
+[2024-05-16 04:38:55] INFO root fetch - processPackages [qtmodel]: Downloading https://files.pythonhosted.org/packages/52/85/b2fb5c7f6e30ccca0771448698a4c4a9a444dfc0891bd72211b5f65fa7e4/qtmodel-0.3.2.tar.gz
+[2024-05-16 04:38:55] INFO root fetch - processPackages [qtmodel]: executing diffoscope
+[2024-05-16 04:38:55] INFO root fetch - processPackages [qtmodel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qtmodel-0.3.1.tar.gz tmp/qtmodel-0.3.2.tar.gz --markdown 20240516/q/qtmodel/0.3.1-0.3.2/README.md --exclude *.pyd
+[2024-05-16 04:38:55] INFO root fetch - processPackages [langchain-pinecone]: Downloading https://files.pythonhosted.org/packages/8c/e4/811c0bb951698bd09d0ea621d903c050aedb5f2defd33356ae40473f443f/langchain_pinecone-0.1.1.tar.gz
+[2024-05-16 04:38:55] INFO root fetch - processPackages [espresso-machine]: Downloading https://files.pythonhosted.org/packages/84/3b/d0434f52273cc85ab5fab6df6d07ae4663aa5d63a738744aa8754b1b588e/espresso_machine-0.0.11.tar.gz
+[2024-05-16 04:38:55] INFO root fetch - processPackages [langchain-pinecone]: executing diffoscope
+[2024-05-16 04:38:55] INFO root fetch - processPackages [langchain-pinecone]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/langchain_pinecone-0.1.0.tar.gz tmp/langchain_pinecone-0.1.1.tar.gz --markdown 20240516/l/langchain-pinecone/0.1.0-0.1.1/README.md --exclude *.pyd
+[2024-05-16 04:38:55] INFO root fetch - processPackages [omnata-plugin-runtime]: Remove: archive file [/home/abi/fetcher/tmp/omnata_plugin_runtime-0.3.9a43.tar.gz]
+[2024-05-16 04:38:55] INFO root fetch - processPackages [omnata-plugin-runtime]: Remove: archive file [/home/abi/fetcher/tmp/omnata_plugin_runtime-0.3.9a44.tar.gz]
+[2024-05-16 04:38:55] INFO root fetch - main [MainThread]: End processing [omnata-plugin-runtime]: success
+[2024-05-16 04:38:55] INFO root fetch - processPackages [espresso-machine]: executing diffoscope
+[2024-05-16 04:38:55] INFO root fetch - processPackages [espresso-machine]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/espresso_machine-0.0.1.tar.gz tmp/espresso_machine-0.0.11.tar.gz --markdown 20240516/e/espresso-machine/0.0.1-0.0.11/README.md --exclude *.pyd
+[2024-05-16 04:38:55] INFO root fetch - processPackages [qtmodel]: Remove: archive file [/home/abi/fetcher/tmp/qtmodel-0.3.1.tar.gz]
+[2024-05-16 04:38:55] INFO root fetch - processPackages [qtmodel]: Remove: archive file [/home/abi/fetcher/tmp/qtmodel-0.3.2.tar.gz]
+[2024-05-16 04:38:55] INFO root fetch - main [MainThread]: End processing [qtmodel]: success
+[2024-05-16 04:38:56] INFO root fetch - processPackages [langchain-pinecone]: Remove: archive file [/home/abi/fetcher/tmp/langchain_pinecone-0.1.0.tar.gz]
+[2024-05-16 04:38:56] INFO root fetch - processPackages [langchain-pinecone]: Remove: archive file [/home/abi/fetcher/tmp/langchain_pinecone-0.1.1.tar.gz]
+[2024-05-16 04:38:56] INFO root fetch - main [MainThread]: End processing [langchain-pinecone]: success
+[2024-05-16 04:38:57] INFO root fetch - processPackages [espresso-machine]: Remove: archive file [/home/abi/fetcher/tmp/espresso_machine-0.0.1.tar.gz]
+[2024-05-16 04:38:57] INFO root fetch - processPackages [espresso-machine]: Remove: archive file [/home/abi/fetcher/tmp/espresso_machine-0.0.11.tar.gz]
+[2024-05-16 04:38:57] INFO root fetch - main [MainThread]: End processing [espresso-machine]: success
+[2024-05-16 04:38:57] INFO root fetch - main [MainThread]: Store serial: [23228815]
