@@ -10391,3 +10391,24 @@ EOFError: EOF read where object expected
 [2024-05-16 05:26:58] INFO root fetch - processPackages [aind-exaspim-pipeline-utils]: Remove: archive file [/home/abi/fetcher/tmp/aind_exaspim_pipeline_utils-0.8.3.tar.gz]
 [2024-05-16 05:26:58] INFO root fetch - main [MainThread]: End processing [aind-exaspim-pipeline-utils]: success
 [2024-05-16 05:26:58] INFO root fetch - main [MainThread]: Store serial: [23229045]
+[2024-05-16 05:29:01] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23229045]
+[2024-05-16 05:29:06] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-16 05:29:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: keras-nlp-nightly
+[2024-05-16 05:29:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: nemosis
+[2024-05-16 05:29:06] INFO root fetch - processPackages [keras-nlp-nightly]: New version: [0.9.0.dev2024041003] Old Version: [0.9.0.dev2024040803]
+[2024-05-16 05:29:07] INFO root fetch - processPackages [keras-nlp-nightly]: Downloading https://files.pythonhosted.org/packages/e9/c8/7f581d2ae825faa0b7973bcc73c15e31c01c7e1f5c085a746ded34473011/keras-nlp-nightly-0.9.0.dev2024040803.tar.gz
+[2024-05-16 05:29:07] INFO root fetch - processPackages [nemosis]: New version: [3.6.0] Old Version: [3.4.0]
+[2024-05-16 05:29:07] INFO root fetch - processPackages [nemosis]: Downloading https://files.pythonhosted.org/packages/ac/0d/37c1a9920b05bcf490066d72c6ce4959731e3026db11d902799560042a4b/nemosis-3.4.0.tar.gz
+[2024-05-16 05:29:07] INFO root fetch - processPackages [keras-nlp-nightly]: Downloading https://files.pythonhosted.org/packages/74/95/bdeb12dec2c7c5b69ee11a239dcb09345f2e4180ca0e26e6f12bef8f5013/keras-nlp-nightly-0.9.0.dev2024041003.tar.gz
+[2024-05-16 05:29:07] INFO root fetch - processPackages [keras-nlp-nightly]: executing diffoscope
+[2024-05-16 05:29:07] INFO root fetch - processPackages [keras-nlp-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/keras-nlp-nightly-0.9.0.dev2024040803.tar.gz tmp/keras-nlp-nightly-0.9.0.dev2024041003.tar.gz --markdown 20240516/k/keras-nlp-nightly/0.9.0.dev2024040803-0.9.0.dev2024041003/README.md --exclude *.pyd
+[2024-05-16 05:29:07] INFO root fetch - processPackages [nemosis]: Downloading https://files.pythonhosted.org/packages/85/23/b2f07554fb2a44d36bc6b4b9d5eac53f183022e1c9fb819e7ccb50fb015b/nemosis-3.6.0.tar.gz
+[2024-05-16 05:29:07] INFO root fetch - processPackages [nemosis]: executing diffoscope
+[2024-05-16 05:29:07] INFO root fetch - processPackages [nemosis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nemosis-3.4.0.tar.gz tmp/nemosis-3.6.0.tar.gz --markdown 20240516/n/nemosis/3.4.0-3.6.0/README.md --exclude *.pyd
+[2024-05-16 05:29:08] INFO root fetch - processPackages [nemosis]: Remove: archive file [/home/abi/fetcher/tmp/nemosis-3.4.0.tar.gz]
+[2024-05-16 05:29:08] INFO root fetch - processPackages [nemosis]: Remove: archive file [/home/abi/fetcher/tmp/nemosis-3.6.0.tar.gz]
+[2024-05-16 05:29:08] INFO root fetch - main [MainThread]: End processing [nemosis]: success
+[2024-05-16 05:29:08] INFO root fetch - processPackages [keras-nlp-nightly]: Remove: archive file [/home/abi/fetcher/tmp/keras-nlp-nightly-0.9.0.dev2024040803.tar.gz]
+[2024-05-16 05:29:08] INFO root fetch - processPackages [keras-nlp-nightly]: Remove: archive file [/home/abi/fetcher/tmp/keras-nlp-nightly-0.9.0.dev2024041003.tar.gz]
+[2024-05-16 05:29:08] INFO root fetch - main [MainThread]: End processing [keras-nlp-nightly]: success
+[2024-05-16 05:29:08] INFO root fetch - main [MainThread]: Store serial: [23229051]
