@@ -21325,3 +21325,114 @@ EOFError: EOF read where object expected
 [2024-05-16 11:21:53] INFO root fetch - processPackages [socketsecurity]: Remove: archive file [/home/abi/fetcher/tmp/socketsecurity-0.0.56.tar.gz]
 [2024-05-16 11:21:53] INFO root fetch - main [MainThread]: End processing [socketsecurity]: success
 [2024-05-16 11:21:53] INFO root fetch - main [MainThread]: Store serial: [23233030]
+[2024-05-16 11:24:08] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23233030]
+[2024-05-16 11:24:13] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2024-05-16 11:24:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: dreamcoat
+[2024-05-16 11:24:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: appmesh
+[2024-05-16 11:24:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: telegram-wallet-pay
+[2024-05-16 11:24:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: mass-composition
+[2024-05-16 11:24:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: argument-parsing
+[2024-05-16 11:24:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: commonmeta-py
+[2024-05-16 11:24:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: lucy01
+[2024-05-16 11:24:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pyatlan
+[2024-05-16 11:24:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: MLGLUE
+[2024-05-16 11:24:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: thingsvision
+[2024-05-16 11:24:13] INFO root fetch - processPackages [lucy01]: New version: [0.1.0] Old Version: [0.0.2]
+[2024-05-16 11:24:13] INFO root fetch - processPackages [telegram-wallet-pay]: New version: [0.6.0] Old Version: [0.5.0]
+[2024-05-16 11:24:13] INFO root fetch - processPackages [appmesh]: New version: [1.0.1] Old Version: [1.0.0]
+[2024-05-16 11:24:13] INFO root fetch - processPackages [mass-composition]: New version: [0.6.3] Old Version: [0.6.2]
+[2024-05-16 11:24:13] INFO root fetch - processPackages [pyatlan]: New version: [2.2.0] Old Version: [2.1.9]
+[2024-05-16 11:24:13] INFO root fetch - processPackages [MLGLUE]: New version: [0.0.4] Old Version: [0.0.3]
+[2024-05-16 11:24:13] INFO root fetch - processPackages [argument-parsing]: New version: [1.0.1] Old Version: [1.0.0]
+[2024-05-16 11:24:13] INFO root fetch - processPackages [dreamcoat]: New version: [0.3] Old Version: [0.2]
+[2024-05-16 11:24:13] INFO root fetch - processPackages [lucy01]: Downloading https://files.pythonhosted.org/packages/a0/56/ffa1229a7306fe51aa40a0f2801d113078272444bb2567e2864a68fd9456/lucy01-0.0.2.tar.gz
+[2024-05-16 11:24:13] INFO root fetch - processPackages [commonmeta-py]: New version: [0.9.4] Old Version: [0.9.3]
+[2024-05-16 11:24:13] INFO root fetch - processPackages [thingsvision]: New version: [2.6.5] Old Version: [2.6.4]
+[2024-05-16 11:24:13] INFO root fetch - processPackages [appmesh]: Downloading https://files.pythonhosted.org/packages/a2/06/ad1f3ad9650581c2288ae4d23737386af065834882a2cb00078dec164a61/appmesh-1.0.0-py3-none-any.whl
+[2024-05-16 11:24:13] INFO root fetch - processPackages [telegram-wallet-pay]: Downloading https://files.pythonhosted.org/packages/b2/3a/abb2a20f035557d07d94f3fd274fd66e0533fbdb9b1de0b2fcb2ad3c8ad2/telegram_wallet_pay-0.5.0.tar.gz
+[2024-05-16 11:24:13] INFO root fetch - processPackages [mass-composition]: Downloading https://files.pythonhosted.org/packages/6d/8d/9df7d168de20043676aa0e7d68fd983cf54dc891a21c7743c67981aaf326/mass_composition-0.6.2.tar.gz
+[2024-05-16 11:24:13] INFO root fetch - processPackages [pyatlan]: Downloading https://files.pythonhosted.org/packages/cb/d9/8838ab0d4510d6fca0a9fa78580a1f96c292cb0e04d6a477fac966788082/pyatlan-2.1.9.tar.gz
+[2024-05-16 11:24:13] INFO root fetch - processPackages [MLGLUE]: Downloading https://files.pythonhosted.org/packages/d0/a6/83822305b1b43e901981c19fad702dd73e87b983df1af69c2472006f6385/MLGLUE-0.0.3.tar.gz
+[2024-05-16 11:24:13] INFO root fetch - processPackages [argument-parsing]: Downloading https://files.pythonhosted.org/packages/fb/49/88d84f29b99209a0a5b2161a96a738a99e612439ca576315bf786056954c/argument_parsing-1.0.0.tar.gz
+[2024-05-16 11:24:13] INFO root fetch - processPackages [dreamcoat]: Downloading https://files.pythonhosted.org/packages/55/94/6dca63f419d84c8a6e0c56fdf74dc807dc10e573e2051e77e9fc35610899/dreamcoat-0.2.tar.gz
+[2024-05-16 11:24:13] INFO root fetch - processPackages [commonmeta-py]: Downloading https://files.pythonhosted.org/packages/52/c0/e7c87877f28428fc995c494cd79586152481d7b23c1e0bbb364b89a4b025/commonmeta_py-0.9.3.tar.gz
+[2024-05-16 11:24:13] INFO root fetch - processPackages [thingsvision]: Downloading https://files.pythonhosted.org/packages/d3/22/4ce1ad9bb1f51368312cc580cc1dcbf4cee99db2cf6b0f63e053dd6a569a/thingsvision-2.6.4.tar.gz
+[2024-05-16 11:24:13] INFO root fetch - processPackages [lucy01]: Downloading https://files.pythonhosted.org/packages/a8/4c/0f6a52e3a5300743d037d9043cb676dece01e060f66fcbbbaa83d903c700/lucy01-0.1.0.tar.gz
+[2024-05-16 11:24:13] INFO root fetch - processPackages [telegram-wallet-pay]: Downloading https://files.pythonhosted.org/packages/19/10/10f9fad90609d7b559dbac0468d6eec3c0a7370db14e1f473e7e09142d8a/telegram_wallet_pay-0.6.0.tar.gz
+[2024-05-16 11:24:14] INFO root fetch - processPackages [lucy01]: executing diffoscope
+[2024-05-16 11:24:14] INFO root fetch - processPackages [lucy01]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lucy01-0.0.2.tar.gz tmp/lucy01-0.1.0.tar.gz --markdown 20240516/l/lucy01/0.0.2-0.1.0/README.md --exclude *.pyd
+[2024-05-16 11:24:14] INFO root fetch - processPackages [pyatlan]: Downloading https://files.pythonhosted.org/packages/a5/0c/8a2ffb624b12317c3ca44988caa72fe25024f5b8d987f2cb835a7a70150f/pyatlan-2.2.0.tar.gz
+[2024-05-16 11:24:14] INFO root fetch - processPackages [telegram-wallet-pay]: executing diffoscope
+[2024-05-16 11:24:14] INFO root fetch - processPackages [telegram-wallet-pay]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/telegram_wallet_pay-0.5.0.tar.gz tmp/telegram_wallet_pay-0.6.0.tar.gz --markdown 20240516/t/telegram-wallet-pay/0.5.0-0.6.0/README.md --exclude *.pyd
+[2024-05-16 11:24:14] INFO root fetch - processPackages [mass-composition]: Downloading https://files.pythonhosted.org/packages/0c/23/4e44bcfec68b2e64c06e6a1733157d5c30f758df58141e1e306d899d3838/mass_composition-0.6.3.tar.gz
+[2024-05-16 11:24:14] INFO root fetch - processPackages [appmesh]: Downloading https://files.pythonhosted.org/packages/78/c6/11eefbcd2addf135112ad62aeb1ea7e2a452e006304e1189bc43883032dc/appmesh-1.0.1-py3-none-any.whl
+[2024-05-16 11:24:14] INFO root fetch - processPackages [MLGLUE]: Downloading https://files.pythonhosted.org/packages/4c/47/d6fc6e5dc592c2c84a935c15eb34afc3964652aa703877cc3e339ea9330b/MLGLUE-0.0.4.tar.gz
+[2024-05-16 11:24:14] INFO root fetch - processPackages [dreamcoat]: Downloading https://files.pythonhosted.org/packages/69/7a/85f2dbeac56ebe4ec7e42a64a984334ed4ed8fbd74f0c6530d6730c9a1f0/dreamcoat-0.3.tar.gz
+[2024-05-16 11:24:14] INFO root fetch - processPackages [thingsvision]: Downloading https://files.pythonhosted.org/packages/c5/53/0dbd89ebf57bbd15f1f457036b3f49835b71b568ad377bc86f9e2edc7a11/thingsvision-2.6.5.tar.gz
+[2024-05-16 11:24:14] INFO root fetch - processPackages [appmesh]: executing diffoscope
+[2024-05-16 11:24:14] INFO root fetch - processPackages [appmesh]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/appmesh-1.0.0-py3-none-any.whl.zip tmp/appmesh-1.0.1-py3-none-any.whl.zip --markdown 20240516/a/appmesh/1.0.0-1.0.1/README.md --exclude *.pyd
+[2024-05-16 11:24:14] INFO root fetch - processPackages [mass-composition]: executing diffoscope
+[2024-05-16 11:24:14] INFO root fetch - processPackages [mass-composition]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mass_composition-0.6.2.tar.gz tmp/mass_composition-0.6.3.tar.gz --markdown 20240516/m/mass-composition/0.6.2-0.6.3/README.md --exclude *.pyd
+[2024-05-16 11:24:14] INFO root fetch - processPackages [argument-parsing]: Downloading https://files.pythonhosted.org/packages/f8/61/9fd0bc0e80be10c674857a9b50fdaa4b59e22de65017ab86a26d571cac81/argument_parsing-1.0.1.tar.gz
+[2024-05-16 11:24:14] INFO root fetch - processPackages [pyatlan]: executing diffoscope
+[2024-05-16 11:24:14] INFO root fetch - processPackages [pyatlan]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyatlan-2.1.9.tar.gz tmp/pyatlan-2.2.0.tar.gz --markdown 20240516/p/pyatlan/2.1.9-2.2.0/README.md --exclude *.pyd
+[2024-05-16 11:24:14] INFO root fetch - processPackages [commonmeta-py]: Downloading https://files.pythonhosted.org/packages/a7/bd/df628255dc3f849e7da2d4b39759e0fb92720cf93c1cfbfa4d9ffff22942/commonmeta_py-0.9.4.tar.gz
+[2024-05-16 11:24:14] INFO root fetch - processPackages [MLGLUE]: executing diffoscope
+[2024-05-16 11:24:14] INFO root fetch - processPackages [MLGLUE]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/MLGLUE-0.0.3.tar.gz tmp/MLGLUE-0.0.4.tar.gz --markdown 20240516/M/MLGLUE/0.0.3-0.0.4/README.md --exclude *.pyd
+[2024-05-16 11:24:14] INFO root fetch - processPackages [thingsvision]: executing diffoscope
+[2024-05-16 11:24:14] INFO root fetch - processPackages [thingsvision]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/thingsvision-2.6.4.tar.gz tmp/thingsvision-2.6.5.tar.gz --markdown 20240516/t/thingsvision/2.6.4-2.6.5/README.md --exclude *.pyd
+[2024-05-16 11:24:14] INFO root fetch - processPackages [dreamcoat]: executing diffoscope
+[2024-05-16 11:24:14] INFO root fetch - processPackages [dreamcoat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dreamcoat-0.2.tar.gz tmp/dreamcoat-0.3.tar.gz --markdown 20240516/d/dreamcoat/0.2-0.3/README.md --exclude *.pyd
+[2024-05-16 11:24:14] INFO root fetch - processPackages [argument-parsing]: executing diffoscope
+[2024-05-16 11:24:14] INFO root fetch - processPackages [argument-parsing]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/argument_parsing-1.0.0.tar.gz tmp/argument_parsing-1.0.1.tar.gz --markdown 20240516/a/argument-parsing/1.0.0-1.0.1/README.md --exclude *.pyd
+[2024-05-16 11:24:14] INFO root fetch - processPackages [commonmeta-py]: executing diffoscope
+[2024-05-16 11:24:14] INFO root fetch - processPackages [commonmeta-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/commonmeta_py-0.9.3.tar.gz tmp/commonmeta_py-0.9.4.tar.gz --markdown 20240516/c/commonmeta-py/0.9.3-0.9.4/README.md --exclude *.pyd
+[2024-05-16 11:24:15] INFO root fetch - processPackages [lucy01]: Remove: archive file [/home/abi/fetcher/tmp/lucy01-0.0.2.tar.gz]
+[2024-05-16 11:24:15] INFO root fetch - processPackages [lucy01]: Remove: archive file [/home/abi/fetcher/tmp/lucy01-0.1.0.tar.gz]
+[2024-05-16 11:24:15] INFO root fetch - processPackages [lucy01]: Start processing: pyistp
+[2024-05-16 11:24:15] INFO root fetch - main [MainThread]: End processing [lucy01]: success
+[2024-05-16 11:24:15] INFO root fetch - processPackages [pyistp]: New version: [0.4.0] Old Version: [0.3.1]
+[2024-05-16 11:24:15] INFO root fetch - processPackages [telegram-wallet-pay]: Remove: archive file [/home/abi/fetcher/tmp/telegram_wallet_pay-0.5.0.tar.gz]
+[2024-05-16 11:24:15] INFO root fetch - processPackages [telegram-wallet-pay]: Remove: archive file [/home/abi/fetcher/tmp/telegram_wallet_pay-0.6.0.tar.gz]
+[2024-05-16 11:24:15] INFO root fetch - processPackages [telegram-wallet-pay]: Start processing: kfish
+[2024-05-16 11:24:15] INFO root fetch - main [MainThread]: End processing [telegram-wallet-pay]: success
+[2024-05-16 11:24:15] INFO root fetch - processPackages [kfish]: New version: [99.0.202405160919] Old Version: [99.0.202405160834]
+[2024-05-16 11:24:15] INFO root fetch - processPackages [appmesh]: Remove: archive file [/home/abi/fetcher/tmp/appmesh-1.0.0-py3-none-any.whl.zip]
+[2024-05-16 11:24:15] INFO root fetch - processPackages [appmesh]: Remove: archive file [/home/abi/fetcher/tmp/appmesh-1.0.1-py3-none-any.whl.zip]
+[2024-05-16 11:24:15] INFO root fetch - main [MainThread]: End processing [appmesh]: success
+[2024-05-16 11:24:15] INFO root fetch - processPackages [kfish]: Downloading https://files.pythonhosted.org/packages/f3/8a/731dcc8e2171caa13d5ddc6ed309105dde9dbcf1ec28fa20ad1ba8e7619c/kfish-99.0.202405160834-py3-none-any.whl
+[2024-05-16 11:24:15] INFO root fetch - processPackages [pyistp]: Downloading https://files.pythonhosted.org/packages/b4/61/934746bdb9ae16fd5bcb12a9b530c8c2e4a95f5c3af92fa03efae42cb3c5/pyistp-0.3.1.tar.gz
+[2024-05-16 11:24:15] INFO root fetch - processPackages [MLGLUE]: Remove: archive file [/home/abi/fetcher/tmp/MLGLUE-0.0.3.tar.gz]
+[2024-05-16 11:24:15] INFO root fetch - processPackages [MLGLUE]: Remove: archive file [/home/abi/fetcher/tmp/MLGLUE-0.0.4.tar.gz]
+[2024-05-16 11:24:15] INFO root fetch - main [MainThread]: End processing [MLGLUE]: success
+[2024-05-16 11:24:16] INFO root fetch - processPackages [mass-composition]: Remove: archive file [/home/abi/fetcher/tmp/mass_composition-0.6.2.tar.gz]
+[2024-05-16 11:24:16] INFO root fetch - processPackages [mass-composition]: Remove: archive file [/home/abi/fetcher/tmp/mass_composition-0.6.3.tar.gz]
+[2024-05-16 11:24:16] INFO root fetch - main [MainThread]: End processing [mass-composition]: success
+[2024-05-16 11:24:16] INFO root fetch - processPackages [argument-parsing]: Remove: archive file [/home/abi/fetcher/tmp/argument_parsing-1.0.0.tar.gz]
+[2024-05-16 11:24:16] INFO root fetch - processPackages [argument-parsing]: Remove: archive file [/home/abi/fetcher/tmp/argument_parsing-1.0.1.tar.gz]
+[2024-05-16 11:24:16] INFO root fetch - main [MainThread]: End processing [argument-parsing]: success
+[2024-05-16 11:24:16] INFO root fetch - processPackages [dreamcoat]: Remove: archive file [/home/abi/fetcher/tmp/dreamcoat-0.2.tar.gz]
+[2024-05-16 11:24:16] INFO root fetch - processPackages [dreamcoat]: Remove: archive file [/home/abi/fetcher/tmp/dreamcoat-0.3.tar.gz]
+[2024-05-16 11:24:16] INFO root fetch - main [MainThread]: End processing [dreamcoat]: success
+[2024-05-16 11:24:16] INFO root fetch - processPackages [kfish]: Downloading https://files.pythonhosted.org/packages/f0/34/92bb623b018cb791accbc33d274f67d7910443a5d244b6e54998c07999a7/kfish-99.0.202405160919-py3-none-any.whl
+[2024-05-16 11:24:16] INFO root fetch - processPackages [pyistp]: Downloading https://files.pythonhosted.org/packages/aa/9d/157838da47d1ab68417fff44d6ed325da068c0dd677cbf325c9ffbf6b26f/pyistp-0.4.0.tar.gz
+[2024-05-16 11:24:16] INFO root fetch - processPackages [thingsvision]: Remove: archive file [/home/abi/fetcher/tmp/thingsvision-2.6.4.tar.gz]
+[2024-05-16 11:24:16] INFO root fetch - processPackages [thingsvision]: Remove: archive file [/home/abi/fetcher/tmp/thingsvision-2.6.5.tar.gz]
+[2024-05-16 11:24:16] INFO root fetch - main [MainThread]: End processing [thingsvision]: success
+[2024-05-16 11:24:16] INFO root fetch - processPackages [kfish]: executing diffoscope
+[2024-05-16 11:24:16] INFO root fetch - processPackages [kfish]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kfish-99.0.202405160834-py3-none-any.whl.zip tmp/kfish-99.0.202405160919-py3-none-any.whl.zip --markdown 20240516/k/kfish/99.0.202405160834-99.0.202405160919/README.md --exclude *.pyd
+[2024-05-16 11:24:16] INFO root fetch - processPackages [commonmeta-py]: Remove: archive file [/home/abi/fetcher/tmp/commonmeta_py-0.9.3.tar.gz]
+[2024-05-16 11:24:16] INFO root fetch - processPackages [commonmeta-py]: Remove: archive file [/home/abi/fetcher/tmp/commonmeta_py-0.9.4.tar.gz]
+[2024-05-16 11:24:16] INFO root fetch - main [MainThread]: End processing [commonmeta-py]: success
+[2024-05-16 11:24:16] INFO root fetch - processPackages [pyistp]: executing diffoscope
+[2024-05-16 11:24:16] INFO root fetch - processPackages [pyistp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyistp-0.3.1.tar.gz tmp/pyistp-0.4.0.tar.gz --markdown 20240516/p/pyistp/0.3.1-0.4.0/README.md --exclude *.pyd
+[2024-05-16 11:24:17] INFO root fetch - processPackages [kfish]: Remove: archive file [/home/abi/fetcher/tmp/kfish-99.0.202405160834-py3-none-any.whl.zip]
+[2024-05-16 11:24:17] INFO root fetch - processPackages [kfish]: Remove: archive file [/home/abi/fetcher/tmp/kfish-99.0.202405160919-py3-none-any.whl.zip]
+[2024-05-16 11:24:17] INFO root fetch - main [MainThread]: End processing [kfish]: success
+[2024-05-16 11:24:17] INFO root fetch - processPackages [pyistp]: Remove: archive file [/home/abi/fetcher/tmp/pyistp-0.3.1.tar.gz]
+[2024-05-16 11:24:17] INFO root fetch - processPackages [pyistp]: Remove: archive file [/home/abi/fetcher/tmp/pyistp-0.4.0.tar.gz]
+[2024-05-16 11:24:17] INFO root fetch - main [MainThread]: End processing [pyistp]: success
+[2024-05-16 11:24:17] INFO root fetch - processPackages [pyatlan]: Remove: archive file [/home/abi/fetcher/tmp/pyatlan-2.1.9.tar.gz]
+[2024-05-16 11:24:17] INFO root fetch - processPackages [pyatlan]: Remove: archive file [/home/abi/fetcher/tmp/pyatlan-2.2.0.tar.gz]
+[2024-05-16 11:24:17] INFO root fetch - main [MainThread]: End processing [pyatlan]: success
+[2024-05-16 11:24:17] INFO root fetch - main [MainThread]: Store serial: [23233070]
