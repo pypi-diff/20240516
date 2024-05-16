@@ -11875,3 +11875,15 @@ EOFError: EOF read where object expected
 [2024-05-16 07:20:07] INFO root fetch - processPackages [melee]: Remove: archive file [/home/abi/fetcher/tmp/melee-0.9.0.zip]
 [2024-05-16 07:20:07] INFO root fetch - main [MainThread]: End processing [melee]: success
 [2024-05-16 07:20:07] INFO root fetch - main [MainThread]: Store serial: [23229655]
+[2024-05-16 07:22:11] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23229655]
+[2024-05-16 07:22:15] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-05-16 07:22:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: OZI
+[2024-05-16 07:22:15] INFO root fetch - processPackages [OZI]: New version: [1.7.2] Old Version: [1.7.1]
+[2024-05-16 07:22:16] INFO root fetch - processPackages [OZI]: Downloading https://files.pythonhosted.org/packages/46/fa/82e8234fa9e0ca42c3a111f1ac33b6423a9d8d98c44c4061163faaff9361/OZI-1.7.1.tar.gz
+[2024-05-16 07:22:16] INFO root fetch - processPackages [OZI]: Downloading https://files.pythonhosted.org/packages/78/f6/0abfb3f44ca4412d3ea880c51d1ac7eb7f98f4ab32d3b3eb13c1ba2bf23b/OZI-1.7.2.tar.gz
+[2024-05-16 07:22:16] INFO root fetch - processPackages [OZI]: executing diffoscope
+[2024-05-16 07:22:16] INFO root fetch - processPackages [OZI]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/OZI-1.7.1.tar.gz tmp/OZI-1.7.2.tar.gz --markdown 20240516/O/OZI/1.7.1-1.7.2/README.md --exclude *.pyd
+[2024-05-16 07:22:17] INFO root fetch - processPackages [OZI]: Remove: archive file [/home/abi/fetcher/tmp/OZI-1.7.1.tar.gz]
+[2024-05-16 07:22:17] INFO root fetch - processPackages [OZI]: Remove: archive file [/home/abi/fetcher/tmp/OZI-1.7.2.tar.gz]
+[2024-05-16 07:22:17] INFO root fetch - main [MainThread]: End processing [OZI]: success
+[2024-05-16 07:22:17] INFO root fetch - main [MainThread]: Store serial: [23229660]
