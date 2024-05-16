@@ -13967,3 +13967,60 @@ EOFError: EOF read where object expected
 [2024-05-16 09:12:44] INFO root fetch - processPackages [dp-launching-app]: Remove: archive file [/home/abi/fetcher/tmp/dp-launching-app-0.0.4.tar.gz]
 [2024-05-16 09:12:44] INFO root fetch - main [MainThread]: End processing [dp-launching-app]: success
 [2024-05-16 09:12:44] INFO root fetch - main [MainThread]: Store serial: [23230512]
+[2024-05-16 09:14:47] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23230512]
+[2024-05-16 09:14:52] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-16 09:14:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: nrobo
+[2024-05-16 09:14:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tinyCUCM
+[2024-05-16 09:14:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: unitsnet-py
+[2024-05-16 09:14:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: socketwrench
+[2024-05-16 09:14:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: EasyPage
+[2024-05-16 09:14:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: Simplextep
+[2024-05-16 09:14:52] INFO root fetch - processPackages [socketwrench]: New version: [1.8.4] Old Version: [1.8.3]
+[2024-05-16 09:14:52] INFO root fetch - processPackages [Simplextep]: New version: [0.1.3] Old Version: [0.1.2]
+[2024-05-16 09:14:52] INFO root fetch - processPackages [EasyPage]: New version: [0.0.8] Old Version: [0.0.7]
+[2024-05-16 09:14:52] INFO root fetch - processPackages [tinyCUCM]: New version: [0.2.7] Old Version: [0.2.6]
+[2024-05-16 09:14:52] INFO root fetch - processPackages [unitsnet-py]: New version: [0.1.99] Old Version: [0.1.98]
+[2024-05-16 09:14:53] INFO root fetch - processPackages [nrobo]: New version: [2024.40.3] Old Version: [2024.40.2]
+[2024-05-16 09:14:53] INFO root fetch - processPackages [EasyPage]: Downloading https://files.pythonhosted.org/packages/a9/aa/d7e66e8509c25fae65139bdf3350ef26110ae0f27f00109a0284c74da96d/EasyPage-0.0.7.tar.gz
+[2024-05-16 09:14:53] INFO root fetch - processPackages [socketwrench]: Downloading https://files.pythonhosted.org/packages/22/95/d8090b01f650a8b1034e94eab0568572bd0b86356c2787675301caef4437/socketwrench-1.8.3.tar.gz
+[2024-05-16 09:14:53] INFO root fetch - processPackages [Simplextep]: Downloading https://files.pythonhosted.org/packages/03/e4/94944a8f0804d6d3912a16c0cc0b6bb564e68ea16e9e79de00157ca5ae86/simplextep-0.1.2.tar.gz
+[2024-05-16 09:14:53] INFO root fetch - processPackages [unitsnet-py]: Downloading https://files.pythonhosted.org/packages/ee/0a/34f188b24df159a2a32de4e4e2d5cc7607e93ab8b313c3699c47195f41ca/unitsnet-py-0.1.98.tar.gz
+[2024-05-16 09:14:53] INFO root fetch - processPackages [tinyCUCM]: Downloading https://files.pythonhosted.org/packages/12/db/46267c5c389d4cbe2f67283038c2b8d22d43b14b1ea08f5ce8d39c527415/tinyCUCM-0.2.6.tar.gz
+[2024-05-16 09:14:53] INFO root fetch - processPackages [nrobo]: Downloading https://files.pythonhosted.org/packages/dc/7d/bfd8435e38db9ef0a0a19a66b181b4778d9928c17c370d953b29b7dd9793/nrobo-2024.40.2.tar.gz
+[2024-05-16 09:14:53] INFO root fetch - processPackages [Simplextep]: Downloading https://files.pythonhosted.org/packages/de/bf/9cfeeb319603e7d2123270229e3c7369977cd23026d74150623b25ae3e86/simplextep-0.1.3.tar.gz
+[2024-05-16 09:14:53] INFO root fetch - processPackages [unitsnet-py]: Downloading https://files.pythonhosted.org/packages/6f/c3/56091fa169b05a85897f9a3ff84c663f9105df9df5d552c62229c909ba28/unitsnet-py-0.1.99.tar.gz
+[2024-05-16 09:14:53] INFO root fetch - processPackages [socketwrench]: Downloading https://files.pythonhosted.org/packages/0d/b8/e76cdb227c1123a243d3add7b092ceefbcbed9927cca715f661066191059/socketwrench-1.8.4.tar.gz
+[2024-05-16 09:14:53] INFO root fetch - processPackages [Simplextep]: executing diffoscope
+[2024-05-16 09:14:53] INFO root fetch - processPackages [Simplextep]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/simplextep-0.1.2.tar.gz tmp/simplextep-0.1.3.tar.gz --markdown 20240516/S/Simplextep/0.1.2-0.1.3/README.md --exclude *.pyd
+[2024-05-16 09:14:53] INFO root fetch - processPackages [EasyPage]: Downloading https://files.pythonhosted.org/packages/3f/c1/4134326382533ff7c11d88ba7830b6122f32cbed9b360b2e979a12c1405b/EasyPage-0.0.8.tar.gz
+[2024-05-16 09:14:53] INFO root fetch - processPackages [unitsnet-py]: executing diffoscope
+[2024-05-16 09:14:53] INFO root fetch - processPackages [unitsnet-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/unitsnet-py-0.1.98.tar.gz tmp/unitsnet-py-0.1.99.tar.gz --markdown 20240516/u/unitsnet-py/0.1.98-0.1.99/README.md --exclude *.pyd
+[2024-05-16 09:14:53] INFO root fetch - processPackages [socketwrench]: executing diffoscope
+[2024-05-16 09:14:53] INFO root fetch - processPackages [socketwrench]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/socketwrench-1.8.3.tar.gz tmp/socketwrench-1.8.4.tar.gz --markdown 20240516/s/socketwrench/1.8.3-1.8.4/README.md --exclude *.pyd
+[2024-05-16 09:14:53] INFO root fetch - processPackages [EasyPage]: executing diffoscope
+[2024-05-16 09:14:53] INFO root fetch - processPackages [EasyPage]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/EasyPage-0.0.7.tar.gz tmp/EasyPage-0.0.8.tar.gz --markdown 20240516/E/EasyPage/0.0.7-0.0.8/README.md --exclude *.pyd
+[2024-05-16 09:14:53] INFO root fetch - processPackages [tinyCUCM]: Downloading https://files.pythonhosted.org/packages/02/10/00c7ee80449b833585234a0510df2766dee4205f2a2bc703c0ebc94ab8ea/tinycucm-0.2.7.tar.gz
+[2024-05-16 09:14:53] INFO root fetch - processPackages [nrobo]: Downloading https://files.pythonhosted.org/packages/f0/a7/7c57092474121ec6f88ea5de41498f4064c82bedb89ea13a26a837c5b89d/nrobo-2024.40.3.tar.gz
+[2024-05-16 09:14:53] INFO root fetch - processPackages [nrobo]: executing diffoscope
+[2024-05-16 09:14:53] INFO root fetch - processPackages [nrobo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nrobo-2024.40.2.tar.gz tmp/nrobo-2024.40.3.tar.gz --markdown 20240516/n/nrobo/2024.40.2-2024.40.3/README.md --exclude *.pyd
+[2024-05-16 09:14:53] INFO root fetch - processPackages [tinyCUCM]: executing diffoscope
+[2024-05-16 09:14:53] INFO root fetch - processPackages [tinyCUCM]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tinyCUCM-0.2.6.tar.gz tmp/tinycucm-0.2.7.tar.gz --markdown 20240516/t/tinyCUCM/0.2.6-0.2.7/README.md --exclude *.pyd
+[2024-05-16 09:14:54] INFO root fetch - processPackages [Simplextep]: Remove: archive file [/home/abi/fetcher/tmp/simplextep-0.1.2.tar.gz]
+[2024-05-16 09:14:54] INFO root fetch - processPackages [Simplextep]: Remove: archive file [/home/abi/fetcher/tmp/simplextep-0.1.3.tar.gz]
+[2024-05-16 09:14:54] INFO root fetch - main [MainThread]: End processing [Simplextep]: success
+[2024-05-16 09:14:54] INFO root fetch - processPackages [socketwrench]: Remove: archive file [/home/abi/fetcher/tmp/socketwrench-1.8.3.tar.gz]
+[2024-05-16 09:14:54] INFO root fetch - processPackages [socketwrench]: Remove: archive file [/home/abi/fetcher/tmp/socketwrench-1.8.4.tar.gz]
+[2024-05-16 09:14:54] INFO root fetch - main [MainThread]: End processing [socketwrench]: success
+[2024-05-16 09:14:54] INFO root fetch - processPackages [EasyPage]: Remove: archive file [/home/abi/fetcher/tmp/EasyPage-0.0.7.tar.gz]
+[2024-05-16 09:14:54] INFO root fetch - processPackages [EasyPage]: Remove: archive file [/home/abi/fetcher/tmp/EasyPage-0.0.8.tar.gz]
+[2024-05-16 09:14:54] INFO root fetch - main [MainThread]: End processing [EasyPage]: success
+[2024-05-16 09:14:54] INFO root fetch - processPackages [nrobo]: Remove: archive file [/home/abi/fetcher/tmp/nrobo-2024.40.2.tar.gz]
+[2024-05-16 09:14:54] INFO root fetch - processPackages [nrobo]: Remove: archive file [/home/abi/fetcher/tmp/nrobo-2024.40.3.tar.gz]
+[2024-05-16 09:14:54] INFO root fetch - main [MainThread]: End processing [nrobo]: success
+[2024-05-16 09:14:54] INFO root fetch - processPackages [tinyCUCM]: Remove: archive file [/home/abi/fetcher/tmp/tinyCUCM-0.2.6.tar.gz]
+[2024-05-16 09:14:54] INFO root fetch - processPackages [tinyCUCM]: Remove: archive file [/home/abi/fetcher/tmp/tinycucm-0.2.7.tar.gz]
+[2024-05-16 09:14:54] INFO root fetch - main [MainThread]: End processing [tinyCUCM]: success
+[2024-05-16 09:14:55] INFO root fetch - processPackages [unitsnet-py]: Remove: archive file [/home/abi/fetcher/tmp/unitsnet-py-0.1.98.tar.gz]
+[2024-05-16 09:14:55] INFO root fetch - processPackages [unitsnet-py]: Remove: archive file [/home/abi/fetcher/tmp/unitsnet-py-0.1.99.tar.gz]
+[2024-05-16 09:14:55] INFO root fetch - main [MainThread]: End processing [unitsnet-py]: success
+[2024-05-16 09:14:55] INFO root fetch - main [MainThread]: Store serial: [23230528]
