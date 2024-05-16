@@ -11249,3 +11249,41 @@ EOFError: EOF read where object expected
 [2024-05-16 06:34:33] INFO root fetch - processPackages [so-vits-svc-fork]: Remove: archive file [/home/abi/fetcher/tmp/so_vits_svc_fork-4.2.3.tar.gz]
 [2024-05-16 06:34:33] INFO root fetch - main [MainThread]: End processing [so-vits-svc-fork]: success
 [2024-05-16 06:34:33] INFO root fetch - main [MainThread]: Store serial: [23229405]
+[2024-05-16 06:36:37] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23229405]
+[2024-05-16 06:36:42] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-16 06:36:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: opengamedata-api-utils
+[2024-05-16 06:36:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mass-composition
+[2024-05-16 06:36:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: postgres-connection-exporter
+[2024-05-16 06:36:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cwordtm
+[2024-05-16 06:36:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: provena-interfaces
+[2024-05-16 06:36:42] WARNING root fetch - processPackages [postgres-connection-exporter]: Skipping, unable to determine old version
+[2024-05-16 06:36:42] INFO root fetch - main [MainThread]: End processing [postgres-connection-exporter] error
+[2024-05-16 06:36:42] INFO root fetch - processPackages [opengamedata-api-utils]: New version: [1.0.7] Old Version: [1.0.6]
+[2024-05-16 06:36:42] INFO root fetch - processPackages [mass-composition]: New version: [0.6.0] Old Version: [0.5.2]
+[2024-05-16 06:36:42] INFO root fetch - processPackages [cwordtm]: New version: [0.6.1] Old Version: [0.6.0]
+[2024-05-16 06:36:42] INFO root fetch - processPackages [provena-interfaces]: New version: [2.6.1] Old Version: [2.6.0]
+[2024-05-16 06:36:42] INFO root fetch - processPackages [opengamedata-api-utils]: Downloading https://files.pythonhosted.org/packages/ed/0e/1bef1ed21087afbe3fdd393b047748d5d97616fbb0154b45be5c67f8d6d5/opengamedata_api_utils-1.0.6.tar.gz
+[2024-05-16 06:36:42] INFO root fetch - processPackages [mass-composition]: Downloading https://files.pythonhosted.org/packages/b8/ae/099634d5d6cbbdc006c740d0e93b1d202dffdcdccfd9a72bba55984dfe48/mass_composition-0.5.2.tar.gz
+[2024-05-16 06:36:42] INFO root fetch - processPackages [cwordtm]: Downloading https://files.pythonhosted.org/packages/bf/fb/4d7fbca79e7f1fa09a36a3c5b03dee5e61ac1af330043f85506bd1c9fe91/cwordtm-0.6.0.tar.gz
+[2024-05-16 06:36:42] INFO root fetch - processPackages [provena-interfaces]: Downloading https://files.pythonhosted.org/packages/f1/ea/0dff06578950a386d5e5bcedd7bf00bd6e38b3cf6e9b5d00473a6f15080d/provena-interfaces-2.6.0.tar.gz
+[2024-05-16 06:36:42] WARNING root fetch - processPackages [cwordtm]: Skipping package: exceeds size limit 18231265>=10485760
+[2024-05-16 06:36:42] INFO root fetch - main [MainThread]: End processing [cwordtm] error
+[2024-05-16 06:36:42] INFO root fetch - processPackages [opengamedata-api-utils]: Downloading https://files.pythonhosted.org/packages/dc/4e/00b8bae622ed055a494ffc581ab353201561fe2c5e2d5c208b66d83f2cd1/opengamedata_api_utils-1.0.7.tar.gz
+[2024-05-16 06:36:42] INFO root fetch - processPackages [mass-composition]: Downloading https://files.pythonhosted.org/packages/1a/97/c81d35abb5808ddba5bd048542dd4a97f7ab63286f75e8f772fadbedca10/mass_composition-0.6.0.tar.gz
+[2024-05-16 06:36:42] INFO root fetch - processPackages [opengamedata-api-utils]: executing diffoscope
+[2024-05-16 06:36:42] INFO root fetch - processPackages [opengamedata-api-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/opengamedata_api_utils-1.0.6.tar.gz tmp/opengamedata_api_utils-1.0.7.tar.gz --markdown 20240516/o/opengamedata-api-utils/1.0.6-1.0.7/README.md --exclude *.pyd
+[2024-05-16 06:36:42] INFO root fetch - processPackages [mass-composition]: executing diffoscope
+[2024-05-16 06:36:42] INFO root fetch - processPackages [mass-composition]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mass_composition-0.5.2.tar.gz tmp/mass_composition-0.6.0.tar.gz --markdown 20240516/m/mass-composition/0.5.2-0.6.0/README.md --exclude *.pyd
+[2024-05-16 06:36:42] INFO root fetch - processPackages [provena-interfaces]: Downloading https://files.pythonhosted.org/packages/5e/4e/337a16373d1a735de27d922fed4275751f925b10cba840e99833b74ba22e/provena-interfaces-2.6.1.tar.gz
+[2024-05-16 06:36:43] INFO root fetch - processPackages [provena-interfaces]: executing diffoscope
+[2024-05-16 06:36:43] INFO root fetch - processPackages [provena-interfaces]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/provena-interfaces-2.6.0.tar.gz tmp/provena-interfaces-2.6.1.tar.gz --markdown 20240516/p/provena-interfaces/2.6.0-2.6.1/README.md --exclude *.pyd
+[2024-05-16 06:36:43] INFO root fetch - processPackages [opengamedata-api-utils]: Remove: archive file [/home/abi/fetcher/tmp/opengamedata_api_utils-1.0.6.tar.gz]
+[2024-05-16 06:36:43] INFO root fetch - processPackages [opengamedata-api-utils]: Remove: archive file [/home/abi/fetcher/tmp/opengamedata_api_utils-1.0.7.tar.gz]
+[2024-05-16 06:36:43] INFO root fetch - main [MainThread]: End processing [opengamedata-api-utils]: success
+[2024-05-16 06:36:43] INFO root fetch - processPackages [mass-composition]: Remove: archive file [/home/abi/fetcher/tmp/mass_composition-0.5.2.tar.gz]
+[2024-05-16 06:36:43] INFO root fetch - processPackages [mass-composition]: Remove: archive file [/home/abi/fetcher/tmp/mass_composition-0.6.0.tar.gz]
+[2024-05-16 06:36:43] INFO root fetch - main [MainThread]: End processing [mass-composition]: success
+[2024-05-16 06:36:43] INFO root fetch - processPackages [provena-interfaces]: Remove: archive file [/home/abi/fetcher/tmp/provena-interfaces-2.6.0.tar.gz]
+[2024-05-16 06:36:43] INFO root fetch - processPackages [provena-interfaces]: Remove: archive file [/home/abi/fetcher/tmp/provena-interfaces-2.6.1.tar.gz]
+[2024-05-16 06:36:43] INFO root fetch - main [MainThread]: End processing [provena-interfaces]: success
+[2024-05-16 06:36:43] INFO root fetch - main [MainThread]: Store serial: [23229420]
