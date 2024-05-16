@@ -4306,3 +4306,60 @@ AssertionError: tmp/hygpytools-0.2.0.tar.gz does not exist
 [2024-05-16 02:24:34] INFO root fetch - processPackages [sonus]: Remove: archive file [/home/abi/fetcher/tmp/sonus-0.6.3.tar.gz]
 [2024-05-16 02:24:34] INFO root fetch - main [MainThread]: End processing [sonus]: success
 [2024-05-16 02:24:34] INFO root fetch - main [MainThread]: Store serial: [23226842]
+[2024-05-16 02:26:38] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23226842]
+[2024-05-16 02:26:42] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-16 02:26:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cdk-serverless-clamscan
+[2024-05-16 02:26:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: llama-index-indices-managed-zilliz
+[2024-05-16 02:26:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cdk-ecs-service-extensions
+[2024-05-16 02:26:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: spaceone-inventory
+[2024-05-16 02:26:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cdk-secret-manager-wrapper-layer
+[2024-05-16 02:26:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: sleipnirgroup-jormungandr
+[2024-05-16 02:26:43] INFO root fetch - processPackages [llama-index-indices-managed-zilliz]: New version: [0.1.3] Old Version: [0.1.2]
+[2024-05-16 02:26:43] INFO root fetch - processPackages [spaceone-inventory]: New version: [2.0.dev99] Old Version: [2.0.dev98]
+[2024-05-16 02:26:43] INFO root fetch - processPackages [cdk-secret-manager-wrapper-layer]: New version: [2.0.99] Old Version: [2.0.98]
+[2024-05-16 02:26:43] INFO root fetch - processPackages [sleipnirgroup-jormungandr]: New version: [0.0.1.dev99] Old Version: [0.0.1.dev98]
+[2024-05-16 02:26:43] INFO root fetch - processPackages [cdk-ecs-service-extensions]: New version: [2.0.1a99] Old Version: [2.0.1a98]
+[2024-05-16 02:26:43] INFO root fetch - processPackages [cdk-serverless-clamscan]: New version: [2.6.99] Old Version: [2.6.98]
+[2024-05-16 02:26:43] INFO root fetch - processPackages [spaceone-inventory]: Downloading https://files.pythonhosted.org/packages/2b/23/73e091142fbd007706604f94cc95718e79d9259d998aa9dd424fc7cc6f7f/spaceone-inventory-2.0.dev98.tar.gz
+[2024-05-16 02:26:43] INFO root fetch - processPackages [cdk-secret-manager-wrapper-layer]: Downloading https://files.pythonhosted.org/packages/00/91/545869a3cc999dbc9750aad345d775087610ebf834517c928a0d0e289c4e/cdk-secret-manager-wrapper-layer-2.0.98.tar.gz
+[2024-05-16 02:26:43] INFO root fetch - processPackages [sleipnirgroup-jormungandr]: Downloading https://files.pythonhosted.org/packages/cc/12/913e734462cf5d457ad69ec174744b76c771c8b63ebfb55efeb3cf02373e/sleipnirgroup_jormungandr-0.0.1.dev98.tar.gz
+[2024-05-16 02:26:43] INFO root fetch - processPackages [cdk-serverless-clamscan]: Downloading https://files.pythonhosted.org/packages/04/67/6fb0e00ee65986b766391e4327a7370cec35f8458c0c80507e3b56a79e57/cdk-serverless-clamscan-2.6.98.tar.gz
+[2024-05-16 02:26:43] INFO root fetch - processPackages [llama-index-indices-managed-zilliz]: Downloading https://files.pythonhosted.org/packages/5d/fb/9d4edcb0be36f53c3c2ceeeac9f7ecc37a3230f6ae828ac7b2b3ff9cf4e7/llama_index_indices_managed_zilliz-0.1.2.tar.gz
+[2024-05-16 02:26:43] INFO root fetch - processPackages [cdk-ecs-service-extensions]: Downloading https://files.pythonhosted.org/packages/c9/ad/d7965da0f34d52de670def31464963b3971de03ac20cddf5eac577722b31/cdk-ecs-service-extensions-2.0.1a98.tar.gz
+[2024-05-16 02:26:43] INFO root fetch - processPackages [cdk-secret-manager-wrapper-layer]: Downloading https://files.pythonhosted.org/packages/c2/c5/a8a13bb72ea375e2ce99dd389e945478ce7d95d8628acf6db64f14f674f5/cdk-secret-manager-wrapper-layer-2.0.99.tar.gz
+[2024-05-16 02:26:43] INFO root fetch - processPackages [spaceone-inventory]: Downloading https://files.pythonhosted.org/packages/e7/30/f1229bb9f69283d6576804b473d6fe73ff3118fb5543c89d48b18f899ca2/spaceone-inventory-2.0.dev99.tar.gz
+[2024-05-16 02:26:43] INFO root fetch - processPackages [sleipnirgroup-jormungandr]: Downloading https://files.pythonhosted.org/packages/c4/65/9e9a4eafe0a550c5be12a69cf1665a71a4b5c434089722b18386b65569f5/sleipnirgroup_jormungandr-0.0.1.dev99.tar.gz
+[2024-05-16 02:26:43] INFO root fetch - processPackages [cdk-serverless-clamscan]: Downloading https://files.pythonhosted.org/packages/53/8f/ea40546b0f696761a1aaeee533ca8a5f53147131c3aa1f0aa1316112f44f/cdk-serverless-clamscan-2.6.99.tar.gz
+[2024-05-16 02:26:43] INFO root fetch - processPackages [cdk-secret-manager-wrapper-layer]: executing diffoscope
+[2024-05-16 02:26:43] INFO root fetch - processPackages [cdk-secret-manager-wrapper-layer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-secret-manager-wrapper-layer-2.0.98.tar.gz tmp/cdk-secret-manager-wrapper-layer-2.0.99.tar.gz --markdown 20240516/c/cdk-secret-manager-wrapper-layer/2.0.98-2.0.99/README.md --exclude *.pyd
+[2024-05-16 02:26:43] INFO root fetch - processPackages [cdk-ecs-service-extensions]: Downloading https://files.pythonhosted.org/packages/9c/f7/1a593c4ae0d3c80332cec251caad8f13a27842299475718ad186eea220ba/cdk-ecs-service-extensions-2.0.1a99.tar.gz
+[2024-05-16 02:26:43] INFO root fetch - processPackages [spaceone-inventory]: executing diffoscope
+[2024-05-16 02:26:43] INFO root fetch - processPackages [spaceone-inventory]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spaceone-inventory-2.0.dev98.tar.gz tmp/spaceone-inventory-2.0.dev99.tar.gz --markdown 20240516/s/spaceone-inventory/2.0.dev98-2.0.dev99/README.md --exclude *.pyd
+[2024-05-16 02:26:43] INFO root fetch - processPackages [sleipnirgroup-jormungandr]: executing diffoscope
+[2024-05-16 02:26:43] INFO root fetch - processPackages [sleipnirgroup-jormungandr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sleipnirgroup_jormungandr-0.0.1.dev98.tar.gz tmp/sleipnirgroup_jormungandr-0.0.1.dev99.tar.gz --markdown 20240516/s/sleipnirgroup-jormungandr/0.0.1.dev98-0.0.1.dev99/README.md --exclude *.pyd
+[2024-05-16 02:26:43] INFO root fetch - processPackages [cdk-serverless-clamscan]: executing diffoscope
+[2024-05-16 02:26:43] INFO root fetch - processPackages [cdk-serverless-clamscan]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-serverless-clamscan-2.6.98.tar.gz tmp/cdk-serverless-clamscan-2.6.99.tar.gz --markdown 20240516/c/cdk-serverless-clamscan/2.6.98-2.6.99/README.md --exclude *.pyd
+[2024-05-16 02:26:43] INFO root fetch - processPackages [llama-index-indices-managed-zilliz]: Downloading https://files.pythonhosted.org/packages/ae/e3/293d96f1186907b90a4d3a67cd97d29d0241fc2955d5c6c26e8111fa0a60/llama_index_indices_managed_zilliz-0.1.3.tar.gz
+[2024-05-16 02:26:43] INFO root fetch - processPackages [cdk-ecs-service-extensions]: executing diffoscope
+[2024-05-16 02:26:43] INFO root fetch - processPackages [cdk-ecs-service-extensions]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-ecs-service-extensions-2.0.1a98.tar.gz tmp/cdk-ecs-service-extensions-2.0.1a99.tar.gz --markdown 20240516/c/cdk-ecs-service-extensions/2.0.1a98-2.0.1a99/README.md --exclude *.pyd
+[2024-05-16 02:26:44] INFO root fetch - processPackages [llama-index-indices-managed-zilliz]: executing diffoscope
+[2024-05-16 02:26:44] INFO root fetch - processPackages [llama-index-indices-managed-zilliz]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/llama_index_indices_managed_zilliz-0.1.2.tar.gz tmp/llama_index_indices_managed_zilliz-0.1.3.tar.gz --markdown 20240516/l/llama-index-indices-managed-zilliz/0.1.2-0.1.3/README.md --exclude *.pyd
+[2024-05-16 02:26:44] INFO root fetch - processPackages [cdk-secret-manager-wrapper-layer]: Remove: archive file [/home/abi/fetcher/tmp/cdk-secret-manager-wrapper-layer-2.0.98.tar.gz]
+[2024-05-16 02:26:44] INFO root fetch - processPackages [cdk-secret-manager-wrapper-layer]: Remove: archive file [/home/abi/fetcher/tmp/cdk-secret-manager-wrapper-layer-2.0.99.tar.gz]
+[2024-05-16 02:26:44] INFO root fetch - main [MainThread]: End processing [cdk-secret-manager-wrapper-layer]: success
+[2024-05-16 02:26:44] INFO root fetch - processPackages [cdk-serverless-clamscan]: Remove: archive file [/home/abi/fetcher/tmp/cdk-serverless-clamscan-2.6.98.tar.gz]
+[2024-05-16 02:26:44] INFO root fetch - processPackages [cdk-serverless-clamscan]: Remove: archive file [/home/abi/fetcher/tmp/cdk-serverless-clamscan-2.6.99.tar.gz]
+[2024-05-16 02:26:44] INFO root fetch - main [MainThread]: End processing [cdk-serverless-clamscan]: success
+[2024-05-16 02:26:44] INFO root fetch - processPackages [llama-index-indices-managed-zilliz]: Remove: archive file [/home/abi/fetcher/tmp/llama_index_indices_managed_zilliz-0.1.2.tar.gz]
+[2024-05-16 02:26:44] INFO root fetch - processPackages [llama-index-indices-managed-zilliz]: Remove: archive file [/home/abi/fetcher/tmp/llama_index_indices_managed_zilliz-0.1.3.tar.gz]
+[2024-05-16 02:26:44] INFO root fetch - main [MainThread]: End processing [llama-index-indices-managed-zilliz]: success
+[2024-05-16 02:26:44] INFO root fetch - processPackages [sleipnirgroup-jormungandr]: Remove: archive file [/home/abi/fetcher/tmp/sleipnirgroup_jormungandr-0.0.1.dev98.tar.gz]
+[2024-05-16 02:26:44] INFO root fetch - processPackages [sleipnirgroup-jormungandr]: Remove: archive file [/home/abi/fetcher/tmp/sleipnirgroup_jormungandr-0.0.1.dev99.tar.gz]
+[2024-05-16 02:26:44] INFO root fetch - main [MainThread]: End processing [sleipnirgroup-jormungandr]: success
+[2024-05-16 02:26:44] INFO root fetch - processPackages [cdk-ecs-service-extensions]: Remove: archive file [/home/abi/fetcher/tmp/cdk-ecs-service-extensions-2.0.1a98.tar.gz]
+[2024-05-16 02:26:44] INFO root fetch - processPackages [cdk-ecs-service-extensions]: Remove: archive file [/home/abi/fetcher/tmp/cdk-ecs-service-extensions-2.0.1a99.tar.gz]
+[2024-05-16 02:26:44] INFO root fetch - main [MainThread]: End processing [cdk-ecs-service-extensions]: success
+[2024-05-16 02:26:44] INFO root fetch - processPackages [spaceone-inventory]: Remove: archive file [/home/abi/fetcher/tmp/spaceone-inventory-2.0.dev98.tar.gz]
+[2024-05-16 02:26:44] INFO root fetch - processPackages [spaceone-inventory]: Remove: archive file [/home/abi/fetcher/tmp/spaceone-inventory-2.0.dev99.tar.gz]
+[2024-05-16 02:26:44] INFO root fetch - main [MainThread]: End processing [spaceone-inventory]: success
+[2024-05-16 02:26:44] INFO root fetch - main [MainThread]: Store serial: [23226862]
