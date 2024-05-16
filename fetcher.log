@@ -10177,3 +10177,42 @@ EOFError: EOF read where object expected
 [2024-05-16 05:09:33] INFO root fetch - main [MainThread]: End processing [co3]: success
 [2024-05-16 05:09:33] INFO root fetch - main [MainThread]: End processing [co3]: success
 [2024-05-16 05:09:33] INFO root fetch - main [MainThread]: Store serial: [23228978]
+[2024-05-16 05:11:37] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23228978]
+[2024-05-16 05:11:42] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-16 05:11:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: jzchatbot
+[2024-05-16 05:11:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: langchain-elasticsearch
+[2024-05-16 05:11:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: msiaLex
+[2024-05-16 05:11:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: maya-umbrella
+[2024-05-16 05:11:42] INFO root fetch - processPackages [msiaLex]: New version: [0.3.9.9] Old Version: [0.3.9.8]
+[2024-05-16 05:11:42] INFO root fetch - processPackages [msiaLex]: Downloading https://files.pythonhosted.org/packages/c5/ce/891c9069a87e6e6401dc74b8abd9f4657378677725c095b8245ac0128d25/msiaLex-0.3.9.8-py3-none-any.whl
+[2024-05-16 05:11:42] INFO root fetch - processPackages [langchain-elasticsearch]: New version: [0.2.0] Old Version: [0.1.3]
+[2024-05-16 05:11:42] INFO root fetch - processPackages [jzchatbot]: New version: [59.84.0] Old Version: [59.83.99]
+[2024-05-16 05:11:42] INFO root fetch - processPackages [maya-umbrella]: New version: [0.9.0] Old Version: [0.8.0]
+[2024-05-16 05:11:42] INFO root fetch - processPackages [msiaLex]: Downloading https://files.pythonhosted.org/packages/24/5a/f7bf90d29e041c7937e9376c760c2331d1ed81d7bfe7b0c72a7406ef0b0b/msiaLex-0.3.9.9-py3-none-any.whl
+[2024-05-16 05:11:42] INFO root fetch - processPackages [langchain-elasticsearch]: Downloading https://files.pythonhosted.org/packages/6c/39/968f72ae9485cdd52918d7143676e252888af59406ccc79974b93b5b3b3f/langchain_elasticsearch-0.1.3.tar.gz
+[2024-05-16 05:11:42] INFO root fetch - processPackages [jzchatbot]: Downloading https://files.pythonhosted.org/packages/95/22/98331b0428aca2a629a07889e9948a00f6295f31d3a1908cd0230ffd5456/jzchatbot-59.83.99.tar.gz
+[2024-05-16 05:11:42] INFO root fetch - processPackages [maya-umbrella]: Downloading https://files.pythonhosted.org/packages/ea/6b/26c26f681f5b1f45934840440691471fa200f1ccbc8578c21fae359d1fb0/maya_umbrella-0.8.0.tar.gz
+[2024-05-16 05:11:42] INFO root fetch - processPackages [msiaLex]: executing diffoscope
+[2024-05-16 05:11:42] INFO root fetch - processPackages [msiaLex]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/msiaLex-0.3.9.8-py3-none-any.whl.zip tmp/msiaLex-0.3.9.9-py3-none-any.whl.zip --markdown 20240516/m/msiaLex/0.3.9.8-0.3.9.9/README.md --exclude *.pyd
+[2024-05-16 05:11:43] INFO root fetch - processPackages [jzchatbot]: Downloading https://files.pythonhosted.org/packages/69/85/1a5a6a5e0d674ff2b827d360e895dc7a8efeedefc89534f17b2cb9eb8b13/jzchatbot-59.84.0.tar.gz
+[2024-05-16 05:11:43] INFO root fetch - processPackages [maya-umbrella]: Downloading https://files.pythonhosted.org/packages/ec/b1/f3d7b22945a630095c335f5ac74d05e26b4c5ba425a01e9660d169d29b99/maya_umbrella-0.9.0.tar.gz
+[2024-05-16 05:11:43] INFO root fetch - processPackages [langchain-elasticsearch]: Downloading https://files.pythonhosted.org/packages/b8/74/37fcc65a9dc0db9a3c637d4da86abc86c3d0e76c6c3136f061c37a7eceeb/langchain_elasticsearch-0.2.0.tar.gz
+[2024-05-16 05:11:43] INFO root fetch - processPackages [jzchatbot]: executing diffoscope
+[2024-05-16 05:11:43] INFO root fetch - processPackages [jzchatbot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jzchatbot-59.83.99.tar.gz tmp/jzchatbot-59.84.0.tar.gz --markdown 20240516/j/jzchatbot/59.83.99-59.84.0/README.md --exclude *.pyd
+[2024-05-16 05:11:43] INFO root fetch - processPackages [maya-umbrella]: executing diffoscope
+[2024-05-16 05:11:43] INFO root fetch - processPackages [maya-umbrella]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/maya_umbrella-0.8.0.tar.gz tmp/maya_umbrella-0.9.0.tar.gz --markdown 20240516/m/maya-umbrella/0.8.0-0.9.0/README.md --exclude *.pyd
+[2024-05-16 05:11:43] INFO root fetch - processPackages [langchain-elasticsearch]: executing diffoscope
+[2024-05-16 05:11:43] INFO root fetch - processPackages [langchain-elasticsearch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/langchain_elasticsearch-0.1.3.tar.gz tmp/langchain_elasticsearch-0.2.0.tar.gz --markdown 20240516/l/langchain-elasticsearch/0.1.3-0.2.0/README.md --exclude *.pyd
+[2024-05-16 05:11:43] INFO root fetch - processPackages [msiaLex]: Remove: archive file [/home/abi/fetcher/tmp/msiaLex-0.3.9.8-py3-none-any.whl.zip]
+[2024-05-16 05:11:43] INFO root fetch - processPackages [msiaLex]: Remove: archive file [/home/abi/fetcher/tmp/msiaLex-0.3.9.9-py3-none-any.whl.zip]
+[2024-05-16 05:11:43] INFO root fetch - main [MainThread]: End processing [msiaLex]: success
+[2024-05-16 05:11:43] INFO root fetch - processPackages [jzchatbot]: Remove: archive file [/home/abi/fetcher/tmp/jzchatbot-59.83.99.tar.gz]
+[2024-05-16 05:11:43] INFO root fetch - processPackages [jzchatbot]: Remove: archive file [/home/abi/fetcher/tmp/jzchatbot-59.84.0.tar.gz]
+[2024-05-16 05:11:43] INFO root fetch - main [MainThread]: End processing [jzchatbot]: success
+[2024-05-16 05:11:43] INFO root fetch - processPackages [maya-umbrella]: Remove: archive file [/home/abi/fetcher/tmp/maya_umbrella-0.8.0.tar.gz]
+[2024-05-16 05:11:43] INFO root fetch - processPackages [maya-umbrella]: Remove: archive file [/home/abi/fetcher/tmp/maya_umbrella-0.9.0.tar.gz]
+[2024-05-16 05:11:43] INFO root fetch - main [MainThread]: End processing [maya-umbrella]: success
+[2024-05-16 05:11:43] INFO root fetch - processPackages [langchain-elasticsearch]: Remove: archive file [/home/abi/fetcher/tmp/langchain_elasticsearch-0.1.3.tar.gz]
+[2024-05-16 05:11:43] INFO root fetch - processPackages [langchain-elasticsearch]: Remove: archive file [/home/abi/fetcher/tmp/langchain_elasticsearch-0.2.0.tar.gz]
+[2024-05-16 05:11:43] INFO root fetch - main [MainThread]: End processing [langchain-elasticsearch]: success
+[2024-05-16 05:11:43] INFO root fetch - main [MainThread]: Store serial: [23228990]
