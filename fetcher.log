@@ -21448,3 +21448,57 @@ EOFError: EOF read where object expected
 [2024-05-16 11:26:28] INFO root fetch - processPackages [ssb-jordbruk-fagfunksjoner]: Remove: archive file [/home/abi/fetcher/tmp/ssb_jordbruk_fagfunksjoner-0.2.2.tar.gz]
 [2024-05-16 11:26:28] INFO root fetch - main [MainThread]: End processing [ssb-jordbruk-fagfunksjoner]: success
 [2024-05-16 11:26:28] INFO root fetch - main [MainThread]: Store serial: [23233073]
+[2024-05-16 11:28:32] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23233073]
+[2024-05-16 11:28:37] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-16 11:28:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: socketpulse
+[2024-05-16 11:28:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: blockmango
+[2024-05-16 11:28:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: hscloud
+[2024-05-16 11:28:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ipex-llm
+[2024-05-16 11:28:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: mteb
+[2024-05-16 11:28:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: tdfs4ds
+[2024-05-16 11:28:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: naneos-devices
+[2024-05-16 11:28:37] WARNING root fetch - processPackages [blockmango]: Skipping, unable to determine old version
+[2024-05-16 11:28:37] INFO root fetch - main [MainThread]: End processing [blockmango] error
+[2024-05-16 11:28:37] INFO root fetch - processPackages [tdfs4ds]: New version: [0.2.2.8] Old Version: [0.2.2.7]
+[2024-05-16 11:28:37] INFO root fetch - processPackages [ipex-llm]: New version: [2.1.0b20240515] Old Version: [2.1.0b20240514]
+[2024-05-16 11:28:37] INFO root fetch - processPackages [naneos-devices]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-05-16 11:28:37] INFO root fetch - processPackages [hscloud]: New version: [1.0.0] Old Version: [0.0.0.9]
+[2024-05-16 11:28:37] INFO root fetch - processPackages [tdfs4ds]: Downloading https://files.pythonhosted.org/packages/fa/37/57478043d8a5f99023428379798c6bea0e6260352769563dce75e9f2ecf9/tdfs4ds-0.2.2.7-py3-none-any.whl
+[2024-05-16 11:28:37] INFO root fetch - processPackages [ipex-llm]: Downloading https://files.pythonhosted.org/packages/98/df/6b26dcd03d81ec9dc227aff5c92923e823c2491c2263e143c0160f109c83/ipex_llm-2.1.0b20240514-py3-none-win_amd64.whl
+[2024-05-16 11:28:37] WARNING root fetch - processPackages [socketpulse]: Skipping, unable to determine old version
+[2024-05-16 11:28:37] INFO root fetch - main [MainThread]: End processing [socketpulse] error
+[2024-05-16 11:28:37] INFO root fetch - processPackages [mteb]: New version: [1.9.3] Old Version: [1.9.2]
+[2024-05-16 11:28:37] INFO root fetch - processPackages [naneos-devices]: Downloading https://files.pythonhosted.org/packages/08/35/e27ffaada065cf297981eb7367c0d87743327ddbe5f9a4a4a58adb0eec09/naneos_devices-1.0.8.tar.gz
+[2024-05-16 11:28:37] INFO root fetch - processPackages [hscloud]: Downloading https://files.pythonhosted.org/packages/43/ac/19ebdf8d99c13587a5ec03b067c0467d2f2f1ec040fe70d4adeb3814df1f/hscloud-0.0.0.9.tar.gz
+[2024-05-16 11:28:37] INFO root fetch - processPackages [tdfs4ds]: Downloading https://files.pythonhosted.org/packages/08/04/766984098508bfd77b91632a5c66c19626ec5dfe5cc2e6f6bc295bc24fed/tdfs4ds-0.2.2.8-py3-none-any.whl
+[2024-05-16 11:28:37] INFO root fetch - processPackages [mteb]: Downloading https://files.pythonhosted.org/packages/aa/99/be58df74a89833b5d44fbd8f00e5c99b4ca82aa67a9c1487fd782328d3b5/mteb-1.9.2.tar.gz
+[2024-05-16 11:28:38] INFO root fetch - processPackages [tdfs4ds]: executing diffoscope
+[2024-05-16 11:28:38] INFO root fetch - processPackages [tdfs4ds]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tdfs4ds-0.2.2.7-py3-none-any.whl.zip tmp/tdfs4ds-0.2.2.8-py3-none-any.whl.zip --markdown 20240516/t/tdfs4ds/0.2.2.7-0.2.2.8/README.md --exclude *.pyd
+[2024-05-16 11:28:38] INFO root fetch - processPackages [ipex-llm]: Downloading https://files.pythonhosted.org/packages/af/25/eb8a7e92f1cf4cec29e28ed3681235f6ab1fdf835d66d92e727e7773ae82/ipex_llm-2.1.0b20240515-py3-none-win_amd64.whl
+[2024-05-16 11:28:38] INFO root fetch - processPackages [hscloud]: Downloading https://files.pythonhosted.org/packages/98/82/af737999ded004ab8fe958235c076aa3e6b4d29d24faa030f53a5d860251/hscloud-1.0.0.tar.gz
+[2024-05-16 11:28:38] INFO root fetch - processPackages [naneos-devices]: Downloading https://files.pythonhosted.org/packages/2e/11/a6e2ba14a2561fd9b9d966675ce7ce4104efe2145491b765d0c3b8ce139b/naneos_devices-1.0.9.tar.gz
+[2024-05-16 11:28:38] INFO root fetch - processPackages [hscloud]: executing diffoscope
+[2024-05-16 11:28:38] INFO root fetch - processPackages [hscloud]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hscloud-0.0.0.9.tar.gz tmp/hscloud-1.0.0.tar.gz --markdown 20240516/h/hscloud/0.0.0.9-1.0.0/README.md --exclude *.pyd
+[2024-05-16 11:28:38] INFO root fetch - processPackages [naneos-devices]: executing diffoscope
+[2024-05-16 11:28:38] INFO root fetch - processPackages [naneos-devices]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/naneos_devices-1.0.8.tar.gz tmp/naneos_devices-1.0.9.tar.gz --markdown 20240516/n/naneos-devices/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-05-16 11:28:38] INFO root fetch - processPackages [mteb]: Downloading https://files.pythonhosted.org/packages/1a/05/483a4778dcfb42b672c3c28ac435e64d386b1df507d3c0059e5da9194653/mteb-1.9.3.tar.gz
+[2024-05-16 11:28:38] INFO root fetch - processPackages [ipex-llm]: executing diffoscope
+[2024-05-16 11:28:38] INFO root fetch - processPackages [ipex-llm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ipex_llm-2.1.0b20240514-py3-none-win_amd64.whl.zip tmp/ipex_llm-2.1.0b20240515-py3-none-win_amd64.whl.zip --markdown 20240516/i/ipex-llm/2.1.0b20240514-2.1.0b20240515/README.md --exclude *.pyd
+[2024-05-16 11:28:38] INFO root fetch - processPackages [mteb]: executing diffoscope
+[2024-05-16 11:28:38] INFO root fetch - processPackages [mteb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mteb-1.9.2.tar.gz tmp/mteb-1.9.3.tar.gz --markdown 20240516/m/mteb/1.9.2-1.9.3/README.md --exclude *.pyd
+[2024-05-16 11:28:38] INFO root fetch - processPackages [tdfs4ds]: Remove: archive file [/home/abi/fetcher/tmp/tdfs4ds-0.2.2.7-py3-none-any.whl.zip]
+[2024-05-16 11:28:38] INFO root fetch - processPackages [tdfs4ds]: Remove: archive file [/home/abi/fetcher/tmp/tdfs4ds-0.2.2.8-py3-none-any.whl.zip]
+[2024-05-16 11:28:38] INFO root fetch - main [MainThread]: End processing [tdfs4ds]: success
+[2024-05-16 11:28:38] INFO root fetch - processPackages [hscloud]: Remove: archive file [/home/abi/fetcher/tmp/hscloud-0.0.0.9.tar.gz]
+[2024-05-16 11:28:38] INFO root fetch - processPackages [hscloud]: Remove: archive file [/home/abi/fetcher/tmp/hscloud-1.0.0.tar.gz]
+[2024-05-16 11:28:38] INFO root fetch - main [MainThread]: End processing [hscloud]: success
+[2024-05-16 11:28:39] INFO root fetch - processPackages [naneos-devices]: Remove: archive file [/home/abi/fetcher/tmp/naneos_devices-1.0.8.tar.gz]
+[2024-05-16 11:28:39] INFO root fetch - processPackages [naneos-devices]: Remove: archive file [/home/abi/fetcher/tmp/naneos_devices-1.0.9.tar.gz]
+[2024-05-16 11:28:39] INFO root fetch - main [MainThread]: End processing [naneos-devices]: success
+[2024-05-16 11:28:41] INFO root fetch - processPackages [mteb]: Remove: archive file [/home/abi/fetcher/tmp/mteb-1.9.2.tar.gz]
+[2024-05-16 11:28:41] INFO root fetch - processPackages [mteb]: Remove: archive file [/home/abi/fetcher/tmp/mteb-1.9.3.tar.gz]
+[2024-05-16 11:28:41] INFO root fetch - main [MainThread]: End processing [mteb]: success
+[2024-05-16 11:29:08] INFO root fetch - processPackages [ipex-llm]: Remove: archive file [/home/abi/fetcher/tmp/ipex_llm-2.1.0b20240514-py3-none-win_amd64.whl.zip]
+[2024-05-16 11:29:08] INFO root fetch - processPackages [ipex-llm]: Remove: archive file [/home/abi/fetcher/tmp/ipex_llm-2.1.0b20240515-py3-none-win_amd64.whl.zip]
+[2024-05-16 11:29:08] INFO root fetch - main [MainThread]: End processing [ipex-llm]: success
+[2024-05-16 11:29:08] INFO root fetch - main [MainThread]: Store serial: [23233096]
