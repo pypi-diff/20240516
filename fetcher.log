@@ -14024,3 +14024,45 @@ EOFError: EOF read where object expected
 [2024-05-16 09:14:55] INFO root fetch - processPackages [unitsnet-py]: Remove: archive file [/home/abi/fetcher/tmp/unitsnet-py-0.1.99.tar.gz]
 [2024-05-16 09:14:55] INFO root fetch - main [MainThread]: End processing [unitsnet-py]: success
 [2024-05-16 09:14:55] INFO root fetch - main [MainThread]: Store serial: [23230528]
+[2024-05-16 09:16:59] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23230528]
+[2024-05-16 09:17:04] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-16 09:17:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: internal
+[2024-05-16 09:17:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: yellowbox-kraft
+[2024-05-16 09:17:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: habits.txt
+[2024-05-16 09:17:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: dalpha
+[2024-05-16 09:17:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: redis-director
+[2024-05-16 09:17:05] INFO root fetch - processPackages [habits.txt]: New version: [0.3.3] Old Version: [0.3.2]
+[2024-05-16 09:17:05] INFO root fetch - processPackages [habits.txt]: Downloading https://files.pythonhosted.org/packages/81/87/e7bad841ee6b05b5f62dfd230c8b1bf45b944b4a0df6748a95bddffd0ae7/habits_txt-0.3.2.tar.gz
+[2024-05-16 09:17:05] WARNING root fetch - processPackages [redis-director]: Skipping, unable to determine old version
+[2024-05-16 09:17:05] INFO root fetch - main [MainThread]: End processing [redis-director] error
+[2024-05-16 09:17:05] INFO root fetch - processPackages [yellowbox-kraft]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-05-16 09:17:05] INFO root fetch - processPackages [dalpha]: New version: [0.5.2rc0] Old Version: [0.5.1]
+[2024-05-16 09:17:05] INFO root fetch - processPackages [internal]: New version: [1.0.2] Old Version: [1.0.1]
+[2024-05-16 09:17:05] INFO root fetch - processPackages [dalpha]: Downloading https://files.pythonhosted.org/packages/c9/63/974d0aa99b3fdde07a82f3f014ed670cd51a28650a02b585b49dfe9285a2/dalpha-0.5.1.tar.gz
+[2024-05-16 09:17:05] INFO root fetch - processPackages [yellowbox-kraft]: Downloading https://files.pythonhosted.org/packages/1c/cb/68998d75a8f7672d498cab75752316945e645d198fc3522f14ce54e4ed87/yellowbox_kraft-0.1.0.tar.gz
+[2024-05-16 09:17:05] INFO root fetch - processPackages [internal]: Downloading https://files.pythonhosted.org/packages/d9/81/424d506f00e385af7ff1784c8d1f800b98be535915fde7d26ed265bac167/internal-1.0.1.tar.gz
+[2024-05-16 09:17:05] INFO root fetch - processPackages [habits.txt]: Downloading https://files.pythonhosted.org/packages/d9/5b/54078313fc6e5335e22bfa579133b20f7b0af8062b9dcc83fcdf93d78c96/habits_txt-0.3.3.tar.gz
+[2024-05-16 09:17:05] INFO root fetch - processPackages [habits.txt]: executing diffoscope
+[2024-05-16 09:17:05] INFO root fetch - processPackages [habits.txt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/habits_txt-0.3.2.tar.gz tmp/habits_txt-0.3.3.tar.gz --markdown 20240516/h/habits.txt/0.3.2-0.3.3/README.md --exclude *.pyd
+[2024-05-16 09:17:05] INFO root fetch - processPackages [dalpha]: Downloading https://files.pythonhosted.org/packages/0a/89/dd92bd4ae996a3725a0437393f0e683a33af89b2ee35b1e57783b00cd55e/dalpha-0.5.2rc0.tar.gz
+[2024-05-16 09:17:05] INFO root fetch - processPackages [internal]: Downloading https://files.pythonhosted.org/packages/bd/b9/8fe47ccafe5801d42242270258cf572e1cfbbc9f8c1fbb3ce2a5109464ba/internal-1.0.2.tar.gz
+[2024-05-16 09:17:05] INFO root fetch - processPackages [yellowbox-kraft]: Downloading https://files.pythonhosted.org/packages/6a/4f/2dcc36fbb41055ba64108a4e041d587e42786760e3321bef570f0deafd33/yellowbox_kraft-0.1.1.tar.gz
+[2024-05-16 09:17:05] INFO root fetch - processPackages [dalpha]: executing diffoscope
+[2024-05-16 09:17:05] INFO root fetch - processPackages [dalpha]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dalpha-0.5.1.tar.gz tmp/dalpha-0.5.2rc0.tar.gz --markdown 20240516/d/dalpha/0.5.1-0.5.2rc0/README.md --exclude *.pyd
+[2024-05-16 09:17:05] INFO root fetch - processPackages [internal]: executing diffoscope
+[2024-05-16 09:17:05] INFO root fetch - processPackages [internal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/internal-1.0.1.tar.gz tmp/internal-1.0.2.tar.gz --markdown 20240516/i/internal/1.0.1-1.0.2/README.md --exclude *.pyd
+[2024-05-16 09:17:05] INFO root fetch - processPackages [yellowbox-kraft]: executing diffoscope
+[2024-05-16 09:17:05] INFO root fetch - processPackages [yellowbox-kraft]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yellowbox_kraft-0.1.0.tar.gz tmp/yellowbox_kraft-0.1.1.tar.gz --markdown 20240516/y/yellowbox-kraft/0.1.0-0.1.1/README.md --exclude *.pyd
+[2024-05-16 09:17:06] INFO root fetch - processPackages [habits.txt]: Remove: archive file [/home/abi/fetcher/tmp/habits_txt-0.3.2.tar.gz]
+[2024-05-16 09:17:06] INFO root fetch - processPackages [habits.txt]: Remove: archive file [/home/abi/fetcher/tmp/habits_txt-0.3.3.tar.gz]
+[2024-05-16 09:17:06] INFO root fetch - main [MainThread]: End processing [habits.txt]: success
+[2024-05-16 09:17:06] INFO root fetch - processPackages [dalpha]: Remove: archive file [/home/abi/fetcher/tmp/dalpha-0.5.1.tar.gz]
+[2024-05-16 09:17:06] INFO root fetch - processPackages [dalpha]: Remove: archive file [/home/abi/fetcher/tmp/dalpha-0.5.2rc0.tar.gz]
+[2024-05-16 09:17:06] INFO root fetch - main [MainThread]: End processing [dalpha]: success
+[2024-05-16 09:17:06] INFO root fetch - processPackages [internal]: Remove: archive file [/home/abi/fetcher/tmp/internal-1.0.1.tar.gz]
+[2024-05-16 09:17:06] INFO root fetch - processPackages [internal]: Remove: archive file [/home/abi/fetcher/tmp/internal-1.0.2.tar.gz]
+[2024-05-16 09:17:06] INFO root fetch - main [MainThread]: End processing [internal]: success
+[2024-05-16 09:17:06] INFO root fetch - processPackages [yellowbox-kraft]: Remove: archive file [/home/abi/fetcher/tmp/yellowbox_kraft-0.1.0.tar.gz]
+[2024-05-16 09:17:06] INFO root fetch - processPackages [yellowbox-kraft]: Remove: archive file [/home/abi/fetcher/tmp/yellowbox_kraft-0.1.1.tar.gz]
+[2024-05-16 09:17:06] INFO root fetch - main [MainThread]: End processing [yellowbox-kraft]: success
+[2024-05-16 09:17:06] INFO root fetch - main [MainThread]: Store serial: [23230547]
