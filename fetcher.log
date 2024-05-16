@@ -11339,3 +11339,40 @@ EOFError: EOF read where object expected
 [2024-05-16 06:43:05] INFO root fetch - processPackages [merlin-sdk]: Remove: archive file [/home/abi/fetcher/tmp/merlin-sdk-0.9.1.tar.gz]
 [2024-05-16 06:43:05] INFO root fetch - main [MainThread]: End processing [merlin-sdk]: success
 [2024-05-16 06:43:05] INFO root fetch - main [MainThread]: Store serial: [23229435]
+[2024-05-16 06:45:09] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23229435]
+[2024-05-16 06:45:14] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-16 06:45:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: chatllm
+[2024-05-16 06:45:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: llama-cpp-python
+[2024-05-16 06:45:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: w3ml
+[2024-05-16 06:45:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: chatllm
+[2024-05-16 06:45:14] INFO root fetch - processPackages [w3ml]: New version: [2024.5.16rc5] Old Version: [2024.5.16rc4]
+[2024-05-16 06:45:14] INFO root fetch - processPackages [chatllm]: New version: [2024.5.8.9.23.48] Old Version: [2024.5.8.8.58.38]
+[2024-05-16 06:45:14] INFO root fetch - processPackages [chatllm]: New version: [2024.5.8.9.23.48] Old Version: [2024.5.8.8.58.38]
+[2024-05-16 06:45:14] INFO root fetch - processPackages [w3ml]: Downloading https://files.pythonhosted.org/packages/5e/51/d36db10ccc2d6c9b0ccfe59b3d5271bb7f56716c0d624c518af249bfe32a/w3ml-2024.5.16rc4.tar.gz
+[2024-05-16 06:45:14] INFO root fetch - processPackages [chatllm]: Downloading https://files.pythonhosted.org/packages/3c/fe/125ff8548c29e17b9402f677527a323e74d0642c6e0fb7127a7bd7744812/chatllm-2024.5.8.8.58.38.tar.gz
+[2024-05-16 06:45:14] INFO root fetch - processPackages [llama-cpp-python]: New version: [0.2.9] Old Version: [0.2.8]
+[2024-05-16 06:45:14] INFO root fetch - processPackages [chatllm]: Downloading https://files.pythonhosted.org/packages/3c/fe/125ff8548c29e17b9402f677527a323e74d0642c6e0fb7127a7bd7744812/chatllm-2024.5.8.8.58.38.tar.gz
+[2024-05-16 06:45:14] INFO root fetch - processPackages [chatllm]: Downloading https://files.pythonhosted.org/packages/f8/95/b598cc48f3058bf13b7e5a60f81afe2d13e606dd2b9bb98b0a6442529c3a/chatllm-2024.5.8.9.23.48.tar.gz
+[2024-05-16 06:45:14] INFO root fetch - processPackages [chatllm]: Downloading https://files.pythonhosted.org/packages/f8/95/b598cc48f3058bf13b7e5a60f81afe2d13e606dd2b9bb98b0a6442529c3a/chatllm-2024.5.8.9.23.48.tar.gz
+[2024-05-16 06:45:14] INFO root fetch - processPackages [llama-cpp-python]: Downloading https://files.pythonhosted.org/packages/6d/60/edbd982673a71c6c27fa6818914ad61c6171d165de4e777d489539f1d959/llama_cpp_python-0.2.8.tar.gz
+[2024-05-16 06:45:14] INFO root fetch - processPackages [w3ml]: Downloading https://files.pythonhosted.org/packages/fd/f8/9bb864e8bf8b622d50b334822014fd67995eabc6fe2d269c8b013df272d4/w3ml-2024.5.16rc5.tar.gz
+[2024-05-16 06:45:14] INFO root fetch - processPackages [chatllm]: executing diffoscope
+[2024-05-16 06:45:14] INFO root fetch - processPackages [chatllm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chatllm-2024.5.8.8.58.38.tar.gz tmp/chatllm-2024.5.8.9.23.48.tar.gz --markdown 20240516/c/chatllm/2024.5.8.8.58.38-2024.5.8.9.23.48/README.md --exclude *.pyd
+[2024-05-16 06:45:14] INFO root fetch - processPackages [chatllm]: executing diffoscope
+[2024-05-16 06:45:14] INFO root fetch - processPackages [chatllm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chatllm-2024.5.8.8.58.38.tar.gz tmp/chatllm-2024.5.8.9.23.48.tar.gz --markdown 20240516/c/chatllm/2024.5.8.8.58.38-2024.5.8.9.23.48/README.md --exclude *.pyd
+[2024-05-16 06:45:14] INFO root fetch - processPackages [w3ml]: executing diffoscope
+[2024-05-16 06:45:14] INFO root fetch - processPackages [w3ml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/w3ml-2024.5.16rc4.tar.gz tmp/w3ml-2024.5.16rc5.tar.gz --markdown 20240516/w/w3ml/2024.5.16rc4-2024.5.16rc5/README.md --exclude *.pyd
+[2024-05-16 06:45:15] INFO root fetch - processPackages [w3ml]: Remove: archive file [/home/abi/fetcher/tmp/w3ml-2024.5.16rc4.tar.gz]
+[2024-05-16 06:45:15] INFO root fetch - processPackages [w3ml]: Remove: archive file [/home/abi/fetcher/tmp/w3ml-2024.5.16rc5.tar.gz]
+[2024-05-16 06:45:15] INFO root fetch - main [MainThread]: End processing [w3ml]: success
+[2024-05-16 06:45:15] INFO root fetch - processPackages [llama-cpp-python]: Downloading https://files.pythonhosted.org/packages/98/2e/357d936ff7418591c56a27b9472e2b3581bd9eeb90c4221580fae5e00588/llama_cpp_python-0.2.9.tar.gz
+[2024-05-16 06:45:15] INFO root fetch - processPackages [chatllm]: Remove: archive file [/home/abi/fetcher/tmp/chatllm-2024.5.8.8.58.38.tar.gz]
+[2024-05-16 06:45:15] INFO root fetch - processPackages [chatllm]: Remove: archive file [/home/abi/fetcher/tmp/chatllm-2024.5.8.9.23.48.tar.gz]
+[2024-05-16 06:45:15] INFO root fetch - main [MainThread]: End processing [chatllm]: success
+[2024-05-16 06:45:15] INFO root fetch - main [MainThread]: End processing [chatllm]: success
+[2024-05-16 06:45:16] INFO root fetch - processPackages [llama-cpp-python]: executing diffoscope
+[2024-05-16 06:45:16] INFO root fetch - processPackages [llama-cpp-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/llama_cpp_python-0.2.8.tar.gz tmp/llama_cpp_python-0.2.9.tar.gz --markdown 20240516/l/llama-cpp-python/0.2.8-0.2.9/README.md --exclude *.pyd
+[2024-05-16 06:45:18] INFO root fetch - processPackages [llama-cpp-python]: Remove: archive file [/home/abi/fetcher/tmp/llama_cpp_python-0.2.8.tar.gz]
+[2024-05-16 06:45:18] INFO root fetch - processPackages [llama-cpp-python]: Remove: archive file [/home/abi/fetcher/tmp/llama_cpp_python-0.2.9.tar.gz]
+[2024-05-16 06:45:18] INFO root fetch - main [MainThread]: End processing [llama-cpp-python]: success
+[2024-05-16 06:45:18] INFO root fetch - main [MainThread]: Store serial: [23229449]
