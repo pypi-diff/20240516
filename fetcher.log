@@ -22007,3 +22007,27 @@ EOFError: EOF read where object expected
 [2024-05-16 11:42:46] INFO root fetch - processPackages [bentoml]: Remove: archive file [/home/abi/fetcher/tmp/bentoml-1.2.9.tar.gz]
 [2024-05-16 11:42:46] INFO root fetch - main [MainThread]: End processing [bentoml]: success
 [2024-05-16 11:42:46] INFO root fetch - main [MainThread]: Store serial: [23233346]
+[2024-05-16 11:44:54] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23233346]
+[2024-05-16 11:44:59] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-16 11:44:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: funcnodes
+[2024-05-16 11:44:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: epam-mle-model-deployment
+[2024-05-16 11:44:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: affipred
+[2024-05-16 11:44:59] INFO root fetch - processPackages [affipred]: New version: [0.1.2] Old Version: [0.1.1]
+[2024-05-16 11:44:59] INFO root fetch - processPackages [affipred]: Downloading https://files.pythonhosted.org/packages/45/fc/c40236d728bbf1a11ef137c98df8e1f00a74874eaa8dc00ed8506a1ea11f/affipred-0.1.1.tar.gz
+[2024-05-16 11:44:59] WARNING root fetch - processPackages [epam-mle-model-deployment]: Skipping, unable to determine old version
+[2024-05-16 11:44:59] INFO root fetch - main [MainThread]: End processing [epam-mle-model-deployment] error
+[2024-05-16 11:44:59] INFO root fetch - processPackages [funcnodes]: New version: [0.2.9] Old Version: [0.2.8]
+[2024-05-16 11:44:59] INFO root fetch - processPackages [affipred]: Downloading https://files.pythonhosted.org/packages/f7/18/e192773accdabe5b28f9692e8dfc9c6eeb6c24506d6b01fe489804d0694a/affipred-0.1.2.tar.gz
+[2024-05-16 11:44:59] INFO root fetch - processPackages [funcnodes]: Downloading https://files.pythonhosted.org/packages/41/e9/f6d85ce69f932d3d49ed6ffd73370a498efcc151703809f4996b1b809ffa/funcnodes-0.2.8.tar.gz
+[2024-05-16 11:44:59] INFO root fetch - processPackages [affipred]: executing diffoscope
+[2024-05-16 11:44:59] INFO root fetch - processPackages [affipred]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/affipred-0.1.1.tar.gz tmp/affipred-0.1.2.tar.gz --markdown 20240516/a/affipred/0.1.1-0.1.2/README.md --exclude *.pyd
+[2024-05-16 11:45:00] INFO root fetch - processPackages [funcnodes]: Downloading https://files.pythonhosted.org/packages/13/3c/de4ac3d4d4a5996bc99f2d808fbb482979d33115bae4a12e7f864cafbe8d/funcnodes-0.2.9.tar.gz
+[2024-05-16 11:45:00] INFO root fetch - processPackages [affipred]: Remove: archive file [/home/abi/fetcher/tmp/affipred-0.1.1.tar.gz]
+[2024-05-16 11:45:00] INFO root fetch - processPackages [affipred]: Remove: archive file [/home/abi/fetcher/tmp/affipred-0.1.2.tar.gz]
+[2024-05-16 11:45:00] INFO root fetch - main [MainThread]: End processing [affipred]: success
+[2024-05-16 11:45:00] INFO root fetch - processPackages [funcnodes]: executing diffoscope
+[2024-05-16 11:45:00] INFO root fetch - processPackages [funcnodes]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/funcnodes-0.2.8.tar.gz tmp/funcnodes-0.2.9.tar.gz --markdown 20240516/f/funcnodes/0.2.8-0.2.9/README.md --exclude *.pyd
+[2024-05-16 11:45:01] INFO root fetch - processPackages [funcnodes]: Remove: archive file [/home/abi/fetcher/tmp/funcnodes-0.2.8.tar.gz]
+[2024-05-16 11:45:01] INFO root fetch - processPackages [funcnodes]: Remove: archive file [/home/abi/fetcher/tmp/funcnodes-0.2.9.tar.gz]
+[2024-05-16 11:45:01] INFO root fetch - main [MainThread]: End processing [funcnodes]: success
+[2024-05-16 11:45:01] INFO root fetch - main [MainThread]: Store serial: [23233357]
