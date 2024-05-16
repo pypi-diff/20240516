@@ -13511,3 +13511,57 @@ EOFError: EOF read where object expected
 [2024-05-16 08:55:53] INFO root fetch - processPackages [vectordb-bench]: Remove: archive file [/home/abi/fetcher/tmp/vectordb_bench-0.0.8.tar.gz]
 [2024-05-16 08:55:53] INFO root fetch - main [MainThread]: End processing [vectordb-bench]: success
 [2024-05-16 08:55:53] INFO root fetch - main [MainThread]: Store serial: [23230316]
+[2024-05-16 08:57:57] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23230316]
+[2024-05-16 08:58:02] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-16 08:58:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: runtimepy
+[2024-05-16 08:58:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: netlink-logging
+[2024-05-16 08:58:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: Pynapse
+[2024-05-16 08:58:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: aws-lambda-compatible-psycopg2
+[2024-05-16 08:58:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: voicegpt
+[2024-05-16 08:58:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ur-rtde
+[2024-05-16 08:58:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: almgroad
+[2024-05-16 08:58:02] INFO root fetch - processPackages [netlink-logging]: New version: [0.1.9] Old Version: [0.1.7]
+[2024-05-16 08:58:02] INFO root fetch - processPackages [almgroad]: New version: [0.0.8] Old Version: [0.0.7]
+[2024-05-16 08:58:02] INFO root fetch - processPackages [runtimepy]: New version: [4.4.3] Old Version: [4.4.2]
+[2024-05-16 08:58:02] INFO root fetch - processPackages [ur-rtde]: New version: [1.5.7] Old Version: [1.5.6]
+[2024-05-16 08:58:02] INFO root fetch - processPackages [Pynapse]: New version: [1.2.0] Old Version: [1.1.0]
+[2024-05-16 08:58:02] WARNING root fetch - processPackages [voicegpt]: Skipping, unable to determine old version
+[2024-05-16 08:58:02] INFO root fetch - main [MainThread]: End processing [voicegpt] error
+[2024-05-16 08:58:02] WARNING root fetch - processPackages [aws-lambda-compatible-psycopg2]: Skipping, unable to determine old version
+[2024-05-16 08:58:02] INFO root fetch - main [MainThread]: End processing [aws-lambda-compatible-psycopg2] error
+[2024-05-16 08:58:02] INFO root fetch - processPackages [almgroad]: Downloading https://files.pythonhosted.org/packages/1f/42/3d046b813efe1c35bb6916d4b5a8cfea9fa3937261fd4b7362ffc2089289/almgroad-0.0.7-py3-none-any.whl
+[2024-05-16 08:58:02] INFO root fetch - processPackages [runtimepy]: Downloading https://files.pythonhosted.org/packages/40/b4/d00a3c9e4d2028f42094ade22a3aea9e8bbb5ef8503f9f84dd24da6187f6/runtimepy-4.4.2.tar.gz
+[2024-05-16 08:58:02] INFO root fetch - processPackages [netlink-logging]: Downloading https://files.pythonhosted.org/packages/e8/a1/41a3f6aec980b34af2d73584af55e7c8dd40a57cf58db736a09c9357099b/netlink-logging-0.1.7.tar.gz
+[2024-05-16 08:58:03] INFO root fetch - processPackages [Pynapse]: Downloading https://files.pythonhosted.org/packages/3b/68/7aa7393017944474fa80e31173dd0396a5fad134db29ef1297f7b3308250/pynapse-1.1.0.tar.gz
+[2024-05-16 08:58:03] INFO root fetch - processPackages [ur-rtde]: Downloading https://files.pythonhosted.org/packages/50/ba/106bff56ef2ad36639c5ea6258e665ce6744c589874ae1659eedec35f33a/ur_rtde-1.5.6.tar.gz
+[2024-05-16 08:58:03] INFO root fetch - processPackages [runtimepy]: Downloading https://files.pythonhosted.org/packages/b8/29/4aa082ad6e52c7b47a6cb9b0559249a424eb6197071cbdd32a1d3dbcbae9/runtimepy-4.4.3.tar.gz
+[2024-05-16 08:58:03] INFO root fetch - processPackages [almgroad]: Downloading https://files.pythonhosted.org/packages/14/38/48a3ee4c816e6d1da80fa9f7d64cc457a6da0f52f260a26af7e6b0e165c4/almgroad-0.0.8-py3-none-any.whl
+[2024-05-16 08:58:03] INFO root fetch - processPackages [Pynapse]: Downloading https://files.pythonhosted.org/packages/9d/a8/a8b5e7f1617c389daea65f45638c99c9b65c028d243edbc62d073d75d27b/pynapse-1.2.0.tar.gz
+[2024-05-16 08:58:03] INFO root fetch - processPackages [netlink-logging]: Downloading https://files.pythonhosted.org/packages/24/73/bb40c39cf68e5608915cf85b5e8b02029c3ecc591e322c314d891718c450/netlink-logging-0.1.9.tar.gz
+[2024-05-16 08:58:03] INFO root fetch - processPackages [almgroad]: executing diffoscope
+[2024-05-16 08:58:03] INFO root fetch - processPackages [almgroad]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/almgroad-0.0.7-py3-none-any.whl.zip tmp/almgroad-0.0.8-py3-none-any.whl.zip --markdown 20240516/a/almgroad/0.0.7-0.0.8/README.md --exclude *.pyd
+[2024-05-16 08:58:03] INFO root fetch - processPackages [Pynapse]: executing diffoscope
+[2024-05-16 08:58:03] INFO root fetch - processPackages [Pynapse]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pynapse-1.1.0.tar.gz tmp/pynapse-1.2.0.tar.gz --markdown 20240516/P/Pynapse/1.1.0-1.2.0/README.md --exclude *.pyd
+[2024-05-16 08:58:03] INFO root fetch - processPackages [runtimepy]: executing diffoscope
+[2024-05-16 08:58:03] INFO root fetch - processPackages [runtimepy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/runtimepy-4.4.2.tar.gz tmp/runtimepy-4.4.3.tar.gz --markdown 20240516/r/runtimepy/4.4.2-4.4.3/README.md --exclude *.pyd
+[2024-05-16 08:58:03] INFO root fetch - processPackages [netlink-logging]: executing diffoscope
+[2024-05-16 08:58:03] INFO root fetch - processPackages [netlink-logging]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/netlink-logging-0.1.7.tar.gz tmp/netlink-logging-0.1.9.tar.gz --markdown 20240516/n/netlink-logging/0.1.7-0.1.9/README.md --exclude *.pyd
+[2024-05-16 08:58:04] INFO root fetch - processPackages [almgroad]: Remove: archive file [/home/abi/fetcher/tmp/almgroad-0.0.7-py3-none-any.whl.zip]
+[2024-05-16 08:58:04] INFO root fetch - processPackages [almgroad]: Remove: archive file [/home/abi/fetcher/tmp/almgroad-0.0.8-py3-none-any.whl.zip]
+[2024-05-16 08:58:04] INFO root fetch - main [MainThread]: End processing [almgroad]: success
+[2024-05-16 08:58:04] INFO root fetch - processPackages [Pynapse]: Remove: archive file [/home/abi/fetcher/tmp/pynapse-1.1.0.tar.gz]
+[2024-05-16 08:58:04] INFO root fetch - processPackages [Pynapse]: Remove: archive file [/home/abi/fetcher/tmp/pynapse-1.2.0.tar.gz]
+[2024-05-16 08:58:04] INFO root fetch - main [MainThread]: End processing [Pynapse]: success
+[2024-05-16 08:58:04] INFO root fetch - processPackages [ur-rtde]: Downloading https://files.pythonhosted.org/packages/5e/f5/03600caad52d19a7a4378e88d89d4452e8ee249e6c04a7967b20e39432bd/ur_rtde-1.5.7.tar.gz
+[2024-05-16 08:58:04] INFO root fetch - processPackages [netlink-logging]: Remove: archive file [/home/abi/fetcher/tmp/netlink-logging-0.1.7.tar.gz]
+[2024-05-16 08:58:04] INFO root fetch - processPackages [netlink-logging]: Remove: archive file [/home/abi/fetcher/tmp/netlink-logging-0.1.9.tar.gz]
+[2024-05-16 08:58:04] INFO root fetch - main [MainThread]: End processing [netlink-logging]: success
+[2024-05-16 08:58:04] INFO root fetch - processPackages [ur-rtde]: executing diffoscope
+[2024-05-16 08:58:04] INFO root fetch - processPackages [ur-rtde]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ur_rtde-1.5.6.tar.gz tmp/ur_rtde-1.5.7.tar.gz --markdown 20240516/u/ur-rtde/1.5.6-1.5.7/README.md --exclude *.pyd
+[2024-05-16 08:58:04] INFO root fetch - processPackages [runtimepy]: Remove: archive file [/home/abi/fetcher/tmp/runtimepy-4.4.2.tar.gz]
+[2024-05-16 08:58:04] INFO root fetch - processPackages [runtimepy]: Remove: archive file [/home/abi/fetcher/tmp/runtimepy-4.4.3.tar.gz]
+[2024-05-16 08:58:04] INFO root fetch - main [MainThread]: End processing [runtimepy]: success
+[2024-05-16 08:58:05] INFO root fetch - processPackages [ur-rtde]: Remove: archive file [/home/abi/fetcher/tmp/ur_rtde-1.5.6.tar.gz]
+[2024-05-16 08:58:05] INFO root fetch - processPackages [ur-rtde]: Remove: archive file [/home/abi/fetcher/tmp/ur_rtde-1.5.7.tar.gz]
+[2024-05-16 08:58:05] INFO root fetch - main [MainThread]: End processing [ur-rtde]: success
+[2024-05-16 08:58:05] INFO root fetch - main [MainThread]: Store serial: [23230345]
