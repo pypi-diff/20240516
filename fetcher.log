@@ -12424,3 +12424,51 @@ EOFError: EOF read where object expected
 [2024-05-16 07:51:15] INFO root fetch - processPackages [OZI]: Remove: archive file [/home/abi/fetcher/tmp/OZI-1.7.2.tar.gz]
 [2024-05-16 07:51:15] INFO root fetch - main [MainThread]: End processing [OZI]: success
 [2024-05-16 07:51:15] INFO root fetch - main [MainThread]: Store serial: [23229920]
+[2024-05-16 07:53:19] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23229920]
+[2024-05-16 07:53:24] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-16 07:53:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: alibabacloud-cloudapi20160714
+[2024-05-16 07:53:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: confluence-junction
+[2024-05-16 07:53:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: espresso-machine
+[2024-05-16 07:53:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: fudstop
+[2024-05-16 07:53:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: goodpy
+[2024-05-16 07:53:24] INFO root fetch - processPackages [goodpy]: New version: [0.0.5] Old Version: [0.0.4]
+[2024-05-16 07:53:24] INFO root fetch - processPackages [espresso-machine]: New version: [0.0.118] Old Version: [0.0.117]
+[2024-05-16 07:53:24] INFO root fetch - processPackages [fudstop]: New version: [2.6.4] Old Version: [2.6.3]
+[2024-05-16 07:53:24] INFO root fetch - processPackages [espresso-machine]: Downloading https://files.pythonhosted.org/packages/ae/41/bbbe40606ec11f9cedc60200bca13fd835557adf87adae43461858065488/espresso_machine-0.0.117.tar.gz
+[2024-05-16 07:53:24] INFO root fetch - processPackages [goodpy]: Downloading https://files.pythonhosted.org/packages/88/d2/4a153924f8b34cde4d7bddfc5bdd9ea985a2a30a585a255f0aaa83616a71/goodpy-0.0.4-py2.py3-none-any.whl
+[2024-05-16 07:53:24] INFO root fetch - processPackages [confluence-junction]: New version: [0.1.2] Old Version: [0.1.1]
+[2024-05-16 07:53:24] INFO root fetch - processPackages [alibabacloud-cloudapi20160714]: New version: [4.1.0] Old Version: [4.0.2]
+[2024-05-16 07:53:24] INFO root fetch - processPackages [fudstop]: Downloading https://files.pythonhosted.org/packages/2e/db/b2b60835664eaeb3698e157b3e40315ff8df9a6026b93548d4c2f76b4e34/fudstop-2.6.3.tar.gz
+[2024-05-16 07:53:25] INFO root fetch - processPackages [confluence-junction]: Downloading https://files.pythonhosted.org/packages/b7/08/af63949337f07781c6719b087d4f3696a3c2b1f265813c5ae30158515dc4/confluence-junction-0.1.1.tar.gz
+[2024-05-16 07:53:25] INFO root fetch - processPackages [alibabacloud-cloudapi20160714]: Downloading https://files.pythonhosted.org/packages/f6/e2/7f48e4aea8a6c2795d962f92296fec0a2b6329d84efdec495d2193974211/alibabacloud_cloudapi20160714-4.0.2.tar.gz
+[2024-05-16 07:53:25] INFO root fetch - processPackages [goodpy]: Downloading https://files.pythonhosted.org/packages/4a/2a/b906250d04acc096e5e3192bf77cb2cf4a1da47071e7f00f386104c29ffb/goodpy-0.0.5-py2.py3-none-any.whl
+[2024-05-16 07:53:25] INFO root fetch - processPackages [fudstop]: Downloading https://files.pythonhosted.org/packages/a1/ac/a4a5b5aaa511d13dd749c4f2efafd0fab7a7316e5b7534f63c8db21adb2e/fudstop-2.6.4.tar.gz
+[2024-05-16 07:53:25] INFO root fetch - processPackages [goodpy]: executing diffoscope
+[2024-05-16 07:53:25] INFO root fetch - processPackages [goodpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/goodpy-0.0.4-py2.py3-none-any.whl.zip tmp/goodpy-0.0.5-py2.py3-none-any.whl.zip --markdown 20240516/g/goodpy/0.0.4-0.0.5/README.md --exclude *.pyd
+[2024-05-16 07:53:25] INFO root fetch - processPackages [confluence-junction]: Downloading https://files.pythonhosted.org/packages/df/07/ba5ba367a67cd2229687c62783aec25adb78ea4d731f3a6026a78dbf8aee/confluence_junction-0.1.2.tar.gz
+[2024-05-16 07:53:25] INFO root fetch - processPackages [espresso-machine]: Downloading https://files.pythonhosted.org/packages/4a/5f/56aa4df0e5fc2ad50333d1a0416a3e40c897263e8a4fadfd91565577e71f/espresso_machine-0.0.118.tar.gz
+[2024-05-16 07:53:25] INFO root fetch - processPackages [fudstop]: executing diffoscope
+[2024-05-16 07:53:25] INFO root fetch - processPackages [fudstop]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fudstop-2.6.3.tar.gz tmp/fudstop-2.6.4.tar.gz --markdown 20240516/f/fudstop/2.6.3-2.6.4/README.md --exclude *.pyd
+[2024-05-16 07:53:25] INFO root fetch - processPackages [alibabacloud-cloudapi20160714]: Downloading https://files.pythonhosted.org/packages/c9/5f/79dac2ed0336a05687b82cf6784ad700e356664a789a1af8df7b1fed04db/alibabacloud_cloudapi20160714-4.1.0.tar.gz
+[2024-05-16 07:53:25] INFO root fetch - processPackages [confluence-junction]: executing diffoscope
+[2024-05-16 07:53:25] INFO root fetch - processPackages [confluence-junction]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/confluence-junction-0.1.1.tar.gz tmp/confluence_junction-0.1.2.tar.gz --markdown 20240516/c/confluence-junction/0.1.1-0.1.2/README.md --exclude *.pyd
+[2024-05-16 07:53:25] INFO root fetch - processPackages [alibabacloud-cloudapi20160714]: executing diffoscope
+[2024-05-16 07:53:25] INFO root fetch - processPackages [alibabacloud-cloudapi20160714]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alibabacloud_cloudapi20160714-4.0.2.tar.gz tmp/alibabacloud_cloudapi20160714-4.1.0.tar.gz --markdown 20240516/a/alibabacloud-cloudapi20160714/4.0.2-4.1.0/README.md --exclude *.pyd
+[2024-05-16 07:53:25] INFO root fetch - processPackages [espresso-machine]: executing diffoscope
+[2024-05-16 07:53:25] INFO root fetch - processPackages [espresso-machine]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/espresso_machine-0.0.117.tar.gz tmp/espresso_machine-0.0.118.tar.gz --markdown 20240516/e/espresso-machine/0.0.117-0.0.118/README.md --exclude *.pyd
+[2024-05-16 07:53:26] INFO root fetch - processPackages [goodpy]: Remove: archive file [/home/abi/fetcher/tmp/goodpy-0.0.4-py2.py3-none-any.whl.zip]
+[2024-05-16 07:53:26] INFO root fetch - processPackages [goodpy]: Remove: archive file [/home/abi/fetcher/tmp/goodpy-0.0.5-py2.py3-none-any.whl.zip]
+[2024-05-16 07:53:26] INFO root fetch - main [MainThread]: End processing [goodpy]: success
+[2024-05-16 07:53:26] INFO root fetch - processPackages [confluence-junction]: Remove: archive file [/home/abi/fetcher/tmp/confluence-junction-0.1.1.tar.gz]
+[2024-05-16 07:53:26] INFO root fetch - processPackages [confluence-junction]: Remove: archive file [/home/abi/fetcher/tmp/confluence_junction-0.1.2.tar.gz]
+[2024-05-16 07:53:26] INFO root fetch - main [MainThread]: End processing [confluence-junction]: success
+[2024-05-16 07:53:26] INFO root fetch - processPackages [fudstop]: Remove: archive file [/home/abi/fetcher/tmp/fudstop-2.6.3.tar.gz]
+[2024-05-16 07:53:26] INFO root fetch - processPackages [fudstop]: Remove: archive file [/home/abi/fetcher/tmp/fudstop-2.6.4.tar.gz]
+[2024-05-16 07:53:26] INFO root fetch - main [MainThread]: End processing [fudstop]: success
+[2024-05-16 07:53:27] INFO root fetch - processPackages [espresso-machine]: Remove: archive file [/home/abi/fetcher/tmp/espresso_machine-0.0.117.tar.gz]
+[2024-05-16 07:53:27] INFO root fetch - processPackages [espresso-machine]: Remove: archive file [/home/abi/fetcher/tmp/espresso_machine-0.0.118.tar.gz]
+[2024-05-16 07:53:27] INFO root fetch - main [MainThread]: End processing [espresso-machine]: success
+[2024-05-16 07:53:27] INFO root fetch - processPackages [alibabacloud-cloudapi20160714]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_cloudapi20160714-4.0.2.tar.gz]
+[2024-05-16 07:53:27] INFO root fetch - processPackages [alibabacloud-cloudapi20160714]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_cloudapi20160714-4.1.0.tar.gz]
+[2024-05-16 07:53:27] INFO root fetch - main [MainThread]: End processing [alibabacloud-cloudapi20160714]: success
+[2024-05-16 07:53:27] INFO root fetch - main [MainThread]: Store serial: [23229932]
