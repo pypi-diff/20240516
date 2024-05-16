@@ -21021,3 +21021,100 @@ EOFError: EOF read where object expected
 [2024-05-16 11:14:52] INFO root fetch - processPackages [udata-front]: Remove: archive file [/home/abi/fetcher/tmp/udata_front-4.0.3.dev19867-py2.py3-none-any.whl.zip]
 [2024-05-16 11:14:52] INFO root fetch - main [MainThread]: End processing [udata-front]: success
 [2024-05-16 11:14:52] INFO root fetch - main [MainThread]: Store serial: [23232903]
+[2024-05-16 11:16:57] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23232903]
+[2024-05-16 11:17:02] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2024-05-16 11:17:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: proteobench
+[2024-05-16 11:17:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: spanishconjugator
+[2024-05-16 11:17:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: aipkgs-core
+[2024-05-16 11:17:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: socketsecurity
+[2024-05-16 11:17:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: kcli
+[2024-05-16 11:17:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: megatechai
+[2024-05-16 11:17:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: dde-agent-lib
+[2024-05-16 11:17:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: spanishconjugator
+[2024-05-16 11:17:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: aipkgs-core
+[2024-05-16 11:17:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: PyMuPDF
+[2024-05-16 11:17:02] INFO root fetch - processPackages [socketsecurity]: New version: [0.0.55] Old Version: [0.0.54]
+[2024-05-16 11:17:02] INFO root fetch - processPackages [aipkgs-core]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-05-16 11:17:02] INFO root fetch - processPackages [aipkgs-core]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-05-16 11:17:02] INFO root fetch - processPackages [PyMuPDF]: New version: [1.9.2] Old Version: [1.24.4]
+[2024-05-16 11:17:02] INFO root fetch - processPackages [megatechai]: New version: [2.1.1] Old Version: [2.0.0]
+[2024-05-16 11:17:02] INFO root fetch - processPackages [socketsecurity]: Downloading https://files.pythonhosted.org/packages/16/a9/11871d6cfa83cb1d1f8602b3e62e52003a69bf789c6b2290cd5cf70baa66/socketsecurity-0.0.54-py3-none-any.whl
+[2024-05-16 11:17:03] WARNING root fetch - processPackages [dde-agent-lib]: Skipping, unable to determine old version
+[2024-05-16 11:17:03] INFO root fetch - processPackages [dde-agent-lib]: Start processing: deropy
+[2024-05-16 11:17:03] INFO root fetch - main [MainThread]: End processing [dde-agent-lib] error
+[2024-05-16 11:17:03] INFO root fetch - processPackages [kcli]: New version: [99.0.202405160831] Old Version: [99.0.202405151704]
+[2024-05-16 11:17:03] INFO root fetch - processPackages [proteobench]: New version: [0.2.7b0] Old Version: [0.2.6b0]
+[2024-05-16 11:17:03] INFO root fetch - processPackages [aipkgs-core]: Downloading https://files.pythonhosted.org/packages/1b/95/2d761178d77290df39be6e93078af4b40f985d9809d971cd17dd950588d3/aipkgs_core-1.0.8.tar.gz
+[2024-05-16 11:17:03] INFO root fetch - processPackages [spanishconjugator]: New version: [2.3.999] Old Version: [2.3.998]
+[2024-05-16 11:17:03] INFO root fetch - processPackages [spanishconjugator]: New version: [2.3.999] Old Version: [2.3.998]
+[2024-05-16 11:17:03] INFO root fetch - processPackages [deropy]: New version: [0.3.0] Old Version: [0.2.3]
+[2024-05-16 11:17:03] INFO root fetch - processPackages [PyMuPDF]: Downloading https://files.pythonhosted.org/packages/68/36/390a97e483792339ee78a334ffa1941866c9f4c46b07126b9744c95ac54b/PyMuPDF-1.24.4-cp39-none-win_amd64.whl
+[2024-05-16 11:17:03] INFO root fetch - processPackages [aipkgs-core]: Downloading https://files.pythonhosted.org/packages/1b/95/2d761178d77290df39be6e93078af4b40f985d9809d971cd17dd950588d3/aipkgs_core-1.0.8.tar.gz
+[2024-05-16 11:17:03] INFO root fetch - processPackages [kcli]: Downloading https://files.pythonhosted.org/packages/48/0c/38f5bab9382efd123e9c920ae66d6c585fd9bde0c04d797f4a21c274f15d/kcli-99.0.202405151704.tar.gz
+[2024-05-16 11:17:03] INFO root fetch - processPackages [megatechai]: Downloading https://files.pythonhosted.org/packages/5c/2a/da724e69ed9d289c1b871d08290d4e0a5e230fa5d441f1aa7c23f93bfee5/megatechai-2.0.0.tar.gz
+[2024-05-16 11:17:03] INFO root fetch - processPackages [proteobench]: Downloading https://files.pythonhosted.org/packages/da/e4/6e1fbfcb4f5ecbd2efdc47f163121cfe9e144fbbe006879f0c80a1ce0a40/proteobench-0.2.6b0.tar.gz
+[2024-05-16 11:17:03] INFO root fetch - processPackages [spanishconjugator]: Downloading https://files.pythonhosted.org/packages/1c/a2/a7226dfd48c2c6d3e52091175146891f40a2c1c7d20943e8e0560192be85/spanishconjugator-2.3.998.tar.gz
+[2024-05-16 11:17:03] WARNING root fetch - processPackages [proteobench]: Skipping package: exceeds size limit 26449715>=10485760
+[2024-05-16 11:17:03] INFO root fetch - processPackages [proteobench]: Start processing: optimalportfolios
+[2024-05-16 11:17:03] INFO root fetch - main [MainThread]: End processing [proteobench] error
+[2024-05-16 11:17:03] INFO root fetch - processPackages [spanishconjugator]: Downloading https://files.pythonhosted.org/packages/1c/a2/a7226dfd48c2c6d3e52091175146891f40a2c1c7d20943e8e0560192be85/spanishconjugator-2.3.998.tar.gz
+[2024-05-16 11:17:03] INFO root fetch - processPackages [aipkgs-core]: Downloading https://files.pythonhosted.org/packages/c8/b2/fb0706bf9eeeee24d524f103cad3a18e46870855a277a735a6c83ea06692/aipkgs_core-1.0.9.tar.gz
+[2024-05-16 11:17:03] INFO root fetch - processPackages [deropy]: Downloading https://files.pythonhosted.org/packages/f8/aa/f0e6cdbf5d354653b0c71385b110dc25f65c978eb30ed4d76ae2b9808688/deropy-0.2.3.tar.gz
+[2024-05-16 11:17:03] INFO root fetch - processPackages [aipkgs-core]: Downloading https://files.pythonhosted.org/packages/c8/b2/fb0706bf9eeeee24d524f103cad3a18e46870855a277a735a6c83ea06692/aipkgs_core-1.0.9.tar.gz
+[2024-05-16 11:17:03] INFO root fetch - processPackages [optimalportfolios]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-05-16 11:17:03] INFO root fetch - processPackages [socketsecurity]: Downloading https://files.pythonhosted.org/packages/32/64/3fdb8a1a54bb109bf46ce4482602eda1b398163ea9e270f8261a5757e6a1/socketsecurity-0.0.55-py3-none-any.whl
+[2024-05-16 11:17:03] INFO root fetch - processPackages [megatechai]: Downloading https://files.pythonhosted.org/packages/75/df/f310497d75b8c0d3dfce1f19e0c95174e8e58da82bdfd5a999c676b921c0/megatechai-2.1.1-py3-none-any.whl
+[2024-05-16 11:17:03] INFO root fetch - processPackages [aipkgs-core]: executing diffoscope
+[2024-05-16 11:17:03] INFO root fetch - processPackages [aipkgs-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aipkgs_core-1.0.8.tar.gz tmp/aipkgs_core-1.0.9.tar.gz --markdown 20240516/a/aipkgs-core/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-05-16 11:17:03] INFO root fetch - processPackages [aipkgs-core]: executing diffoscope
+[2024-05-16 11:17:03] INFO root fetch - processPackages [aipkgs-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aipkgs_core-1.0.8.tar.gz tmp/aipkgs_core-1.0.9.tar.gz --markdown 20240516/a/aipkgs-core/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-05-16 11:17:03] INFO root fetch - processPackages [kcli]: Downloading https://files.pythonhosted.org/packages/40/79/c55f58122977c6508843584412498ba2507bf2245bb0d51c6d6e5f246764/kcli-99.0.202405160831.tar.gz
+[2024-05-16 11:17:03] INFO root fetch - processPackages [spanishconjugator]: Downloading https://files.pythonhosted.org/packages/38/b5/7c4b33d552653d08874337c2258ccc985f5f1bc589073e61d6e1ccff130e/spanishconjugator-2.3.999.tar.gz
+[2024-05-16 11:17:03] INFO root fetch - processPackages [spanishconjugator]: Downloading https://files.pythonhosted.org/packages/38/b5/7c4b33d552653d08874337c2258ccc985f5f1bc589073e61d6e1ccff130e/spanishconjugator-2.3.999.tar.gz
+[2024-05-16 11:17:03] INFO root fetch - processPackages [megatechai]: executing diffoscope
+[2024-05-16 11:17:03] INFO root fetch - processPackages [megatechai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/megatechai-2.0.0.tar.gz tmp/megatechai-2.1.1-py3-none-any.whl.zip --markdown 20240516/m/megatechai/2.0.0-2.1.1/README.md --exclude *.pyd
+[2024-05-16 11:17:03] INFO root fetch - processPackages [optimalportfolios]: Downloading https://files.pythonhosted.org/packages/95/8e/e13ab61a7ba57038b51ba3c101e31c8cbc28c353e0b88acdcc04ab6fabe9/optimalportfolios-1.0.8.tar.gz
+[2024-05-16 11:17:03] INFO root fetch - processPackages [deropy]: Downloading https://files.pythonhosted.org/packages/fe/45/1985a25cf2267ff5c686b491d4c992d9754b15ded5cd25047ec4735ff03e/deropy-0.3.0.tar.gz
+[2024-05-16 11:17:04] INFO root fetch - processPackages [spanishconjugator]: executing diffoscope
+[2024-05-16 11:17:04] INFO root fetch - processPackages [spanishconjugator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spanishconjugator-2.3.998.tar.gz tmp/spanishconjugator-2.3.999.tar.gz --markdown 20240516/s/spanishconjugator/2.3.998-2.3.999/README.md --exclude *.pyd
+[2024-05-16 11:17:04] INFO root fetch - processPackages [spanishconjugator]: executing diffoscope
+[2024-05-16 11:17:04] INFO root fetch - processPackages [spanishconjugator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spanishconjugator-2.3.998.tar.gz tmp/spanishconjugator-2.3.999.tar.gz --markdown 20240516/s/spanishconjugator/2.3.998-2.3.999/README.md --exclude *.pyd
+[2024-05-16 11:17:04] INFO root fetch - processPackages [socketsecurity]: executing diffoscope
+[2024-05-16 11:17:04] INFO root fetch - processPackages [socketsecurity]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/socketsecurity-0.0.54-py3-none-any.whl.zip tmp/socketsecurity-0.0.55-py3-none-any.whl.zip --markdown 20240516/s/socketsecurity/0.0.54-0.0.55/README.md --exclude *.pyd
+[2024-05-16 11:17:04] INFO root fetch - processPackages [deropy]: executing diffoscope
+[2024-05-16 11:17:04] INFO root fetch - processPackages [deropy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/deropy-0.2.3.tar.gz tmp/deropy-0.3.0.tar.gz --markdown 20240516/d/deropy/0.2.3-0.3.0/README.md --exclude *.pyd
+[2024-05-16 11:17:04] INFO root fetch - processPackages [kcli]: executing diffoscope
+[2024-05-16 11:17:04] INFO root fetch - processPackages [kcli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kcli-99.0.202405151704.tar.gz tmp/kcli-99.0.202405160831.tar.gz --markdown 20240516/k/kcli/99.0.202405151704-99.0.202405160831/README.md --exclude *.pyd
+[2024-05-16 11:17:04] WARNING root fetch - processPackages [PyMuPDF]: fallback to get urls: [1.9.2]
+[2024-05-16 11:17:04] WARNING root fetch - processPackages [PyMuPDF]: None
+[2024-05-16 11:17:04] WARNING root fetch - processPackages [PyMuPDF]: None
+[2024-05-16 11:17:04] WARNING root fetch - processPackages [PyMuPDF]: unable to get url for both version [1.9.2]
+[2024-05-16 11:17:04] WARNING root fetch - processPackages [PyMuPDF]: None
+[2024-05-16 11:17:04] INFO root fetch - main [MainThread]: End processing [PyMuPDF] error
+[2024-05-16 11:17:04] INFO root fetch - processPackages [aipkgs-core]: Remove: archive file [/home/abi/fetcher/tmp/aipkgs_core-1.0.8.tar.gz]
+[2024-05-16 11:17:04] INFO root fetch - processPackages [aipkgs-core]: Remove: archive file [/home/abi/fetcher/tmp/aipkgs_core-1.0.9.tar.gz]
+[2024-05-16 11:17:04] INFO root fetch - main [MainThread]: End processing [aipkgs-core]: success
+[2024-05-16 11:17:04] INFO root fetch - processPackages [optimalportfolios]: Downloading https://files.pythonhosted.org/packages/96/6b/cc9c0ea2c62904dff97d9f71f022edd0b6936a05e14101929d60a327e58c/optimalportfolios-1.0.9.tar.gz
+[2024-05-16 11:17:04] INFO root fetch - main [MainThread]: End processing [aipkgs-core]: success
+[2024-05-16 11:17:04] INFO root fetch - processPackages [megatechai]: Remove: archive file [/home/abi/fetcher/tmp/megatechai-2.0.0.tar.gz]
+[2024-05-16 11:17:04] INFO root fetch - processPackages [megatechai]: Remove: archive file [/home/abi/fetcher/tmp/megatechai-2.1.1-py3-none-any.whl.zip]
+[2024-05-16 11:17:04] INFO root fetch - main [MainThread]: End processing [megatechai]: success
+[2024-05-16 11:17:04] INFO root fetch - processPackages [spanishconjugator]: Remove: archive file [/home/abi/fetcher/tmp/spanishconjugator-2.3.998.tar.gz]
+[2024-05-16 11:17:04] INFO root fetch - processPackages [spanishconjugator]: Remove: archive file [/home/abi/fetcher/tmp/spanishconjugator-2.3.999.tar.gz]
+[2024-05-16 11:17:04] INFO root fetch - main [MainThread]: End processing [spanishconjugator]: success
+[2024-05-16 11:17:05] INFO root fetch - processPackages [socketsecurity]: Remove: archive file [/home/abi/fetcher/tmp/socketsecurity-0.0.54-py3-none-any.whl.zip]
+[2024-05-16 11:17:05] INFO root fetch - processPackages [socketsecurity]: Remove: archive file [/home/abi/fetcher/tmp/socketsecurity-0.0.55-py3-none-any.whl.zip]
+[2024-05-16 11:17:05] INFO root fetch - main [MainThread]: End processing [socketsecurity]: success
+[2024-05-16 11:17:05] INFO root fetch - main [MainThread]: End processing [spanishconjugator]: success
+[2024-05-16 11:17:05] INFO root fetch - processPackages [optimalportfolios]: executing diffoscope
+[2024-05-16 11:17:05] INFO root fetch - processPackages [optimalportfolios]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/optimalportfolios-1.0.8.tar.gz tmp/optimalportfolios-1.0.9.tar.gz --markdown 20240516/o/optimalportfolios/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-05-16 11:17:05] INFO root fetch - processPackages [deropy]: Remove: archive file [/home/abi/fetcher/tmp/deropy-0.2.3.tar.gz]
+[2024-05-16 11:17:05] INFO root fetch - processPackages [deropy]: Remove: archive file [/home/abi/fetcher/tmp/deropy-0.3.0.tar.gz]
+[2024-05-16 11:17:05] INFO root fetch - main [MainThread]: End processing [deropy]: success
+[2024-05-16 11:17:06] INFO root fetch - processPackages [kcli]: Remove: archive file [/home/abi/fetcher/tmp/kcli-99.0.202405151704.tar.gz]
+[2024-05-16 11:17:06] INFO root fetch - processPackages [kcli]: Remove: archive file [/home/abi/fetcher/tmp/kcli-99.0.202405160831.tar.gz]
+[2024-05-16 11:17:06] INFO root fetch - main [MainThread]: End processing [kcli]: success
+[2024-05-16 11:17:19] INFO root fetch - processPackages [optimalportfolios]: Remove: archive file [/home/abi/fetcher/tmp/optimalportfolios-1.0.8.tar.gz]
+[2024-05-16 11:17:19] INFO root fetch - processPackages [optimalportfolios]: Remove: archive file [/home/abi/fetcher/tmp/optimalportfolios-1.0.9.tar.gz]
+[2024-05-16 11:17:19] INFO root fetch - main [MainThread]: End processing [optimalportfolios]: success
+[2024-05-16 11:17:19] INFO root fetch - main [MainThread]: Store serial: [23232945]
