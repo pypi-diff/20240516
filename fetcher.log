@@ -12544,3 +12544,53 @@ EOFError: EOF read where object expected
 [2024-05-16 07:57:52] INFO root fetch - processPackages [pxblat]: Remove: archive file [/home/abi/fetcher/tmp/pxblat-1.2.1.tar.gz]
 [2024-05-16 07:57:52] INFO root fetch - main [MainThread]: End processing [pxblat]: success
 [2024-05-16 07:57:52] INFO root fetch - main [MainThread]: Store serial: [23229963]
+[2024-05-16 07:59:56] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23229963]
+[2024-05-16 08:00:01] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-16 08:00:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: semantic-router
+[2024-05-16 08:00:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cepack
+[2024-05-16 08:00:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: gimera
+[2024-05-16 08:00:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: aiohttp-zip-response
+[2024-05-16 08:00:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: wherobots-python-dbapi
+[2024-05-16 08:00:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: django_zenblog_ds
+[2024-05-16 08:00:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: perian-cli
+[2024-05-16 08:00:01] WARNING root fetch - processPackages [aiohttp-zip-response]: Skipping, unable to determine old version
+[2024-05-16 08:00:01] INFO root fetch - main [MainThread]: End processing [aiohttp-zip-response] error
+[2024-05-16 08:00:01] INFO root fetch - processPackages [wherobots-python-dbapi]: New version: [0.5.3] Old Version: [0.5.2]
+[2024-05-16 08:00:01] INFO root fetch - processPackages [wherobots-python-dbapi]: Downloading https://files.pythonhosted.org/packages/e0/57/3504c92f69cf44135a898de4fbbb5fe64a04d0382a0648408337183fedaf/wherobots_python_dbapi-0.5.2.tar.gz
+[2024-05-16 08:00:01] INFO root fetch - processPackages [cepack]: New version: [0.0.6] Old Version: [0.0.5]
+[2024-05-16 08:00:01] INFO root fetch - processPackages [django_zenblog_ds]: New version: [2.2.0] Old Version: [2.1.4]
+[2024-05-16 08:00:01] WARNING root fetch - processPackages [perian-cli]: Skipping, unable to determine old version
+[2024-05-16 08:00:01] INFO root fetch - main [MainThread]: End processing [perian-cli] error
+[2024-05-16 08:00:01] INFO root fetch - processPackages [gimera]: New version: [0.7.9] Old Version: [0.7.8]
+[2024-05-16 08:00:01] INFO root fetch - processPackages [semantic-router]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-16 08:00:01] INFO root fetch - processPackages [cepack]: Downloading https://files.pythonhosted.org/packages/63/66/3f0562bfac983daf09d4b62a81abe48528825efda9c1a669d77c24aa2b7a/cepack-0.0.5.tar.gz
+[2024-05-16 08:00:01] INFO root fetch - processPackages [semantic-router]: Downloading https://files.pythonhosted.org/packages/69/f5/24f7ed2376beeca68004c749ee072334bcdbcd70becd7e5549ea5773efae/semantic_router-0.0.8.tar.gz
+[2024-05-16 08:00:01] INFO root fetch - processPackages [wherobots-python-dbapi]: Downloading https://files.pythonhosted.org/packages/c1/30/79bc0133f88443b8bbe4b807d00d92c29044bd3983e733853534135f4ce5/wherobots_python_dbapi-0.5.3.tar.gz
+[2024-05-16 08:00:01] INFO root fetch - processPackages [django_zenblog_ds]: Downloading https://files.pythonhosted.org/packages/63/35/7eab61c617d61f3e928a254e1ef11318719e79ec8d1d2e1a7ffed5753fd7/django_zenblog_ds-2.1.4.tar.gz
+[2024-05-16 08:00:01] INFO root fetch - processPackages [gimera]: Downloading https://files.pythonhosted.org/packages/2e/3e/38d88141bd3707f8ae8e6b3e159b24edc9461c0f4a93e883a527e9762ea2/gimera-0.7.8.tar.gz
+[2024-05-16 08:00:01] WARNING root fetch - processPackages [django_zenblog_ds]: Skipping package: exceeds size limit 12660590>=10485760
+[2024-05-16 08:00:01] INFO root fetch - main [MainThread]: End processing [django_zenblog_ds] error
+[2024-05-16 08:00:01] INFO root fetch - processPackages [wherobots-python-dbapi]: executing diffoscope
+[2024-05-16 08:00:01] INFO root fetch - processPackages [wherobots-python-dbapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wherobots_python_dbapi-0.5.2.tar.gz tmp/wherobots_python_dbapi-0.5.3.tar.gz --markdown 20240516/w/wherobots-python-dbapi/0.5.2-0.5.3/README.md --exclude *.pyd
+[2024-05-16 08:00:02] INFO root fetch - processPackages [semantic-router]: Downloading https://files.pythonhosted.org/packages/c6/e8/868f59ad8c7643feea9a25db402d4e84236189e1a9d89a4c840838be947f/semantic_router-0.0.9.tar.gz
+[2024-05-16 08:00:02] INFO root fetch - processPackages [cepack]: Downloading https://files.pythonhosted.org/packages/a2/6c/358ce450f380315dc10629b92ceaff13e75f1ad96e84e506593b655ead8d/cepack-0.0.6.tar.gz
+[2024-05-16 08:00:02] INFO root fetch - processPackages [gimera]: Downloading https://files.pythonhosted.org/packages/b1/dc/c80f85a8b614af02ff8abe5853e4f4f5d0076d026ec6a58b86c4694563bd/gimera-0.7.9.tar.gz
+[2024-05-16 08:00:02] INFO root fetch - processPackages [cepack]: executing diffoscope
+[2024-05-16 08:00:02] INFO root fetch - processPackages [cepack]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cepack-0.0.5.tar.gz tmp/cepack-0.0.6.tar.gz --markdown 20240516/c/cepack/0.0.5-0.0.6/README.md --exclude *.pyd
+[2024-05-16 08:00:02] INFO root fetch - processPackages [semantic-router]: executing diffoscope
+[2024-05-16 08:00:02] INFO root fetch - processPackages [semantic-router]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/semantic_router-0.0.8.tar.gz tmp/semantic_router-0.0.9.tar.gz --markdown 20240516/s/semantic-router/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-16 08:00:02] INFO root fetch - processPackages [gimera]: executing diffoscope
+[2024-05-16 08:00:02] INFO root fetch - processPackages [gimera]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gimera-0.7.8.tar.gz tmp/gimera-0.7.9.tar.gz --markdown 20240516/g/gimera/0.7.8-0.7.9/README.md --exclude *.pyd
+[2024-05-16 08:00:02] INFO root fetch - processPackages [wherobots-python-dbapi]: Remove: archive file [/home/abi/fetcher/tmp/wherobots_python_dbapi-0.5.2.tar.gz]
+[2024-05-16 08:00:02] INFO root fetch - processPackages [wherobots-python-dbapi]: Remove: archive file [/home/abi/fetcher/tmp/wherobots_python_dbapi-0.5.3.tar.gz]
+[2024-05-16 08:00:02] INFO root fetch - main [MainThread]: End processing [wherobots-python-dbapi]: success
+[2024-05-16 08:00:02] INFO root fetch - processPackages [cepack]: Remove: archive file [/home/abi/fetcher/tmp/cepack-0.0.5.tar.gz]
+[2024-05-16 08:00:02] INFO root fetch - processPackages [cepack]: Remove: archive file [/home/abi/fetcher/tmp/cepack-0.0.6.tar.gz]
+[2024-05-16 08:00:02] INFO root fetch - main [MainThread]: End processing [cepack]: success
+[2024-05-16 08:00:02] INFO root fetch - processPackages [semantic-router]: Remove: archive file [/home/abi/fetcher/tmp/semantic_router-0.0.8.tar.gz]
+[2024-05-16 08:00:02] INFO root fetch - processPackages [semantic-router]: Remove: archive file [/home/abi/fetcher/tmp/semantic_router-0.0.9.tar.gz]
+[2024-05-16 08:00:02] INFO root fetch - main [MainThread]: End processing [semantic-router]: success
+[2024-05-16 08:00:02] INFO root fetch - processPackages [gimera]: Remove: archive file [/home/abi/fetcher/tmp/gimera-0.7.8.tar.gz]
+[2024-05-16 08:00:02] INFO root fetch - processPackages [gimera]: Remove: archive file [/home/abi/fetcher/tmp/gimera-0.7.9.tar.gz]
+[2024-05-16 08:00:02] INFO root fetch - main [MainThread]: End processing [gimera]: success
+[2024-05-16 08:00:02] INFO root fetch - main [MainThread]: Store serial: [23229986]
