@@ -12755,3 +12755,48 @@ EOFError: EOF read where object expected
 [2024-05-16 08:08:47] INFO root fetch - processPackages [pytoniq-core]: Remove: archive file [/home/abi/fetcher/tmp/pytoniq-core-0.1.9.tar.gz]
 [2024-05-16 08:08:47] INFO root fetch - main [MainThread]: End processing [pytoniq-core]: success
 [2024-05-16 08:08:47] INFO root fetch - main [MainThread]: Store serial: [23230033]
+[2024-05-16 08:10:51] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23230033]
+[2024-05-16 08:10:56] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-16 08:10:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: anemone-daisy-maker
+[2024-05-16 08:10:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: an-website
+[2024-05-16 08:10:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: soxai-data
+[2024-05-16 08:10:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: harlequin-wherobots
+[2024-05-16 08:10:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pyg-nightly
+[2024-05-16 08:10:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: milvus-haystack
+[2024-05-16 08:10:56] INFO root fetch - processPackages [anemone-daisy-maker]: New version: [1.57] Old Version: [1.56.2]
+[2024-05-16 08:10:56] INFO root fetch - processPackages [pyg-nightly]: New version: [2.6.0.dev20240515] Old Version: [2.6.0.dev20240514]
+[2024-05-16 08:10:56] INFO root fetch - processPackages [anemone-daisy-maker]: Downloading https://files.pythonhosted.org/packages/13/66/071c0dc93b839f7d49393fe1f0f9832fb7802c33949861b96616eb1fcfe9/anemone_daisy_maker-1.56.2.tar.gz
+[2024-05-16 08:10:56] WARNING root fetch - processPackages [soxai-data]: Skipping, unable to determine old version
+[2024-05-16 08:10:56] INFO root fetch - main [MainThread]: End processing [soxai-data] error
+[2024-05-16 08:10:56] INFO root fetch - processPackages [milvus-haystack]: New version: [0.0.6] Old Version: [0.0.5]
+[2024-05-16 08:10:56] WARNING root fetch - processPackages [harlequin-wherobots]: Skipping, unable to determine old version
+[2024-05-16 08:10:56] INFO root fetch - main [MainThread]: End processing [harlequin-wherobots] error
+[2024-05-16 08:10:56] INFO root fetch - processPackages [an-website]: New version: [24.5] Old Version: [24.4]
+[2024-05-16 08:10:56] INFO root fetch - processPackages [pyg-nightly]: Downloading https://files.pythonhosted.org/packages/08/b0/f61f023e4742e7144d355012127bbfbc978d6002f6f037e2b3b8f365f965/pyg_nightly-2.6.0.dev20240514.tar.gz
+[2024-05-16 08:10:56] INFO root fetch - processPackages [an-website]: Downloading https://files.pythonhosted.org/packages/a4/a9/9d34a872becd2a882af1e1eed46e5ff603d84ab7236092ec0079da5df7fd/an-website-24.4.tar.gz
+[2024-05-16 08:10:56] INFO root fetch - processPackages [milvus-haystack]: Downloading https://files.pythonhosted.org/packages/43/72/562fec9e0ee6a0795637978f4cf08fc3d18ba2cf81061a0577af7d7463f4/milvus_haystack-0.0.5.tar.gz
+[2024-05-16 08:10:56] INFO root fetch - processPackages [anemone-daisy-maker]: Downloading https://files.pythonhosted.org/packages/d2/40/a9325f23c11453d07123e4ffbcd6b01b51575ee6be353025fb4347152061/anemone_daisy_maker-1.57.tar.gz
+[2024-05-16 08:10:57] INFO root fetch - processPackages [anemone-daisy-maker]: executing diffoscope
+[2024-05-16 08:10:57] INFO root fetch - processPackages [anemone-daisy-maker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/anemone_daisy_maker-1.56.2.tar.gz tmp/anemone_daisy_maker-1.57.tar.gz --markdown 20240516/a/anemone-daisy-maker/1.56.2-1.57/README.md --exclude *.pyd
+[2024-05-16 08:10:57] INFO root fetch - processPackages [pyg-nightly]: Downloading https://files.pythonhosted.org/packages/a6/7e/93c84cda64b22398fa4e69669569979c125f6c8f3c3d54068bf0c177d146/pyg_nightly-2.6.0.dev20240515.tar.gz
+[2024-05-16 08:10:57] INFO root fetch - processPackages [milvus-haystack]: Downloading https://files.pythonhosted.org/packages/a6/b9/1acc4d17b12403af0b20a8d77d91403583c2a9ef94e9dee52132f71db205/milvus_haystack-0.0.6.tar.gz
+[2024-05-16 08:10:57] INFO root fetch - processPackages [milvus-haystack]: executing diffoscope
+[2024-05-16 08:10:57] INFO root fetch - processPackages [milvus-haystack]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/milvus_haystack-0.0.5.tar.gz tmp/milvus_haystack-0.0.6.tar.gz --markdown 20240516/m/milvus-haystack/0.0.5-0.0.6/README.md --exclude *.pyd
+[2024-05-16 08:10:57] INFO root fetch - processPackages [pyg-nightly]: executing diffoscope
+[2024-05-16 08:10:57] INFO root fetch - processPackages [pyg-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyg_nightly-2.6.0.dev20240514.tar.gz tmp/pyg_nightly-2.6.0.dev20240515.tar.gz --markdown 20240516/p/pyg-nightly/2.6.0.dev20240514-2.6.0.dev20240515/README.md --exclude *.pyd
+[2024-05-16 08:10:57] INFO root fetch - processPackages [anemone-daisy-maker]: Remove: archive file [/home/abi/fetcher/tmp/anemone_daisy_maker-1.56.2.tar.gz]
+[2024-05-16 08:10:57] INFO root fetch - processPackages [anemone-daisy-maker]: Remove: archive file [/home/abi/fetcher/tmp/anemone_daisy_maker-1.57.tar.gz]
+[2024-05-16 08:10:57] INFO root fetch - main [MainThread]: End processing [anemone-daisy-maker]: success
+[2024-05-16 08:10:57] INFO root fetch - processPackages [an-website]: Downloading https://files.pythonhosted.org/packages/cf/9e/4e2d4f7218dcdb72730b0e369a8239dbb76bd54ab09311b1d0073788bed3/an-website-24.5.tar.gz
+[2024-05-16 08:10:57] INFO root fetch - processPackages [milvus-haystack]: Remove: archive file [/home/abi/fetcher/tmp/milvus_haystack-0.0.5.tar.gz]
+[2024-05-16 08:10:57] INFO root fetch - processPackages [milvus-haystack]: Remove: archive file [/home/abi/fetcher/tmp/milvus_haystack-0.0.6.tar.gz]
+[2024-05-16 08:10:57] INFO root fetch - main [MainThread]: End processing [milvus-haystack]: success
+[2024-05-16 08:10:58] INFO root fetch - processPackages [an-website]: executing diffoscope
+[2024-05-16 08:10:58] INFO root fetch - processPackages [an-website]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240516:/home/abi/fetcher/20240516:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/an-website-24.4.tar.gz tmp/an-website-24.5.tar.gz --markdown 20240516/a/an-website/24.4-24.5/README.md --exclude *.pyd
+[2024-05-16 08:10:59] INFO root fetch - processPackages [pyg-nightly]: Remove: archive file [/home/abi/fetcher/tmp/pyg_nightly-2.6.0.dev20240514.tar.gz]
+[2024-05-16 08:10:59] INFO root fetch - processPackages [pyg-nightly]: Remove: archive file [/home/abi/fetcher/tmp/pyg_nightly-2.6.0.dev20240515.tar.gz]
+[2024-05-16 08:10:59] INFO root fetch - main [MainThread]: End processing [pyg-nightly]: success
+[2024-05-16 08:11:00] INFO root fetch - processPackages [an-website]: Remove: archive file [/home/abi/fetcher/tmp/an-website-24.4.tar.gz]
+[2024-05-16 08:11:00] INFO root fetch - processPackages [an-website]: Remove: archive file [/home/abi/fetcher/tmp/an-website-24.5.tar.gz]
+[2024-05-16 08:11:00] INFO root fetch - main [MainThread]: End processing [an-website]: success
+[2024-05-16 08:11:00] INFO root fetch - main [MainThread]: Store serial: [23230054]
